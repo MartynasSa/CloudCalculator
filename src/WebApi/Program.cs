@@ -1,7 +1,12 @@
+using Application.Ports;
+using Infrastructure;
+
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllers();
 builder.Services.AddOpenApi();
+
+builder.Services.AddScoped<ICloudPricingRepository, CloudPricingRepository>();
 
 var app = builder.Build();
 
