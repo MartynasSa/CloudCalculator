@@ -45,7 +45,10 @@ builder.Services.AddSwaggerGen(c =>
     });
 });
 
+builder.Services.AddMemoryCache();
+
 builder.Services.AddScoped<ICloudPricingRepository, CloudPricingRepository>();
+builder.Services.AddScoped<ICloudPricingFileFacade, CloudPricingFileFacade>();
 
 var app = builder.Build();
 
