@@ -1,4 +1,5 @@
-﻿using Application.Ports;
+﻿using Application.Models.Dtos;
+using Application.Ports;
 using Microsoft.AspNetCore.Mvc;
 
 namespace WebApi.Controllers;
@@ -6,9 +7,10 @@ namespace WebApi.Controllers;
 public class CloudPricingController(ICloudPricingRepository cloudPricingRepository) : Controller
 {
     [HttpGet]
-    public async Task<IActionResult> Calculate(CancellationToken ct)
+    public async Task<IActionResult> Calculate([FromQuery] PaginationParameters? pagination, CancellationToken ct)
     {
-        var result = await cloudPricingRepository.GetAllAsync(ct);
+        pagination ??= new PaginationParameters();
+        var result = await cloudPricingRepository.GetAllAsync(pagination, ct);
         return Ok(result);
     }
 }

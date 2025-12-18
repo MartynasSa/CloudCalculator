@@ -1,6 +1,7 @@
 ﻿using Application.Models.Dtos;
 using Application.Ports;
 using System.Text.Json;
+using System.Linq;
 
 namespace Infrastructure;
 
@@ -48,6 +49,35 @@ public class CloudPricingRepository : ICloudPricingRepository
         }
 
         return combined;
+    }
+
+    // New paged implementation reusing GetAllAsync to build the combined dataset
+    public async Task<PagedResult<CloudPricingProductDto>> GetAllAsync(PaginationParameters pagination, CancellationToken cancellationToken)
+    {
+        if (pagination == null)
+        {
+            pagination = new PaginationParameters();
+        }
+
+        // Get the full combined dataset (keeps current file-loading logic unchanged)
+        var full = await GetAllAsync(cancellationToken);
+        var products = full.Data?.Products ?? new List<CloudPricingProductDto>();
+
+        var total = products.Count;
+        var page = Math.Max(1, pagination.Page);
+        var pageSize = Math.Max(1, pagination.PageSize);
+
+        var skip = (page - 1) * pageSize;
+        var items = products.Skip(skip).Take(pageSize).ToList();
+
+        // Set required 'Items' via object initializer to satisfy the compiler (CS9035)
+        return new PagedResult<CloudPricingProductDto>
+        {
+            Items = items,
+            TotalCount = total,
+            Page = page,
+            PageSize = pageSize
+        };
     }
 
     private string ResolveDataDirectory()

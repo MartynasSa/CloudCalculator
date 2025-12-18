@@ -16,23 +16,26 @@ public class CloudPricingControllerTests : IClassFixture<WebApplicationFactory<P
     }
 
     [Fact]
-    public async Task Get_CloudPricingEndpoint_Returns_CloudPricingDto()
+    public async Task Get_CloudPricingEndpoint_WithPagination_Returns_PagedResult()
     {
         // Ensure the factory uses the repository's content root so the Data files are discoverable
         var contentRoot = FindWebApiContentRoot() ?? throw new InvalidOperationException("Could not locate WebApi content root.");
         var client = _factory.WithWebHostBuilder(builder => builder.UseContentRoot(contentRoot)).CreateClient();
 
-        var response = await client.GetAsync("/api/cloud-pricing");
+        // Request first page with 100 items per page
+        var response = await client.GetAsync("/api/cloud-pricing?page=1&pageSize=100");
         Assert.Equal(HttpStatusCode.OK, response.StatusCode);
 
         await using var stream = await response.Content.ReadAsStreamAsync();
         var options = new JsonSerializerOptions { PropertyNameCaseInsensitive = true, AllowTrailingCommas = true };
-        var dto = await JsonSerializer.DeserializeAsync<CloudPricingDto>(stream, options);
+        var paged = await JsonSerializer.DeserializeAsync<PagedResult<CloudPricingProductDto>>(stream, options);
 
-        Assert.NotNull(dto);
-        Assert.NotNull(dto.Data);
-        Assert.NotNull(dto.Data.Products);
-        Assert.Equal(3000, dto.Data.Products.Count);
+        Assert.NotNull(paged);
+        Assert.NotNull(paged.Items);
+        Assert.Equal(100, paged.Items.Count);
+        Assert.Equal(3000, paged.TotalCount);
+        Assert.Equal(1, paged.Page);
+        Assert.Equal(100, paged.PageSize);
     }
 
     private static string? FindWebApiContentRoot()
