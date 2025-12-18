@@ -32,6 +32,7 @@ public class CloudPricingControllerTests : IClassFixture<WebApplicationFactory<P
         Assert.NotNull(dto);
         Assert.NotNull(dto.Data);
         Assert.NotNull(dto.Data.Products);
+        Assert.Equal(3000, dto.Data.Products.Count);
     }
 
     private static string? FindWebApiContentRoot()

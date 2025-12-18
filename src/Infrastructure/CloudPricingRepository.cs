@@ -13,11 +13,6 @@ public class CloudPricingRepository : ICloudPricingRepository
         _dataDirectory = dataDirectory;
     }
 
-    /// <summary>
-    /// Loads pricing JSON files (aws.json, azure.json, gcp.json) from the repository Data folder,
-    /// deserializes them into CloudPricingDto and returns a single combined CloudPricingDto
-    /// with all products merged.
-    /// </summary>
     public async Task<CloudPricingDto> GetAllAsync(CancellationToken cancellationToken )
     {
         var filesToLoad = new[] { "aws.json", "azure.json", "gcp.json" };

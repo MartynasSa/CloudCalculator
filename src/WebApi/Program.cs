@@ -2,6 +2,7 @@ using Application.Models;
 using Application.Ports;
 using Infrastructure;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.OpenApi.Models;
 using WebApi.Middleware;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -34,7 +35,15 @@ builder.Services.AddControllers()
         };
     });
 
-builder.Services.AddOpenApi();
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSwaggerGen(c =>
+{
+    c.SwaggerDoc("v1", new OpenApiInfo
+    {
+        Title = "CloudCalculator API",
+        Version = "v1"
+    });
+});
 
 builder.Services.AddScoped<ICloudPricingRepository, CloudPricingRepository>();
 
@@ -43,7 +52,12 @@ var app = builder.Build();
 app.UseMiddleware<ExceptionMiddleware>();
 if (app.Environment.IsDevelopment())
 {
-    app.MapOpenApi();
+    app.UseSwagger();
+
+    app.UseSwaggerUI(c =>
+    {
+        c.SwaggerEndpoint("/swagger/v1/swagger.json", "CloudCalculator API v1");
+    });
 }
 
 app.UseHttpsRedirection();
