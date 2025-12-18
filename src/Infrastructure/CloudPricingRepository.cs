@@ -26,7 +26,7 @@ public class CloudPricingRepository : ICloudPricingRepository
         var options = new JsonSerializerOptions
         {
             PropertyNameCaseInsensitive = true,
-            AllowTrailingCommas = true
+            NumberHandling = System.Text.Json.Serialization.JsonNumberHandling.AllowReadingFromString
         };
 
         var combined = new CloudPricingDto
@@ -39,7 +39,6 @@ public class CloudPricingRepository : ICloudPricingRepository
             var path = Path.Combine(dataDir, fileName);
             if (!File.Exists(path))
             {
-                // skip missing files
                 continue;
             }
 

@@ -1,4 +1,6 @@
-﻿namespace Application.Models.Dtos;
+﻿using System.Text.Json.Serialization;
+
+namespace Application.Models.Dtos;
 
 public class CloudPricingDto
 {
@@ -24,6 +26,9 @@ public class CloudPricingAttributeDto
 
 public class CloudPricingPriceDto
 {
+    [JsonPropertyName("USD")]
+    [JsonNumberHandling(JsonNumberHandling.AllowReadingFromString)]
     public decimal? Usd { get; set; }
-    public required string Unit { get; set; }
+
+    public string? Unit { get; set; }
 }

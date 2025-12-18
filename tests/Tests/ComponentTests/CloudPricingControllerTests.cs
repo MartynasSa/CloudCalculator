@@ -4,7 +4,7 @@ using Microsoft.AspNetCore.Mvc.Testing;
 using System.Net;
 using System.Text.Json;
 
-namespace WebApi.IntegrationTests;
+namespace Tests.ComponentTests;
 
 public class CloudPricingControllerTests : IClassFixture<WebApplicationFactory<Program>>
 {
