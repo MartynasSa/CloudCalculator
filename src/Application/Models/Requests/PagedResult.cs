@@ -4,15 +4,17 @@ namespace Application.Models.Dtos;
 
 public class PaginationParameters
 {
-    /// <summary>
-    /// 1-based page index.
-    /// </summary>
     public int Page { get; set; } = 1;
-
-    /// <summary>
-    /// Number of items per page. Use a reasonable default.
-    /// </summary>
     public int PageSize { get; set; } = 100;
+}
+
+
+public class PricingRequest : PaginationParameters
+{
+    public string? VendorName { get; set; }
+    public string? Service { get; set; }
+    public string? Region { get; set; }
+    public string? ProductFamily { get; set; }
 }
 
 public class PagedResult<T>

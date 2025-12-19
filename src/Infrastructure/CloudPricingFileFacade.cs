@@ -6,51 +6,61 @@ namespace Infrastructure;
 
 public interface ICloudPricingFileFacade
 {
-    Task<PagedResult<CloudPricingProductDto>> GetOrCreatePagedAsync(PaginationParameters? pagination, CancellationToken cancellationToken);
+    Task<PagedResult<CloudPricingProductDto>> GetOrCreatePagedAsync(PricingRequest? pagination, CancellationToken cancellationToken);
 }
 
 public class CloudPricingFileFacade(ICloudPricingRepository cloudPricingRepository, IMemoryCache cache) : ICloudPricingFileFacade
 {
     private static readonly TimeSpan DefaultTtl = TimeSpan.FromHours(24);
 
-    /// <summary>
-    /// Returns a cached value for the given key or uses the provided factory to produce and cache the value.
-    /// Facade is deliberately storage-only: it does not know how the value is created (parsing logic kept in repository).
-    /// </summary>
-    public Task<CloudPricingDto> GetOrCreateAsync(string key, Func<CancellationToken, Task<CloudPricingDto>> factory, CancellationToken cancellationToken)
+    public Task<PagedResult<CloudPricingProductDto>?> GetOrCreatePagedAsync(PricingRequest? pagination, CancellationToken cancellationToken)
     {
-        return cache.GetOrCreateAsync(key, async entry =>
-        {
-            entry.AbsoluteExpirationRelativeToNow = DefaultTtl;
-            // Call repository-provided factory to create the value
-            return await factory(cancellationToken).ConfigureAwait(false);
-        });
-    }
+        var request = pagination ?? new PricingRequest();
+        var page = Math.Max(1, request.Page);
+        var pageSize = Math.Max(1, request.PageSize);
 
-    /// <summary>
-    /// Returns a cached paged result. On cache miss, loads full data from repository, applies pagination here,
-    /// and caches the paged result. Pagination responsibilities moved from repository to this facade.
-    /// </summary>
-    public Task<PagedResult<CloudPricingProductDto>> GetOrCreatePagedAsync(PaginationParameters? pagination, CancellationToken cancellationToken)
-    {
-        pagination ??= new PaginationParameters();
+        // include filters in cache key so different filter combinations are cached separately
+        var vendorKey = string.IsNullOrWhiteSpace(request.VendorName) ? "any" : request.VendorName.Trim().ToLowerInvariant();
+        var serviceKey = string.IsNullOrWhiteSpace(request.Service) ? "any" : request.Service.Trim().ToLowerInvariant();
+        var regionKey = string.IsNullOrWhiteSpace(request.Region) ? "any" : request.Region.Trim().ToLowerInvariant();
+        var familyKey = string.IsNullOrWhiteSpace(request.ProductFamily) ? "any" : request.ProductFamily.Trim().ToLowerInvariant();
 
-        var page = Math.Max(1, pagination.Page);
-        var pageSize = Math.Max(1, pagination.PageSize);
-
-        var cacheKey = $"cloud-pricing:page={page}:pageSize={pageSize}";
+        var cacheKey = $"cloud-pricing:page={page}:pageSize={pageSize}:vendor={vendorKey}:service={serviceKey}:region={regionKey}:family={familyKey}";
 
         return cache.GetOrCreateAsync(cacheKey, async entry =>
         {
             entry.AbsoluteExpirationRelativeToNow = DefaultTtl;
 
-            // On cache miss: fetch combined dataset from repository (repository keeps file-loading/parsing logic)
             var full = await cloudPricingRepository.GetAllAsync(cancellationToken).ConfigureAwait(false);
             var products = full.Data?.Products ?? new List<CloudPricingProductDto>();
 
-            var total = products.Count;
+            // apply filters (case-insensitive, contains)
+            IEnumerable<CloudPricingProductDto> query = products;
+
+            if (!string.IsNullOrWhiteSpace(request.VendorName))
+            {
+                query = query.Where(p => p.VendorName?.Contains(request.VendorName, StringComparison.OrdinalIgnoreCase) == true);
+            }
+
+            if (!string.IsNullOrWhiteSpace(request.Service))
+            {
+                query = query.Where(p => p.Service?.Contains(request.Service, StringComparison.OrdinalIgnoreCase) == true);
+            }
+
+            if (!string.IsNullOrWhiteSpace(request.Region))
+            {
+                query = query.Where(p => p.Region?.Contains(request.Region, StringComparison.OrdinalIgnoreCase) == true);
+            }
+
+            if (!string.IsNullOrWhiteSpace(request.ProductFamily))
+            {
+                query = query.Where(p => p.ProductFamily?.Contains(request.ProductFamily, StringComparison.OrdinalIgnoreCase) == true);
+            }
+
+            var filteredList = query.ToList();
+            var total = filteredList.Count;
             var skip = (page - 1) * pageSize;
-            var items = products.Skip(skip).Take(pageSize).ToList();
+            var items = filteredList.Skip(skip).Take(pageSize).ToList();
 
             return new PagedResult<CloudPricingProductDto>
             {

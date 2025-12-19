@@ -14,6 +14,10 @@ public class CloudPricingDataDto
 
 public class CloudPricingProductDto
 {
+    public required string VendorName { get; set; }
+    public required string Service { get; set; }
+    public required string Region { get; set; }
+    public required string ProductFamily { get; set; }
     public List<CloudPricingAttributeDto> Attributes { get; set; } = new List<CloudPricingAttributeDto>();
     public List<CloudPricingPriceDto> Prices { get; set; } = new List<CloudPricingPriceDto>();
 }

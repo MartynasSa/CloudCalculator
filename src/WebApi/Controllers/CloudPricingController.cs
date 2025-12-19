@@ -7,9 +7,9 @@ namespace WebApi.Controllers;
 public class CloudPricingController(ICloudPricingFileFacade cloudPricingFileFacade) : Controller
 {
     [HttpGet]
-    public async Task<IActionResult> Calculate([FromQuery] PaginationParameters? pagination, CancellationToken ct)
+    public async Task<IActionResult> GetPricing([FromQuery] PricingRequest? pagination, CancellationToken ct)
     {
-        pagination ??= new PaginationParameters();
+        pagination ??= new PricingRequest();
         var result = await cloudPricingFileFacade.GetOrCreatePagedAsync(pagination, ct);
         return Ok(result);
     }

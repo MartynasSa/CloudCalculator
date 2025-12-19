@@ -1,29 +1,16 @@
 ﻿using Application.Models.Dtos;
-using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc.Testing;
 using System.Net;
 using System.Text.Json;
 
 namespace Tests.ComponentTests;
 
-public class CloudPricingControllerTests : IClassFixture<WebApplicationFactory<Program>>
+public class CloudPricingControllerTests(WebApplicationFactory<Program> factory) : TestBase(factory)
 {
-    private readonly WebApplicationFactory<Program> _factory;
-
-    public CloudPricingControllerTests(WebApplicationFactory<Program> factory)
-    {
-        _factory = factory;
-    }
-
     [Fact]
     public async Task Get_CloudPricingEndpoint_WithPagination_Returns_PagedResult()
     {
-        // Ensure the factory uses the repository's content root so the Data files are discoverable
-        var contentRoot = FindWebApiContentRoot() ?? throw new InvalidOperationException("Could not locate WebApi content root.");
-        var client = _factory.WithWebHostBuilder(builder => builder.UseContentRoot(contentRoot)).CreateClient();
-
-        // Request first page with 100 items per page
-        var response = await client.GetAsync("/api/cloud-pricing?page=1&pageSize=100");
+        var response = await Client.GetAsync("/api/cloud-pricing?page=1&pageSize=100");
         Assert.Equal(HttpStatusCode.OK, response.StatusCode);
 
         await using var stream = await response.Content.ReadAsStreamAsync();
@@ -38,22 +25,153 @@ public class CloudPricingControllerTests : IClassFixture<WebApplicationFactory<P
         Assert.Equal(100, paged.PageSize);
     }
 
-    private static string? FindWebApiContentRoot()
+    [Fact]
+    public async Task Get_CloudPricingEndpoint_WithVendorFilter_Returns_FilteredResults()
     {
-        // Walk up the directory tree from the test host and look for the WebApi project folder.
-        var dir = AppContext.BaseDirectory;
-        var current = new DirectoryInfo(dir);
-        while (current != null)
+        var options = new JsonSerializerOptions { PropertyNameCaseInsensitive = true, AllowTrailingCommas = true };
+
+        // baseline to compare total counts
+        var baseResp = await Client.GetAsync("/api/cloud-pricing?page=1&pageSize=1");
+        baseResp.EnsureSuccessStatusCode();
+        await using var baseStream = await baseResp.Content.ReadAsStreamAsync();
+        var basePaged = await JsonSerializer.DeserializeAsync<PagedResult<CloudPricingProductDto>>(baseStream, options);
+        Assert.NotNull(basePaged);
+
+        var vendor = "aws";
+        var response = await Client.GetAsync($"/api/cloud-pricing?vendorName={vendor}&page=1&pageSize=10");
+        response.EnsureSuccessStatusCode();
+
+        await using var stream = await response.Content.ReadAsStreamAsync();
+        var paged = await JsonSerializer.DeserializeAsync<PagedResult<CloudPricingProductDto>>(stream, options);
+
+        Assert.NotNull(paged);
+        Assert.NotNull(paged.Items);
+        Assert.True(paged.TotalCount <= basePaged.TotalCount);
+
+        if (paged.TotalCount > 0)
         {
-            var candidate = Path.Combine(current.FullName, "src", "WebApi");
-            if (Directory.Exists(candidate))
-            {
-                return candidate;
-            }
-
-            current = current.Parent;
+            Assert.All(paged.Items, item =>
+                Assert.Contains(vendor, item.VendorName, System.StringComparison.OrdinalIgnoreCase));
         }
+    }
 
-        return null;
+    [Fact]
+    public async Task Get_CloudPricingEndpoint_WithServiceFilter_Returns_FilteredResults()
+    {
+        var options = new JsonSerializerOptions { PropertyNameCaseInsensitive = true, AllowTrailingCommas = true };
+
+        var baseResp = await Client.GetAsync("/api/cloud-pricing?page=1&pageSize=1");
+        baseResp.EnsureSuccessStatusCode();
+        await using var baseStream = await baseResp.Content.ReadAsStreamAsync();
+        var basePaged = await JsonSerializer.DeserializeAsync<PagedResult<CloudPricingProductDto>>(baseStream, options);
+        Assert.NotNull(basePaged);
+
+        var service = "compute";
+        var response = await Client.GetAsync($"/api/cloud-pricing?service={service}&page=1&pageSize=10");
+        response.EnsureSuccessStatusCode();
+
+        await using var stream = await response.Content.ReadAsStreamAsync();
+        var paged = await JsonSerializer.DeserializeAsync<PagedResult<CloudPricingProductDto>>(stream, options);
+
+        Assert.NotNull(paged);
+        Assert.NotNull(paged.Items);
+        Assert.True(paged.TotalCount <= basePaged.TotalCount);
+
+        if (paged.TotalCount > 0)
+        {
+            Assert.All(paged.Items, item =>
+                Assert.Contains(service, item.Service, System.StringComparison.OrdinalIgnoreCase));
+        }
+    }
+
+    [Fact]
+    public async Task Get_CloudPricingEndpoint_WithRegionFilter_Returns_FilteredResults()
+    {
+        var options = new JsonSerializerOptions { PropertyNameCaseInsensitive = true, AllowTrailingCommas = true };
+
+        var baseResp = await Client.GetAsync("/api/cloud-pricing?page=1&pageSize=1");
+        baseResp.EnsureSuccessStatusCode();
+        await using var baseStream = await baseResp.Content.ReadAsStreamAsync();
+        var basePaged = await JsonSerializer.DeserializeAsync<PagedResult<CloudPricingProductDto>>(baseStream, options);
+        Assert.NotNull(basePaged);
+
+        var region = "us";
+        var response = await Client.GetAsync($"/api/cloud-pricing?region={region}&page=1&pageSize=10");
+        response.EnsureSuccessStatusCode();
+
+        await using var stream = await response.Content.ReadAsStreamAsync();
+        var paged = await JsonSerializer.DeserializeAsync<PagedResult<CloudPricingProductDto>>(stream, options);
+
+        Assert.NotNull(paged);
+        Assert.NotNull(paged.Items);
+        Assert.True(paged.TotalCount <= basePaged.TotalCount);
+
+        if (paged.TotalCount > 0)
+        {
+            Assert.All(paged.Items, item =>
+                Assert.Contains(region, item.Region, System.StringComparison.OrdinalIgnoreCase));
+        }
+    }
+
+    [Fact]
+    public async Task Get_CloudPricingEndpoint_WithProductFamilyFilter_Returns_FilteredResults()
+    {
+        var options = new JsonSerializerOptions { PropertyNameCaseInsensitive = true, AllowTrailingCommas = true };
+
+        var baseResp = await Client.GetAsync("/api/cloud-pricing?page=1&pageSize=1");
+        baseResp.EnsureSuccessStatusCode();
+        await using var baseStream = await baseResp.Content.ReadAsStreamAsync();
+        var basePaged = await JsonSerializer.DeserializeAsync<PagedResult<CloudPricingProductDto>>(baseStream, options);
+        Assert.NotNull(basePaged);
+
+        var family = "storage";
+        var response = await Client.GetAsync($"/api/cloud-pricing?productFamily={family}&page=1&pageSize=10");
+        response.EnsureSuccessStatusCode();
+
+        await using var stream = await response.Content.ReadAsStreamAsync();
+        var paged = await JsonSerializer.DeserializeAsync<PagedResult<CloudPricingProductDto>>(stream, options);
+
+        Assert.NotNull(paged);
+        Assert.NotNull(paged.Items);
+        Assert.True(paged.TotalCount <= basePaged.TotalCount);
+
+        if (paged.TotalCount > 0)
+        {
+            Assert.All(paged.Items, item =>
+                Assert.Contains(family, item.ProductFamily, System.StringComparison.OrdinalIgnoreCase));
+        }
+    }
+
+    [Fact]
+    public async Task Get_CloudPricingEndpoint_WithCombinedFilters_Returns_Intersection()
+    {
+        var options = new JsonSerializerOptions { PropertyNameCaseInsensitive = true, AllowTrailingCommas = true };
+
+        var baseResp = await Client.GetAsync("/api/cloud-pricing?page=1&pageSize=1");
+        baseResp.EnsureSuccessStatusCode();
+        await using var baseStream = await baseResp.Content.ReadAsStreamAsync();
+        var basePaged = await JsonSerializer.DeserializeAsync<PagedResult<CloudPricingProductDto>>(baseStream, options);
+        Assert.NotNull(basePaged);
+
+        var vendor = "aws";
+        var service = "compute";
+        var response = await Client.GetAsync($"/api/cloud-pricing?vendorName={vendor}&service={service}&page=1&pageSize=20");
+        response.EnsureSuccessStatusCode();
+
+        await using var stream = await response.Content.ReadAsStreamAsync();
+        var paged = await JsonSerializer.DeserializeAsync<PagedResult<CloudPricingProductDto>>(stream, options);
+
+        Assert.NotNull(paged);
+        Assert.NotNull(paged.Items);
+        Assert.True(paged.TotalCount <= basePaged.TotalCount);
+
+        if (paged.TotalCount > 0)
+        {
+            Assert.All(paged.Items, item =>
+            {
+                Assert.Contains(vendor, item.VendorName, System.StringComparison.OrdinalIgnoreCase);
+                Assert.Contains(service, item.Service, System.StringComparison.OrdinalIgnoreCase);
+            });
+        }
     }
 }

@@ -4,15 +4,8 @@ using System.Text.Json;
 
 namespace Infrastructure;
 
-public class CloudPricingRepository : ICloudPricingRepository
+public class CloudPricingRepository(string? dataDirectory = null) : ICloudPricingRepository
 {
-    private readonly string? _dataDirectory;
-
-    public CloudPricingRepository(string? dataDirectory = null)
-    {
-        _dataDirectory = dataDirectory;
-    }
-
     public async Task<CloudPricingDto> GetAllAsync(CancellationToken cancellationToken )
     {
         var filesToLoad = new[] { "aws.json", "azure.json", "gcp.json" };
@@ -52,11 +45,11 @@ public class CloudPricingRepository : ICloudPricingRepository
 
     private string ResolveDataDirectory()
     {
-        if (!string.IsNullOrWhiteSpace(_dataDirectory))
+        if (!string.IsNullOrWhiteSpace(dataDirectory))
         {
-            if (Directory.Exists(_dataDirectory))
+            if (Directory.Exists(dataDirectory))
             {
-                return _dataDirectory;
+                return dataDirectory;
             }
         }
 
