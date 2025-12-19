@@ -11,7 +11,7 @@ public class CloudPricingControllerOptionsTests(WebApplicationFactory<Program> f
     public async Task Get_Options_Returns_Ok_And_AllCollections_Present()
     {
         var options = new JsonSerializerOptions { PropertyNameCaseInsensitive = true, AllowTrailingCommas = true };
-        var response = await ResolveOptionsEndpointAndGetAsync();
+        var response = await Client.GetAsync("/api/cloud-pricing:options");
         Assert.Equal(HttpStatusCode.OK, response.StatusCode);
 
         await using var stream = await response.Content.ReadAsStreamAsync();
@@ -29,7 +29,7 @@ public class CloudPricingControllerOptionsTests(WebApplicationFactory<Program> f
     public async Task Get_Options_VendorNames_AreDistinct_And_Sorted()
     {
         var options = new JsonSerializerOptions { PropertyNameCaseInsensitive = true, AllowTrailingCommas = true };
-        var response = await ResolveOptionsEndpointAndGetAsync();
+        var response = await Client.GetAsync("/api/cloud-pricing:options");
         response.EnsureSuccessStatusCode();
 
         await using var stream = await response.Content.ReadAsStreamAsync();
@@ -51,7 +51,7 @@ public class CloudPricingControllerOptionsTests(WebApplicationFactory<Program> f
     public async Task Get_Options_Services_And_Regions_AreDistinct_And_Sorted()
     {
         var options = new JsonSerializerOptions { PropertyNameCaseInsensitive = true, AllowTrailingCommas = true };
-        var response = await ResolveOptionsEndpointAndGetAsync();
+        var response = await Client.GetAsync("/api/cloud-pricing:options");
         response.EnsureSuccessStatusCode();
 
         await using var stream = await response.Content.ReadAsStreamAsync();
@@ -69,7 +69,7 @@ public class CloudPricingControllerOptionsTests(WebApplicationFactory<Program> f
     public async Task Get_Options_ProductFamilies_AreDistinct_And_AttributeSummaries_Have_Keys_And_Values()
     {
         var options = new JsonSerializerOptions { PropertyNameCaseInsensitive = true, AllowTrailingCommas = true };
-        var response = await ResolveOptionsEndpointAndGetAsync();
+        var response = await Client.GetAsync("/api/cloud-pricing:options"); 
         response.EnsureSuccessStatusCode();
 
         await using var stream = await response.Content.ReadAsStreamAsync();
@@ -87,30 +87,5 @@ public class CloudPricingControllerOptionsTests(WebApplicationFactory<Program> f
             Assert.Equal(summary.Values.Count, summary.Values.Distinct(StringComparer.OrdinalIgnoreCase).Count());
             Assert.Equal(summary.Values.OrderBy(s => s, StringComparer.OrdinalIgnoreCase).ToList(), summary.Values);
         });
-    }
-
-    [Fact]
-    public async Task Get_Options_Endpoint_Uses_Expected_Route_WithOrWithoutColon()
-    {
-        // Ensure endpoint is reachable at either "/api/cloud-pricing/options" or "/api/cloud-pricing/:options"
-        var primary = await Client.GetAsync("/api/cloud-pricing/options");
-        if (primary.StatusCode == HttpStatusCode.OK)
-        {
-            primary.EnsureSuccessStatusCode();
-            return;
-        }
-
-        var alt = await Client.GetAsync("/api/cloud-pricing/:options");
-        alt.EnsureSuccessStatusCode();
-    }
-
-    // Helper to try the common route and fallback to the literal route created by the current attribute.
-    private async Task<HttpResponseMessage> ResolveOptionsEndpointAndGetAsync()
-    {
-        var primary = await Client.GetAsync("/api/cloud-pricing/options");
-        if (primary.StatusCode == HttpStatusCode.OK)
-            return primary;
-
-        return await Client.GetAsync("/api/cloud-pricing/:options");
     }
 }

@@ -35,6 +35,13 @@ public class CloudPricingPriceDto
     public decimal? Usd { get; set; }
 
     public string? Unit { get; set; }
+    public string? StartUsageAmount { get; set; }
+    public string? EndUsageAmount { get; set; }
+
+    public string? PurchaseOption { get; set; }
+    public string? TermPurchaseOption { get; set; }
+    public string? TermLength { get; set; }
+    public string? TermOfferingClass { get; set; }
 }
 
 public class CloudPricingAttributeSummary
@@ -50,4 +57,11 @@ public class DistinctFiltersDto
     public required List<string> Regions { get; set; } = new List<string>();
     public required List<string> ProductFamilies { get; set; } = new List<string>();
     public required List<CloudPricingAttributeSummary> AttributeSummaries { get; set; } = new List<CloudPricingAttributeSummary>();
+    public required List<string> StartUsageAmounts { get; set; } = new List<string>();
+    public required List<string> EndUsageAmounts { get; set; } = new List<string>();
+
+    public required List<string> PurchaseOptions { get; set; } = new List<string>();
+    public required List<string> TermPurchaseOptions { get; set; } = new List<string>();
+    public required List<string> TermLengths { get; set; } = new List<string>();
+    public required List<string> TermOfferingClasses { get; set; } = new List<string>();
 }
