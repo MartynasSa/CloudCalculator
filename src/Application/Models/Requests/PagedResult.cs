@@ -17,7 +17,6 @@ public class PricingRequest : PaginationParameters
     public string? ProductFamily { get; set; }
     public string? StartUsageAmount { get; set; }
     public string? EndUsageAmount { get; set; }
-
     public string? PurchaseOption { get; set; }
     public string? TermPurchaseOption { get; set; }
     public string? TermLength { get; set; }
