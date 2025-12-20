@@ -7,7 +7,6 @@ namespace Application.Facade;
 
 public interface ICloudPricingFileFacade
 {
-    // Allow the paged result to be null (implementation returns Task<PagedResult<...>?>)
     Task<PagedResult<CloudPricingProductDto>?> GetOrCreatePagedAsync(PricingRequest? pagination, CancellationToken cancellationToken);
 
     Task<DistinctFiltersDto> GetDistinctFiltersAsync(CancellationToken cancellationToken);
