@@ -1,7 +1,6 @@
 using Application.Models.Dtos;
 using Application.Ports;
 using Microsoft.Extensions.Caching.Memory;
-using System.Globalization;
 
 namespace Application.Facade;
 

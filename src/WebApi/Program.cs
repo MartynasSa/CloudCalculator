@@ -50,6 +50,7 @@ builder.Services.AddMemoryCache();
 
 builder.Services.AddScoped<ICloudPricingRepository, CloudPricingRepository>();
 builder.Services.AddScoped<ICloudPricingFileFacade, CloudPricingFileFacade>();
+builder.Services.AddScoped<ITemplateFacade, TemplateFacade>();
 
 var app = builder.Build();
 

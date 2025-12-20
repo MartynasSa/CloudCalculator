@@ -8,7 +8,6 @@ public class PaginationParameters
     public int PageSize { get; set; } = 100;
 }
 
-
 public class PricingRequest : PaginationParameters
 {
     public string? VendorName { get; set; }
