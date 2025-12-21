@@ -39,29 +39,28 @@ public class CloudPricingFileFacade(ICloudPricingRepository cloudPricingReposito
         {
             entry.AbsoluteExpirationRelativeToNow = DefaultTtl;
 
-            var full = await cloudPricingRepository.GetAllAsync(cancellationToken).ConfigureAwait(false);
-            var products = full.Data?.Products ?? new List<CloudPricingProductDto>();
+            // Get queryable data source
+            var queryable = await cloudPricingRepository.GetProductsQueryableAsync(cancellationToken).ConfigureAwait(false);
 
-            IEnumerable<CloudPricingProductDto> query = products;
-
+            // Apply filters using LINQ (which can be translated to OData queries)
             if (!string.IsNullOrWhiteSpace(request.VendorName))
             {
-                query = query.Where(p => p.VendorName?.Contains(request.VendorName, StringComparison.OrdinalIgnoreCase) == true);
+                queryable = queryable.Where(p => p.VendorName != null && p.VendorName.Contains(request.VendorName, StringComparison.OrdinalIgnoreCase));
             }
 
             if (!string.IsNullOrWhiteSpace(request.Service))
             {
-                query = query.Where(p => p.Service?.Contains(request.Service, StringComparison.OrdinalIgnoreCase) == true);
+                queryable = queryable.Where(p => p.Service != null && p.Service.Contains(request.Service, StringComparison.OrdinalIgnoreCase));
             }
 
             if (!string.IsNullOrWhiteSpace(request.Region))
             {
-                query = query.Where(p => p.Region?.Contains(request.Region, StringComparison.OrdinalIgnoreCase) == true);
+                queryable = queryable.Where(p => p.Region != null && p.Region.Contains(request.Region, StringComparison.OrdinalIgnoreCase));
             }
 
             if (!string.IsNullOrWhiteSpace(request.ProductFamily))
             {
-                query = query.Where(p => p.ProductFamily?.Contains(request.ProductFamily, StringComparison.OrdinalIgnoreCase) == true);
+                queryable = queryable.Where(p => p.ProductFamily != null && p.ProductFamily.Contains(request.ProductFamily, StringComparison.OrdinalIgnoreCase));
             }
 
             // Price-level filtering: if any of the price filters are present, keep products that have at least one price that matches
@@ -72,55 +71,22 @@ public class CloudPricingFileFacade(ICloudPricingRepository cloudPricingReposito
                 || !string.IsNullOrWhiteSpace(request.TermLength)
                 || !string.IsNullOrWhiteSpace(request.TermOfferingClass))
             {
-                bool PriceMatches(CloudPricingPriceDto price)
-                {
-                    // Compare start/end as strings where appropriate (repository stores raw strings like "Inf")
-                    if (!string.IsNullOrWhiteSpace(request.StartUsageAmount))
-                    {
-                        if (string.IsNullOrWhiteSpace(price.StartUsageAmount) || !price.StartUsageAmount.Contains(request.StartUsageAmount, StringComparison.OrdinalIgnoreCase))
-                            return false;
-                    }
-
-                    if (!string.IsNullOrWhiteSpace(request.EndUsageAmount))
-                    {
-                        if (string.IsNullOrWhiteSpace(price.EndUsageAmount) || !price.EndUsageAmount.Contains(request.EndUsageAmount, StringComparison.OrdinalIgnoreCase))
-                            return false;
-                    }
-
-                    if (!string.IsNullOrWhiteSpace(request.PurchaseOption))
-                    {
-                        if (string.IsNullOrWhiteSpace(price.PurchaseOption) || !price.PurchaseOption.Contains(request.PurchaseOption, StringComparison.OrdinalIgnoreCase))
-                            return false;
-                    }
-
-                    if (!string.IsNullOrWhiteSpace(request.TermPurchaseOption))
-                    {
-                        if (string.IsNullOrWhiteSpace(price.TermPurchaseOption) || !price.TermPurchaseOption.Contains(request.TermPurchaseOption, StringComparison.OrdinalIgnoreCase))
-                            return false;
-                    }
-
-                    if (!string.IsNullOrWhiteSpace(request.TermLength))
-                    {
-                        if (string.IsNullOrWhiteSpace(price.TermLength) || !price.TermLength.Contains(request.TermLength, StringComparison.OrdinalIgnoreCase))
-                            return false;
-                    }
-
-                    if (!string.IsNullOrWhiteSpace(request.TermOfferingClass))
-                    {
-                        if (string.IsNullOrWhiteSpace(price.TermOfferingClass) || !price.TermOfferingClass.Contains(request.TermOfferingClass, StringComparison.OrdinalIgnoreCase))
-                            return false;
-                    }
-
-                    return true;
-                }
-
-                query = query.Where(p => (p.Prices ?? Enumerable.Empty<CloudPricingPriceDto>()).Any(PriceMatches));
+                queryable = queryable.Where(p => p.Prices != null && p.Prices.Any(price =>
+                    (string.IsNullOrWhiteSpace(request.StartUsageAmount) || (price.StartUsageAmount != null && price.StartUsageAmount.Contains(request.StartUsageAmount, StringComparison.OrdinalIgnoreCase))) &&
+                    (string.IsNullOrWhiteSpace(request.EndUsageAmount) || (price.EndUsageAmount != null && price.EndUsageAmount.Contains(request.EndUsageAmount, StringComparison.OrdinalIgnoreCase))) &&
+                    (string.IsNullOrWhiteSpace(request.PurchaseOption) || (price.PurchaseOption != null && price.PurchaseOption.Contains(request.PurchaseOption, StringComparison.OrdinalIgnoreCase))) &&
+                    (string.IsNullOrWhiteSpace(request.TermPurchaseOption) || (price.TermPurchaseOption != null && price.TermPurchaseOption.Contains(request.TermPurchaseOption, StringComparison.OrdinalIgnoreCase))) &&
+                    (string.IsNullOrWhiteSpace(request.TermLength) || (price.TermLength != null && price.TermLength.Contains(request.TermLength, StringComparison.OrdinalIgnoreCase))) &&
+                    (string.IsNullOrWhiteSpace(request.TermOfferingClass) || (price.TermOfferingClass != null && price.TermOfferingClass.Contains(request.TermOfferingClass, StringComparison.OrdinalIgnoreCase)))
+                ));
             }
 
-            var filteredList = query.ToList();
-            var total = filteredList.Count;
+            // Get total count before pagination
+            var total = queryable.Count();
+            
+            // Apply pagination
             var skip = (page - 1) * pageSize;
-            var items = filteredList.Skip(skip).Take(pageSize).ToList();
+            var items = queryable.Skip(skip).Take(pageSize).ToList();
 
             return new PagedResult<CloudPricingProductDto>
             {
