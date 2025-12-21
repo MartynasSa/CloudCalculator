@@ -12,6 +12,11 @@ public interface IResourceNormalizationService
 
 public class ResourceNormalizationService(ICloudPricingRepository cloudPricingRepository) : IResourceNormalizationService
 {
+    // GCP machine type memory ratios (GB per vCPU)
+    private const double GCP_HIGHCPU_MEMORY_RATIO = 2.0;
+    private const double GCP_HIGHMEM_MEMORY_RATIO = 8.0;
+    private const double GCP_ULTRAMEM_MEMORY_RATIO = 25.0;
+    private const double GCP_STANDARD_MEMORY_RATIO = 4.0;
     public async Task<List<NormalizedComputeInstanceDto>> GetNormalizedComputeInstancesAsync(CancellationToken cancellationToken = default)
     {
         var data = await cloudPricingRepository.GetAllAsync(cancellationToken);
@@ -163,15 +168,10 @@ public class ResourceNormalizationService(ICloudPricingRepository cloudPricingRe
                     return gcpVcpu;
             }
             
-            // Parse from machineType for GCP Compute Engine (e.g., "c2d-highcpu-2", "c4d-highmem-8")
-            var machineType = product.Attributes.FirstOrDefault(a => a.Key == "machineType")?.Value;
-            if (!string.IsNullOrWhiteSpace(machineType))
-            {
-                // Extract the number at the end of the machine type (e.g., "c2d-highcpu-2" -> 2)
-                var parts = machineType.Split('-');
-                if (parts.Length >= 3 && int.TryParse(parts[^1], out var machineVcpu))
-                    return machineVcpu;
-            }
+            // Parse from machineType for GCP Compute Engine
+            var vcpuFromMachineType = ExtractVCpuFromGcpMachineType(product);
+            if (vcpuFromMachineType.HasValue)
+                return vcpuFromMachineType;
         }
 
         return null;
@@ -200,29 +200,45 @@ public class ResourceNormalizationService(ICloudPricingRepository cloudPricingRe
             }
             
             // Estimate from machineType for GCP Compute Engine
-            var machineType = product.Attributes.FirstOrDefault(a => a.Key == "machineType")?.Value;
-            if (!string.IsNullOrWhiteSpace(machineType))
+            var vcpus = ExtractVCpuFromGcpMachineType(product);
+            if (vcpus.HasValue)
             {
-                var parts = machineType.Split('-');
-                if (parts.Length >= 3 && int.TryParse(parts[^1], out var vcpus))
+                var machineType = product.Attributes.FirstOrDefault(a => a.Key == "machineType")?.Value;
+                if (!string.IsNullOrWhiteSpace(machineType))
                 {
-                    // Estimate memory based on machine type series
-                    double memoryGb;
-                    if (machineType.Contains("highcpu", StringComparison.OrdinalIgnoreCase))
-                        memoryGb = vcpus * 2.0;  // High-CPU: ~2 GB per vCPU
-                    else if (machineType.Contains("highmem", StringComparison.OrdinalIgnoreCase))
-                        memoryGb = vcpus * 8.0;  // High-memory: ~8 GB per vCPU
-                    else if (machineType.Contains("ultramem", StringComparison.OrdinalIgnoreCase))
-                        memoryGb = vcpus * 25.0; // Ultra-memory: ~25 GB per vCPU
-                    else
-                        memoryGb = vcpus * 4.0;  // Standard: ~4 GB per vCPU
-                    
+                    var memoryGb = EstimateGcpMemoryFromMachineType(machineType, vcpus.Value);
                     return $"{memoryGb} GB";
                 }
             }
         }
         
         return null;
+    }
+    
+    private static int? ExtractVCpuFromGcpMachineType(CloudPricingProductDto product)
+    {
+        var machineType = product.Attributes.FirstOrDefault(a => a.Key == "machineType")?.Value;
+        if (!string.IsNullOrWhiteSpace(machineType))
+        {
+            // Extract the number at the end of the machine type (e.g., "c2d-highcpu-2" -> 2)
+            var parts = machineType.Split('-');
+            if (parts.Length >= 3 && int.TryParse(parts[^1], out var machineVcpu))
+                return machineVcpu;
+        }
+        return null;
+    }
+    
+    private static double EstimateGcpMemoryFromMachineType(string machineType, int vcpus)
+    {
+        // Estimate memory based on machine type series
+        if (machineType.Contains("highcpu", StringComparison.OrdinalIgnoreCase))
+            return vcpus * GCP_HIGHCPU_MEMORY_RATIO;
+        if (machineType.Contains("highmem", StringComparison.OrdinalIgnoreCase))
+            return vcpus * GCP_HIGHMEM_MEMORY_RATIO;
+        if (machineType.Contains("ultramem", StringComparison.OrdinalIgnoreCase))
+            return vcpus * GCP_ULTRAMEM_MEMORY_RATIO;
+        
+        return vcpus * GCP_STANDARD_MEMORY_RATIO;
     }
 
     private static decimal? GetPricePerHour(CloudPricingProductDto product)
