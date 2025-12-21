@@ -10,6 +10,14 @@ public enum TemplateType
     None = 0,
     [EnumMember(Value = "saas")]
     Saas = 1,
+    [EnumMember(Value = "wordpress")]
+    WordPress = 2,
+    [EnumMember(Value = "rest_api")]
+    RestApi = 3,
+    [EnumMember(Value = "static_site")]
+    StaticSite = 4,
+    [EnumMember(Value = "ecommerce")]
+    Ecommerce = 5,
 }
 
 [TypeConverter(typeof(JsonStringEnumConverter<UsageSize>))]

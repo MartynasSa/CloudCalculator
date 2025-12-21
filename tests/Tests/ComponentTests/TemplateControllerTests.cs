@@ -304,4 +304,203 @@ public class TemplateControllerTests(WebApplicationFactory<Program> factory) : T
             Assert.True(db.Memory >= 8, $"Expected at least 8GB for database Large, got {db.Memory}GB");
         });
     }
+
+    // WordPress template tests
+    [Fact]
+    public async Task Get_Templates_WithWordPressSmall_Returns_Template()
+    {
+        var response = await Client.GetAsync("/api/templates?template=2&usage=1");
+        response.EnsureSuccessStatusCode();
+
+        await using var stream = await response.Content.ReadAsStreamAsync();
+        var template = await JsonSerializer.DeserializeAsync<TemplateDto>(stream, JsonOptions);
+
+        Assert.NotNull(template);
+        Assert.Equal(TemplateType.WordPress, template.Template);
+        Assert.Equal(UsageSize.Small, template.Usage);
+        Assert.NotNull(template.VirtualMachines);
+        Assert.NotEmpty(template.VirtualMachines);
+        Assert.NotNull(template.Databases);
+        Assert.NotEmpty(template.Databases);
+        Assert.NotNull(template.LoadBalancers);
+        Assert.NotEmpty(template.LoadBalancers);
+    }
+
+    [Fact]
+    public async Task Get_Templates_WithWordPressMedium_Returns_Template()
+    {
+        var response = await Client.GetAsync("/api/templates?template=2&usage=2");
+        response.EnsureSuccessStatusCode();
+
+        await using var stream = await response.Content.ReadAsStreamAsync();
+        var template = await JsonSerializer.DeserializeAsync<TemplateDto>(stream, JsonOptions);
+
+        Assert.NotNull(template);
+        Assert.Equal(TemplateType.WordPress, template.Template);
+        Assert.Equal(UsageSize.Medium, template.Usage);
+    }
+
+    [Fact]
+    public async Task Get_Templates_WithWordPressLarge_Returns_Template()
+    {
+        var response = await Client.GetAsync("/api/templates?template=2&usage=3");
+        response.EnsureSuccessStatusCode();
+
+        await using var stream = await response.Content.ReadAsStreamAsync();
+        var template = await JsonSerializer.DeserializeAsync<TemplateDto>(stream, JsonOptions);
+
+        Assert.NotNull(template);
+        Assert.Equal(TemplateType.WordPress, template.Template);
+        Assert.Equal(UsageSize.Large, template.Usage);
+    }
+
+    // REST API template tests
+    [Fact]
+    public async Task Get_Templates_WithRestApiSmall_Returns_Template()
+    {
+        var response = await Client.GetAsync("/api/templates?template=3&usage=1");
+        response.EnsureSuccessStatusCode();
+
+        await using var stream = await response.Content.ReadAsStreamAsync();
+        var template = await JsonSerializer.DeserializeAsync<TemplateDto>(stream, JsonOptions);
+
+        Assert.NotNull(template);
+        Assert.Equal(TemplateType.RestApi, template.Template);
+        Assert.Equal(UsageSize.Small, template.Usage);
+        Assert.NotNull(template.VirtualMachines);
+        Assert.NotEmpty(template.VirtualMachines);
+        Assert.NotNull(template.Databases);
+        Assert.NotEmpty(template.Databases);
+        Assert.NotNull(template.LoadBalancers);
+        Assert.NotEmpty(template.LoadBalancers);
+        Assert.NotNull(template.Monitoring);
+        Assert.NotEmpty(template.Monitoring);
+    }
+
+    [Fact]
+    public async Task Get_Templates_WithRestApiMedium_Returns_Template()
+    {
+        var response = await Client.GetAsync("/api/templates?template=3&usage=2");
+        response.EnsureSuccessStatusCode();
+
+        await using var stream = await response.Content.ReadAsStreamAsync();
+        var template = await JsonSerializer.DeserializeAsync<TemplateDto>(stream, JsonOptions);
+
+        Assert.NotNull(template);
+        Assert.Equal(TemplateType.RestApi, template.Template);
+        Assert.Equal(UsageSize.Medium, template.Usage);
+    }
+
+    [Fact]
+    public async Task Get_Templates_WithRestApiLarge_Returns_Template()
+    {
+        var response = await Client.GetAsync("/api/templates?template=3&usage=3");
+        response.EnsureSuccessStatusCode();
+
+        await using var stream = await response.Content.ReadAsStreamAsync();
+        var template = await JsonSerializer.DeserializeAsync<TemplateDto>(stream, JsonOptions);
+
+        Assert.NotNull(template);
+        Assert.Equal(TemplateType.RestApi, template.Template);
+        Assert.Equal(UsageSize.Large, template.Usage);
+    }
+
+    // Static Site template tests
+    [Fact]
+    public async Task Get_Templates_WithStaticSiteSmall_Returns_Template()
+    {
+        var response = await Client.GetAsync("/api/templates?template=4&usage=1");
+        response.EnsureSuccessStatusCode();
+
+        await using var stream = await response.Content.ReadAsStreamAsync();
+        var template = await JsonSerializer.DeserializeAsync<TemplateDto>(stream, JsonOptions);
+
+        Assert.NotNull(template);
+        Assert.Equal(TemplateType.StaticSite, template.Template);
+        Assert.Equal(UsageSize.Small, template.Usage);
+        Assert.NotNull(template.LoadBalancers);
+        Assert.NotEmpty(template.LoadBalancers);
+        // Static sites don't need VMs or databases
+        Assert.True(template.VirtualMachines == null || template.VirtualMachines.Count == 0);
+        Assert.True(template.Databases == null || template.Databases.Count == 0);
+    }
+
+    [Fact]
+    public async Task Get_Templates_WithStaticSiteMedium_Returns_Template()
+    {
+        var response = await Client.GetAsync("/api/templates?template=4&usage=2");
+        response.EnsureSuccessStatusCode();
+
+        await using var stream = await response.Content.ReadAsStreamAsync();
+        var template = await JsonSerializer.DeserializeAsync<TemplateDto>(stream, JsonOptions);
+
+        Assert.NotNull(template);
+        Assert.Equal(TemplateType.StaticSite, template.Template);
+        Assert.Equal(UsageSize.Medium, template.Usage);
+    }
+
+    [Fact]
+    public async Task Get_Templates_WithStaticSiteLarge_Returns_Template()
+    {
+        var response = await Client.GetAsync("/api/templates?template=4&usage=3");
+        response.EnsureSuccessStatusCode();
+
+        await using var stream = await response.Content.ReadAsStreamAsync();
+        var template = await JsonSerializer.DeserializeAsync<TemplateDto>(stream, JsonOptions);
+
+        Assert.NotNull(template);
+        Assert.Equal(TemplateType.StaticSite, template.Template);
+        Assert.Equal(UsageSize.Large, template.Usage);
+    }
+
+    // E-commerce template tests
+    [Fact]
+    public async Task Get_Templates_WithEcommerceSmall_Returns_Template()
+    {
+        var response = await Client.GetAsync("/api/templates?template=5&usage=1");
+        response.EnsureSuccessStatusCode();
+
+        await using var stream = await response.Content.ReadAsStreamAsync();
+        var template = await JsonSerializer.DeserializeAsync<TemplateDto>(stream, JsonOptions);
+
+        Assert.NotNull(template);
+        Assert.Equal(TemplateType.Ecommerce, template.Template);
+        Assert.Equal(UsageSize.Small, template.Usage);
+        Assert.NotNull(template.VirtualMachines);
+        Assert.NotEmpty(template.VirtualMachines);
+        Assert.NotNull(template.Databases);
+        Assert.NotEmpty(template.Databases);
+        Assert.NotNull(template.LoadBalancers);
+        Assert.NotEmpty(template.LoadBalancers);
+        Assert.NotNull(template.Monitoring);
+        Assert.NotEmpty(template.Monitoring);
+    }
+
+    [Fact]
+    public async Task Get_Templates_WithEcommerceMedium_Returns_Template()
+    {
+        var response = await Client.GetAsync("/api/templates?template=5&usage=2");
+        response.EnsureSuccessStatusCode();
+
+        await using var stream = await response.Content.ReadAsStreamAsync();
+        var template = await JsonSerializer.DeserializeAsync<TemplateDto>(stream, JsonOptions);
+
+        Assert.NotNull(template);
+        Assert.Equal(TemplateType.Ecommerce, template.Template);
+        Assert.Equal(UsageSize.Medium, template.Usage);
+    }
+
+    [Fact]
+    public async Task Get_Templates_WithEcommerceLarge_Returns_Template()
+    {
+        var response = await Client.GetAsync("/api/templates?template=5&usage=3");
+        response.EnsureSuccessStatusCode();
+
+        await using var stream = await response.Content.ReadAsStreamAsync();
+        var template = await JsonSerializer.DeserializeAsync<TemplateDto>(stream, JsonOptions);
+
+        Assert.NotNull(template);
+        Assert.Equal(TemplateType.Ecommerce, template.Template);
+        Assert.Equal(UsageSize.Large, template.Usage);
+    }
 }

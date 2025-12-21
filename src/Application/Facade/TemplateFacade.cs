@@ -27,6 +27,26 @@ public class TemplateFacade(IResourceNormalizationService resourceNormalizationS
                 result.LoadBalancers = GetLoadBalancers(request.Usage);
                 result.Monitoring = GetMonitoring(request.Usage);
                 break;
+            case TemplateType.WordPress:
+                result.VirtualMachines = await GetVirtualMachinesAsync(request.Usage);
+                result.Databases = await GetDatabasesAsync(request.Usage);
+                result.LoadBalancers = GetLoadBalancers(request.Usage);
+                break;
+            case TemplateType.RestApi:
+                result.VirtualMachines = await GetVirtualMachinesAsync(request.Usage);
+                result.Databases = await GetDatabasesAsync(request.Usage);
+                result.LoadBalancers = GetLoadBalancers(request.Usage);
+                result.Monitoring = GetMonitoring(request.Usage);
+                break;
+            case TemplateType.StaticSite:
+                result.LoadBalancers = GetLoadBalancers(request.Usage);
+                break;
+            case TemplateType.Ecommerce:
+                result.VirtualMachines = await GetVirtualMachinesAsync(request.Usage);
+                result.Databases = await GetDatabasesAsync(request.Usage);
+                result.LoadBalancers = GetLoadBalancers(request.Usage);
+                result.Monitoring = GetMonitoring(request.Usage);
+                break;
             default:
                 throw new ArgumentOutOfRangeException();
         }
