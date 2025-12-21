@@ -1,4 +1,6 @@
-﻿namespace Application.Models.Enums;
+﻿using System.Runtime.Serialization;
+
+namespace Application.Models.Enums;
 
 public enum TemplateType
 {
@@ -18,8 +20,11 @@ public enum UsageSize
 public enum CloudProvider
 {
     None = 0,
+    [EnumMember(Value = "aws")]
     AWS,
+    [EnumMember(Value = "azure")]
     Azure,
+    [EnumMember(Value = "gcp")]
     GCP,
 }
 

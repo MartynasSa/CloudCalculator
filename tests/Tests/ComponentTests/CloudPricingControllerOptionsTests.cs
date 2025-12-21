@@ -40,10 +40,10 @@ public class CloudPricingControllerOptionsTests(WebApplicationFactory<Program> f
         Assert.NotNull(vendors);
 
         // distinct
-        Assert.Equal(vendors.Count, vendors.Distinct(StringComparer.OrdinalIgnoreCase).Count());
+        Assert.Equal(vendors.Count, vendors.Distinct().Count());
 
-        // sorted (case-insensitive)
-        var sorted = vendors.OrderBy(s => s, StringComparer.OrdinalIgnoreCase).ToList();
+        // sorted (by enum value)
+        var sorted = vendors.OrderBy(v => v).ToList();
         Assert.Equal(sorted, vendors);
     }
 

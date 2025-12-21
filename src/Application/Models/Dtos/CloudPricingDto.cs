@@ -1,4 +1,5 @@
-﻿using System.Text.Json.Serialization;
+﻿using Application.Models.Enums;
+using System.Text.Json.Serialization;
 
 namespace Application.Models.Dtos;
 
@@ -14,7 +15,7 @@ public class CloudPricingDataDto
 
 public class CloudPricingProductDto
 {
-    public required string VendorName { get; set; }
+    public required CloudProvider VendorName { get; set; }
     public required string Service { get; set; }
     public required string Region { get; set; }
     public required string ProductFamily { get; set; }
@@ -52,7 +53,7 @@ public class CloudPricingAttributeSummary
 
 public class DistinctFiltersDto
 {
-    public required List<string> VendorNames { get; set; } = new List<string>();
+    public required List<CloudProvider> VendorNames { get; set; } = new List<CloudProvider>();
     public required List<string> Services { get; set; } = new List<string>();
     public required List<string> Regions { get; set; } = new List<string>();
     public required List<string> ProductFamilies { get; set; } = new List<string>();

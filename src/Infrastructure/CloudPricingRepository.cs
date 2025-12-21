@@ -1,6 +1,7 @@
 ﻿using Application.Models.Dtos;
 using Application.Ports;
 using System.Text.Json;
+using System.Text.Json.Serialization;
 
 namespace Infrastructure;
 
@@ -14,8 +15,9 @@ public class CloudPricingRepository(string? dataDirectory = null) : ICloudPricin
         var options = new JsonSerializerOptions
         {
             PropertyNameCaseInsensitive = true,
-            NumberHandling = System.Text.Json.Serialization.JsonNumberHandling.AllowReadingFromString
+            NumberHandling = JsonNumberHandling.AllowReadingFromString
         };
+        options.Converters.Add(new JsonStringEnumConverter(JsonNamingPolicy.CamelCase));
 
         var combined = new CloudPricingDto
         {

@@ -53,7 +53,7 @@ builder.Services.AddScoped<ICloudPricingRepository, CloudPricingRepository>();
 builder.Services.AddScoped<ICloudPricingFileFacade, CloudPricingFileFacade>();
 builder.Services.AddScoped<ITemplateFacade, TemplateFacade>();
 builder.Services.AddScoped<IResourceNormalizationService, ResourceNormalizationService>();
-builder.Services.AddScoped<ICloudPricingProvider, CloudPricingProvider>();
+builder.Services.AddScoped<ICloudPricingRepositoryFacade, CloudPricingRepositoryFacade>();
 
 var app = builder.Build();
 

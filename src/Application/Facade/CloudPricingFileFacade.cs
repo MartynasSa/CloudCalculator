@@ -10,7 +10,7 @@ public interface ICloudPricingFileFacade
     Task<DistinctFiltersDto> GetDistinctFiltersAsync(CancellationToken cancellationToken);
 }
 
-public class CloudPricingFileFacade(ICloudPricingProvider cloudPricingProvider) : ICloudPricingFileFacade
+public class CloudPricingFileFacade(ICloudPricingRepositoryFacade cloudPricingProvider) : ICloudPricingFileFacade
 {
     public async Task<PagedResult<CloudPricingProductDto>?> GetOrCreatePagedAsync(PricingRequest? pagination, CancellationToken cancellationToken)
     {
@@ -24,8 +24,8 @@ public class CloudPricingFileFacade(ICloudPricingProvider cloudPricingProvider) 
         var filtered = products.AsEnumerable();
 
         // Product-level filters
-        if (!string.IsNullOrWhiteSpace(request.VendorName))
-            filtered = filtered.Where(p => !string.IsNullOrWhiteSpace(p.VendorName) && p.VendorName.Contains(request.VendorName, StringComparison.OrdinalIgnoreCase));
+        if (request.VendorName != null)
+            filtered = filtered.Where(p => p.VendorName == request.VendorName);
 
         if (!string.IsNullOrWhiteSpace(request.Service))
             filtered = filtered.Where(p => !string.IsNullOrWhiteSpace(p.Service) && p.Service.Contains(request.Service, StringComparison.OrdinalIgnoreCase));
@@ -69,10 +69,8 @@ public class CloudPricingFileFacade(ICloudPricingProvider cloudPricingProvider) 
         var comparer = StringComparer.OrdinalIgnoreCase;
 
         var vendorNames = products
-            .Where(p => !string.IsNullOrWhiteSpace(p.VendorName))
-            .Select(p => p.VendorName!.Trim())
-            .Distinct(comparer)
-            .OrderBy(s => s, comparer)
+            .Select(p => p.VendorName)
+            .Distinct()
             .ToList();
 
         var services = products

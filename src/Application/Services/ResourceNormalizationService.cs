@@ -1,4 +1,5 @@
 ﻿using Application.Models.Dtos;
+using Application.Models.Enums;
 using Application.Ports;
 
 namespace Application.Services;
@@ -85,7 +86,7 @@ public class ResourceNormalizationService(ICloudPricingRepository cloudPricingRe
         {
             "Compute Instance" => true,
             "Compute Instance (bare metal)" => true,
-            "Compute" when product.VendorName == "azure" && product.Service == "Virtual Machines" => true,
+            "Compute" when product.VendorName == CloudProvider.Azure && product.Service == "Virtual Machines" => true,
             _ => false
         };
     }
@@ -95,7 +96,7 @@ public class ResourceNormalizationService(ICloudPricingRepository cloudPricingRe
         return product.ProductFamily switch
         {
             "Database Instance" => true,
-            "Databases" when product.VendorName == "azure" => true,
+            "Databases" when product.VendorName == CloudProvider.Azure => true,
             _ => false
         };
     }

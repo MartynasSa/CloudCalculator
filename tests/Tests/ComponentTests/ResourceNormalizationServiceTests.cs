@@ -1,3 +1,4 @@
+using Application.Models.Enums;
 using Application.Services;
 using Microsoft.AspNetCore.Mvc.Testing;
 using Microsoft.Extensions.DependencyInjection;
@@ -24,16 +25,16 @@ public class ResourceNormalizationServiceTests(WebApplicationFactory<Program> fa
         // Assert
         Assert.NotNull(result);
         Assert.NotEmpty(result);
-        
+
         // Verify we have instances from different clouds
-        Assert.Contains(result, r => r.Cloud == "aws");
-        Assert.Contains(result, r => r.Cloud == "azure");
-        Assert.Contains(result, r => r.Cloud == "gcp");
+        Assert.Contains(result, r => r.Cloud == CloudProvider.AWS);
+        Assert.Contains(result, r => r.Cloud == CloudProvider.Azure);
+        Assert.Contains(result, r => r.Cloud == CloudProvider.GCP);
 
         // Verify all instances have required properties
         foreach (var instance in result)
         {
-            Assert.False(string.IsNullOrWhiteSpace(instance.Cloud));
+            Assert.False(string.IsNullOrWhiteSpace(instance.Cloud.ToString()));
             Assert.False(string.IsNullOrWhiteSpace(instance.InstanceName));
             Assert.False(string.IsNullOrWhiteSpace(instance.Region));
         }
@@ -47,11 +48,11 @@ public class ResourceNormalizationServiceTests(WebApplicationFactory<Program> fa
 
         // Act
         var result = await service.GetNormalizedComputeInstancesAsync();
-        var awsInstances = result.Where(r => r.Cloud == "aws").ToList();
+        var awsInstances = result.Where(r => r.Cloud == CloudProvider.AWS).ToList();
 
         // Assert
         Assert.NotEmpty(awsInstances);
-        
+
         // At least some AWS instances should have vCPU and memory
         Assert.Contains(awsInstances, i => i.VCpu.HasValue && i.VCpu.Value > 0);
         Assert.Contains(awsInstances, i => !string.IsNullOrWhiteSpace(i.Memory));
@@ -65,11 +66,11 @@ public class ResourceNormalizationServiceTests(WebApplicationFactory<Program> fa
 
         // Act
         var result = await service.GetNormalizedComputeInstancesAsync();
-        var azureInstances = result.Where(r => r.Cloud == "azure").ToList();
+        var azureInstances = result.Where(r => r.Cloud == CloudProvider.Azure).ToList();
 
         // Assert
         Assert.NotEmpty(azureInstances);
-        
+
         // Azure instances should have vCPU (numberOfCores or vCpusAvailable)
         // Note: Azure data may not include memory as a separate attribute
         Assert.Contains(azureInstances, i => i.VCpu.HasValue && i.VCpu.Value > 0);
@@ -87,15 +88,15 @@ public class ResourceNormalizationServiceTests(WebApplicationFactory<Program> fa
         // Assert
         Assert.NotNull(result);
         Assert.NotEmpty(result);
-        
+
         // Verify we have databases from different clouds
-        Assert.Contains(result, r => r.Cloud == "aws");
-        Assert.Contains(result, r => r.Cloud == "azure");
+        Assert.Contains(result, r => r.Cloud == CloudProvider.AWS);
+        Assert.Contains(result, r => r.Cloud == CloudProvider.Azure);
 
         // Verify all databases have required properties
         foreach (var db in result)
         {
-            Assert.False(string.IsNullOrWhiteSpace(db.Cloud));
+            Assert.False(string.IsNullOrWhiteSpace(db.Cloud.ToString()));
             Assert.False(string.IsNullOrWhiteSpace(db.InstanceName));
             Assert.False(string.IsNullOrWhiteSpace(db.Region));
         }
@@ -109,11 +110,11 @@ public class ResourceNormalizationServiceTests(WebApplicationFactory<Program> fa
 
         // Act
         var result = await service.GetNormalizedDatabasesAsync();
-        var awsDatabases = result.Where(r => r.Cloud == "aws").ToList();
+        var awsDatabases = result.Where(r => r.Cloud == CloudProvider.AWS).ToList();
 
         // Assert
         Assert.NotEmpty(awsDatabases);
-        
+
         // At least some AWS databases should have database engine
         Assert.Contains(awsDatabases, db => !string.IsNullOrWhiteSpace(db.DatabaseEngine));
     }
@@ -129,7 +130,7 @@ public class ResourceNormalizationServiceTests(WebApplicationFactory<Program> fa
 
         // Assert
         Assert.NotEmpty(result);
-        
+
         // At least some databases should have vCPU and memory
         Assert.Contains(result, db => db.VCpu.HasValue && db.VCpu.Value > 0);
         Assert.Contains(result, db => !string.IsNullOrWhiteSpace(db.Memory));

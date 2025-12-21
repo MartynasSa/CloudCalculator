@@ -37,7 +37,7 @@ public class CloudPricingControllerTests(WebApplicationFactory<Program> factory)
         var basePaged = await JsonSerializer.DeserializeAsync<PagedResult<CloudPricingProductDto>>(baseStream, options);
         Assert.NotNull(basePaged);
 
-        var vendor = "aws";
+        var vendor = "AWS";
         var response = await Client.GetAsync($"/api/cloud-pricing?vendorName={vendor}&page=1&pageSize=10");
         response.EnsureSuccessStatusCode();
 
@@ -51,7 +51,7 @@ public class CloudPricingControllerTests(WebApplicationFactory<Program> factory)
         if (paged.TotalCount > 0)
         {
             Assert.All(paged.Items, item =>
-                Assert.Contains(vendor, item.VendorName, System.StringComparison.OrdinalIgnoreCase));
+                Assert.Contains(vendor, item.VendorName.ToString()));
         }
     }
 
@@ -169,7 +169,7 @@ public class CloudPricingControllerTests(WebApplicationFactory<Program> factory)
         {
             Assert.All(paged.Items, item =>
             {
-                Assert.Contains(vendor, item.VendorName, System.StringComparison.OrdinalIgnoreCase);
+                Assert.Contains(vendor, item.VendorName.ToString());
                 Assert.Contains(service, item.Service, System.StringComparison.OrdinalIgnoreCase);
             });
         }

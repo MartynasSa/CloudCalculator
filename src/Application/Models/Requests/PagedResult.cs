@@ -1,4 +1,5 @@
-﻿using System.Text.Json.Serialization;
+﻿using Application.Models.Enums;
+using System.Text.Json.Serialization;
 
 namespace Application.Models.Dtos;
 
@@ -10,7 +11,7 @@ public class PaginationParameters
 
 public class PricingRequest : PaginationParameters
 {
-    public string? VendorName { get; set; }
+    public CloudProvider? VendorName { get; set; }
     public string? Service { get; set; }
     public string? Region { get; set; }
     public string? ProductFamily { get; set; }

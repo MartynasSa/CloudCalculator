@@ -1,8 +1,10 @@
+using Application.Models.Enums;
+
 namespace Application.Models.Dtos;
 
 public class NormalizedComputeInstanceDto
 {
-    public required string Cloud { get; set; }
+    public required CloudProvider Cloud { get; set; }
     public required string InstanceName { get; set; }
     public required string Region { get; set; }
     public int? VCpu { get; set; }
@@ -12,7 +14,7 @@ public class NormalizedComputeInstanceDto
 
 public class NormalizedDatabaseDto
 {
-    public required string Cloud { get; set; }
+    public required CloudProvider Cloud { get; set; }
     public required string InstanceName { get; set; }
     public required string Region { get; set; }
     public string? DatabaseEngine { get; set; }
