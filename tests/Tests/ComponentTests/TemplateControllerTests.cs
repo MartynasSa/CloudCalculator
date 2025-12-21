@@ -3,6 +3,7 @@ using Application.Models.Enums;
 using Microsoft.AspNetCore.Mvc.Testing;
 using System.Net;
 using System.Text.Json;
+using System.Text.Json.Serialization;
 
 namespace Tests.ComponentTests;
 
@@ -11,7 +12,8 @@ public class TemplateControllerTests(WebApplicationFactory<Program> factory) : T
     private static readonly JsonSerializerOptions JsonOptions = new()
     {
         PropertyNameCaseInsensitive = true,
-        AllowTrailingCommas = true
+        AllowTrailingCommas = true,
+        Converters = { new JsonStringEnumConverter(JsonNamingPolicy.CamelCase) }
     };
 
     [Fact]

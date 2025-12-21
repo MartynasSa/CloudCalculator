@@ -135,6 +135,7 @@ public class TemplateFacade(IResourceNormalizationService resourceNormalizationS
         return instances
             .Where(i => i.VCpu >= minCpu)
             .Where(i => ParseMemory(i.Memory) >= minMemory)
+            .Where(i => i.PricePerHour.HasValue && i.PricePerHour.Value > 0)
             .OrderBy(i => i.PricePerHour)
             .FirstOrDefault();
     }
@@ -148,6 +149,7 @@ public class TemplateFacade(IResourceNormalizationService resourceNormalizationS
         return instances
             .Where(i => i.VCpu >= minCpu)
             .Where(i => ParseMemory(i.Memory) >= minMemory)
+            .Where(i => i.PricePerHour.HasValue && i.PricePerHour.Value > 0)
             .OrderBy(i => i.PricePerHour)
             .FirstOrDefault();
     }

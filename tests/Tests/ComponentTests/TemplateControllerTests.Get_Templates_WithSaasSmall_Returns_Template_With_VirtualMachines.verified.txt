@@ -1,0 +1,27 @@
+﻿{
+  Template: saas,
+  Usage: small,
+  VirtualMachines: {
+    aws: {
+      InstanceName: c6a.large,
+      CpuCores: 2.0,
+      Memory: 4.0,
+      PricePerMonth: 67.160
+    },
+    azure: {
+      InstanceName: Standard_DC2as_v6,
+      CpuCores: 2.0,
+      Memory: 8.0,
+      PricePerMonth: 8.3220
+    }
+  },
+  Databases: {
+    azure: {
+      InstanceName: Standard_B4ms,
+      CpuCores: 4.0,
+      Memory: 16.0,
+      DatabaseEngine: PostgreSQL,
+      PricePerMonth: 408.80
+    }
+  }
+}
