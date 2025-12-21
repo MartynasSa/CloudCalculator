@@ -6,14 +6,17 @@ namespace Tests.ComponentTests;
 
 public class ResourceNormalizationServiceTests(WebApplicationFactory<Program> factory) : TestBase(factory)
 {
-    private readonly WebApplicationFactory<Program> _factory = factory;
+    private IResourceNormalizationService GetService()
+    {
+        var scope = factory.Services.CreateScope();
+        return scope.ServiceProvider.GetRequiredService<IResourceNormalizationService>();
+    }
 
     [Fact]
     public async Task GetNormalizedComputeInstancesAsync_Returns_ComputeInstances()
     {
         // Arrange
-        using var scope = _factory.Services.CreateScope();
-        var service = scope.ServiceProvider.GetRequiredService<IResourceNormalizationService>();
+        var service = GetService();
 
         // Act
         var result = await service.GetNormalizedComputeInstancesAsync();
@@ -40,8 +43,7 @@ public class ResourceNormalizationServiceTests(WebApplicationFactory<Program> fa
     public async Task GetNormalizedComputeInstancesAsync_AWS_Instances_Have_CPU_And_Memory()
     {
         // Arrange
-        using var scope = _factory.Services.CreateScope();
-        var service = scope.ServiceProvider.GetRequiredService<IResourceNormalizationService>();
+        var service = GetService();
 
         // Act
         var result = await service.GetNormalizedComputeInstancesAsync();
@@ -59,8 +61,7 @@ public class ResourceNormalizationServiceTests(WebApplicationFactory<Program> fa
     public async Task GetNormalizedComputeInstancesAsync_Azure_Instances_Have_CPU_And_Memory()
     {
         // Arrange
-        using var scope = _factory.Services.CreateScope();
-        var service = scope.ServiceProvider.GetRequiredService<IResourceNormalizationService>();
+        var service = GetService();
 
         // Act
         var result = await service.GetNormalizedComputeInstancesAsync();
@@ -78,8 +79,7 @@ public class ResourceNormalizationServiceTests(WebApplicationFactory<Program> fa
     public async Task GetNormalizedDatabasesAsync_Returns_DatabaseInstances()
     {
         // Arrange
-        using var scope = _factory.Services.CreateScope();
-        var service = scope.ServiceProvider.GetRequiredService<IResourceNormalizationService>();
+        var service = GetService();
 
         // Act
         var result = await service.GetNormalizedDatabasesAsync();
@@ -105,8 +105,7 @@ public class ResourceNormalizationServiceTests(WebApplicationFactory<Program> fa
     public async Task GetNormalizedDatabasesAsync_AWS_Databases_Have_DatabaseEngine()
     {
         // Arrange
-        using var scope = _factory.Services.CreateScope();
-        var service = scope.ServiceProvider.GetRequiredService<IResourceNormalizationService>();
+        var service = GetService();
 
         // Act
         var result = await service.GetNormalizedDatabasesAsync();
@@ -123,8 +122,7 @@ public class ResourceNormalizationServiceTests(WebApplicationFactory<Program> fa
     public async Task GetNormalizedDatabasesAsync_Databases_Have_CPU_And_Memory()
     {
         // Arrange
-        using var scope = _factory.Services.CreateScope();
-        var service = scope.ServiceProvider.GetRequiredService<IResourceNormalizationService>();
+        var service = GetService();
 
         // Act
         var result = await service.GetNormalizedDatabasesAsync();
