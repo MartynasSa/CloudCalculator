@@ -1,0 +1,9 @@
+﻿{
+  azure: {
+    InstanceName: Standard_B4ms,
+    CpuCores: 4.0,
+    Memory: 16.0,
+    DatabaseEngine: PostgreSQL,
+    PricePerMonth: 408.80
+  }
+}

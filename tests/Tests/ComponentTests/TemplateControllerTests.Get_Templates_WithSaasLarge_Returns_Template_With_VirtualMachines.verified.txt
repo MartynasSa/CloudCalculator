@@ -1,0 +1,27 @@
+﻿{
+  Template: saas,
+  Usage: large,
+  VirtualMachines: {
+    aws: {
+      InstanceName: r5d.4xlarge,
+      CpuCores: 16.0,
+      Memory: 128.0,
+      PricePerMonth: 109.50
+    },
+    azure: {
+      InstanceName: Standard_EC8as_cc_v5,
+      CpuCores: 8.0,
+      Memory: 64.0,
+      PricePerMonth: 41.7560
+    }
+  },
+  Databases: {
+    azure: {
+      InstanceName: Standard_B4ms,
+      CpuCores: 4.0,
+      Memory: 16.0,
+      DatabaseEngine: PostgreSQL,
+      PricePerMonth: 408.80
+    }
+  }
+}

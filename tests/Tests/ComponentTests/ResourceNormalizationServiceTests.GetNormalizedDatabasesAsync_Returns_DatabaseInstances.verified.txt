@@ -30,7 +30,9 @@
     Cloud: azure,
     InstanceName: Standard_D16ds_v5,
     Region: japaneast,
+    DatabaseEngine: PostgreSQL,
     VCpu: 16,
+    Memory: 64 GB,
     PricePerHour: 1.952
   },
   {
@@ -49,6 +51,7 @@
     Cloud: azure,
     InstanceName: AzureDB_MySQL_Flexible_Server_Memory_Optimized_Eadsv5_Series,
     Region: koreacentral,
+    DatabaseEngine: MySQL,
     PricePerHour: 745.0
   },
   {
@@ -109,6 +112,7 @@
     Cloud: azure,
     InstanceName: AzureDB_PostgreSQL_Flexible_Server_Memory_Optimized_Esv3Series_Compute,
     Region: usgovtexas,
+    DatabaseEngine: PostgreSQL,
     PricePerHour: 621.0
   },
   {
@@ -121,6 +125,7 @@
     Cloud: azure,
     InstanceName: Free,
     Region: southcentralus,
+    DatabaseEngine: PostgreSQL,
     PricePerHour: 0.0
   },
   {
@@ -133,6 +138,7 @@
     Cloud: azure,
     InstanceName: Backup GRS,
     Region: koreacentral,
+    DatabaseEngine: PostgreSQL,
     PricePerHour: 0.0
   },
   {
@@ -169,6 +175,7 @@
     Cloud: azure,
     InstanceName: Azure_Database_for_PostgreSQL_Flexible_Server_Memory_Purpose_Eadsv5_Series_Compute_20_vCore,
     Region: israelcentral,
+    DatabaseEngine: PostgreSQL,
     PricePerHour: 3.322
   },
   {
@@ -181,7 +188,9 @@
     Cloud: azure,
     InstanceName: Standard_M64dms_v2,
     Region: swedencentral,
+    DatabaseEngine: PostgreSQL,
     VCpu: 64,
+    Memory: 1792 GB,
     PricePerHour: 21.09
   },
   {
@@ -200,18 +209,21 @@
     Cloud: azure,
     InstanceName: AzureDB_MySQL_Flexible_Server_Memory_Optimized_Eadsv6_Series,
     Region: koreasouth,
+    DatabaseEngine: MySQL,
     PricePerHour: 1491.0
   },
   {
     Cloud: azure,
     InstanceName: Backup,
     Region: ukwest,
+    DatabaseEngine: PostgreSQL,
     PricePerHour: 0.115
   },
   {
     Cloud: azure,
     InstanceName: General Purpose,
     Region: westus,
+    DatabaseEngine: PostgreSQL,
     PricePerHour: 0.138
   },
   {
@@ -224,6 +236,7 @@
     Cloud: azure,
     InstanceName: Storage,
     Region: eastasia,
+    DatabaseEngine: MySQL,
     PricePerHour: 0.15
   },
   {
@@ -236,6 +249,7 @@
     Cloud: azure,
     InstanceName: AzureDB_MySQL_General_Purpose_Compute_Gen5,
     Region: germanywestcentral,
+    DatabaseEngine: MySQL,
     PricePerHour: 0.1042
   },
   {
@@ -248,12 +262,14 @@
     Cloud: azure,
     InstanceName: AzureDB_MySQL_General_Purpose_Compute_Gen5,
     Region: germanywestcentral,
+    DatabaseEngine: MySQL,
     PricePerHour: 592.0
   },
   {
     Cloud: azure,
     InstanceName: Backup LRS,
     Region: switzerlandwest,
+    DatabaseEngine: PostgreSQL,
     PricePerHour: 0.0
   },
   {
@@ -267,6 +283,7 @@
     InstanceName: Standard_E4s_v4,
     Region: francecentral,
     VCpu: 4,
+    Memory: 32 GB,
     PricePerHour: 0.39
   },
   {
@@ -285,6 +302,7 @@
     Cloud: azure,
     InstanceName: AzureDB_MySQL_Flexible_Server_Memory_Optimized_Edsv5Series_Compute_96vCore,
     Region: swedencentral,
+    DatabaseEngine: MySQL,
     PricePerHour: 11.712
   },
   {
@@ -303,7 +321,9 @@
     Cloud: azure,
     InstanceName: Standard_E16ds_v5,
     Region: switzerlandnorth,
+    DatabaseEngine: PostgreSQL,
     VCpu: 16,
+    Memory: 128 GB,
     PricePerHour: 2.896
   },
   {
@@ -334,6 +354,7 @@
     Cloud: azure,
     InstanceName: 8 vCore,
     Region: indonesiacentral,
+    DatabaseEngine: MySQL,
     PricePerHour: 0.10575
   },
   {
@@ -346,6 +367,7 @@
     Cloud: azure,
     InstanceName: AzureDB_PostgreSQL_Flexible_Server_General_Purpose_Ddsv5Series_Compute_vCore,
     Region: uaenorth,
+    DatabaseEngine: PostgreSQL,
     PricePerHour: 0.109
   },
   {
@@ -412,6 +434,7 @@
     Cloud: azure,
     InstanceName: B8MS,
     Region: jioindiacentral,
+    DatabaseEngine: MySQL,
     PricePerHour: 0.784
   },
   {
@@ -430,6 +453,7 @@
     Cloud: azure,
     InstanceName: AzureDB_MySQL_Flexible_Server_General_Purpose_Compute_Ddsv5_Series,
     Region: japanwest,
+    DatabaseEngine: MySQL,
     PricePerHour: 0.127
   },
   {
@@ -460,6 +484,7 @@
     Cloud: azure,
     InstanceName: AzureDB_MySQL_Flexible_Server_Memory_Optimized_Edsv4Series_Compute,
     Region: austriaeast,
+    DatabaseEngine: MySQL,
     PricePerHour: 9.1456
   },
   {
@@ -478,6 +503,7 @@
     Cloud: azure,
     InstanceName: 2 vCore,
     Region: malaysiawest,
+    DatabaseEngine: MySQL,
     PricePerHour: 0.0936
   },
   {
@@ -526,6 +552,7 @@
     Cloud: azure,
     InstanceName: AzureDB_PostgreSQL_Flexible_Server_General_Purpose_Ddsv5Series_Compute_vCore,
     Region: westus,
+    DatabaseEngine: PostgreSQL,
     PricePerHour: 0.101
   },
   {
@@ -538,6 +565,7 @@
     Cloud: azure,
     InstanceName: AzureDB_MySQL_Flexible_Server_Business_Critical_Compute,
     Region: eastus2,
+    DatabaseEngine: MySQL,
     PricePerHour: 0.1181
   },
   {
@@ -550,6 +578,7 @@
     Cloud: azure,
     InstanceName: Basic,
     Region: qatarcentral,
+    DatabaseEngine: PostgreSQL,
     PricePerHour: 0.022
   },
   {
@@ -562,6 +591,7 @@
     Cloud: azure,
     InstanceName: AzureDB_PostgreSQL_Flexible_Server_General_Purpose_Ddsv5Series_Compute_vCore,
     Region: centralindia,
+    DatabaseEngine: PostgreSQL,
     PricePerHour: 660.0
   },
   {
@@ -580,7 +610,9 @@
     Cloud: azure,
     InstanceName: Standard_B4ms,
     Region: brazilsouth,
+    DatabaseEngine: PostgreSQL,
     VCpu: 4,
+    Memory: 16 GB,
     PricePerHour: 0.56
   },
   {
@@ -593,6 +625,7 @@
     Cloud: azure,
     InstanceName: AzureDB_MySQL_Flexible_Server_General_Purpose_Compute_Ddsv5_Series,
     Region: swedencentral,
+    DatabaseEngine: MySQL,
     PricePerHour: 473.0
   },
   {
@@ -635,6 +668,7 @@
     Cloud: azure,
     InstanceName: Azure_Database_for_PostgreSQL_Flexible_Server_Memory_Purpose_Eadsv5_Series_Compute_8_vCore,
     Region: newzealandnorth,
+    DatabaseEngine: PostgreSQL,
     PricePerHour: 1.26
   },
   {
@@ -665,6 +699,7 @@
     Cloud: azure,
     InstanceName: AzureDB_MySQL_Flexible_Server_Memory_Optimized_Edsv5Series_Compute_2vCore,
     Region: eastus,
+    DatabaseEngine: MySQL,
     PricePerHour: 0.236
   },
   {
@@ -683,6 +718,7 @@
     Cloud: azure,
     InstanceName: AzureDB_MySQL_Flexible_Server_Memory_Optimized_Edsv4Series_Compute,
     Region: westus,
+    DatabaseEngine: MySQL,
     PricePerHour: 2.0976
   },
   {
@@ -707,18 +743,21 @@
     Cloud: azure,
     InstanceName: AzureDB_MySQL_Flexible_Server_Memory_Optimized_Edsv4Series_Compute,
     Region: eastus,
+    DatabaseEngine: MySQL,
     PricePerHour: 0.2362
   },
   {
     Cloud: azure,
     InstanceName: B16MS,
     Region: uaecentral,
+    DatabaseEngine: MySQL,
     PricePerHour: 2.022
   },
   {
     Cloud: azure,
     InstanceName: AzureDB_PostgreSQL_Flexible_Server_Memory_Optimized_Edsv4Series_Compute,
     Region: westus3,
+    DatabaseEngine: PostgreSQL,
     PricePerHour: 0.5
   },
   {
@@ -797,6 +836,7 @@
     Cloud: azure,
     InstanceName: Azure_Database_for_PostgreSQL_Flexible_Server_Memory_Purpose_Eadsv5_Series_Compute_8_vCore,
     Region: italynorth,
+    DatabaseEngine: PostgreSQL,
     PricePerHour: 1.208
   },
   {
@@ -809,12 +849,14 @@
     Cloud: azure,
     InstanceName: 32 vCore,
     Region: israelnorthwest,
+    DatabaseEngine: MySQL,
     PricePerHour: 3.328
   },
   {
     Cloud: azure,
     InstanceName: AzureDB_MySQL_Flexible_Server_Memory_Optimized_Edsv4Series_Compute,
     Region: jioindiacentral,
+    DatabaseEngine: MySQL,
     PricePerHour: 12.9312
   },
   {
@@ -869,6 +911,7 @@
     Cloud: azure,
     InstanceName: AzureDB_MySQL_Flexible_Server_Memory_Optimized_Edsv4Series_Compute,
     Region: austriaeast,
+    DatabaseEngine: MySQL,
     PricePerHour: 13.7184
   },
   {

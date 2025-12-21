@@ -149,7 +149,15 @@ public class ResourceNormalizationService(ICloudPricingRepository cloudPricingRe
     private static string? GetMemory(CloudPricingProductDto product)
     {
         var memory = product.Attributes.FirstOrDefault(a => a.Key == "memory")?.Value;
-        return string.IsNullOrWhiteSpace(memory) ? null : memory;
+        if (!string.IsNullOrWhiteSpace(memory))
+            return memory;
+        
+        // Fallback to memoryInGB for Azure
+        var memoryInGB = product.Attributes.FirstOrDefault(a => a.Key == "memoryInGB")?.Value;
+        if (!string.IsNullOrWhiteSpace(memoryInGB))
+            return $"{memoryInGB} GB";
+        
+        return null;
     }
 
     private static decimal? GetPricePerHour(CloudPricingProductDto product)
@@ -173,6 +181,15 @@ public class ResourceNormalizationService(ICloudPricingRepository cloudPricingRe
     private static string? GetDatabaseEngine(CloudPricingProductDto product)
     {
         var engine = product.Attributes.FirstOrDefault(a => a.Key == "databaseEngine")?.Value;
-        return string.IsNullOrWhiteSpace(engine) ? null : engine;
+        if (!string.IsNullOrWhiteSpace(engine))
+            return engine;
+        
+        // Fallback to service name for Azure databases
+        if (product.Service != null && product.Service.Contains("PostgreSQL", StringComparison.OrdinalIgnoreCase))
+            return "PostgreSQL";
+        if (product.Service != null && product.Service.Contains("MySQL", StringComparison.OrdinalIgnoreCase))
+            return "MySQL";
+        
+        return null;
     }
 }

@@ -1,6 +1,7 @@
 ﻿using Application.Models.Dtos;
 using Microsoft.AspNetCore.Mvc.Testing;
 using System.Text.Json;
+using System.Text.Json.Serialization;
 
 namespace Tests.ComponentTests;
 
@@ -9,7 +10,8 @@ public class CloudPricingControllerTests(WebApplicationFactory<Program> factory)
     private static readonly JsonSerializerOptions JsonOptions = new()
     {
         PropertyNameCaseInsensitive = true,
-        AllowTrailingCommas = true
+        AllowTrailingCommas = true,
+        Converters = { new JsonStringEnumConverter(JsonNamingPolicy.CamelCase) }
     };
 
     [Fact]
