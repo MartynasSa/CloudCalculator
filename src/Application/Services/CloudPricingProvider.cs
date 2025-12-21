@@ -20,6 +20,6 @@ public class CloudPricingProvider(ICloudPricingRepository cloudPricingRepository
         {
             entry.AbsoluteExpirationRelativeToNow = DefaultTtl;
             return await cloudPricingRepository.GetAllAsync(cancellationToken).ConfigureAwait(false);
-        })!;
+        });
     }
 }
