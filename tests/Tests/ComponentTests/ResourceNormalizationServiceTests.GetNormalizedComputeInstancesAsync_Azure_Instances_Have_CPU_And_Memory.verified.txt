@@ -4,6 +4,7 @@
     InstanceName: Standard_E8a_v4,
     Region: southcentralus,
     VCpu: 8,
+    Memory: 64 GB,
     PricePerHour: 0.973
   },
   {
@@ -11,6 +12,7 @@
     InstanceName: Standard_E8-2s_v4,
     Region: northeurope,
     VCpu: 2,
+    Memory: 64 GB,
     PricePerHour: 0.139646
   },
   {
@@ -18,6 +20,7 @@
     InstanceName: Standard_D8_v4,
     Region: swedensouth,
     VCpu: 8,
+    Memory: 32 GB,
     PricePerHour: 0.106
   },
   {
@@ -31,6 +34,7 @@
     InstanceName: Standard_D4ls_v5,
     Region: switzerlandnorth,
     VCpu: 4,
+    Memory: 8 GB,
     PricePerHour: 0.045028
   },
   {
@@ -38,6 +42,7 @@
     InstanceName: Standard_E2_v5,
     Region: southeastasia,
     VCpu: 2,
+    Memory: 16 GB,
     PricePerHour: 0.0304
   },
   {
@@ -45,6 +50,7 @@
     InstanceName: Standard_NV72ads_A10_v5,
     Region: spaincentral,
     VCpu: 72,
+    Memory: 880 GB,
     PricePerHour: 1.566365
   },
   {
@@ -52,6 +58,7 @@
     InstanceName: Standard_E64-16s_v6,
     Region: norwayeast,
     VCpu: 16,
+    Memory: 512 GB,
     PricePerHour: 6.054
   },
   {
@@ -59,6 +66,7 @@
     InstanceName: Standard_D2as_v6,
     Region: chilecentral,
     VCpu: 2,
+    Memory: 8 GB,
     PricePerHour: 0.219
   },
   {
@@ -66,6 +74,7 @@
     InstanceName: Standard_M16-8ms,
     Region: israelcentral,
     VCpu: 8,
+    Memory: 437.5 GB,
     PricePerHour: 4.056
   },
   {
@@ -73,6 +82,7 @@
     InstanceName: Standard_L16aos_v4,
     Region: chilecentral,
     VCpu: 16,
+    Memory: 128 GB,
     PricePerHour: 0.467729
   },
   {
@@ -80,6 +90,7 @@
     InstanceName: Standard_D96als_v6,
     Region: westus3,
     VCpu: 96,
+    Memory: 192 GB,
     PricePerHour: 0.772
   },
   {
@@ -87,6 +98,7 @@
     InstanceName: Standard_A1_v2,
     Region: mexicocentral,
     VCpu: 1,
+    Memory: 2 GB,
     PricePerHour: 0.0934
   },
   {
@@ -94,6 +106,7 @@
     InstanceName: Standard_EC16ads_v6,
     Region: norwaywest,
     VCpu: 16,
+    Memory: 128 GB,
     PricePerHour: 0.432
   },
   {
@@ -101,6 +114,7 @@
     InstanceName: Standard_D48ls_v6,
     Region: westus2,
     VCpu: 48,
+    Memory: 96 GB,
     PricePerHour: 0.395842
   },
   {
@@ -108,6 +122,7 @@
     InstanceName: Standard_E48ads_v5,
     Region: usgovtexas,
     VCpu: 48,
+    Memory: 384 GB,
     PricePerHour: 1.134302
   },
   {
@@ -115,6 +130,7 @@
     InstanceName: Standard_M16ms,
     Region: jioindiacentral,
     VCpu: 16,
+    Memory: 437.5 GB,
     PricePerHour: 0.634
   },
   {
@@ -122,6 +138,7 @@
     InstanceName: Standard_D4as_v5,
     Region: ukwest,
     VCpu: 4,
+    Memory: 16 GB,
     PricePerHour: 0.038438
   },
   {
@@ -129,6 +146,7 @@
     InstanceName: Standard_D2d_v4,
     Region: eastus2,
     VCpu: 2,
+    Memory: 8 GB,
     PricePerHour: 0.0226
   },
   {
@@ -136,6 +154,7 @@
     InstanceName: Standard_E16-8ads_v5,
     Region: eastus2,
     VCpu: 8,
+    Memory: 128 GB,
     PricePerHour: 0.21
   },
   {
@@ -149,6 +168,7 @@
     InstanceName: Standard_F48s_v2,
     Region: spaincentral,
     VCpu: 48,
+    Memory: 96 GB,
     PricePerHour: 4.512
   },
   {
@@ -156,6 +176,7 @@
     InstanceName: Standard_D13_v2,
     Region: canadacentral,
     VCpu: 8,
+    Memory: 56 GB,
     PricePerHour: 0.146
   },
   {
@@ -163,6 +184,7 @@
     InstanceName: Standard_D16ls_v5,
     Region: ukwest,
     VCpu: 16,
+    Memory: 32 GB,
     PricePerHour: 1.559
   },
   {
@@ -182,6 +204,7 @@
     InstanceName: Standard_D96as_v5,
     Region: northcentralus,
     VCpu: 96,
+    Memory: 384 GB,
     PricePerHour: 0.826
   },
   {
@@ -189,6 +212,7 @@
     InstanceName: Standard_NC24s_v3,
     Region: southcentralus,
     VCpu: 24,
+    Memory: 448 GB,
     PricePerHour: 2.6928
   },
   {
@@ -196,6 +220,7 @@
     InstanceName: Standard_D32s_v6,
     Region: koreasouth,
     VCpu: 32,
+    Memory: 128 GB,
     PricePerHour: 0.342804
   },
   {
@@ -203,6 +228,7 @@
     InstanceName: Standard_M416-208ms_v2,
     Region: switzerlandnorth,
     VCpu: 208,
+    Memory: 11400 GB,
     PricePerHour: 173.81
   },
   {
@@ -210,6 +236,7 @@
     InstanceName: Standard_DC2ds_v3,
     Region: switzerlandnorth,
     VCpu: 2,
+    Memory: 16 GB,
     PricePerHour: 0.062647
   },
   {
@@ -229,6 +256,7 @@
     InstanceName: Standard_D16ads_v6,
     Region: japaneast,
     VCpu: 16,
+    Memory: 64 GB,
     PricePerHour: 0.238
   },
   {
@@ -236,6 +264,7 @@
     InstanceName: Standard_F72s_v2,
     Region: westus2,
     VCpu: 72,
+    Memory: 144 GB,
     PricePerHour: 0.609
   },
   {
@@ -249,6 +278,7 @@
     InstanceName: Standard_E16-4s_v6,
     Region: brazilsouth,
     VCpu: 4,
+    Memory: 128 GB,
     PricePerHour: 0.311942
   },
   {
@@ -256,6 +286,7 @@
     InstanceName: Standard_E8ds_v4,
     Region: chilecentral,
     VCpu: 8,
+    Memory: 64 GB,
     PricePerHour: 0.148949
   },
   {
@@ -263,6 +294,7 @@
     InstanceName: Standard_D8_v3,
     Region: switzerlandnorth,
     VCpu: 8,
+    Memory: 32 GB,
     PricePerHour: 0.101376
   },
   {
@@ -270,6 +302,7 @@
     InstanceName: Standard_DS2,
     Region: westindia,
     VCpu: 2,
+    Memory: 7 GB,
     PricePerHour: 0.025133
   },
   {
@@ -277,6 +310,7 @@
     InstanceName: Standard_D48alds_v6,
     Region: mexicocentral,
     VCpu: 48,
+    Memory: 96 GB,
     PricePerHour: 0.503
   },
   {
@@ -284,6 +318,7 @@
     InstanceName: Standard_E2as_v6,
     Region: norwayeast,
     VCpu: 2,
+    Memory: 16 GB,
     PricePerHour: 0.0341
   },
   {
@@ -291,6 +326,7 @@
     InstanceName: Standard_E32-8as_v4,
     Region: japanwest,
     VCpu: 8,
+    Memory: 256 GB,
     PricePerHour: 2.432
   },
   {
@@ -298,6 +334,7 @@
     InstanceName: Standard_L48s_v2,
     Region: westus3,
     VCpu: 48,
+    Memory: 384 GB,
     PricePerHour: 0.691891
   },
   {
@@ -305,6 +342,7 @@
     InstanceName: Standard_E32a_v4,
     Region: uaecentral,
     VCpu: 32,
+    Memory: 256 GB,
     PricePerHour: 0.596165
   },
   {
@@ -318,6 +356,7 @@
     InstanceName: Standard_D2as_v6,
     Region: norwayeast,
     VCpu: 2,
+    Memory: 8 GB,
     PricePerHour: 0.024024
   },
   {
@@ -325,6 +364,7 @@
     InstanceName: Standard_E4ds_v5,
     Region: australiacentral2,
     VCpu: 4,
+    Memory: 32 GB,
     PricePerHour: 0.0348
   },
   {
@@ -332,6 +372,7 @@
     InstanceName: Standard_E32s_v3,
     Region: jioindiawest,
     VCpu: 32,
+    Memory: 256 GB,
     PricePerHour: 3.664
   },
   {
@@ -339,6 +380,7 @@
     InstanceName: Standard_E128-32s_v6,
     Region: norwaywest,
     VCpu: 32,
+    Memory: 1024 GB,
     PricePerHour: 2.699189
   },
   {
@@ -346,6 +388,7 @@
     InstanceName: Standard_E8-4ds_v4,
     Region: southindia,
     VCpu: 4,
+    Memory: 64 GB,
     PricePerHour: 1.13
   },
   {
@@ -353,6 +396,7 @@
     InstanceName: Standard_E64-16ds_v5,
     Region: israelnorthwest,
     VCpu: 16,
+    Memory: 512 GB,
     PricePerHour: 1.075
   },
   {
@@ -360,6 +404,7 @@
     InstanceName: Standard_E20s_v5,
     Region: koreacentral,
     VCpu: 20,
+    Memory: 160 GB,
     PricePerHour: 0.304
   },
   {
@@ -367,6 +412,7 @@
     InstanceName: Standard_DC8ads_cc_v5,
     Region: southcentralus,
     VCpu: 8,
+    Memory: 32 GB,
     PricePerHour: 0.093218
   },
   {
@@ -374,6 +420,7 @@
     InstanceName: Standard_E32s_v4,
     Region: ukwest,
     VCpu: 32,
+    Memory: 256 GB,
     PricePerHour: 0.488
   },
   {
@@ -387,6 +434,7 @@
     InstanceName: Standard_D96as_v5,
     Region: israelnorthwest,
     VCpu: 96,
+    Memory: 384 GB,
     PricePerHour: 3.802
   },
   {
@@ -394,6 +442,7 @@
     InstanceName: Standard_E20s_v5,
     Region: centralindia,
     VCpu: 20,
+    Memory: 160 GB,
     PricePerHour: 0.24024
   },
   {
@@ -401,6 +450,7 @@
     InstanceName: Standard_E2d_v5,
     Region: germanynorth,
     VCpu: 2,
+    Memory: 16 GB,
     PricePerHour: 0.045
   },
   {
@@ -408,6 +458,7 @@
     InstanceName: Standard_E16s_v4,
     Region: eastus2,
     VCpu: 16,
+    Memory: 128 GB,
     PricePerHour: 0.202
   },
   {
@@ -415,6 +466,7 @@
     InstanceName: Standard_M32ts,
     Region: mexicocentral,
     VCpu: 32,
+    Memory: 192 GB,
     PricePerHour: 0.59554
   },
   {
@@ -422,6 +474,7 @@
     InstanceName: Standard_D64s_v5,
     Region: eastasia,
     VCpu: 64,
+    Memory: 256 GB,
     PricePerHour: 0.780595
   },
   {
@@ -429,6 +482,7 @@
     InstanceName: Standard_D64pls_v5,
     Region: centralus,
     VCpu: 64,
+    Memory: 128 GB,
     PricePerHour: 0.402046
   },
   {
@@ -442,6 +496,7 @@
     InstanceName: Standard_M32ms,
     Region: southeastasia,
     VCpu: 32,
+    Memory: 875 GB,
     PricePerHour: 1.646882
   },
   {
@@ -449,6 +504,7 @@
     InstanceName: Standard_D32as_v6,
     Region: canadaeast,
     VCpu: 32,
+    Memory: 128 GB,
     PricePerHour: 0.324
   },
   {
@@ -462,6 +518,7 @@
     InstanceName: Standard_E96as_v6,
     Region: canadaeast,
     VCpu: 96,
+    Memory: 672 GB,
     PricePerHour: 1.277
   },
   {
@@ -469,6 +526,7 @@
     InstanceName: Standard_B8ls_v2,
     Region: eastus,
     VCpu: 8,
+    Memory: 16 GB,
     PricePerHour: 0.0589
   },
   {
@@ -476,6 +534,7 @@
     InstanceName: Standard_D64ds_v6,
     Region: uksouth,
     VCpu: 64,
+    Memory: 256 GB,
     PricePerHour: 0.5532
   },
   {
@@ -483,6 +542,7 @@
     InstanceName: Standard_E4_v4,
     Region: japaneast,
     VCpu: 4,
+    Memory: 32 GB,
     PricePerHour: 0.488
   },
   {
@@ -490,6 +550,7 @@
     InstanceName: Standard_B4ls_v2,
     Region: westus2,
     VCpu: 4,
+    Memory: 8 GB,
     PricePerHour: 0.1323
   },
   {
@@ -497,6 +558,7 @@
     InstanceName: Standard_E20s_v6,
     Region: centralus,
     VCpu: 20,
+    Memory: 160 GB,
     PricePerHour: 0.256841
   },
   {
@@ -504,6 +566,7 @@
     InstanceName: Standard_L64s_v4,
     Region: westus2,
     VCpu: 64,
+    Memory: 512 GB,
     PricePerHour: 1.031923
   },
   {
@@ -511,6 +574,7 @@
     InstanceName: Standard_D96as_v5,
     Region: israelcentral,
     VCpu: 96,
+    Memory: 384 GB,
     PricePerHour: 9.504
   },
   {
@@ -518,6 +582,7 @@
     InstanceName: Standard_E64ds_v4,
     Region: chilecentral,
     VCpu: 64,
+    Memory: 504 GB,
     PricePerHour: 1.29
   },
   {
@@ -525,6 +590,7 @@
     InstanceName: Standard_L80s_v2,
     Region: eastus2,
     VCpu: 80,
+    Memory: 640 GB,
     PricePerHour: 1.248
   },
   {
@@ -532,6 +598,7 @@
     InstanceName: Standard_DC48ads_v6,
     Region: swedensouth,
     VCpu: 48,
+    Memory: 192 GB,
     PricePerHour: 0.764
   },
   {
@@ -539,6 +606,7 @@
     InstanceName: Standard_D48ds_v6,
     Region: southeastasia,
     VCpu: 48,
+    Memory: 192 GB,
     PricePerHour: 0.690782
   },
   {
@@ -546,6 +614,7 @@
     InstanceName: Standard_D8s_v5,
     Region: usgovvirginia,
     VCpu: 8,
+    Memory: 32 GB,
     PricePerHour: 0.852
   },
   {
@@ -553,6 +622,7 @@
     InstanceName: Standard_D96lds_v5,
     Region: southafricawest,
     VCpu: 96,
+    Memory: 192 GB,
     PricePerHour: 1.503965
   },
   {
@@ -560,6 +630,7 @@
     InstanceName: Standard_M32ms_v2,
     Region: westus,
     VCpu: 32,
+    Memory: 875 GB,
     PricePerHour: 1.451234
   },
   {
@@ -567,6 +638,7 @@
     InstanceName: Standard_DS14-8_v2,
     Region: southafricawest,
     VCpu: 8,
+    Memory: 112 GB,
     PricePerHour: 2.009
   },
   {
@@ -574,6 +646,7 @@
     InstanceName: Standard_E64ads_v5,
     Region: japanwest,
     VCpu: 64,
+    Memory: 512 GB,
     PricePerHour: 0.940262
   },
   {
@@ -581,6 +654,7 @@
     InstanceName: Standard_GS5-8,
     Region: canadacentral,
     VCpu: 8,
+    Memory: 448 GB,
     PricePerHour: 1.549
   },
   {
@@ -594,6 +668,7 @@
     InstanceName: Standard_D32ads_v5,
     Region: southafricawest,
     VCpu: 32,
+    Memory: 128 GB,
     PricePerHour: 0.528528
   },
   {
@@ -601,6 +676,7 @@
     InstanceName: Standard_E2ds_v4,
     Region: brazilsoutheast,
     VCpu: 2,
+    Memory: 16 GB,
     PricePerHour: 0.299
   },
   {
@@ -608,6 +684,7 @@
     InstanceName: Standard_E48bs_v5,
     Region: westindia,
     VCpu: 48,
+    Memory: 384 GB,
     PricePerHour: 0.84583
   },
   {
@@ -615,6 +692,7 @@
     InstanceName: Standard_D16s_v6,
     Region: southindia,
     VCpu: 16,
+    Memory: 64 GB,
     PricePerHour: 0.210118
   },
   {
@@ -622,6 +700,7 @@
     InstanceName: Standard_D8s_v3,
     Region: norwaywest,
     VCpu: 8,
+    Memory: 32 GB,
     PricePerHour: 0.126773
   },
   {
@@ -635,6 +714,7 @@
     InstanceName: Standard_B4ls_v2,
     Region: northeurope,
     VCpu: 4,
+    Memory: 8 GB,
     PricePerHour: 0.18
   },
   {
@@ -648,6 +728,7 @@
     InstanceName: Standard_F8,
     Region: germanynorth,
     VCpu: 8,
+    Memory: 16 GB,
     PricePerHour: 0.119
   },
   {
@@ -655,6 +736,7 @@
     InstanceName: Standard_E64-16s_v3,
     Region: usgovvirginia,
     VCpu: 16,
+    Memory: 432 GB,
     PricePerHour: 0.963
   },
   {
@@ -662,6 +744,7 @@
     InstanceName: Standard_D2_v2,
     Region: bleufrancecentral,
     VCpu: 2,
+    Memory: 7 GB,
     PricePerHour: 0.3234
   },
   {
@@ -669,6 +752,7 @@
     InstanceName: Standard_B4s_v2,
     Region: usgovvirginia,
     VCpu: 4,
+    Memory: 16 GB,
     PricePerHour: 0.214
   },
   {
@@ -682,6 +766,7 @@
     InstanceName: Standard_DC4as_v6,
     Region: norwaywest,
     VCpu: 4,
+    Memory: 16 GB,
     PricePerHour: 0.338
   },
   {
@@ -689,6 +774,7 @@
     InstanceName: Standard_E8ds_v4,
     Region: chilecentral,
     VCpu: 8,
+    Memory: 64 GB,
     PricePerHour: 0.148949
   },
   {
@@ -696,6 +782,7 @@
     InstanceName: Standard_D4as_v6,
     Region: belgiumcentral,
     VCpu: 4,
+    Memory: 16 GB,
     PricePerHour: 0.404
   },
   {
@@ -703,6 +790,7 @@
     InstanceName: Standard_E32-16ads_v5,
     Region: westus2,
     VCpu: 16,
+    Memory: 256 GB,
     PricePerHour: 2.096
   },
   {
@@ -710,6 +798,7 @@
     InstanceName: Standard_E4s_v4,
     Region: eastasia,
     VCpu: 4,
+    Memory: 32 GB,
     PricePerHour: 0.518
   },
   {
@@ -723,6 +812,7 @@
     InstanceName: Standard_E4-2s_v3,
     Region: switzerlandnorth,
     VCpu: 2,
+    Memory: 32 GB,
     PricePerHour: 0.067584
   },
   {
@@ -730,6 +820,7 @@
     InstanceName: Standard_E8-2s_v6,
     Region: japaneast,
     VCpu: 2,
+    Memory: 64 GB,
     PricePerHour: 0.117902
   },
   {
@@ -737,6 +828,7 @@
     InstanceName: Standard_D32ads_v5,
     Region: northcentralus,
     VCpu: 32,
+    Memory: 128 GB,
     PricePerHour: 0.30455
   },
   {
@@ -744,6 +836,7 @@
     InstanceName: Standard_E64bds_v5,
     Region: australiaeast,
     VCpu: 64,
+    Memory: 512 GB,
     PricePerHour: 1.993277
   },
   {
@@ -757,6 +850,7 @@
     InstanceName: Standard_E4bs_v5,
     Region: polandcentral,
     VCpu: 4,
+    Memory: 32 GB,
     PricePerHour: 0.54
   },
   {
@@ -764,6 +858,7 @@
     InstanceName: Standard_B8as_v2,
     Region: norwaywest,
     VCpu: 8,
+    Memory: 32 GB,
     PricePerHour: 0.531
   },
   {
@@ -771,6 +866,7 @@
     InstanceName: Standard_D128lds_v6,
     Region: westus2,
     VCpu: 128,
+    Memory: 256 GB,
     PricePerHour: 1.304688
   },
   {
@@ -778,6 +874,7 @@
     InstanceName: Standard_D96as_v5,
     Region: germanywestcentral,
     VCpu: 96,
+    Memory: 384 GB,
     PricePerHour: 3.763
   },
   {
@@ -785,6 +882,7 @@
     InstanceName: Standard_A2m_v2,
     Region: centralus,
     VCpu: 2,
+    Memory: 16 GB,
     PricePerHour: 0.119
   },
   {
@@ -792,6 +890,7 @@
     InstanceName: Standard_L64s_v2,
     Region: japaneast,
     VCpu: 64,
+    Memory: 512 GB,
     PricePerHour: 8.8
   },
   {
@@ -817,6 +916,7 @@
     InstanceName: Standard_E8s_v3,
     Region: norwayeast,
     VCpu: 8,
+    Memory: 64 GB,
     PricePerHour: 0.141
   },
   {
@@ -830,6 +930,7 @@
     InstanceName: Standard_A4_v2,
     Region: usgovvirginia,
     VCpu: 4,
+    Memory: 8 GB,
     PricePerHour: 0.039
   },
   {
@@ -837,6 +938,7 @@
     InstanceName: Standard_F2s,
     Region: westindia,
     VCpu: 2,
+    Memory: 4 GB,
     PricePerHour: 0.0219
   },
   {
@@ -844,6 +946,7 @@
     InstanceName: Standard_D2as_v4,
     Region: southeastasia,
     VCpu: 2,
+    Memory: 8 GB,
     PricePerHour: 0.12
   },
   {
@@ -851,6 +954,7 @@
     InstanceName: Standard_D48ads_v5,
     Region: southeastasia,
     VCpu: 48,
+    Memory: 192 GB,
     PricePerHour: 0.572141
   },
   {
@@ -858,6 +962,7 @@
     InstanceName: Standard_L32as_v4,
     Region: southeastasia,
     VCpu: 32,
+    Memory: 256 GB,
     PricePerHour: 0.608177
   },
   {
@@ -865,6 +970,7 @@
     InstanceName: Standard_B2pts_v2,
     Region: westus3,
     VCpu: 2,
+    Memory: 1 GB,
     PricePerHour: 0.00668
   },
   {
@@ -872,6 +978,7 @@
     InstanceName: Standard_E32-8s_v3,
     Region: southindia,
     VCpu: 8,
+    Memory: 256 GB,
     PricePerHour: 4.139
   },
   {
@@ -879,6 +986,7 @@
     InstanceName: Standard_E32_v3,
     Region: canadacentral,
     VCpu: 32,
+    Memory: 256 GB,
     PricePerHour: 0.615069
   },
   {
@@ -886,6 +994,7 @@
     InstanceName: Standard_D192ds_v6,
     Region: israelcentral,
     VCpu: 192,
+    Memory: 768 GB,
     PricePerHour: 2.578884
   },
   {
@@ -893,6 +1002,7 @@
     InstanceName: Standard_D2as_v5,
     Region: southeastasia,
     VCpu: 2,
+    Memory: 8 GB,
     PricePerHour: 0.08
   },
   {
@@ -900,6 +1010,7 @@
     InstanceName: Standard_E2_v4,
     Region: swedencentral,
     VCpu: 2,
+    Memory: 16 GB,
     PricePerHour: 0.024763
   },
   {
@@ -907,6 +1018,7 @@
     InstanceName: Standard_D64lds_v5,
     Region: italynorth,
     VCpu: 64,
+    Memory: 128 GB,
     PricePerHour: 3.552
   },
   {
@@ -914,6 +1026,7 @@
     InstanceName: Standard_E8as_v4,
     Region: southafricawest,
     VCpu: 8,
+    Memory: 64 GB,
     PricePerHour: 0.874
   },
   {
@@ -921,6 +1034,7 @@
     InstanceName: Standard_E4-2ads_v5,
     Region: indonesiacentral,
     VCpu: 2,
+    Memory: 32 GB,
     PricePerHour: 0.0572
   },
   {
@@ -928,6 +1042,7 @@
     InstanceName: Standard_D32as_v4,
     Region: westus2,
     VCpu: 32,
+    Memory: 128 GB,
     PricePerHour: 0.307
   },
   {
@@ -935,6 +1050,7 @@
     InstanceName: Standard_E20s_v3,
     Region: australiacentral2,
     VCpu: 20,
+    Memory: 160 GB,
     PricePerHour: 0.302
   },
   {
@@ -942,6 +1058,7 @@
     InstanceName: Standard_E16-8ads_v5,
     Region: germanynorth,
     VCpu: 8,
+    Memory: 128 GB,
     PricePerHour: 0.329
   },
   {
@@ -949,6 +1066,7 @@
     InstanceName: Standard_E112ias_v5,
     Region: norwaywest,
     VCpu: 112,
+    Memory: 672 GB,
     PricePerHour: 12.94
   },
   {
@@ -956,6 +1074,7 @@
     InstanceName: Standard_D32ds_v5,
     Region: belgiumcentral,
     VCpu: 32,
+    Memory: 128 GB,
     PricePerHour: 0.435
   },
   {
@@ -963,6 +1082,7 @@
     InstanceName: Standard_E16-4s_v4,
     Region: indonesiacentral,
     VCpu: 4,
+    Memory: 128 GB,
     PricePerHour: 0.202171
   },
   {
@@ -970,6 +1090,7 @@
     InstanceName: Standard_D64ds_v5,
     Region: eastus2,
     VCpu: 64,
+    Memory: 256 GB,
     PricePerHour: 0.723
   },
   {
@@ -977,6 +1098,7 @@
     InstanceName: Standard_E128-64s_v6,
     Region: germanynorth,
     VCpu: 64,
+    Memory: 1024 GB,
     PricePerHour: 13.279
   },
   {
@@ -984,6 +1106,7 @@
     InstanceName: Standard_F8ams_v6,
     Region: eastus,
     VCpu: 8,
+    Memory: 64 GB,
     PricePerHour: 0.138904
   },
   {
@@ -991,6 +1114,7 @@
     InstanceName: Standard_E16-8as_v4,
     Region: southafricawest,
     VCpu: 8,
+    Memory: 128 GB,
     PricePerHour: 2.483
   },
   {
@@ -998,6 +1122,7 @@
     InstanceName: Standard_E32-8s_v4,
     Region: japaneast,
     VCpu: 8,
+    Memory: 256 GB,
     PricePerHour: 2.432
   },
   {
@@ -1005,6 +1130,7 @@
     InstanceName: Standard_D96ls_v5,
     Region: koreacentral,
     VCpu: 96,
+    Memory: 192 GB,
     PricePerHour: 4.608
   },
   {
@@ -1012,6 +1138,7 @@
     InstanceName: Standard_E2bds_v5,
     Region: uaecentral,
     VCpu: 2,
+    Memory: 16 GB,
     PricePerHour: 0.049526
   },
   {
@@ -1019,6 +1146,7 @@
     InstanceName: Standard_E2d_v5,
     Region: westus3,
     VCpu: 2,
+    Memory: 16 GB,
     PricePerHour: 0.0288
   },
   {
@@ -1026,6 +1154,7 @@
     InstanceName: Standard_E8d_v4,
     Region: southcentralus,
     VCpu: 8,
+    Memory: 64 GB,
     PricePerHour: 0.138415
   },
   {
@@ -1033,6 +1162,7 @@
     InstanceName: Standard_E8s_v4,
     Region: jioindiawest,
     VCpu: 8,
+    Memory: 64 GB,
     PricePerHour: 0.888
   },
   {
@@ -1040,6 +1170,7 @@
     InstanceName: Standard_A8_v2,
     Region: indonesiacentral,
     VCpu: 8,
+    Memory: 16 GB,
     PricePerHour: 0.0782
   },
   {
@@ -1047,6 +1178,7 @@
     InstanceName: Standard_A1_v2,
     Region: newzealandnorth,
     VCpu: 1,
+    Memory: 2 GB,
     PricePerHour: 0.105
   },
   {
@@ -1054,6 +1186,7 @@
     InstanceName: Standard_NC6s_v3,
     Region: qatarcentral,
     VCpu: 6,
+    Memory: 112 GB,
     PricePerHour: 0.777084
   },
   {
@@ -1067,6 +1200,7 @@
     InstanceName: Standard_DC8ads_cc_v5,
     Region: swedencentral,
     VCpu: 8,
+    Memory: 32 GB,
     PricePerHour: 0.083028
   },
   {
@@ -1074,6 +1208,7 @@
     InstanceName: Standard_D8s_v5,
     Region: germanynorth,
     VCpu: 8,
+    Memory: 32 GB,
     PricePerHour: 0.12
   },
   {
@@ -1087,6 +1222,7 @@
     InstanceName: Standard_E104i_v5,
     Region: centralindia,
     VCpu: 104,
+    Memory: 672 GB,
     PricePerHour: 1.374173
   },
   {
@@ -1094,6 +1230,7 @@
     InstanceName: Standard_E32-8as_v5,
     Region: westeurope,
     VCpu: 8,
+    Memory: 256 GB,
     PricePerHour: 0.438
   },
   {
@@ -1101,6 +1238,7 @@
     InstanceName: Standard_EC64ads_v6,
     Region: spaincentral,
     VCpu: 64,
+    Memory: 512 GB,
     PricePerHour: 1.007714
   },
   {
@@ -1108,6 +1246,7 @@
     InstanceName: Standard_M176-88bds_v3,
     Region: westeurope,
     VCpu: 88,
+    Memory: 1536 GB,
     PricePerHour: 29.04
   },
   {
@@ -1121,6 +1260,7 @@
     InstanceName: Standard_D64pls_v6,
     Region: westcentralus,
     VCpu: 64,
+    Memory: 128 GB,
     PricePerHour: 0.440009
   },
   {
@@ -1128,6 +1268,7 @@
     InstanceName: Standard_E2as_v5,
     Region: uksouth,
     VCpu: 2,
+    Memory: 16 GB,
     PricePerHour: 0.0266
   },
   {
@@ -1135,6 +1276,7 @@
     InstanceName: Standard_DS12_v2,
     Region: switzerlandwest,
     VCpu: 4,
+    Memory: 28 GB,
     PricePerHour: 0.1088
   },
   {
@@ -1142,6 +1284,7 @@
     InstanceName: Standard_F72s_v2,
     Region: francesouth,
     VCpu: 72,
+    Memory: 144 GB,
     PricePerHour: 0.612
   },
   {
@@ -1149,6 +1292,7 @@
     InstanceName: Standard_E96s_v5,
     Region: indonesiacentral,
     VCpu: 96,
+    Memory: 672 GB,
     PricePerHour: 1.313
   },
   {
@@ -1156,6 +1300,7 @@
     InstanceName: Standard_F8as_v6,
     Region: belgiumcentral,
     VCpu: 8,
+    Memory: 32 GB,
     PricePerHour: 0.121968
   },
   {
@@ -1163,6 +1308,7 @@
     InstanceName: Standard_D1_v2,
     Region: centralus,
     VCpu: 1,
+    Memory: 3.5 GB,
     PricePerHour: 0.0146
   },
   {
@@ -1170,6 +1316,7 @@
     InstanceName: Standard_E64a_v4,
     Region: usgovvirginia,
     VCpu: 64,
+    Memory: 512 GB,
     PricePerHour: 0.806
   },
   {
@@ -1177,6 +1324,7 @@
     InstanceName: Standard_D16_v3,
     Region: usgovarizona,
     VCpu: 16,
+    Memory: 64 GB,
     PricePerHour: 1.744
   },
   {
@@ -1184,6 +1332,7 @@
     InstanceName: Standard_E4a_v4,
     Region: koreacentral,
     VCpu: 4,
+    Memory: 32 GB,
     PricePerHour: 0.304
   },
   {
@@ -1191,6 +1340,7 @@
     InstanceName: Standard_D96s_v5,
     Region: polandcentral,
     VCpu: 96,
+    Memory: 384 GB,
     PricePerHour: 1.020096
   },
   {
@@ -1198,6 +1348,7 @@
     InstanceName: Standard_EC96ads_cc_v5,
     Region: westus,
     VCpu: 96,
+    Memory: 672 GB,
     PricePerHour: 1.340525
   },
   {
@@ -1205,6 +1356,7 @@
     InstanceName: Standard_F2s,
     Region: brazilsoutheast,
     VCpu: 2,
+    Memory: 4 GB,
     PricePerHour: 0.0373
   },
   {
@@ -1212,6 +1364,7 @@
     InstanceName: Standard_E32_v3,
     Region: westeurope,
     VCpu: 32,
+    Memory: 256 GB,
     PricePerHour: 0.473088
   },
   {
@@ -1219,6 +1372,7 @@
     InstanceName: Standard_DS13_v2,
     Region: australiacentral,
     VCpu: 8,
+    Memory: 56 GB,
     PricePerHour: 0.798
   },
   {
@@ -1238,6 +1392,7 @@
     InstanceName: Standard_F8s_v2,
     Region: eastus,
     VCpu: 8,
+    Memory: 16 GB,
     PricePerHour: 0.0677
   },
   {
@@ -1245,6 +1400,7 @@
     InstanceName: Standard_D32ps_v6,
     Region: canadacentral,
     VCpu: 32,
+    Memory: 128 GB,
     PricePerHour: 0.23063
   },
   {
@@ -1252,6 +1408,7 @@
     InstanceName: Standard_E2_v5,
     Region: germanynorth,
     VCpu: 2,
+    Memory: 16 GB,
     PricePerHour: 0.03659
   },
   {
@@ -1259,6 +1416,7 @@
     InstanceName: Standard_F4s,
     Region: belgiumcentral,
     VCpu: 4,
+    Memory: 8 GB,
     PricePerHour: 0.412
   },
   {
@@ -1266,6 +1424,7 @@
     InstanceName: Standard_D64_v3,
     Region: brazilsoutheast,
     VCpu: 64,
+    Memory: 256 GB,
     PricePerHour: 1.222267
   },
   {
@@ -1273,6 +1432,7 @@
     InstanceName: Standard_E64-32ds_v6,
     Region: koreacentral,
     VCpu: 32,
+    Memory: 512 GB,
     PricePerHour: 1.166458
   },
   {
@@ -1280,6 +1440,7 @@
     InstanceName: Standard_D4lds_v6,
     Region: northcentralus,
     VCpu: 4,
+    Memory: 8 GB,
     PricePerHour: 0.040841
   },
   {
@@ -1287,6 +1448,7 @@
     InstanceName: Standard_E96_v5,
     Region: italynorth,
     VCpu: 96,
+    Memory: 672 GB,
     PricePerHour: 11.52
   },
   {
@@ -1294,6 +1456,7 @@
     InstanceName: Standard_DC4as_cc_v5,
     Region: westus,
     VCpu: 4,
+    Memory: 16 GB,
     PricePerHour: 0.202
   },
   {
@@ -1307,6 +1470,7 @@
     InstanceName: Standard_E48ads_v5,
     Region: eastus2,
     VCpu: 48,
+    Memory: 384 GB,
     PricePerHour: 2.141
   },
   {
@@ -1314,6 +1478,7 @@
     InstanceName: Standard_L16s_v3,
     Region: westus,
     VCpu: 16,
+    Memory: 128 GB,
     PricePerHour: 1.536
   },
   {
@@ -1321,6 +1486,7 @@
     InstanceName: Standard_HB368-192rs_v5,
     Region: southcentralus,
     VCpu: 192,
+    Memory: 448 GB,
     PricePerHour: 4.752
   },
   {
@@ -1334,6 +1500,7 @@
     InstanceName: Standard_M832ids_16_v3,
     Region: westus3,
     VCpu: 832,
+    Memory: 15200 GB,
     PricePerHour: 210.33
   },
   {
@@ -1341,6 +1508,7 @@
     InstanceName: Standard_L48s_v2,
     Region: southeastasia,
     VCpu: 48,
+    Memory: 384 GB,
     PricePerHour: 4.488
   },
   {
@@ -1354,6 +1522,7 @@
     InstanceName: Standard_E20ads_v5,
     Region: belgiumcentral,
     VCpu: 20,
+    Memory: 160 GB,
     PricePerHour: 2.5
   },
   {
@@ -1361,6 +1530,7 @@
     InstanceName: Standard_D64s_v3,
     Region: attatlanta1,
     VCpu: 64,
+    Memory: 256 GB,
     PricePerHour: 0.8294
   },
   {
@@ -1368,6 +1538,7 @@
     InstanceName: Standard_E4-2s_v4,
     Region: israelcentral,
     VCpu: 2,
+    Memory: 32 GB,
     PricePerHour: 0.48
   },
   {
@@ -1375,6 +1546,7 @@
     InstanceName: Standard_DS12-1_v2,
     Region: canadaeast,
     VCpu: 1,
+    Memory: 28 GB,
     PricePerHour: 0.073
   },
   {
@@ -1382,6 +1554,7 @@
     InstanceName: Standard_M192is_v2,
     Region: centralindia,
     VCpu: 192,
+    Memory: 2048 GB,
     PricePerHour: 3.221
   },
   {
@@ -1389,6 +1562,7 @@
     InstanceName: Standard_D64as_v4,
     Region: eastasia,
     VCpu: 64,
+    Memory: 256 GB,
     PricePerHour: 0.845
   },
   {
@@ -1396,6 +1570,7 @@
     InstanceName: Standard_A8_v2,
     Region: francesouth,
     VCpu: 8,
+    Memory: 16 GB,
     PricePerHour: 0.111434
   },
   {
@@ -1409,6 +1584,7 @@
     InstanceName: Standard_E4d_v4,
     Region: ukwest,
     VCpu: 4,
+    Memory: 32 GB,
     PricePerHour: 0.06431
   },
   {
@@ -1416,6 +1592,7 @@
     InstanceName: Standard_E4-2ads_v5,
     Region: usgovtexas,
     VCpu: 2,
+    Memory: 32 GB,
     PricePerHour: 0.328
   },
   {
@@ -1423,6 +1600,7 @@
     InstanceName: Standard_EC8as_cc_v5,
     Region: centralindia,
     VCpu: 8,
+    Memory: 64 GB,
     PricePerHour: 0.0572
   },
   {
@@ -1430,6 +1608,7 @@
     InstanceName: Standard_E32_v4,
     Region: jioindiawest,
     VCpu: 32,
+    Memory: 256 GB,
     PricePerHour: 2.08
   },
   {
@@ -1437,6 +1616,7 @@
     InstanceName: Standard_M64m,
     Region: northeurope,
     VCpu: 64,
+    Memory: 1792 GB,
     PricePerHour: 2.292444
   },
   {
@@ -1450,6 +1630,7 @@
     InstanceName: Standard_B2ms,
     Region: belgiumcentral,
     VCpu: 2,
+    Memory: 8 GB,
     PricePerHour: 0.104
   },
   {
@@ -1457,6 +1638,7 @@
     InstanceName: Standard_D3,
     Region: eastus,
     VCpu: 4,
+    Memory: 14 GB,
     PricePerHour: 0.0616
   },
   {
@@ -1464,6 +1646,7 @@
     InstanceName: Standard_F1,
     Region: westeurope,
     VCpu: 1,
+    Memory: 2 GB,
     PricePerHour: 0.0568
   },
   {
@@ -1471,6 +1654,7 @@
     InstanceName: Standard_DC2ads_v5,
     Region: eastus,
     VCpu: 2,
+    Memory: 8 GB,
     PricePerHour: 0.0206
   },
   {
@@ -1484,6 +1668,7 @@
     InstanceName: Standard_F2s,
     Region: chilecentral,
     VCpu: 2,
+    Memory: 4 GB,
     PricePerHour: 0.025687
   },
   {
@@ -1491,6 +1676,7 @@
     InstanceName: Standard_D16lds_v6,
     Region: usgovvirginia,
     VCpu: 16,
+    Memory: 32 GB,
     PricePerHour: 0.195703
   },
   {
@@ -1498,6 +1684,7 @@
     InstanceName: Standard_DC8ads_v6,
     Region: germanynorth,
     VCpu: 8,
+    Memory: 32 GB,
     PricePerHour: 0.143
   },
   {
@@ -1505,6 +1692,7 @@
     InstanceName: Standard_DC96ads_cc_v5,
     Region: uksouth,
     VCpu: 96,
+    Memory: 384 GB,
     PricePerHour: 5.76
   },
   {
@@ -1512,6 +1700,7 @@
     InstanceName: Standard_F16s_v2,
     Region: southafricawest,
     VCpu: 16,
+    Memory: 32 GB,
     PricePerHour: 1.416
   },
   {
@@ -1519,6 +1708,7 @@
     InstanceName: Standard_E64-16ds_v4,
     Region: eastasia,
     VCpu: 16,
+    Memory: 504 GB,
     PricePerHour: 5.6
   },
   {
@@ -1526,6 +1716,7 @@
     InstanceName: Standard_D48as_v4,
     Region: southcentralus,
     VCpu: 48,
+    Memory: 192 GB,
     PricePerHour: 0.553
   },
   {
@@ -1533,6 +1724,7 @@
     InstanceName: Standard_D2als_v6,
     Region: francesouth,
     VCpu: 2,
+    Memory: 4 GB,
     PricePerHour: 0.022546
   },
   {
@@ -1540,6 +1732,7 @@
     InstanceName: Standard_M32bs_v3,
     Region: centralus,
     VCpu: 32,
+    Memory: 256 GB,
     PricePerHour: 0.582721
   },
   {
@@ -1547,6 +1740,7 @@
     InstanceName: Standard_A1_v2,
     Region: eastus,
     VCpu: 1,
+    Memory: 2 GB,
     PricePerHour: 0.0086
   },
   {
@@ -1554,6 +1748,7 @@
     InstanceName: Standard_E32ads_v5,
     Region: usgovtexas,
     VCpu: 32,
+    Memory: 256 GB,
     PricePerHour: 0.484176
   },
   {
@@ -1561,6 +1756,7 @@
     InstanceName: Standard_E4ds_v5,
     Region: usgovvirginia,
     VCpu: 4,
+    Memory: 32 GB,
     PricePerHour: 0.53
   },
   {
@@ -1568,6 +1764,7 @@
     InstanceName: Standard_L8as_v3,
     Region: uaecentral,
     VCpu: 8,
+    Memory: 64 GB,
     PricePerHour: 1.351
   },
   {
@@ -1575,6 +1772,7 @@
     InstanceName: Standard_D4,
     Region: westus3,
     VCpu: 8,
+    Memory: 28 GB,
     PricePerHour: 0.616
   },
   {
@@ -1582,6 +1780,7 @@
     InstanceName: Standard_EC32as_cc_v5,
     Region: switzerlandnorth,
     VCpu: 32,
+    Memory: 192 GB,
     PricePerHour: 0.48779
   },
   {
@@ -1589,6 +1788,7 @@
     InstanceName: Standard_D4a_v4,
     Region: northeurope,
     VCpu: 4,
+    Memory: 16 GB,
     PricePerHour: 0.214
   },
   {
@@ -1596,6 +1796,7 @@
     InstanceName: Standard_D96d_v5,
     Region: southindia,
     VCpu: 96,
+    Memory: 384 GB,
     PricePerHour: 7.648
   },
   {
@@ -1603,6 +1804,7 @@
     InstanceName: Standard_E64-32s_v3,
     Region: canadaeast,
     VCpu: 32,
+    Memory: 432 GB,
     PricePerHour: 0.734395
   },
   {
@@ -1616,6 +1818,7 @@
     InstanceName: Standard_E20_v4,
     Region: israelcentral,
     VCpu: 20,
+    Memory: 160 GB,
     PricePerHour: 2.4
   },
   {
@@ -1623,6 +1826,7 @@
     InstanceName: Standard_D4s_v5,
     Region: westcentralus,
     VCpu: 4,
+    Memory: 16 GB,
     PricePerHour: 0.414
   },
   {
@@ -1630,6 +1834,7 @@
     InstanceName: Standard_D64ds_v5,
     Region: australiaeast,
     VCpu: 64,
+    Memory: 256 GB,
     PricePerHour: 4.544
   },
   {
@@ -1637,6 +1842,7 @@
     InstanceName: Standard_DS1_v2,
     Region: northeurope,
     VCpu: 1,
+    Memory: 3.5 GB,
     PricePerHour: 0.116
   },
   {
@@ -1644,6 +1850,7 @@
     InstanceName: Standard_E48as_v4,
     Region: usgovarizona,
     VCpu: 48,
+    Memory: 384 GB,
     PricePerHour: 0.669715
   },
   {
@@ -1657,6 +1864,7 @@
     InstanceName: Standard_NC24ads_A100_v4,
     Region: centralindia,
     VCpu: 24,
+    Memory: 220 GB,
     PricePerHour: 5.142
   },
   {
@@ -1664,6 +1872,7 @@
     InstanceName: Standard_L4aos_v4,
     Region: switzerlandnorth,
     VCpu: 4,
+    Memory: 32 GB,
     PricePerHour: 0.109771
   },
   {
@@ -1671,6 +1880,7 @@
     InstanceName: Standard_D8as_v6,
     Region: polandcentral,
     VCpu: 8,
+    Memory: 32 GB,
     PricePerHour: 0.081312
   },
   {
@@ -1678,6 +1888,7 @@
     InstanceName: Standard_E16-8s_v6,
     Region: canadaeast,
     VCpu: 8,
+    Memory: 128 GB,
     PricePerHour: 1.159
   },
   {
@@ -1685,6 +1896,7 @@
     InstanceName: Standard_D32as_v5,
     Region: chilecentral,
     VCpu: 32,
+    Memory: 128 GB,
     PricePerHour: 3.407
   },
   {
@@ -1692,6 +1904,7 @@
     InstanceName: Standard_E16as_v5,
     Region: uaenorth,
     VCpu: 16,
+    Memory: 128 GB,
     PricePerHour: 1.856
   },
   {
@@ -1699,6 +1912,7 @@
     InstanceName: Standard_D48lds_v5,
     Region: westus2,
     VCpu: 48,
+    Memory: 96 GB,
     PricePerHour: 0.573005
   },
   {
@@ -1706,6 +1920,7 @@
     InstanceName: Standard_DC16ads_cc_v5,
     Region: jioindiawest,
     VCpu: 16,
+    Memory: 64 GB,
     PricePerHour: 0.537
   },
   {
@@ -1713,6 +1928,7 @@
     InstanceName: Standard_E8-4ds_v4,
     Region: indonesiacentral,
     VCpu: 4,
+    Memory: 64 GB,
     PricePerHour: 0.115685
   },
   {
@@ -1720,6 +1936,7 @@
     InstanceName: Standard_M64s,
     Region: canadaeast,
     VCpu: 64,
+    Memory: 1024 GB,
     PricePerHour: 7.3359
   },
   {
@@ -1733,6 +1950,7 @@
     InstanceName: Standard_E16-8ds_v4,
     Region: spaincentral,
     VCpu: 8,
+    Memory: 128 GB,
     PricePerHour: 0.236544
   },
   {
@@ -1740,6 +1958,7 @@
     InstanceName: Standard_E96-48ds_v5,
     Region: northcentralus,
     VCpu: 48,
+    Memory: 672 GB,
     PricePerHour: 1.382
   },
   {
@@ -1747,6 +1966,7 @@
     InstanceName: Standard_D8lds_v6,
     Region: uaenorth,
     VCpu: 8,
+    Memory: 16 GB,
     PricePerHour: 0.911
   },
   {
@@ -1754,6 +1974,7 @@
     InstanceName: Standard_NC24rs_v3,
     Region: centralindia,
     VCpu: 24,
+    Memory: 448 GB,
     PricePerHour: 18.63
   },
   {
@@ -1761,6 +1982,7 @@
     InstanceName: Standard_E2_v5,
     Region: japanwest,
     VCpu: 2,
+    Memory: 16 GB,
     PricePerHour: 0.244
   },
   {
@@ -1768,6 +1990,7 @@
     InstanceName: Standard_E32as_v5,
     Region: switzerlandwest,
     VCpu: 32,
+    Memory: 256 GB,
     PricePerHour: 0.621113
   },
   {
@@ -1793,6 +2016,7 @@
     InstanceName: Standard_FX12ms_v2,
     Region: westus3,
     VCpu: 12,
+    Memory: 252 GB,
     PricePerHour: 1.88
   },
   {
@@ -1800,6 +2024,7 @@
     InstanceName: Standard_FX64-16ms_v2,
     Region: austriaeast,
     VCpu: 16,
+    Memory: 1344 GB,
     PricePerHour: 12.151
   },
   {
@@ -1807,6 +2032,7 @@
     InstanceName: Standard_D2alds_v6,
     Region: koreasouth,
     VCpu: 2,
+    Memory: 4 GB,
     PricePerHour: 0.202
   },
   {
@@ -1820,6 +2046,7 @@
     InstanceName: Standard_D64ds_v6,
     Region: centralus,
     VCpu: 64,
+    Memory: 256 GB,
     PricePerHour: 4.505
   },
   {
@@ -1827,6 +2054,7 @@
     InstanceName: Standard_D8s_v3,
     Region: italynorth,
     VCpu: 8,
+    Memory: 32 GB,
     PricePerHour: 0.083507
   },
   {
@@ -1834,6 +2062,7 @@
     InstanceName: Standard_E16_v5,
     Region: eastus2,
     VCpu: 16,
+    Memory: 128 GB,
     PricePerHour: 0.202
   },
   {
@@ -1841,6 +2070,7 @@
     InstanceName: Standard_E8as_v5,
     Region: attatlanta1,
     VCpu: 8,
+    Memory: 64 GB,
     PricePerHour: 0.122
   },
   {
@@ -1854,6 +2084,7 @@
     InstanceName: Standard_D32ds_v5,
     Region: japaneast,
     VCpu: 32,
+    Memory: 128 GB,
     PricePerHour: 0.467
   },
   {
@@ -1861,6 +2092,7 @@
     InstanceName: Standard_M128bds_3_v3,
     Region: centralus,
     VCpu: 128,
+    Memory: 2794 GB,
     PricePerHour: 9.59726
   },
   {
@@ -1874,6 +2106,7 @@
     InstanceName: Standard_M64bds_1_v3,
     Region: northcentralus,
     VCpu: 64,
+    Memory: 1397 GB,
     PricePerHour: 4.246438
   },
   {
@@ -1881,6 +2114,7 @@
     InstanceName: Standard_M128bds_v3,
     Region: eastus,
     VCpu: 128,
+    Memory: 1024 GB,
     PricePerHour: 17.6
   },
   {
@@ -1900,6 +2134,7 @@
     InstanceName: Standard_FX48ms_v2,
     Region: germanynorth,
     VCpu: 48,
+    Memory: 1008 GB,
     PricePerHour: 9.67
   },
   {
@@ -1919,6 +2154,7 @@
     InstanceName: Standard_F2,
     Region: southafricanorth,
     VCpu: 2,
+    Memory: 4 GB,
     PricePerHour: 0.024578
   },
   {
@@ -1926,6 +2162,7 @@
     InstanceName: Standard_D16ads_v5,
     Region: uaecentral,
     VCpu: 16,
+    Memory: 64 GB,
     PricePerHour: 0.264
   },
   {
@@ -1933,6 +2170,7 @@
     InstanceName: Standard_E16-8ds_v4,
     Region: uaenorth,
     VCpu: 8,
+    Memory: 128 GB,
     PricePerHour: 0.282
   },
   {
@@ -1940,6 +2178,7 @@
     InstanceName: Standard_E2bds_v5,
     Region: southeastasia,
     VCpu: 2,
+    Memory: 16 GB,
     PricePerHour: 0.037265
   },
   {
@@ -1947,6 +2186,7 @@
     InstanceName: Standard_D32_v5,
     Region: switzerlandwest,
     VCpu: 32,
+    Memory: 128 GB,
     PricePerHour: 4.133
   },
   {
@@ -1954,6 +2194,7 @@
     InstanceName: Standard_A4m_v2,
     Region: usgovarizona,
     VCpu: 4,
+    Memory: 32 GB,
     PricePerHour: 0.048972
   },
   {
@@ -1961,6 +2202,7 @@
     InstanceName: Standard_EC32as_v6,
     Region: usgovarizona,
     VCpu: 32,
+    Memory: 256 GB,
     PricePerHour: 3.891
   },
   {
@@ -1968,6 +2210,7 @@
     InstanceName: Standard_D8_v4,
     Region: mexicocentral,
     VCpu: 8,
+    Memory: 32 GB,
     PricePerHour: 0.0845
   },
   {
@@ -1975,6 +2218,7 @@
     InstanceName: Standard_FX48-24mds_v2,
     Region: southeastasia,
     VCpu: 24,
+    Memory: 1008 GB,
     PricePerHour: 11.727
   },
   {
@@ -1982,6 +2226,7 @@
     InstanceName: Standard_E96-48ds_v6,
     Region: australiaeast,
     VCpu: 48,
+    Memory: 768 GB,
     PricePerHour: 13.822
   },
   {
@@ -1989,6 +2234,7 @@
     InstanceName: Standard_D32s_v6,
     Region: koreacentral,
     VCpu: 32,
+    Memory: 128 GB,
     PricePerHour: 3.454
   },
   {
@@ -1996,6 +2242,7 @@
     InstanceName: Standard_E16-8ds_v4,
     Region: swedensouth,
     VCpu: 8,
+    Memory: 128 GB,
     PricePerHour: 0.292169
   },
   {
@@ -2009,6 +2256,7 @@
     InstanceName: Standard_D2s_v3,
     Region: northcentralus,
     VCpu: 2,
+    Memory: 8 GB,
     PricePerHour: 0.01848
   },
   {
@@ -2016,6 +2264,7 @@
     InstanceName: Standard_E8_v4,
     Region: swedencentral,
     VCpu: 8,
+    Memory: 64 GB,
     PricePerHour: 0.536
   },
   {
@@ -2023,6 +2272,7 @@
     InstanceName: Standard_E48a_v4,
     Region: francecentral,
     VCpu: 48,
+    Memory: 384 GB,
     PricePerHour: 0.71
   },
   {
@@ -2030,6 +2280,7 @@
     InstanceName: Standard_M128-32ms,
     Region: westus2,
     VCpu: 32,
+    Memory: 3892 GB,
     PricePerHour: 4.931942
   },
   {
@@ -2037,6 +2288,7 @@
     InstanceName: Standard_E96ads_v6,
     Region: australiasoutheast,
     VCpu: 96,
+    Memory: 672 GB,
     PricePerHour: 1.676506
   },
   {
@@ -2050,6 +2302,7 @@
     InstanceName: Standard_D96ps_v6,
     Region: swedencentral,
     VCpu: 96,
+    Memory: 384 GB,
     PricePerHour: 0.663432
   },
   {
@@ -2057,6 +2310,7 @@
     InstanceName: Standard_B8ms,
     Region: uaenorth,
     VCpu: 8,
+    Memory: 32 GB,
     PricePerHour: 0.431
   },
   {
@@ -2064,6 +2318,7 @@
     InstanceName: Standard_M96ds_2_v3,
     Region: westeurope,
     VCpu: 96,
+    Memory: 1946 GB,
     PricePerHour: 3.706
   },
   {
@@ -2077,6 +2332,7 @@
     InstanceName: Standard_E8-2ds_v4,
     Region: polandcentral,
     VCpu: 2,
+    Memory: 64 GB,
     PricePerHour: 0.692
   },
   {
@@ -2084,6 +2340,7 @@
     InstanceName: Standard_A1_v2,
     Region: belgiumcentral,
     VCpu: 1,
+    Memory: 2 GB,
     PricePerHour: 0.0082
   },
   {
@@ -2097,6 +2354,7 @@
     InstanceName: Standard_D16a_v4,
     Region: spaincentral,
     VCpu: 16,
+    Memory: 64 GB,
     PricePerHour: 1.544
   },
   {
@@ -2110,6 +2368,7 @@
     InstanceName: Standard_HC44-16rs,
     Region: southcentralus,
     VCpu: 16,
+    Memory: 352 GB,
     PricePerHour: 0.697
   },
   {
@@ -2117,6 +2376,7 @@
     InstanceName: Standard_D32lds_v5,
     Region: japanwest,
     VCpu: 32,
+    Memory: 64 GB,
     PricePerHour: 0.36073
   },
   {
@@ -2136,6 +2396,7 @@
     InstanceName: Standard_B2ps_v2,
     Region: westcentralus,
     VCpu: 2,
+    Memory: 8 GB,
     PricePerHour: 0.0806
   },
   {
@@ -2143,6 +2404,7 @@
     InstanceName: Standard_FX32ms_v2,
     Region: usgovvirginia,
     VCpu: 32,
+    Memory: 672 GB,
     PricePerHour: 0.817925
   },
   {
@@ -2150,6 +2412,7 @@
     InstanceName: Standard_D4_v5,
     Region: australiacentral2,
     VCpu: 4,
+    Memory: 16 GB,
     PricePerHour: 0.048
   },
   {
@@ -2157,6 +2420,7 @@
     InstanceName: Standard_E64_v5,
     Region: australiasoutheast,
     VCpu: 64,
+    Memory: 512 GB,
     PricePerHour: 0.968722
   },
   {
@@ -2164,6 +2428,7 @@
     InstanceName: Standard_E32-16s_v6,
     Region: westcentralus,
     VCpu: 16,
+    Memory: 256 GB,
     PricePerHour: 0.469392
   },
   {
@@ -2171,6 +2436,7 @@
     InstanceName: Standard_D32als_v6,
     Region: austriaeast,
     VCpu: 32,
+    Memory: 64 GB,
     PricePerHour: 3.027
   },
   {
@@ -2178,6 +2444,7 @@
     InstanceName: Standard_F16s_v2,
     Region: northcentralus,
     VCpu: 16,
+    Memory: 32 GB,
     PricePerHour: 1.416
   },
   {
@@ -2185,6 +2452,7 @@
     InstanceName: Standard_E16-8as_v4,
     Region: canadacentral,
     VCpu: 8,
+    Memory: 128 GB,
     PricePerHour: 0.204019
   },
   {
@@ -2192,6 +2460,7 @@
     InstanceName: Standard_F2,
     Region: ukwest,
     VCpu: 2,
+    Memory: 4 GB,
     PricePerHour: 0.021991
   },
   {
@@ -2211,6 +2480,7 @@
     InstanceName: Standard_M128-64ms,
     Region: austriaeast,
     VCpu: 64,
+    Memory: 3892 GB,
     PricePerHour: 43.232
   },
   {
@@ -2218,6 +2488,7 @@
     InstanceName: Standard_DS11-1_v2,
     Region: australiacentral,
     VCpu: 1,
+    Memory: 14 GB,
     PricePerHour: 0.02604
   },
   {
@@ -2225,6 +2496,7 @@
     InstanceName: Standard_E192ids_v6,
     Region: westindia,
     VCpu: 192,
+    Memory: 1832 GB,
     PricePerHour: 4.08445
   },
   {
@@ -2232,6 +2504,7 @@
     InstanceName: Standard_B1ms,
     Region: southcentralus,
     VCpu: 1,
+    Memory: 2 GB,
     PricePerHour: 0.025
   },
   {
@@ -2239,6 +2512,7 @@
     InstanceName: Standard_E32-8s_v5,
     Region: brazilsouth,
     VCpu: 8,
+    Memory: 256 GB,
     PricePerHour: 0.594317
   },
   {
@@ -2246,6 +2520,7 @@
     InstanceName: Standard_E4-2s_v4,
     Region: southeastasia,
     VCpu: 2,
+    Memory: 32 GB,
     PricePerHour: 0.0608
   },
   {
@@ -2253,6 +2528,7 @@
     InstanceName: Standard_E20ads_v5,
     Region: centralindia,
     VCpu: 20,
+    Memory: 160 GB,
     PricePerHour: 0.7
   },
   {
@@ -2260,6 +2536,7 @@
     InstanceName: Standard_E32-8as_v4,
     Region: centralus,
     VCpu: 8,
+    Memory: 256 GB,
     PricePerHour: 0.456
   },
   {
@@ -2267,6 +2544,7 @@
     InstanceName: Standard_E64-32s_v3,
     Region: usgovtexas,
     VCpu: 32,
+    Memory: 432 GB,
     PricePerHour: 7.291
   },
   {
@@ -2274,6 +2552,7 @@
     InstanceName: Standard_A4_v2,
     Region: francecentral,
     VCpu: 4,
+    Memory: 8 GB,
     PricePerHour: 0.222
   },
   {
@@ -2281,6 +2560,7 @@
     InstanceName: Standard_M8-4ms,
     Region: jioindiawest,
     VCpu: 4,
+    Memory: 218.75 GB,
     PricePerHour: 1.953
   },
   {
@@ -2288,6 +2568,7 @@
     InstanceName: Standard_E32-16ds_v4,
     Region: eastus,
     VCpu: 16,
+    Memory: 256 GB,
     PricePerHour: 2.304
   },
   {
@@ -2295,6 +2576,7 @@
     InstanceName: Standard_E4s_v4,
     Region: canadaeast,
     VCpu: 4,
+    Memory: 32 GB,
     PricePerHour: 0.0552
   },
   {
@@ -2302,6 +2584,7 @@
     InstanceName: Standard_F8als_v6,
     Region: southcentralus,
     VCpu: 8,
+    Memory: 16 GB,
     PricePerHour: 0.947
   },
   {
@@ -2309,6 +2592,7 @@
     InstanceName: Standard_E64-32as_v5,
     Region: norwayeast,
     VCpu: 32,
+    Memory: 512 GB,
     PricePerHour: 8.115
   },
   {
@@ -2316,6 +2600,7 @@
     InstanceName: Standard_E96-48ads_v5,
     Region: usgovarizona,
     VCpu: 48,
+    Memory: 672 GB,
     PricePerHour: 4.8
   },
   {
@@ -2323,6 +2608,7 @@
     InstanceName: Standard_D32s_v3,
     Region: japaneast,
     VCpu: 32,
+    Memory: 128 GB,
     PricePerHour: 0.381427
   },
   {
@@ -2330,6 +2616,7 @@
     InstanceName: Standard_E4-2as_v4,
     Region: norwayeast,
     VCpu: 2,
+    Memory: 32 GB,
     PricePerHour: 0.36
   },
   {
@@ -2337,6 +2624,7 @@
     InstanceName: Standard_B2as_v2,
     Region: israelcentral,
     VCpu: 2,
+    Memory: 8 GB,
     PricePerHour: 0.0858
   },
   {
@@ -2344,6 +2632,7 @@
     InstanceName: Standard_E48_v5,
     Region: northcentralus,
     VCpu: 48,
+    Memory: 384 GB,
     PricePerHour: 5.232
   },
   {
@@ -2351,6 +2640,7 @@
     InstanceName: Standard_D16a_v4,
     Region: westus3,
     VCpu: 16,
+    Memory: 64 GB,
     PricePerHour: 0.154
   },
   {
@@ -2358,6 +2648,7 @@
     InstanceName: Standard_M64-32ms,
     Region: northcentralus,
     VCpu: 32,
+    Memory: 1792 GB,
     PricePerHour: 13.281
   },
   {
@@ -2365,6 +2656,7 @@
     InstanceName: Standard_D64ds_v4,
     Region: usgovarizona,
     VCpu: 64,
+    Memory: 256 GB,
     PricePerHour: 0.845645
   },
   {
@@ -2378,6 +2670,7 @@
     InstanceName: Standard_E16ads_v5,
     Region: spaincentral,
     VCpu: 16,
+    Memory: 128 GB,
     PricePerHour: 0.228043
   },
   {
@@ -2385,6 +2678,7 @@
     InstanceName: Standard_D96alds_v6,
     Region: israelcentral,
     VCpu: 96,
+    Memory: 192 GB,
     PricePerHour: 1.208222
   },
   {
@@ -2398,6 +2692,7 @@
     InstanceName: Standard_E8_v3,
     Region: japanwest,
     VCpu: 8,
+    Memory: 64 GB,
     PricePerHour: 0.121984
   },
   {
@@ -2405,6 +2700,7 @@
     InstanceName: Standard_M16ms,
     Region: newzealandnorth,
     VCpu: 16,
+    Memory: 437.5 GB,
     PricePerHour: 0.864623
   },
   {
@@ -2430,6 +2726,7 @@
     InstanceName: Standard_D16als_v6,
     Region: newzealandnorth,
     VCpu: 16,
+    Memory: 32 GB,
     PricePerHour: 0.148949
   },
   {
@@ -2437,6 +2734,7 @@
     InstanceName: Standard_F48s_v2,
     Region: koreasouth,
     VCpu: 48,
+    Memory: 96 GB,
     PricePerHour: 0.461
   },
   {
@@ -2444,6 +2742,7 @@
     InstanceName: Standard_D32s_v4,
     Region: northcentralus,
     VCpu: 32,
+    Memory: 128 GB,
     PricePerHour: 0.307
   },
   {
@@ -2451,6 +2750,7 @@
     InstanceName: Standard_D96_v5,
     Region: israelcentral,
     VCpu: 96,
+    Memory: 384 GB,
     PricePerHour: 0.993485
   },
   {
@@ -2458,6 +2758,7 @@
     InstanceName: Standard_D16s_v6,
     Region: westus2,
     VCpu: 16,
+    Memory: 64 GB,
     PricePerHour: 0.148949
   },
   {
@@ -2465,6 +2766,7 @@
     InstanceName: Standard_E16as_v4,
     Region: polandcentral,
     VCpu: 16,
+    Memory: 128 GB,
     PricePerHour: 0.243
   },
   {
@@ -2472,6 +2774,7 @@
     InstanceName: Standard_B32as_v2,
     Region: uaecentral,
     VCpu: 32,
+    Memory: 128 GB,
     PricePerHour: 1.878
   },
   {
@@ -2479,6 +2782,7 @@
     InstanceName: Standard_D96as_v5,
     Region: israelcentral,
     VCpu: 96,
+    Memory: 384 GB,
     PricePerHour: 5.088
   },
   {
@@ -2486,6 +2790,7 @@
     InstanceName: Standard_E2as_v4,
     Region: australiacentral2,
     VCpu: 2,
+    Memory: 16 GB,
     PricePerHour: 0.0151
   },
   {
@@ -2493,6 +2798,7 @@
     InstanceName: Standard_E20ds_v4,
     Region: switzerlandwest,
     VCpu: 20,
+    Memory: 160 GB,
     PricePerHour: 0.464504
   },
   {
@@ -2500,6 +2806,7 @@
     InstanceName: Standard_E32ads_v5,
     Region: westus2,
     VCpu: 32,
+    Memory: 256 GB,
     PricePerHour: 3.568
   },
   {
@@ -2507,6 +2814,7 @@
     InstanceName: Standard_EC20as_cc_v5,
     Region: norwaywest,
     VCpu: 20,
+    Memory: 160 GB,
     PricePerHour: 0.396459
   },
   {
@@ -2514,6 +2822,7 @@
     InstanceName: Standard_D64as_v4,
     Region: norwaywest,
     VCpu: 64,
+    Memory: 256 GB,
     PricePerHour: 1.142
   },
   {
@@ -2521,6 +2830,7 @@
     InstanceName: Standard_D4ds_v6,
     Region: southeastasia,
     VCpu: 4,
+    Memory: 16 GB,
     PricePerHour: 0.057473
   },
   {
@@ -2528,6 +2838,7 @@
     InstanceName: Standard_D4lds_v5,
     Region: eastus,
     VCpu: 4,
+    Memory: 8 GB,
     PricePerHour: 0.376
   },
   {
@@ -2535,6 +2846,7 @@
     InstanceName: Standard_E96ias_v4,
     Region: westindia,
     VCpu: 96,
+    Memory: 672 GB,
     PricePerHour: 7.741
   },
   {
@@ -2542,6 +2854,7 @@
     InstanceName: Standard_E128ds_v6,
     Region: uaecentral,
     VCpu: 128,
+    Memory: 1024 GB,
     PricePerHour: 3.09503
   },
   {
@@ -2549,6 +2862,7 @@
     InstanceName: Standard_E64d_v5,
     Region: canadaeast,
     VCpu: 64,
+    Memory: 512 GB,
     PricePerHour: 5.056
   },
   {
@@ -2556,6 +2870,7 @@
     InstanceName: Standard_FX48-12ms_v2,
     Region: southeastasia,
     VCpu: 12,
+    Memory: 1008 GB,
     PricePerHour: 9.91
   },
   {
@@ -2563,6 +2878,7 @@
     InstanceName: Standard_E32-8ds_v5,
     Region: centralindia,
     VCpu: 8,
+    Memory: 256 GB,
     PricePerHour: 3.888
   },
   {
@@ -2570,6 +2886,7 @@
     InstanceName: Standard_E20d_v4,
     Region: usgovarizona,
     VCpu: 20,
+    Memory: 160 GB,
     PricePerHour: 1.06
   },
   {
@@ -2577,6 +2894,7 @@
     InstanceName: Standard_E48s_v3,
     Region: australiaeast,
     VCpu: 48,
+    Memory: 384 GB,
     PricePerHour: 0.77496
   },
   {
@@ -2584,6 +2902,7 @@
     InstanceName: Standard_E64-16as_v4,
     Region: southindia,
     VCpu: 16,
+    Memory: 512 GB,
     PricePerHour: 1.137
   },
   {
@@ -2591,6 +2910,7 @@
     InstanceName: Standard_EC8as_v6,
     Region: uaenorth,
     VCpu: 8,
+    Memory: 64 GB,
     PricePerHour: 0.956
   },
   {
@@ -2598,6 +2918,7 @@
     InstanceName: Standard_A1_v2,
     Region: westus2,
     VCpu: 1,
+    Memory: 2 GB,
     PricePerHour: 0.054
   },
   {
@@ -2605,6 +2926,7 @@
     InstanceName: Standard_E64as_v6,
     Region: ukwest,
     VCpu: 64,
+    Memory: 512 GB,
     PricePerHour: 7.558
   },
   {
@@ -2612,6 +2934,7 @@
     InstanceName: Standard_DC32ads_v6,
     Region: westus2,
     VCpu: 32,
+    Memory: 128 GB,
     PricePerHour: 0.365
   },
   {
@@ -2619,6 +2942,7 @@
     InstanceName: Standard_E8bds_v5,
     Region: japaneast,
     VCpu: 8,
+    Memory: 64 GB,
     PricePerHour: 0.162
   },
   {
@@ -2626,6 +2950,7 @@
     InstanceName: Standard_D96ls_v5,
     Region: westus3,
     VCpu: 96,
+    Memory: 192 GB,
     PricePerHour: 0.756432
   },
   {
@@ -2633,6 +2958,7 @@
     InstanceName: Standard_D8als_v6,
     Region: koreasouth,
     VCpu: 8,
+    Memory: 16 GB,
     PricePerHour: 0.0739
   },
   {
@@ -2640,6 +2966,7 @@
     InstanceName: Standard_FX64mds_v2,
     Region: francecentral,
     VCpu: 64,
+    Memory: 1344 GB,
     PricePerHour: 13.976
   },
   {
@@ -2647,6 +2974,7 @@
     InstanceName: Standard_E96-24ds_v5,
     Region: swedencentral,
     VCpu: 24,
+    Memory: 672 GB,
     PricePerHour: 11.712
   },
   {
@@ -2654,6 +2982,7 @@
     InstanceName: Standard_DC64as_cc_v5,
     Region: northeurope,
     VCpu: 64,
+    Memory: 256 GB,
     PricePerHour: 6.016
   },
   {
@@ -2667,6 +2996,7 @@
     InstanceName: Standard_M64-16ms,
     Region: jioindiawest,
     VCpu: 16,
+    Memory: 1792 GB,
     PricePerHour: 10.666
   },
   {
@@ -2674,6 +3004,7 @@
     InstanceName: Standard_D16as_v4,
     Region: germanynorth,
     VCpu: 16,
+    Memory: 64 GB,
     PricePerHour: 0.199954
   },
   {
@@ -2681,6 +3012,7 @@
     InstanceName: Standard_D128s_v6,
     Region: ukwest,
     VCpu: 128,
+    Memory: 512 GB,
     PricePerHour: 1.442364
   },
   {
@@ -2688,6 +3020,7 @@
     InstanceName: Standard_D64ds_v5,
     Region: northcentralus,
     VCpu: 64,
+    Memory: 256 GB,
     PricePerHour: 3.616
   },
   {
@@ -2695,6 +3028,7 @@
     InstanceName: Standard_E64ds_v5,
     Region: bleufrancesouth,
     VCpu: 64,
+    Memory: 512 GB,
     PricePerHour: 9.1872
   },
   {
@@ -2702,6 +3036,7 @@
     InstanceName: Standard_L4s_v4,
     Region: westus2,
     VCpu: 4,
+    Memory: 32 GB,
     PricePerHour: 0.064495
   },
   {
@@ -2709,6 +3044,7 @@
     InstanceName: Standard_E96-48as_v4,
     Region: southafricawest,
     VCpu: 48,
+    Memory: 672 GB,
     PricePerHour: 2.097
   },
   {
@@ -2716,6 +3052,7 @@
     InstanceName: Standard_D32ads_v5,
     Region: koreacentral,
     VCpu: 32,
+    Memory: 128 GB,
     PricePerHour: 3.504
   },
   {
@@ -2723,6 +3060,7 @@
     InstanceName: Standard_EC64as_v6,
     Region: spaincentral,
     VCpu: 64,
+    Memory: 512 GB,
     PricePerHour: 7.424
   },
   {
@@ -2730,6 +3068,7 @@
     InstanceName: Standard_E8_v5,
     Region: norwayeast,
     VCpu: 8,
+    Memory: 64 GB,
     PricePerHour: 0.134
   },
   {
@@ -2737,6 +3076,7 @@
     InstanceName: Standard_D2as_v5,
     Region: westus2,
     VCpu: 2,
+    Memory: 8 GB,
     PricePerHour: 0.0712
   },
   {
@@ -2750,6 +3090,7 @@
     InstanceName: Standard_E64as_v5,
     Region: westindia,
     VCpu: 64,
+    Memory: 512 GB,
     PricePerHour: 4.628
   },
   {
@@ -2757,6 +3098,7 @@
     InstanceName: Standard_E2ds_v4,
     Region: japaneast,
     VCpu: 2,
+    Memory: 16 GB,
     PricePerHour: 0.032155
   },
   {
@@ -2764,6 +3106,7 @@
     InstanceName: Standard_FX32mds_v2,
     Region: australiaeast,
     VCpu: 32,
+    Memory: 672 GB,
     PricePerHour: 1.17311
   },
   {
@@ -2771,6 +3114,7 @@
     InstanceName: Standard_E32ads_v6,
     Region: westindia,
     VCpu: 32,
+    Memory: 256 GB,
     PricePerHour: 0.548856
   },
   {
@@ -2778,6 +3122,7 @@
     InstanceName: Standard_D8as_v5,
     Region: southafricawest,
     VCpu: 8,
+    Memory: 32 GB,
     PricePerHour: 0.109956
   },
   {
@@ -2785,6 +3130,7 @@
     InstanceName: Standard_D16as_v4,
     Region: westindia,
     VCpu: 16,
+    Memory: 64 GB,
     PricePerHour: 0.181658
   },
   {
@@ -2792,6 +3138,7 @@
     InstanceName: Standard_EC64as_cc_v5,
     Region: australiasoutheast,
     VCpu: 64,
+    Memory: 512 GB,
     PricePerHour: 0.887079
   },
   {
@@ -2799,6 +3146,7 @@
     InstanceName: Standard_E8-4s_v5,
     Region: westus2,
     VCpu: 4,
+    Memory: 64 GB,
     PricePerHour: 0.101
   },
   {
@@ -2806,6 +3154,7 @@
     InstanceName: Standard_E32-8s_v3,
     Region: malaysiawest,
     VCpu: 8,
+    Memory: 256 GB,
     PricePerHour: 3.776
   },
   {
@@ -2813,6 +3162,7 @@
     InstanceName: Standard_NG16ads_V620_v1,
     Region: eastus2,
     VCpu: 16,
+    Memory: 32 GB,
     PricePerHour: 1.27
   },
   {
@@ -2820,6 +3170,7 @@
     InstanceName: Standard_E8-4s_v4,
     Region: australiacentral,
     VCpu: 4,
+    Memory: 64 GB,
     PricePerHour: 0.111619
   },
   {
@@ -2827,6 +3178,7 @@
     InstanceName: Standard_D48ls_v5,
     Region: eastus2,
     VCpu: 48,
+    Memory: 96 GB,
     PricePerHour: 0.660552
   },
   {
@@ -2834,6 +3186,7 @@
     InstanceName: Standard_GS1,
     Region: eastus,
     VCpu: 2,
+    Memory: 28 GB,
     PricePerHour: 0.08855
   },
   {
@@ -2841,6 +3194,7 @@
     InstanceName: Standard_E64-32s_v4,
     Region: canadaeast,
     VCpu: 32,
+    Memory: 504 GB,
     PricePerHour: 0.883
   },
   {
@@ -2848,6 +3202,7 @@
     InstanceName: Standard_E4ds_v6,
     Region: usgovarizona,
     VCpu: 4,
+    Memory: 32 GB,
     PricePerHour: 0.106445
   },
   {
@@ -2855,6 +3210,7 @@
     InstanceName: Standard_E48a_v4,
     Region: canadaeast,
     VCpu: 48,
+    Memory: 384 GB,
     PricePerHour: 3.312
   },
   {
@@ -2862,6 +3218,7 @@
     InstanceName: Standard_D32als_v6,
     Region: southindia,
     VCpu: 32,
+    Memory: 64 GB,
     PricePerHour: 0.334118
   },
   {
@@ -2869,6 +3226,7 @@
     InstanceName: Standard_E64-32s_v5,
     Region: eastus,
     VCpu: 32,
+    Memory: 512 GB,
     PricePerHour: 1.046304
   },
   {
@@ -2882,6 +3240,7 @@
     InstanceName: Standard_D2as_v4,
     Region: australiacentral2,
     VCpu: 2,
+    Memory: 8 GB,
     PricePerHour: 0.12
   },
   {
@@ -2889,6 +3248,7 @@
     InstanceName: Standard_HB120-16rs_v3,
     Region: usgovvirginia,
     VCpu: 16,
+    Memory: 456 GB,
     PricePerHour: 4.008
   },
   {
@@ -2896,6 +3256,7 @@
     InstanceName: Standard_E16-4s_v5,
     Region: israelnorthwest,
     VCpu: 4,
+    Memory: 128 GB,
     PricePerHour: 0.237
   },
   {
@@ -2903,6 +3264,7 @@
     InstanceName: Standard_M416s_v2,
     Region: eastus,
     VCpu: 416,
+    Memory: 5700 GB,
     PricePerHour: 9.916
   },
   {
@@ -2916,6 +3278,7 @@
     InstanceName: Standard_D32as_v5,
     Region: austriaeast,
     VCpu: 32,
+    Memory: 128 GB,
     PricePerHour: 1.664
   },
   {
@@ -2923,6 +3286,7 @@
     InstanceName: Standard_M8-4ms,
     Region: southindia,
     VCpu: 4,
+    Memory: 218.75 GB,
     PricePerHour: 0.4656
   },
   {
@@ -2930,6 +3294,7 @@
     InstanceName: Standard_E4ads_v5,
     Region: norwayeast,
     VCpu: 4,
+    Memory: 32 GB,
     PricePerHour: 0.559
   },
   {
@@ -2937,6 +3302,7 @@
     InstanceName: Standard_D8as_v4,
     Region: usgovtexas,
     VCpu: 8,
+    Memory: 32 GB,
     PricePerHour: 0.15671
   },
   {
@@ -2944,6 +3310,7 @@
     InstanceName: Standard_E4as_v5,
     Region: koreacentral,
     VCpu: 4,
+    Memory: 32 GB,
     PricePerHour: 0.456
   },
   {
@@ -2951,6 +3318,7 @@
     InstanceName: Standard_D2as_v5,
     Region: usgovvirginia,
     VCpu: 2,
+    Memory: 8 GB,
     PricePerHour: 0.0804
   },
   {
@@ -2958,6 +3326,7 @@
     InstanceName: Standard_D48d_v5,
     Region: ukwest,
     VCpu: 48,
+    Memory: 192 GB,
     PricePerHour: 0.606514
   },
   {
@@ -2965,6 +3334,7 @@
     InstanceName: Standard_EC96as_v5,
     Region: eastus,
     VCpu: 96,
+    Memory: 672 GB,
     PricePerHour: 5.424
   },
   {
@@ -2972,6 +3342,7 @@
     InstanceName: Standard_EC2ads_v6,
     Region: brazilsouth,
     VCpu: 2,
+    Memory: 16 GB,
     PricePerHour: 0.043058
   },
   {
@@ -2979,6 +3350,7 @@
     InstanceName: Standard_D48s_v5,
     Region: southindia,
     VCpu: 48,
+    Memory: 192 GB,
     PricePerHour: 0.65
   },
   {
@@ -2986,6 +3358,7 @@
     InstanceName: Standard_B2s_v2,
     Region: canadaeast,
     VCpu: 2,
+    Memory: 8 GB,
     PricePerHour: 0.0928
   },
   {
@@ -2993,6 +3366,7 @@
     InstanceName: Standard_E8-4as_v4,
     Region: australiaeast,
     VCpu: 4,
+    Memory: 64 GB,
     PricePerHour: 0.972
   },
   {
@@ -3000,6 +3374,7 @@
     InstanceName: Standard_E4-2ads_v5,
     Region: usgovarizona,
     VCpu: 2,
+    Memory: 32 GB,
     PricePerHour: 0.0632
   },
   {
@@ -3007,6 +3382,7 @@
     InstanceName: Standard_M16-8ms,
     Region: francecentral,
     VCpu: 8,
+    Memory: 437.5 GB,
     PricePerHour: 0.715546
   },
   {
@@ -3014,6 +3390,7 @@
     InstanceName: Standard_D14_v2,
     Region: usgovtexas,
     VCpu: 16,
+    Memory: 112 GB,
     PricePerHour: 0.276431
   },
   {
@@ -3021,6 +3398,7 @@
     InstanceName: Standard_D64als_v6,
     Region: southafricanorth,
     VCpu: 64,
+    Memory: 128 GB,
     PricePerHour: 0.635158
   },
   {
@@ -3034,6 +3412,7 @@
     InstanceName: Standard_E104i_v5,
     Region: westindia,
     VCpu: 104,
+    Memory: 672 GB,
     PricePerHour: 1.845
   },
   {
@@ -3041,6 +3420,7 @@
     InstanceName: Standard_D2_v5,
     Region: switzerlandnorth,
     VCpu: 2,
+    Memory: 8 GB,
     PricePerHour: 0.0253
   },
   {
@@ -3048,6 +3428,7 @@
     InstanceName: Standard_D8ls_v5,
     Region: canadacentral,
     VCpu: 8,
+    Memory: 16 GB,
     PricePerHour: 0.114688
   },
   {
@@ -3055,6 +3436,7 @@
     InstanceName: Standard_M192ims_v2,
     Region: switzerlandnorth,
     VCpu: 192,
+    Memory: 4096 GB,
     PricePerHour: 9.005304
   },
   {
@@ -3062,6 +3444,7 @@
     InstanceName: Standard_D4ads_v5,
     Region: francesouth,
     VCpu: 4,
+    Memory: 16 GB,
     PricePerHour: 0.0629
   },
   {
@@ -3069,6 +3452,7 @@
     InstanceName: Standard_EC4as_v5,
     Region: centralus,
     VCpu: 4,
+    Memory: 32 GB,
     PricePerHour: 0.439
   },
   {
@@ -3082,6 +3466,7 @@
     InstanceName: Standard_E16-4s_v4,
     Region: australiasoutheast,
     VCpu: 4,
+    Memory: 128 GB,
     PricePerHour: 0.242088
   },
   {
@@ -3089,6 +3474,7 @@
     InstanceName: Standard_F1s,
     Region: polandcentral,
     VCpu: 1,
+    Memory: 2 GB,
     PricePerHour: 0.010864
   },
   {
@@ -3096,6 +3482,7 @@
     InstanceName: Standard_D96ds_v5,
     Region: germanynorth,
     VCpu: 96,
+    Memory: 384 GB,
     PricePerHour: 1.697
   },
   {
@@ -3103,6 +3490,7 @@
     InstanceName: Standard_E32as_v6,
     Region: uaecentral,
     VCpu: 32,
+    Memory: 256 GB,
     PricePerHour: 3.056
   },
   {
@@ -3110,6 +3498,7 @@
     InstanceName: Standard_D64s_v3,
     Region: japanwest,
     VCpu: 64,
+    Memory: 256 GB,
     PricePerHour: 0.826
   },
   {
@@ -3117,6 +3506,7 @@
     InstanceName: Standard_E32-8s_v3,
     Region: indonesiacentral,
     VCpu: 8,
+    Memory: 256 GB,
     PricePerHour: 2.304
   },
   {
@@ -3124,6 +3514,7 @@
     InstanceName: Standard_D48ads_v6,
     Region: centralus,
     VCpu: 48,
+    Memory: 192 GB,
     PricePerHour: 0.619
   },
   {
@@ -3131,6 +3522,7 @@
     InstanceName: Standard_E4-2ds_v4,
     Region: southcentralus,
     VCpu: 2,
+    Memory: 32 GB,
     PricePerHour: 0.069115
   },
   {
@@ -3138,6 +3530,7 @@
     InstanceName: Standard_E4-2ds_v5,
     Region: spaincentral,
     VCpu: 2,
+    Memory: 32 GB,
     PricePerHour: 0.064
   },
   {
@@ -3145,6 +3538,7 @@
     InstanceName: Standard_D32s_v3,
     Region: northcentralus,
     VCpu: 32,
+    Memory: 128 GB,
     PricePerHour: 0.29568
   },
   {
@@ -3152,6 +3546,7 @@
     InstanceName: Standard_M416s_v2,
     Region: koreacentral,
     VCpu: 416,
+    Memory: 5700 GB,
     PricePerHour: 78.632
   },
   {
@@ -3159,6 +3554,7 @@
     InstanceName: Standard_E96-48ads_v5,
     Region: southcentralus,
     VCpu: 48,
+    Memory: 672 GB,
     PricePerHour: 7.546
   },
   {
@@ -3166,6 +3562,7 @@
     InstanceName: Standard_DC2as_v6,
     Region: australiacentral2,
     VCpu: 2,
+    Memory: 8 GB,
     PricePerHour: 0.0114
   },
   {
@@ -3173,6 +3570,7 @@
     InstanceName: Standard_D96ds_v5,
     Region: chilecentral,
     VCpu: 96,
+    Memory: 384 GB,
     PricePerHour: 1.403371
   },
   {
@@ -3180,6 +3578,7 @@
     InstanceName: Standard_D4lds_v5,
     Region: usgovvirginia,
     VCpu: 4,
+    Memory: 8 GB,
     PricePerHour: 0.042874
   },
   {
@@ -3187,6 +3586,7 @@
     InstanceName: Standard_D2as_v5,
     Region: southindia,
     VCpu: 2,
+    Memory: 8 GB,
     PricePerHour: 0.0243
   },
   {
@@ -3194,6 +3594,7 @@
     InstanceName: Standard_E2bs_v5,
     Region: eastus2,
     VCpu: 2,
+    Memory: 16 GB,
     PricePerHour: 0.149
   },
   {
@@ -3213,6 +3614,7 @@
     InstanceName: Standard_E32d_v5,
     Region: uksouth,
     VCpu: 32,
+    Memory: 256 GB,
     PricePerHour: 0.32448
   },
   {
@@ -3220,6 +3622,7 @@
     InstanceName: Standard_E4s_v4,
     Region: australiacentral,
     VCpu: 4,
+    Memory: 32 GB,
     PricePerHour: 0.302
   },
   {
@@ -3227,6 +3630,7 @@
     InstanceName: Standard_D16as_v4,
     Region: japanwest,
     VCpu: 16,
+    Memory: 64 GB,
     PricePerHour: 0.183322
   },
   {
@@ -3234,6 +3638,7 @@
     InstanceName: Standard_EC96as_cc_v5,
     Region: australiacentral,
     VCpu: 96,
+    Memory: 672 GB,
     PricePerHour: 1.231834
   },
   {
@@ -3241,6 +3646,7 @@
     InstanceName: Standard_FX32ms_v2,
     Region: usgovtexas,
     VCpu: 32,
+    Memory: 672 GB,
     PricePerHour: 1.08995
   },
   {
@@ -3254,6 +3660,7 @@
     InstanceName: Standard_D32s_v3,
     Region: switzerlandwest,
     VCpu: 32,
+    Memory: 128 GB,
     PricePerHour: 0.507354
   },
   {
@@ -3261,6 +3668,7 @@
     InstanceName: Standard_E64-32as_v5,
     Region: uaenorth,
     VCpu: 32,
+    Memory: 512 GB,
     PricePerHour: 7.424
   },
   {
@@ -3274,6 +3682,7 @@
     InstanceName: Standard_M32ms,
     Region: mexicocentral,
     VCpu: 32,
+    Memory: 875 GB,
     PricePerHour: 8.232602
   },
   {
@@ -3281,6 +3690,7 @@
     InstanceName: Standard_E48s_v4,
     Region: eastus,
     VCpu: 48,
+    Memory: 384 GB,
     PricePerHour: 0.789566
   },
   {
@@ -3288,6 +3698,7 @@
     InstanceName: Standard_E32-8s_v5,
     Region: ukwest,
     VCpu: 8,
+    Memory: 256 GB,
     PricePerHour: 3.911
   },
   {
@@ -3295,6 +3706,7 @@
     InstanceName: Standard_GS4-8,
     Region: usgovtexas,
     VCpu: 8,
+    Memory: 224 GB,
     PricePerHour: 2.44
   },
   {
@@ -3302,6 +3714,7 @@
     InstanceName: Standard_B8ls_v2,
     Region: brazilsoutheast,
     VCpu: 8,
+    Memory: 16 GB,
     PricePerHour: 0.656
   },
   {
@@ -3309,6 +3722,7 @@
     InstanceName: Standard_E4-2s_v5,
     Region: chilecentral,
     VCpu: 2,
+    Memory: 32 GB,
     PricePerHour: 0.065234
   },
   {
@@ -3316,6 +3730,7 @@
     InstanceName: Standard_D64ads_v6,
     Region: canadaeast,
     VCpu: 64,
+    Memory: 256 GB,
     PricePerHour: 0.815
   },
   {
@@ -3323,6 +3738,7 @@
     InstanceName: Standard_E32as_v6,
     Region: australiacentral2,
     VCpu: 32,
+    Memory: 256 GB,
     PricePerHour: 2.397
   },
   {
@@ -3330,6 +3746,7 @@
     InstanceName: Standard_B4ls_v2,
     Region: koreasouth,
     VCpu: 4,
+    Memory: 8 GB,
     PricePerHour: 0.0339
   },
   {
@@ -3337,6 +3754,7 @@
     InstanceName: Standard_D2ads_v5,
     Region: canadacentral,
     VCpu: 2,
+    Memory: 8 GB,
     PricePerHour: 0.021252
   },
   {
@@ -3344,6 +3762,7 @@
     InstanceName: Standard_D32ads_v5,
     Region: southcentralus,
     VCpu: 32,
+    Memory: 128 GB,
     PricePerHour: 1.978
   },
   {
@@ -3357,6 +3776,7 @@
     InstanceName: Standard_B16ps_v2,
     Region: centralindia,
     VCpu: 16,
+    Memory: 64 GB,
     PricePerHour: 0.3222
   },
   {
@@ -3364,6 +3784,7 @@
     InstanceName: Standard_M64-16ms,
     Region: swedencentral,
     VCpu: 16,
+    Memory: 1792 GB,
     PricePerHour: 2.674389
   },
   {
@@ -3371,6 +3792,7 @@
     InstanceName: Standard_EC48ads_v6,
     Region: swedencentral,
     VCpu: 48,
+    Memory: 384 GB,
     PricePerHour: 0.68838
   },
   {
@@ -3378,6 +3800,7 @@
     InstanceName: Standard_D16als_v6,
     Region: indonesiacentral,
     VCpu: 16,
+    Memory: 32 GB,
     PricePerHour: 0.13435
   },
   {
@@ -3385,6 +3808,7 @@
     InstanceName: Standard_D4as_v5,
     Region: spaincentral,
     VCpu: 4,
+    Memory: 16 GB,
     PricePerHour: 0.202
   },
   {
@@ -3398,6 +3822,7 @@
     InstanceName: Standard_E96-24as_v4,
     Region: koreasouth,
     VCpu: 24,
+    Memory: 672 GB,
     PricePerHour: 1.277338
   },
   {
@@ -3405,6 +3830,7 @@
     InstanceName: Standard_D48d_v5,
     Region: centralus,
     VCpu: 48,
+    Memory: 192 GB,
     PricePerHour: 0.654378
   },
   {
@@ -3412,6 +3838,7 @@
     InstanceName: Standard_E32-16s_v4,
     Region: ukwest,
     VCpu: 16,
+    Memory: 256 GB,
     PricePerHour: 2.439
   },
   {
@@ -3425,6 +3852,7 @@
     InstanceName: Standard_M32-16ms,
     Region: israelcentral,
     VCpu: 16,
+    Memory: 875 GB,
     PricePerHour: 8.113
   },
   {
@@ -3432,6 +3860,7 @@
     InstanceName: Standard_E2as_v4,
     Region: mexicocentral,
     VCpu: 2,
+    Memory: 16 GB,
     PricePerHour: 0.025687
   },
   {
@@ -3439,6 +3868,7 @@
     InstanceName: Standard_D2a_v4,
     Region: newzealandnorth,
     VCpu: 2,
+    Memory: 8 GB,
     PricePerHour: 0.205
   },
   {
@@ -3452,6 +3882,7 @@
     InstanceName: Standard_E2_v5,
     Region: westcentralus,
     VCpu: 2,
+    Memory: 16 GB,
     PricePerHour: 0.0302
   },
   {
@@ -3459,6 +3890,7 @@
     InstanceName: Standard_E16-8as_v5,
     Region: australiasoutheast,
     VCpu: 8,
+    Memory: 128 GB,
     PricePerHour: 1.911
   },
   {
@@ -3466,6 +3898,7 @@
     InstanceName: Standard_F4s,
     Region: southindia,
     VCpu: 4,
+    Memory: 8 GB,
     PricePerHour: 0.048
   },
   {
@@ -3473,6 +3906,7 @@
     InstanceName: Standard_DS15_v2,
     Region: usgovarizona,
     VCpu: 20,
+    Memory: 140 GB,
     PricePerHour: 1.215
   },
   {
@@ -3486,6 +3920,7 @@
     InstanceName: Standard_E16ads_v6,
     Region: malaysiawest,
     VCpu: 16,
+    Memory: 128 GB,
     PricePerHour: 0.242642
   }
 ]
