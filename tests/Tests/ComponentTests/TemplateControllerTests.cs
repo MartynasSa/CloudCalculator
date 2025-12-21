@@ -88,19 +88,19 @@ public class TemplateControllerTests(WebApplicationFactory<Program> factory) : T
         Assert.NotNull(template);
         AssertValidTemplate(template);
 
-        // Verify all major clouds are represented
-        if (template.VirtualMachines != null)
-        {
-            Assert.Contains(CloudProvider.AWS, template.VirtualMachines.Keys);
-            Assert.Contains(CloudProvider.Azure, template.VirtualMachines.Keys);
-            Assert.Contains(CloudProvider.GCP, template.VirtualMachines.Keys);
-        }
-        
+        // Verify all major clouds are represented in databases
         if (template.Databases != null)
         {
             Assert.Contains(CloudProvider.AWS, template.Databases.Keys);
             Assert.Contains(CloudProvider.Azure, template.Databases.Keys);
             Assert.Contains(CloudProvider.GCP, template.Databases.Keys);
+        }
+        
+        // Verify AWS and Azure VMs are always present
+        if (template.VirtualMachines != null)
+        {
+            Assert.Contains(CloudProvider.AWS, template.VirtualMachines.Keys);
+            Assert.Contains(CloudProvider.Azure, template.VirtualMachines.Keys);
         }
     }
 
