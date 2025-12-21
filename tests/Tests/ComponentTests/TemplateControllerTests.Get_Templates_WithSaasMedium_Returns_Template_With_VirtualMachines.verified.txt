@@ -37,5 +37,32 @@
       DatabaseEngine: MySQL,
       PricePerMonth: 114.3910
     }
+  },
+  LoadBalancers: {
+    aws: {
+      Name: Elastic Load Balancing,
+      PricePerMonth: 17.23
+    },
+    azure: {
+      Name: Azure Load Balancer
+    },
+    gcp: {
+      Name: Cloud Load Balancing,
+      PricePerMonth: 19.85
+    }
+  },
+  Monitoring: {
+    aws: {
+      Name: CloudWatch,
+      PricePerMonth: 15.0
+    },
+    azure: {
+      Name: Azure Monitor,
+      PricePerMonth: 18.0
+    },
+    gcp: {
+      Name: Cloud Ops,
+      PricePerMonth: 12.0
+    }
   }
 }

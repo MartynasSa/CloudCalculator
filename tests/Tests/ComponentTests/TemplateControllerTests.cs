@@ -182,6 +182,71 @@ public class TemplateControllerTests(WebApplicationFactory<Program> factory) : T
         });
     }
 
+    [Fact]
+    public async Task Get_Templates_WithSaasSmall_Has_LoadBalancers_And_Monitoring()
+    {
+        var response = await Client.GetAsync("/api/templates?template=1&usage=1");
+        response.EnsureSuccessStatusCode();
+
+        await using var stream = await response.Content.ReadAsStreamAsync();
+        var template = await JsonSerializer.DeserializeAsync<TemplateDto>(stream, JsonOptions);
+
+        Assert.NotNull(template);
+        Assert.NotNull(template.LoadBalancers);
+        Assert.NotNull(template.Monitoring);
+
+        // Verify all major clouds are represented
+        Assert.Contains(CloudProvider.AWS, template.LoadBalancers.Keys);
+        Assert.Contains(CloudProvider.Azure, template.LoadBalancers.Keys);
+        Assert.Contains(CloudProvider.GCP, template.LoadBalancers.Keys);
+
+        Assert.Contains(CloudProvider.AWS, template.Monitoring.Keys);
+        Assert.Contains(CloudProvider.Azure, template.Monitoring.Keys);
+        Assert.Contains(CloudProvider.GCP, template.Monitoring.Keys);
+    }
+
+    [Fact]
+    public async Task Get_Templates_WithSaasSmall_LoadBalancers_Have_Correct_Pricing()
+    {
+        var response = await Client.GetAsync("/api/templates?template=1&usage=1");
+        response.EnsureSuccessStatusCode();
+
+        await using var stream = await response.Content.ReadAsStreamAsync();
+        var template = await JsonSerializer.DeserializeAsync<TemplateDto>(stream, JsonOptions);
+
+        Assert.NotNull(template);
+        Assert.NotNull(template.LoadBalancers);
+
+        var awsLb = template.LoadBalancers[CloudProvider.AWS];
+        var azureLb = template.LoadBalancers[CloudProvider.Azure];
+        var gcpLb = template.LoadBalancers[CloudProvider.GCP];
+
+        Assert.Equal(16.51m, awsLb.PricePerMonth);
+        Assert.Equal(0m, azureLb.PricePerMonth);
+        Assert.Equal(18.41m, gcpLb.PricePerMonth);
+    }
+
+    [Fact]
+    public async Task Get_Templates_WithSaasSmall_Monitoring_Has_Correct_Pricing()
+    {
+        var response = await Client.GetAsync("/api/templates?template=1&usage=1");
+        response.EnsureSuccessStatusCode();
+
+        await using var stream = await response.Content.ReadAsStreamAsync();
+        var template = await JsonSerializer.DeserializeAsync<TemplateDto>(stream, JsonOptions);
+
+        Assert.NotNull(template);
+        Assert.NotNull(template.Monitoring);
+
+        var awsMon = template.Monitoring[CloudProvider.AWS];
+        var azureMon = template.Monitoring[CloudProvider.Azure];
+        var gcpMon = template.Monitoring[CloudProvider.GCP];
+
+        Assert.Equal(5m, awsMon.PricePerMonth);
+        Assert.Equal(6m, azureMon.PricePerMonth);
+        Assert.Equal(4m, gcpMon.PricePerMonth);
+    }
+
     private static void AssertValidTemplate(TemplateDto template)
     {
         Assert.NotNull(template);
@@ -189,6 +254,10 @@ public class TemplateControllerTests(WebApplicationFactory<Program> factory) : T
         Assert.NotEmpty(template.VirtualMachines);
         Assert.NotNull(template.Databases);
         Assert.NotEmpty(template.Databases);
+        Assert.NotNull(template.LoadBalancers);
+        Assert.NotEmpty(template.LoadBalancers);
+        Assert.NotNull(template.Monitoring);
+        Assert.NotEmpty(template.Monitoring);
     }
 
     private static void AssertSmallGranularitySpecs(TemplateDto template)

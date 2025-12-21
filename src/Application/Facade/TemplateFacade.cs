@@ -24,6 +24,8 @@ public class TemplateFacade(IResourceNormalizationService resourceNormalizationS
             case TemplateType.Saas:
                 result.VirtualMachines = await GetVirtualMachinesAsync(request.Usage);
                 result.Databases = await GetDatabasesAsync(request.Usage);
+                result.LoadBalancers = GetLoadBalancers(request.Usage);
+                result.Monitoring = GetMonitoring(request.Usage);
                 break;
             default:
                 throw new ArgumentOutOfRangeException();
@@ -174,5 +176,39 @@ public class TemplateFacade(IResourceNormalizationService resourceNormalizationS
 
         // Assuming 730 hours per month (365 days / 12 months * 24 hours)
         return pricePerHour.Value * 730m;
+    }
+
+    private Dictionary<CloudProvider, TemplateLoadBalancerDto> GetLoadBalancers(UsageSize usage)
+    {
+        var loadBalancers = resourceNormalizationService.GetNormalizedLoadBalancers(usage);
+        var result = new Dictionary<CloudProvider, TemplateLoadBalancerDto>();
+
+        foreach (var lb in loadBalancers)
+        {
+            result[lb.Cloud] = new TemplateLoadBalancerDto()
+            {
+                Name = lb.Name,
+                PricePerMonth = lb.PricePerMonth ?? 0m
+            };
+        }
+
+        return result;
+    }
+
+    private Dictionary<CloudProvider, TemplateMonitoringDto> GetMonitoring(UsageSize usage)
+    {
+        var monitoring = resourceNormalizationService.GetNormalizedMonitoring(usage);
+        var result = new Dictionary<CloudProvider, TemplateMonitoringDto>();
+
+        foreach (var mon in monitoring)
+        {
+            result[mon.Cloud] = new TemplateMonitoringDto()
+            {
+                Name = mon.Name,
+                PricePerMonth = mon.PricePerMonth ?? 0m
+            };
+        }
+
+        return result;
     }
 }

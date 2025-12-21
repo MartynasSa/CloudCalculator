@@ -139,4 +139,92 @@ public class ResourceNormalizationServiceTests(WebApplicationFactory<Program> fa
 
         await Verify(result);
     }
+
+    [Fact]
+    public void GetNormalizedLoadBalancers_Returns_LoadBalancers_For_All_Clouds()
+    {
+        // Arrange
+        var service = GetService();
+
+        // Act
+        var result = service.GetNormalizedLoadBalancers(UsageSize.Small);
+
+        // Assert
+        Assert.NotNull(result);
+        Assert.Equal(3, result.Count);
+        Assert.Contains(result, lb => lb.Cloud == CloudProvider.AWS);
+        Assert.Contains(result, lb => lb.Cloud == CloudProvider.Azure);
+        Assert.Contains(result, lb => lb.Cloud == CloudProvider.GCP);
+
+        // Verify all load balancers have required properties
+        Assert.All(result, lb =>
+        {
+            Assert.False(string.IsNullOrWhiteSpace(lb.Cloud.ToString()));
+            Assert.False(string.IsNullOrWhiteSpace(lb.Name));
+            Assert.NotNull(lb.PricePerMonth);
+        });
+    }
+
+    [Fact]
+    public void GetNormalizedLoadBalancers_Small_Has_Correct_Pricing()
+    {
+        // Arrange
+        var service = GetService();
+
+        // Act
+        var result = service.GetNormalizedLoadBalancers(UsageSize.Small);
+
+        // Assert
+        var awsLb = result.First(lb => lb.Cloud == CloudProvider.AWS);
+        var azureLb = result.First(lb => lb.Cloud == CloudProvider.Azure);
+        var gcpLb = result.First(lb => lb.Cloud == CloudProvider.GCP);
+
+        Assert.Equal(16.51m, awsLb.PricePerMonth);
+        Assert.Equal(0m, azureLb.PricePerMonth);
+        Assert.Equal(18.41m, gcpLb.PricePerMonth);
+    }
+
+    [Fact]
+    public void GetNormalizedMonitoring_Returns_Monitoring_For_All_Clouds()
+    {
+        // Arrange
+        var service = GetService();
+
+        // Act
+        var result = service.GetNormalizedMonitoring(UsageSize.Small);
+
+        // Assert
+        Assert.NotNull(result);
+        Assert.Equal(3, result.Count);
+        Assert.Contains(result, mon => mon.Cloud == CloudProvider.AWS);
+        Assert.Contains(result, mon => mon.Cloud == CloudProvider.Azure);
+        Assert.Contains(result, mon => mon.Cloud == CloudProvider.GCP);
+
+        // Verify all monitoring services have required properties
+        Assert.All(result, mon =>
+        {
+            Assert.False(string.IsNullOrWhiteSpace(mon.Cloud.ToString()));
+            Assert.False(string.IsNullOrWhiteSpace(mon.Name));
+            Assert.NotNull(mon.PricePerMonth);
+        });
+    }
+
+    [Fact]
+    public void GetNormalizedMonitoring_Small_Has_Correct_Pricing()
+    {
+        // Arrange
+        var service = GetService();
+
+        // Act
+        var result = service.GetNormalizedMonitoring(UsageSize.Small);
+
+        // Assert
+        var awsMon = result.First(mon => mon.Cloud == CloudProvider.AWS);
+        var azureMon = result.First(mon => mon.Cloud == CloudProvider.Azure);
+        var gcpMon = result.First(mon => mon.Cloud == CloudProvider.GCP);
+
+        Assert.Equal(5m, awsMon.PricePerMonth);
+        Assert.Equal(6m, azureMon.PricePerMonth);
+        Assert.Equal(4m, gcpMon.PricePerMonth);
+    }
 }
