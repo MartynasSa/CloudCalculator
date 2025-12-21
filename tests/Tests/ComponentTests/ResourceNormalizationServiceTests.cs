@@ -32,12 +32,14 @@ public class ResourceNormalizationServiceTests(WebApplicationFactory<Program> fa
         Assert.Contains(result, r => r.Cloud == CloudProvider.GCP);
 
         // Verify all instances have required properties
-        foreach (var instance in result)
+        Assert.All(result, instance =>
         {
             Assert.False(string.IsNullOrWhiteSpace(instance.Cloud.ToString()));
             Assert.False(string.IsNullOrWhiteSpace(instance.InstanceName));
             Assert.False(string.IsNullOrWhiteSpace(instance.Region));
-        }
+        });
+
+        await Verify(result);
     }
 
     [Fact]
@@ -52,10 +54,10 @@ public class ResourceNormalizationServiceTests(WebApplicationFactory<Program> fa
 
         // Assert
         Assert.NotEmpty(awsInstances);
-
-        // At least some AWS instances should have vCPU and memory
         Assert.Contains(awsInstances, i => i.VCpu.HasValue && i.VCpu.Value > 0);
         Assert.Contains(awsInstances, i => !string.IsNullOrWhiteSpace(i.Memory));
+
+        await Verify(awsInstances);
     }
 
     [Fact]
@@ -70,10 +72,9 @@ public class ResourceNormalizationServiceTests(WebApplicationFactory<Program> fa
 
         // Assert
         Assert.NotEmpty(azureInstances);
-
-        // Azure instances should have vCPU (numberOfCores or vCpusAvailable)
-        // Note: Azure data may not include memory as a separate attribute
         Assert.Contains(azureInstances, i => i.VCpu.HasValue && i.VCpu.Value > 0);
+
+        await Verify(azureInstances);
     }
 
     [Fact]
@@ -94,12 +95,14 @@ public class ResourceNormalizationServiceTests(WebApplicationFactory<Program> fa
         Assert.Contains(result, r => r.Cloud == CloudProvider.Azure);
 
         // Verify all databases have required properties
-        foreach (var db in result)
+        Assert.All(result, db =>
         {
             Assert.False(string.IsNullOrWhiteSpace(db.Cloud.ToString()));
             Assert.False(string.IsNullOrWhiteSpace(db.InstanceName));
             Assert.False(string.IsNullOrWhiteSpace(db.Region));
-        }
+        });
+
+        await Verify(result);
     }
 
     [Fact]
@@ -114,9 +117,9 @@ public class ResourceNormalizationServiceTests(WebApplicationFactory<Program> fa
 
         // Assert
         Assert.NotEmpty(awsDatabases);
-
-        // At least some AWS databases should have database engine
         Assert.Contains(awsDatabases, db => !string.IsNullOrWhiteSpace(db.DatabaseEngine));
+
+        await Verify(awsDatabases);
     }
 
     [Fact]
@@ -130,9 +133,9 @@ public class ResourceNormalizationServiceTests(WebApplicationFactory<Program> fa
 
         // Assert
         Assert.NotEmpty(result);
-
-        // At least some databases should have vCPU and memory
         Assert.Contains(result, db => db.VCpu.HasValue && db.VCpu.Value > 0);
         Assert.Contains(result, db => !string.IsNullOrWhiteSpace(db.Memory));
+
+        await Verify(result);
     }
 }

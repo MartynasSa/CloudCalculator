@@ -1,0 +1,29 @@
+﻿[
+  {
+    Cloud: aws,
+    InstanceName: db.r5.2xlarge,
+    Region: me-south-1,
+    DatabaseEngine: Oracle,
+    VCpu: 8,
+    Memory: 64 GiB,
+    PricePerHour: 1.134
+  },
+  {
+    Cloud: aws,
+    InstanceName: db.m6i.8xlarge,
+    Region: unknown,
+    DatabaseEngine: Oracle,
+    VCpu: 32,
+    Memory: 128 GiB,
+    PricePerHour: 3.552
+  },
+  {
+    Cloud: aws,
+    InstanceName: db.t3.xlarge,
+    Region: cn-north-1,
+    DatabaseEngine: Oracle,
+    VCpu: 4,
+    Memory: 16 GiB,
+    PricePerHour: 0.627072
+  }
+]
