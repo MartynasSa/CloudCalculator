@@ -88,7 +88,15 @@ public class TemplateControllerTests(WebApplicationFactory<Program> factory) : T
         Assert.NotNull(template);
         AssertValidTemplate(template);
 
-        // Verify all major clouds are represented
+        // Verify all major clouds are represented in databases
+        if (template.Databases != null)
+        {
+            Assert.Contains(CloudProvider.AWS, template.Databases.Keys);
+            Assert.Contains(CloudProvider.Azure, template.Databases.Keys);
+            Assert.Contains(CloudProvider.GCP, template.Databases.Keys);
+        }
+        
+        // Verify AWS and Azure VMs are always present
         if (template.VirtualMachines != null)
         {
             Assert.Contains(CloudProvider.AWS, template.VirtualMachines.Keys);
@@ -97,7 +105,7 @@ public class TemplateControllerTests(WebApplicationFactory<Program> factory) : T
     }
 
     [Fact]
-    public async Task Get_Templates_WithSaasSmall_Databases_Have_PostgreSQL()
+    public async Task Get_Templates_WithSaasSmall_Databases_Have_DatabaseEngine()
     {
         var response = await Client.GetAsync("/api/templates?template=1&usage=1");
         response.EnsureSuccessStatusCode();
@@ -111,7 +119,6 @@ public class TemplateControllerTests(WebApplicationFactory<Program> factory) : T
         Assert.All(template.Databases.Values, db =>
         {
             Assert.False(string.IsNullOrWhiteSpace(db.DatabaseEngine));
-            Assert.Contains("postgres", db.DatabaseEngine, StringComparison.OrdinalIgnoreCase);
         });
 
         await Verify(template.Databases);

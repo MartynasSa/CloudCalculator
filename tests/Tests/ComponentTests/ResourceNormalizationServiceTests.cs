@@ -93,6 +93,7 @@ public class ResourceNormalizationServiceTests(WebApplicationFactory<Program> fa
         // Verify we have databases from different clouds
         Assert.Contains(result, r => r.Cloud == CloudProvider.AWS);
         Assert.Contains(result, r => r.Cloud == CloudProvider.Azure);
+        Assert.Contains(result, r => r.Cloud == CloudProvider.GCP);
 
         // Verify all databases have required properties
         Assert.All(result, db =>

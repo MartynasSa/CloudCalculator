@@ -12,6 +12,11 @@ public interface IResourceNormalizationService
 
 public class ResourceNormalizationService(ICloudPricingRepository cloudPricingRepository) : IResourceNormalizationService
 {
+    // GCP machine type memory ratios (GB per vCPU)
+    private const double GCP_HIGHCPU_MEMORY_RATIO = 2.0;
+    private const double GCP_HIGHMEM_MEMORY_RATIO = 8.0;
+    private const double GCP_ULTRAMEM_MEMORY_RATIO = 25.0;
+    private const double GCP_STANDARD_MEMORY_RATIO = 4.0;
     public async Task<List<NormalizedComputeInstanceDto>> GetNormalizedComputeInstancesAsync(CancellationToken cancellationToken = default)
     {
         var data = await cloudPricingRepository.GetAllAsync(cancellationToken);
@@ -97,6 +102,7 @@ public class ResourceNormalizationService(ICloudPricingRepository cloudPricingRe
         {
             "Database Instance" => true,
             "Databases" when product.VendorName == CloudProvider.Azure => true,
+            "ApplicationServices" when product.VendorName == CloudProvider.GCP && product.Service == "Cloud SQL" => true,
             _ => false
         };
     }
@@ -123,6 +129,14 @@ public class ResourceNormalizationService(ICloudPricingRepository cloudPricingRe
         if (!string.IsNullOrWhiteSpace(machineType))
             return machineType;
 
+        // GCP Cloud SQL uses resourceGroup
+        if (product.VendorName == CloudProvider.GCP && product.Service == "Cloud SQL")
+        {
+            var resourceGroup = product.Attributes.FirstOrDefault(a => a.Key == "resourceGroup")?.Value;
+            if (!string.IsNullOrWhiteSpace(resourceGroup))
+                return resourceGroup;
+        }
+
         return null;
     }
 
@@ -143,6 +157,23 @@ public class ResourceNormalizationService(ICloudPricingRepository cloudPricingRe
         if (!string.IsNullOrWhiteSpace(numberOfCoresStr) && int.TryParse(numberOfCoresStr, out var numberOfCores))
             return numberOfCores;
 
+        // Parse from description for GCP (Cloud SQL, etc.)
+        if (product.VendorName == CloudProvider.GCP)
+        {
+            var description = product.Attributes.FirstOrDefault(a => a.Key == "description")?.Value;
+            if (!string.IsNullOrWhiteSpace(description))
+            {
+                var match = System.Text.RegularExpressions.Regex.Match(description, @"(\d+)\s+vCPU");
+                if (match.Success && int.TryParse(match.Groups[1].Value, out var gcpVcpu))
+                    return gcpVcpu;
+            }
+            
+            // Parse from machineType for GCP Compute Engine
+            var vcpuFromMachineType = ExtractVCpuFromGcpMachineType(product);
+            if (vcpuFromMachineType.HasValue)
+                return vcpuFromMachineType;
+        }
+
         return null;
     }
 
@@ -157,7 +188,57 @@ public class ResourceNormalizationService(ICloudPricingRepository cloudPricingRe
         if (!string.IsNullOrWhiteSpace(memoryInGB))
             return $"{memoryInGB} GB";
         
+        // Parse from description for GCP (Cloud SQL, etc.)
+        if (product.VendorName == CloudProvider.GCP)
+        {
+            var description = product.Attributes.FirstOrDefault(a => a.Key == "description")?.Value;
+            if (!string.IsNullOrWhiteSpace(description))
+            {
+                var match = System.Text.RegularExpressions.Regex.Match(description, @"(\d+(?:\.\d+)?)\s*GB RAM");
+                if (match.Success)
+                    return $"{match.Groups[1].Value} GB";
+            }
+            
+            // Estimate from machineType for GCP Compute Engine
+            var vcpus = ExtractVCpuFromGcpMachineType(product);
+            if (vcpus.HasValue)
+            {
+                var machineType = product.Attributes.FirstOrDefault(a => a.Key == "machineType")?.Value;
+                if (!string.IsNullOrWhiteSpace(machineType))
+                {
+                    var memoryGb = EstimateGcpMemoryFromMachineType(machineType, vcpus.Value);
+                    return $"{memoryGb} GB";
+                }
+            }
+        }
+        
         return null;
+    }
+    
+    private static int? ExtractVCpuFromGcpMachineType(CloudPricingProductDto product)
+    {
+        var machineType = product.Attributes.FirstOrDefault(a => a.Key == "machineType")?.Value;
+        if (!string.IsNullOrWhiteSpace(machineType))
+        {
+            // Extract the number at the end of the machine type (e.g., "c2d-highcpu-2" -> 2)
+            var parts = machineType.Split('-');
+            if (parts.Length >= 3 && int.TryParse(parts[^1], out var machineVcpu))
+                return machineVcpu;
+        }
+        return null;
+    }
+    
+    private static double EstimateGcpMemoryFromMachineType(string machineType, int vcpus)
+    {
+        // Estimate memory based on machine type series
+        if (machineType.Contains("highcpu", StringComparison.OrdinalIgnoreCase))
+            return vcpus * GCP_HIGHCPU_MEMORY_RATIO;
+        if (machineType.Contains("highmem", StringComparison.OrdinalIgnoreCase))
+            return vcpus * GCP_HIGHMEM_MEMORY_RATIO;
+        if (machineType.Contains("ultramem", StringComparison.OrdinalIgnoreCase))
+            return vcpus * GCP_ULTRAMEM_MEMORY_RATIO;
+        
+        return vcpus * GCP_STANDARD_MEMORY_RATIO;
     }
 
     private static decimal? GetPricePerHour(CloudPricingProductDto product)
@@ -189,6 +270,20 @@ public class ResourceNormalizationService(ICloudPricingRepository cloudPricingRe
             return "PostgreSQL";
         if (product.Service != null && product.Service.Contains("MySQL", StringComparison.OrdinalIgnoreCase))
             return "MySQL";
+        
+        // Parse from description for GCP
+        if (product.VendorName == CloudProvider.GCP)
+        {
+            var description = product.Attributes.FirstOrDefault(a => a.Key == "description")?.Value;
+            if (!string.IsNullOrWhiteSpace(description))
+            {
+                if (description.Contains("MySQL", StringComparison.OrdinalIgnoreCase))
+                    return "MySQL";
+                if (description.Contains("PostgreSQL", StringComparison.OrdinalIgnoreCase) || 
+                    description.Contains("Postgres", StringComparison.OrdinalIgnoreCase))
+                    return "PostgreSQL";
+            }
+        }
         
         return null;
     }

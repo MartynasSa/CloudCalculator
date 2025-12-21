@@ -11758,23 +11758,31 @@
   {
     Cloud: gcp,
     InstanceName: c4d-highmem-8,
-    Region: asia-south1
+    Region: asia-south1,
+    VCpu: 8,
+    Memory: 64 GB
   },
   {
     Cloud: gcp,
     InstanceName: c4d-highmem-96,
-    Region: asia-south1
+    Region: asia-south1,
+    VCpu: 96,
+    Memory: 768 GB
   },
   {
     Cloud: gcp,
     InstanceName: c2d-highcpu-2,
     Region: southamerica-east1,
+    VCpu: 2,
+    Memory: 4 GB,
     PricePerHour: 0.119028
   },
   {
     Cloud: gcp,
     InstanceName: m4-ultramem-56,
-    Region: southamerica-west1
+    Region: southamerica-west1,
+    VCpu: 56,
+    Memory: 1400 GB
   },
   {
     Cloud: gcp,
