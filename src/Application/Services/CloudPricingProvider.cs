@@ -1,10 +1,25 @@
-﻿namespace Application.Services;
+﻿using Application.Models.Dtos;
+using Application.Ports;
+using Microsoft.Extensions.Caching.Memory;
+
+namespace Application.Services;
 
 public interface ICloudPricingProvider
 {
-    
+    Task<CloudPricingDto> GetAllAsync(CancellationToken cancellationToken);
 }
-public class CloudPricingProvider : ICloudPricingProvider
-{
 
+public class CloudPricingProvider(ICloudPricingRepository cloudPricingRepository, IMemoryCache cache) : ICloudPricingProvider
+{
+    private static readonly TimeSpan DefaultTtl = TimeSpan.FromHours(24);
+    private const string CacheKey = "cloud-pricing:all-data";
+
+    public Task<CloudPricingDto> GetAllAsync(CancellationToken cancellationToken)
+    {
+        return cache.GetOrCreateAsync(CacheKey, async entry =>
+        {
+            entry.AbsoluteExpirationRelativeToNow = DefaultTtl;
+            return await cloudPricingRepository.GetAllAsync(cancellationToken).ConfigureAwait(false);
+        })!;
+    }
 }

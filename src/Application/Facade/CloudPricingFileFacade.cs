@@ -1,5 +1,5 @@
 using Application.Models.Dtos;
-using Application.Ports;
+using Application.Services;
 using Microsoft.Extensions.Caching.Memory;
 
 namespace Application.Facade;
@@ -11,7 +11,7 @@ public interface ICloudPricingFileFacade
     Task<DistinctFiltersDto> GetDistinctFiltersAsync(CancellationToken cancellationToken);
 }
 
-public class CloudPricingFileFacade(ICloudPricingRepository cloudPricingRepository, IMemoryCache cache) : ICloudPricingFileFacade
+public class CloudPricingFileFacade(ICloudPricingProvider cloudPricingProvider, IMemoryCache cache) : ICloudPricingFileFacade
 {
     private static readonly TimeSpan DefaultTtl = TimeSpan.FromHours(24);
 
@@ -39,7 +39,7 @@ public class CloudPricingFileFacade(ICloudPricingRepository cloudPricingReposito
         {
             entry.AbsoluteExpirationRelativeToNow = DefaultTtl;
 
-            var full = await cloudPricingRepository.GetAllAsync(cancellationToken).ConfigureAwait(false);
+            var full = await cloudPricingProvider.GetAllAsync(cancellationToken).ConfigureAwait(false);
             var products = full.Data?.Products ?? new List<CloudPricingProductDto>();
 
             IEnumerable<CloudPricingProductDto> query = products;
@@ -140,7 +140,7 @@ public class CloudPricingFileFacade(ICloudPricingRepository cloudPricingReposito
         {
             entry.AbsoluteExpirationRelativeToNow = DefaultTtl;
 
-            var full = await cloudPricingRepository.GetAllAsync(cancellationToken).ConfigureAwait(false);
+            var full = await cloudPricingProvider.GetAllAsync(cancellationToken).ConfigureAwait(false);
             var products = full.Data?.Products ?? new List<CloudPricingProductDto>();
 
             var comparer = StringComparer.OrdinalIgnoreCase;
