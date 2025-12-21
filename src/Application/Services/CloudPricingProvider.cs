@@ -7,14 +7,12 @@ namespace Application.Services;
 public interface ICloudPricingProvider
 {
     Task<CloudPricingDto> GetAllAsync(CancellationToken cancellationToken);
-    Task<IQueryable<CloudPricingProductDto>> GetProductsQueryableAsync(CancellationToken cancellationToken);
 }
 
 public class CloudPricingProvider(ICloudPricingRepository cloudPricingRepository, IMemoryCache cache) : ICloudPricingProvider
 {
     private static readonly TimeSpan DefaultTtl = TimeSpan.FromHours(24);
     private const string CacheKey = "cloud-pricing:all-data";
-    private const string CacheKeyQueryable = "cloud-pricing:queryable-data";
 
     public Task<CloudPricingDto> GetAllAsync(CancellationToken cancellationToken)
     {
@@ -22,15 +20,6 @@ public class CloudPricingProvider(ICloudPricingRepository cloudPricingRepository
         {
             entry.AbsoluteExpirationRelativeToNow = DefaultTtl;
             return await cloudPricingRepository.GetAllAsync(cancellationToken).ConfigureAwait(false);
-        });
-    }
-
-    public Task<IQueryable<CloudPricingProductDto>> GetProductsQueryableAsync(CancellationToken cancellationToken)
-    {
-        return cache.GetOrCreateAsync(CacheKeyQueryable, async entry =>
-        {
-            entry.AbsoluteExpirationRelativeToNow = DefaultTtl;
-            return await cloudPricingRepository.GetProductsQueryableAsync(cancellationToken).ConfigureAwait(false);
         });
     }
 }
