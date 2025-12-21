@@ -8,6 +8,8 @@ public class TemplateDto
     public UsageSize Usage { get; set; }
     public Dictionary<CloudProvider, TemplateVirtualMachineDto>? VirtualMachines { get; set; }
     public Dictionary<CloudProvider, TemplateDatabaseDto>? Databases { get; set; }
+    public Dictionary<CloudProvider, TemplateLoadBalancerDto>? LoadBalancers { get; set; }
+    public Dictionary<CloudProvider, TemplateMonitoringDto>? Monitoring { get; set; }
 }
 
 public class TemplateVirtualMachineDto : TemplateResourceDtoBase
@@ -23,6 +25,16 @@ public class TemplateDatabaseDto : TemplateResourceDtoBase
     public double CpuCores { get; set; }
     public double Memory { get; set; }
     public string? DatabaseEngine { get; set; }
+}
+
+public class TemplateLoadBalancerDto : TemplateResourceDtoBase
+{
+    public required string Name { get; set; }
+}
+
+public class TemplateMonitoringDto : TemplateResourceDtoBase
+{
+    public required string Name { get; set; }
 }
 
 public class TemplateResourceDtoBase

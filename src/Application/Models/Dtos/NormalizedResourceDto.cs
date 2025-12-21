@@ -22,3 +22,17 @@ public class NormalizedDatabaseDto
     public string? Memory { get; set; }
     public decimal? PricePerHour { get; set; }
 }
+
+public class NormalizedLoadBalancerDto
+{
+    public required CloudProvider Cloud { get; set; }
+    public required string Name { get; set; }
+    public decimal? PricePerMonth { get; set; }
+}
+
+public class NormalizedMonitoringDto
+{
+    public required CloudProvider Cloud { get; set; }
+    public required string Name { get; set; }
+    public decimal? PricePerMonth { get; set; }
+}

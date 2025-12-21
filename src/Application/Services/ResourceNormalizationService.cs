@@ -8,6 +8,8 @@ public interface IResourceNormalizationService
 {
     Task<List<NormalizedComputeInstanceDto>> GetNormalizedComputeInstancesAsync(CancellationToken cancellationToken = default);
     Task<List<NormalizedDatabaseDto>> GetNormalizedDatabasesAsync(CancellationToken cancellationToken = default);
+    List<NormalizedLoadBalancerDto> GetNormalizedLoadBalancers(UsageSize usage);
+    List<NormalizedMonitoringDto> GetNormalizedMonitoring(UsageSize usage);
 }
 
 public class ResourceNormalizationService(ICloudPricingRepository cloudPricingRepository) : IResourceNormalizationService
@@ -286,5 +288,105 @@ public class ResourceNormalizationService(ICloudPricingRepository cloudPricingRe
         }
         
         return null;
+    }
+
+    public List<NormalizedLoadBalancerDto> GetNormalizedLoadBalancers(UsageSize usage)
+    {
+        var loadBalancers = new List<NormalizedLoadBalancerDto>();
+
+        // Pricing per month for Small/Medium/Large usage sizes
+        var gcpPricing = usage switch
+        {
+            UsageSize.Small => 18.41m,
+            UsageSize.Medium => 19.85m,
+            UsageSize.Large => 34.25m,
+            _ => 0m
+        };
+
+        var azurePricing = 0m; // Azure Load Balancer is free for Small/Medium/Large
+
+        var awsPricing = usage switch
+        {
+            UsageSize.Small => 16.51m,
+            UsageSize.Medium => 17.23m,
+            UsageSize.Large => 24.43m,
+            _ => 0m
+        };
+
+        loadBalancers.Add(new NormalizedLoadBalancerDto
+        {
+            Cloud = CloudProvider.GCP,
+            Name = "Cloud Load Balancing",
+            PricePerMonth = gcpPricing
+        });
+
+        loadBalancers.Add(new NormalizedLoadBalancerDto
+        {
+            Cloud = CloudProvider.Azure,
+            Name = "Azure Load Balancer",
+            PricePerMonth = azurePricing
+        });
+
+        loadBalancers.Add(new NormalizedLoadBalancerDto
+        {
+            Cloud = CloudProvider.AWS,
+            Name = "Elastic Load Balancing",
+            PricePerMonth = awsPricing
+        });
+
+        return loadBalancers;
+    }
+
+    public List<NormalizedMonitoringDto> GetNormalizedMonitoring(UsageSize usage)
+    {
+        var monitoring = new List<NormalizedMonitoringDto>();
+
+        // Pricing per month for Small/Medium/Large usage sizes
+        var gcpPricing = usage switch
+        {
+            UsageSize.Small => 4m,
+            UsageSize.Medium => 12m,
+            UsageSize.Large => 40m,
+            _ => 0m
+        };
+
+        var azurePricing = usage switch
+        {
+            UsageSize.Small => 6m,
+            UsageSize.Medium => 18m,
+            UsageSize.Large => 60m,
+            _ => 0m
+        };
+
+        var awsPricing = usage switch
+        {
+            UsageSize.Small => 5m,
+            UsageSize.Medium => 15m,
+            UsageSize.Large => 50m,
+            _ => 0m
+        };
+
+        monitoring.Add(new NormalizedMonitoringDto
+        {
+            Cloud = CloudProvider.GCP,
+            Name = "Cloud Ops",
+            PricePerMonth = gcpPricing
+        });
+
+        monitoring.Add(new NormalizedMonitoringDto
+        {
+            Cloud = CloudProvider.Azure,
+            Name = "Azure Monitor",
+            PricePerMonth = azurePricing
+        });
+
+        monitoring.Add(new NormalizedMonitoringDto
+        {
+            Cloud = CloudProvider.AWS,
+            Name = "CloudWatch",
+            PricePerMonth = awsPricing
+        });
+
+        return monitoring;
     }
 }
