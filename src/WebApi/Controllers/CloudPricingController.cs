@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using Application.Facade;
 
 namespace WebApi.Controllers;
+
 [Route("api")]
 public class CloudPricingController(ICloudPricingFileFacade cloudPricingFileFacade) : Controller
 {

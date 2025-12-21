@@ -43,6 +43,12 @@ public class CloudPricingRepository(string? dataDirectory = null) : ICloudPricin
         return combined;
     }
 
+    public async Task<IQueryable<CloudPricingProductDto>> GetProductsQueryableAsync(CancellationToken cancellationToken)
+    {
+        var dto = await GetAllAsync(cancellationToken);
+        return (dto.Data?.Products ?? new List<CloudPricingProductDto>()).AsQueryable();
+    }
+
     private string ResolveDataDirectory()
     {
         if (!string.IsNullOrWhiteSpace(dataDirectory))
