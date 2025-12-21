@@ -74,11 +74,11 @@ public class TemplateFacade(IResourceNormalizationService resourceNormalizationS
 
         var specs = GetDatabaseSpecs(usage);
 
-        foreach (var cloud in new[] { CloudProvider.AWS, CloudProvider.Azure })
+        foreach (var cloud in new[] { CloudProvider.AWS, CloudProvider.Azure, CloudProvider.GCP })
         {
             var cloudDatabases = databases
                 .Where(d => d.Cloud == cloud)
-                .Where(d => d.DatabaseEngine != null && d.DatabaseEngine.Contains("postgres", StringComparison.OrdinalIgnoreCase))
+                .Where(d => d.DatabaseEngine != null)
                 .Where(d => d.VCpu.HasValue && d.Memory != null)
                 .ToList();
 

@@ -97,6 +97,7 @@ public class ResourceNormalizationService(ICloudPricingRepository cloudPricingRe
         {
             "Database Instance" => true,
             "Databases" when product.VendorName == CloudProvider.Azure => true,
+            "ApplicationServices" when product.VendorName == CloudProvider.GCP && product.Service == "Cloud SQL" => true,
             _ => false
         };
     }
@@ -123,6 +124,14 @@ public class ResourceNormalizationService(ICloudPricingRepository cloudPricingRe
         if (!string.IsNullOrWhiteSpace(machineType))
             return machineType;
 
+        // GCP Cloud SQL uses resourceGroup
+        if (product.VendorName == CloudProvider.GCP && product.Service == "Cloud SQL")
+        {
+            var resourceGroup = product.Attributes.FirstOrDefault(a => a.Key == "resourceGroup")?.Value;
+            if (!string.IsNullOrWhiteSpace(resourceGroup))
+                return resourceGroup;
+        }
+
         return null;
     }
 
@@ -143,6 +152,28 @@ public class ResourceNormalizationService(ICloudPricingRepository cloudPricingRe
         if (!string.IsNullOrWhiteSpace(numberOfCoresStr) && int.TryParse(numberOfCoresStr, out var numberOfCores))
             return numberOfCores;
 
+        // Parse from description for GCP (Cloud SQL, etc.)
+        if (product.VendorName == CloudProvider.GCP)
+        {
+            var description = product.Attributes.FirstOrDefault(a => a.Key == "description")?.Value;
+            if (!string.IsNullOrWhiteSpace(description))
+            {
+                var match = System.Text.RegularExpressions.Regex.Match(description, @"(\d+)\s+vCPU");
+                if (match.Success && int.TryParse(match.Groups[1].Value, out var gcpVcpu))
+                    return gcpVcpu;
+            }
+            
+            // Parse from machineType for GCP Compute Engine (e.g., "c2d-highcpu-2", "c4d-highmem-8")
+            var machineType = product.Attributes.FirstOrDefault(a => a.Key == "machineType")?.Value;
+            if (!string.IsNullOrWhiteSpace(machineType))
+            {
+                // Extract the number at the end of the machine type (e.g., "c2d-highcpu-2" -> 2)
+                var parts = machineType.Split('-');
+                if (parts.Length >= 3 && int.TryParse(parts[^1], out var machineVcpu))
+                    return machineVcpu;
+            }
+        }
+
         return null;
     }
 
@@ -156,6 +187,40 @@ public class ResourceNormalizationService(ICloudPricingRepository cloudPricingRe
         var memoryInGB = product.Attributes.FirstOrDefault(a => a.Key == "memoryInGB")?.Value;
         if (!string.IsNullOrWhiteSpace(memoryInGB))
             return $"{memoryInGB} GB";
+        
+        // Parse from description for GCP (Cloud SQL, etc.)
+        if (product.VendorName == CloudProvider.GCP)
+        {
+            var description = product.Attributes.FirstOrDefault(a => a.Key == "description")?.Value;
+            if (!string.IsNullOrWhiteSpace(description))
+            {
+                var match = System.Text.RegularExpressions.Regex.Match(description, @"(\d+(?:\.\d+)?)\s*GB RAM");
+                if (match.Success)
+                    return $"{match.Groups[1].Value} GB";
+            }
+            
+            // Estimate from machineType for GCP Compute Engine
+            var machineType = product.Attributes.FirstOrDefault(a => a.Key == "machineType")?.Value;
+            if (!string.IsNullOrWhiteSpace(machineType))
+            {
+                var parts = machineType.Split('-');
+                if (parts.Length >= 3 && int.TryParse(parts[^1], out var vcpus))
+                {
+                    // Estimate memory based on machine type series
+                    double memoryGb;
+                    if (machineType.Contains("highcpu", StringComparison.OrdinalIgnoreCase))
+                        memoryGb = vcpus * 2.0;  // High-CPU: ~2 GB per vCPU
+                    else if (machineType.Contains("highmem", StringComparison.OrdinalIgnoreCase))
+                        memoryGb = vcpus * 8.0;  // High-memory: ~8 GB per vCPU
+                    else if (machineType.Contains("ultramem", StringComparison.OrdinalIgnoreCase))
+                        memoryGb = vcpus * 25.0; // Ultra-memory: ~25 GB per vCPU
+                    else
+                        memoryGb = vcpus * 4.0;  // Standard: ~4 GB per vCPU
+                    
+                    return $"{memoryGb} GB";
+                }
+            }
+        }
         
         return null;
     }
@@ -189,6 +254,20 @@ public class ResourceNormalizationService(ICloudPricingRepository cloudPricingRe
             return "PostgreSQL";
         if (product.Service != null && product.Service.Contains("MySQL", StringComparison.OrdinalIgnoreCase))
             return "MySQL";
+        
+        // Parse from description for GCP
+        if (product.VendorName == CloudProvider.GCP)
+        {
+            var description = product.Attributes.FirstOrDefault(a => a.Key == "description")?.Value;
+            if (!string.IsNullOrWhiteSpace(description))
+            {
+                if (description.Contains("MySQL", StringComparison.OrdinalIgnoreCase))
+                    return "MySQL";
+                if (description.Contains("PostgreSQL", StringComparison.OrdinalIgnoreCase) || 
+                    description.Contains("Postgres", StringComparison.OrdinalIgnoreCase))
+                    return "PostgreSQL";
+            }
+        }
         
         return null;
     }
