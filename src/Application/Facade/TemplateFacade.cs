@@ -1,16 +1,17 @@
 ﻿using Application.Models.Dtos;
 using Application.Models.Enums;
+using Application.Services;
 
 namespace Application.Facade;
 
 public interface ITemplateFacade
 {
-    TemplateDto GetTemplate(TemplateRequest request);
+    Task<TemplateDto> GetTemplateAsync(TemplateRequest request);
 }
 
-public class TemplateFacade : ITemplateFacade
+public class TemplateFacade(IResourceNormalizationService resourceNormalizationService) : ITemplateFacade
 {
-    public TemplateDto GetTemplate(TemplateRequest request)
+    public async Task<TemplateDto> GetTemplateAsync(TemplateRequest request)
     {
         var result = new TemplateDto()
         {
@@ -21,7 +22,8 @@ public class TemplateFacade : ITemplateFacade
         switch (request.Template)
         {
             case TemplateType.Saas:
-                result.VirtualMachines = GetVirtualMachines(request.Usage);
+                result.VirtualMachines = await GetVirtualMachinesAsync(request.Usage);
+                result.Databases = await GetDatabasesAsync(request.Usage);
                 break;
             default:
                 throw new ArgumentOutOfRangeException();
@@ -30,91 +32,145 @@ public class TemplateFacade : ITemplateFacade
         return result;
     }
 
-    private Dictionary<CloudProvider, TemplateVirtualMachineDto> GetVirtualMachines(UsageSize usage)
+    private async Task<Dictionary<CloudProvider, TemplateVirtualMachineDto>> GetVirtualMachinesAsync(UsageSize usage)
     {
-        return new Dictionary<CloudProvider, TemplateVirtualMachineDto>()
+        var instances = await resourceNormalizationService.GetNormalizedComputeInstancesAsync();
+        var result = new Dictionary<CloudProvider, TemplateVirtualMachineDto>();
+
+        var specs = GetVirtualMachineSpecs(usage);
+
+        foreach (var cloud in new[] { CloudProvider.AWS, CloudProvider.Azure, CloudProvider.GCP })
+        {
+            var cloudInstances = instances
+                .Where(i => i.Cloud == cloud)
+                .Where(i => i.VCpu.HasValue && i.Memory != null)
+                .ToList();
+
+            var matchedInstance = FindCheapestInstance(
+                cloudInstances,
+                specs.MinCpu,
+                specs.MinMemory,
+                cloud);
+
+            if (matchedInstance != null)
+            {
+                result[cloud] = new TemplateVirtualMachineDto()
                 {
-                    {
-                        CloudProvider.AWS,
-                        usage switch
-                        {
-                            UsageSize.Small => new TemplateVirtualMachineDto()
-                            {
-                                InstanceName = "t4g.medium",
-                                CpuCores = 2,
-                                Memory = 4,
-                                PricePerMonth = 12.19m,
-                            },
-                            UsageSize.Medium => new TemplateVirtualMachineDto()
-                            {
-                                InstanceName = "c6g.xlarge",
-                                CpuCores = 4,
-                                Memory = 8,
-                                PricePerMonth = 47.96m,
-                            },
-                            UsageSize.Large => new TemplateVirtualMachineDto()
-                            {
-                                InstanceName = "c6g.2xlarge",
-                                CpuCores = 8,
-                                Memory = 16,
-                                PricePerMonth = 95.85m,
-                            },
-                        }
-                    },
-                    {
-                        CloudProvider.Azure,
-                        usage switch
-                        {
-                            UsageSize.Small => new TemplateVirtualMachineDto()
-                            {
-                                InstanceName = "Standard_B2s_v2",
-                                CpuCores = 2,
-                                Memory = 4,
-                                PricePerMonth = 15.11m,
-                            },
-                            UsageSize.Medium => new TemplateVirtualMachineDto()
-                            {
-                                InstanceName = "Standard_B2as_v2",
-                                CpuCores = 4,
-                                Memory = 8,
-                                PricePerMonth = 30.37m,
-                            },
-                            UsageSize.Large => new TemplateVirtualMachineDto()
-                            {
-                                InstanceName = "Standard_B2ms",
-                                CpuCores = 8,
-                                Memory = 16,
-                                PricePerMonth = 60.74m,
-                            },
-                        }
-                    },
-                    {
-                        CloudProvider.GCP,
-                        usage switch
-                        {
-                            UsageSize.Small => new TemplateVirtualMachineDto()
-                            {
-                                InstanceName = "Compute Engine t2d-standard-1",
-                                CpuCores = 1,
-                                Memory = 4,
-                                PricePerMonth = 31.84m,
-                            },
-                            UsageSize.Medium => new TemplateVirtualMachineDto()
-                            {
-                                InstanceName = "Compute Engine t2d-standard-2",
-                                CpuCores = 4,
-                                Memory = 8,
-                                PricePerMonth = 62.68m,
-                            },
-                            UsageSize.Large => new TemplateVirtualMachineDto()
-                            {
-                                InstanceName = "Compute Engine t2d-standard-4",
-                                CpuCores = 8,
-                                Memory = 16,
-                                PricePerMonth = 124.36m,
-                            },
-                        }
-                    },
+                    InstanceName = matchedInstance.InstanceName,
+                    CpuCores = matchedInstance.VCpu ?? specs.MinCpu,
+                    Memory = ParseMemory(matchedInstance.Memory) ?? specs.MinMemory,
+                    PricePerMonth = CalculateMonthlyPrice(matchedInstance.PricePerHour),
                 };
+            }
+        }
+
+        return result;
+    }
+
+    private async Task<Dictionary<CloudProvider, TemplateDatabaseDto>> GetDatabasesAsync(UsageSize usage)
+    {
+        var databases = await resourceNormalizationService.GetNormalizedDatabasesAsync();
+        var result = new Dictionary<CloudProvider, TemplateDatabaseDto>();
+
+        var specs = GetDatabaseSpecs(usage);
+
+        foreach (var cloud in new[] { CloudProvider.AWS, CloudProvider.Azure })
+        {
+            var cloudDatabases = databases
+                .Where(d => d.Cloud == cloud)
+                .Where(d => d.DatabaseEngine != null && d.DatabaseEngine.Contains("postgres", StringComparison.OrdinalIgnoreCase))
+                .Where(d => d.VCpu.HasValue && d.Memory != null)
+                .ToList();
+
+            var matchedDatabase = FindCheapestInstance(
+                cloudDatabases,
+                specs.MinCpu,
+                specs.MinMemory,
+                cloud);
+
+            if (matchedDatabase != null)
+            {
+                result[cloud] = new TemplateDatabaseDto()
+                {
+                    InstanceName = matchedDatabase.InstanceName,
+                    CpuCores = matchedDatabase.VCpu ?? specs.MinCpu,
+                    Memory = ParseMemory(matchedDatabase.Memory) ?? specs.MinMemory,
+                    DatabaseEngine = matchedDatabase.DatabaseEngine,
+                    PricePerMonth = CalculateMonthlyPrice(matchedDatabase.PricePerHour),
+                };
+            }
+        }
+
+        return result;
+    }
+
+    private static (int MinCpu, double MinMemory) GetVirtualMachineSpecs(UsageSize usage)
+    {
+        return usage switch
+        {
+            UsageSize.Small => (MinCpu: 2, MinMemory: 4),
+            UsageSize.Medium => (MinCpu: 4, MinMemory: 8),
+            UsageSize.Large => (MinCpu: 8, MinMemory: 16),
+            _ => throw new ArgumentOutOfRangeException(nameof(usage)),
+        };
+    }
+
+    private static (int MinCpu, double MinMemory) GetDatabaseSpecs(UsageSize usage)
+    {
+        return usage switch
+        {
+            UsageSize.Small => (MinCpu: 1, MinMemory: 2),
+            UsageSize.Medium => (MinCpu: 2, MinMemory: 4),
+            UsageSize.Large => (MinCpu: 4, MinMemory: 8),
+            _ => throw new ArgumentOutOfRangeException(nameof(usage)),
+        };
+    }
+
+    private static NormalizedComputeInstanceDto? FindCheapestInstance(
+        List<NormalizedComputeInstanceDto> instances,
+        int minCpu,
+        double minMemory,
+        CloudProvider cloud)
+    {
+        return instances
+            .Where(i => i.VCpu >= minCpu)
+            .Where(i => ParseMemory(i.Memory) >= minMemory)
+            .OrderBy(i => i.PricePerHour)
+            .FirstOrDefault();
+    }
+
+    private static NormalizedDatabaseDto? FindCheapestInstance(
+        List<NormalizedDatabaseDto> instances,
+        int minCpu,
+        double minMemory,
+        CloudProvider cloud)
+    {
+        return instances
+            .Where(i => i.VCpu >= minCpu)
+            .Where(i => ParseMemory(i.Memory) >= minMemory)
+            .OrderBy(i => i.PricePerHour)
+            .FirstOrDefault();
+    }
+
+    private static double? ParseMemory(string? memory)
+    {
+        if (string.IsNullOrWhiteSpace(memory))
+            return null;
+
+        // Handle formats like "4 GB", "4GB", "4", etc.
+        var parts = memory.Split(' ', StringSplitOptions.RemoveEmptyEntries);
+        if (parts.Length > 0 && double.TryParse(parts[0], out var value))
+            return value;
+
+        return null;
+    }
+
+    private static decimal CalculateMonthlyPrice(decimal? pricePerHour)
+    {
+        if (!pricePerHour.HasValue)
+            return 0m;
+
+        // Assuming 730 hours per month (365 days / 12 months * 24 hours)
+        return pricePerHour.Value * 730m;
     }
 }

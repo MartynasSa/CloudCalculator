@@ -7,6 +7,7 @@ public class TemplateDto
     public TemplateType Template { get; set; }
     public UsageSize Usage { get; set; }
     public Dictionary<CloudProvider, TemplateVirtualMachineDto>? VirtualMachines { get; set; }
+    public Dictionary<CloudProvider, TemplateDatabaseDto>? Databases { get; set; }
 }
 
 public class TemplateVirtualMachineDto : TemplateResourceDtoBase
@@ -14,6 +15,14 @@ public class TemplateVirtualMachineDto : TemplateResourceDtoBase
     public required string InstanceName { get; set; }
     public double CpuCores { get; set; }
     public double Memory { get; set; }
+}
+
+public class TemplateDatabaseDto : TemplateResourceDtoBase
+{
+    public required string InstanceName { get; set; }
+    public double CpuCores { get; set; }
+    public double Memory { get; set; }
+    public string? DatabaseEngine { get; set; }
 }
 
 public class TemplateResourceDtoBase
