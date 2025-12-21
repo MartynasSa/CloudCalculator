@@ -1,6 +1,7 @@
 using Application.Facade;
 using Application.Models;
 using Application.Ports;
+using Application.Services;
 using Infrastructure;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.OpenApi.Models;
@@ -51,6 +52,8 @@ builder.Services.AddMemoryCache();
 builder.Services.AddScoped<ICloudPricingRepository, CloudPricingRepository>();
 builder.Services.AddScoped<ICloudPricingFileFacade, CloudPricingFileFacade>();
 builder.Services.AddScoped<ITemplateFacade, TemplateFacade>();
+builder.Services.AddScoped<IResourceNormalizationService, ResourceNormalizationService>();
+builder.Services.AddScoped<ICloudPricingProvider, CloudPricingProvider>();
 
 var app = builder.Build();
 
