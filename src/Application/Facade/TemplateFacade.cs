@@ -47,6 +47,32 @@ public class TemplateFacade(IResourceNormalizationService resourceNormalizationS
                 result.LoadBalancers = GetLoadBalancers(request.Usage);
                 result.Monitoring = GetMonitoring(request.Usage);
                 break;
+            case TemplateType.MobileAppBackend:
+                result.VirtualMachines = await GetVirtualMachinesAsync(request.Usage);
+                result.Databases = await GetDatabasesAsync(request.Usage);
+                result.LoadBalancers = GetLoadBalancers(request.Usage);
+                result.Monitoring = GetMonitoring(request.Usage);
+                break;
+            case TemplateType.HeadlessFrontendApi:
+                result.VirtualMachines = await GetVirtualMachinesAsync(request.Usage);
+                result.Databases = await GetDatabasesAsync(request.Usage);
+                result.LoadBalancers = GetLoadBalancers(request.Usage);
+                result.Monitoring = GetMonitoring(request.Usage);
+                break;
+            case TemplateType.DataAnalytics:
+                result.VirtualMachines = await GetVirtualMachinesAsync(request.Usage);
+                result.Databases = await GetDatabasesAsync(request.Usage);
+                result.LoadBalancers = GetLoadBalancers(request.Usage);
+                result.Monitoring = GetMonitoring(request.Usage);
+                break;
+            case TemplateType.MachineLearning:
+                result.VirtualMachines = await GetVirtualMachinesAsync(request.Usage);
+                result.LoadBalancers = GetLoadBalancers(request.Usage);
+                result.Monitoring = GetMonitoring(request.Usage);
+                break;
+            case TemplateType.ServerlessEventDriven:
+                result.LoadBalancers = GetLoadBalancers(request.Usage);
+                break;
             default:
                 throw new ArgumentOutOfRangeException();
         }

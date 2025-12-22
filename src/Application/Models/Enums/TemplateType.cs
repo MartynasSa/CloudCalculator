@@ -18,6 +18,16 @@ public enum TemplateType
     StaticSite = 4,
     [EnumMember(Value = "ecommerce")]
     Ecommerce = 5,
+    [EnumMember(Value = "mobile_app_backend")]
+    MobileAppBackend = 6,
+    [EnumMember(Value = "headless_frontend_api")]
+    HeadlessFrontendApi = 7,
+    [EnumMember(Value = "data_analytics")]
+    DataAnalytics = 8,
+    [EnumMember(Value = "machine_learning")]
+    MachineLearning = 9,
+    [EnumMember(Value = "serverless_event_driven")]
+    ServerlessEventDriven = 10,
 }
 
 [TypeConverter(typeof(JsonStringEnumConverter<UsageSize>))]

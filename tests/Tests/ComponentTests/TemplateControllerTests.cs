@@ -503,4 +503,257 @@ public class TemplateControllerTests(WebApplicationFactory<Program> factory) : T
         Assert.Equal(TemplateType.Ecommerce, template.Template);
         Assert.Equal(UsageSize.Large, template.Usage);
     }
+
+    // Mobile App Backend template tests
+    [Fact]
+    public async Task Get_Templates_WithMobileAppBackendSmall_Returns_Template()
+    {
+        var response = await Client.GetAsync("/api/templates?template=6&usage=1");
+        response.EnsureSuccessStatusCode();
+
+        await using var stream = await response.Content.ReadAsStreamAsync();
+        var template = await JsonSerializer.DeserializeAsync<TemplateDto>(stream, JsonOptions);
+
+        Assert.NotNull(template);
+        Assert.Equal(TemplateType.MobileAppBackend, template.Template);
+        Assert.Equal(UsageSize.Small, template.Usage);
+        Assert.NotNull(template.VirtualMachines);
+        Assert.NotEmpty(template.VirtualMachines);
+        Assert.NotNull(template.Databases);
+        Assert.NotEmpty(template.Databases);
+        Assert.NotNull(template.LoadBalancers);
+        Assert.NotEmpty(template.LoadBalancers);
+        Assert.NotNull(template.Monitoring);
+        Assert.NotEmpty(template.Monitoring);
+    }
+
+    [Fact]
+    public async Task Get_Templates_WithMobileAppBackendMedium_Returns_Template()
+    {
+        var response = await Client.GetAsync("/api/templates?template=6&usage=2");
+        response.EnsureSuccessStatusCode();
+
+        await using var stream = await response.Content.ReadAsStreamAsync();
+        var template = await JsonSerializer.DeserializeAsync<TemplateDto>(stream, JsonOptions);
+
+        Assert.NotNull(template);
+        Assert.Equal(TemplateType.MobileAppBackend, template.Template);
+        Assert.Equal(UsageSize.Medium, template.Usage);
+    }
+
+    [Fact]
+    public async Task Get_Templates_WithMobileAppBackendLarge_Returns_Template()
+    {
+        var response = await Client.GetAsync("/api/templates?template=6&usage=3");
+        response.EnsureSuccessStatusCode();
+
+        await using var stream = await response.Content.ReadAsStreamAsync();
+        var template = await JsonSerializer.DeserializeAsync<TemplateDto>(stream, JsonOptions);
+
+        Assert.NotNull(template);
+        Assert.Equal(TemplateType.MobileAppBackend, template.Template);
+        Assert.Equal(UsageSize.Large, template.Usage);
+    }
+
+    // Headless Frontend + API template tests
+    [Fact]
+    public async Task Get_Templates_WithHeadlessFrontendApiSmall_Returns_Template()
+    {
+        var response = await Client.GetAsync("/api/templates?template=7&usage=1");
+        response.EnsureSuccessStatusCode();
+
+        await using var stream = await response.Content.ReadAsStreamAsync();
+        var template = await JsonSerializer.DeserializeAsync<TemplateDto>(stream, JsonOptions);
+
+        Assert.NotNull(template);
+        Assert.Equal(TemplateType.HeadlessFrontendApi, template.Template);
+        Assert.Equal(UsageSize.Small, template.Usage);
+        Assert.NotNull(template.VirtualMachines);
+        Assert.NotEmpty(template.VirtualMachines);
+        Assert.NotNull(template.Databases);
+        Assert.NotEmpty(template.Databases);
+        Assert.NotNull(template.LoadBalancers);
+        Assert.NotEmpty(template.LoadBalancers);
+        Assert.NotNull(template.Monitoring);
+        Assert.NotEmpty(template.Monitoring);
+    }
+
+    [Fact]
+    public async Task Get_Templates_WithHeadlessFrontendApiMedium_Returns_Template()
+    {
+        var response = await Client.GetAsync("/api/templates?template=7&usage=2");
+        response.EnsureSuccessStatusCode();
+
+        await using var stream = await response.Content.ReadAsStreamAsync();
+        var template = await JsonSerializer.DeserializeAsync<TemplateDto>(stream, JsonOptions);
+
+        Assert.NotNull(template);
+        Assert.Equal(TemplateType.HeadlessFrontendApi, template.Template);
+        Assert.Equal(UsageSize.Medium, template.Usage);
+    }
+
+    [Fact]
+    public async Task Get_Templates_WithHeadlessFrontendApiLarge_Returns_Template()
+    {
+        var response = await Client.GetAsync("/api/templates?template=7&usage=3");
+        response.EnsureSuccessStatusCode();
+
+        await using var stream = await response.Content.ReadAsStreamAsync();
+        var template = await JsonSerializer.DeserializeAsync<TemplateDto>(stream, JsonOptions);
+
+        Assert.NotNull(template);
+        Assert.Equal(TemplateType.HeadlessFrontendApi, template.Template);
+        Assert.Equal(UsageSize.Large, template.Usage);
+    }
+
+    // Data Analytics & Reporting Platform template tests
+    [Fact]
+    public async Task Get_Templates_WithDataAnalyticsSmall_Returns_Template()
+    {
+        var response = await Client.GetAsync("/api/templates?template=8&usage=1");
+        response.EnsureSuccessStatusCode();
+
+        await using var stream = await response.Content.ReadAsStreamAsync();
+        var template = await JsonSerializer.DeserializeAsync<TemplateDto>(stream, JsonOptions);
+
+        Assert.NotNull(template);
+        Assert.Equal(TemplateType.DataAnalytics, template.Template);
+        Assert.Equal(UsageSize.Small, template.Usage);
+        Assert.NotNull(template.VirtualMachines);
+        Assert.NotEmpty(template.VirtualMachines);
+        Assert.NotNull(template.Databases);
+        Assert.NotEmpty(template.Databases);
+        Assert.NotNull(template.LoadBalancers);
+        Assert.NotEmpty(template.LoadBalancers);
+        Assert.NotNull(template.Monitoring);
+        Assert.NotEmpty(template.Monitoring);
+    }
+
+    [Fact]
+    public async Task Get_Templates_WithDataAnalyticsMedium_Returns_Template()
+    {
+        var response = await Client.GetAsync("/api/templates?template=8&usage=2");
+        response.EnsureSuccessStatusCode();
+
+        await using var stream = await response.Content.ReadAsStreamAsync();
+        var template = await JsonSerializer.DeserializeAsync<TemplateDto>(stream, JsonOptions);
+
+        Assert.NotNull(template);
+        Assert.Equal(TemplateType.DataAnalytics, template.Template);
+        Assert.Equal(UsageSize.Medium, template.Usage);
+    }
+
+    [Fact]
+    public async Task Get_Templates_WithDataAnalyticsLarge_Returns_Template()
+    {
+        var response = await Client.GetAsync("/api/templates?template=8&usage=3");
+        response.EnsureSuccessStatusCode();
+
+        await using var stream = await response.Content.ReadAsStreamAsync();
+        var template = await JsonSerializer.DeserializeAsync<TemplateDto>(stream, JsonOptions);
+
+        Assert.NotNull(template);
+        Assert.Equal(TemplateType.DataAnalytics, template.Template);
+        Assert.Equal(UsageSize.Large, template.Usage);
+    }
+
+    // Machine Learning Inference Service template tests
+    [Fact]
+    public async Task Get_Templates_WithMachineLearningSmall_Returns_Template()
+    {
+        var response = await Client.GetAsync("/api/templates?template=9&usage=1");
+        response.EnsureSuccessStatusCode();
+
+        await using var stream = await response.Content.ReadAsStreamAsync();
+        var template = await JsonSerializer.DeserializeAsync<TemplateDto>(stream, JsonOptions);
+
+        Assert.NotNull(template);
+        Assert.Equal(TemplateType.MachineLearning, template.Template);
+        Assert.Equal(UsageSize.Small, template.Usage);
+        Assert.NotNull(template.VirtualMachines);
+        Assert.NotEmpty(template.VirtualMachines);
+        Assert.NotNull(template.LoadBalancers);
+        Assert.NotEmpty(template.LoadBalancers);
+        Assert.NotNull(template.Monitoring);
+        Assert.NotEmpty(template.Monitoring);
+        // Machine Learning typically doesn't need a traditional database
+        Assert.True(template.Databases == null || template.Databases.Count == 0);
+    }
+
+    [Fact]
+    public async Task Get_Templates_WithMachineLearningMedium_Returns_Template()
+    {
+        var response = await Client.GetAsync("/api/templates?template=9&usage=2");
+        response.EnsureSuccessStatusCode();
+
+        await using var stream = await response.Content.ReadAsStreamAsync();
+        var template = await JsonSerializer.DeserializeAsync<TemplateDto>(stream, JsonOptions);
+
+        Assert.NotNull(template);
+        Assert.Equal(TemplateType.MachineLearning, template.Template);
+        Assert.Equal(UsageSize.Medium, template.Usage);
+    }
+
+    [Fact]
+    public async Task Get_Templates_WithMachineLearningLarge_Returns_Template()
+    {
+        var response = await Client.GetAsync("/api/templates?template=9&usage=3");
+        response.EnsureSuccessStatusCode();
+
+        await using var stream = await response.Content.ReadAsStreamAsync();
+        var template = await JsonSerializer.DeserializeAsync<TemplateDto>(stream, JsonOptions);
+
+        Assert.NotNull(template);
+        Assert.Equal(TemplateType.MachineLearning, template.Template);
+        Assert.Equal(UsageSize.Large, template.Usage);
+    }
+
+    // Serverless Event-Driven Application template tests
+    [Fact]
+    public async Task Get_Templates_WithServerlessEventDrivenSmall_Returns_Template()
+    {
+        var response = await Client.GetAsync("/api/templates?template=10&usage=1");
+        response.EnsureSuccessStatusCode();
+
+        await using var stream = await response.Content.ReadAsStreamAsync();
+        var template = await JsonSerializer.DeserializeAsync<TemplateDto>(stream, JsonOptions);
+
+        Assert.NotNull(template);
+        Assert.Equal(TemplateType.ServerlessEventDriven, template.Template);
+        Assert.Equal(UsageSize.Small, template.Usage);
+        Assert.NotNull(template.LoadBalancers);
+        Assert.NotEmpty(template.LoadBalancers);
+        // Serverless doesn't need VMs or databases
+        Assert.True(template.VirtualMachines == null || template.VirtualMachines.Count == 0);
+        Assert.True(template.Databases == null || template.Databases.Count == 0);
+        Assert.True(template.Monitoring == null || template.Monitoring.Count == 0);
+    }
+
+    [Fact]
+    public async Task Get_Templates_WithServerlessEventDrivenMedium_Returns_Template()
+    {
+        var response = await Client.GetAsync("/api/templates?template=10&usage=2");
+        response.EnsureSuccessStatusCode();
+
+        await using var stream = await response.Content.ReadAsStreamAsync();
+        var template = await JsonSerializer.DeserializeAsync<TemplateDto>(stream, JsonOptions);
+
+        Assert.NotNull(template);
+        Assert.Equal(TemplateType.ServerlessEventDriven, template.Template);
+        Assert.Equal(UsageSize.Medium, template.Usage);
+    }
+
+    [Fact]
+    public async Task Get_Templates_WithServerlessEventDrivenLarge_Returns_Template()
+    {
+        var response = await Client.GetAsync("/api/templates?template=10&usage=3");
+        response.EnsureSuccessStatusCode();
+
+        await using var stream = await response.Content.ReadAsStreamAsync();
+        var template = await JsonSerializer.DeserializeAsync<TemplateDto>(stream, JsonOptions);
+
+        Assert.NotNull(template);
+        Assert.Equal(TemplateType.ServerlessEventDriven, template.Template);
+        Assert.Equal(UsageSize.Large, template.Usage);
+    }
 }
