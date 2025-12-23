@@ -1,3 +1,4 @@
+using System;
 using Application.Models.Dtos;
 using Application.Models.Enums;
 using Application.Services;
@@ -13,6 +14,8 @@ public class CloudPricingFileFacade(IResourceNormalizationService resourceNormal
 {
     public async Task<CategorizedResourcesDto> GetCategorizedResourcesAsync(UsageSize usage, CancellationToken cancellationToken)
     {
-        return await resourceNormalizationService.GetCategorizedResourcesAsync(usage, cancellationToken);
+        var neededResources = Enum.GetValues<ResourceCategory>();
+
+        return await resourceNormalizationService.GetResourcesAsync(neededResources, usage, cancellationToken);
     }
 }

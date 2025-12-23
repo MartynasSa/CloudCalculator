@@ -85,13 +85,19 @@ public class TemplateFacade(IResourceNormalizationService resourceNormalizationS
 
     private async Task<Dictionary<CloudProvider, TemplateVirtualMachineDto>> GetVirtualMachinesAsync(UsageSize usage)
     {
-        var instances = await resourceNormalizationService.GetNormalizedComputeInstancesAsync();
-        var result = new Dictionary<CloudProvider, TemplateVirtualMachineDto>();
+        var categorized = await resourceNormalizationService.GetResourcesAsync(
+            new[] { ResourceCategory.Compute },
+            usage);
 
+        var instances = categorized.Categories.TryGetValue(ResourceCategory.Compute, out var computeCategory)
+            ? (computeCategory.ComputeInstances ?? [])
+            : [];
+
+        var result = new Dictionary<CloudProvider, TemplateVirtualMachineDto>();
         var specs = GetVirtualMachineSpecs(usage);
 
         foreach (var cloud in new[] { CloudProvider.AWS, CloudProvider.Azure, CloudProvider.GCP })
-        {
+        {   
             var cloudInstances = instances
                 .Where(i => i.Cloud == cloud)
                 .Where(i => i.VCpu.HasValue && i.Memory != null)
@@ -120,9 +126,15 @@ public class TemplateFacade(IResourceNormalizationService resourceNormalizationS
 
     private async Task<Dictionary<CloudProvider, TemplateDatabaseDto>> GetDatabasesAsync(UsageSize usage)
     {
-        var databases = await resourceNormalizationService.GetNormalizedDatabasesAsync();
-        var result = new Dictionary<CloudProvider, TemplateDatabaseDto>();
+        var categorized = await resourceNormalizationService.GetResourcesAsync(
+            new[] { ResourceCategory.Databases },
+            usage);
 
+        var databases = categorized.Categories.TryGetValue(ResourceCategory.Databases, out var dbCategory)
+            ? (dbCategory.Databases ?? [])
+            : [];
+
+        var result = new Dictionary<CloudProvider, TemplateDatabaseDto>();
         var specs = GetDatabaseSpecs(usage);
 
         foreach (var cloud in new[] { CloudProvider.AWS, CloudProvider.Azure, CloudProvider.GCP })
@@ -184,10 +196,10 @@ public class TemplateFacade(IResourceNormalizationService resourceNormalizationS
         CloudProvider cloud)
     {
         return instances
-            .Where(i => i.VCpu >= minCpu)
-            .Where(i => ParseMemory(i.Memory) >= minMemory)
-            .Where(i => i.PricePerHour.HasValue && i.PricePerHour.Value > 0)
-            .OrderBy(i => i.PricePerHour)
+            .Where(i => (i.VCpu ?? 0) >= minCpu)
+            .Where(i => (ParseMemory(i.Memory) ?? 0) >= minMemory)
+            .Where(i => (i.PricePerHour ?? 0m) > 0m)
+            .OrderBy(i => i.PricePerHour ?? decimal.MaxValue)
             .FirstOrDefault();
     }
 
@@ -198,10 +210,10 @@ public class TemplateFacade(IResourceNormalizationService resourceNormalizationS
         CloudProvider cloud)
     {
         return instances
-            .Where(i => i.VCpu >= minCpu)
-            .Where(i => ParseMemory(i.Memory) >= minMemory)
-            .Where(i => i.PricePerHour.HasValue && i.PricePerHour.Value > 0)
-            .OrderBy(i => i.PricePerHour)
+            .Where(i => (i.VCpu ?? 0) >= minCpu)
+            .Where(i => (ParseMemory(i.Memory) ?? 0) >= minMemory)
+            .Where(i => (i.PricePerHour ?? 0m) > 0m)
+            .OrderBy(i => i.PricePerHour ?? decimal.MaxValue)
             .FirstOrDefault();
     }
 
@@ -229,7 +241,17 @@ public class TemplateFacade(IResourceNormalizationService resourceNormalizationS
 
     private Dictionary<CloudProvider, TemplateLoadBalancerDto> GetLoadBalancers(UsageSize usage)
     {
-        var loadBalancers = resourceNormalizationService.GetNormalizedLoadBalancers(usage);
+        // Fetch networking resources (load balancers) via the categorization API
+        var categorizedTask = resourceNormalizationService.GetResourcesAsync(
+            new[] { ResourceCategory.Networking },
+            usage);
+
+        var categorized = categorizedTask.GetAwaiter().GetResult();
+
+        var loadBalancers = categorized.Categories.TryGetValue(ResourceCategory.Networking, out var netCategory)
+            ? (netCategory.LoadBalancers ?? [])
+            : [];
+
         var result = new Dictionary<CloudProvider, TemplateLoadBalancerDto>();
 
         foreach (var lb in loadBalancers)
@@ -246,7 +268,17 @@ public class TemplateFacade(IResourceNormalizationService resourceNormalizationS
 
     private Dictionary<CloudProvider, TemplateMonitoringDto> GetMonitoring(UsageSize usage)
     {
-        var monitoring = resourceNormalizationService.GetNormalizedMonitoring(usage);
+        // Fetch management resources (monitoring) via the categorization API
+        var categorizedTask = resourceNormalizationService.GetResourcesAsync(
+            new[] { ResourceCategory.Management },
+            usage);
+
+        var categorized = categorizedTask.GetAwaiter().GetResult();
+
+        var monitoring = categorized.Categories.TryGetValue(ResourceCategory.Management, out var mgmtCategory)
+            ? (mgmtCategory.Monitoring ?? [])
+            : [];
+
         var result = new Dictionary<CloudProvider, TemplateMonitoringDto>();
 
         foreach (var mon in monitoring)
