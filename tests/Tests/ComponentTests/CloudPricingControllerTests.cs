@@ -163,4 +163,38 @@ public class CloudPricingControllerTests(WebApplicationFactory<Program> factory)
                 Assert.Contains(filterValue, selector(item), comparison));
         }
     }
+
+    [Fact]
+    public async Task Get_ProductFamilyMappings_Returns_Ok_With_Mappings()
+    {
+        var response = await Client.GetAsync("/api/cloud-pricing:product-family-mappings");
+        response.EnsureSuccessStatusCode();
+
+        await using var stream = await response.Content.ReadAsStreamAsync();
+        var result = await JsonSerializer.DeserializeAsync<ProductFamilyMappingsDto>(stream, JsonOptions);
+
+        Assert.NotNull(result);
+        Assert.NotNull(result.Mappings);
+        Assert.NotEmpty(result.Mappings);
+
+        await Verify(result);
+    }
+
+    [Fact]
+    public async Task Get_ProductFamilyMappings_All_Mappings_Have_Required_Properties()
+    {
+        var response = await Client.GetAsync("/api/cloud-pricing:product-family-mappings");
+        response.EnsureSuccessStatusCode();
+
+        await using var stream = await response.Content.ReadAsStreamAsync();
+        var result = await JsonSerializer.DeserializeAsync<ProductFamilyMappingsDto>(stream, JsonOptions);
+
+        Assert.NotNull(result);
+        Assert.All(result.Mappings, mapping =>
+        {
+            Assert.False(string.IsNullOrWhiteSpace(mapping.ProductFamily));
+            Assert.False(string.IsNullOrWhiteSpace(mapping.Category));
+            Assert.False(string.IsNullOrWhiteSpace(mapping.SubCategory));
+        });
+    }
 }
