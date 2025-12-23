@@ -1,0 +1,59 @@
+namespace Application.Models.Enums;
+
+public enum ResourceCategory
+{
+    None = 0,
+    Compute,
+    Databases,
+    Storage,
+    Networking,
+    Analytics,
+    AI,
+    Security,
+    ApplicationServices,
+    Management,
+    DeveloperTools,
+    IoT,
+    Data,
+    Integration,
+    Web,
+    EnterpriseApplications,
+    Licensing,
+    Other
+}
+
+public enum ResourceSubCategory
+{
+    None = 0,
+    VirtualMachines,
+    BareMetalServers,
+    DedicatedHosts,
+    Containers,
+    RelationalDatabases,
+    DatabaseStorage,
+    BlockStorage,
+    PerformanceStorage,
+    NetworkServices,
+    IPAddresses,
+    DataAnalytics,
+    DataLakes,
+    MachineLearning,
+    SecurityServices,
+    VulnerabilityScanning,
+    WebApplicationFirewall,
+    ManagedServices,
+    ContactCenter,
+    CommunicationServices,
+    CloudManagement,
+    Operations,
+    Development,
+    IoTServices,
+    DataServices,
+    IntegrationServices,
+    FileTransfer,
+    WebServices,
+    BusinessApplications,
+    ContentServices,
+    SoftwareLicenses,
+    Uncategorized
+}

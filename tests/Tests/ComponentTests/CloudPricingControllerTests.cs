@@ -1,4 +1,5 @@
 ﻿using Application.Models.Dtos;
+using Application.Models.Enums;
 using Microsoft.AspNetCore.Mvc.Testing;
 using System.Text.Json;
 using System.Text.Json.Serialization;
@@ -165,36 +166,36 @@ public class CloudPricingControllerTests(WebApplicationFactory<Program> factory)
     }
 
     [Fact]
-    public async Task Get_ProductFamilyMappings_Returns_Ok_With_Mappings()
+    public async Task Get_ProductFamilyMappings_Returns_Ok_With_CategorizedResources()
     {
         var response = await Client.GetAsync("/api/cloud-pricing:product-family-mappings");
         response.EnsureSuccessStatusCode();
 
         await using var stream = await response.Content.ReadAsStreamAsync();
-        var result = await JsonSerializer.DeserializeAsync<ProductFamilyMappingsDto>(stream, JsonOptions);
+        var result = await JsonSerializer.DeserializeAsync<CategorizedResourcesDto>(stream, JsonOptions);
 
         Assert.NotNull(result);
-        Assert.NotNull(result.Mappings);
-        Assert.NotEmpty(result.Mappings);
+        Assert.NotNull(result.Categories);
+        Assert.NotEmpty(result.Categories);
 
         await Verify(result);
     }
 
     [Fact]
-    public async Task Get_ProductFamilyMappings_All_Mappings_Have_Required_Properties()
+    public async Task Get_ProductFamilyMappings_HasRequiredCategories()
     {
         var response = await Client.GetAsync("/api/cloud-pricing:product-family-mappings");
         response.EnsureSuccessStatusCode();
 
         await using var stream = await response.Content.ReadAsStreamAsync();
-        var result = await JsonSerializer.DeserializeAsync<ProductFamilyMappingsDto>(stream, JsonOptions);
+        var result = await JsonSerializer.DeserializeAsync<CategorizedResourcesDto>(stream, JsonOptions);
 
         Assert.NotNull(result);
-        Assert.All(result.Mappings, mapping =>
-        {
-            Assert.False(string.IsNullOrWhiteSpace(mapping.ProductFamily));
-            Assert.False(string.IsNullOrWhiteSpace(mapping.Category));
-            Assert.False(string.IsNullOrWhiteSpace(mapping.SubCategory));
-        });
+        
+        // Verify we have the expected categories
+        Assert.Contains(ResourceCategory.Compute, result.Categories.Keys);
+        Assert.Contains(ResourceCategory.Databases, result.Categories.Keys);
+        Assert.Contains(ResourceCategory.Networking, result.Categories.Keys);
+        Assert.Contains(ResourceCategory.Management, result.Categories.Keys);
     }
 }

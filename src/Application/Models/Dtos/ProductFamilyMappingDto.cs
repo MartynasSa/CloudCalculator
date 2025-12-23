@@ -1,10 +1,12 @@
+using Application.Models.Enums;
+
 namespace Application.Models.Dtos;
 
 public class ProductFamilyMappingDto
 {
     public required string ProductFamily { get; set; }
-    public required string Category { get; set; }
-    public required string SubCategory { get; set; }
+    public required ResourceCategory Category { get; set; }
+    public required ResourceSubCategory SubCategory { get; set; }
 }
 
 public class ProductFamilyMappingsDto

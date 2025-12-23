@@ -246,8 +246,8 @@ public class ResourceNormalizationServiceTests(WebApplicationFactory<Program> fa
         Assert.All(result.Mappings, mapping =>
         {
             Assert.False(string.IsNullOrWhiteSpace(mapping.ProductFamily));
-            Assert.False(string.IsNullOrWhiteSpace(mapping.Category));
-            Assert.False(string.IsNullOrWhiteSpace(mapping.SubCategory));
+            Assert.NotEqual(ResourceCategory.None, mapping.Category);
+            Assert.NotEqual(ResourceSubCategory.None, mapping.SubCategory);
         });
 
         await Verify(result);
@@ -265,8 +265,8 @@ public class ResourceNormalizationServiceTests(WebApplicationFactory<Program> fa
         // Assert
         var computeMapping = result.Mappings.FirstOrDefault(m => m.ProductFamily == "Compute Instance");
         Assert.NotNull(computeMapping);
-        Assert.Equal("Compute", computeMapping.Category);
-        Assert.Equal("VirtualMachines", computeMapping.SubCategory);
+        Assert.Equal(ResourceCategory.Compute, computeMapping.Category);
+        Assert.Equal(ResourceSubCategory.VirtualMachines, computeMapping.SubCategory);
     }
 
     [Fact]
@@ -281,7 +281,66 @@ public class ResourceNormalizationServiceTests(WebApplicationFactory<Program> fa
         // Assert
         var dbMapping = result.Mappings.FirstOrDefault(m => m.ProductFamily == "Database Instance");
         Assert.NotNull(dbMapping);
-        Assert.Equal("Databases", dbMapping.Category);
-        Assert.Equal("RelationalDatabases", dbMapping.SubCategory);
+        Assert.Equal(ResourceCategory.Databases, dbMapping.Category);
+        Assert.Equal(ResourceSubCategory.RelationalDatabases, dbMapping.SubCategory);
+    }
+
+    [Fact]
+    public async Task GetProductFamilyMappingsAsync_NoUnmappedItems()
+    {
+        // Arrange
+        var service = GetService();
+
+        // Act
+        var result = await service.GetProductFamilyMappingsAsync();
+
+        // Assert
+        Assert.NotNull(result);
+        Assert.NotNull(result.Mappings);
+        
+        // Verify that no mappings have "Other" category and "Uncategorized" subcategory
+        // unless the product family is explicitly "Other"
+        var unmappedItems = result.Mappings
+            .Where(m => m.Category == ResourceCategory.Other && 
+                       m.SubCategory == ResourceSubCategory.Uncategorized &&
+                       m.ProductFamily != "Other")
+            .ToList();
+        
+        Assert.Empty(unmappedItems);
+    }
+
+    [Fact]
+    public async Task GetCategorizedResourcesAsync_Returns_ResourcesByCategory()
+    {
+        // Arrange
+        var service = GetService();
+
+        // Act
+        var result = await service.GetCategorizedResourcesAsync(UsageSize.Small);
+
+        // Assert
+        Assert.NotNull(result);
+        Assert.NotNull(result.Categories);
+        Assert.NotEmpty(result.Categories);
+        
+        // Verify we have compute category with instances
+        Assert.True(result.Categories.ContainsKey(ResourceCategory.Compute));
+        var computeCategory = result.Categories[ResourceCategory.Compute];
+        Assert.NotEmpty(computeCategory.ComputeInstances);
+        
+        // Verify we have database category with databases
+        Assert.True(result.Categories.ContainsKey(ResourceCategory.Databases));
+        var databaseCategory = result.Categories[ResourceCategory.Databases];
+        Assert.NotEmpty(databaseCategory.Databases);
+        
+        // Verify we have networking category with load balancers
+        Assert.True(result.Categories.ContainsKey(ResourceCategory.Networking));
+        var networkingCategory = result.Categories[ResourceCategory.Networking];
+        Assert.NotEmpty(networkingCategory.LoadBalancers);
+        
+        // Verify we have management category with monitoring
+        Assert.True(result.Categories.ContainsKey(ResourceCategory.Management));
+        var managementCategory = result.Categories[ResourceCategory.Management];
+        Assert.NotEmpty(managementCategory.Monitoring);
     }
 }
