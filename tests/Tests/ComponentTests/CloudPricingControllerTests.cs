@@ -1,4 +1,5 @@
 ﻿using Application.Models.Dtos;
+using Application.Models.Enums;
 using Microsoft.AspNetCore.Mvc.Testing;
 using System.Text.Json;
 using System.Text.Json.Serialization;
@@ -192,9 +193,9 @@ public class CloudPricingControllerTests(WebApplicationFactory<Program> factory)
         Assert.NotNull(result);
         
         // Verify we have the expected categories
-        Assert.Contains(result.Categories.Keys, k => k.ToString() == "Compute");
-        Assert.Contains(result.Categories.Keys, k => k.ToString() == "Databases");
-        Assert.Contains(result.Categories.Keys, k => k.ToString() == "Networking");
-        Assert.Contains(result.Categories.Keys, k => k.ToString() == "Management");
+        Assert.Contains(ResourceCategory.Compute, result.Categories.Keys);
+        Assert.Contains(ResourceCategory.Databases, result.Categories.Keys);
+        Assert.Contains(ResourceCategory.Networking, result.Categories.Keys);
+        Assert.Contains(ResourceCategory.Management, result.Categories.Keys);
     }
 }

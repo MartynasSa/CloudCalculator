@@ -55,7 +55,5 @@ public enum ResourceSubCategory
     BusinessApplications,
     ContentServices,
     SoftwareLicenses,
-    Uncategorized,
-    LoadBalancing,
-    Monitoring
+    Uncategorized
 }
