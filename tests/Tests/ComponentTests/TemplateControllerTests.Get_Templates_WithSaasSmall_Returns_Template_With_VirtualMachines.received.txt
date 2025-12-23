@@ -1,0 +1,67 @@
+﻿{
+  Template: saas,
+  Usage: small,
+  VirtualMachines: {
+    aws: {
+      InstanceName: c6a.large,
+      CpuCores: 2.0,
+      Memory: 4.0,
+      PricePerMonth: 67.160
+    },
+    azure: {
+      InstanceName: Standard_DC2as_v6,
+      CpuCores: 2.0,
+      Memory: 8.0,
+      PricePerMonth: 8.3220
+    },
+    gcp: {
+      InstanceName: c2d-highcpu-2,
+      CpuCores: 2.0,
+      Memory: 4.0,
+      PricePerMonth: 86.890440
+    }
+  },
+  Databases: {
+    aws: {
+      InstanceName: db.t3.xlarge,
+      CpuCores: 4.0,
+      Memory: 16.0,
+      DatabaseEngine: Oracle,
+      PricePerMonth: 457.762560
+    },
+    azure: {
+      InstanceName: Standard_B4ms,
+      CpuCores: 4.0,
+      Memory: 16.0,
+      DatabaseEngine: PostgreSQL,
+      PricePerMonth: 408.80
+    }
+  },
+  LoadBalancers: {
+    aws: {
+      Name: Elastic Load Balancing,
+      PricePerMonth: 16.51
+    },
+    azure: {
+      Name: Azure Load Balancer
+    },
+    gcp: {
+      Name: Cloud Load Balancing,
+      PricePerMonth: 18.41
+    }
+  },
+  Monitoring: {
+    aws: {
+      Name: CloudWatch,
+      PricePerMonth: 5.0
+    },
+    azure: {
+      Name: Azure Monitor,
+      PricePerMonth: 6.0
+    },
+    gcp: {
+      Name: Cloud Ops,
+      PricePerMonth: 4.0
+    }
+  }
+}

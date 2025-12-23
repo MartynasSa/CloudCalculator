@@ -1,0 +1,7842 @@
+﻿[
+  {
+    Cloud: aws,
+    InstanceName: i7ie.xlarge,
+    Region: eu-west-1,
+    VCpu: 4,
+    Memory: 32 GiB,
+    PricePerHour: 0.6426
+  },
+  {
+    Cloud: aws,
+    InstanceName: m6a.32xlarge,
+    Region: us-west-1,
+    VCpu: 128,
+    Memory: 512 GiB,
+    PricePerHour: 57.024
+  },
+  {
+    Cloud: aws,
+    InstanceName: r5n.2xlarge,
+    Region: eu-west-1,
+    VCpu: 8,
+    Memory: 64 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: i3en.metal,
+    Region: unknown,
+    VCpu: 96,
+    Memory: 768 GiB,
+    PricePerHour: 13.872
+  },
+  {
+    Cloud: aws,
+    InstanceName: c6i.8xlarge,
+    Region: eu-west-1,
+    VCpu: 32,
+    Memory: 64 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: m5.2xlarge,
+    Region: ap-northeast-1,
+    VCpu: 8,
+    Memory: 32 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: i4i.12xlarge,
+    Region: eu-west-1,
+    VCpu: 48,
+    Memory: 384 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: r5dn.8xlarge,
+    Region: eu-west-3,
+    VCpu: 32,
+    Memory: 256 GiB,
+    PricePerHour: 6.976
+  },
+  {
+    Cloud: aws,
+    InstanceName: r6idn.2xlarge,
+    Region: us-east-1,
+    VCpu: 8,
+    Memory: 64 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: x2iedn.24xlarge,
+    Region: us-east-1,
+    VCpu: 96,
+    Memory: 3072 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: r5n.8xlarge,
+    Region: eu-west-3,
+    VCpu: 32,
+    Memory: 256 GiB,
+    PricePerHour: 2.8
+  },
+  {
+    Cloud: aws,
+    InstanceName: i7ie.48xlarge,
+    Region: eu-west-1,
+    VCpu: 192,
+    Memory: 1536 GiB,
+    PricePerHour: 34.4833
+  },
+  {
+    Cloud: aws,
+    InstanceName: c7g.8xlarge,
+    Region: il-central-1,
+    VCpu: 32,
+    Memory: 64 GiB,
+    PricePerHour: 1.3845
+  },
+  {
+    Cloud: aws,
+    InstanceName: c5a.large,
+    Region: ap-northeast-1,
+    VCpu: 2,
+    Memory: 4 GiB,
+    PricePerHour: 0.106
+  },
+  {
+    Cloud: aws,
+    InstanceName: x8aedz.large,
+    Region: ap-northeast-1,
+    VCpu: 2,
+    Memory: 64 GiB,
+    PricePerHour: 0.89799
+  },
+  {
+    Cloud: aws,
+    InstanceName: g5.16xlarge,
+    Region: eu-west-1,
+    VCpu: 64,
+    Memory: 256 GiB,
+    PricePerHour: 7.51637
+  },
+  {
+    Cloud: aws,
+    InstanceName: x2iedn.32xlarge,
+    Region: eu-west-3,
+    VCpu: 128,
+    Memory: 4096 GiB,
+    PricePerHour: 87.5
+  },
+  {
+    Cloud: aws,
+    InstanceName: c6i.16xlarge,
+    Region: unknown,
+    VCpu: 64,
+    Memory: 128 GiB,
+    PricePerHour: 4.08096
+  },
+  {
+    Cloud: aws,
+    InstanceName: m5zn.xlarge,
+    Region: eu-west-1,
+    VCpu: 4,
+    Memory: 16 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: m7g.4xlarge,
+    Region: unknown,
+    VCpu: 16,
+    Memory: 64 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: r7i.16xlarge,
+    Region: us-west-1,
+    VCpu: 64,
+    Memory: 512 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: m5n.2xlarge,
+    Region: eu-west-1,
+    VCpu: 8,
+    Memory: 32 GiB,
+    PricePerHour: 0.936
+  },
+  {
+    Cloud: aws,
+    InstanceName: c6a.2xlarge,
+    Region: us-west-1,
+    VCpu: 8,
+    Memory: 16 GiB,
+    PricePerHour: 1.49496
+  },
+  {
+    Cloud: aws,
+    InstanceName: c6i.large,
+    Region: unknown,
+    VCpu: 2,
+    Memory: 4 GiB,
+    PricePerHour: 0.0998
+  },
+  {
+    Cloud: aws,
+    InstanceName: m7g.16xlarge,
+    Region: eu-west-1,
+    VCpu: 64,
+    Memory: 256 GiB,
+    PricePerHour: 4.4976
+  },
+  {
+    Cloud: aws,
+    InstanceName: m6a.32xlarge,
+    Region: us-west-1,
+    VCpu: 128,
+    Memory: 512 GiB,
+    PricePerHour: 8.6144
+  },
+  {
+    Cloud: aws,
+    InstanceName: m5.16xlarge,
+    Region: eu-west-3,
+    VCpu: 64,
+    Memory: 256 GiB,
+    PricePerHour: 3.584
+  },
+  {
+    Cloud: aws,
+    InstanceName: r5d.2xlarge,
+    Region: il-central-1,
+    VCpu: 8,
+    Memory: 64 GiB,
+    PricePerHour: 2.04
+  },
+  {
+    Cloud: aws,
+    InstanceName: m5ad.large,
+    Region: eu-west-1,
+    VCpu: 2,
+    Memory: 8 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: r6id.4xlarge,
+    Region: eu-west-1,
+    VCpu: 16,
+    Memory: 128 GiB,
+    PricePerHour: 1.469
+  },
+  {
+    Cloud: aws,
+    InstanceName: r8i.4xlarge,
+    Region: us-west-1,
+    VCpu: 16,
+    Memory: 128 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: m6id.12xlarge,
+    Region: eu-west-1,
+    VCpu: 48,
+    Memory: 192 GiB,
+    PricePerHour: 3.1752
+  },
+  {
+    Cloud: aws,
+    InstanceName: r5a.large,
+    Region: ap-northeast-1,
+    VCpu: 2,
+    Memory: 16 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: c5a.16xlarge,
+    Region: ap-northeast-1,
+    VCpu: 64,
+    Memory: 128 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: r5b.metal,
+    Region: eu-west-1,
+    VCpu: 96,
+    Memory: 768 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: m5d.metal,
+    Region: il-central-1,
+    VCpu: 96,
+    Memory: 384 GiB,
+    PricePerHour: 7.387
+  },
+  {
+    Cloud: aws,
+    InstanceName: im4gn.4xlarge,
+    Region: ap-northeast-1,
+    VCpu: 16,
+    Memory: 64 GiB,
+    PricePerHour: 1.87982
+  },
+  {
+    Cloud: aws,
+    InstanceName: r6id.16xlarge,
+    Region: ap-northeast-1,
+    VCpu: 64,
+    Memory: 512 GiB,
+    PricePerHour: 5.8464
+  },
+  {
+    Cloud: aws,
+    InstanceName: r7a.16xlarge,
+    Region: eu-west-1,
+    VCpu: 64,
+    Memory: 512 GiB,
+    PricePerHour: 6.10515
+  },
+  {
+    Cloud: aws,
+    InstanceName: r6a.24xlarge,
+    Region: us-west-1,
+    VCpu: 96,
+    Memory: 768 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: r6i.xlarge,
+    Region: il-central-1,
+    VCpu: 4,
+    Memory: 32 GiB,
+    PricePerHour: 0.39331
+  },
+  {
+    Cloud: aws,
+    InstanceName: c5.24xlarge,
+    Region: ap-northeast-1,
+    VCpu: 96,
+    Memory: 192 GiB,
+    PricePerHour: 21.072
+  },
+  {
+    Cloud: aws,
+    InstanceName: g6e.12xlarge,
+    Region: ap-northeast-1,
+    VCpu: 48,
+    Memory: 384 GiB,
+    PricePerHour: 17.42542
+  },
+  {
+    Cloud: aws,
+    InstanceName: r6in.xlarge,
+    Region: us-east-1,
+    VCpu: 4,
+    Memory: 32 GiB,
+    PricePerHour: 0.60026
+  },
+  {
+    Cloud: aws,
+    InstanceName: i3en.24xlarge,
+    Region: unknown,
+    VCpu: 96,
+    Memory: 768 GiB,
+    PricePerHour: 11.616
+  },
+  {
+    Cloud: aws,
+    InstanceName: c5.18xlarge,
+    Region: eu-west-1,
+    VCpu: 72,
+    Memory: 144 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: c7a.8xlarge,
+    Region: eu-west-1,
+    VCpu: 32,
+    Memory: 64 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: r5d.xlarge,
+    Region: us-west-1,
+    VCpu: 4,
+    Memory: 32 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: g3.4xlarge,
+    Region: ap-northeast-1,
+    VCpu: 16,
+    Memory: 122 GiB,
+    PricePerHour: 1.7528
+  },
+  {
+    Cloud: aws,
+    InstanceName: i4i.24xlarge,
+    Region: unknown,
+    VCpu: 96,
+    Memory: 768 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: c3.2xlarge,
+    Region: us-west-1,
+    VCpu: 8,
+    Memory: 15 GiB,
+    PricePerHour: 3.846
+  },
+  {
+    Cloud: aws,
+    InstanceName: r6a.16xlarge,
+    Region: eu-west-1,
+    VCpu: 64,
+    Memory: 512 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: m6a.24xlarge,
+    Region: ap-northeast-1,
+    VCpu: 96,
+    Memory: 384 GiB,
+    PricePerHour: 5.89248
+  },
+  {
+    Cloud: aws,
+    InstanceName: i7ie.metal-24xl,
+    Region: eu-west-1,
+    VCpu: 96,
+    Memory: 768 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: r5a.xlarge,
+    Region: us-west-1,
+    VCpu: 4,
+    Memory: 32 GiB,
+    PricePerHour: 0.519
+  },
+  {
+    Cloud: aws,
+    InstanceName: i7i.48xlarge,
+    Region: eu-west-1,
+    VCpu: 192,
+    Memory: 1536 GiB,
+    PricePerHour: 19.9795
+  },
+  {
+    Cloud: aws,
+    InstanceName: m5d.24xlarge,
+    Region: eu-west-1,
+    VCpu: 96,
+    Memory: 384 GiB,
+    PricePerHour: 8.429
+  },
+  {
+    Cloud: aws,
+    InstanceName: c5.24xlarge,
+    Region: ca-central-1,
+    VCpu: 96,
+    Memory: 192 GiB,
+    PricePerHour: 40.416
+  },
+  {
+    Cloud: aws,
+    InstanceName: m7i.xlarge,
+    Region: eu-west-1,
+    VCpu: 4,
+    Memory: 16 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: c7a.8xlarge,
+    Region: eu-west-1,
+    VCpu: 32,
+    Memory: 64 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: r5a.16xlarge,
+    Region: eu-west-1,
+    VCpu: 64,
+    Memory: 512 GiB,
+    PricePerHour: 5.146
+  },
+  {
+    Cloud: aws,
+    InstanceName: c6i.4xlarge,
+    Region: ap-northeast-3,
+    VCpu: 16,
+    Memory: 32 GiB,
+    PricePerHour: 2.9488
+  },
+  {
+    Cloud: aws,
+    InstanceName: r6i.16xlarge,
+    Region: eu-west-1,
+    VCpu: 64,
+    Memory: 512 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: r7gd.16xlarge,
+    Region: eu-west-1,
+    VCpu: 64,
+    Memory: 512 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: c6gn.2xlarge,
+    Region: unknown,
+    VCpu: 8,
+    Memory: 16 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: r7a.medium,
+    Region: eu-west-1,
+    VCpu: 1,
+    Memory: 8 GiB,
+    PricePerHour: 0.57364
+  },
+  {
+    Cloud: aws,
+    InstanceName: m5a.xlarge,
+    Region: us-west-1,
+    VCpu: 4,
+    Memory: 16 GiB,
+    PricePerHour: 1.76
+  },
+  {
+    Cloud: aws,
+    InstanceName: h1.2xlarge,
+    Region: eu-west-1,
+    VCpu: 8,
+    Memory: 32 GiB,
+    PricePerHour: 0.769
+  },
+  {
+    Cloud: aws,
+    InstanceName: m7i-flex.16xlarge,
+    Region: eu-west-1,
+    VCpu: 64,
+    Memory: 256 GiB,
+    PricePerHour: 14.03936
+  },
+  {
+    Cloud: aws,
+    InstanceName: p3.8xlarge,
+    Region: ap-northeast-1,
+    VCpu: 32,
+    Memory: 244 GiB,
+    PricePerHour: 17.57
+  },
+  {
+    Cloud: aws,
+    InstanceName: i7i.48xlarge,
+    Region: eu-west-1,
+    VCpu: 192,
+    Memory: 1536 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: g4dn.xlarge,
+    Region: eu-west-1,
+    VCpu: 4,
+    Memory: 16 GiB,
+    PricePerHour: 0.809
+  },
+  {
+    Cloud: aws,
+    InstanceName: m7i-flex.16xlarge,
+    Region: eu-west-1,
+    VCpu: 64,
+    Memory: 256 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: c5d.xlarge,
+    Region: eu-west-1,
+    VCpu: 4,
+    Memory: 8 GiB,
+    PricePerHour: 1.732
+  },
+  {
+    Cloud: aws,
+    InstanceName: m8g.16xlarge,
+    Region: eu-west-3,
+    VCpu: 64,
+    Memory: 256 GiB,
+    PricePerHour: 4.04224
+  },
+  {
+    Cloud: aws,
+    InstanceName: g4dn.4xlarge,
+    Region: eu-west-1,
+    VCpu: 16,
+    Memory: 64 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: r7a.xlarge,
+    Region: eu-west-1,
+    VCpu: 4,
+    Memory: 32 GiB,
+    PricePerHour: 0.34052
+  },
+  {
+    Cloud: aws,
+    InstanceName: i3en.xlarge,
+    Region: eu-west-1,
+    VCpu: 4,
+    Memory: 32 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: m7i.24xlarge,
+    Region: unknown,
+    VCpu: 96,
+    Memory: 384 GiB,
+    PricePerHour: 7.2239
+  },
+  {
+    Cloud: aws,
+    InstanceName: c5n.18xlarge,
+    Region: eu-west-1,
+    VCpu: 72,
+    Memory: 192 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: r7i.4xlarge,
+    Region: ap-northeast-1,
+    VCpu: 16,
+    Memory: 128 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: r5.16xlarge,
+    Region: ap-northeast-1,
+    VCpu: 64,
+    Memory: 512 GiB,
+    PricePerHour: 6.637
+  },
+  {
+    Cloud: aws,
+    InstanceName: x2iedn.2xlarge,
+    Region: eu-west-1,
+    VCpu: 8,
+    Memory: 256 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: m6idn.metal,
+    Region: eu-west-1,
+    VCpu: 128,
+    Memory: 512 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: r7i.8xlarge,
+    Region: unknown,
+    VCpu: 32,
+    Memory: 256 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: m6a.large,
+    Region: us-west-1,
+    VCpu: 2,
+    Memory: 8 GiB,
+    PricePerHour: 0.6446
+  },
+  {
+    Cloud: aws,
+    InstanceName: m5dn.2xlarge,
+    Region: eu-west-1,
+    VCpu: 8,
+    Memory: 32 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: r6idn.metal,
+    Region: eu-west-1,
+    VCpu: 128,
+    Memory: 1024 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: c6i.12xlarge,
+    Region: us-west-1,
+    VCpu: 48,
+    Memory: 96 GiB,
+    PricePerHour: 21.3168
+  },
+  {
+    Cloud: aws,
+    InstanceName: c6g.large,
+    Region: il-central-1,
+    VCpu: 2,
+    Memory: 4 GiB,
+    PricePerHour: 0.1054
+  },
+  {
+    Cloud: aws,
+    InstanceName: r5.2xlarge,
+    Region: eu-west-1,
+    VCpu: 8,
+    Memory: 64 GiB,
+    PricePerHour: 0.612
+  },
+  {
+    Cloud: aws,
+    InstanceName: m6id.16xlarge,
+    Region: us-west-1,
+    VCpu: 64,
+    Memory: 256 GiB,
+    PricePerHour: 5.02768
+  },
+  {
+    Cloud: aws,
+    InstanceName: i3.4xlarge,
+    Region: ap-northeast-1,
+    VCpu: 16,
+    Memory: 122 GiB,
+    PricePerHour: 2.007
+  },
+  {
+    Cloud: aws,
+    InstanceName: r5d.4xlarge,
+    Region: us-east-1,
+    VCpu: 16,
+    Memory: 128 GiB,
+    PricePerHour: 0.15
+  },
+  {
+    Cloud: aws,
+    InstanceName: i3.8xlarge,
+    Region: eu-west-1,
+    VCpu: 32,
+    Memory: 244 GiB,
+    PricePerHour: 3.127
+  },
+  {
+    Cloud: aws,
+    InstanceName: c4.4xlarge,
+    Region: eu-west-1,
+    VCpu: 16,
+    Memory: 30 GiB,
+    PricePerHour: 1.347
+  },
+  {
+    Cloud: aws,
+    InstanceName: h1.16xlarge,
+    Region: eu-west-1,
+    VCpu: 64,
+    Memory: 256 GiB,
+    PricePerHour: 7.832
+  },
+  {
+    Cloud: aws,
+    InstanceName: c7g.2xlarge,
+    Region: us-gov-west-1,
+    VCpu: 8,
+    Memory: 16 GiB,
+    PricePerHour: 0.462
+  },
+  {
+    Cloud: aws,
+    InstanceName: c6a.4xlarge,
+    Region: ap-northeast-1,
+    VCpu: 16,
+    Memory: 32 GiB,
+    PricePerHour: 7.24424
+  },
+  {
+    Cloud: aws,
+    InstanceName: r3.large,
+    Region: us-west-1,
+    VCpu: 2,
+    Memory: 15.25 GiB,
+    PricePerHour: 0.285
+  },
+  {
+    Cloud: aws,
+    InstanceName: i3.16xlarge,
+    Region: eu-west-1,
+    VCpu: 64,
+    Memory: 488 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: r6id.24xlarge,
+    Region: il-central-1,
+    VCpu: 96,
+    Memory: 768 GiB,
+    PricePerHour: 47.69472
+  },
+  {
+    Cloud: aws,
+    InstanceName: c4.2xlarge,
+    Region: us-west-1,
+    VCpu: 8,
+    Memory: 15 GiB,
+    PricePerHour: 1.571
+  },
+  {
+    Cloud: aws,
+    InstanceName: m6a.xlarge,
+    Region: eu-west-1,
+    VCpu: 4,
+    Memory: 16 GiB,
+    PricePerHour: 0.69186
+  },
+  {
+    Cloud: aws,
+    InstanceName: c7gd.xlarge,
+    Region: eu-west-1,
+    VCpu: 4,
+    Memory: 8 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: i3en.24xlarge,
+    Region: unknown,
+    VCpu: 96,
+    Memory: 768 GiB,
+    PricePerHour: 13.114
+  },
+  {
+    Cloud: aws,
+    InstanceName: r7iz.8xlarge,
+    Region: eu-west-1,
+    VCpu: 32,
+    Memory: 256 GiB,
+    PricePerHour: 7.168
+  },
+  {
+    Cloud: aws,
+    InstanceName: inf1.24xlarge,
+    Region: eu-west-1,
+    VCpu: 96,
+    Memory: 192 GiB,
+    PricePerHour: 6.297
+  },
+  {
+    Cloud: aws,
+    InstanceName: r5n.16xlarge,
+    Region: eu-west-3,
+    VCpu: 64,
+    Memory: 512 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: c5d.2xlarge,
+    Region: eu-west-1,
+    VCpu: 8,
+    Memory: 16 GiB,
+    PricePerHour: 1.793
+  },
+  {
+    Cloud: aws,
+    InstanceName: c5d.18xlarge,
+    Region: eu-west-1,
+    VCpu: 72,
+    Memory: 144 GiB,
+    PricePerHour: 12.564
+  },
+  {
+    Cloud: aws,
+    InstanceName: m5n.2xlarge,
+    Region: eu-west-1,
+    VCpu: 8,
+    Memory: 32 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: r5n.4xlarge,
+    Region: eu-west-1,
+    VCpu: 16,
+    Memory: 128 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: m7i.xlarge,
+    Region: unknown,
+    VCpu: 4,
+    Memory: 16 GiB,
+    PricePerHour: 0.77196
+  },
+  {
+    Cloud: aws,
+    InstanceName: x2iedn.xlarge,
+    Region: eu-west-1,
+    VCpu: 4,
+    Memory: 128 GiB,
+    PricePerHour: 1.58041
+  },
+  {
+    Cloud: aws,
+    InstanceName: r7i.metal-48xl,
+    Region: ap-northeast-1,
+    VCpu: 192,
+    Memory: 1536 GiB,
+    PricePerHour: 27.3984
+  },
+  {
+    Cloud: aws,
+    InstanceName: m6id.12xlarge,
+    Region: eu-west-1,
+    VCpu: 48,
+    Memory: 192 GiB,
+    PricePerHour: 11.46072
+  },
+  {
+    Cloud: aws,
+    InstanceName: m5zn.large,
+    Region: us-west-1,
+    VCpu: 2,
+    Memory: 8 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: r6id.32xlarge,
+    Region: eu-west-1,
+    VCpu: 128,
+    Memory: 1024 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: r5ad.xlarge,
+    Region: eu-west-3,
+    VCpu: 4,
+    Memory: 32 GiB,
+    PricePerHour: 0.558
+  },
+  {
+    Cloud: aws,
+    InstanceName: c7a.12xlarge,
+    Region: eu-west-1,
+    VCpu: 48,
+    Memory: 96 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: m6id.12xlarge,
+    Region: ap-northeast-1,
+    VCpu: 48,
+    Memory: 192 GiB,
+    PricePerHour: 9.4392
+  },
+  {
+    Cloud: aws,
+    InstanceName: r6a.metal,
+    Region: ap-northeast-1,
+    VCpu: 192,
+    Memory: 1536 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: r5.24xlarge,
+    Region: ap-northeast-3,
+    VCpu: 96,
+    Memory: 768 GiB,
+    PricePerHour: 36.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: m7g.xlarge,
+    Region: eu-west-1,
+    VCpu: 4,
+    Memory: 16 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: r7gd.large,
+    Region: unknown,
+    VCpu: 2,
+    Memory: 16 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: i7i.8xlarge,
+    Region: eu-west-1,
+    VCpu: 32,
+    Memory: 256 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: m6i.2xlarge,
+    Region: unknown,
+    VCpu: 8,
+    Memory: 32 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: r5.4xlarge,
+    Region: eu-west-1,
+    VCpu: 16,
+    Memory: 128 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: r5ad.8xlarge,
+    Region: eu-west-1,
+    VCpu: 32,
+    Memory: 256 GiB,
+    PricePerHour: 14.682
+  },
+  {
+    Cloud: aws,
+    InstanceName: r6i.xlarge,
+    Region: ap-northeast-1,
+    VCpu: 4,
+    Memory: 32 GiB,
+    PricePerHour: 0.3344
+  },
+  {
+    Cloud: aws,
+    InstanceName: m5dn.12xlarge,
+    Region: ap-northeast-1,
+    VCpu: 48,
+    Memory: 192 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: m6id.32xlarge,
+    Region: unknown,
+    VCpu: 128,
+    Memory: 512 GiB,
+    PricePerHour: 8.95508
+  },
+  {
+    Cloud: aws,
+    InstanceName: c4.2xlarge,
+    Region: eu-west-1,
+    VCpu: 8,
+    Memory: 15 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: c5n.xlarge,
+    Region: us-west-1,
+    VCpu: 4,
+    Memory: 10.5 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: c3.8xlarge,
+    Region: us-west-1,
+    VCpu: 32,
+    Memory: 60 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: i4i.xlarge,
+    Region: ap-northeast-3,
+    VCpu: 4,
+    Memory: 32 GiB,
+    PricePerHour: 0.923
+  },
+  {
+    Cloud: aws,
+    InstanceName: m6i.metal,
+    Region: eu-west-1,
+    VCpu: 128,
+    Memory: 512 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: c5d.metal,
+    Region: il-central-1,
+    VCpu: 96,
+    Memory: 192 GiB,
+    PricePerHour: 9.91
+  },
+  {
+    Cloud: aws,
+    InstanceName: i3en.metal,
+    Region: eu-west-1,
+    VCpu: 96,
+    Memory: 768 GiB,
+    PricePerHour: 18.038
+  },
+  {
+    Cloud: aws,
+    InstanceName: g4ad.8xlarge,
+    Region: eu-west-1,
+    VCpu: 32,
+    Memory: 128 GiB,
+    PricePerHour: 1.472
+  },
+  {
+    Cloud: aws,
+    InstanceName: m5ad.large,
+    Region: ap-northeast-1,
+    VCpu: 2,
+    Memory: 8 GiB,
+    PricePerHour: 0.163
+  },
+  {
+    Cloud: aws,
+    InstanceName: c6i.xlarge,
+    Region: us-west-1,
+    VCpu: 4,
+    Memory: 8 GiB,
+    PricePerHour: 0.3396
+  },
+  {
+    Cloud: aws,
+    InstanceName: m6a.48xlarge,
+    Region: eu-west-1,
+    VCpu: 192,
+    Memory: 768 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: r7g.metal,
+    Region: eu-west-3,
+    VCpu: 64,
+    Memory: 512 GiB,
+    PricePerHour: 5.6128
+  },
+  {
+    Cloud: aws,
+    InstanceName: i3.4xlarge,
+    Region: eu-west-1,
+    VCpu: 16,
+    Memory: 122 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: m7i.16xlarge,
+    Region: eu-west-1,
+    VCpu: 64,
+    Memory: 256 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: c5ad.8xlarge,
+    Region: eu-west-1,
+    VCpu: 32,
+    Memory: 64 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: inf2.8xlarge,
+    Region: ap-northeast-1,
+    VCpu: 32,
+    Memory: 128 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: r5n.2xlarge,
+    Region: eu-west-1,
+    VCpu: 8,
+    Memory: 64 GiB,
+    PricePerHour: 1.076
+  },
+  {
+    Cloud: aws,
+    InstanceName: r6i.4xlarge,
+    Region: unknown,
+    VCpu: 16,
+    Memory: 128 GiB,
+    PricePerHour: 3.12384
+  },
+  {
+    Cloud: aws,
+    InstanceName: r7i.metal-48xl,
+    Region: eu-west-1,
+    VCpu: 192,
+    Memory: 1536 GiB,
+    PricePerHour: 95.0448
+  },
+  {
+    Cloud: aws,
+    InstanceName: m5zn.xlarge,
+    Region: ap-northeast-1,
+    VCpu: 4,
+    Memory: 16 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: c5n.4xlarge,
+    Region: ap-northeast-1,
+    VCpu: 16,
+    Memory: 42 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: m7g.4xlarge,
+    Region: unknown,
+    VCpu: 16,
+    Memory: 64 GiB,
+    PricePerHour: 0.8348
+  },
+  {
+    Cloud: aws,
+    InstanceName: r6i.8xlarge,
+    Region: eu-west-1,
+    VCpu: 32,
+    Memory: 256 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: c6g.metal,
+    Region: unknown,
+    VCpu: 64,
+    Memory: 128 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: m5ad.4xlarge,
+    Region: eu-west-1,
+    VCpu: 16,
+    Memory: 64 GiB,
+    PricePerHour: 0.92
+  },
+  {
+    Cloud: aws,
+    InstanceName: r3.large,
+    Region: us-west-1,
+    VCpu: 2,
+    Memory: 15.25 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: r5dn.8xlarge,
+    Region: eu-west-1,
+    VCpu: 32,
+    Memory: 256 GiB,
+    PricePerHour: 6.816
+  },
+  {
+    Cloud: aws,
+    InstanceName: u7i-6tb.112xlarge,
+    Region: ap-northeast-1,
+    VCpu: 448,
+    Memory: 6144 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: r5ad.24xlarge,
+    Region: ap-northeast-1,
+    VCpu: 96,
+    Memory: 768 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: c6in.2xlarge,
+    Region: eu-west-3,
+    VCpu: 8,
+    Memory: 16 GiB,
+    PricePerHour: 0.9056
+  },
+  {
+    Cloud: aws,
+    InstanceName: z1d.metal,
+    Region: eu-west-1,
+    VCpu: 48,
+    Memory: 384 GiB,
+    PricePerHour: 5.117
+  },
+  {
+    Cloud: aws,
+    InstanceName: c6a.metal,
+    Region: eu-west-1,
+    VCpu: 192,
+    Memory: 384 GiB,
+    PricePerHour: 34.77888
+  },
+  {
+    Cloud: aws,
+    InstanceName: r6i.16xlarge,
+    Region: eu-west-1,
+    VCpu: 64,
+    Memory: 512 GiB,
+    PricePerHour: 5.0882
+  },
+  {
+    Cloud: aws,
+    InstanceName: r7gd.large,
+    Region: eu-west-1,
+    VCpu: 2,
+    Memory: 16 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: r6idn.24xlarge,
+    Region: eu-west-1,
+    VCpu: 96,
+    Memory: 768 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: z1d.2xlarge,
+    Region: eu-west-1,
+    VCpu: 8,
+    Memory: 64 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: c6id.large,
+    Region: eu-west-1,
+    VCpu: 2,
+    Memory: 4 GiB,
+    PricePerHour: 0.6347
+  },
+  {
+    Cloud: aws,
+    InstanceName: r6id.2xlarge,
+    Region: unknown,
+    VCpu: 8,
+    Memory: 64 GiB,
+    PricePerHour: 0.65772
+  },
+  {
+    Cloud: aws,
+    InstanceName: i4i.xlarge,
+    Region: eu-west-1,
+    VCpu: 4,
+    Memory: 32 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: m7g.12xlarge,
+    Region: eu-west-1,
+    VCpu: 48,
+    Memory: 192 GiB,
+    PricePerHour: 2.2668
+  },
+  {
+    Cloud: aws,
+    InstanceName: m7i.large,
+    Region: ap-northeast-3,
+    VCpu: 2,
+    Memory: 8 GiB,
+    PricePerHour: 0.23962
+  },
+  {
+    Cloud: aws,
+    InstanceName: m5zn.xlarge,
+    Region: us-west-1,
+    VCpu: 4,
+    Memory: 16 GiB,
+    PricePerHour: 0.923
+  },
+  {
+    Cloud: aws,
+    InstanceName: m8i.xlarge,
+    Region: ap-northeast-1,
+    VCpu: 4,
+    Memory: 16 GiB,
+    PricePerHour: 0.42596
+  },
+  {
+    Cloud: aws,
+    InstanceName: r8i-flex.12xlarge,
+    Region: us-east-1,
+    VCpu: 48,
+    Memory: 384 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: m7i.16xlarge,
+    Region: eu-west-1,
+    VCpu: 64,
+    Memory: 256 GiB,
+    PricePerHour: 27.5952
+  },
+  {
+    Cloud: aws,
+    InstanceName: c3.xlarge,
+    Region: ap-northeast-1,
+    VCpu: 4,
+    Memory: 7.5 GiB,
+    PricePerHour: 0.407
+  },
+  {
+    Cloud: aws,
+    InstanceName: m6id.24xlarge,
+    Region: eu-west-1,
+    VCpu: 96,
+    Memory: 384 GiB,
+    PricePerHour: 8.02224
+  },
+  {
+    Cloud: aws,
+    InstanceName: m5zn.6xlarge,
+    Region: eu-west-1,
+    VCpu: 24,
+    Memory: 96 GiB,
+    PricePerHour: 2.6148
+  },
+  {
+    Cloud: aws,
+    InstanceName: r5d.12xlarge,
+    Region: eu-west-1,
+    VCpu: 48,
+    Memory: 384 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: i3.xlarge,
+    Region: us-west-1,
+    VCpu: 4,
+    Memory: 30.5 GiB,
+    PricePerHour: 0.562
+  },
+  {
+    Cloud: aws,
+    InstanceName: x2idn.32xlarge,
+    Region: ap-northeast-1,
+    VCpu: 128,
+    Memory: 2048 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: r6gd.4xlarge,
+    Region: ap-northeast-1,
+    VCpu: 16,
+    Memory: 128 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: i3.xlarge,
+    Region: ap-northeast-1,
+    VCpu: 4,
+    Memory: 30.5 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: r4.large,
+    Region: eu-west-1,
+    VCpu: 2,
+    Memory: 15.25 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: r7iz.2xlarge,
+    Region: eu-west-1,
+    VCpu: 8,
+    Memory: 64 GiB,
+    PricePerHour: 0.832
+  },
+  {
+    Cloud: aws,
+    InstanceName: m5d.16xlarge,
+    Region: il-central-1,
+    VCpu: 64,
+    Memory: 256 GiB,
+    PricePerHour: 15.112
+  },
+  {
+    Cloud: aws,
+    InstanceName: c5d.18xlarge,
+    Region: eu-west-1,
+    VCpu: 72,
+    Memory: 144 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: m5zn.12xlarge,
+    Region: us-west-1,
+    VCpu: 48,
+    Memory: 192 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: c7i-flex.large,
+    Region: eu-west-1,
+    VCpu: 2,
+    Memory: 4 GiB,
+    PricePerHour: 0.18737
+  },
+  {
+    Cloud: aws,
+    InstanceName: c5.24xlarge,
+    Region: unknown,
+    VCpu: 96,
+    Memory: 192 GiB,
+    PricePerHour: 7.399
+  },
+  {
+    Cloud: aws,
+    InstanceName: x2iedn.2xlarge,
+    Region: us-west-1,
+    VCpu: 8,
+    Memory: 256 GiB,
+    PricePerHour: 3.2427
+  },
+  {
+    Cloud: aws,
+    InstanceName: u7i-6tb.112xlarge,
+    Region: eu-west-1,
+    VCpu: 448,
+    Memory: 6144 GiB,
+    PricePerHour: 258.873
+  },
+  {
+    Cloud: aws,
+    InstanceName: i3en.xlarge,
+    Region: us-west-1,
+    VCpu: 4,
+    Memory: 32 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: r6in.32xlarge,
+    Region: us-east-1,
+    VCpu: 128,
+    Memory: 1024 GiB,
+    PricePerHour: 27.74592
+  },
+  {
+    Cloud: aws,
+    InstanceName: m6id.4xlarge,
+    Region: eu-west-1,
+    VCpu: 16,
+    Memory: 64 GiB,
+    PricePerHour: 1.33704
+  },
+  {
+    Cloud: aws,
+    InstanceName: i3.4xlarge,
+    Region: eu-west-1,
+    VCpu: 16,
+    Memory: 122 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: r5.metal,
+    Region: eu-west-1,
+    VCpu: 96,
+    Memory: 768 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: m6id.32xlarge,
+    Region: unknown,
+    VCpu: 128,
+    Memory: 512 GiB,
+    PricePerHour: 59.40288
+  },
+  {
+    Cloud: aws,
+    InstanceName: m7a.8xlarge,
+    Region: ap-northeast-1,
+    VCpu: 32,
+    Memory: 128 GiB,
+    PricePerHour: 6.82085
+  },
+  {
+    Cloud: aws,
+    InstanceName: r5b.4xlarge,
+    Region: ap-northeast-2,
+    VCpu: 16,
+    Memory: 128 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: r7a.24xlarge,
+    Region: eu-west-1,
+    VCpu: 96,
+    Memory: 768 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: c6i.12xlarge,
+    Region: eu-west-3,
+    VCpu: 48,
+    Memory: 96 GiB,
+    PricePerHour: 22.632
+  },
+  {
+    Cloud: aws,
+    InstanceName: i4i.2xlarge,
+    Region: ap-northeast-1,
+    VCpu: 8,
+    Memory: 64 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: d3en.8xlarge,
+    Region: ap-northeast-1,
+    VCpu: 32,
+    Memory: 128 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: r7g.large,
+    Region: ap-northeast-1,
+    VCpu: 2,
+    Memory: 16 GiB,
+    PricePerHour: 0.193
+  },
+  {
+    Cloud: aws,
+    InstanceName: r6idn.metal,
+    Region: eu-west-1,
+    VCpu: 128,
+    Memory: 1024 GiB,
+    PricePerHour: 63.15648
+  },
+  {
+    Cloud: aws,
+    InstanceName: c7gd.8xlarge,
+    Region: ap-northeast-1,
+    VCpu: 32,
+    Memory: 64 GiB,
+    PricePerHour: 2.3061
+  },
+  {
+    Cloud: aws,
+    InstanceName: r7i.24xlarge,
+    Region: eu-west-1,
+    VCpu: 96,
+    Memory: 768 GiB,
+    PricePerHour: 20.37384
+  },
+  {
+    Cloud: aws,
+    InstanceName: m4.large,
+    Region: ap-northeast-1,
+    VCpu: 2,
+    Memory: 8 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: i3.large,
+    Region: eu-west-1,
+    VCpu: 2,
+    Memory: 15.25 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: m7a.xlarge,
+    Region: eu-west-1,
+    VCpu: 4,
+    Memory: 16 GiB,
+    PricePerHour: 0.4424
+  },
+  {
+    Cloud: aws,
+    InstanceName: r7a.2xlarge,
+    Region: us-east-1,
+    VCpu: 8,
+    Memory: 64 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: r6idn.8xlarge,
+    Region: us-east-1,
+    VCpu: 32,
+    Memory: 256 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: r4.8xlarge,
+    Region: ap-northeast-2,
+    VCpu: 32,
+    Memory: 244 GiB,
+    PricePerHour: 0.674
+  },
+  {
+    Cloud: aws,
+    InstanceName: m6i.2xlarge,
+    Region: ap-northeast-2,
+    VCpu: 8,
+    Memory: 32 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: c7i.2xlarge,
+    Region: eu-west-1,
+    VCpu: 8,
+    Memory: 16 GiB,
+    PricePerHour: 0.38304
+  },
+  {
+    Cloud: aws,
+    InstanceName: r6a.16xlarge,
+    Region: us-west-1,
+    VCpu: 64,
+    Memory: 512 GiB,
+    PricePerHour: 11.712
+  },
+  {
+    Cloud: aws,
+    InstanceName: m6gd.metal,
+    Region: unknown,
+    VCpu: 64,
+    Memory: 256 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: d3en.2xlarge,
+    Region: eu-west-1,
+    VCpu: 8,
+    Memory: 32 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: m6a.32xlarge,
+    Region: eu-west-1,
+    VCpu: 128,
+    Memory: 512 GiB,
+    PricePerHour: 5.888
+  },
+  {
+    Cloud: aws,
+    InstanceName: m7i.xlarge,
+    Region: eu-west-1,
+    VCpu: 4,
+    Memory: 16 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: c6in.8xlarge,
+    Region: ap-northeast-1,
+    VCpu: 32,
+    Memory: 64 GiB,
+    PricePerHour: 15.98528
+  },
+  {
+    Cloud: aws,
+    InstanceName: m7i-flex.4xlarge,
+    Region: eu-west-1,
+    VCpu: 16,
+    Memory: 64 GiB,
+    PricePerHour: 3.47304
+  },
+  {
+    Cloud: aws,
+    InstanceName: c7a.8xlarge,
+    Region: ap-northeast-1,
+    VCpu: 32,
+    Memory: 64 GiB,
+    PricePerHour: 2.81472
+  },
+  {
+    Cloud: aws,
+    InstanceName: r6idn.16xlarge,
+    Region: ap-northeast-1,
+    VCpu: 64,
+    Memory: 512 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: m6i.metal,
+    Region: eu-west-1,
+    VCpu: 128,
+    Memory: 512 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: r5n.8xlarge,
+    Region: eu-west-1,
+    VCpu: 32,
+    Memory: 256 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: r4.2xlarge,
+    Region: eu-west-1,
+    VCpu: 8,
+    Memory: 61 GiB,
+    PricePerHour: 0.907
+  },
+  {
+    Cloud: aws,
+    InstanceName: m6i.12xlarge,
+    Region: unknown,
+    VCpu: 48,
+    Memory: 192 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: r8g.16xlarge,
+    Region: eu-west-1,
+    VCpu: 64,
+    Memory: 512 GiB,
+    PricePerHour: 5.80608
+  },
+  {
+    Cloud: aws,
+    InstanceName: c7a.4xlarge,
+    Region: eu-west-1,
+    VCpu: 16,
+    Memory: 32 GiB,
+    PricePerHour: 1.88736
+  },
+  {
+    Cloud: aws,
+    InstanceName: r6idn.12xlarge,
+    Region: ap-northeast-1,
+    VCpu: 48,
+    Memory: 384 GiB,
+    PricePerHour: 26.47826
+  },
+  {
+    Cloud: aws,
+    InstanceName: c6id.16xlarge,
+    Region: unknown,
+    VCpu: 64,
+    Memory: 128 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: m7i-flex.xlarge,
+    Region: eu-west-1,
+    VCpu: 4,
+    Memory: 16 GiB,
+    PricePerHour: 1.77106
+  },
+  {
+    Cloud: aws,
+    InstanceName: m5ad.xlarge,
+    Region: us-west-1,
+    VCpu: 4,
+    Memory: 16 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: m5dn.metal,
+    Region: eu-west-1,
+    VCpu: 96,
+    Memory: 384 GiB,
+    PricePerHour: 7.421
+  },
+  {
+    Cloud: aws,
+    InstanceName: r4.8xlarge,
+    Region: us-east-1,
+    VCpu: 32,
+    Memory: 244 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: r3.4xlarge,
+    Region: eu-west-1,
+    VCpu: 16,
+    Memory: 122 GiB,
+    PricePerHour: 2.025
+  },
+  {
+    Cloud: aws,
+    InstanceName: c6a.large,
+    Region: eu-west-1,
+    VCpu: 2,
+    Memory: 4 GiB,
+    PricePerHour: 0.092
+  },
+  {
+    Cloud: aws,
+    InstanceName: c6in.xlarge,
+    Region: eu-west-1,
+    VCpu: 4,
+    Memory: 8 GiB,
+    PricePerHour: 0.2562
+  },
+  {
+    Cloud: aws,
+    InstanceName: m7i.4xlarge,
+    Region: eu-north-1,
+    VCpu: 16,
+    Memory: 64 GiB,
+    PricePerHour: 1.11528
+  },
+  {
+    Cloud: aws,
+    InstanceName: m6i.metal,
+    Region: eu-west-1,
+    VCpu: 128,
+    Memory: 512 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: m6i.32xlarge,
+    Region: eu-west-1,
+    VCpu: 128,
+    Memory: 512 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: c5n.xlarge,
+    Region: ap-northeast-3,
+    VCpu: 4,
+    Memory: 10.5 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: c7i.2xlarge,
+    Region: eu-west-1,
+    VCpu: 8,
+    Memory: 16 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: r5.4xlarge,
+    Region: ap-northeast-2,
+    VCpu: 16,
+    Memory: 128 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: m6id.8xlarge,
+    Region: eu-west-1,
+    VCpu: 32,
+    Memory: 128 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: g5.2xlarge,
+    Region: eu-west-1,
+    VCpu: 8,
+    Memory: 32 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: m6i.24xlarge,
+    Region: eu-west-1,
+    VCpu: 96,
+    Memory: 384 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: r5b.large,
+    Region: ap-northeast-1,
+    VCpu: 2,
+    Memory: 16 GiB,
+    PricePerHour: 0.6791
+  },
+  {
+    Cloud: aws,
+    InstanceName: i3.large,
+    Region: eu-west-1,
+    VCpu: 2,
+    Memory: 15.25 GiB,
+    PricePerHour: 0.257
+  },
+  {
+    Cloud: aws,
+    InstanceName: r6g.2xlarge,
+    Region: il-central-1,
+    VCpu: 8,
+    Memory: 64 GiB,
+    PricePerHour: 0.5022
+  },
+  {
+    Cloud: aws,
+    InstanceName: m6idn.32xlarge,
+    Region: eu-west-1,
+    VCpu: 128,
+    Memory: 512 GiB,
+    PricePerHour: 11.38176
+  },
+  {
+    Cloud: aws,
+    InstanceName: i3en.6xlarge,
+    Region: eu-west-1,
+    VCpu: 24,
+    Memory: 192 GiB,
+    PricePerHour: 3.195
+  },
+  {
+    Cloud: aws,
+    InstanceName: m6id.large,
+    Region: us-west-1,
+    VCpu: 2,
+    Memory: 8 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: m6idn.16xlarge,
+    Region: ap-northeast-1,
+    VCpu: 64,
+    Memory: 256 GiB,
+    PricePerHour: 14.9232
+  },
+  {
+    Cloud: aws,
+    InstanceName: r8g.large,
+    Region: ap-northeast-1,
+    VCpu: 2,
+    Memory: 16 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: c5n.xlarge,
+    Region: eu-west-1,
+    VCpu: 4,
+    Memory: 10.5 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: r7gd.2xlarge,
+    Region: ap-northeast-2,
+    VCpu: 8,
+    Memory: 64 GiB,
+    PricePerHour: 0.8085
+  },
+  {
+    Cloud: aws,
+    InstanceName: z1d.3xlarge,
+    Region: eu-west-1,
+    VCpu: 12,
+    Memory: 96 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: c6id.24xlarge,
+    Region: eu-west-1,
+    VCpu: 96,
+    Memory: 192 GiB,
+    PricePerHour: 43.8744
+  },
+  {
+    Cloud: aws,
+    InstanceName: r8g.16xlarge,
+    Region: ap-northeast-1,
+    VCpu: 64,
+    Memory: 512 GiB,
+    PricePerHour: 5.11462
+  },
+  {
+    Cloud: aws,
+    InstanceName: r4.16xlarge,
+    Region: eu-west-1,
+    VCpu: 64,
+    Memory: 488 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: r8i.2xlarge,
+    Region: ap-northeast-2,
+    VCpu: 8,
+    Memory: 64 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: c5a.16xlarge,
+    Region: eu-west-1,
+    VCpu: 64,
+    Memory: 128 GiB,
+    PricePerHour: 13.376
+  },
+  {
+    Cloud: aws,
+    InstanceName: c6i.4xlarge,
+    Region: us-west-1,
+    VCpu: 16,
+    Memory: 32 GiB,
+    PricePerHour: 1.1184
+  },
+  {
+    Cloud: aws,
+    InstanceName: i3en.3xlarge,
+    Region: eu-west-1,
+    VCpu: 12,
+    Memory: 96 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: i7i.metal-24xl,
+    Region: eu-west-1,
+    VCpu: 96,
+    Memory: 768 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: c6gd.12xlarge,
+    Region: eu-west-3,
+    VCpu: 48,
+    Memory: 96 GiB,
+    PricePerHour: 2.4655
+  },
+  {
+    Cloud: aws,
+    InstanceName: i3en.large,
+    Region: unknown,
+    VCpu: 2,
+    Memory: 16 GiB,
+    PricePerHour: 0.799
+  },
+  {
+    Cloud: aws,
+    InstanceName: c7g.metal,
+    Region: cn-north-1,
+    VCpu: 64,
+    Memory: 128 GiB,
+    PricePerHour: 2.8557336
+  },
+  {
+    Cloud: aws,
+    InstanceName: c5a.8xlarge,
+    Region: eu-west-3,
+    VCpu: 32,
+    Memory: 64 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: r4.8xlarge,
+    Region: us-west-1,
+    VCpu: 32,
+    Memory: 244 GiB,
+    PricePerHour: 2.608
+  },
+  {
+    Cloud: aws,
+    InstanceName: x2iezn.metal,
+    Region: eu-west-1,
+    VCpu: 48,
+    Memory: 1536 GiB,
+    PricePerHour: 13.3296
+  },
+  {
+    Cloud: aws,
+    InstanceName: c6id.xlarge,
+    Region: eu-west-1,
+    VCpu: 4,
+    Memory: 8 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: r7gd.2xlarge,
+    Region: us-west-1,
+    VCpu: 8,
+    Memory: 64 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: m8g.large,
+    Region: eu-west-1,
+    VCpu: 2,
+    Memory: 8 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: i7i.4xlarge,
+    Region: ap-southeast-1,
+    VCpu: 16,
+    Memory: 128 GiB,
+    PricePerHour: 1.9507
+  },
+  {
+    Cloud: aws,
+    InstanceName: i4i.2xlarge,
+    Region: eu-west-1,
+    VCpu: 8,
+    Memory: 64 GiB,
+    PricePerHour: 0.757
+  },
+  {
+    Cloud: aws,
+    InstanceName: i7ie.2xlarge,
+    Region: eu-west-1,
+    VCpu: 8,
+    Memory: 64 GiB,
+    PricePerHour: 1.728
+  },
+  {
+    Cloud: aws,
+    InstanceName: m7i.48xlarge,
+    Region: unknown,
+    VCpu: 192,
+    Memory: 768 GiB,
+    PricePerHour: 11.24928
+  },
+  {
+    Cloud: aws,
+    InstanceName: t3.xlarge,
+    Region: eu-west-1,
+    VCpu: 4,
+    Memory: 16 GiB,
+    PricePerHour: 0.1894
+  },
+  {
+    Cloud: aws,
+    InstanceName: r4.16xlarge,
+    Region: us-west-1,
+    VCpu: 64,
+    Memory: 488 GiB,
+    PricePerHour: 8.8134
+  },
+  {
+    Cloud: aws,
+    InstanceName: m7i.large,
+    Region: unknown,
+    VCpu: 2,
+    Memory: 8 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: c5d.metal,
+    Region: eu-west-1,
+    VCpu: 96,
+    Memory: 192 GiB,
+    PricePerHour: 5.4
+  },
+  {
+    Cloud: aws,
+    InstanceName: r6i.large,
+    Region: eu-west-1,
+    VCpu: 2,
+    Memory: 16 GiB,
+    PricePerHour: 0.233
+  },
+  {
+    Cloud: aws,
+    InstanceName: i4i.large,
+    Region: eu-west-1,
+    VCpu: 2,
+    Memory: 16 GiB,
+    PricePerHour: 0.305
+  },
+  {
+    Cloud: aws,
+    InstanceName: r6a.4xlarge,
+    Region: us-west-1,
+    VCpu: 16,
+    Memory: 128 GiB,
+    PricePerHour: 3.2016
+  },
+  {
+    Cloud: aws,
+    InstanceName: i4i.16xlarge,
+    Region: unknown,
+    VCpu: 64,
+    Memory: 512 GiB,
+    PricePerHour: 5.797
+  },
+  {
+    Cloud: aws,
+    InstanceName: c6a.large,
+    Region: eu-west-1,
+    VCpu: 2,
+    Memory: 4 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: c7g.2xlarge,
+    Region: eu-west-1,
+    VCpu: 8,
+    Memory: 16 GiB,
+    PricePerHour: 0.4546
+  },
+  {
+    Cloud: aws,
+    InstanceName: c7i.8xlarge,
+    Region: sa-east-1,
+    VCpu: 32,
+    Memory: 64 GiB,
+    PricePerHour: 15.89288
+  },
+  {
+    Cloud: aws,
+    InstanceName: m6idn.large,
+    Region: eu-north-1,
+    VCpu: 2,
+    Memory: 8 GiB,
+    PricePerHour: 0.738
+  },
+  {
+    Cloud: aws,
+    InstanceName: c6in.24xlarge,
+    Region: eu-west-1,
+    VCpu: 96,
+    Memory: 192 GiB,
+    PricePerHour: 42.76368
+  },
+  {
+    Cloud: aws,
+    InstanceName: m6i.xlarge,
+    Region: eu-west-1,
+    VCpu: 4,
+    Memory: 16 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: c7i-flex.xlarge,
+    Region: eu-west-1,
+    VCpu: 4,
+    Memory: 8 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: m7g.4xlarge,
+    Region: eu-west-1,
+    VCpu: 16,
+    Memory: 64 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: m5ad.xlarge,
+    Region: ap-northeast-1,
+    VCpu: 4,
+    Memory: 16 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: t2.micro,
+    Region: eu-west-3,
+    VCpu: 1,
+    Memory: 1 GiB,
+    PricePerHour: 0.015
+  },
+  {
+    Cloud: aws,
+    InstanceName: m7i.24xlarge,
+    Region: eu-west-1,
+    VCpu: 96,
+    Memory: 384 GiB,
+    PricePerHour: 18.48888
+  },
+  {
+    Cloud: aws,
+    InstanceName: m5.24xlarge,
+    Region: us-west-1,
+    VCpu: 96,
+    Memory: 384 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: c4.2xlarge,
+    Region: eu-west-1,
+    VCpu: 8,
+    Memory: 15 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: r7a.xlarge,
+    Region: eu-west-1,
+    VCpu: 4,
+    Memory: 32 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: x1e.16xlarge,
+    Region: eu-west-1,
+    VCpu: 64,
+    Memory: 1952 GiB,
+    PricePerHour: 43.187
+  },
+  {
+    Cloud: aws,
+    InstanceName: c5n.9xlarge,
+    Region: eu-west-1,
+    VCpu: 36,
+    Memory: 96 GiB,
+    PricePerHour: 6.66
+  },
+  {
+    Cloud: aws,
+    InstanceName: r3.xlarge,
+    Region: eu-west-1,
+    VCpu: 4,
+    Memory: 30.5 GiB,
+    PricePerHour: 0.495
+  },
+  {
+    Cloud: aws,
+    InstanceName: c7i.metal-24xl,
+    Region: us-west-1,
+    VCpu: 96,
+    Memory: 192 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: i4i.32xlarge,
+    Region: il-central-1,
+    VCpu: 128,
+    Memory: 1024 GiB,
+    PricePerHour: 33.96224
+  },
+  {
+    Cloud: aws,
+    InstanceName: c6g.12xlarge,
+    Region: eu-west-1,
+    VCpu: 48,
+    Memory: 96 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: r5n.8xlarge,
+    Region: eu-west-3,
+    VCpu: 32,
+    Memory: 256 GiB,
+    PricePerHour: 14.969
+  },
+  {
+    Cloud: aws,
+    InstanceName: i3en.2xlarge,
+    Region: ap-northeast-1,
+    VCpu: 8,
+    Memory: 64 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: m5zn.2xlarge,
+    Region: ap-northeast-1,
+    VCpu: 8,
+    Memory: 32 GiB,
+    PricePerHour: 4.0539
+  },
+  {
+    Cloud: aws,
+    InstanceName: d2.8xlarge,
+    Region: us-west-1,
+    VCpu: 36,
+    Memory: 244 GiB,
+    PricePerHour: 20.641
+  },
+  {
+    Cloud: aws,
+    InstanceName: r4.4xlarge,
+    Region: eu-west-1,
+    VCpu: 16,
+    Memory: 122 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: r8i.xlarge,
+    Region: us-west-1,
+    VCpu: 4,
+    Memory: 32 GiB,
+    PricePerHour: 0.81957
+  },
+  {
+    Cloud: aws,
+    InstanceName: u7i-12tb.224xlarge,
+    Region: eu-west-1,
+    VCpu: 896,
+    Memory: 12288 GiB,
+    PricePerHour: 266.06179
+  },
+  {
+    Cloud: aws,
+    InstanceName: m5d.16xlarge,
+    Region: eu-west-3,
+    VCpu: 64,
+    Memory: 256 GiB,
+    PricePerHour: 4.324
+  },
+  {
+    Cloud: aws,
+    InstanceName: r6i.32xlarge,
+    Region: us-east-1,
+    VCpu: 128,
+    Memory: 1024 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: r6i.4xlarge,
+    Region: ap-northeast-1,
+    VCpu: 16,
+    Memory: 128 GiB,
+    PricePerHour: 1.608
+  },
+  {
+    Cloud: aws,
+    InstanceName: m5dn.24xlarge,
+    Region: ap-northeast-1,
+    VCpu: 96,
+    Memory: 384 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: r3.xlarge,
+    Region: eu-west-1,
+    VCpu: 4,
+    Memory: 30.5 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: r5a.16xlarge,
+    Region: eu-west-1,
+    VCpu: 64,
+    Memory: 512 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: r5b.8xlarge,
+    Region: ap-northeast-1,
+    VCpu: 32,
+    Memory: 256 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: r8g.4xlarge,
+    Region: eu-west-1,
+    VCpu: 16,
+    Memory: 128 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: r5ad.16xlarge,
+    Region: eu-west-3,
+    VCpu: 64,
+    Memory: 512 GiB,
+    PricePerHour: 8.922
+  },
+  {
+    Cloud: aws,
+    InstanceName: r7i.8xlarge,
+    Region: us-west-1,
+    VCpu: 32,
+    Memory: 256 GiB,
+    PricePerHour: 4.0592
+  },
+  {
+    Cloud: aws,
+    InstanceName: r6i.xlarge,
+    Region: il-central-1,
+    VCpu: 4,
+    Memory: 32 GiB,
+    PricePerHour: 0.7761
+  },
+  {
+    Cloud: aws,
+    InstanceName: r5ad.24xlarge,
+    Region: ap-northeast-1,
+    VCpu: 96,
+    Memory: 768 GiB,
+    PricePerHour: 10.291
+  },
+  {
+    Cloud: aws,
+    InstanceName: m6idn.metal,
+    Region: us-west-1,
+    VCpu: 128,
+    Memory: 512 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: c7a.2xlarge,
+    Region: eu-west-1,
+    VCpu: 8,
+    Memory: 16 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: m7i.4xlarge,
+    Region: eu-west-1,
+    VCpu: 16,
+    Memory: 64 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: r8g.large,
+    Region: eu-west-1,
+    VCpu: 2,
+    Memory: 16 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: r7g.medium,
+    Region: il-central-1,
+    VCpu: 1,
+    Memory: 8 GiB,
+    PricePerHour: 0.0948
+  },
+  {
+    Cloud: aws,
+    InstanceName: r6a.24xlarge,
+    Region: us-west-1,
+    VCpu: 96,
+    Memory: 768 GiB,
+    PricePerHour: 20.5536
+  },
+  {
+    Cloud: aws,
+    InstanceName: d3.4xlarge,
+    Region: eu-west-1,
+    VCpu: 16,
+    Memory: 128 GiB,
+    PricePerHour: 3.124
+  },
+  {
+    Cloud: aws,
+    InstanceName: m8i.metal-96xl,
+    Region: ap-southeast-1,
+    VCpu: 384,
+    Memory: 1536 GiB,
+    PricePerHour: 187.0656
+  },
+  {
+    Cloud: aws,
+    InstanceName: x2iedn.8xlarge,
+    Region: eu-west-1,
+    VCpu: 32,
+    Memory: 1024 GiB,
+    PricePerHour: 10.2753
+  },
+  {
+    Cloud: aws,
+    InstanceName: r7i.24xlarge,
+    Region: eu-north-1,
+    VCpu: 96,
+    Memory: 768 GiB,
+    PricePerHour: 23.36496
+  },
+  {
+    Cloud: aws,
+    InstanceName: m5.16xlarge,
+    Region: eu-west-1,
+    VCpu: 64,
+    Memory: 256 GiB,
+    PricePerHour: 5.354
+  },
+  {
+    Cloud: aws,
+    InstanceName: vt1.3xlarge,
+    Region: eu-west-1,
+    VCpu: 12,
+    Memory: 24 GiB,
+    PricePerHour: 0.75512
+  },
+  {
+    Cloud: aws,
+    InstanceName: m6a.12xlarge,
+    Region: eu-west-1,
+    VCpu: 48,
+    Memory: 192 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: m7a.large,
+    Region: eu-west-1,
+    VCpu: 2,
+    Memory: 8 GiB,
+    PricePerHour: 0.1292
+  },
+  {
+    Cloud: aws,
+    InstanceName: r5dn.metal,
+    Region: eu-west-1,
+    VCpu: 96,
+    Memory: 768 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: m6in.8xlarge,
+    Region: eu-west-1,
+    VCpu: 32,
+    Memory: 128 GiB,
+    PricePerHour: 2.48976
+  },
+  {
+    Cloud: aws,
+    InstanceName: r8g.metal-24xl,
+    Region: eu-west-3,
+    VCpu: 96,
+    Memory: 768 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: m6idn.8xlarge,
+    Region: eu-west-1,
+    VCpu: 32,
+    Memory: 128 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: r8i.32xlarge,
+    Region: us-west-1,
+    VCpu: 128,
+    Memory: 1024 GiB,
+    PricePerHour: 32.11424
+  },
+  {
+    Cloud: aws,
+    InstanceName: m7a.medium,
+    Region: eu-west-1,
+    VCpu: 1,
+    Memory: 4 GiB,
+    PricePerHour: 0.559
+  },
+  {
+    Cloud: aws,
+    InstanceName: r6idn.metal,
+    Region: eu-west-1,
+    VCpu: 128,
+    Memory: 1024 GiB,
+    PricePerHour: 63.15648
+  },
+  {
+    Cloud: aws,
+    InstanceName: c6i.16xlarge,
+    Region: unknown,
+    VCpu: 64,
+    Memory: 128 GiB,
+    PricePerHour: 14.01376
+  },
+  {
+    Cloud: aws,
+    InstanceName: c5a.2xlarge,
+    Region: us-east-1,
+    VCpu: 8,
+    Memory: 16 GiB,
+    PricePerHour: 0.474
+  },
+  {
+    Cloud: aws,
+    InstanceName: i7i.metal-48xl,
+    Region: us-east-1,
+    VCpu: 192,
+    Memory: 1536 GiB,
+    PricePerHour: 44.124
+  },
+  {
+    Cloud: aws,
+    InstanceName: c4.xlarge,
+    Region: ap-northeast-1,
+    VCpu: 4,
+    Memory: 7.5 GiB,
+    PricePerHour: 1.905
+  },
+  {
+    Cloud: aws,
+    InstanceName: r6a.32xlarge,
+    Region: ap-northeast-1,
+    VCpu: 128,
+    Memory: 1024 GiB,
+    PricePerHour: 27.56352
+  },
+  {
+    Cloud: aws,
+    InstanceName: inf1.xlarge,
+    Region: eu-west-1,
+    VCpu: 4,
+    Memory: 8 GiB,
+    PricePerHour: 0.395
+  },
+  {
+    Cloud: aws,
+    InstanceName: c6id.16xlarge,
+    Region: eu-west-1,
+    VCpu: 64,
+    Memory: 128 GiB,
+    PricePerHour: 29.2496
+  },
+  {
+    Cloud: aws,
+    InstanceName: m6a.4xlarge,
+    Region: eu-west-1,
+    VCpu: 16,
+    Memory: 64 GiB,
+    PricePerHour: 0.9432
+  },
+  {
+    Cloud: aws,
+    InstanceName: d3.8xlarge,
+    Region: ap-northeast-1,
+    VCpu: 32,
+    Memory: 256 GiB,
+    PricePerHour: 19.84478
+  },
+  {
+    Cloud: aws,
+    InstanceName: r5ad.xlarge,
+    Region: eu-west-1,
+    VCpu: 4,
+    Memory: 32 GiB,
+    PricePerHour: 0.476
+  },
+  {
+    Cloud: aws,
+    InstanceName: m8i.32xlarge,
+    Region: ap-northeast-1,
+    VCpu: 128,
+    Memory: 512 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: m5ad.4xlarge,
+    Region: eu-west-3,
+    VCpu: 16,
+    Memory: 64 GiB,
+    PricePerHour: 1.093
+  },
+  {
+    Cloud: aws,
+    InstanceName: m5ad.2xlarge,
+    Region: ap-northeast-1,
+    VCpu: 8,
+    Memory: 32 GiB,
+    PricePerHour: 1.864
+  },
+  {
+    Cloud: aws,
+    InstanceName: m7a.32xlarge,
+    Region: eu-west-1,
+    VCpu: 128,
+    Memory: 512 GiB,
+    PricePerHour: 8.2688
+  },
+  {
+    Cloud: aws,
+    InstanceName: c6gn.medium,
+    Region: unknown,
+    VCpu: 1,
+    Memory: 2 GiB,
+    PricePerHour: 0.06836
+  },
+  {
+    Cloud: aws,
+    InstanceName: r6i.xlarge,
+    Region: eu-west-1,
+    VCpu: 4,
+    Memory: 32 GiB,
+    PricePerHour: 0.8478
+  },
+  {
+    Cloud: aws,
+    InstanceName: m6idn.4xlarge,
+    Region: eu-west-1,
+    VCpu: 16,
+    Memory: 64 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: g5.12xlarge,
+    Region: ap-northeast-1,
+    VCpu: 48,
+    Memory: 192 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: c6id.32xlarge,
+    Region: eu-west-1,
+    VCpu: 128,
+    Memory: 256 GiB,
+    PricePerHour: 56.5536
+  },
+  {
+    Cloud: aws,
+    InstanceName: r7i.metal-48xl,
+    Region: eu-west-1,
+    VCpu: 192,
+    Memory: 1536 GiB,
+    PricePerHour: 90.072
+  },
+  {
+    Cloud: aws,
+    InstanceName: x2idn.16xlarge,
+    Region: eu-west-1,
+    VCpu: 64,
+    Memory: 1024 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: m5d.2xlarge,
+    Region: ap-northeast-1,
+    VCpu: 8,
+    Memory: 32 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: c7i.8xlarge,
+    Region: unknown,
+    VCpu: 32,
+    Memory: 64 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: r5n.metal,
+    Region: eu-west-1,
+    VCpu: 96,
+    Memory: 768 GiB,
+    PricePerHour: 21.917
+  },
+  {
+    Cloud: aws,
+    InstanceName: i3en.2xlarge,
+    Region: ap-northeast-1,
+    VCpu: 8,
+    Memory: 64 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: i8g.16xlarge,
+    Region: eu-west-1,
+    VCpu: 64,
+    Memory: 512 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: m5a.12xlarge,
+    Region: eu-west-1,
+    VCpu: 48,
+    Memory: 192 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: m5ad.4xlarge,
+    Region: us-east-1,
+    VCpu: 16,
+    Memory: 64 GiB,
+    PricePerHour: 1.046
+  },
+  {
+    Cloud: aws,
+    InstanceName: m6a.large,
+    Region: us-east-1,
+    VCpu: 2,
+    Memory: 8 GiB,
+    PricePerHour: 0.1784
+  },
+  {
+    Cloud: aws,
+    InstanceName: c8i.24xlarge,
+    Region: us-east-1,
+    VCpu: 96,
+    Memory: 192 GiB,
+    PricePerHour: 4.49808
+  },
+  {
+    Cloud: aws,
+    InstanceName: c5.2xlarge,
+    Region: eu-west-1,
+    VCpu: 8,
+    Memory: 16 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: i3en.6xlarge,
+    Region: ap-northeast-1,
+    VCpu: 24,
+    Memory: 192 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: m7g.metal,
+    Region: unknown,
+    VCpu: 64,
+    Memory: 256 GiB,
+    PricePerHour: 4.6227
+  },
+  {
+    Cloud: aws,
+    InstanceName: r5d.24xlarge,
+    Region: eu-west-1,
+    VCpu: 96,
+    Memory: 768 GiB,
+    PricePerHour: 48.096
+  },
+  {
+    Cloud: aws,
+    InstanceName: m6idn.16xlarge,
+    Region: us-west-1,
+    VCpu: 64,
+    Memory: 256 GiB,
+    PricePerHour: 8.22989
+  },
+  {
+    Cloud: aws,
+    InstanceName: i3en.12xlarge,
+    Region: unknown,
+    VCpu: 48,
+    Memory: 384 GiB,
+    PricePerHour: 6.119
+  },
+  {
+    Cloud: aws,
+    InstanceName: r6a.48xlarge,
+    Region: eu-west-1,
+    VCpu: 192,
+    Memory: 1536 GiB,
+    PricePerHour: 86.0256
+  },
+  {
+    Cloud: aws,
+    InstanceName: g6.4xlarge,
+    Region: ap-northeast-1,
+    VCpu: 16,
+    Memory: 64 GiB,
+    PricePerHour: 2.09183
+  },
+  {
+    Cloud: aws,
+    InstanceName: c4.xlarge,
+    Region: ap-northeast-1,
+    VCpu: 4,
+    Memory: 7.5 GiB,
+    PricePerHour: 0.252
+  },
+  {
+    Cloud: aws,
+    InstanceName: c7i-flex.8xlarge,
+    Region: unknown,
+    VCpu: 32,
+    Memory: 64 GiB,
+    PricePerHour: 1.53696
+  },
+  {
+    Cloud: aws,
+    InstanceName: c3.large,
+    Region: ap-northeast-1,
+    VCpu: 2,
+    Memory: 3.75 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: m6id.8xlarge,
+    Region: unknown,
+    VCpu: 32,
+    Memory: 128 GiB,
+    PricePerHour: 2.55327
+  },
+  {
+    Cloud: aws,
+    InstanceName: i8g.4xlarge,
+    Region: eu-west-1,
+    VCpu: 16,
+    Memory: 128 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: m6gd.medium,
+    Region: eu-west-3,
+    VCpu: 1,
+    Memory: 4 GiB,
+    PricePerHour: 0.0704
+  },
+  {
+    Cloud: aws,
+    InstanceName: r6in.12xlarge,
+    Region: eu-west-1,
+    VCpu: 48,
+    Memory: 384 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: c5d.large,
+    Region: eu-west-1,
+    VCpu: 2,
+    Memory: 4 GiB,
+    PricePerHour: 0.572
+  },
+  {
+    Cloud: aws,
+    InstanceName: r6a.xlarge,
+    Region: us-west-1,
+    VCpu: 4,
+    Memory: 32 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: m5n.8xlarge,
+    Region: eu-west-1,
+    VCpu: 32,
+    Memory: 128 GiB,
+    PricePerHour: 15.6
+  },
+  {
+    Cloud: aws,
+    InstanceName: c5a.24xlarge,
+    Region: eu-west-1,
+    VCpu: 96,
+    Memory: 192 GiB,
+    PricePerHour: 40.128
+  },
+  {
+    Cloud: aws,
+    InstanceName: r6idn.12xlarge,
+    Region: ap-northeast-1,
+    VCpu: 48,
+    Memory: 384 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: c6in.2xlarge,
+    Region: eu-west-1,
+    VCpu: 8,
+    Memory: 16 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: i3en.3xlarge,
+    Region: il-central-1,
+    VCpu: 12,
+    Memory: 96 GiB,
+    PricePerHour: 3.117
+  },
+  {
+    Cloud: aws,
+    InstanceName: c7i.12xlarge,
+    Region: eu-west-1,
+    VCpu: 48,
+    Memory: 96 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: c6a.12xlarge,
+    Region: eu-west-1,
+    VCpu: 48,
+    Memory: 96 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: im4gn.xlarge,
+    Region: eu-west-1,
+    VCpu: 4,
+    Memory: 16 GiB,
+    PricePerHour: 0.49881
+  },
+  {
+    Cloud: aws,
+    InstanceName: m5dn.4xlarge,
+    Region: ap-northeast-1,
+    VCpu: 16,
+    Memory: 64 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: c7i.24xlarge,
+    Region: unknown,
+    VCpu: 96,
+    Memory: 192 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: c6id.16xlarge,
+    Region: eu-west-1,
+    VCpu: 64,
+    Memory: 128 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: m6i.large,
+    Region: eu-west-1,
+    VCpu: 2,
+    Memory: 8 GiB,
+    PricePerHour: 0.2666
+  },
+  {
+    Cloud: aws,
+    InstanceName: i7ie.large,
+    Region: eu-west-1,
+    VCpu: 2,
+    Memory: 16 GiB,
+    PricePerHour: 0.7963
+  },
+  {
+    Cloud: aws,
+    InstanceName: m5.large,
+    Region: ap-northeast-1,
+    VCpu: 2,
+    Memory: 8 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: c5.large,
+    Region: us-gov-east-1,
+    VCpu: 2,
+    Memory: 4 GiB,
+    PricePerHour: 0.48
+  },
+  {
+    Cloud: aws,
+    InstanceName: z1d.xlarge,
+    Region: eu-west-1,
+    VCpu: 4,
+    Memory: 32 GiB,
+    PricePerHour: 1.999
+  },
+  {
+    Cloud: aws,
+    InstanceName: c5ad.4xlarge,
+    Region: eu-west-1,
+    VCpu: 16,
+    Memory: 32 GiB,
+    PricePerHour: 7.52
+  },
+  {
+    Cloud: aws,
+    InstanceName: h1.2xlarge,
+    Region: eu-west-1,
+    VCpu: 8,
+    Memory: 32 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: r7i.48xlarge,
+    Region: unknown,
+    VCpu: 192,
+    Memory: 1536 GiB,
+    PricePerHour: 40.68864
+  },
+  {
+    Cloud: aws,
+    InstanceName: c6in.metal,
+    Region: eu-west-1,
+    VCpu: 128,
+    Memory: 256 GiB,
+    PricePerHour: 10.7712
+  },
+  {
+    Cloud: aws,
+    InstanceName: m5zn.2xlarge,
+    Region: eu-west-1,
+    VCpu: 8,
+    Memory: 32 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: g4ad.8xlarge,
+    Region: eu-west-1,
+    VCpu: 32,
+    Memory: 128 GiB,
+    PricePerHour: 1.992
+  },
+  {
+    Cloud: aws,
+    InstanceName: r7a.4xlarge,
+    Region: eu-west-1,
+    VCpu: 16,
+    Memory: 128 GiB,
+    PricePerHour: 0.736
+  },
+  {
+    Cloud: aws,
+    InstanceName: c6in.12xlarge,
+    Region: eu-west-1,
+    VCpu: 48,
+    Memory: 96 GiB,
+    PricePerHour: 22.57224
+  },
+  {
+    Cloud: aws,
+    InstanceName: r6i.32xlarge,
+    Region: eu-west-1,
+    VCpu: 128,
+    Memory: 1024 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: r7a.16xlarge,
+    Region: eu-west-1,
+    VCpu: 64,
+    Memory: 512 GiB,
+    PricePerHour: 6.52992
+  },
+  {
+    Cloud: aws,
+    InstanceName: m5ad.8xlarge,
+    Region: ap-northeast-1,
+    VCpu: 32,
+    Memory: 128 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: r6a.48xlarge,
+    Region: us-west-1,
+    VCpu: 192,
+    Memory: 1536 GiB,
+    PricePerHour: 12.221
+  },
+  {
+    Cloud: aws,
+    InstanceName: c6i.2xlarge,
+    Region: unknown,
+    VCpu: 8,
+    Memory: 16 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: m5a.xlarge,
+    Region: eu-west-1,
+    VCpu: 4,
+    Memory: 16 GiB,
+    PricePerHour: 1.761
+  },
+  {
+    Cloud: aws,
+    InstanceName: c6id.large,
+    Region: ap-northeast-1,
+    VCpu: 2,
+    Memory: 4 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: m7i.large,
+    Region: eu-west-1,
+    VCpu: 2,
+    Memory: 8 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: h1.8xlarge,
+    Region: eu-west-1,
+    VCpu: 32,
+    Memory: 128 GiB,
+    PricePerHour: 2.612
+  },
+  {
+    Cloud: aws,
+    InstanceName: m7i.12xlarge,
+    Region: eu-west-1,
+    VCpu: 48,
+    Memory: 192 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: x2idn.16xlarge,
+    Region: il-central-1,
+    VCpu: 64,
+    Memory: 1024 GiB,
+    PricePerHour: 9.48475
+  },
+  {
+    Cloud: aws,
+    InstanceName: r5.4xlarge,
+    Region: eu-west-1,
+    VCpu: 16,
+    Memory: 128 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: h1.4xlarge,
+    Region: eu-west-1,
+    VCpu: 16,
+    Memory: 64 GiB,
+    PricePerHour: 2.958
+  },
+  {
+    Cloud: aws,
+    InstanceName: r5d.16xlarge,
+    Region: ap-northeast-1,
+    VCpu: 64,
+    Memory: 512 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: r7i.large,
+    Region: ap-northeast-3,
+    VCpu: 2,
+    Memory: 16 GiB,
+    PricePerHour: 0.27196
+  },
+  {
+    Cloud: aws,
+    InstanceName: d2.2xlarge,
+    Region: eu-west-1,
+    VCpu: 8,
+    Memory: 61 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: m5zn.xlarge,
+    Region: eu-west-1,
+    VCpu: 4,
+    Memory: 16 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: c7gn.medium,
+    Region: eu-west-1,
+    VCpu: 1,
+    Memory: 2 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: c6id.8xlarge,
+    Region: eu-west-1,
+    VCpu: 32,
+    Memory: 64 GiB,
+    PricePerHour: 14.35992
+  },
+  {
+    Cloud: aws,
+    InstanceName: c5d.12xlarge,
+    Region: eu-west-1,
+    VCpu: 48,
+    Memory: 96 GiB,
+    PricePerHour: 2.857
+  },
+  {
+    Cloud: aws,
+    InstanceName: m5ad.12xlarge,
+    Region: eu-west-1,
+    VCpu: 48,
+    Memory: 192 GiB,
+    PricePerHour: 4.116
+  },
+  {
+    Cloud: aws,
+    InstanceName: r6i.16xlarge,
+    Region: unknown,
+    VCpu: 64,
+    Memory: 512 GiB,
+    PricePerHour: 4.5026
+  },
+  {
+    Cloud: aws,
+    InstanceName: c5d.9xlarge,
+    Region: eu-west-1,
+    VCpu: 36,
+    Memory: 72 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: c5n.xlarge,
+    Region: ap-northeast-1,
+    VCpu: 4,
+    Memory: 10.5 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: r5n.2xlarge,
+    Region: eu-west-1,
+    VCpu: 8,
+    Memory: 64 GiB,
+    PricePerHour: 0.793
+  },
+  {
+    Cloud: aws,
+    InstanceName: c5.9xlarge,
+    Region: ap-northeast-2,
+    VCpu: 36,
+    Memory: 72 GiB,
+    PricePerHour: 16.884
+  },
+  {
+    Cloud: aws,
+    InstanceName: r7i.4xlarge,
+    Region: eu-west-1,
+    VCpu: 16,
+    Memory: 128 GiB,
+    PricePerHour: 7.3572
+  },
+  {
+    Cloud: aws,
+    InstanceName: r6idn.xlarge,
+    Region: eu-west-1,
+    VCpu: 4,
+    Memory: 32 GiB,
+    PricePerHour: 0.53506
+  },
+  {
+    Cloud: aws,
+    InstanceName: r7a.4xlarge,
+    Region: us-east-1,
+    VCpu: 16,
+    Memory: 128 GiB,
+    PricePerHour: 2.34384
+  },
+  {
+    Cloud: aws,
+    InstanceName: m5.2xlarge,
+    Region: eu-west-1,
+    VCpu: 8,
+    Memory: 32 GiB,
+    PricePerHour: 3.683
+  },
+  {
+    Cloud: aws,
+    InstanceName: m6id.4xlarge,
+    Region: ap-northeast-1,
+    VCpu: 16,
+    Memory: 64 GiB,
+    PricePerHour: 2.2328
+  },
+  {
+    Cloud: aws,
+    InstanceName: c6i.4xlarge,
+    Region: eu-west-1,
+    VCpu: 16,
+    Memory: 32 GiB,
+    PricePerHour: 1.53856
+  },
+  {
+    Cloud: aws,
+    InstanceName: x2iedn.16xlarge,
+    Region: us-west-1,
+    VCpu: 64,
+    Memory: 2048 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: i7i.4xlarge,
+    Region: us-west-1,
+    VCpu: 16,
+    Memory: 128 GiB,
+    PricePerHour: 2.0618
+  },
+  {
+    Cloud: aws,
+    InstanceName: r6a.large,
+    Region: eu-west-1,
+    VCpu: 2,
+    Memory: 16 GiB,
+    PricePerHour: 0.29919
+  },
+  {
+    Cloud: aws,
+    InstanceName: r6gd.xlarge,
+    Region: us-west-1,
+    VCpu: 4,
+    Memory: 32 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: r6a.48xlarge,
+    Region: eu-west-1,
+    VCpu: 192,
+    Memory: 1536 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: r5ad.16xlarge,
+    Region: us-east-2,
+    VCpu: 64,
+    Memory: 512 GiB,
+    PricePerHour: 4.304
+  },
+  {
+    Cloud: aws,
+    InstanceName: m6i.2xlarge,
+    Region: eu-west-1,
+    VCpu: 8,
+    Memory: 32 GiB,
+    PricePerHour: 3.428
+  },
+  {
+    Cloud: aws,
+    InstanceName: r5n.metal,
+    Region: us-east-2,
+    VCpu: 96,
+    Memory: 768 GiB,
+    PricePerHour: 9.533
+  },
+  {
+    Cloud: aws,
+    InstanceName: x2iezn.metal,
+    Region: eu-west-1,
+    VCpu: 48,
+    Memory: 1536 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: x2idn.32xlarge,
+    Region: us-west-1,
+    VCpu: 128,
+    Memory: 2048 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: r6idn.2xlarge,
+    Region: eu-west-1,
+    VCpu: 8,
+    Memory: 64 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: r7g.xlarge,
+    Region: us-west-1,
+    VCpu: 4,
+    Memory: 32 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: m7a.32xlarge,
+    Region: eu-west-1,
+    VCpu: 128,
+    Memory: 512 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: r6id.xlarge,
+    Region: unknown,
+    VCpu: 4,
+    Memory: 32 GiB,
+    PricePerHour: 2.01286
+  },
+  {
+    Cloud: aws,
+    InstanceName: r5ad.xlarge,
+    Region: eu-west-1,
+    VCpu: 4,
+    Memory: 32 GiB,
+    PricePerHour: 0.83
+  },
+  {
+    Cloud: aws,
+    InstanceName: c5d.24xlarge,
+    Region: us-west-1,
+    VCpu: 96,
+    Memory: 192 GiB,
+    PricePerHour: 8.765
+  },
+  {
+    Cloud: aws,
+    InstanceName: t2.micro,
+    Region: eu-west-1,
+    VCpu: 1,
+    Memory: 1 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: r7i.xlarge,
+    Region: eu-west-1,
+    VCpu: 4,
+    Memory: 32 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: m6g.8xlarge,
+    Region: eu-west-3,
+    VCpu: 32,
+    Memory: 128 GiB,
+    PricePerHour: 1.5264
+  },
+  {
+    Cloud: aws,
+    InstanceName: i4i.large,
+    Region: ap-northeast-1,
+    VCpu: 2,
+    Memory: 16 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: c6i.12xlarge,
+    Region: eu-west-1,
+    VCpu: 48,
+    Memory: 96 GiB,
+    PricePerHour: 2.49168
+  },
+  {
+    Cloud: aws,
+    InstanceName: m6a.2xlarge,
+    Region: eu-west-3,
+    VCpu: 8,
+    Memory: 32 GiB,
+    PricePerHour: 3.81152
+  },
+  {
+    Cloud: aws,
+    InstanceName: m5d.large,
+    Region: ap-northeast-1,
+    VCpu: 2,
+    Memory: 8 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: c6i.32xlarge,
+    Region: ap-northeast-3,
+    VCpu: 128,
+    Memory: 256 GiB,
+    PricePerHour: 23.4368
+  },
+  {
+    Cloud: aws,
+    InstanceName: r6gd.metal,
+    Region: eu-west-1,
+    VCpu: 64,
+    Memory: 512 GiB,
+    PricePerHour: 4.221
+  },
+  {
+    Cloud: aws,
+    InstanceName: r7g.metal,
+    Region: unknown,
+    VCpu: 64,
+    Memory: 512 GiB,
+    PricePerHour: 3.833
+  },
+  {
+    Cloud: aws,
+    InstanceName: m5ad.16xlarge,
+    Region: ap-northeast-1,
+    VCpu: 64,
+    Memory: 256 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: p3.2xlarge,
+    Region: eu-west-1,
+    VCpu: 8,
+    Memory: 61 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: d3.8xlarge,
+    Region: ap-southeast-1,
+    VCpu: 32,
+    Memory: 256 GiB,
+    PricePerHour: 18.48008
+  },
+  {
+    Cloud: aws,
+    InstanceName: i7ie.48xlarge,
+    Region: us-west-1,
+    VCpu: 192,
+    Memory: 1536 GiB,
+    PricePerHour: 54.2785
+  },
+  {
+    Cloud: aws,
+    InstanceName: m5dn.2xlarge,
+    Region: eu-west-1,
+    VCpu: 8,
+    Memory: 32 GiB,
+    PricePerHour: 3.648
+  },
+  {
+    Cloud: aws,
+    InstanceName: m6idn.16xlarge,
+    Region: eu-west-1,
+    VCpu: 64,
+    Memory: 256 GiB,
+    PricePerHour: 15.52717
+  },
+  {
+    Cloud: aws,
+    InstanceName: r5ad.24xlarge,
+    Region: ap-northeast-1,
+    VCpu: 96,
+    Memory: 768 GiB,
+    PricePerHour: 48.512
+  },
+  {
+    Cloud: aws,
+    InstanceName: m6id.8xlarge,
+    Region: unknown,
+    VCpu: 32,
+    Memory: 128 GiB,
+    PricePerHour: 14.20752
+  },
+  {
+    Cloud: aws,
+    InstanceName: t3.2xlarge,
+    Region: eu-west-1,
+    VCpu: 8,
+    Memory: 32 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: m6id.2xlarge,
+    Region: eu-west-1,
+    VCpu: 8,
+    Memory: 32 GiB,
+    PricePerHour: 1.7444
+  },
+  {
+    Cloud: aws,
+    InstanceName: c6id.12xlarge,
+    Region: unknown,
+    VCpu: 48,
+    Memory: 96 GiB,
+    PricePerHour: 23.25166
+  },
+  {
+    Cloud: aws,
+    InstanceName: i7ie.metal-24xl,
+    Region: eu-west-1,
+    VCpu: 96,
+    Memory: 768 GiB,
+    PricePerHour: 27.7008
+  },
+  {
+    Cloud: aws,
+    InstanceName: r8i.32xlarge,
+    Region: ap-northeast-1,
+    VCpu: 128,
+    Memory: 1024 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: r6id.32xlarge,
+    Region: us-gov-west-1,
+    VCpu: 128,
+    Memory: 1024 GiB,
+    PricePerHour: 11.6288
+  },
+  {
+    Cloud: aws,
+    InstanceName: m6in.24xlarge,
+    Region: us-west-1,
+    VCpu: 96,
+    Memory: 384 GiB,
+    PricePerHour: 7.79712
+  },
+  {
+    Cloud: aws,
+    InstanceName: c7i.xlarge,
+    Region: unknown,
+    VCpu: 4,
+    Memory: 8 GiB,
+    PricePerHour: 0.20224
+  },
+  {
+    Cloud: aws,
+    InstanceName: r7a.24xlarge,
+    Region: eu-west-1,
+    VCpu: 96,
+    Memory: 768 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: hpc7a.24xlarge,
+    Region: eu-west-1,
+    VCpu: 48,
+    Memory: 768 GiB,
+    PricePerHour: 7.8092
+  },
+  {
+    Cloud: aws,
+    InstanceName: c7i.12xlarge,
+    Region: eu-west-1,
+    VCpu: 48,
+    Memory: 96 GiB,
+    PricePerHour: 8.57664
+  },
+  {
+    Cloud: aws,
+    InstanceName: c5d.2xlarge,
+    Region: eu-west-1,
+    VCpu: 8,
+    Memory: 16 GiB,
+    PricePerHour: 3.465
+  },
+  {
+    Cloud: aws,
+    InstanceName: m7i.12xlarge,
+    Region: ap-northeast-1,
+    VCpu: 48,
+    Memory: 192 GiB,
+    PricePerHour: 21.95568
+  },
+  {
+    Cloud: aws,
+    InstanceName: r4.16xlarge,
+    Region: eu-west-1,
+    VCpu: 64,
+    Memory: 488 GiB,
+    PricePerHour: 8.813
+  },
+  {
+    Cloud: aws,
+    InstanceName: x1e.16xlarge,
+    Region: ap-northeast-3,
+    VCpu: 64,
+    Memory: 1952 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: m6idn.4xlarge,
+    Region: eu-west-1,
+    VCpu: 16,
+    Memory: 64 GiB,
+    PricePerHour: 1.42272
+  },
+  {
+    Cloud: aws,
+    InstanceName: i2.2xlarge,
+    Region: eu-west-1,
+    VCpu: 8,
+    Memory: 61 GiB,
+    PricePerHour: 2.064
+  },
+  {
+    Cloud: aws,
+    InstanceName: i7ie.48xlarge,
+    Region: eu-west-1,
+    VCpu: 192,
+    Memory: 1536 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: m5.24xlarge,
+    Region: eu-west-1,
+    VCpu: 96,
+    Memory: 384 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: c6i.2xlarge,
+    Region: unknown,
+    VCpu: 8,
+    Memory: 16 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: x1e.16xlarge,
+    Region: eu-west-1,
+    VCpu: 64,
+    Memory: 1952 GiB,
+    PricePerHour: 18.291
+  },
+  {
+    Cloud: aws,
+    InstanceName: r8i.12xlarge,
+    Region: us-west-1,
+    VCpu: 48,
+    Memory: 384 GiB,
+    PricePerHour: 4.88604
+  },
+  {
+    Cloud: aws,
+    InstanceName: m6in.16xlarge,
+    Region: eu-west-1,
+    VCpu: 64,
+    Memory: 256 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: r7iz.xlarge,
+    Region: eu-west-1,
+    VCpu: 4,
+    Memory: 32 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: m6i.24xlarge,
+    Region: us-east-1,
+    VCpu: 96,
+    Memory: 384 GiB,
+    PricePerHour: 4.416
+  },
+  {
+    Cloud: aws,
+    InstanceName: m7i.metal-48xl,
+    Region: eu-west-3,
+    VCpu: 192,
+    Memory: 768 GiB,
+    PricePerHour: 15.1488
+  },
+  {
+    Cloud: aws,
+    InstanceName: c5d.12xlarge,
+    Region: il-central-1,
+    VCpu: 48,
+    Memory: 96 GiB,
+    PricePerHour: 10.88
+  },
+  {
+    Cloud: aws,
+    InstanceName: c6i.large,
+    Region: eu-west-3,
+    VCpu: 2,
+    Memory: 4 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: r7a.metal-48xl,
+    Region: ap-northeast-1,
+    VCpu: 192,
+    Memory: 1536 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: r8i.2xlarge,
+    Region: ap-northeast-1,
+    VCpu: 8,
+    Memory: 64 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: m5n.4xlarge,
+    Region: us-east-1,
+    VCpu: 16,
+    Memory: 64 GiB,
+    PricePerHour: 6.952
+  },
+  {
+    Cloud: aws,
+    InstanceName: m5a.12xlarge,
+    Region: ap-northeast-1,
+    VCpu: 48,
+    Memory: 192 GiB,
+    PricePerHour: 21.368
+  },
+  {
+    Cloud: aws,
+    InstanceName: p2.16xlarge,
+    Region: ap-northeast-2,
+    VCpu: 64,
+    Memory: 732 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: m8g.8xlarge,
+    Region: eu-west-1,
+    VCpu: 32,
+    Memory: 128 GiB,
+    PricePerHour: 1.8167
+  },
+  {
+    Cloud: aws,
+    InstanceName: c6a.16xlarge,
+    Region: ap-northeast-1,
+    VCpu: 64,
+    Memory: 128 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: m5d.large,
+    Region: il-central-1,
+    VCpu: 2,
+    Memory: 8 GiB,
+    PricePerHour: 0.208
+  },
+  {
+    Cloud: aws,
+    InstanceName: r5d.16xlarge,
+    Region: eu-west-3,
+    VCpu: 64,
+    Memory: 512 GiB,
+    PricePerHour: 5.408
+  },
+  {
+    Cloud: aws,
+    InstanceName: r7iz.metal-16xl,
+    Region: eu-west-1,
+    VCpu: 64,
+    Memory: 512 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: c6id.32xlarge,
+    Region: eu-west-1,
+    VCpu: 128,
+    Memory: 256 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: r8i-flex.2xlarge,
+    Region: us-west-1,
+    VCpu: 8,
+    Memory: 64 GiB,
+    PricePerHour: 3.58652
+  },
+  {
+    Cloud: aws,
+    InstanceName: d3en.12xlarge,
+    Region: eu-west-1,
+    VCpu: 48,
+    Memory: 192 GiB,
+    PricePerHour: 26.21496
+  },
+  {
+    Cloud: aws,
+    InstanceName: m6id.12xlarge,
+    Region: ap-northeast-1,
+    VCpu: 48,
+    Memory: 192 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: c6gn.4xlarge,
+    Region: ap-northeast-1,
+    VCpu: 16,
+    Memory: 32 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: c5a.xlarge,
+    Region: eu-west-1,
+    VCpu: 4,
+    Memory: 8 GiB,
+    PricePerHour: 0.669
+  },
+  {
+    Cloud: aws,
+    InstanceName: c8g.medium,
+    Region: eu-west-1,
+    VCpu: 1,
+    Memory: 2 GiB,
+    PricePerHour: 0.0788
+  },
+  {
+    Cloud: aws,
+    InstanceName: r6a.32xlarge,
+    Region: eu-west-1,
+    VCpu: 128,
+    Memory: 1024 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: r7gd.4xlarge,
+    Region: il-central-1,
+    VCpu: 16,
+    Memory: 128 GiB,
+    PricePerHour: 1.5191
+  },
+  {
+    Cloud: aws,
+    InstanceName: m7a.xlarge,
+    Region: eu-west-1,
+    VCpu: 4,
+    Memory: 16 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: i7ie.12xlarge,
+    Region: eu-west-1,
+    VCpu: 48,
+    Memory: 384 GiB,
+    PricePerHour: 9.9192
+  },
+  {
+    Cloud: aws,
+    InstanceName: c5ad.16xlarge,
+    Region: eu-west-1,
+    VCpu: 64,
+    Memory: 128 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: r6id.xlarge,
+    Region: eu-west-1,
+    VCpu: 4,
+    Memory: 32 GiB,
+    PricePerHour: 0.336
+  },
+  {
+    Cloud: aws,
+    InstanceName: c3.8xlarge,
+    Region: eu-west-1,
+    VCpu: 32,
+    Memory: 60 GiB,
+    PricePerHour: 2.714
+  },
+  {
+    Cloud: aws,
+    InstanceName: c5d.24xlarge,
+    Region: us-west-1,
+    VCpu: 96,
+    Memory: 192 GiB,
+    PricePerHour: 20.006
+  },
+  {
+    Cloud: aws,
+    InstanceName: c6a.16xlarge,
+    Region: eu-west-1,
+    VCpu: 64,
+    Memory: 128 GiB,
+    PricePerHour: 3.00122
+  },
+  {
+    Cloud: aws,
+    InstanceName: i3.2xlarge,
+    Region: us-west-1,
+    VCpu: 8,
+    Memory: 61 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: c6in.16xlarge,
+    Region: eu-west-1,
+    VCpu: 64,
+    Memory: 128 GiB,
+    PricePerHour: 12.88032
+  },
+  {
+    Cloud: aws,
+    InstanceName: x2iedn.8xlarge,
+    Region: us-east-1,
+    VCpu: 32,
+    Memory: 1024 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: i7i.4xlarge,
+    Region: us-east-1,
+    VCpu: 16,
+    Memory: 128 GiB,
+    PricePerHour: 1.8738
+  },
+  {
+    Cloud: aws,
+    InstanceName: c6gd.xlarge,
+    Region: us-east-1,
+    VCpu: 4,
+    Memory: 8 GiB,
+    PricePerHour: 0.2204
+  },
+  {
+    Cloud: aws,
+    InstanceName: c7i-flex.xlarge,
+    Region: us-west-1,
+    VCpu: 4,
+    Memory: 8 GiB,
+    PricePerHour: 0.21847
+  },
+  {
+    Cloud: aws,
+    InstanceName: z1d.2xlarge,
+    Region: eu-west-1,
+    VCpu: 8,
+    Memory: 64 GiB,
+    PricePerHour: 2.16
+  },
+  {
+    Cloud: aws,
+    InstanceName: i3.8xlarge,
+    Region: il-central-1,
+    VCpu: 32,
+    Memory: 244 GiB,
+    PricePerHour: 14.89
+  },
+  {
+    Cloud: aws,
+    InstanceName: c6in.24xlarge,
+    Region: eu-west-1,
+    VCpu: 96,
+    Memory: 192 GiB,
+    PricePerHour: 18.7056
+  },
+  {
+    Cloud: aws,
+    InstanceName: x2iedn.24xlarge,
+    Region: ap-northeast-2,
+    VCpu: 96,
+    Memory: 3072 GiB,
+    PricePerHour: 29.0115
+  },
+  {
+    Cloud: aws,
+    InstanceName: c5.24xlarge,
+    Region: eu-west-3,
+    VCpu: 96,
+    Memory: 192 GiB,
+    PricePerHour: 5.164
+  },
+  {
+    Cloud: aws,
+    InstanceName: i7i.4xlarge,
+    Region: eu-west-1,
+    VCpu: 16,
+    Memory: 128 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: x1e.16xlarge,
+    Region: eu-west-1,
+    VCpu: 64,
+    Memory: 1952 GiB,
+    PricePerHour: 42.291
+  },
+  {
+    Cloud: aws,
+    InstanceName: r5d.24xlarge,
+    Region: eu-west-1,
+    VCpu: 96,
+    Memory: 768 GiB,
+    PricePerHour: 10.339
+  },
+  {
+    Cloud: aws,
+    InstanceName: t3a.micro,
+    Region: us-west-1,
+    VCpu: 2,
+    Memory: 1 GiB,
+    PricePerHour: 0.0112
+  },
+  {
+    Cloud: aws,
+    InstanceName: r6i.xlarge,
+    Region: eu-west-1,
+    VCpu: 4,
+    Memory: 32 GiB,
+    PricePerHour: 1.9942
+  },
+  {
+    Cloud: aws,
+    InstanceName: r5b.xlarge,
+    Region: eu-west-1,
+    VCpu: 4,
+    Memory: 32 GiB,
+    PricePerHour: 0.495
+  },
+  {
+    Cloud: aws,
+    InstanceName: c6g.4xlarge,
+    Region: eu-west-1,
+    VCpu: 16,
+    Memory: 32 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: r6i.12xlarge,
+    Region: unknown,
+    VCpu: 48,
+    Memory: 384 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: r6g.metal,
+    Region: eu-west-1,
+    VCpu: 64,
+    Memory: 512 GiB,
+    PricePerHour: 3.7346
+  },
+  {
+    Cloud: aws,
+    InstanceName: c5d.4xlarge,
+    Region: il-central-1,
+    VCpu: 16,
+    Memory: 32 GiB,
+    PricePerHour: 1.241
+  },
+  {
+    Cloud: aws,
+    InstanceName: m7i.2xlarge,
+    Region: eu-west-1,
+    VCpu: 8,
+    Memory: 32 GiB,
+    PricePerHour: 3.8174
+  },
+  {
+    Cloud: aws,
+    InstanceName: c7a.2xlarge,
+    Region: eu-west-1,
+    VCpu: 8,
+    Memory: 16 GiB,
+    PricePerHour: 0.48453
+  },
+  {
+    Cloud: aws,
+    InstanceName: m5d.4xlarge,
+    Region: eu-west-1,
+    VCpu: 16,
+    Memory: 64 GiB,
+    PricePerHour: 7.744
+  },
+  {
+    Cloud: aws,
+    InstanceName: m6in.8xlarge,
+    Region: ap-northeast-1,
+    VCpu: 32,
+    Memory: 128 GiB,
+    PricePerHour: 2.98916
+  },
+  {
+    Cloud: aws,
+    InstanceName: c5.xlarge,
+    Region: eu-west-1,
+    VCpu: 4,
+    Memory: 8 GiB,
+    PricePerHour: 0.272
+  },
+  {
+    Cloud: aws,
+    InstanceName: i8g.8xlarge,
+    Region: eu-west-1,
+    VCpu: 32,
+    Memory: 256 GiB,
+    PricePerHour: 3.3842
+  },
+  {
+    Cloud: aws,
+    InstanceName: c5ad.large,
+    Region: eu-west-1,
+    VCpu: 2,
+    Memory: 4 GiB,
+    PricePerHour: 0.652
+  },
+  {
+    Cloud: aws,
+    InstanceName: r5n.12xlarge,
+    Region: eu-west-1,
+    VCpu: 48,
+    Memory: 384 GiB,
+    PricePerHour: 4.332
+  },
+  {
+    Cloud: aws,
+    InstanceName: x2idn.metal,
+    Region: ap-northeast-1,
+    VCpu: 128,
+    Memory: 2048 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: a1.large,
+    Region: eu-west-1,
+    VCpu: 2,
+    Memory: 4 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: m5d.xlarge,
+    Region: us-west-1,
+    VCpu: 4,
+    Memory: 16 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: d3en.6xlarge,
+    Region: eu-west-1,
+    VCpu: 24,
+    Memory: 96 GiB,
+    PricePerHour: 4.952
+  },
+  {
+    Cloud: aws,
+    InstanceName: c6a.metal,
+    Region: eu-west-1,
+    VCpu: 192,
+    Memory: 384 GiB,
+    PricePerHour: 8.21568
+  },
+  {
+    Cloud: aws,
+    InstanceName: c6a.large,
+    Region: eu-west-1,
+    VCpu: 2,
+    Memory: 4 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: m5dn.12xlarge,
+    Region: ap-northeast-1,
+    VCpu: 48,
+    Memory: 192 GiB,
+    PricePerHour: 6.689
+  },
+  {
+    Cloud: aws,
+    InstanceName: r5b.16xlarge,
+    Region: eu-west-1,
+    VCpu: 64,
+    Memory: 512 GiB,
+    PricePerHour: 6.0352
+  },
+  {
+    Cloud: aws,
+    InstanceName: r5n.24xlarge,
+    Region: ap-northeast-1,
+    VCpu: 96,
+    Memory: 768 GiB,
+    PricePerHour: 14.726
+  },
+  {
+    Cloud: aws,
+    InstanceName: c6a.xlarge,
+    Region: eu-west-1,
+    VCpu: 4,
+    Memory: 8 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: c4.xlarge,
+    Region: us-west-1,
+    VCpu: 4,
+    Memory: 7.5 GiB,
+    PricePerHour: 0.433
+  },
+  {
+    Cloud: aws,
+    InstanceName: r7iz.metal-32xl,
+    Region: eu-west-1,
+    VCpu: 128,
+    Memory: 1024 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: m4.large,
+    Region: us-west-1,
+    VCpu: 2,
+    Memory: 8 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: m5dn.16xlarge,
+    Region: ap-southeast-1,
+    VCpu: 64,
+    Memory: 256 GiB,
+    PricePerHour: 7.252
+  },
+  {
+    Cloud: aws,
+    InstanceName: m7a.8xlarge,
+    Region: eu-west-1,
+    VCpu: 32,
+    Memory: 128 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: m6gd.2xlarge,
+    Region: eu-west-1,
+    VCpu: 8,
+    Memory: 32 GiB,
+    PricePerHour: 0.5524
+  },
+  {
+    Cloud: aws,
+    InstanceName: m5.8xlarge,
+    Region: us-west-1,
+    VCpu: 32,
+    Memory: 128 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: r4.16xlarge,
+    Region: ap-northeast-2,
+    VCpu: 64,
+    Memory: 488 GiB,
+    PricePerHour: 32.064
+  },
+  {
+    Cloud: aws,
+    InstanceName: c6gd.12xlarge,
+    Region: us-west-1,
+    VCpu: 48,
+    Memory: 96 GiB,
+    PricePerHour: 2.4432
+  },
+  {
+    Cloud: aws,
+    InstanceName: r6id.xlarge,
+    Region: unknown,
+    VCpu: 4,
+    Memory: 32 GiB,
+    PricePerHour: 1.91935
+  },
+  {
+    Cloud: aws,
+    InstanceName: r5n.xlarge,
+    Region: eu-west-1,
+    VCpu: 4,
+    Memory: 32 GiB,
+    PricePerHour: 0.814
+  },
+  {
+    Cloud: aws,
+    InstanceName: r8gd.12xlarge,
+    Region: ap-northeast-1,
+    VCpu: 48,
+    Memory: 384 GiB,
+    PricePerHour: 4.81311
+  },
+  {
+    Cloud: aws,
+    InstanceName: r5dn.16xlarge,
+    Region: eu-west-3,
+    VCpu: 64,
+    Memory: 512 GiB,
+    PricePerHour: 16.896
+  },
+  {
+    Cloud: aws,
+    InstanceName: m7i.4xlarge,
+    Region: ap-northeast-1,
+    VCpu: 16,
+    Memory: 64 GiB,
+    PricePerHour: 3.6976
+  },
+  {
+    Cloud: aws,
+    InstanceName: c5d.9xlarge,
+    Region: eu-west-1,
+    VCpu: 36,
+    Memory: 72 GiB,
+    PricePerHour: 15.462
+  },
+  {
+    Cloud: aws,
+    InstanceName: r6g.large,
+    Region: eu-west-1,
+    VCpu: 2,
+    Memory: 16 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: r6i.metal,
+    Region: eu-west-1,
+    VCpu: 128,
+    Memory: 1024 GiB,
+    PricePerHour: 62.912
+  },
+  {
+    Cloud: aws,
+    InstanceName: r5.large,
+    Region: eu-west-3,
+    VCpu: 2,
+    Memory: 16 GiB,
+    PricePerHour: 0.637
+  },
+  {
+    Cloud: aws,
+    InstanceName: c6id.2xlarge,
+    Region: ap-northeast-1,
+    VCpu: 8,
+    Memory: 16 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: c8gd.medium,
+    Region: eu-west-1,
+    VCpu: 1,
+    Memory: 2 GiB,
+    PricePerHour: 0.07558
+  },
+  {
+    Cloud: aws,
+    InstanceName: m4.xlarge,
+    Region: eu-west-1,
+    VCpu: 4,
+    Memory: 16 GiB,
+    PricePerHour: 0.3018
+  },
+  {
+    Cloud: aws,
+    InstanceName: r8g.24xlarge,
+    Region: ap-northeast-1,
+    VCpu: 96,
+    Memory: 768 GiB,
+    PricePerHour: 6.94676
+  },
+  {
+    Cloud: aws,
+    InstanceName: m5dn.16xlarge,
+    Region: eu-west-1,
+    VCpu: 64,
+    Memory: 256 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: r5.12xlarge,
+    Region: us-east-1,
+    VCpu: 48,
+    Memory: 384 GiB,
+    PricePerHour: 21.724
+  },
+  {
+    Cloud: aws,
+    InstanceName: m6in.24xlarge,
+    Region: us-east-1,
+    VCpu: 96,
+    Memory: 384 GiB,
+    PricePerHour: 45.06384
+  },
+  {
+    Cloud: aws,
+    InstanceName: m5d.metal,
+    Region: eu-west-1,
+    VCpu: 96,
+    Memory: 384 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: i7ie.6xlarge,
+    Region: us-west-1,
+    VCpu: 24,
+    Memory: 192 GiB,
+    PricePerHour: 4.08
+  },
+  {
+    Cloud: aws,
+    InstanceName: m5dn.2xlarge,
+    Region: eu-west-1,
+    VCpu: 8,
+    Memory: 32 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: g2.2xlarge,
+    Region: eu-west-1,
+    VCpu: 8,
+    Memory: 15 GiB,
+    PricePerHour: 1.662
+  },
+  {
+    Cloud: aws,
+    InstanceName: m7a.16xlarge,
+    Region: ap-northeast-1,
+    VCpu: 64,
+    Memory: 256 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: m8i-flex.2xlarge,
+    Region: us-east-1,
+    VCpu: 8,
+    Memory: 32 GiB,
+    PricePerHour: 3.7518
+  },
+  {
+    Cloud: aws,
+    InstanceName: g3.8xlarge,
+    Region: ap-northeast-2,
+    VCpu: 32,
+    Memory: 244 GiB,
+    PricePerHour: 2.94
+  },
+  {
+    Cloud: aws,
+    InstanceName: c6g.2xlarge,
+    Region: eu-west-1,
+    VCpu: 8,
+    Memory: 16 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: r5a.xlarge,
+    Region: eu-west-3,
+    VCpu: 4,
+    Memory: 32 GiB,
+    PricePerHour: 0.394
+  },
+  {
+    Cloud: aws,
+    InstanceName: c5ad.xlarge,
+    Region: eu-west-1,
+    VCpu: 4,
+    Memory: 8 GiB,
+    PricePerHour: 1.696
+  },
+  {
+    Cloud: aws,
+    InstanceName: i3en.12xlarge,
+    Region: unknown,
+    VCpu: 48,
+    Memory: 384 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: c6a.12xlarge,
+    Region: eu-west-1,
+    VCpu: 48,
+    Memory: 96 GiB,
+    PricePerHour: 21.16032
+  },
+  {
+    Cloud: aws,
+    InstanceName: i4i.32xlarge,
+    Region: eu-west-1,
+    VCpu: 128,
+    Memory: 1024 GiB,
+    PricePerHour: 65.9968
+  },
+  {
+    Cloud: aws,
+    InstanceName: r5ad.12xlarge,
+    Region: ap-northeast-1,
+    VCpu: 48,
+    Memory: 384 GiB,
+    PricePerHour: 3.9
+  },
+  {
+    Cloud: aws,
+    InstanceName: m6in.4xlarge,
+    Region: eu-west-1,
+    VCpu: 16,
+    Memory: 64 GiB,
+    PricePerHour: 3.46217
+  },
+  {
+    Cloud: aws,
+    InstanceName: r5d.16xlarge,
+    Region: us-east-1,
+    VCpu: 64,
+    Memory: 512 GiB,
+    PricePerHour: 5.967
+  },
+  {
+    Cloud: aws,
+    InstanceName: c6id.32xlarge,
+    Region: unknown,
+    VCpu: 128,
+    Memory: 256 GiB,
+    PricePerHour: 8.60736
+  },
+  {
+    Cloud: aws,
+    InstanceName: c5d.2xlarge,
+    Region: eu-west-1,
+    VCpu: 8,
+    Memory: 16 GiB,
+    PricePerHour: 1.396
+  },
+  {
+    Cloud: aws,
+    InstanceName: m6a.12xlarge,
+    Region: us-west-1,
+    VCpu: 48,
+    Memory: 192 GiB,
+    PricePerHour: 2.78612
+  },
+  {
+    Cloud: aws,
+    InstanceName: hpc7g.16xlarge,
+    Region: eu-west-1,
+    VCpu: 64,
+    Memory: 128 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: x2idn.16xlarge,
+    Region: us-west-1,
+    VCpu: 64,
+    Memory: 1024 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: m6g.16xlarge,
+    Region: unknown,
+    VCpu: 64,
+    Memory: 256 GiB,
+    PricePerHour: 4.4384
+  },
+  {
+    Cloud: aws,
+    InstanceName: c6a.2xlarge,
+    Region: eu-west-1,
+    VCpu: 8,
+    Memory: 16 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: m6i.4xlarge,
+    Region: il-central-1,
+    VCpu: 16,
+    Memory: 64 GiB,
+    PricePerHour: 6.8988
+  },
+  {
+    Cloud: aws,
+    InstanceName: c8g.12xlarge,
+    Region: us-west-1,
+    VCpu: 48,
+    Memory: 96 GiB,
+    PricePerHour: 2.74177
+  },
+  {
+    Cloud: aws,
+    InstanceName: i7i.16xlarge,
+    Region: eu-west-1,
+    VCpu: 64,
+    Memory: 512 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: i3en.12xlarge,
+    Region: eu-west-1,
+    VCpu: 48,
+    Memory: 384 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: r7g.4xlarge,
+    Region: eu-west-1,
+    VCpu: 16,
+    Memory: 128 GiB,
+    PricePerHour: 0.9588
+  },
+  {
+    Cloud: aws,
+    InstanceName: m6i.xlarge,
+    Region: eu-west-1,
+    VCpu: 4,
+    Memory: 16 GiB,
+    PricePerHour: 0.773
+  },
+  {
+    Cloud: aws,
+    InstanceName: r5n.12xlarge,
+    Region: eu-west-1,
+    VCpu: 48,
+    Memory: 384 GiB,
+    PricePerHour: 5.06
+  },
+  {
+    Cloud: aws,
+    InstanceName: r8i.8xlarge,
+    Region: ap-northeast-1,
+    VCpu: 32,
+    Memory: 256 GiB,
+    PricePerHour: 15.02688
+  },
+  {
+    Cloud: aws,
+    InstanceName: r6in.16xlarge,
+    Region: eu-west-1,
+    VCpu: 64,
+    Memory: 512 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: c6i.24xlarge,
+    Region: us-west-1,
+    VCpu: 96,
+    Memory: 192 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: r6i.32xlarge,
+    Region: eu-west-1,
+    VCpu: 128,
+    Memory: 1024 GiB,
+    PricePerHour: 9.024
+  },
+  {
+    Cloud: aws,
+    InstanceName: m5d.2xlarge,
+    Region: ap-northeast-1,
+    VCpu: 8,
+    Memory: 32 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: c5.2xlarge,
+    Region: ap-northeast-1,
+    VCpu: 8,
+    Memory: 16 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: m6in.24xlarge,
+    Region: eu-west-1,
+    VCpu: 96,
+    Memory: 384 GiB,
+    PricePerHour: 7.46928
+  },
+  {
+    Cloud: aws,
+    InstanceName: i8g.metal-24xl,
+    Region: eu-west-1,
+    VCpu: 96,
+    Memory: 768 GiB,
+    PricePerHour: 10.15248
+  },
+  {
+    Cloud: aws,
+    InstanceName: r5ad.12xlarge,
+    Region: us-west-1,
+    VCpu: 48,
+    Memory: 384 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: x2iedn.xlarge,
+    Region: eu-west-1,
+    VCpu: 4,
+    Memory: 128 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: m5ad.24xlarge,
+    Region: sa-east-1,
+    VCpu: 96,
+    Memory: 384 GiB,
+    PricePerHour: 9.542
+  },
+  {
+    Cloud: aws,
+    InstanceName: r6id.32xlarge,
+    Region: unknown,
+    VCpu: 128,
+    Memory: 1024 GiB,
+    PricePerHour: 28.45632
+  },
+  {
+    Cloud: aws,
+    InstanceName: d3en.8xlarge,
+    Region: eu-west-1,
+    VCpu: 32,
+    Memory: 128 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: r5ad.4xlarge,
+    Region: ap-northeast-1,
+    VCpu: 16,
+    Memory: 128 GiB,
+    PricePerHour: 1.445
+  },
+  {
+    Cloud: aws,
+    InstanceName: r5n.4xlarge,
+    Region: ap-northeast-1,
+    VCpu: 16,
+    Memory: 128 GiB,
+    PricePerHour: 7.621
+  },
+  {
+    Cloud: aws,
+    InstanceName: d3en.2xlarge,
+    Region: eu-west-1,
+    VCpu: 8,
+    Memory: 32 GiB,
+    PricePerHour: 1.546
+  },
+  {
+    Cloud: aws,
+    InstanceName: m6in.32xlarge,
+    Region: ap-northeast-1,
+    VCpu: 128,
+    Memory: 512 GiB,
+    PricePerHour: 29.38944
+  },
+  {
+    Cloud: aws,
+    InstanceName: m5zn.12xlarge,
+    Region: eu-west-1,
+    VCpu: 48,
+    Memory: 192 GiB,
+    PricePerHour: 7.0682
+  },
+  {
+    Cloud: aws,
+    InstanceName: m6a.xlarge,
+    Region: eu-west-1,
+    VCpu: 4,
+    Memory: 16 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: r5a.8xlarge,
+    Region: eu-west-1,
+    VCpu: 32,
+    Memory: 256 GiB,
+    PricePerHour: 14.378
+  },
+  {
+    Cloud: aws,
+    InstanceName: r5d.8xlarge,
+    Region: eu-west-1,
+    VCpu: 32,
+    Memory: 256 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: c5a.16xlarge,
+    Region: eu-west-1,
+    VCpu: 64,
+    Memory: 128 GiB,
+    PricePerHour: 28.339
+  },
+  {
+    Cloud: aws,
+    InstanceName: c6g.xlarge,
+    Region: il-central-1,
+    VCpu: 4,
+    Memory: 8 GiB,
+    PricePerHour: 0.1602
+  },
+  {
+    Cloud: aws,
+    InstanceName: c7gd.8xlarge,
+    Region: eu-west-1,
+    VCpu: 32,
+    Memory: 64 GiB,
+    PricePerHour: 1.7469
+  },
+  {
+    Cloud: aws,
+    InstanceName: r4.2xlarge,
+    Region: ap-northeast-1,
+    VCpu: 8,
+    Memory: 61 GiB,
+    PricePerHour: 0.64
+  },
+  {
+    Cloud: aws,
+    InstanceName: c6i.metal,
+    Region: eu-west-1,
+    VCpu: 128,
+    Memory: 256 GiB,
+    PricePerHour: 22.4256
+  },
+  {
+    Cloud: aws,
+    InstanceName: c8g.24xlarge,
+    Region: eu-west-1,
+    VCpu: 96,
+    Memory: 192 GiB,
+    PricePerHour: 4.09344
+  },
+  {
+    Cloud: aws,
+    InstanceName: m5.12xlarge,
+    Region: us-west-2,
+    VCpu: 48,
+    Memory: 192 GiB,
+    PricePerHour: 5.76
+  },
+  {
+    Cloud: aws,
+    InstanceName: x2idn.16xlarge,
+    Region: eu-west-3,
+    VCpu: 64,
+    Memory: 1024 GiB,
+    PricePerHour: 12.4286
+  },
+  {
+    Cloud: aws,
+    InstanceName: m7i.2xlarge,
+    Region: unknown,
+    VCpu: 8,
+    Memory: 32 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: r5ad.8xlarge,
+    Region: eu-west-1,
+    VCpu: 32,
+    Memory: 256 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: m7a.metal-48xl,
+    Region: eu-west-1,
+    VCpu: 192,
+    Memory: 768 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: r5n.16xlarge,
+    Region: eu-west-1,
+    VCpu: 64,
+    Memory: 512 GiB,
+    PricePerHour: 13.024
+  },
+  {
+    Cloud: aws,
+    InstanceName: c5.18xlarge,
+    Region: ap-northeast-2,
+    VCpu: 72,
+    Memory: 144 GiB,
+    PricePerHour: 1.354
+  },
+  {
+    Cloud: aws,
+    InstanceName: x2iezn.12xlarge,
+    Region: ap-northeast-1,
+    VCpu: 48,
+    Memory: 1536 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: m6id.xlarge,
+    Region: ap-northeast-1,
+    VCpu: 4,
+    Memory: 16 GiB,
+    PricePerHour: 0.58886
+  },
+  {
+    Cloud: aws,
+    InstanceName: m6i.large,
+    Region: eu-west-1,
+    VCpu: 2,
+    Memory: 8 GiB,
+    PricePerHour: 0.1853
+  },
+  {
+    Cloud: aws,
+    InstanceName: m5n.2xlarge,
+    Region: eu-west-1,
+    VCpu: 8,
+    Memory: 32 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: m6a.48xlarge,
+    Region: eu-west-1,
+    VCpu: 192,
+    Memory: 768 GiB,
+    PricePerHour: 14.3328
+  },
+  {
+    Cloud: aws,
+    InstanceName: r5.metal,
+    Region: us-west-1,
+    VCpu: 96,
+    Memory: 768 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: r5b.2xlarge,
+    Region: ap-southeast-1,
+    VCpu: 8,
+    Memory: 64 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: m3.xlarge,
+    Region: eu-west-1,
+    VCpu: 4,
+    Memory: 15 GiB,
+    PricePerHour: 0.9
+  },
+  {
+    Cloud: aws,
+    InstanceName: r7i.2xlarge,
+    Region: us-west-1,
+    VCpu: 8,
+    Memory: 64 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: r5a.12xlarge,
+    Region: eu-west-1,
+    VCpu: 48,
+    Memory: 384 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: m6gd.4xlarge,
+    Region: ap-northeast-1,
+    VCpu: 16,
+    Memory: 64 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: r7i.metal-48xl,
+    Region: unknown,
+    VCpu: 192,
+    Memory: 1536 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: c6in.xlarge,
+    Region: eu-west-1,
+    VCpu: 4,
+    Memory: 8 GiB,
+    PricePerHour: 1.96582
+  },
+  {
+    Cloud: aws,
+    InstanceName: c6id.16xlarge,
+    Region: unknown,
+    VCpu: 64,
+    Memory: 128 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: r6id.16xlarge,
+    Region: eu-west-1,
+    VCpu: 64,
+    Memory: 512 GiB,
+    PricePerHour: 31.5008
+  },
+  {
+    Cloud: aws,
+    InstanceName: c5ad.8xlarge,
+    Region: eu-west-1,
+    VCpu: 32,
+    Memory: 64 GiB,
+    PricePerHour: 1.914
+  },
+  {
+    Cloud: aws,
+    InstanceName: r5d.24xlarge,
+    Region: eu-west-1,
+    VCpu: 96,
+    Memory: 768 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: c6g.large,
+    Region: ap-northeast-2,
+    VCpu: 2,
+    Memory: 4 GiB,
+    PricePerHour: 0.1408
+  },
+  {
+    Cloud: aws,
+    InstanceName: i3.large,
+    Region: eu-west-3,
+    VCpu: 2,
+    Memory: 15.25 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: c5a.24xlarge,
+    Region: eu-west-1,
+    VCpu: 96,
+    Memory: 192 GiB,
+    PricePerHour: 7.2
+  },
+  {
+    Cloud: aws,
+    InstanceName: x2iezn.4xlarge,
+    Region: eu-west-1,
+    VCpu: 16,
+    Memory: 512 GiB,
+    PricePerHour: 6.3168
+  },
+  {
+    Cloud: aws,
+    InstanceName: h1.16xlarge,
+    Region: eu-west-1,
+    VCpu: 64,
+    Memory: 256 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: r5dn.24xlarge,
+    Region: ap-northeast-1,
+    VCpu: 96,
+    Memory: 768 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: d3en.xlarge,
+    Region: eu-west-1,
+    VCpu: 4,
+    Memory: 16 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: i3en.12xlarge,
+    Region: eu-west-1,
+    VCpu: 48,
+    Memory: 384 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: i4i.metal,
+    Region: ap-northeast-3,
+    VCpu: 128,
+    Memory: 1024 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: c5n.2xlarge,
+    Region: eu-west-1,
+    VCpu: 8,
+    Memory: 21 GiB,
+    PricePerHour: 3.603
+  },
+  {
+    Cloud: aws,
+    InstanceName: r6id.24xlarge,
+    Region: eu-west-1,
+    VCpu: 96,
+    Memory: 768 GiB,
+    PricePerHour: 20.6208
+  },
+  {
+    Cloud: aws,
+    InstanceName: r6i.12xlarge,
+    Region: unknown,
+    VCpu: 48,
+    Memory: 384 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: t3.small,
+    Region: eu-west-1,
+    VCpu: 2,
+    Memory: 2 GiB,
+    PricePerHour: 0.0277
+  },
+  {
+    Cloud: aws,
+    InstanceName: g5.16xlarge,
+    Region: il-central-1,
+    VCpu: 64,
+    Memory: 256 GiB,
+    PricePerHour: 5.40609
+  },
+  {
+    Cloud: aws,
+    InstanceName: m6i.16xlarge,
+    Region: ap-northeast-1,
+    VCpu: 64,
+    Memory: 256 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: g5g.8xlarge,
+    Region: ap-northeast-1,
+    VCpu: 32,
+    Memory: 64 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: c4.4xlarge,
+    Region: ap-northeast-1,
+    VCpu: 16,
+    Memory: 30 GiB,
+    PricePerHour: 1.506
+  },
+  {
+    Cloud: aws,
+    InstanceName: r4.4xlarge,
+    Region: ap-northeast-1,
+    VCpu: 16,
+    Memory: 122 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: i7i.2xlarge,
+    Region: ap-northeast-1,
+    VCpu: 8,
+    Memory: 64 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: c6id.xlarge,
+    Region: unknown,
+    VCpu: 4,
+    Memory: 8 GiB,
+    PricePerHour: 0.35818
+  },
+  {
+    Cloud: aws,
+    InstanceName: m7i-flex.2xlarge,
+    Region: eu-west-1,
+    VCpu: 8,
+    Memory: 32 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: c6a.8xlarge,
+    Region: us-east-1,
+    VCpu: 32,
+    Memory: 64 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: r6idn.2xlarge,
+    Region: us-east-1,
+    VCpu: 8,
+    Memory: 64 GiB,
+    PricePerHour: 1.74156
+  },
+  {
+    Cloud: aws,
+    InstanceName: c6id.32xlarge,
+    Region: unknown,
+    VCpu: 128,
+    Memory: 256 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: u-9tb1.metal,
+    Region: ap-southeast-2,
+    VCpu: 448,
+    Memory: 9216 GiB,
+    PricePerHour: 20.608
+  },
+  {
+    Cloud: aws,
+    InstanceName: i3.8xlarge,
+    Region: eu-west-1,
+    VCpu: 32,
+    Memory: 244 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: c7i.metal-24xl,
+    Region: eu-west-1,
+    VCpu: 96,
+    Memory: 192 GiB,
+    PricePerHour: 5.05613
+  },
+  {
+    Cloud: aws,
+    InstanceName: i4i.large,
+    Region: eu-west-1,
+    VCpu: 2,
+    Memory: 16 GiB,
+    PricePerHour: 0.717
+  },
+  {
+    Cloud: aws,
+    InstanceName: m7g.metal,
+    Region: eu-west-1,
+    VCpu: 64,
+    Memory: 256 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: i3en.metal,
+    Region: eu-west-1,
+    VCpu: 96,
+    Memory: 768 GiB,
+    PricePerHour: 14.659
+  },
+  {
+    Cloud: aws,
+    InstanceName: c6i.4xlarge,
+    Region: us-west-1,
+    VCpu: 16,
+    Memory: 32 GiB,
+    PricePerHour: 1.0208
+  },
+  {
+    Cloud: aws,
+    InstanceName: m5ad.24xlarge,
+    Region: eu-west-1,
+    VCpu: 96,
+    Memory: 384 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: m5a.12xlarge,
+    Region: ap-southeast-1,
+    VCpu: 48,
+    Memory: 192 GiB,
+    PricePerHour: 10.56
+  },
+  {
+    Cloud: aws,
+    InstanceName: m5zn.12xlarge,
+    Region: eu-west-1,
+    VCpu: 48,
+    Memory: 192 GiB,
+    PricePerHour: 12.3864
+  },
+  {
+    Cloud: aws,
+    InstanceName: c5d.24xlarge,
+    Region: us-west-1,
+    VCpu: 96,
+    Memory: 192 GiB,
+    PricePerHour: 5.76
+  },
+  {
+    Cloud: aws,
+    InstanceName: i7ie.6xlarge,
+    Region: eu-west-1,
+    VCpu: 24,
+    Memory: 192 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: r6gd.4xlarge,
+    Region: ap-northeast-1,
+    VCpu: 16,
+    Memory: 128 GiB,
+    PricePerHour: 1.112
+  },
+  {
+    Cloud: aws,
+    InstanceName: r5n.metal,
+    Region: eu-west-1,
+    VCpu: 96,
+    Memory: 768 GiB,
+    PricePerHour: 14.054
+  },
+  {
+    Cloud: aws,
+    InstanceName: r5a.12xlarge,
+    Region: us-west-1,
+    VCpu: 48,
+    Memory: 384 GiB,
+    PricePerHour: 11.174
+  },
+  {
+    Cloud: aws,
+    InstanceName: m8i.metal-96xl,
+    Region: ap-northeast-1,
+    VCpu: 384,
+    Memory: 1536 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: r5.4xlarge,
+    Region: il-central-1,
+    VCpu: 16,
+    Memory: 128 GiB,
+    PricePerHour: 2.191
+  },
+  {
+    Cloud: aws,
+    InstanceName: m7i-flex.12xlarge,
+    Region: unknown,
+    VCpu: 48,
+    Memory: 192 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: c5.24xlarge,
+    Region: eu-west-1,
+    VCpu: 96,
+    Memory: 192 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: m6id.16xlarge,
+    Region: us-west-1,
+    VCpu: 64,
+    Memory: 256 GiB,
+    PricePerHour: 12.59568
+  },
+  {
+    Cloud: aws,
+    InstanceName: r6in.metal,
+    Region: ap-northeast-1,
+    VCpu: 128,
+    Memory: 1024 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: m6a.48xlarge,
+    Region: eu-west-1,
+    VCpu: 192,
+    Memory: 768 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: r6g.medium,
+    Region: ap-northeast-3,
+    VCpu: 1,
+    Memory: 8 GiB,
+    PricePerHour: 0.0963
+  },
+  {
+    Cloud: aws,
+    InstanceName: r8gd.metal-48xl,
+    Region: eu-west-1,
+    VCpu: 192,
+    Memory: 1536 GiB,
+    PricePerHour: 19.536
+  },
+  {
+    Cloud: aws,
+    InstanceName: h1.4xlarge,
+    Region: eu-west-1,
+    VCpu: 16,
+    Memory: 64 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: r6g.medium,
+    Region: eu-west-1,
+    VCpu: 1,
+    Memory: 8 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: r7iz.2xlarge,
+    Region: eu-west-1,
+    VCpu: 8,
+    Memory: 64 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: m6gd.8xlarge,
+    Region: unknown,
+    VCpu: 32,
+    Memory: 128 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: r6in.8xlarge,
+    Region: eu-west-1,
+    VCpu: 32,
+    Memory: 256 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: m6idn.8xlarge,
+    Region: ap-northeast-1,
+    VCpu: 32,
+    Memory: 128 GiB,
+    PricePerHour: 4.0696
+  },
+  {
+    Cloud: aws,
+    InstanceName: m5n.16xlarge,
+    Region: eu-west-1,
+    VCpu: 64,
+    Memory: 256 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: is4gen.2xlarge,
+    Region: eu-west-1,
+    VCpu: 8,
+    Memory: 48 GiB,
+    PricePerHour: 1.275
+  },
+  {
+    Cloud: aws,
+    InstanceName: t3a.small,
+    Region: il-central-1,
+    VCpu: 2,
+    Memory: 2 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: m5zn.large,
+    Region: ap-northeast-2,
+    VCpu: 2,
+    Memory: 8 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: i3.metal,
+    Region: us-west-1,
+    VCpu: 64,
+    Memory: 488 GiB,
+    PricePerHour: 29.504
+  },
+  {
+    Cloud: aws,
+    InstanceName: r6i.12xlarge,
+    Region: eu-west-1,
+    VCpu: 48,
+    Memory: 384 GiB,
+    PricePerHour: 6.7416
+  },
+  {
+    Cloud: aws,
+    InstanceName: c5n.xlarge,
+    Region: us-west-1,
+    VCpu: 4,
+    Memory: 10.5 GiB,
+    PricePerHour: 1.788
+  },
+  {
+    Cloud: aws,
+    InstanceName: r6id.8xlarge,
+    Region: unknown,
+    VCpu: 32,
+    Memory: 256 GiB,
+    PricePerHour: 14.63088
+  },
+  {
+    Cloud: aws,
+    InstanceName: c5a.large,
+    Region: eu-west-1,
+    VCpu: 2,
+    Memory: 4 GiB,
+    PricePerHour: 0.154
+  },
+  {
+    Cloud: aws,
+    InstanceName: c6in.8xlarge,
+    Region: us-west-1,
+    VCpu: 32,
+    Memory: 64 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: m5a.4xlarge,
+    Region: eu-west-1,
+    VCpu: 16,
+    Memory: 64 GiB,
+    PricePerHour: 2.907
+  },
+  {
+    Cloud: aws,
+    InstanceName: m5.24xlarge,
+    Region: ap-northeast-1,
+    VCpu: 96,
+    Memory: 384 GiB,
+    PricePerHour: 46.368
+  },
+  {
+    Cloud: aws,
+    InstanceName: r5n.24xlarge,
+    Region: ap-northeast-1,
+    VCpu: 96,
+    Memory: 768 GiB,
+    PricePerHour: 14.726
+  },
+  {
+    Cloud: aws,
+    InstanceName: c5n.9xlarge,
+    Region: us-west-1,
+    VCpu: 36,
+    Memory: 96 GiB,
+    PricePerHour: 4.853
+  },
+  {
+    Cloud: aws,
+    InstanceName: i7i.24xlarge,
+    Region: eu-west-1,
+    VCpu: 96,
+    Memory: 768 GiB,
+    PricePerHour: 22.1301
+  },
+  {
+    Cloud: aws,
+    InstanceName: m6idn.16xlarge,
+    Region: us-west-1,
+    VCpu: 64,
+    Memory: 256 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: m6id.16xlarge,
+    Region: unknown,
+    VCpu: 64,
+    Memory: 256 GiB,
+    PricePerHour: 4.41504
+  },
+  {
+    Cloud: aws,
+    InstanceName: c7gd.4xlarge,
+    Region: eu-west-1,
+    VCpu: 16,
+    Memory: 32 GiB,
+    PricePerHour: 0.949
+  },
+  {
+    Cloud: aws,
+    InstanceName: r7g.4xlarge,
+    Region: unknown,
+    VCpu: 16,
+    Memory: 128 GiB,
+    PricePerHour: 1.0552
+  },
+  {
+    Cloud: aws,
+    InstanceName: x2iedn.8xlarge,
+    Region: eu-west-1,
+    VCpu: 32,
+    Memory: 1024 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: m6i.16xlarge,
+    Region: unknown,
+    VCpu: 64,
+    Memory: 256 GiB,
+    PricePerHour: 7.95392
+  },
+  {
+    Cloud: aws,
+    InstanceName: c5n.9xlarge,
+    Region: eu-west-1,
+    VCpu: 36,
+    Memory: 96 GiB,
+    PricePerHour: 17.352
+  },
+  {
+    Cloud: aws,
+    InstanceName: r6in.8xlarge,
+    Region: eu-west-1,
+    VCpu: 32,
+    Memory: 256 GiB,
+    PricePerHour: 3.25124
+  },
+  {
+    Cloud: aws,
+    InstanceName: r5b.16xlarge,
+    Region: eu-west-1,
+    VCpu: 64,
+    Memory: 512 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: m6in.4xlarge,
+    Region: us-west-1,
+    VCpu: 16,
+    Memory: 64 GiB,
+    PricePerHour: 1.42947
+  },
+  {
+    Cloud: aws,
+    InstanceName: r6a.metal,
+    Region: eu-west-1,
+    VCpu: 192,
+    Memory: 1536 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: r5n.12xlarge,
+    Region: eu-west-1,
+    VCpu: 48,
+    Memory: 384 GiB,
+    PricePerHour: 4.767
+  },
+  {
+    Cloud: aws,
+    InstanceName: r7i.metal-48xl,
+    Region: unknown,
+    VCpu: 192,
+    Memory: 1536 GiB,
+    PricePerHour: 17.64864
+  },
+  {
+    Cloud: aws,
+    InstanceName: m6g.8xlarge,
+    Region: unknown,
+    VCpu: 32,
+    Memory: 128 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: r6id.xlarge,
+    Region: unknown,
+    VCpu: 4,
+    Memory: 32 GiB,
+    PricePerHour: 0.93646
+  },
+  {
+    Cloud: aws,
+    InstanceName: r7a.16xlarge,
+    Region: eu-west-1,
+    VCpu: 64,
+    Memory: 512 GiB,
+    PricePerHour: 7.76595
+  },
+  {
+    Cloud: aws,
+    InstanceName: r7i.large,
+    Region: us-west-1,
+    VCpu: 2,
+    Memory: 16 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: z1d.xlarge,
+    Region: eu-west-1,
+    VCpu: 4,
+    Memory: 32 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: d3en.2xlarge,
+    Region: eu-west-1,
+    VCpu: 8,
+    Memory: 32 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: i4i.2xlarge,
+    Region: us-gov-west-1,
+    VCpu: 8,
+    Memory: 64 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: r7g.8xlarge,
+    Region: ap-northeast-2,
+    VCpu: 32,
+    Memory: 256 GiB,
+    PricePerHour: 2.1922
+  },
+  {
+    Cloud: aws,
+    InstanceName: r4.16xlarge,
+    Region: eu-west-1,
+    VCpu: 64,
+    Memory: 488 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: r5b.8xlarge,
+    Region: eu-west-1,
+    VCpu: 32,
+    Memory: 256 GiB,
+    PricePerHour: 3.48
+  },
+  {
+    Cloud: aws,
+    InstanceName: c8a.4xlarge,
+    Region: us-east-1,
+    VCpu: 16,
+    Memory: 32 GiB,
+    PricePerHour: 7.68438
+  },
+  {
+    Cloud: aws,
+    InstanceName: i4i.8xlarge,
+    Region: us-east-1,
+    VCpu: 32,
+    Memory: 256 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: i7i.24xlarge,
+    Region: eu-west-1,
+    VCpu: 96,
+    Memory: 768 GiB,
+    PricePerHour: 51.0261
+  },
+  {
+    Cloud: aws,
+    InstanceName: c7i.4xlarge,
+    Region: unknown,
+    VCpu: 16,
+    Memory: 32 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: m6gd.12xlarge,
+    Region: eu-west-1,
+    VCpu: 48,
+    Memory: 192 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: i8g.metal-24xl,
+    Region: us-east-1,
+    VCpu: 96,
+    Memory: 768 GiB,
+    PricePerHour: 9.06048
+  },
+  {
+    Cloud: aws,
+    InstanceName: p3.8xlarge,
+    Region: ap-northeast-1,
+    VCpu: 32,
+    Memory: 244 GiB,
+    PricePerHour: 16.832
+  },
+  {
+    Cloud: aws,
+    InstanceName: t3a.large,
+    Region: ap-northeast-2,
+    VCpu: 2,
+    Memory: 8 GiB,
+    PricePerHour: 0.0936
+  },
+  {
+    Cloud: aws,
+    InstanceName: i4i.4xlarge,
+    Region: eu-west-1,
+    VCpu: 16,
+    Memory: 128 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: m5.metal,
+    Region: eu-west-1,
+    VCpu: 96,
+    Memory: 384 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: r5n.xlarge,
+    Region: eu-west-1,
+    VCpu: 4,
+    Memory: 32 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: m5dn.16xlarge,
+    Region: eu-west-1,
+    VCpu: 64,
+    Memory: 256 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: inf1.6xlarge,
+    Region: eu-west-1,
+    VCpu: 24,
+    Memory: 48 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: r8i.xlarge,
+    Region: ap-northeast-1,
+    VCpu: 4,
+    Memory: 32 GiB,
+    PricePerHour: 0.99916
+  },
+  {
+    Cloud: aws,
+    InstanceName: x2idn.16xlarge,
+    Region: us-west-1,
+    VCpu: 64,
+    Memory: 1024 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: i7ie.6xlarge,
+    Region: eu-west-1,
+    VCpu: 24,
+    Memory: 192 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: r5n.2xlarge,
+    Region: us-west-1,
+    VCpu: 8,
+    Memory: 64 GiB,
+    PricePerHour: 2.004
+  },
+  {
+    Cloud: aws,
+    InstanceName: c6gn.medium,
+    Region: eu-west-3,
+    VCpu: 1,
+    Memory: 2 GiB,
+    PricePerHour: 0.053
+  },
+  {
+    Cloud: aws,
+    InstanceName: i7i.24xlarge,
+    Region: eu-west-1,
+    VCpu: 96,
+    Memory: 768 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: c6a.12xlarge,
+    Region: eu-west-1,
+    VCpu: 48,
+    Memory: 96 GiB,
+    PricePerHour: 22.37491
+  },
+  {
+    Cloud: aws,
+    InstanceName: r5a.2xlarge,
+    Region: us-west-1,
+    VCpu: 8,
+    Memory: 64 GiB,
+    PricePerHour: 0.619
+  },
+  {
+    Cloud: aws,
+    InstanceName: m6a.24xlarge,
+    Region: ap-southeast-1,
+    VCpu: 96,
+    Memory: 384 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: r6in.16xlarge,
+    Region: eu-west-1,
+    VCpu: 64,
+    Memory: 512 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: m7i.xlarge,
+    Region: unknown,
+    VCpu: 4,
+    Memory: 16 GiB,
+    PricePerHour: 0.89836
+  },
+  {
+    Cloud: aws,
+    InstanceName: m6in.metal,
+    Region: eu-west-1,
+    VCpu: 128,
+    Memory: 512 GiB,
+    PricePerHour: 12.53184
+  },
+  {
+    Cloud: aws,
+    InstanceName: r6a.12xlarge,
+    Region: ap-northeast-1,
+    VCpu: 48,
+    Memory: 384 GiB,
+    PricePerHour: 3.2832
+  },
+  {
+    Cloud: aws,
+    InstanceName: c7i.2xlarge,
+    Region: eu-west-1,
+    VCpu: 8,
+    Memory: 16 GiB,
+    PricePerHour: 1.59824
+  },
+  {
+    Cloud: aws,
+    InstanceName: m6i.xlarge,
+    Region: eu-west-1,
+    VCpu: 4,
+    Memory: 16 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: r6i.24xlarge,
+    Region: il-central-1,
+    VCpu: 96,
+    Memory: 768 GiB,
+    PricePerHour: 13.85544
+  },
+  {
+    Cloud: aws,
+    InstanceName: i3en.12xlarge,
+    Region: us-west-1,
+    VCpu: 48,
+    Memory: 384 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: r7i.4xlarge,
+    Region: us-east-1,
+    VCpu: 16,
+    Memory: 128 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: i8g.large,
+    Region: eu-west-1,
+    VCpu: 2,
+    Memory: 16 GiB,
+    PricePerHour: 0.1926
+  },
+  {
+    Cloud: aws,
+    InstanceName: c6i.4xlarge,
+    Region: us-west-1,
+    VCpu: 16,
+    Memory: 32 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: m4.large,
+    Region: ap-northeast-3,
+    VCpu: 2,
+    Memory: 8 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: m6i.2xlarge,
+    Region: ap-northeast-1,
+    VCpu: 8,
+    Memory: 32 GiB,
+    PricePerHour: 0.5456
+  },
+  {
+    Cloud: aws,
+    InstanceName: d2.8xlarge,
+    Region: ap-northeast-1,
+    VCpu: 36,
+    Memory: 244 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: m5ad.xlarge,
+    Region: eu-west-1,
+    VCpu: 4,
+    Memory: 16 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: r7gd.12xlarge,
+    Region: ap-southeast-1,
+    VCpu: 48,
+    Memory: 384 GiB,
+    PricePerHour: 4.0713
+  },
+  {
+    Cloud: aws,
+    InstanceName: r5b.12xlarge,
+    Region: ap-northeast-1,
+    VCpu: 48,
+    Memory: 384 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: c7i.16xlarge,
+    Region: eu-west-1,
+    VCpu: 64,
+    Memory: 128 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: r6gd.16xlarge,
+    Region: eu-west-1,
+    VCpu: 64,
+    Memory: 512 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: im4gn.large,
+    Region: eu-west-1,
+    VCpu: 2,
+    Memory: 8 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: c6i.metal,
+    Region: us-west-1,
+    VCpu: 128,
+    Memory: 256 GiB,
+    PricePerHour: 9.3568
+  },
+  {
+    Cloud: aws,
+    InstanceName: r7i.24xlarge,
+    Region: unknown,
+    VCpu: 96,
+    Memory: 768 GiB,
+    PricePerHour: 7.93152
+  },
+  {
+    Cloud: aws,
+    InstanceName: c5.2xlarge,
+    Region: eu-west-1,
+    VCpu: 8,
+    Memory: 16 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: m6i.large,
+    Region: ap-northeast-1,
+    VCpu: 2,
+    Memory: 8 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: r7g.large,
+    Region: unknown,
+    VCpu: 2,
+    Memory: 16 GiB,
+    PricePerHour: 0.1874
+  },
+  {
+    Cloud: aws,
+    InstanceName: r6gd.2xlarge,
+    Region: eu-west-1,
+    VCpu: 8,
+    Memory: 64 GiB,
+    PricePerHour: 0.6579
+  },
+  {
+    Cloud: aws,
+    InstanceName: m4.2xlarge,
+    Region: eu-west-1,
+    VCpu: 8,
+    Memory: 32 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: c5n.2xlarge,
+    Region: eu-west-1,
+    VCpu: 8,
+    Memory: 21 GiB,
+    PricePerHour: 0.488
+  },
+  {
+    Cloud: aws,
+    InstanceName: m5.large,
+    Region: ap-northeast-1,
+    VCpu: 2,
+    Memory: 8 GiB,
+    PricePerHour: 0.604
+  },
+  {
+    Cloud: aws,
+    InstanceName: m6id.8xlarge,
+    Region: eu-west-1,
+    VCpu: 32,
+    Memory: 128 GiB,
+    PricePerHour: 7.64048
+  },
+  {
+    Cloud: aws,
+    InstanceName: r7iz.large,
+    Region: eu-west-1,
+    VCpu: 2,
+    Memory: 16 GiB,
+    PricePerHour: 0.3676
+  },
+  {
+    Cloud: aws,
+    InstanceName: i4i.16xlarge,
+    Region: eu-west-1,
+    VCpu: 64,
+    Memory: 512 GiB,
+    PricePerHour: 15.031
+  },
+  {
+    Cloud: aws,
+    InstanceName: r7i.2xlarge,
+    Region: ap-northeast-3,
+    VCpu: 8,
+    Memory: 64 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: c6g.2xlarge,
+    Region: eu-west-1,
+    VCpu: 8,
+    Memory: 16 GiB,
+    PricePerHour: 0.547
+  },
+  {
+    Cloud: aws,
+    InstanceName: x1e.16xlarge,
+    Region: eu-west-1,
+    VCpu: 64,
+    Memory: 1952 GiB,
+    PricePerHour: 25.28
+  },
+  {
+    Cloud: aws,
+    InstanceName: m7i.16xlarge,
+    Region: us-west-1,
+    VCpu: 64,
+    Memory: 256 GiB,
+    PricePerHour: 30.7072
+  },
+  {
+    Cloud: aws,
+    InstanceName: c5.metal,
+    Region: eu-west-1,
+    VCpu: 96,
+    Memory: 192 GiB,
+    PricePerHour: 20.544
+  },
+  {
+    Cloud: aws,
+    InstanceName: c8g.metal-24xl,
+    Region: ap-northeast-3,
+    VCpu: 96,
+    Memory: 192 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: c7i-flex.4xlarge,
+    Region: eu-west-1,
+    VCpu: 16,
+    Memory: 32 GiB,
+    PricePerHour: 0.72778
+  },
+  {
+    Cloud: aws,
+    InstanceName: i4i.xlarge,
+    Region: us-west-1,
+    VCpu: 4,
+    Memory: 32 GiB,
+    PricePerHour: 0.416
+  },
+  {
+    Cloud: aws,
+    InstanceName: i4i.4xlarge,
+    Region: eu-west-1,
+    VCpu: 16,
+    Memory: 128 GiB,
+    PricePerHour: 3.758
+  },
+  {
+    Cloud: aws,
+    InstanceName: c5.4xlarge,
+    Region: eu-west-3,
+    VCpu: 16,
+    Memory: 32 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: r5n.8xlarge,
+    Region: eu-west-1,
+    VCpu: 32,
+    Memory: 256 GiB,
+    PricePerHour: 3.626
+  },
+  {
+    Cloud: aws,
+    InstanceName: r6a.xlarge,
+    Region: eu-west-1,
+    VCpu: 4,
+    Memory: 32 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: m7i.metal-48xl,
+    Region: eu-west-1,
+    VCpu: 192,
+    Memory: 768 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: x2iezn.8xlarge,
+    Region: eu-west-1,
+    VCpu: 32,
+    Memory: 1024 GiB,
+    PricePerHour: 8.8
+  },
+  {
+    Cloud: aws,
+    InstanceName: m7a.xlarge,
+    Region: eu-west-1,
+    VCpu: 4,
+    Memory: 16 GiB,
+    PricePerHour: 1.91184
+  },
+  {
+    Cloud: aws,
+    InstanceName: r6i.12xlarge,
+    Region: eu-west-1,
+    VCpu: 48,
+    Memory: 384 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: m7i.metal-48xl,
+    Region: unknown,
+    VCpu: 192,
+    Memory: 768 GiB,
+    PricePerHour: 23.32608
+  },
+  {
+    Cloud: aws,
+    InstanceName: i4g.large,
+    Region: eu-west-1,
+    VCpu: 2,
+    Memory: 16 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: r4.large,
+    Region: ap-northeast-1,
+    VCpu: 2,
+    Memory: 15.25 GiB,
+    PricePerHour: 0.2564
+  },
+  {
+    Cloud: aws,
+    InstanceName: m6idn.2xlarge,
+    Region: eu-west-1,
+    VCpu: 8,
+    Memory: 32 GiB,
+    PricePerHour: 1.0377
+  },
+  {
+    Cloud: aws,
+    InstanceName: m5n.24xlarge,
+    Region: eu-west-1,
+    VCpu: 96,
+    Memory: 384 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: c6id.xlarge,
+    Region: unknown,
+    VCpu: 4,
+    Memory: 8 GiB,
+    PricePerHour: 1.78818
+  },
+  {
+    Cloud: aws,
+    InstanceName: r5.2xlarge,
+    Region: eu-west-1,
+    VCpu: 8,
+    Memory: 64 GiB,
+    PricePerHour: 3.819
+  },
+  {
+    Cloud: aws,
+    InstanceName: r3.8xlarge,
+    Region: eu-west-1,
+    VCpu: 32,
+    Memory: 244 GiB,
+    PricePerHour: 2.964
+  },
+  {
+    Cloud: aws,
+    InstanceName: r7iz.metal-32xl,
+    Region: eu-west-1,
+    VCpu: 128,
+    Memory: 1024 GiB,
+    PricePerHour: 68.5312
+  },
+  {
+    Cloud: aws,
+    InstanceName: g4dn.12xlarge,
+    Region: eu-west-3,
+    VCpu: 48,
+    Memory: 192 GiB,
+    PricePerHour: 4.574
+  },
+  {
+    Cloud: aws,
+    InstanceName: i3en.large,
+    Region: us-east-1,
+    VCpu: 2,
+    Memory: 16 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: r5n.24xlarge,
+    Region: eu-west-1,
+    VCpu: 96,
+    Memory: 768 GiB,
+    PricePerHour: 48.432
+  },
+  {
+    Cloud: aws,
+    InstanceName: r6id.24xlarge,
+    Region: il-central-1,
+    VCpu: 96,
+    Memory: 768 GiB,
+    PricePerHour: 44.4672
+  },
+  {
+    Cloud: aws,
+    InstanceName: m6idn.xlarge,
+    Region: eu-west-1,
+    VCpu: 4,
+    Memory: 16 GiB,
+    PricePerHour: 0.44885
+  },
+  {
+    Cloud: aws,
+    InstanceName: u-6tb1.112xlarge,
+    Region: eu-west-1,
+    VCpu: 448,
+    Memory: 6144 GiB,
+    PricePerHour: 81.708
+  },
+  {
+    Cloud: aws,
+    InstanceName: r6i.4xlarge,
+    Region: eu-west-1,
+    VCpu: 16,
+    Memory: 128 GiB,
+    PricePerHour: 1.3008
+  },
+  {
+    Cloud: aws,
+    InstanceName: m8gd.4xlarge,
+    Region: us-east-1,
+    VCpu: 16,
+    Memory: 64 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: m5.2xlarge,
+    Region: ap-northeast-1,
+    VCpu: 8,
+    Memory: 32 GiB,
+    PricePerHour: 0.496
+  },
+  {
+    Cloud: aws,
+    InstanceName: r5.2xlarge,
+    Region: ap-northeast-1,
+    VCpu: 8,
+    Memory: 64 GiB,
+    PricePerHour: 3.863
+  },
+  {
+    Cloud: aws,
+    InstanceName: c7g.8xlarge,
+    Region: il-central-1,
+    VCpu: 32,
+    Memory: 64 GiB,
+    PricePerHour: 2.096
+  },
+  {
+    Cloud: aws,
+    InstanceName: i3.16xlarge,
+    Region: ap-northeast-1,
+    VCpu: 64,
+    Memory: 488 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: x1e.8xlarge,
+    Region: eu-west-1,
+    VCpu: 32,
+    Memory: 976 GiB,
+    PricePerHour: 12.634
+  },
+  {
+    Cloud: aws,
+    InstanceName: m7a.2xlarge,
+    Region: eu-west-1,
+    VCpu: 8,
+    Memory: 32 GiB,
+    PricePerHour: 3.93648
+  },
+  {
+    Cloud: aws,
+    InstanceName: c6i.metal,
+    Region: eu-west-1,
+    VCpu: 128,
+    Memory: 256 GiB,
+    PricePerHour: 5.9618
+  },
+  {
+    Cloud: aws,
+    InstanceName: c7i.xlarge,
+    Region: ap-northeast-1,
+    VCpu: 4,
+    Memory: 8 GiB,
+    PricePerHour: 0.37237
+  },
+  {
+    Cloud: aws,
+    InstanceName: c7i.metal-24xl,
+    Region: eu-west-1,
+    VCpu: 96,
+    Memory: 192 GiB,
+    PricePerHour: 18.95693
+  },
+  {
+    Cloud: aws,
+    InstanceName: r6i.24xlarge,
+    Region: eu-west-1,
+    VCpu: 96,
+    Memory: 768 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: r4.2xlarge,
+    Region: eu-west-1,
+    VCpu: 8,
+    Memory: 61 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: i3.large,
+    Region: ap-northeast-1,
+    VCpu: 2,
+    Memory: 15.25 GiB,
+    PricePerHour: 0.279
+  },
+  {
+    Cloud: aws,
+    InstanceName: x1e.4xlarge,
+    Region: eu-west-1,
+    VCpu: 16,
+    Memory: 488 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: m6i.large,
+    Region: unknown,
+    VCpu: 2,
+    Memory: 8 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: m5d.16xlarge,
+    Region: sa-east-1,
+    VCpu: 64,
+    Memory: 256 GiB,
+    PricePerHour: 7.174
+  },
+  {
+    Cloud: aws,
+    InstanceName: r6id.large,
+    Region: ap-northeast-1,
+    VCpu: 2,
+    Memory: 16 GiB,
+    PricePerHour: 0.1827
+  },
+  {
+    Cloud: aws,
+    InstanceName: i3en.metal,
+    Region: unknown,
+    VCpu: 96,
+    Memory: 768 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: r3.4xlarge,
+    Region: us-west-1,
+    VCpu: 16,
+    Memory: 122 GiB,
+    PricePerHour: 8.218
+  },
+  {
+    Cloud: aws,
+    InstanceName: t3a.small,
+    Region: eu-west-1,
+    VCpu: 2,
+    Memory: 2 GiB,
+    PricePerHour: 0.0492
+  },
+  {
+    Cloud: aws,
+    InstanceName: i3.2xlarge,
+    Region: eu-west-1,
+    VCpu: 8,
+    Memory: 61 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: m6id.32xlarge,
+    Region: eu-west-1,
+    VCpu: 128,
+    Memory: 512 GiB,
+    PricePerHour: 14.3552
+  },
+  {
+    Cloud: aws,
+    InstanceName: c7i.metal-24xl,
+    Region: us-west-1,
+    VCpu: 96,
+    Memory: 192 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: m7g.8xlarge,
+    Region: eu-west-1,
+    VCpu: 32,
+    Memory: 128 GiB,
+    PricePerHour: 1.6029
+  },
+  {
+    Cloud: aws,
+    InstanceName: t3.micro,
+    Region: il-central-1,
+    VCpu: 2,
+    Memory: 1 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: r5.4xlarge,
+    Region: eu-west-1,
+    VCpu: 16,
+    Memory: 128 GiB,
+    PricePerHour: 1.864
+  },
+  {
+    Cloud: aws,
+    InstanceName: c7i.24xlarge,
+    Region: eu-west-1,
+    VCpu: 96,
+    Memory: 192 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: x2idn.16xlarge,
+    Region: ap-northeast-3,
+    VCpu: 64,
+    Memory: 1024 GiB,
+    PricePerHour: 19.9053
+  },
+  {
+    Cloud: aws,
+    InstanceName: c6a.xlarge,
+    Region: eu-west-1,
+    VCpu: 4,
+    Memory: 8 GiB,
+    PricePerHour: 0.23818
+  },
+  {
+    Cloud: aws,
+    InstanceName: m6idn.8xlarge,
+    Region: us-west-1,
+    VCpu: 32,
+    Memory: 128 GiB,
+    PricePerHour: 2.93504
+  },
+  {
+    Cloud: aws,
+    InstanceName: i2.8xlarge,
+    Region: ap-northeast-1,
+    VCpu: 32,
+    Memory: 244 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: m6a.8xlarge,
+    Region: eu-west-3,
+    VCpu: 32,
+    Memory: 128 GiB,
+    PricePerHour: 7.08608
+  },
+  {
+    Cloud: aws,
+    InstanceName: m5dn.4xlarge,
+    Region: eu-west-1,
+    VCpu: 16,
+    Memory: 64 GiB,
+    PricePerHour: 2.222
+  },
+  {
+    Cloud: aws,
+    InstanceName: r8i-flex.large,
+    Region: us-west-1,
+    VCpu: 2,
+    Memory: 16 GiB,
+    PricePerHour: 0.14663
+  },
+  {
+    Cloud: aws,
+    InstanceName: c5d.metal,
+    Region: eu-west-1,
+    VCpu: 96,
+    Memory: 192 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: m7i.large,
+    Region: unknown,
+    VCpu: 2,
+    Memory: 8 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: r5n.xlarge,
+    Region: eu-west-3,
+    VCpu: 4,
+    Memory: 32 GiB,
+    PricePerHour: 0.602
+  },
+  {
+    Cloud: aws,
+    InstanceName: m6gd.metal,
+    Region: unknown,
+    VCpu: 64,
+    Memory: 256 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: m6id.24xlarge,
+    Region: us-west-1,
+    VCpu: 96,
+    Memory: 384 GiB,
+    PricePerHour: 20.604
+  },
+  {
+    Cloud: aws,
+    InstanceName: u7in-16tb.224xlarge,
+    Region: eu-west-1,
+    VCpu: 896,
+    Memory: 16384 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: c6id.2xlarge,
+    Region: eu-west-1,
+    VCpu: 8,
+    Memory: 16 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: c6a.metal,
+    Region: us-west-1,
+    VCpu: 192,
+    Memory: 384 GiB,
+    PricePerHour: 9.1584
+  },
+  {
+    Cloud: aws,
+    InstanceName: c6g,
+    Region: unknown,
+    VCpu: 64,
+    Memory: NA,
+    PricePerHour: 2.712
+  },
+  {
+    Cloud: aws,
+    InstanceName: c7i-flex.12xlarge,
+    Region: eu-west-1,
+    VCpu: 48,
+    Memory: 96 GiB,
+    PricePerHour: 20.18333
+  },
+  {
+    Cloud: aws,
+    InstanceName: c5ad.2xlarge,
+    Region: eu-west-1,
+    VCpu: 8,
+    Memory: 16 GiB,
+    PricePerHour: 0.392
+  },
+  {
+    Cloud: aws,
+    InstanceName: m5ad.12xlarge,
+    Region: ap-northeast-2,
+    VCpu: 48,
+    Memory: 192 GiB,
+    PricePerHour: 5.437
+  },
+  {
+    Cloud: aws,
+    InstanceName: r6id.32xlarge,
+    Region: ap-northeast-1,
+    VCpu: 128,
+    Memory: 1024 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: i7ie.2xlarge,
+    Region: eu-west-1,
+    VCpu: 8,
+    Memory: 64 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: x2idn.32xlarge,
+    Region: us-west-1,
+    VCpu: 128,
+    Memory: 2048 GiB,
+    PricePerHour: 25.3912
+  },
+  {
+    Cloud: aws,
+    InstanceName: i4i.12xlarge,
+    Region: us-west-1,
+    VCpu: 48,
+    Memory: 384 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: g3.16xlarge,
+    Region: eu-west-1,
+    VCpu: 64,
+    Memory: 488 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: c5d.9xlarge,
+    Region: us-west-1,
+    VCpu: 36,
+    Memory: 72 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: m5.24xlarge,
+    Region: eu-west-1,
+    VCpu: 96,
+    Memory: 384 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: c6id.8xlarge,
+    Region: eu-west-1,
+    VCpu: 32,
+    Memory: 64 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: r5d.24xlarge,
+    Region: ap-southeast-1,
+    VCpu: 96,
+    Memory: 768 GiB,
+    PricePerHour: 20.909
+  },
+  {
+    Cloud: aws,
+    InstanceName: i7ie.3xlarge,
+    Region: us-west-1,
+    VCpu: 12,
+    Memory: 96 GiB,
+    PricePerHour: 1.8582
+  },
+  {
+    Cloud: aws,
+    InstanceName: x2gd.large,
+    Region: eu-west-1,
+    VCpu: 2,
+    Memory: 32 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: c5.large,
+    Region: eu-west-1,
+    VCpu: 2,
+    Memory: 4 GiB,
+    PricePerHour: 0.158
+  },
+  {
+    Cloud: aws,
+    InstanceName: m6gd.medium,
+    Region: il-central-1,
+    VCpu: 1,
+    Memory: 4 GiB,
+    PricePerHour: 0.0529
+  },
+  {
+    Cloud: aws,
+    InstanceName: i3en.3xlarge,
+    Region: il-central-1,
+    VCpu: 12,
+    Memory: 96 GiB,
+    PricePerHour: 1.88
+  },
+  {
+    Cloud: aws,
+    InstanceName: m8i.metal-96xl,
+    Region: ap-northeast-1,
+    VCpu: 384,
+    Memory: 1536 GiB,
+    PricePerHour: 80.04672
+  },
+  {
+    Cloud: aws,
+    InstanceName: m5d.8xlarge,
+    Region: eu-west-3,
+    VCpu: 32,
+    Memory: 128 GiB,
+    PricePerHour: 15.725
+  },
+  {
+    Cloud: aws,
+    InstanceName: m7g.16xlarge,
+    Region: il-central-1,
+    VCpu: 64,
+    Memory: 256 GiB,
+    PricePerHour: 4.6432
+  },
+  {
+    Cloud: aws,
+    InstanceName: m7a.large,
+    Region: eu-west-1,
+    VCpu: 2,
+    Memory: 8 GiB,
+    PricePerHour: 0.1292
+  },
+  {
+    Cloud: aws,
+    InstanceName: i7ie.xlarge,
+    Region: eu-west-1,
+    VCpu: 4,
+    Memory: 32 GiB,
+    PricePerHour: 0.6426
+  },
+  {
+    Cloud: aws,
+    InstanceName: m6a.12xlarge,
+    Region: us-west-1,
+    VCpu: 48,
+    Memory: 192 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: r5b.16xlarge,
+    Region: eu-west-1,
+    VCpu: 64,
+    Memory: 512 GiB,
+    PricePerHour: 6.0034
+  },
+  {
+    Cloud: aws,
+    InstanceName: i3en.xlarge,
+    Region: ap-northeast-3,
+    VCpu: 4,
+    Memory: 32 GiB,
+    PricePerHour: 0.6
+  },
+  {
+    Cloud: aws,
+    InstanceName: r6in.32xlarge,
+    Region: us-east-1,
+    VCpu: 128,
+    Memory: 1024 GiB,
+    PricePerHour: 13.72992
+  },
+  {
+    Cloud: aws,
+    InstanceName: m6id.metal,
+    Region: us-east-1,
+    VCpu: 128,
+    Memory: 512 GiB,
+    PricePerHour: 10.9856
+  },
+  {
+    Cloud: aws,
+    InstanceName: r7iz.4xlarge,
+    Region: ap-northeast-1,
+    VCpu: 16,
+    Memory: 128 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: i7i.4xlarge,
+    Region: ap-northeast-1,
+    VCpu: 16,
+    Memory: 128 GiB,
+    PricePerHour: 2.1517
+  },
+  {
+    Cloud: aws,
+    InstanceName: r5d.2xlarge,
+    Region: eu-west-1,
+    VCpu: 8,
+    Memory: 64 GiB,
+    PricePerHour: 0.64
+  },
+  {
+    Cloud: aws,
+    InstanceName: m6idn.metal,
+    Region: eu-west-1,
+    VCpu: 128,
+    Memory: 512 GiB,
+    PricePerHour: 19.43296
+  },
+  {
+    Cloud: aws,
+    InstanceName: c6i.12xlarge,
+    Region: us-west-1,
+    VCpu: 48,
+    Memory: 96 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: c6in.4xlarge,
+    Region: il-central-1,
+    VCpu: 16,
+    Memory: 32 GiB,
+    PricePerHour: 7.81208
+  },
+  {
+    Cloud: aws,
+    InstanceName: m5ad.large,
+    Region: us-gov-west-1,
+    VCpu: 2,
+    Memory: 8 GiB,
+    PricePerHour: 0.16
+  },
+  {
+    Cloud: aws,
+    InstanceName: r6i.12xlarge,
+    Region: us-west-1,
+    VCpu: 48,
+    Memory: 384 GiB,
+    PricePerHour: 4.8864
+  },
+  {
+    Cloud: aws,
+    InstanceName: m5dn.8xlarge,
+    Region: eu-west-1,
+    VCpu: 32,
+    Memory: 128 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: c6a.xlarge,
+    Region: eu-west-1,
+    VCpu: 4,
+    Memory: 8 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: m6i.12xlarge,
+    Region: eu-west-1,
+    VCpu: 48,
+    Memory: 192 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: c6g.medium,
+    Region: eu-west-1,
+    VCpu: 1,
+    Memory: 2 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: r5b.24xlarge,
+    Region: eu-west-1,
+    VCpu: 96,
+    Memory: 768 GiB,
+    PricePerHour: 47.1984
+  },
+  {
+    Cloud: aws,
+    InstanceName: r7g.2xlarge,
+    Region: ap-northeast-1,
+    VCpu: 8,
+    Memory: 64 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: m7a.12xlarge,
+    Region: us-east-1,
+    VCpu: 48,
+    Memory: 192 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: m6a.8xlarge,
+    Region: eu-west-1,
+    VCpu: 32,
+    Memory: 128 GiB,
+    PricePerHour: 1.69488
+  },
+  {
+    Cloud: aws,
+    InstanceName: r7gd.16xlarge,
+    Region: eu-west-1,
+    VCpu: 64,
+    Memory: 512 GiB,
+    PricePerHour: 4.8384
+  },
+  {
+    Cloud: aws,
+    InstanceName: c7i.48xlarge,
+    Region: unknown,
+    VCpu: 192,
+    Memory: 384 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: i7ie.2xlarge,
+    Region: ap-northeast-1,
+    VCpu: 8,
+    Memory: 64 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: c5.18xlarge,
+    Region: us-west-1,
+    VCpu: 72,
+    Memory: 144 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: c6id.xlarge,
+    Region: unknown,
+    VCpu: 4,
+    Memory: 8 GiB,
+    PricePerHour: 0.30994
+  },
+  {
+    Cloud: aws,
+    InstanceName: r5b.24xlarge,
+    Region: eu-west-1,
+    VCpu: 96,
+    Memory: 768 GiB,
+    PricePerHour: 14.856
+  },
+  {
+    Cloud: aws,
+    InstanceName: i7ie.48xlarge,
+    Region: eu-west-1,
+    VCpu: 192,
+    Memory: 1536 GiB,
+    PricePerHour: 110.2273
+  },
+  {
+    Cloud: aws,
+    InstanceName: z1d.6xlarge,
+    Region: ap-northeast-1,
+    VCpu: 24,
+    Memory: 192 GiB,
+    PricePerHour: 12.147
+  },
+  {
+    Cloud: aws,
+    InstanceName: u-6tb1.56xlarge,
+    Region: eu-west-3,
+    VCpu: 224,
+    Memory: 6144 GiB,
+    PricePerHour: 140.65629
+  },
+  {
+    Cloud: aws,
+    InstanceName: i4i.2xlarge,
+    Region: eu-west-1,
+    VCpu: 8,
+    Memory: 64 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: c5d.metal,
+    Region: il-central-1,
+    VCpu: 96,
+    Memory: 192 GiB,
+    PricePerHour: 17.014
+  },
+  {
+    Cloud: aws,
+    InstanceName: r5dn.16xlarge,
+    Region: eu-west-1,
+    VCpu: 64,
+    Memory: 512 GiB,
+    PricePerHour: 6.6432
+  },
+  {
+    Cloud: aws,
+    InstanceName: c7gd.medium,
+    Region: eu-west-1,
+    VCpu: 1,
+    Memory: 2 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: m7i.8xlarge,
+    Region: unknown,
+    VCpu: 32,
+    Memory: 128 GiB,
+    PricePerHour: 7.37437
+  },
+  {
+    Cloud: aws,
+    InstanceName: x2idn.24xlarge,
+    Region: eu-west-1,
+    VCpu: 96,
+    Memory: 1536 GiB,
+    PricePerHour: 15.58575
+  },
+  {
+    Cloud: aws,
+    InstanceName: t3.micro,
+    Region: unknown,
+    VCpu: 2,
+    Memory: 1 GiB,
+    PricePerHour: 0.013
+  },
+  {
+    Cloud: aws,
+    InstanceName: i3.16xlarge,
+    Region: ap-northeast-2,
+    VCpu: 64,
+    Memory: 488 GiB,
+    PricePerHour: 1.218
+  },
+  {
+    Cloud: aws,
+    InstanceName: m5zn.xlarge,
+    Region: eu-west-1,
+    VCpu: 4,
+    Memory: 16 GiB,
+    PricePerHour: 0.4958
+  },
+  {
+    Cloud: aws,
+    InstanceName: m5d.2xlarge,
+    Region: eu-west-1,
+    VCpu: 8,
+    Memory: 32 GiB,
+    PricePerHour: 1.866
+  },
+  {
+    Cloud: aws,
+    InstanceName: m5.8xlarge,
+    Region: il-central-1,
+    VCpu: 32,
+    Memory: 128 GiB,
+    PricePerHour: 3.27
+  },
+  {
+    Cloud: aws,
+    InstanceName: c3.8xlarge,
+    Region: eu-west-1,
+    VCpu: 32,
+    Memory: 60 GiB,
+    PricePerHour: 8.523
+  },
+  {
+    Cloud: aws,
+    InstanceName: m5.2xlarge,
+    Region: ap-northeast-2,
+    VCpu: 8,
+    Memory: 32 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: r6in.12xlarge,
+    Region: eu-west-1,
+    VCpu: 48,
+    Memory: 384 GiB,
+    PricePerHour: 5.2833
+  },
+  {
+    Cloud: aws,
+    InstanceName: m5.metal,
+    Region: eu-west-1,
+    VCpu: 96,
+    Memory: 384 GiB,
+    PricePerHour: 5.136
+  },
+  {
+    Cloud: aws,
+    InstanceName: r5.large,
+    Region: eu-west-1,
+    VCpu: 2,
+    Memory: 16 GiB,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: aws,
+    InstanceName: r5n.16xlarge,
+    Region: eu-west-1,
+    VCpu: 64,
+    Memory: 512 GiB,
+    PricePerHour: 6.931
+  },
+  {
+    Cloud: aws,
+    InstanceName: i3.16xlarge,
+    Region: eu-west-1,
+    VCpu: 64,
+    Memory: 488 GiB,
+    PricePerHour: 8.448
+  },
+  {
+    Cloud: aws,
+    InstanceName: r6a.metal,
+    Region: eu-west-1,
+    VCpu: 192,
+    Memory: 1536 GiB,
+    PricePerHour: 0.0
+  }
+]

@@ -1,6 +1,7 @@
 ﻿using Application.Models.Dtos;
 using Application.Models.Enums;
 using Application.Ports;
+using System.Text.RegularExpressions;
 
 namespace Application.Services;
 
@@ -18,323 +19,162 @@ public class ResourceNormalizationService(ICloudPricingRepository cloudPricingRe
     private const double GCP_ULTRAMEM_MEMORY_RATIO = 25.0;
     private const double GCP_STANDARD_MEMORY_RATIO = 4.0;
 
-    public async Task<CategorizedResourcesDto> GetResourcesAsync(IReadOnlyCollection<ResourceCategory> neededResources, UsageSize usage, CancellationToken cancellationToken = default)
+    private static readonly Dictionary<string, (ResourceCategory Category, ResourceSubCategory SubCategory)> ProductFamilyMap =
+        new(StringComparer.OrdinalIgnoreCase)
+        {
+            ["Compute"] = (ResourceCategory.Compute, ResourceSubCategory.VirtualMachines),
+            ["Compute Instance"] = (ResourceCategory.Compute, ResourceSubCategory.VirtualMachines),
+            ["Compute Instance (bare metal)"] = (ResourceCategory.Compute, ResourceSubCategory.BareMetalServers),
+            ["Dedicated Host"] = (ResourceCategory.Compute, ResourceSubCategory.DedicatedHosts),
+            ["Containers"] = (ResourceCategory.Compute, ResourceSubCategory.Containers),
+
+            ["Databases"] = (ResourceCategory.Databases, ResourceSubCategory.RelationalDatabases),
+            ["Database Instance"] = (ResourceCategory.Databases, ResourceSubCategory.RelationalDatabases),
+            ["Database Storage"] = (ResourceCategory.Databases, ResourceSubCategory.DatabaseStorage),
+
+            ["Storage"] = (ResourceCategory.Storage, ResourceSubCategory.BlockStorage),
+            ["Provisioned IOPS"] = (ResourceCategory.Storage, ResourceSubCategory.PerformanceStorage),
+            ["Provisioned Throughput"] = (ResourceCategory.Storage, ResourceSubCategory.PerformanceStorage),
+
+            ["Network"] = (ResourceCategory.Networking, ResourceSubCategory.NetworkServices),
+            ["Networking"] = (ResourceCategory.Networking, ResourceSubCategory.NetworkServices),
+            ["IP Address"] = (ResourceCategory.Networking, ResourceSubCategory.IPAddresses),
+
+            ["Analytics"] = (ResourceCategory.Analytics, ResourceSubCategory.DataAnalytics),
+            ["AWS Lake Formation"] = (ResourceCategory.Analytics, ResourceSubCategory.DataLakes),
+
+            ["AI + Machine Learning"] = (ResourceCategory.AI, ResourceSubCategory.MachineLearning),
+
+            ["Security"] = (ResourceCategory.Security, ResourceSubCategory.SecurityServices),
+            ["Amazon Inspector"] = (ResourceCategory.Security, ResourceSubCategory.VulnerabilityScanning),
+            ["Web Application Firewall"] = (ResourceCategory.Security, ResourceSubCategory.WebApplicationFirewall),
+
+            ["ApplicationServices"] = (ResourceCategory.ApplicationServices, ResourceSubCategory.ManagedServices),
+            ["AmazonConnect"] = (ResourceCategory.ApplicationServices, ResourceSubCategory.ContactCenter),
+            ["Azure Communication Services"] = (ResourceCategory.ApplicationServices, ResourceSubCategory.CommunicationServices),
+
+            ["Management and Governance"] = (ResourceCategory.Management, ResourceSubCategory.CloudManagement),
+            ["System Operation"] = (ResourceCategory.Management, ResourceSubCategory.Operations),
+
+            ["Developer Tools"] = (ResourceCategory.DeveloperTools, ResourceSubCategory.Development),
+
+            ["Internet of Things"] = (ResourceCategory.IoT, ResourceSubCategory.IoTServices),
+
+            ["Data"] = (ResourceCategory.Data, ResourceSubCategory.DataServices),
+
+            ["Integration"] = (ResourceCategory.Integration, ResourceSubCategory.IntegrationServices),
+            ["AWS Transfer Family"] = (ResourceCategory.Integration, ResourceSubCategory.FileTransfer),
+
+            ["Web"] = (ResourceCategory.Web, ResourceSubCategory.WebServices),
+
+            ["Enterprise Applications"] = (ResourceCategory.EnterpriseApplications, ResourceSubCategory.BusinessApplications),
+            ["Microsoft Syntex"] = (ResourceCategory.EnterpriseApplications, ResourceSubCategory.ContentServices),
+
+            ["License"] = (ResourceCategory.Licensing, ResourceSubCategory.SoftwareLicenses),
+
+            ["Other"] = (ResourceCategory.Other, ResourceSubCategory.Uncategorized)
+        };
+
+    public async Task<CategorizedResourcesDto> GetResourcesAsync(
+        IReadOnlyCollection<ResourceCategory> neededResources,
+        UsageSize usage,
+        CancellationToken cancellationToken = default)
     {
         var data = await cloudPricingRepository.GetAllAsync(cancellationToken);
 
         var categories = new Dictionary<ResourceCategory, CategoryResourcesDto>();
 
-        // Initialize lists for all resource categories requested in neededResources parameter
-        var needCompute = neededResources.Contains(ResourceCategory.Compute);
-        var needDatabases = neededResources.Contains(ResourceCategory.Databases);
-        var needStorage = neededResources.Contains(ResourceCategory.Storage);
-        var needNetworking = neededResources.Contains(ResourceCategory.Networking);
-        var needAnalytics = neededResources.Contains(ResourceCategory.Analytics);
-        var needAI = neededResources.Contains(ResourceCategory.AI);
-        var needSecurity = neededResources.Contains(ResourceCategory.Security);
-        var needApplicationServices = neededResources.Contains(ResourceCategory.ApplicationServices);
-        var needManagement = neededResources.Contains(ResourceCategory.Management);
-        var needDeveloperTools = neededResources.Contains(ResourceCategory.DeveloperTools);
-        var needIoT = neededResources.Contains(ResourceCategory.IoT);
-        var needData = neededResources.Contains(ResourceCategory.Data);
-        var needIntegration = neededResources.Contains(ResourceCategory.Integration);
-        var needWeb = neededResources.Contains(ResourceCategory.Web);
-        var needEnterpriseApplications = neededResources.Contains(ResourceCategory.EnterpriseApplications);
-        var needLicensing = neededResources.Contains(ResourceCategory.Licensing);
-        var needOther = neededResources.Contains(ResourceCategory.Other);
-
-        List<NormalizedComputeInstanceDto>? computeInstances = needCompute ? [] : null;
-        List<NormalizedDatabaseDto>? normalizedDatabases = needDatabases ? [] : null;
-        List<NormalizedResourceDto>? storageResources = needStorage ? [] : null;
-        List<NormalizedResourceDto>? analyticsResources = needAnalytics ? [] : null;
-        List<NormalizedResourceDto>? aiResources = needAI ? [] : null;
-        List<NormalizedResourceDto>? securityResources = needSecurity ? [] : null;
-        List<NormalizedResourceDto>? applicationServicesResources = needApplicationServices ? [] : null;
-        List<NormalizedResourceDto>? developerToolsResources = needDeveloperTools ? [] : null;
-        List<NormalizedResourceDto>? iotResources = needIoT ? [] : null;
-        List<NormalizedResourceDto>? dataResources = needData ? [] : null;
-        List<NormalizedResourceDto>? integrationResources = needIntegration ? [] : null;
-        List<NormalizedResourceDto>? webResources = needWeb ? [] : null;
-        List<NormalizedResourceDto>? enterpriseApplicationsResources = needEnterpriseApplications ? [] : null;
-        List<NormalizedResourceDto>? licensingResources = needLicensing ? [] : null;
-        List<NormalizedResourceDto>? otherResources = needOther ? [] : null;
-
-        // Loop through all products and map them using MapProductFamilyToCategoryAndSubCategory
         foreach (var product in data.Data.Products)
         {
             if (string.IsNullOrWhiteSpace(product.ProductFamily))
                 continue;
 
-            // Check for specialized handling first (Compute and Database instances)
-            // These need special treatment because they have specific DTO types and logic
-            
-            // Handle Compute instances (keep existing specialized logic)
-            if (needCompute && IsComputeInstance(product))
-            {
-                var instanceName = GetInstanceName(product);
-                if (string.IsNullOrWhiteSpace(instanceName))
-                    continue;
-
-                var vcpu = GetVCpu(product);
-                var memory = GetMemory(product);
-                var pricePerHour = GetPricePerHour(product);
-
-                computeInstances!.Add(new NormalizedComputeInstanceDto
-                {
-                    Cloud = product.VendorName,
-                    InstanceName = instanceName,
-                    Region = product.Region ?? "unknown",
-                    VCpu = vcpu,
-                    Memory = memory,
-                    PricePerHour = pricePerHour
-                });
-                continue;
-            }
-
-            // Handle Database instances (keep existing specialized logic)
-            if (needDatabases && IsDatabaseInstance(product))
-            {
-                var instanceName = GetInstanceName(product);
-                if (string.IsNullOrWhiteSpace(instanceName))
-                    continue;
-
-                var vcpu = GetVCpu(product);
-                var memory = GetMemory(product);
-                var pricePerHour = GetPricePerHour(product);
-                var databaseEngine = GetDatabaseEngine(product);
-
-                normalizedDatabases!.Add(new NormalizedDatabaseDto
-                {
-                    Cloud = product.VendorName,
-                    InstanceName = instanceName,
-                    Region = product.Region ?? "unknown",
-                    DatabaseEngine = databaseEngine,
-                    VCpu = vcpu,
-                    Memory = memory,
-                    PricePerHour = pricePerHour
-                });
-                continue;
-            }
-
-            // For all other products, use MapProductFamilyToCategoryAndSubCategory
             var (category, subCategory) = MapProductFamilyToCategoryAndSubCategory(product.ProductFamily);
 
-            // Skip if this category is not needed
             if (!neededResources.Contains(category))
                 continue;
 
-            // Handle all other categories with generic resource mapping
-            var resourceName = GetInstanceName(product) ?? product.Service;
-            var pricePerHourGeneric = GetPricePerHour(product);
-            
-            var normalizedResource = new NormalizedResourceDto
-            {
-                Cloud = product.VendorName,
-                Service = product.Service ?? "unknown",
-                Region = product.Region ?? "unknown",
-                Category = category,
-                SubCategory = subCategory,
-                ProductFamily = product.ProductFamily,
-                ResourceName = resourceName,
-                PricePerHour = pricePerHourGeneric,
-                Attributes = product.Attributes.ToDictionary(a => a.Key, a => a.Value)
-            };
+            var dto = GetOrCreateCategory(categories, category);
 
             switch (category)
             {
-                case ResourceCategory.Storage:
-                    storageResources?.Add(normalizedResource);
-                    break;
-                case ResourceCategory.Analytics:
-                    analyticsResources?.Add(normalizedResource);
-                    break;
-                case ResourceCategory.AI:
-                    aiResources?.Add(normalizedResource);
-                    break;
-                case ResourceCategory.Security:
-                    securityResources?.Add(normalizedResource);
-                    break;
-                case ResourceCategory.ApplicationServices:
-                    applicationServicesResources?.Add(normalizedResource);
-                    break;
-                case ResourceCategory.DeveloperTools:
-                    developerToolsResources?.Add(normalizedResource);
-                    break;
-                case ResourceCategory.IoT:
-                    iotResources?.Add(normalizedResource);
-                    break;
-                case ResourceCategory.Data:
-                    dataResources?.Add(normalizedResource);
-                    break;
-                case ResourceCategory.Integration:
-                    integrationResources?.Add(normalizedResource);
-                    break;
-                case ResourceCategory.Web:
-                    webResources?.Add(normalizedResource);
-                    break;
-                case ResourceCategory.EnterpriseApplications:
-                    enterpriseApplicationsResources?.Add(normalizedResource);
-                    break;
-                case ResourceCategory.Licensing:
-                    licensingResources?.Add(normalizedResource);
-                    break;
-                case ResourceCategory.Other:
-                    otherResources?.Add(normalizedResource);
-                    break;
+                case ResourceCategory.Compute:
+                    {
+                        var instanceName = GetInstanceName(product);
+                        if (string.IsNullOrWhiteSpace(instanceName))
+                            break;
+
+                        var vcpu = GetVCpu(product);
+                        var memory = GetMemory(product);
+                        var pricePerHour = GetPricePerHour(product);
+
+                        (dto.ComputeInstances ??= new List<NormalizedComputeInstanceDto>()).Add(new NormalizedComputeInstanceDto
+                        {
+                            Cloud = product.VendorName,
+                            InstanceName = instanceName!,
+                            Region = product.Region ?? "unknown",
+                            VCpu = vcpu,
+                            Memory = memory,
+                            PricePerHour = pricePerHour
+                        });
+                        break;
+                    }
+
+                case ResourceCategory.Databases:
+                    {
+                        var instanceName = GetInstanceName(product);
+                        if (string.IsNullOrWhiteSpace(instanceName))
+                            break;
+
+                        var vcpu = GetVCpu(product);
+                        var memory = GetMemory(product);
+                        var pricePerHour = GetPricePerHour(product);
+                        var databaseEngine = GetDatabaseEngine(product);
+
+                        (dto.Databases ??= new List<NormalizedDatabaseDto>()).Add(new NormalizedDatabaseDto
+                        {
+                            Cloud = product.VendorName,
+                            InstanceName = instanceName!,
+                            Region = product.Region ?? "unknown",
+                            DatabaseEngine = databaseEngine,
+                            VCpu = vcpu,
+                            Memory = memory,
+                            PricePerHour = pricePerHour
+                        });
+                        break;
+                    }
+
+                default:
+                    {
+                        var resources = GetOrInitNormalizedResourceList(dto, category);
+                        var resourceName = GetInstanceName(product) ?? product.Service ?? "unknown";
+                        var pricePerHour = GetPricePerHour(product);
+
+                        resources.Add(new NormalizedResourceDto
+                        {
+                            Cloud = product.VendorName,
+                            Service = product.Service ?? "unknown",
+                            Region = product.Region ?? "unknown",
+                            Category = category,
+                            SubCategory = subCategory,
+                            ProductFamily = product.ProductFamily,
+                            ResourceName = resourceName,
+                            PricePerHour = pricePerHour,
+                            Attributes = product.Attributes.ToDictionary(a => a.Key, a => a.Value)
+                        });
+                        break;
+                    }
             }
         }
 
-        // Build category results
-        if (needCompute && computeInstances!.Any())
-        {
-            categories[ResourceCategory.Compute] = new CategoryResourcesDto
-            {
-                Category = ResourceCategory.Compute,
-                ComputeInstances = computeInstances
-            };
-        }
-
-        if (needDatabases && normalizedDatabases!.Any())
-        {
-            categories[ResourceCategory.Databases] = new CategoryResourcesDto
-            {
-                Category = ResourceCategory.Databases,
-                Databases = normalizedDatabases
-            };
-        }
-
-        if (needStorage && storageResources!.Any())
-        {
-            categories[ResourceCategory.Storage] = new CategoryResourcesDto
-            {
-                Category = ResourceCategory.Storage,
-                Storage = storageResources
-            };
-        }
-
-        if (needAnalytics && analyticsResources!.Any())
-        {
-            categories[ResourceCategory.Analytics] = new CategoryResourcesDto
-            {
-                Category = ResourceCategory.Analytics,
-                Analytics = analyticsResources
-            };
-        }
-
-        if (needAI && aiResources!.Any())
-        {
-            categories[ResourceCategory.AI] = new CategoryResourcesDto
-            {
-                Category = ResourceCategory.AI,
-                AI = aiResources
-            };
-        }
-
-        if (needSecurity && securityResources!.Any())
-        {
-            categories[ResourceCategory.Security] = new CategoryResourcesDto
-            {
-                Category = ResourceCategory.Security,
-                Security = securityResources
-            };
-        }
-
-        if (needApplicationServices && applicationServicesResources!.Any())
-        {
-            categories[ResourceCategory.ApplicationServices] = new CategoryResourcesDto
-            {
-                Category = ResourceCategory.ApplicationServices,
-                ApplicationServices = applicationServicesResources
-            };
-        }
-
-        if (needDeveloperTools && developerToolsResources!.Any())
-        {
-            categories[ResourceCategory.DeveloperTools] = new CategoryResourcesDto
-            {
-                Category = ResourceCategory.DeveloperTools,
-                DeveloperTools = developerToolsResources
-            };
-        }
-
-        if (needIoT && iotResources!.Any())
-        {
-            categories[ResourceCategory.IoT] = new CategoryResourcesDto
-            {
-                Category = ResourceCategory.IoT,
-                IoT = iotResources
-            };
-        }
-
-        if (needData && dataResources!.Any())
-        {
-            categories[ResourceCategory.Data] = new CategoryResourcesDto
-            {
-                Category = ResourceCategory.Data,
-                Data = dataResources
-            };
-        }
-
-        if (needIntegration && integrationResources!.Any())
-        {
-            categories[ResourceCategory.Integration] = new CategoryResourcesDto
-            {
-                Category = ResourceCategory.Integration,
-                Integration = integrationResources
-            };
-        }
-
-        if (needWeb && webResources!.Any())
-        {
-            categories[ResourceCategory.Web] = new CategoryResourcesDto
-            {
-                Category = ResourceCategory.Web,
-                Web = webResources
-            };
-        }
-
-        if (needEnterpriseApplications && enterpriseApplicationsResources!.Any())
-        {
-            categories[ResourceCategory.EnterpriseApplications] = new CategoryResourcesDto
-            {
-                Category = ResourceCategory.EnterpriseApplications,
-                EnterpriseApplications = enterpriseApplicationsResources
-            };
-        }
-
-        if (needLicensing && licensingResources!.Any())
-        {
-            categories[ResourceCategory.Licensing] = new CategoryResourcesDto
-            {
-                Category = ResourceCategory.Licensing,
-                Licensing = licensingResources
-            };
-        }
-
-        if (needOther && otherResources!.Any())
-        {
-            categories[ResourceCategory.Other] = new CategoryResourcesDto
-            {
-                Category = ResourceCategory.Other,
-                Other = otherResources
-            };
-        }
-
-        // Add hardcoded networking and management resources if requested
-        // These resources are computed on-demand based on usage size rather than loaded from JSON files
+        // Add computed Networking and Management categories if requested
         if (neededResources.Contains(ResourceCategory.Networking))
         {
-            var loadBalancers = GetNormalizedLoadBalancers(usage);
-            if (loadBalancers.Any())
+            var lbs = GetNormalizedLoadBalancers(usage);
+            if (lbs.Any())
             {
-                if (!categories.ContainsKey(ResourceCategory.Networking))
-                {
-                    categories[ResourceCategory.Networking] = new CategoryResourcesDto
-                    {
-                        Category = ResourceCategory.Networking
-                    };
-                }
-                categories[ResourceCategory.Networking].LoadBalancers = loadBalancers;
+                var dto = GetOrCreateCategory(categories, ResourceCategory.Networking);
+                dto.LoadBalancers = lbs;
             }
         }
 
@@ -343,66 +183,95 @@ public class ResourceNormalizationService(ICloudPricingRepository cloudPricingRe
             var monitoring = GetNormalizedMonitoring(usage);
             if (monitoring.Any())
             {
-                if (!categories.ContainsKey(ResourceCategory.Management))
-                {
-                    categories[ResourceCategory.Management] = new CategoryResourcesDto
-                    {
-                        Category = ResourceCategory.Management
-                    };
-                }
-                categories[ResourceCategory.Management].Monitoring = monitoring;
+                var dto = GetOrCreateCategory(categories, ResourceCategory.Management);
+                dto.Monitoring = monitoring;
             }
         }
 
-        return new CategorizedResourcesDto
+        return new CategorizedResourcesDto { Categories = categories };
+    }
+
+    public async Task<ProductFamilyMappingsDto> GetProductFamilyMappingsAsync(CancellationToken cancellationToken = default)
+    {
+        var data = await cloudPricingRepository.GetAllAsync(cancellationToken);
+
+        var processedFamilies = new HashSet<string>(StringComparer.OrdinalIgnoreCase);
+        var mappings = new List<ProductFamilyMappingDto>();
+
+        foreach (var product in data.Data.Products)
         {
-            Categories = categories
+            var family = product.ProductFamily;
+            if (string.IsNullOrWhiteSpace(family))
+                continue;
+
+            if (processedFamilies.Add(family))
+            {
+                var (category, subCategory) = MapProductFamilyToCategoryAndSubCategory(family);
+                mappings.Add(new ProductFamilyMappingDto
+                {
+                    ProductFamily = family,
+                    Category = category,
+                    SubCategory = subCategory
+                });
+            }
+        }
+
+        return new ProductFamilyMappingsDto
+        {
+            Mappings = mappings
+                .OrderBy(m => m.Category)
+                .ThenBy(m => m.SubCategory)
+                .ToList()
         };
     }
 
-    private static bool IsComputeInstance(CloudPricingProductDto product)
+    private static CategoryResourcesDto GetOrCreateCategory(Dictionary<ResourceCategory, CategoryResourcesDto> categories, ResourceCategory category)
     {
-        return product.ProductFamily switch
+        if (!categories.TryGetValue(category, out var dto))
         {
-            "Compute Instance" => true,
-            "Compute Instance (bare metal)" => true,
-            "Compute" when product.VendorName == CloudProvider.Azure && product.Service == "Virtual Machines" => true,
-            _ => false
+            dto = new CategoryResourcesDto { Category = category };
+            categories[category] = dto;
+        }
+        return dto;
+    }
+
+    private static List<NormalizedResourceDto> GetOrInitNormalizedResourceList(CategoryResourcesDto dto, ResourceCategory category)
+    {
+        return category switch
+        {
+            ResourceCategory.Storage => dto.Storage ??= new List<NormalizedResourceDto>(),
+            ResourceCategory.Analytics => dto.Analytics ??= new List<NormalizedResourceDto>(),
+            ResourceCategory.AI => dto.AI ??= new List<NormalizedResourceDto>(),
+            ResourceCategory.Security => dto.Security ??= new List<NormalizedResourceDto>(),
+            ResourceCategory.ApplicationServices => dto.ApplicationServices ??= new List<NormalizedResourceDto>(),
+            ResourceCategory.DeveloperTools => dto.DeveloperTools ??= new List<NormalizedResourceDto>(),
+            ResourceCategory.IoT => dto.IoT ??= new List<NormalizedResourceDto>(),
+            ResourceCategory.Data => dto.Data ??= new List<NormalizedResourceDto>(),
+            ResourceCategory.Integration => dto.Integration ??= new List<NormalizedResourceDto>(),
+            ResourceCategory.Web => dto.Web ??= new List<NormalizedResourceDto>(),
+            ResourceCategory.EnterpriseApplications => dto.EnterpriseApplications ??= new List<NormalizedResourceDto>(),
+            ResourceCategory.Licensing => dto.Licensing ??= new List<NormalizedResourceDto>(),
+            ResourceCategory.Other => dto.Other ??= new List<NormalizedResourceDto>(),
+            _ => throw new ArgumentOutOfRangeException(nameof(category), $"Unsupported category {category} for generic resources.")
         };
     }
 
-    private static bool IsDatabaseInstance(CloudPricingProductDto product)
+    private static (ResourceCategory Category, ResourceSubCategory SubCategory) MapProductFamilyToCategoryAndSubCategory(string productFamily)
     {
-        return product.ProductFamily switch
-        {
-            "Database Instance" => true,
-            "Databases" when product.VendorName == CloudProvider.Azure => true,
-            "ApplicationServices" when product.VendorName == CloudProvider.GCP && product.Service == "Cloud SQL" => true,
-            _ => false
-        };
+        return ProductFamilyMap.TryGetValue(productFamily, out var mapping)
+            ? mapping
+            : (ResourceCategory.Other, ResourceSubCategory.Uncategorized);
     }
 
     private static string? GetInstanceName(CloudPricingProductDto product)
     {
-        var instanceType = product.Attributes.FirstOrDefault(a => a.Key == "instanceType")?.Value;
-        if (!string.IsNullOrWhiteSpace(instanceType))
-            return instanceType;
-
-        var armSkuName = product.Attributes.FirstOrDefault(a => a.Key == "armSkuName")?.Value;
-        if (!string.IsNullOrWhiteSpace(armSkuName))
-            return armSkuName;
-
-        var skuName = product.Attributes.FirstOrDefault(a => a.Key == "skuName")?.Value;
-        if (!string.IsNullOrWhiteSpace(skuName))
-            return skuName;
-
-        var machineType = product.Attributes.FirstOrDefault(a => a.Key == "machineType")?.Value;
-        if (!string.IsNullOrWhiteSpace(machineType))
-            return machineType;
+        var name = GetFirstAttribute(product, "instanceType", "armSkuName", "skuName", "machineType");
+        if (!string.IsNullOrWhiteSpace(name))
+            return name;
 
         if (product.VendorName == CloudProvider.GCP && product.Service == "Cloud SQL")
         {
-            var resourceGroup = product.Attributes.FirstOrDefault(a => a.Key == "resourceGroup")?.Value;
+            var resourceGroup = GetFirstAttribute(product, "resourceGroup");
             if (!string.IsNullOrWhiteSpace(resourceGroup))
                 return resourceGroup;
         }
@@ -412,24 +281,16 @@ public class ResourceNormalizationService(ICloudPricingRepository cloudPricingRe
 
     private static int? GetVCpu(CloudPricingProductDto product)
     {
-        var vcpuStr = product.Attributes.FirstOrDefault(a => a.Key == "vcpu")?.Value;
-        if (!string.IsNullOrWhiteSpace(vcpuStr) && int.TryParse(vcpuStr, out var vcpu))
+        var vcpu = GetFirstIntAttribute(product, "vcpu", "vCpusAvailable", "numberOfCores");
+        if (vcpu.HasValue)
             return vcpu;
-
-        var vCpusAvailableStr = product.Attributes.FirstOrDefault(a => a.Key == "vCpusAvailable")?.Value;
-        if (!string.IsNullOrWhiteSpace(vCpusAvailableStr) && int.TryParse(vCpusAvailableStr, out var vCpusAvailable))
-            return vCpusAvailable;
-
-        var numberOfCoresStr = product.Attributes.FirstOrDefault(a => a.Key == "numberOfCores")?.Value;
-        if (!string.IsNullOrWhiteSpace(numberOfCoresStr) && int.TryParse(numberOfCoresStr, out var numberOfCores))
-            return numberOfCores;
 
         if (product.VendorName == CloudProvider.GCP)
         {
-            var description = product.Attributes.FirstOrDefault(a => a.Key == "description")?.Value;
+            var description = GetFirstAttribute(product, "description");
             if (!string.IsNullOrWhiteSpace(description))
             {
-                var match = System.Text.RegularExpressions.Regex.Match(description, @"(\d+)\s+vCPU");
+                var match = Regex.Match(description, @"(\d+)\s+vCPU");
                 if (match.Success && int.TryParse(match.Groups[1].Value, out var gcpVcpu))
                     return gcpVcpu;
             }
@@ -444,33 +305,30 @@ public class ResourceNormalizationService(ICloudPricingRepository cloudPricingRe
 
     private static string? GetMemory(CloudPricingProductDto product)
     {
-        var memory = product.Attributes.FirstOrDefault(a => a.Key == "memory")?.Value;
+        var memory = GetFirstAttribute(product, "memory");
         if (!string.IsNullOrWhiteSpace(memory))
             return memory;
 
-        var memoryInGB = product.Attributes.FirstOrDefault(a => a.Key == "memoryInGB")?.Value;
+        var memoryInGB = GetFirstAttribute(product, "memoryInGB");
         if (!string.IsNullOrWhiteSpace(memoryInGB))
             return $"{memoryInGB} GB";
 
         if (product.VendorName == CloudProvider.GCP)
         {
-            var description = product.Attributes.FirstOrDefault(a => a.Key == "description")?.Value;
+            var description = GetFirstAttribute(product, "description");
             if (!string.IsNullOrWhiteSpace(description))
             {
-                var match = System.Text.RegularExpressions.Regex.Match(description, @"(\d+(?:\.\d+)?)\s*GB RAM");
+                var match = Regex.Match(description, @"(\d+(?:\.\d+)?)\s*GB RAM");
                 if (match.Success)
                     return $"{match.Groups[1].Value} GB";
             }
 
             var vcpus = ExtractVCpuFromGcpMachineType(product);
-            if (vcpus.HasValue)
+            var machineType = GetFirstAttribute(product, "machineType");
+            if (vcpus.HasValue && !string.IsNullOrWhiteSpace(machineType))
             {
-                var machineType = product.Attributes.FirstOrDefault(a => a.Key == "machineType")?.Value;
-                if (!string.IsNullOrWhiteSpace(machineType))
-                {
-                    var memoryGb = EstimateGcpMemoryFromMachineType(machineType, vcpus.Value);
-                    return $"{memoryGb} GB";
-                }
+                var memoryGb = EstimateGcpMemoryFromMachineType(machineType!, vcpus.Value);
+                return $"{memoryGb} GB";
             }
         }
 
@@ -479,10 +337,10 @@ public class ResourceNormalizationService(ICloudPricingRepository cloudPricingRe
 
     private static int? ExtractVCpuFromGcpMachineType(CloudPricingProductDto product)
     {
-        var machineType = product.Attributes.FirstOrDefault(a => a.Key == "machineType")?.Value;
+        var machineType = GetFirstAttribute(product, "machineType");
         if (!string.IsNullOrWhiteSpace(machineType))
         {
-            var parts = machineType.Split('-');
+            var parts = machineType!.Split('-');
             if (parts.Length >= 3 && int.TryParse(parts[^1], out var machineVcpu))
                 return machineVcpu;
         }
@@ -503,41 +361,37 @@ public class ResourceNormalizationService(ICloudPricingRepository cloudPricingRe
 
     private static decimal? GetPricePerHour(CloudPricingProductDto product)
     {
-        var price = product.Prices
-            .Where(p => p.PurchaseOption?.ToLower() == "on_demand" ||
-                        p.PurchaseOption?.ToLower() == "ondemand" ||
-                        p.PurchaseOption?.ToLower() == "consumption")
-            .FirstOrDefault()?.Usd;
-
-        if (price == null)
-        {
-            price = product.Prices.FirstOrDefault()?.Usd;
-        }
-
+        var price = product.Prices.FirstOrDefault(p => IsOnDemand(p.PurchaseOption))?.Usd
+                    ?? product.Prices.FirstOrDefault()?.Usd;
         return price;
+    }
+
+    private static bool IsOnDemand(string? purchaseOption)
+    {
+        var po = purchaseOption?.ToLowerInvariant();
+        return po is "on_demand" or "ondemand" or "consumption";
     }
 
     private static string? GetDatabaseEngine(CloudPricingProductDto product)
     {
-        var engine = product.Attributes.FirstOrDefault(a => a.Key == "databaseEngine")?.Value;
+        var engine = GetFirstAttribute(product, "databaseEngine");
         if (!string.IsNullOrWhiteSpace(engine))
             return engine;
 
-        if (product.Service != null && product.Service.Contains("PostgreSQL", StringComparison.OrdinalIgnoreCase))
-            return "PostgreSQL";
-        if (product.Service != null && product.Service.Contains("MySQL", StringComparison.OrdinalIgnoreCase))
-            return "MySQL";
+        if (!string.IsNullOrWhiteSpace(product.Service))
+        {
+            if (product.Service!.Contains("PostgreSQL", StringComparison.OrdinalIgnoreCase)) return "PostgreSQL";
+            if (product.Service!.Contains("MySQL", StringComparison.OrdinalIgnoreCase)) return "MySQL";
+        }
 
         if (product.VendorName == CloudProvider.GCP)
         {
-            var description = product.Attributes.FirstOrDefault(a => a.Key == "description")?.Value;
+            var description = GetFirstAttribute(product, "description");
             if (!string.IsNullOrWhiteSpace(description))
             {
-                if (description.Contains("MySQL", StringComparison.OrdinalIgnoreCase))
-                    return "MySQL";
-                if (description.Contains("PostgreSQL", StringComparison.OrdinalIgnoreCase) ||
-                    description.Contains("Postgres", StringComparison.OrdinalIgnoreCase))
-                    return "PostgreSQL";
+                if (description!.Contains("MySQL", StringComparison.OrdinalIgnoreCase)) return "MySQL";
+                if (description!.Contains("PostgreSQL", StringComparison.OrdinalIgnoreCase) ||
+                    description!.Contains("Postgres", StringComparison.OrdinalIgnoreCase)) return "PostgreSQL";
             }
         }
 
@@ -546,8 +400,6 @@ public class ResourceNormalizationService(ICloudPricingRepository cloudPricingRe
 
     private static List<NormalizedLoadBalancerDto> GetNormalizedLoadBalancers(UsageSize usage)
     {
-        var loadBalancers = new List<NormalizedLoadBalancerDto>();
-
         var gcpPricing = usage switch
         {
             UsageSize.Small => 18.41m,
@@ -555,8 +407,6 @@ public class ResourceNormalizationService(ICloudPricingRepository cloudPricingRe
             UsageSize.Large => 34.25m,
             _ => 0m
         };
-
-        var azurePricing = 0m;
 
         var awsPricing = usage switch
         {
@@ -566,34 +416,16 @@ public class ResourceNormalizationService(ICloudPricingRepository cloudPricingRe
             _ => 0m
         };
 
-        loadBalancers.Add(new NormalizedLoadBalancerDto
+        return new List<NormalizedLoadBalancerDto>
         {
-            Cloud = CloudProvider.GCP,
-            Name = "Cloud Load Balancing",
-            PricePerMonth = gcpPricing
-        });
-
-        loadBalancers.Add(new NormalizedLoadBalancerDto
-        {
-            Cloud = CloudProvider.Azure,
-            Name = "Azure Load Balancer",
-            PricePerMonth = azurePricing
-        });
-
-        loadBalancers.Add(new NormalizedLoadBalancerDto
-        {
-            Cloud = CloudProvider.AWS,
-            Name = "Elastic Load Balancing",
-            PricePerMonth = awsPricing
-        });
-
-        return loadBalancers;
+            new() { Cloud = CloudProvider.GCP,  Name = "Cloud Load Balancing", PricePerMonth = gcpPricing },
+            new() { Cloud = CloudProvider.Azure, Name = "Azure Load Balancer",   PricePerMonth = 0m },
+            new() { Cloud = CloudProvider.AWS,  Name = "Elastic Load Balancing", PricePerMonth = awsPricing }
+        };
     }
 
     private static List<NormalizedMonitoringDto> GetNormalizedMonitoring(UsageSize usage)
     {
-        var monitoring = new List<NormalizedMonitoringDto>();
-
         var gcpPricing = usage switch
         {
             UsageSize.Small => 4m,
@@ -618,98 +450,33 @@ public class ResourceNormalizationService(ICloudPricingRepository cloudPricingRe
             _ => 0m
         };
 
-        monitoring.Add(new NormalizedMonitoringDto
+        return new List<NormalizedMonitoringDto>
         {
-            Cloud = CloudProvider.GCP,
-            Name = "Cloud Ops",
-            PricePerMonth = gcpPricing
-        });
-
-        monitoring.Add(new NormalizedMonitoringDto
-        {
-            Cloud = CloudProvider.Azure,
-            Name = "Azure Monitor",
-            PricePerMonth = azurePricing
-        });
-
-        monitoring.Add(new NormalizedMonitoringDto
-        {
-            Cloud = CloudProvider.AWS,
-            Name = "CloudWatch",
-            PricePerMonth = awsPricing
-        });
-
-        return monitoring;
+            new() { Cloud = CloudProvider.GCP,  Name = "Cloud Ops",     PricePerMonth = gcpPricing },
+            new() { Cloud = CloudProvider.Azure, Name = "Azure Monitor", PricePerMonth = azurePricing },
+            new() { Cloud = CloudProvider.AWS,  Name = "CloudWatch",    PricePerMonth = awsPricing }
+        };
     }
 
-    public async Task<ProductFamilyMappingsDto> GetProductFamilyMappingsAsync(CancellationToken cancellationToken = default)
+    private static string? GetFirstAttribute(CloudPricingProductDto product, params string[] keys)
     {
-        var data = await cloudPricingRepository.GetAllAsync(cancellationToken);
-        
-        var mappings = new List<ProductFamilyMappingDto>();
-        var processedFamilies = new HashSet<string>();
-        
-        foreach (var product in data.Data.Products)
+        foreach (var key in keys)
         {
-            if (product.ProductFamily != null && !processedFamilies.Contains(product.ProductFamily))
-            {
-                processedFamilies.Add(product.ProductFamily);
-                var (category, subCategory) = MapProductFamilyToCategoryAndSubCategory(product.ProductFamily);
-                mappings.Add(new ProductFamilyMappingDto
-                {
-                    ProductFamily = product.ProductFamily,
-                    Category = category,
-                    SubCategory = subCategory
-                });
-            }
+            var value = product.Attributes.FirstOrDefault(a => a.Key == key)?.Value;
+            if (!string.IsNullOrWhiteSpace(value))
+                return value;
         }
-        
-        return new ProductFamilyMappingsDto
-        {
-            Mappings = mappings.OrderBy(m => m.Category).ThenBy(m => m.SubCategory).ToList()
-        };
+        return null;
     }
 
-    private static (ResourceCategory Category, ResourceSubCategory SubCategory) MapProductFamilyToCategoryAndSubCategory(string productFamily)
+    private static int? GetFirstIntAttribute(CloudPricingProductDto product, params string[] keys)
     {
-        return productFamily switch
+        foreach (var key in keys)
         {
-            "Compute" => (ResourceCategory.Compute, ResourceSubCategory.VirtualMachines),
-            "Compute Instance" => (ResourceCategory.Compute, ResourceSubCategory.VirtualMachines),
-            "Compute Instance (bare metal)" => (ResourceCategory.Compute, ResourceSubCategory.BareMetalServers),
-            "Dedicated Host" => (ResourceCategory.Compute, ResourceSubCategory.DedicatedHosts),
-            "Containers" => (ResourceCategory.Compute, ResourceSubCategory.Containers),
-            "Databases" => (ResourceCategory.Databases, ResourceSubCategory.RelationalDatabases),
-            "Database Instance" => (ResourceCategory.Databases, ResourceSubCategory.RelationalDatabases),
-            "Database Storage" => (ResourceCategory.Databases, ResourceSubCategory.DatabaseStorage),
-            "Storage" => (ResourceCategory.Storage, ResourceSubCategory.BlockStorage),
-            "Provisioned IOPS" => (ResourceCategory.Storage, ResourceSubCategory.PerformanceStorage),
-            "Provisioned Throughput" => (ResourceCategory.Storage, ResourceSubCategory.PerformanceStorage),
-            "Network" => (ResourceCategory.Networking, ResourceSubCategory.NetworkServices),
-            "Networking" => (ResourceCategory.Networking, ResourceSubCategory.NetworkServices),
-            "IP Address" => (ResourceCategory.Networking, ResourceSubCategory.IPAddresses),
-            "Analytics" => (ResourceCategory.Analytics, ResourceSubCategory.DataAnalytics),
-            "AWS Lake Formation" => (ResourceCategory.Analytics, ResourceSubCategory.DataLakes),
-            "AI + Machine Learning" => (ResourceCategory.AI, ResourceSubCategory.MachineLearning),
-            "Security" => (ResourceCategory.Security, ResourceSubCategory.SecurityServices),
-            "Amazon Inspector" => (ResourceCategory.Security, ResourceSubCategory.VulnerabilityScanning),
-            "Web Application Firewall" => (ResourceCategory.Security, ResourceSubCategory.WebApplicationFirewall),
-            "ApplicationServices" => (ResourceCategory.ApplicationServices, ResourceSubCategory.ManagedServices),
-            "AmazonConnect" => (ResourceCategory.ApplicationServices, ResourceSubCategory.ContactCenter),
-            "Azure Communication Services" => (ResourceCategory.ApplicationServices, ResourceSubCategory.CommunicationServices),
-            "Management and Governance" => (ResourceCategory.Management, ResourceSubCategory.CloudManagement),
-            "System Operation" => (ResourceCategory.Management, ResourceSubCategory.Operations),
-            "Developer Tools" => (ResourceCategory.DeveloperTools, ResourceSubCategory.Development),
-            "Internet of Things" => (ResourceCategory.IoT, ResourceSubCategory.IoTServices),
-            "Data" => (ResourceCategory.Data, ResourceSubCategory.DataServices),
-            "Integration" => (ResourceCategory.Integration, ResourceSubCategory.IntegrationServices),
-            "AWS Transfer Family" => (ResourceCategory.Integration, ResourceSubCategory.FileTransfer),
-            "Web" => (ResourceCategory.Web, ResourceSubCategory.WebServices),
-            "Enterprise Applications" => (ResourceCategory.EnterpriseApplications, ResourceSubCategory.BusinessApplications),
-            "Microsoft Syntex" => (ResourceCategory.EnterpriseApplications, ResourceSubCategory.ContentServices),
-            "License" => (ResourceCategory.Licensing, ResourceSubCategory.SoftwareLicenses),
-            "Other" => (ResourceCategory.Other, ResourceSubCategory.Uncategorized),
-            _ => (ResourceCategory.Other, ResourceSubCategory.Uncategorized)
-        };
+            var value = product.Attributes.FirstOrDefault(a => a.Key == key)?.Value;
+            if (!string.IsNullOrWhiteSpace(value) && int.TryParse(value, out var parsed))
+                return parsed;
+        }
+        return null;
     }
 }
