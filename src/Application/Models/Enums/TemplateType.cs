@@ -4,7 +4,7 @@ using System.Text.Json.Serialization;
 
 namespace Application.Models.Enums;
 
-[TypeConverter(typeof(JsonStringEnumConverter<TemplateType>))]
+[TypeConverter(typeof(EnumMemberTypeConverter<TemplateType>))]
 public enum TemplateType
 {
     None = 0,
@@ -30,7 +30,7 @@ public enum TemplateType
     ServerlessEventDriven = 10,
 }
 
-[TypeConverter(typeof(JsonStringEnumConverter<UsageSize>))]
+[TypeConverter(typeof(EnumMemberTypeConverter<UsageSize>))]
 public enum UsageSize
 {
     None = 0,
@@ -44,7 +44,7 @@ public enum UsageSize
     ExtraLarge = 4,
 }
 
-[TypeConverter(typeof(JsonStringEnumConverter<CloudProvider>))]
+[TypeConverter(typeof(EnumMemberTypeConverter<CloudProvider>))]
 public enum CloudProvider
 {
     None = 0,

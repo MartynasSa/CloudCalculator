@@ -40,7 +40,7 @@ builder.Services.AddControllers()
     }).AddJsonOptions(o =>
     {
         o.JsonSerializerOptions.PropertyNamingPolicy = JsonNamingPolicy.CamelCase;
-        o.JsonSerializerOptions.Converters.Add(new JsonStringEnumConverter(JsonNamingPolicy.CamelCase));
+        o.JsonSerializerOptions.Converters.Add(new System.Text.Json.Serialization.JsonStringEnumMemberConverter());
     });
 
 builder.Services.AddEndpointsApiExplorer();
