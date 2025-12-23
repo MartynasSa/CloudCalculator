@@ -24,63 +24,167 @@ public class ResourceNormalizationService(ICloudPricingRepository cloudPricingRe
 
         var categories = new Dictionary<ResourceCategory, CategoryResourcesDto>();
 
+        // Initialize lists for all needed categories
         var needCompute = neededResources.Contains(ResourceCategory.Compute);
         var needDatabases = neededResources.Contains(ResourceCategory.Databases);
+        var needStorage = neededResources.Contains(ResourceCategory.Storage);
+        var needNetworking = neededResources.Contains(ResourceCategory.Networking);
+        var needAnalytics = neededResources.Contains(ResourceCategory.Analytics);
+        var needAI = neededResources.Contains(ResourceCategory.AI);
+        var needSecurity = neededResources.Contains(ResourceCategory.Security);
+        var needApplicationServices = neededResources.Contains(ResourceCategory.ApplicationServices);
+        var needManagement = neededResources.Contains(ResourceCategory.Management);
+        var needDeveloperTools = neededResources.Contains(ResourceCategory.DeveloperTools);
+        var needIoT = neededResources.Contains(ResourceCategory.IoT);
+        var needData = neededResources.Contains(ResourceCategory.Data);
+        var needIntegration = neededResources.Contains(ResourceCategory.Integration);
+        var needWeb = neededResources.Contains(ResourceCategory.Web);
+        var needEnterpriseApplications = neededResources.Contains(ResourceCategory.EnterpriseApplications);
+        var needLicensing = neededResources.Contains(ResourceCategory.Licensing);
+        var needOther = neededResources.Contains(ResourceCategory.Other);
 
         List<NormalizedComputeInstanceDto>? computeInstances = needCompute ? [] : null;
         List<NormalizedDatabaseDto>? normalizedDatabases = needDatabases ? [] : null;
+        List<NormalizedResourceDto>? storageResources = needStorage ? [] : null;
+        List<NormalizedResourceDto>? analyticsResources = needAnalytics ? [] : null;
+        List<NormalizedResourceDto>? aiResources = needAI ? [] : null;
+        List<NormalizedResourceDto>? securityResources = needSecurity ? [] : null;
+        List<NormalizedResourceDto>? applicationServicesResources = needApplicationServices ? [] : null;
+        List<NormalizedResourceDto>? developerToolsResources = needDeveloperTools ? [] : null;
+        List<NormalizedResourceDto>? iotResources = needIoT ? [] : null;
+        List<NormalizedResourceDto>? dataResources = needData ? [] : null;
+        List<NormalizedResourceDto>? integrationResources = needIntegration ? [] : null;
+        List<NormalizedResourceDto>? webResources = needWeb ? [] : null;
+        List<NormalizedResourceDto>? enterpriseApplicationsResources = needEnterpriseApplications ? [] : null;
+        List<NormalizedResourceDto>? licensingResources = needLicensing ? [] : null;
+        List<NormalizedResourceDto>? otherResources = needOther ? [] : null;
 
-        if (needCompute || needDatabases)
+        // Loop through all products and map them using MapProductFamilyToCategoryAndSubCategory
+        foreach (var product in data.Data.Products)
         {
-            foreach (var product in data.Data.Products)
+            if (string.IsNullOrWhiteSpace(product.ProductFamily))
+                continue;
+
+            // Check for specialized handling first (Compute and Database instances)
+            // These need special treatment because they have specific DTO types and logic
+            
+            // Handle Compute instances (keep existing specialized logic)
+            if (needCompute && IsComputeInstance(product))
             {
-                if (needCompute && IsComputeInstance(product))
-                {
-                    var instanceName = GetInstanceName(product);
-                    if (string.IsNullOrWhiteSpace(instanceName))
-                        continue;
-
-                    var vcpu = GetVCpu(product);
-                    var memory = GetMemory(product);
-                    var pricePerHour = GetPricePerHour(product);
-
-                    computeInstances!.Add(new NormalizedComputeInstanceDto
-                    {
-                        Cloud = product.VendorName,
-                        InstanceName = instanceName,
-                        Region = product.Region ?? "unknown",
-                        VCpu = vcpu,
-                        Memory = memory,
-                        PricePerHour = pricePerHour
-                    });
+                var instanceName = GetInstanceName(product);
+                if (string.IsNullOrWhiteSpace(instanceName))
                     continue;
-                }
 
-                if (needDatabases && IsDatabaseInstance(product))
+                var vcpu = GetVCpu(product);
+                var memory = GetMemory(product);
+                var pricePerHour = GetPricePerHour(product);
+
+                computeInstances!.Add(new NormalizedComputeInstanceDto
                 {
-                    var instanceName = GetInstanceName(product);
-                    if (string.IsNullOrWhiteSpace(instanceName))
-                        continue;
+                    Cloud = product.VendorName,
+                    InstanceName = instanceName,
+                    Region = product.Region ?? "unknown",
+                    VCpu = vcpu,
+                    Memory = memory,
+                    PricePerHour = pricePerHour
+                });
+                continue;
+            }
 
-                    var vcpu = GetVCpu(product);
-                    var memory = GetMemory(product);
-                    var pricePerHour = GetPricePerHour(product);
-                    var databaseEngine = GetDatabaseEngine(product);
+            // Handle Database instances (keep existing specialized logic)
+            if (needDatabases && IsDatabaseInstance(product))
+            {
+                var instanceName = GetInstanceName(product);
+                if (string.IsNullOrWhiteSpace(instanceName))
+                    continue;
 
-                    normalizedDatabases!.Add(new NormalizedDatabaseDto
-                    {
-                        Cloud = product.VendorName,
-                        InstanceName = instanceName,
-                        Region = product.Region ?? "unknown",
-                        DatabaseEngine = databaseEngine,
-                        VCpu = vcpu,
-                        Memory = memory,
-                        PricePerHour = pricePerHour
-                    });
-                }
+                var vcpu = GetVCpu(product);
+                var memory = GetMemory(product);
+                var pricePerHour = GetPricePerHour(product);
+                var databaseEngine = GetDatabaseEngine(product);
+
+                normalizedDatabases!.Add(new NormalizedDatabaseDto
+                {
+                    Cloud = product.VendorName,
+                    InstanceName = instanceName,
+                    Region = product.Region ?? "unknown",
+                    DatabaseEngine = databaseEngine,
+                    VCpu = vcpu,
+                    Memory = memory,
+                    PricePerHour = pricePerHour
+                });
+                continue;
+            }
+
+            // For all other products, use MapProductFamilyToCategoryAndSubCategory
+            var (category, subCategory) = MapProductFamilyToCategoryAndSubCategory(product.ProductFamily);
+
+            // Skip if this category is not needed
+            if (!neededResources.Contains(category))
+                continue;
+
+            // Handle all other categories with generic resource mapping
+            var resourceName = GetInstanceName(product) ?? product.Service;
+            var pricePerHourGeneric = GetPricePerHour(product);
+            
+            var normalizedResource = new NormalizedResourceDto
+            {
+                Cloud = product.VendorName,
+                Service = product.Service ?? "unknown",
+                Region = product.Region ?? "unknown",
+                Category = category,
+                SubCategory = subCategory,
+                ProductFamily = product.ProductFamily,
+                ResourceName = resourceName,
+                PricePerHour = pricePerHourGeneric,
+                Attributes = product.Attributes.ToDictionary(a => a.Key, a => a.Value)
+            };
+
+            switch (category)
+            {
+                case ResourceCategory.Storage:
+                    storageResources?.Add(normalizedResource);
+                    break;
+                case ResourceCategory.Analytics:
+                    analyticsResources?.Add(normalizedResource);
+                    break;
+                case ResourceCategory.AI:
+                    aiResources?.Add(normalizedResource);
+                    break;
+                case ResourceCategory.Security:
+                    securityResources?.Add(normalizedResource);
+                    break;
+                case ResourceCategory.ApplicationServices:
+                    applicationServicesResources?.Add(normalizedResource);
+                    break;
+                case ResourceCategory.DeveloperTools:
+                    developerToolsResources?.Add(normalizedResource);
+                    break;
+                case ResourceCategory.IoT:
+                    iotResources?.Add(normalizedResource);
+                    break;
+                case ResourceCategory.Data:
+                    dataResources?.Add(normalizedResource);
+                    break;
+                case ResourceCategory.Integration:
+                    integrationResources?.Add(normalizedResource);
+                    break;
+                case ResourceCategory.Web:
+                    webResources?.Add(normalizedResource);
+                    break;
+                case ResourceCategory.EnterpriseApplications:
+                    enterpriseApplicationsResources?.Add(normalizedResource);
+                    break;
+                case ResourceCategory.Licensing:
+                    licensingResources?.Add(normalizedResource);
+                    break;
+                case ResourceCategory.Other:
+                    otherResources?.Add(normalizedResource);
+                    break;
             }
         }
 
+        // Build category results
         if (needCompute && computeInstances!.Any())
         {
             categories[ResourceCategory.Compute] = new CategoryResourcesDto
@@ -99,16 +203,137 @@ public class ResourceNormalizationService(ICloudPricingRepository cloudPricingRe
             };
         }
 
+        if (needStorage && storageResources!.Any())
+        {
+            categories[ResourceCategory.Storage] = new CategoryResourcesDto
+            {
+                Category = ResourceCategory.Storage,
+                Storage = storageResources
+            };
+        }
+
+        if (needAnalytics && analyticsResources!.Any())
+        {
+            categories[ResourceCategory.Analytics] = new CategoryResourcesDto
+            {
+                Category = ResourceCategory.Analytics,
+                Analytics = analyticsResources
+            };
+        }
+
+        if (needAI && aiResources!.Any())
+        {
+            categories[ResourceCategory.AI] = new CategoryResourcesDto
+            {
+                Category = ResourceCategory.AI,
+                AI = aiResources
+            };
+        }
+
+        if (needSecurity && securityResources!.Any())
+        {
+            categories[ResourceCategory.Security] = new CategoryResourcesDto
+            {
+                Category = ResourceCategory.Security,
+                Security = securityResources
+            };
+        }
+
+        if (needApplicationServices && applicationServicesResources!.Any())
+        {
+            categories[ResourceCategory.ApplicationServices] = new CategoryResourcesDto
+            {
+                Category = ResourceCategory.ApplicationServices,
+                ApplicationServices = applicationServicesResources
+            };
+        }
+
+        if (needDeveloperTools && developerToolsResources!.Any())
+        {
+            categories[ResourceCategory.DeveloperTools] = new CategoryResourcesDto
+            {
+                Category = ResourceCategory.DeveloperTools,
+                DeveloperTools = developerToolsResources
+            };
+        }
+
+        if (needIoT && iotResources!.Any())
+        {
+            categories[ResourceCategory.IoT] = new CategoryResourcesDto
+            {
+                Category = ResourceCategory.IoT,
+                IoT = iotResources
+            };
+        }
+
+        if (needData && dataResources!.Any())
+        {
+            categories[ResourceCategory.Data] = new CategoryResourcesDto
+            {
+                Category = ResourceCategory.Data,
+                Data = dataResources
+            };
+        }
+
+        if (needIntegration && integrationResources!.Any())
+        {
+            categories[ResourceCategory.Integration] = new CategoryResourcesDto
+            {
+                Category = ResourceCategory.Integration,
+                Integration = integrationResources
+            };
+        }
+
+        if (needWeb && webResources!.Any())
+        {
+            categories[ResourceCategory.Web] = new CategoryResourcesDto
+            {
+                Category = ResourceCategory.Web,
+                Web = webResources
+            };
+        }
+
+        if (needEnterpriseApplications && enterpriseApplicationsResources!.Any())
+        {
+            categories[ResourceCategory.EnterpriseApplications] = new CategoryResourcesDto
+            {
+                Category = ResourceCategory.EnterpriseApplications,
+                EnterpriseApplications = enterpriseApplicationsResources
+            };
+        }
+
+        if (needLicensing && licensingResources!.Any())
+        {
+            categories[ResourceCategory.Licensing] = new CategoryResourcesDto
+            {
+                Category = ResourceCategory.Licensing,
+                Licensing = licensingResources
+            };
+        }
+
+        if (needOther && otherResources!.Any())
+        {
+            categories[ResourceCategory.Other] = new CategoryResourcesDto
+            {
+                Category = ResourceCategory.Other,
+                Other = otherResources
+            };
+        }
+
+        // Add hardcoded networking and management resources if requested
         if (neededResources.Contains(ResourceCategory.Networking))
         {
             var loadBalancers = GetNormalizedLoadBalancers(usage);
             if (loadBalancers.Any())
             {
-                categories[ResourceCategory.Networking] = new CategoryResourcesDto
+                if (!categories.ContainsKey(ResourceCategory.Networking))
                 {
-                    Category = ResourceCategory.Networking,
-                    LoadBalancers = loadBalancers
-                };
+                    categories[ResourceCategory.Networking] = new CategoryResourcesDto
+                    {
+                        Category = ResourceCategory.Networking
+                    };
+                }
+                categories[ResourceCategory.Networking].LoadBalancers = loadBalancers;
             }
         }
 
@@ -117,11 +342,14 @@ public class ResourceNormalizationService(ICloudPricingRepository cloudPricingRe
             var monitoring = GetNormalizedMonitoring(usage);
             if (monitoring.Any())
             {
-                categories[ResourceCategory.Management] = new CategoryResourcesDto
+                if (!categories.ContainsKey(ResourceCategory.Management))
                 {
-                    Category = ResourceCategory.Management,
-                    Monitoring = monitoring
-                };
+                    categories[ResourceCategory.Management] = new CategoryResourcesDto
+                    {
+                        Category = ResourceCategory.Management
+                    };
+                }
+                categories[ResourceCategory.Management].Monitoring = monitoring;
             }
         }
 

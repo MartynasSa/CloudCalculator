@@ -14,4 +14,17 @@ public class CategoryResourcesDto
     public List<NormalizedDatabaseDto> Databases { get; set; } = new();
     public List<NormalizedLoadBalancerDto> LoadBalancers { get; set; } = new();
     public List<NormalizedMonitoringDto> Monitoring { get; set; } = new();
+    public List<NormalizedResourceDto> Storage { get; set; } = new();
+    public List<NormalizedResourceDto> Analytics { get; set; } = new();
+    public List<NormalizedResourceDto> AI { get; set; } = new();
+    public List<NormalizedResourceDto> Security { get; set; } = new();
+    public List<NormalizedResourceDto> ApplicationServices { get; set; } = new();
+    public List<NormalizedResourceDto> DeveloperTools { get; set; } = new();
+    public List<NormalizedResourceDto> IoT { get; set; } = new();
+    public List<NormalizedResourceDto> Data { get; set; } = new();
+    public List<NormalizedResourceDto> Integration { get; set; } = new();
+    public List<NormalizedResourceDto> Web { get; set; } = new();
+    public List<NormalizedResourceDto> EnterpriseApplications { get; set; } = new();
+    public List<NormalizedResourceDto> Licensing { get; set; } = new();
+    public List<NormalizedResourceDto> Other { get; set; } = new();
 }

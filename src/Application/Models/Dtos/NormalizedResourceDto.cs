@@ -36,3 +36,17 @@ public class NormalizedMonitoringDto
     public required string Name { get; set; }
     public decimal? PricePerMonth { get; set; }
 }
+
+// Generic normalized resource DTO for all other resource categories
+public class NormalizedResourceDto
+{
+    public required CloudProvider Cloud { get; set; }
+    public required string Service { get; set; }
+    public required string Region { get; set; }
+    public required ResourceCategory Category { get; set; }
+    public required ResourceSubCategory SubCategory { get; set; }
+    public string? ProductFamily { get; set; }
+    public string? ResourceName { get; set; }
+    public decimal? PricePerHour { get; set; }
+    public Dictionary<string, string> Attributes { get; set; } = new();
+}
