@@ -1,0 +1,179 @@
+﻿{
+  Mappings: [
+    {
+      ProductFamily: AI + Machine Learning,
+      Category: AI,
+      SubCategory: MachineLearning
+    },
+    {
+      ProductFamily: Amazon Inspector,
+      Category: Security,
+      SubCategory: VulnerabilityScanning
+    },
+    {
+      ProductFamily: AmazonConnect,
+      Category: ApplicationServices,
+      SubCategory: ContactCenter
+    },
+    {
+      ProductFamily: Analytics,
+      Category: Analytics,
+      SubCategory: DataAnalytics
+    },
+    {
+      ProductFamily: ApplicationServices,
+      Category: ApplicationServices,
+      SubCategory: ManagedServices
+    },
+    {
+      ProductFamily: AWS Lake Formation,
+      Category: Analytics,
+      SubCategory: DataLakes
+    },
+    {
+      ProductFamily: AWS Transfer Family,
+      Category: Integration,
+      SubCategory: FileTransfer
+    },
+    {
+      ProductFamily: Azure Communication Services,
+      Category: ApplicationServices,
+      SubCategory: CommunicationServices
+    },
+    {
+      ProductFamily: Compute,
+      Category: Compute,
+      SubCategory: VirtualMachines
+    },
+    {
+      ProductFamily: Compute Instance,
+      Category: Compute,
+      SubCategory: VirtualMachines
+    },
+    {
+      ProductFamily: Compute Instance (bare metal),
+      Category: Compute,
+      SubCategory: BareMetalServers
+    },
+    {
+      ProductFamily: Containers,
+      Category: Compute,
+      SubCategory: Containers
+    },
+    {
+      ProductFamily: Data,
+      Category: Data,
+      SubCategory: DataServices
+    },
+    {
+      ProductFamily: Database Instance,
+      Category: Databases,
+      SubCategory: RelationalDatabases
+    },
+    {
+      ProductFamily: Database Storage,
+      Category: Databases,
+      SubCategory: DatabaseStorage
+    },
+    {
+      ProductFamily: Databases,
+      Category: Databases,
+      SubCategory: RelationalDatabases
+    },
+    {
+      ProductFamily: Dedicated Host,
+      Category: Compute,
+      SubCategory: DedicatedHosts
+    },
+    {
+      ProductFamily: Developer Tools,
+      Category: DeveloperTools,
+      SubCategory: Development
+    },
+    {
+      ProductFamily: Enterprise Applications,
+      Category: EnterpriseApplications,
+      SubCategory: BusinessApplications
+    },
+    {
+      ProductFamily: Integration,
+      Category: Integration,
+      SubCategory: IntegrationServices
+    },
+    {
+      ProductFamily: Internet of Things,
+      Category: IoT,
+      SubCategory: IoTServices
+    },
+    {
+      ProductFamily: IP Address,
+      Category: Networking,
+      SubCategory: IPAddresses
+    },
+    {
+      ProductFamily: License,
+      Category: Licensing,
+      SubCategory: SoftwareLicenses
+    },
+    {
+      ProductFamily: Management and Governance,
+      Category: Management,
+      SubCategory: CloudManagement
+    },
+    {
+      ProductFamily: Microsoft Syntex,
+      Category: EnterpriseApplications,
+      SubCategory: ContentServices
+    },
+    {
+      ProductFamily: Network,
+      Category: Networking,
+      SubCategory: NetworkServices
+    },
+    {
+      ProductFamily: Networking,
+      Category: Networking,
+      SubCategory: NetworkServices
+    },
+    {
+      ProductFamily: Other,
+      Category: Other,
+      SubCategory: Uncategorized
+    },
+    {
+      ProductFamily: Provisioned IOPS,
+      Category: Storage,
+      SubCategory: PerformanceStorage
+    },
+    {
+      ProductFamily: Provisioned Throughput,
+      Category: Storage,
+      SubCategory: PerformanceStorage
+    },
+    {
+      ProductFamily: Security,
+      Category: Security,
+      SubCategory: SecurityServices
+    },
+    {
+      ProductFamily: Storage,
+      Category: Storage,
+      SubCategory: BlockStorage
+    },
+    {
+      ProductFamily: System Operation,
+      Category: Management,
+      SubCategory: Operations
+    },
+    {
+      ProductFamily: Web,
+      Category: Web,
+      SubCategory: WebServices
+    },
+    {
+      ProductFamily: Web Application Firewall,
+      Category: Security,
+      SubCategory: WebApplicationFirewall
+    }
+  ]
+}

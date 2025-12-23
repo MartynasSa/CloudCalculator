@@ -8,9 +8,11 @@ public interface ICloudPricingFileFacade
     Task<PagedResult<CloudPricingProductDto>?> GetOrCreatePagedAsync(PricingRequest? pagination, CancellationToken cancellationToken);
 
     Task<DistinctFiltersDto> GetDistinctFiltersAsync(CancellationToken cancellationToken);
+
+    Task<ProductFamilyMappingsDto> GetProductFamilyMappingsAsync(CancellationToken cancellationToken);
 }
 
-public class CloudPricingFileFacade(ICloudPricingRepositoryFacade cloudPricingProvider) : ICloudPricingFileFacade
+public class CloudPricingFileFacade(ICloudPricingRepositoryFacade cloudPricingProvider, IResourceNormalizationService resourceNormalizationService) : ICloudPricingFileFacade
 {
     public async Task<PagedResult<CloudPricingProductDto>?> GetOrCreatePagedAsync(PricingRequest? pagination, CancellationToken cancellationToken)
     {
@@ -198,5 +200,10 @@ public class CloudPricingFileFacade(ICloudPricingRepositoryFacade cloudPricingPr
             return false;
 
         return true;
+    }
+
+    public async Task<ProductFamilyMappingsDto> GetProductFamilyMappingsAsync(CancellationToken cancellationToken)
+    {
+        return await resourceNormalizationService.GetProductFamilyMappingsAsync(cancellationToken);
     }
 }

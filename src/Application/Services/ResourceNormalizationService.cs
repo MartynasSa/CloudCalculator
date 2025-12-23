@@ -10,6 +10,7 @@ public interface IResourceNormalizationService
     Task<List<NormalizedDatabaseDto>> GetNormalizedDatabasesAsync(CancellationToken cancellationToken = default);
     List<NormalizedLoadBalancerDto> GetNormalizedLoadBalancers(UsageSize usage);
     List<NormalizedMonitoringDto> GetNormalizedMonitoring(UsageSize usage);
+    Task<ProductFamilyMappingsDto> GetProductFamilyMappingsAsync(CancellationToken cancellationToken = default);
 }
 
 public class ResourceNormalizationService(ICloudPricingRepository cloudPricingRepository) : IResourceNormalizationService
@@ -388,5 +389,108 @@ public class ResourceNormalizationService(ICloudPricingRepository cloudPricingRe
         });
 
         return monitoring;
+    }
+
+    public async Task<ProductFamilyMappingsDto> GetProductFamilyMappingsAsync(CancellationToken cancellationToken = default)
+    {
+        var data = await cloudPricingRepository.GetAllAsync(cancellationToken);
+        var productFamilies = data.Data.Products
+            .Select(p => p.ProductFamily)
+            .Where(pf => !string.IsNullOrWhiteSpace(pf))
+            .Distinct()
+            .OrderBy(pf => pf)
+            .ToList();
+
+        var mappings = new List<ProductFamilyMappingDto>();
+
+        foreach (var productFamily in productFamilies)
+        {
+            var (category, subCategory) = MapProductFamilyToCategoryAndSubCategory(productFamily);
+            mappings.Add(new ProductFamilyMappingDto
+            {
+                ProductFamily = productFamily,
+                Category = category,
+                SubCategory = subCategory
+            });
+        }
+
+        return new ProductFamilyMappingsDto { Mappings = mappings };
+    }
+
+    private static (string Category, string SubCategory) MapProductFamilyToCategoryAndSubCategory(string productFamily)
+    {
+        return productFamily switch
+        {
+            // Compute
+            "Compute" => ("Compute", "VirtualMachines"),
+            "Compute Instance" => ("Compute", "VirtualMachines"),
+            "Compute Instance (bare metal)" => ("Compute", "BareMetalServers"),
+            "Dedicated Host" => ("Compute", "DedicatedHosts"),
+            "Containers" => ("Compute", "Containers"),
+
+            // Databases
+            "Databases" => ("Databases", "RelationalDatabases"),
+            "Database Instance" => ("Databases", "RelationalDatabases"),
+            "Database Storage" => ("Databases", "DatabaseStorage"),
+
+            // Storage
+            "Storage" => ("Storage", "BlockStorage"),
+            "Provisioned IOPS" => ("Storage", "PerformanceStorage"),
+            "Provisioned Throughput" => ("Storage", "PerformanceStorage"),
+
+            // Networking
+            "Network" => ("Networking", "NetworkServices"),
+            "Networking" => ("Networking", "NetworkServices"),
+            "IP Address" => ("Networking", "IPAddresses"),
+
+            // Analytics
+            "Analytics" => ("Analytics", "DataAnalytics"),
+            "AWS Lake Formation" => ("Analytics", "DataLakes"),
+
+            // AI and Machine Learning
+            "AI + Machine Learning" => ("AI", "MachineLearning"),
+
+            // Security
+            "Security" => ("Security", "SecurityServices"),
+            "Amazon Inspector" => ("Security", "VulnerabilityScanning"),
+            "Web Application Firewall" => ("Security", "WebApplicationFirewall"),
+
+            // Application Services
+            "ApplicationServices" => ("ApplicationServices", "ManagedServices"),
+            "AmazonConnect" => ("ApplicationServices", "ContactCenter"),
+            "Azure Communication Services" => ("ApplicationServices", "CommunicationServices"),
+
+            // Management and Governance
+            "Management and Governance" => ("Management", "CloudManagement"),
+            "System Operation" => ("Management", "Operations"),
+
+            // Developer Tools
+            "Developer Tools" => ("DeveloperTools", "Development"),
+
+            // Internet of Things
+            "Internet of Things" => ("IoT", "IoTServices"),
+
+            // Data
+            "Data" => ("Data", "DataServices"),
+
+            // Integration
+            "Integration" => ("Integration", "IntegrationServices"),
+            "AWS Transfer Family" => ("Integration", "FileTransfer"),
+
+            // Web
+            "Web" => ("Web", "WebServices"),
+
+            // Enterprise Applications
+            "Enterprise Applications" => ("EnterpriseApplications", "BusinessApplications"),
+            "Microsoft Syntex" => ("EnterpriseApplications", "ContentServices"),
+
+            // License
+            "License" => ("Licensing", "SoftwareLicenses"),
+
+            // Other/Uncategorized
+            "Other" => ("Other", "Uncategorized"),
+
+            _ => ("Other", "Uncategorized")
+        };
     }
 }

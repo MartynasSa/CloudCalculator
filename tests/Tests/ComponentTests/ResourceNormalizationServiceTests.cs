@@ -227,4 +227,61 @@ public class ResourceNormalizationServiceTests(WebApplicationFactory<Program> fa
         Assert.Equal(6m, azureMon.PricePerMonth);
         Assert.Equal(4m, gcpMon.PricePerMonth);
     }
+
+    [Fact]
+    public async Task GetProductFamilyMappingsAsync_Returns_Mappings()
+    {
+        // Arrange
+        var service = GetService();
+
+        // Act
+        var result = await service.GetProductFamilyMappingsAsync();
+
+        // Assert
+        Assert.NotNull(result);
+        Assert.NotNull(result.Mappings);
+        Assert.NotEmpty(result.Mappings);
+
+        // Verify all mappings have required properties
+        Assert.All(result.Mappings, mapping =>
+        {
+            Assert.False(string.IsNullOrWhiteSpace(mapping.ProductFamily));
+            Assert.False(string.IsNullOrWhiteSpace(mapping.Category));
+            Assert.False(string.IsNullOrWhiteSpace(mapping.SubCategory));
+        });
+
+        await Verify(result);
+    }
+
+    [Fact]
+    public async Task GetProductFamilyMappingsAsync_ComputeInstances_MappedToCompute()
+    {
+        // Arrange
+        var service = GetService();
+
+        // Act
+        var result = await service.GetProductFamilyMappingsAsync();
+
+        // Assert
+        var computeMapping = result.Mappings.FirstOrDefault(m => m.ProductFamily == "Compute Instance");
+        Assert.NotNull(computeMapping);
+        Assert.Equal("Compute", computeMapping.Category);
+        Assert.Equal("VirtualMachines", computeMapping.SubCategory);
+    }
+
+    [Fact]
+    public async Task GetProductFamilyMappingsAsync_DatabaseInstance_MappedToDatabases()
+    {
+        // Arrange
+        var service = GetService();
+
+        // Act
+        var result = await service.GetProductFamilyMappingsAsync();
+
+        // Assert
+        var dbMapping = result.Mappings.FirstOrDefault(m => m.ProductFamily == "Database Instance");
+        Assert.NotNull(dbMapping);
+        Assert.Equal("Databases", dbMapping.Category);
+        Assert.Equal("RelationalDatabases", dbMapping.SubCategory);
+    }
 }

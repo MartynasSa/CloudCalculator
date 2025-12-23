@@ -21,4 +21,11 @@ public class CloudPricingController(ICloudPricingFileFacade cloudPricingFileFaca
         var result = await cloudPricingFileFacade.GetDistinctFiltersAsync(ct);
         return Ok(result);
     }
+
+    [HttpGet("cloud-pricing:product-family-mappings")]
+    public async Task<IActionResult> GetProductFamilyMappings(CancellationToken ct)
+    {
+        var result = await cloudPricingFileFacade.GetProductFamilyMappingsAsync(ct);
+        return Ok(result);
+    }
 }
