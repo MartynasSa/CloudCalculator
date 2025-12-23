@@ -73,6 +73,9 @@ public class TemplateFacade(IResourceNormalizationService resourceNormalizationS
             case TemplateType.ServerlessEventDriven:
                 result.LoadBalancers = GetLoadBalancers(request.Usage);
                 break;
+            case TemplateType.Blank:
+                // Blank template has no resources
+                break;
             default:
                 throw new ArgumentOutOfRangeException();
         }
