@@ -294,4 +294,107 @@ public class ResourceNormalizationServiceTests(WebApplicationFactory<Program> fa
         var managementCategory = result.Categories[ResourceCategory.Management];
         Assert.NotEmpty(managementCategory.Monitoring);
     }
+
+    [Fact]
+    public async Task GetProductFamilyMappingsAsync_Returns_All_Product_Families()
+    {
+        // Arrange
+        var service = GetService();
+
+        // Act
+        var result = await service.GetProductFamilyMappingsAsync();
+
+        // Assert
+        Assert.NotNull(result);
+        Assert.NotNull(result.Mappings);
+        Assert.NotEmpty(result.Mappings);
+
+        // Verify all mappings have required properties
+        Assert.All(result.Mappings, mapping =>
+        {
+            Assert.False(string.IsNullOrWhiteSpace(mapping.ProductFamily));
+            Assert.NotEqual(ResourceCategory.None, mapping.Category);
+            Assert.NotEqual(ResourceSubCategory.None, mapping.SubCategory);
+        });
+
+        // Verify that we have unique product families
+        var uniqueFamilies = result.Mappings.Select(m => m.ProductFamily).Distinct().Count();
+        Assert.Equal(result.Mappings.Count, uniqueFamilies);
+
+        await Verify(result);
+    }
+
+    [Fact]
+    public async Task GetProductFamilyMappingsAsync_Maps_Known_Product_Families_Correctly()
+    {
+        // Arrange
+        var service = GetService();
+
+        // Act
+        var result = await service.GetProductFamilyMappingsAsync();
+
+        // Assert
+        Assert.NotEmpty(result.Mappings);
+
+        // Check some specific mappings
+        var computeMapping = result.Mappings.FirstOrDefault(m => m.ProductFamily == "Compute Instance");
+        if (computeMapping != null)
+        {
+            Assert.Equal(ResourceCategory.Compute, computeMapping.Category);
+            Assert.Equal(ResourceSubCategory.VirtualMachines, computeMapping.SubCategory);
+        }
+
+        var databaseMapping = result.Mappings.FirstOrDefault(m => m.ProductFamily == "Database Instance");
+        if (databaseMapping != null)
+        {
+            Assert.Equal(ResourceCategory.Databases, databaseMapping.Category);
+            Assert.Equal(ResourceSubCategory.RelationalDatabases, databaseMapping.SubCategory);
+        }
+    }
+
+    [Fact]
+    public async Task ResourceSubCategory_Uses_Correct_Integer_Ranges()
+    {
+        // Arrange & Act
+        var computeSubCategories = new[]
+        {
+            ResourceSubCategory.VirtualMachines,
+            ResourceSubCategory.BareMetalServers,
+            ResourceSubCategory.DedicatedHosts,
+            ResourceSubCategory.Containers
+        };
+
+        var databaseSubCategories = new[]
+        {
+            ResourceSubCategory.RelationalDatabases,
+            ResourceSubCategory.DatabaseStorage
+        };
+
+        var storageSubCategories = new[]
+        {
+            ResourceSubCategory.BlockStorage,
+            ResourceSubCategory.PerformanceStorage
+        };
+
+        // Assert - Compute subcategories should be in range 100-199
+        Assert.All(computeSubCategories, subCat =>
+        {
+            var value = (int)subCat;
+            Assert.InRange(value, 100, 199);
+        });
+
+        // Assert - Database subcategories should be in range 200-299
+        Assert.All(databaseSubCategories, subCat =>
+        {
+            var value = (int)subCat;
+            Assert.InRange(value, 200, 299);
+        });
+
+        // Assert - Storage subcategories should be in range 300-399
+        Assert.All(storageSubCategories, subCat =>
+        {
+            var value = (int)subCat;
+            Assert.InRange(value, 300, 399);
+        });
+    }
 }

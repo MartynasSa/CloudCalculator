@@ -48,4 +48,28 @@ public class CloudPricingControllerTests(WebApplicationFactory<Program> factory)
         Assert.Contains(ResourceCategory.Networking, result.Categories.Keys);
         Assert.Contains(ResourceCategory.Management, result.Categories.Keys);
     }
+
+    [Fact]
+    public async Task Get_AllProductFamilies_Returns_Ok_With_ProductFamilyMappings()
+    {
+        var response = await Client.GetAsync("/api/cloud-pricing:all-product-families");
+        response.EnsureSuccessStatusCode();
+
+        await using var stream = await response.Content.ReadAsStreamAsync();
+        var result = await JsonSerializer.DeserializeAsync<ProductFamilyMappingsDto>(stream, JsonOptions);
+
+        Assert.NotNull(result);
+        Assert.NotNull(result.Mappings);
+        Assert.NotEmpty(result.Mappings);
+
+        // Verify all mappings have required properties
+        Assert.All(result.Mappings, mapping =>
+        {
+            Assert.False(string.IsNullOrWhiteSpace(mapping.ProductFamily));
+            Assert.NotEqual(ResourceCategory.None, mapping.Category);
+            Assert.NotEqual(ResourceSubCategory.None, mapping.SubCategory);
+        });
+
+        await Verify(result);
+    }
 }

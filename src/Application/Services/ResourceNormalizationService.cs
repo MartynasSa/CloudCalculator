@@ -7,6 +7,7 @@ namespace Application.Services;
 public interface IResourceNormalizationService
 {
     Task<CategorizedResourcesDto> GetResourcesAsync(IReadOnlyCollection<ResourceCategory> neededResources, UsageSize usage, CancellationToken cancellationToken = default);
+    Task<ProductFamilyMappingsDto> GetProductFamilyMappingsAsync(CancellationToken cancellationToken = default);
 }
 
 public class ResourceNormalizationService(ICloudPricingRepository cloudPricingRepository) : IResourceNormalizationService
@@ -410,6 +411,34 @@ public class ResourceNormalizationService(ICloudPricingRepository cloudPricingRe
         });
 
         return monitoring;
+    }
+
+    public async Task<ProductFamilyMappingsDto> GetProductFamilyMappingsAsync(CancellationToken cancellationToken = default)
+    {
+        var data = await cloudPricingRepository.GetAllAsync(cancellationToken);
+        
+        var mappings = new List<ProductFamilyMappingDto>();
+        var processedFamilies = new HashSet<string>();
+        
+        foreach (var product in data.Data.Products)
+        {
+            if (product.ProductFamily != null && !processedFamilies.Contains(product.ProductFamily))
+            {
+                processedFamilies.Add(product.ProductFamily);
+                var (category, subCategory) = MapProductFamilyToCategoryAndSubCategory(product.ProductFamily);
+                mappings.Add(new ProductFamilyMappingDto
+                {
+                    ProductFamily = product.ProductFamily,
+                    Category = category,
+                    SubCategory = subCategory
+                });
+            }
+        }
+        
+        return new ProductFamilyMappingsDto
+        {
+            Mappings = mappings.OrderBy(m => m.Category).ThenBy(m => m.SubCategory).ToList()
+        };
     }
 
     private static (ResourceCategory Category, ResourceSubCategory SubCategory) MapProductFamilyToCategoryAndSubCategory(string productFamily)
