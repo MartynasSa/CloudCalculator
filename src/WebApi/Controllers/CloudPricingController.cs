@@ -1,4 +1,5 @@
 ﻿using Application.Models.Dtos;
+using Application.Models.Enums;
 using Microsoft.AspNetCore.Mvc;
 using Application.Facade;
 
@@ -23,9 +24,15 @@ public class CloudPricingController(ICloudPricingFileFacade cloudPricingFileFaca
     }
 
     [HttpGet("cloud-pricing:product-family-mappings")]
-    public async Task<IActionResult> GetProductFamilyMappings(CancellationToken ct)
+    public async Task<IActionResult> GetProductFamilyMappings([FromQuery] UsageSize usage, CancellationToken ct)
     {
-        var result = await cloudPricingFileFacade.GetProductFamilyMappingsAsync(ct);
+        // Default to Small if not provided
+        if (usage == UsageSize.None)
+        {
+            usage = UsageSize.Small;
+        }
+        
+        var result = await cloudPricingFileFacade.GetCategorizedResourcesAsync(usage, ct);
         return Ok(result);
     }
 }

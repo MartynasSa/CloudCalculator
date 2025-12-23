@@ -11,6 +11,7 @@ public interface IResourceNormalizationService
     List<NormalizedLoadBalancerDto> GetNormalizedLoadBalancers(UsageSize usage);
     List<NormalizedMonitoringDto> GetNormalizedMonitoring(UsageSize usage);
     Task<ProductFamilyMappingsDto> GetProductFamilyMappingsAsync(CancellationToken cancellationToken = default);
+    Task<CategorizedResourcesDto> GetCategorizedResourcesAsync(UsageSize usage, CancellationToken cancellationToken = default);
 }
 
 public class ResourceNormalizationService(ICloudPricingRepository cloudPricingRepository) : IResourceNormalizationService
@@ -417,80 +418,147 @@ public class ResourceNormalizationService(ICloudPricingRepository cloudPricingRe
         return new ProductFamilyMappingsDto { Mappings = mappings };
     }
 
-    private static (string Category, string SubCategory) MapProductFamilyToCategoryAndSubCategory(string productFamily)
+    public async Task<CategorizedResourcesDto> GetCategorizedResourcesAsync(UsageSize usage, CancellationToken cancellationToken = default)
+    {
+        var computeInstances = await GetNormalizedComputeInstancesAsync(cancellationToken);
+        var databases = await GetNormalizedDatabasesAsync(cancellationToken);
+        var loadBalancers = GetNormalizedLoadBalancers(usage);
+        var monitoring = GetNormalizedMonitoring(usage);
+
+        var categories = new Dictionary<ResourceCategory, CategoryResourcesDto>();
+
+        // Add compute instances
+        if (computeInstances.Any())
+        {
+            if (!categories.ContainsKey(ResourceCategory.Compute))
+            {
+                categories[ResourceCategory.Compute] = new CategoryResourcesDto
+                {
+                    Category = ResourceCategory.Compute
+                };
+            }
+            categories[ResourceCategory.Compute].ComputeInstances = computeInstances;
+        }
+
+        // Add databases
+        if (databases.Any())
+        {
+            if (!categories.ContainsKey(ResourceCategory.Databases))
+            {
+                categories[ResourceCategory.Databases] = new CategoryResourcesDto
+                {
+                    Category = ResourceCategory.Databases
+                };
+            }
+            categories[ResourceCategory.Databases].Databases = databases;
+        }
+
+        // Add load balancers
+        if (loadBalancers.Any())
+        {
+            if (!categories.ContainsKey(ResourceCategory.Networking))
+            {
+                categories[ResourceCategory.Networking] = new CategoryResourcesDto
+                {
+                    Category = ResourceCategory.Networking
+                };
+            }
+            categories[ResourceCategory.Networking].LoadBalancers = loadBalancers;
+        }
+
+        // Add monitoring
+        if (monitoring.Any())
+        {
+            if (!categories.ContainsKey(ResourceCategory.Management))
+            {
+                categories[ResourceCategory.Management] = new CategoryResourcesDto
+                {
+                    Category = ResourceCategory.Management
+                };
+            }
+            categories[ResourceCategory.Management].Monitoring = monitoring;
+        }
+
+        return new CategorizedResourcesDto
+        {
+            Categories = categories
+        };
+    }
+
+    private static (ResourceCategory Category, ResourceSubCategory SubCategory) MapProductFamilyToCategoryAndSubCategory(string productFamily)
     {
         return productFamily switch
         {
             // Compute
-            "Compute" => ("Compute", "VirtualMachines"),
-            "Compute Instance" => ("Compute", "VirtualMachines"),
-            "Compute Instance (bare metal)" => ("Compute", "BareMetalServers"),
-            "Dedicated Host" => ("Compute", "DedicatedHosts"),
-            "Containers" => ("Compute", "Containers"),
+            "Compute" => (ResourceCategory.Compute, ResourceSubCategory.VirtualMachines),
+            "Compute Instance" => (ResourceCategory.Compute, ResourceSubCategory.VirtualMachines),
+            "Compute Instance (bare metal)" => (ResourceCategory.Compute, ResourceSubCategory.BareMetalServers),
+            "Dedicated Host" => (ResourceCategory.Compute, ResourceSubCategory.DedicatedHosts),
+            "Containers" => (ResourceCategory.Compute, ResourceSubCategory.Containers),
 
             // Databases
-            "Databases" => ("Databases", "RelationalDatabases"),
-            "Database Instance" => ("Databases", "RelationalDatabases"),
-            "Database Storage" => ("Databases", "DatabaseStorage"),
+            "Databases" => (ResourceCategory.Databases, ResourceSubCategory.RelationalDatabases),
+            "Database Instance" => (ResourceCategory.Databases, ResourceSubCategory.RelationalDatabases),
+            "Database Storage" => (ResourceCategory.Databases, ResourceSubCategory.DatabaseStorage),
 
             // Storage
-            "Storage" => ("Storage", "BlockStorage"),
-            "Provisioned IOPS" => ("Storage", "PerformanceStorage"),
-            "Provisioned Throughput" => ("Storage", "PerformanceStorage"),
+            "Storage" => (ResourceCategory.Storage, ResourceSubCategory.BlockStorage),
+            "Provisioned IOPS" => (ResourceCategory.Storage, ResourceSubCategory.PerformanceStorage),
+            "Provisioned Throughput" => (ResourceCategory.Storage, ResourceSubCategory.PerformanceStorage),
 
             // Networking
-            "Network" => ("Networking", "NetworkServices"),
-            "Networking" => ("Networking", "NetworkServices"),
-            "IP Address" => ("Networking", "IPAddresses"),
+            "Network" => (ResourceCategory.Networking, ResourceSubCategory.NetworkServices),
+            "Networking" => (ResourceCategory.Networking, ResourceSubCategory.NetworkServices),
+            "IP Address" => (ResourceCategory.Networking, ResourceSubCategory.IPAddresses),
 
             // Analytics
-            "Analytics" => ("Analytics", "DataAnalytics"),
-            "AWS Lake Formation" => ("Analytics", "DataLakes"),
+            "Analytics" => (ResourceCategory.Analytics, ResourceSubCategory.DataAnalytics),
+            "AWS Lake Formation" => (ResourceCategory.Analytics, ResourceSubCategory.DataLakes),
 
             // AI and Machine Learning
-            "AI + Machine Learning" => ("AI", "MachineLearning"),
+            "AI + Machine Learning" => (ResourceCategory.AI, ResourceSubCategory.MachineLearning),
 
             // Security
-            "Security" => ("Security", "SecurityServices"),
-            "Amazon Inspector" => ("Security", "VulnerabilityScanning"),
-            "Web Application Firewall" => ("Security", "WebApplicationFirewall"),
+            "Security" => (ResourceCategory.Security, ResourceSubCategory.SecurityServices),
+            "Amazon Inspector" => (ResourceCategory.Security, ResourceSubCategory.VulnerabilityScanning),
+            "Web Application Firewall" => (ResourceCategory.Security, ResourceSubCategory.WebApplicationFirewall),
 
             // Application Services
-            "ApplicationServices" => ("ApplicationServices", "ManagedServices"),
-            "AmazonConnect" => ("ApplicationServices", "ContactCenter"),
-            "Azure Communication Services" => ("ApplicationServices", "CommunicationServices"),
+            "ApplicationServices" => (ResourceCategory.ApplicationServices, ResourceSubCategory.ManagedServices),
+            "AmazonConnect" => (ResourceCategory.ApplicationServices, ResourceSubCategory.ContactCenter),
+            "Azure Communication Services" => (ResourceCategory.ApplicationServices, ResourceSubCategory.CommunicationServices),
 
             // Management and Governance
-            "Management and Governance" => ("Management", "CloudManagement"),
-            "System Operation" => ("Management", "Operations"),
+            "Management and Governance" => (ResourceCategory.Management, ResourceSubCategory.CloudManagement),
+            "System Operation" => (ResourceCategory.Management, ResourceSubCategory.Operations),
 
             // Developer Tools
-            "Developer Tools" => ("DeveloperTools", "Development"),
+            "Developer Tools" => (ResourceCategory.DeveloperTools, ResourceSubCategory.Development),
 
             // Internet of Things
-            "Internet of Things" => ("IoT", "IoTServices"),
+            "Internet of Things" => (ResourceCategory.IoT, ResourceSubCategory.IoTServices),
 
             // Data
-            "Data" => ("Data", "DataServices"),
+            "Data" => (ResourceCategory.Data, ResourceSubCategory.DataServices),
 
             // Integration
-            "Integration" => ("Integration", "IntegrationServices"),
-            "AWS Transfer Family" => ("Integration", "FileTransfer"),
+            "Integration" => (ResourceCategory.Integration, ResourceSubCategory.IntegrationServices),
+            "AWS Transfer Family" => (ResourceCategory.Integration, ResourceSubCategory.FileTransfer),
 
             // Web
-            "Web" => ("Web", "WebServices"),
+            "Web" => (ResourceCategory.Web, ResourceSubCategory.WebServices),
 
             // Enterprise Applications
-            "Enterprise Applications" => ("EnterpriseApplications", "BusinessApplications"),
-            "Microsoft Syntex" => ("EnterpriseApplications", "ContentServices"),
+            "Enterprise Applications" => (ResourceCategory.EnterpriseApplications, ResourceSubCategory.BusinessApplications),
+            "Microsoft Syntex" => (ResourceCategory.EnterpriseApplications, ResourceSubCategory.ContentServices),
 
             // License
-            "License" => ("Licensing", "SoftwareLicenses"),
+            "License" => (ResourceCategory.Licensing, ResourceSubCategory.SoftwareLicenses),
 
             // Other/Uncategorized
-            "Other" => ("Other", "Uncategorized"),
+            "Other" => (ResourceCategory.Other, ResourceSubCategory.Uncategorized),
 
-            _ => ("Other", "Uncategorized")
+            _ => (ResourceCategory.Other, ResourceSubCategory.Uncategorized)
         };
     }
 }
