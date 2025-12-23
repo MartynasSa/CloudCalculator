@@ -305,6 +305,14 @@ public class TemplateControllerTests(WebApplicationFactory<Program> factory) : T
         });
     }
 
+    private static void AssertEmptyTemplate(TemplateDto template)
+    {
+        Assert.True(template.VirtualMachines == null || template.VirtualMachines.Count == 0);
+        Assert.True(template.Databases == null || template.Databases.Count == 0);
+        Assert.True(template.LoadBalancers == null || template.LoadBalancers.Count == 0);
+        Assert.True(template.Monitoring == null || template.Monitoring.Count == 0);
+    }
+
     // WordPress template tests
     [Fact]
     public async Task Get_Templates_WithWordPressSmall_Returns_Template()
@@ -770,11 +778,7 @@ public class TemplateControllerTests(WebApplicationFactory<Program> factory) : T
         Assert.NotNull(template);
         Assert.Equal(TemplateType.Blank, template.Template);
         Assert.Equal(UsageSize.Small, template.Usage);
-        // Blank template has no resources
-        Assert.True(template.VirtualMachines == null || template.VirtualMachines.Count == 0);
-        Assert.True(template.Databases == null || template.Databases.Count == 0);
-        Assert.True(template.LoadBalancers == null || template.LoadBalancers.Count == 0);
-        Assert.True(template.Monitoring == null || template.Monitoring.Count == 0);
+        AssertEmptyTemplate(template);
     }
 
     [Fact]
@@ -789,10 +793,7 @@ public class TemplateControllerTests(WebApplicationFactory<Program> factory) : T
         Assert.NotNull(template);
         Assert.Equal(TemplateType.Blank, template.Template);
         Assert.Equal(UsageSize.Medium, template.Usage);
-        Assert.True(template.VirtualMachines == null || template.VirtualMachines.Count == 0);
-        Assert.True(template.Databases == null || template.Databases.Count == 0);
-        Assert.True(template.LoadBalancers == null || template.LoadBalancers.Count == 0);
-        Assert.True(template.Monitoring == null || template.Monitoring.Count == 0);
+        AssertEmptyTemplate(template);
     }
 
     [Fact]
@@ -807,9 +808,6 @@ public class TemplateControllerTests(WebApplicationFactory<Program> factory) : T
         Assert.NotNull(template);
         Assert.Equal(TemplateType.Blank, template.Template);
         Assert.Equal(UsageSize.Large, template.Usage);
-        Assert.True(template.VirtualMachines == null || template.VirtualMachines.Count == 0);
-        Assert.True(template.Databases == null || template.Databases.Count == 0);
-        Assert.True(template.LoadBalancers == null || template.LoadBalancers.Count == 0);
-        Assert.True(template.Monitoring == null || template.Monitoring.Count == 0);
+        AssertEmptyTemplate(template);
     }
 }
