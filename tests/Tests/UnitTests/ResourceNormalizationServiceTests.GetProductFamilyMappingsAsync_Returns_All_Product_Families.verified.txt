@@ -1,0 +1,179 @@
+﻿{
+  Mappings: [
+    {
+      ProductFamily: Compute Instance,
+      Category: Compute,
+      SubCategory: VirtualMachines
+    },
+    {
+      ProductFamily: Compute,
+      Category: Compute,
+      SubCategory: VirtualMachines
+    },
+    {
+      ProductFamily: Compute Instance (bare metal),
+      Category: Compute,
+      SubCategory: BareMetalServers
+    },
+    {
+      ProductFamily: Dedicated Host,
+      Category: Compute,
+      SubCategory: DedicatedHosts
+    },
+    {
+      ProductFamily: Containers,
+      Category: Compute,
+      SubCategory: Containers
+    },
+    {
+      ProductFamily: Database Instance,
+      Category: Databases,
+      SubCategory: RelationalDatabases
+    },
+    {
+      ProductFamily: Databases,
+      Category: Databases,
+      SubCategory: RelationalDatabases
+    },
+    {
+      ProductFamily: Database Storage,
+      Category: Databases,
+      SubCategory: DatabaseStorage
+    },
+    {
+      ProductFamily: Storage,
+      Category: Storage,
+      SubCategory: BlockStorage
+    },
+    {
+      ProductFamily: Provisioned Throughput,
+      Category: Storage,
+      SubCategory: PerformanceStorage
+    },
+    {
+      ProductFamily: Provisioned IOPS,
+      Category: Storage,
+      SubCategory: PerformanceStorage
+    },
+    {
+      ProductFamily: Networking,
+      Category: Networking,
+      SubCategory: NetworkServices
+    },
+    {
+      ProductFamily: Network,
+      Category: Networking,
+      SubCategory: NetworkServices
+    },
+    {
+      ProductFamily: IP Address,
+      Category: Networking,
+      SubCategory: IPAddresses
+    },
+    {
+      ProductFamily: Analytics,
+      Category: Analytics,
+      SubCategory: DataAnalytics
+    },
+    {
+      ProductFamily: AWS Lake Formation,
+      Category: Analytics,
+      SubCategory: DataLakes
+    },
+    {
+      ProductFamily: AI + Machine Learning,
+      Category: AI,
+      SubCategory: MachineLearning
+    },
+    {
+      ProductFamily: Security,
+      Category: Security,
+      SubCategory: SecurityServices
+    },
+    {
+      ProductFamily: Amazon Inspector,
+      Category: Security,
+      SubCategory: VulnerabilityScanning
+    },
+    {
+      ProductFamily: Web Application Firewall,
+      Category: Security,
+      SubCategory: WebApplicationFirewall
+    },
+    {
+      ProductFamily: ApplicationServices,
+      Category: ApplicationServices,
+      SubCategory: ManagedServices
+    },
+    {
+      ProductFamily: AmazonConnect,
+      Category: ApplicationServices,
+      SubCategory: ContactCenter
+    },
+    {
+      ProductFamily: Azure Communication Services,
+      Category: ApplicationServices,
+      SubCategory: CommunicationServices
+    },
+    {
+      ProductFamily: Management and Governance,
+      Category: Management,
+      SubCategory: CloudManagement
+    },
+    {
+      ProductFamily: System Operation,
+      Category: Management,
+      SubCategory: Operations
+    },
+    {
+      ProductFamily: Developer Tools,
+      Category: DeveloperTools,
+      SubCategory: Development
+    },
+    {
+      ProductFamily: Internet of Things,
+      Category: IoT,
+      SubCategory: IoTServices
+    },
+    {
+      ProductFamily: Data,
+      Category: Data,
+      SubCategory: DataServices
+    },
+    {
+      ProductFamily: Integration,
+      Category: Integration,
+      SubCategory: IntegrationServices
+    },
+    {
+      ProductFamily: AWS Transfer Family,
+      Category: Integration,
+      SubCategory: FileTransfer
+    },
+    {
+      ProductFamily: Web,
+      Category: Web,
+      SubCategory: WebServices
+    },
+    {
+      ProductFamily: Enterprise Applications,
+      Category: EnterpriseApplications,
+      SubCategory: BusinessApplications
+    },
+    {
+      ProductFamily: Microsoft Syntex,
+      Category: EnterpriseApplications,
+      SubCategory: ContentServices
+    },
+    {
+      ProductFamily: License,
+      Category: Licensing,
+      SubCategory: SoftwareLicenses
+    },
+    {
+      ProductFamily: Other,
+      Category: Other,
+      SubCategory: Uncategorized
+    }
+  ]
+}
