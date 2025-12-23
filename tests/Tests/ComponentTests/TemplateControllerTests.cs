@@ -305,6 +305,14 @@ public class TemplateControllerTests(WebApplicationFactory<Program> factory) : T
         });
     }
 
+    private static void AssertEmptyTemplate(TemplateDto template)
+    {
+        Assert.True(template.VirtualMachines == null || template.VirtualMachines.Count == 0);
+        Assert.True(template.Databases == null || template.Databases.Count == 0);
+        Assert.True(template.LoadBalancers == null || template.LoadBalancers.Count == 0);
+        Assert.True(template.Monitoring == null || template.Monitoring.Count == 0);
+    }
+
     // WordPress template tests
     [Fact]
     public async Task Get_Templates_WithWordPressSmall_Returns_Template()
@@ -755,5 +763,51 @@ public class TemplateControllerTests(WebApplicationFactory<Program> factory) : T
         Assert.NotNull(template);
         Assert.Equal(TemplateType.ServerlessEventDriven, template.Template);
         Assert.Equal(UsageSize.Large, template.Usage);
+    }
+
+    // Blank template tests
+    [Fact]
+    public async Task Get_Templates_WithBlankSmall_Returns_Empty_Template()
+    {
+        var response = await Client.GetAsync("/api/templates?template=blank&usage=small");
+        response.EnsureSuccessStatusCode();
+
+        await using var stream = await response.Content.ReadAsStreamAsync();
+        var template = await JsonSerializer.DeserializeAsync<TemplateDto>(stream, JsonOptions);
+
+        Assert.NotNull(template);
+        Assert.Equal(TemplateType.Blank, template.Template);
+        Assert.Equal(UsageSize.Small, template.Usage);
+        AssertEmptyTemplate(template);
+    }
+
+    [Fact]
+    public async Task Get_Templates_WithBlankMedium_Returns_Empty_Template()
+    {
+        var response = await Client.GetAsync("/api/templates?template=blank&usage=medium");
+        response.EnsureSuccessStatusCode();
+
+        await using var stream = await response.Content.ReadAsStreamAsync();
+        var template = await JsonSerializer.DeserializeAsync<TemplateDto>(stream, JsonOptions);
+
+        Assert.NotNull(template);
+        Assert.Equal(TemplateType.Blank, template.Template);
+        Assert.Equal(UsageSize.Medium, template.Usage);
+        AssertEmptyTemplate(template);
+    }
+
+    [Fact]
+    public async Task Get_Templates_WithBlankLarge_Returns_Empty_Template()
+    {
+        var response = await Client.GetAsync("/api/templates?template=blank&usage=large");
+        response.EnsureSuccessStatusCode();
+
+        await using var stream = await response.Content.ReadAsStreamAsync();
+        var template = await JsonSerializer.DeserializeAsync<TemplateDto>(stream, JsonOptions);
+
+        Assert.NotNull(template);
+        Assert.Equal(TemplateType.Blank, template.Template);
+        Assert.Equal(UsageSize.Large, template.Usage);
+        AssertEmptyTemplate(template);
     }
 }

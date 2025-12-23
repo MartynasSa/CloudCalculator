@@ -28,6 +28,8 @@ public enum TemplateType
     MachineLearning = 9,
     [EnumMember(Value = "serverless_event_driven")]
     ServerlessEventDriven = 10,
+    [EnumMember(Value = "blank")]
+    Blank = 11,
 }
 
 [TypeConverter(typeof(EnumMemberTypeConverter<UsageSize>))]
