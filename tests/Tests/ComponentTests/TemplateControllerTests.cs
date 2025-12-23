@@ -13,13 +13,13 @@ public class TemplateControllerTests(WebApplicationFactory<Program> factory) : T
     {
         PropertyNameCaseInsensitive = true,
         AllowTrailingCommas = true,
-        Converters = { new JsonStringEnumConverter(JsonNamingPolicy.CamelCase) }
+        Converters = { new System.Text.Json.Serialization.JsonStringEnumMemberConverter() }
     };
 
     [Fact]
     public async Task Get_Templates_WithSaasSmall_Returns_Template_With_VirtualMachines()
     {
-        var response = await Client.GetAsync("/api/templates?template=1&usage=1");
+        var response = await Client.GetAsync("/api/templates?template=saas&usage=small");
         response.EnsureSuccessStatusCode();
 
         await using var stream = await response.Content.ReadAsStreamAsync();
@@ -38,7 +38,7 @@ public class TemplateControllerTests(WebApplicationFactory<Program> factory) : T
     [Fact]
     public async Task Get_Templates_WithSaasMedium_Returns_Template_With_VirtualMachines()
     {
-        var response = await Client.GetAsync("/api/templates?template=1&usage=2");
+        var response = await Client.GetAsync("/api/templates?template=saas&usage=medium");
         response.EnsureSuccessStatusCode();
 
         await using var stream = await response.Content.ReadAsStreamAsync();
@@ -57,7 +57,7 @@ public class TemplateControllerTests(WebApplicationFactory<Program> factory) : T
     [Fact]
     public async Task Get_Templates_WithSaasLarge_Returns_Template_With_VirtualMachines()
     {
-        var response = await Client.GetAsync("/api/templates?template=1&usage=3");
+        var response = await Client.GetAsync("/api/templates?template=saas&usage=large");
         response.EnsureSuccessStatusCode();
 
         await using var stream = await response.Content.ReadAsStreamAsync();
@@ -74,12 +74,12 @@ public class TemplateControllerTests(WebApplicationFactory<Program> factory) : T
     }
 
     [Theory]
-    [InlineData(1)]
-    [InlineData(2)]
-    [InlineData(3)]
-    public async Task Get_Templates_WithSaasAllGranularities_Returns_All_CloudProviders(int usage)
+    [InlineData("small")]
+    [InlineData("medium")]
+    [InlineData("large")]
+    public async Task Get_Templates_WithSaasAllGranularities_Returns_All_CloudProviders(string usage)
     {
-        var response = await Client.GetAsync($"/api/templates?template=1&usage={usage}");
+        var response = await Client.GetAsync($"/api/templates?template=saas&usage={usage}");
         response.EnsureSuccessStatusCode();
 
         await using var stream = await response.Content.ReadAsStreamAsync();
@@ -107,7 +107,7 @@ public class TemplateControllerTests(WebApplicationFactory<Program> factory) : T
     [Fact]
     public async Task Get_Templates_WithSaasSmall_Databases_Have_DatabaseEngine()
     {
-        var response = await Client.GetAsync("/api/templates?template=1&usage=1");
+        var response = await Client.GetAsync("/api/templates?template=saas&usage=small");
         response.EnsureSuccessStatusCode();
 
         await using var stream = await response.Content.ReadAsStreamAsync();
@@ -127,7 +127,7 @@ public class TemplateControllerTests(WebApplicationFactory<Program> factory) : T
     [Fact]
     public async Task Get_Templates_WithSaasSmall_Instances_Have_Required_Properties()
     {
-        var response = await Client.GetAsync("/api/templates?template=1&usage=1");
+        var response = await Client.GetAsync("/api/templates?template=saas&usage=small");
         response.EnsureSuccessStatusCode();
 
         await using var stream = await response.Content.ReadAsStreamAsync();
@@ -148,7 +148,7 @@ public class TemplateControllerTests(WebApplicationFactory<Program> factory) : T
     [Fact]
     public async Task Get_Templates_WithInvalidTemplate_Returns_BadRequest()
     {
-        var response = await Client.GetAsync("/api/templates?template=999&usage=1");
+        var response = await Client.GetAsync("/api/templates?template=invalid&usage=small");
 
         Assert.Equal(HttpStatusCode.BadRequest, response.StatusCode);
     }
@@ -164,7 +164,7 @@ public class TemplateControllerTests(WebApplicationFactory<Program> factory) : T
     [Fact]
     public async Task Get_Templates_WithSaasSmall_VM_Prices_Are_Reasonable()
     {
-        var response = await Client.GetAsync("/api/templates?template=1&usage=1");
+        var response = await Client.GetAsync("/api/templates?template=saas&usage=small");
         response.EnsureSuccessStatusCode();
 
         await using var stream = await response.Content.ReadAsStreamAsync();
@@ -185,7 +185,7 @@ public class TemplateControllerTests(WebApplicationFactory<Program> factory) : T
     [Fact]
     public async Task Get_Templates_WithSaasSmall_Has_LoadBalancers_And_Monitoring()
     {
-        var response = await Client.GetAsync("/api/templates?template=1&usage=1");
+        var response = await Client.GetAsync("/api/templates?template=saas&usage=small");
         response.EnsureSuccessStatusCode();
 
         await using var stream = await response.Content.ReadAsStreamAsync();
@@ -208,7 +208,7 @@ public class TemplateControllerTests(WebApplicationFactory<Program> factory) : T
     [Fact]
     public async Task Get_Templates_WithSaasSmall_LoadBalancers_Have_Correct_Pricing()
     {
-        var response = await Client.GetAsync("/api/templates?template=1&usage=1");
+        var response = await Client.GetAsync("/api/templates?template=saas&usage=small");
         response.EnsureSuccessStatusCode();
 
         await using var stream = await response.Content.ReadAsStreamAsync();
@@ -229,7 +229,7 @@ public class TemplateControllerTests(WebApplicationFactory<Program> factory) : T
     [Fact]
     public async Task Get_Templates_WithSaasSmall_Monitoring_Has_Correct_Pricing()
     {
-        var response = await Client.GetAsync("/api/templates?template=1&usage=1");
+        var response = await Client.GetAsync("/api/templates?template=saas&usage=small");
         response.EnsureSuccessStatusCode();
 
         await using var stream = await response.Content.ReadAsStreamAsync();
@@ -309,7 +309,7 @@ public class TemplateControllerTests(WebApplicationFactory<Program> factory) : T
     [Fact]
     public async Task Get_Templates_WithWordPressSmall_Returns_Template()
     {
-        var response = await Client.GetAsync("/api/templates?template=2&usage=1");
+        var response = await Client.GetAsync("/api/templates?template=wordpress&usage=small");
         response.EnsureSuccessStatusCode();
 
         await using var stream = await response.Content.ReadAsStreamAsync();
@@ -329,7 +329,7 @@ public class TemplateControllerTests(WebApplicationFactory<Program> factory) : T
     [Fact]
     public async Task Get_Templates_WithWordPressMedium_Returns_Template()
     {
-        var response = await Client.GetAsync("/api/templates?template=2&usage=2");
+        var response = await Client.GetAsync("/api/templates?template=wordpress&usage=medium");
         response.EnsureSuccessStatusCode();
 
         await using var stream = await response.Content.ReadAsStreamAsync();
@@ -343,7 +343,7 @@ public class TemplateControllerTests(WebApplicationFactory<Program> factory) : T
     [Fact]
     public async Task Get_Templates_WithWordPressLarge_Returns_Template()
     {
-        var response = await Client.GetAsync("/api/templates?template=2&usage=3");
+        var response = await Client.GetAsync("/api/templates?template=wordpress&usage=large");
         response.EnsureSuccessStatusCode();
 
         await using var stream = await response.Content.ReadAsStreamAsync();
@@ -358,7 +358,7 @@ public class TemplateControllerTests(WebApplicationFactory<Program> factory) : T
     [Fact]
     public async Task Get_Templates_WithRestApiSmall_Returns_Template()
     {
-        var response = await Client.GetAsync("/api/templates?template=3&usage=1");
+        var response = await Client.GetAsync("/api/templates?template=rest_api&usage=small");
         response.EnsureSuccessStatusCode();
 
         await using var stream = await response.Content.ReadAsStreamAsync();
@@ -380,7 +380,7 @@ public class TemplateControllerTests(WebApplicationFactory<Program> factory) : T
     [Fact]
     public async Task Get_Templates_WithRestApiMedium_Returns_Template()
     {
-        var response = await Client.GetAsync("/api/templates?template=3&usage=2");
+        var response = await Client.GetAsync("/api/templates?template=rest_api&usage=medium");
         response.EnsureSuccessStatusCode();
 
         await using var stream = await response.Content.ReadAsStreamAsync();
@@ -394,7 +394,7 @@ public class TemplateControllerTests(WebApplicationFactory<Program> factory) : T
     [Fact]
     public async Task Get_Templates_WithRestApiLarge_Returns_Template()
     {
-        var response = await Client.GetAsync("/api/templates?template=3&usage=3");
+        var response = await Client.GetAsync("/api/templates?template=rest_api&usage=large");
         response.EnsureSuccessStatusCode();
 
         await using var stream = await response.Content.ReadAsStreamAsync();
@@ -409,7 +409,7 @@ public class TemplateControllerTests(WebApplicationFactory<Program> factory) : T
     [Fact]
     public async Task Get_Templates_WithStaticSiteSmall_Returns_Template()
     {
-        var response = await Client.GetAsync("/api/templates?template=4&usage=1");
+        var response = await Client.GetAsync("/api/templates?template=static_site&usage=small");
         response.EnsureSuccessStatusCode();
 
         await using var stream = await response.Content.ReadAsStreamAsync();
@@ -428,7 +428,7 @@ public class TemplateControllerTests(WebApplicationFactory<Program> factory) : T
     [Fact]
     public async Task Get_Templates_WithStaticSiteMedium_Returns_Template()
     {
-        var response = await Client.GetAsync("/api/templates?template=4&usage=2");
+        var response = await Client.GetAsync("/api/templates?template=static_site&usage=medium");
         response.EnsureSuccessStatusCode();
 
         await using var stream = await response.Content.ReadAsStreamAsync();
@@ -442,7 +442,7 @@ public class TemplateControllerTests(WebApplicationFactory<Program> factory) : T
     [Fact]
     public async Task Get_Templates_WithStaticSiteLarge_Returns_Template()
     {
-        var response = await Client.GetAsync("/api/templates?template=4&usage=3");
+        var response = await Client.GetAsync("/api/templates?template=static_site&usage=large");
         response.EnsureSuccessStatusCode();
 
         await using var stream = await response.Content.ReadAsStreamAsync();
@@ -457,7 +457,7 @@ public class TemplateControllerTests(WebApplicationFactory<Program> factory) : T
     [Fact]
     public async Task Get_Templates_WithEcommerceSmall_Returns_Template()
     {
-        var response = await Client.GetAsync("/api/templates?template=5&usage=1");
+        var response = await Client.GetAsync("/api/templates?template=ecommerce&usage=small");
         response.EnsureSuccessStatusCode();
 
         await using var stream = await response.Content.ReadAsStreamAsync();
@@ -479,7 +479,7 @@ public class TemplateControllerTests(WebApplicationFactory<Program> factory) : T
     [Fact]
     public async Task Get_Templates_WithEcommerceMedium_Returns_Template()
     {
-        var response = await Client.GetAsync("/api/templates?template=5&usage=2");
+        var response = await Client.GetAsync("/api/templates?template=ecommerce&usage=medium");
         response.EnsureSuccessStatusCode();
 
         await using var stream = await response.Content.ReadAsStreamAsync();
@@ -493,7 +493,7 @@ public class TemplateControllerTests(WebApplicationFactory<Program> factory) : T
     [Fact]
     public async Task Get_Templates_WithEcommerceLarge_Returns_Template()
     {
-        var response = await Client.GetAsync("/api/templates?template=5&usage=3");
+        var response = await Client.GetAsync("/api/templates?template=ecommerce&usage=large");
         response.EnsureSuccessStatusCode();
 
         await using var stream = await response.Content.ReadAsStreamAsync();
@@ -508,7 +508,7 @@ public class TemplateControllerTests(WebApplicationFactory<Program> factory) : T
     [Fact]
     public async Task Get_Templates_WithMobileAppBackendSmall_Returns_Template()
     {
-        var response = await Client.GetAsync("/api/templates?template=6&usage=1");
+        var response = await Client.GetAsync("/api/templates?template=mobile_app_backend&usage=small");
         response.EnsureSuccessStatusCode();
 
         await using var stream = await response.Content.ReadAsStreamAsync();
@@ -530,7 +530,7 @@ public class TemplateControllerTests(WebApplicationFactory<Program> factory) : T
     [Fact]
     public async Task Get_Templates_WithMobileAppBackendMedium_Returns_Template()
     {
-        var response = await Client.GetAsync("/api/templates?template=6&usage=2");
+        var response = await Client.GetAsync("/api/templates?template=mobile_app_backend&usage=medium");
         response.EnsureSuccessStatusCode();
 
         await using var stream = await response.Content.ReadAsStreamAsync();
@@ -544,7 +544,7 @@ public class TemplateControllerTests(WebApplicationFactory<Program> factory) : T
     [Fact]
     public async Task Get_Templates_WithMobileAppBackendLarge_Returns_Template()
     {
-        var response = await Client.GetAsync("/api/templates?template=6&usage=3");
+        var response = await Client.GetAsync("/api/templates?template=mobile_app_backend&usage=large");
         response.EnsureSuccessStatusCode();
 
         await using var stream = await response.Content.ReadAsStreamAsync();
@@ -559,7 +559,7 @@ public class TemplateControllerTests(WebApplicationFactory<Program> factory) : T
     [Fact]
     public async Task Get_Templates_WithHeadlessFrontendApiSmall_Returns_Template()
     {
-        var response = await Client.GetAsync("/api/templates?template=7&usage=1");
+        var response = await Client.GetAsync("/api/templates?template=headless_frontend_api&usage=small");
         response.EnsureSuccessStatusCode();
 
         await using var stream = await response.Content.ReadAsStreamAsync();
@@ -581,7 +581,7 @@ public class TemplateControllerTests(WebApplicationFactory<Program> factory) : T
     [Fact]
     public async Task Get_Templates_WithHeadlessFrontendApiMedium_Returns_Template()
     {
-        var response = await Client.GetAsync("/api/templates?template=7&usage=2");
+        var response = await Client.GetAsync("/api/templates?template=headless_frontend_api&usage=medium");
         response.EnsureSuccessStatusCode();
 
         await using var stream = await response.Content.ReadAsStreamAsync();
@@ -595,7 +595,7 @@ public class TemplateControllerTests(WebApplicationFactory<Program> factory) : T
     [Fact]
     public async Task Get_Templates_WithHeadlessFrontendApiLarge_Returns_Template()
     {
-        var response = await Client.GetAsync("/api/templates?template=7&usage=3");
+        var response = await Client.GetAsync("/api/templates?template=headless_frontend_api&usage=large");
         response.EnsureSuccessStatusCode();
 
         await using var stream = await response.Content.ReadAsStreamAsync();
@@ -610,7 +610,7 @@ public class TemplateControllerTests(WebApplicationFactory<Program> factory) : T
     [Fact]
     public async Task Get_Templates_WithDataAnalyticsSmall_Returns_Template()
     {
-        var response = await Client.GetAsync("/api/templates?template=8&usage=1");
+        var response = await Client.GetAsync("/api/templates?template=data_analytics&usage=small");
         response.EnsureSuccessStatusCode();
 
         await using var stream = await response.Content.ReadAsStreamAsync();
@@ -632,7 +632,7 @@ public class TemplateControllerTests(WebApplicationFactory<Program> factory) : T
     [Fact]
     public async Task Get_Templates_WithDataAnalyticsMedium_Returns_Template()
     {
-        var response = await Client.GetAsync("/api/templates?template=8&usage=2");
+        var response = await Client.GetAsync("/api/templates?template=data_analytics&usage=medium");
         response.EnsureSuccessStatusCode();
 
         await using var stream = await response.Content.ReadAsStreamAsync();
@@ -646,7 +646,7 @@ public class TemplateControllerTests(WebApplicationFactory<Program> factory) : T
     [Fact]
     public async Task Get_Templates_WithDataAnalyticsLarge_Returns_Template()
     {
-        var response = await Client.GetAsync("/api/templates?template=8&usage=3");
+        var response = await Client.GetAsync("/api/templates?template=data_analytics&usage=large");
         response.EnsureSuccessStatusCode();
 
         await using var stream = await response.Content.ReadAsStreamAsync();
@@ -661,7 +661,7 @@ public class TemplateControllerTests(WebApplicationFactory<Program> factory) : T
     [Fact]
     public async Task Get_Templates_WithMachineLearningSmall_Returns_Template()
     {
-        var response = await Client.GetAsync("/api/templates?template=9&usage=1");
+        var response = await Client.GetAsync("/api/templates?template=machine_learning&usage=small");
         response.EnsureSuccessStatusCode();
 
         await using var stream = await response.Content.ReadAsStreamAsync();
@@ -683,7 +683,7 @@ public class TemplateControllerTests(WebApplicationFactory<Program> factory) : T
     [Fact]
     public async Task Get_Templates_WithMachineLearningMedium_Returns_Template()
     {
-        var response = await Client.GetAsync("/api/templates?template=9&usage=2");
+        var response = await Client.GetAsync("/api/templates?template=machine_learning&usage=medium");
         response.EnsureSuccessStatusCode();
 
         await using var stream = await response.Content.ReadAsStreamAsync();
@@ -697,7 +697,7 @@ public class TemplateControllerTests(WebApplicationFactory<Program> factory) : T
     [Fact]
     public async Task Get_Templates_WithMachineLearningLarge_Returns_Template()
     {
-        var response = await Client.GetAsync("/api/templates?template=9&usage=3");
+        var response = await Client.GetAsync("/api/templates?template=machine_learning&usage=large");
         response.EnsureSuccessStatusCode();
 
         await using var stream = await response.Content.ReadAsStreamAsync();
@@ -712,7 +712,7 @@ public class TemplateControllerTests(WebApplicationFactory<Program> factory) : T
     [Fact]
     public async Task Get_Templates_WithServerlessEventDrivenSmall_Returns_Template()
     {
-        var response = await Client.GetAsync("/api/templates?template=10&usage=1");
+        var response = await Client.GetAsync("/api/templates?template=serverless_event_driven&usage=small");
         response.EnsureSuccessStatusCode();
 
         await using var stream = await response.Content.ReadAsStreamAsync();
@@ -732,7 +732,7 @@ public class TemplateControllerTests(WebApplicationFactory<Program> factory) : T
     [Fact]
     public async Task Get_Templates_WithServerlessEventDrivenMedium_Returns_Template()
     {
-        var response = await Client.GetAsync("/api/templates?template=10&usage=2");
+        var response = await Client.GetAsync("/api/templates?template=serverless_event_driven&usage=medium");
         response.EnsureSuccessStatusCode();
 
         await using var stream = await response.Content.ReadAsStreamAsync();
@@ -746,7 +746,7 @@ public class TemplateControllerTests(WebApplicationFactory<Program> factory) : T
     [Fact]
     public async Task Get_Templates_WithServerlessEventDrivenLarge_Returns_Template()
     {
-        var response = await Client.GetAsync("/api/templates?template=10&usage=3");
+        var response = await Client.GetAsync("/api/templates?template=serverless_event_driven&usage=large");
         response.EnsureSuccessStatusCode();
 
         await using var stream = await response.Content.ReadAsStreamAsync();
