@@ -13,4 +13,11 @@ public class CloudPricingController(ICloudPricingFileFacade cloudPricingFileFaca
         var result = await cloudPricingFileFacade.GetCategorizedResourcesAsync(usage ?? UsageSize.Small, ct);
         return Ok(result);
     }
+
+    [HttpGet("cloud-pricing:all-product-families")]
+    public async Task<IActionResult> GetAllProductFamilies(CancellationToken ct)
+    {
+        var result = await cloudPricingFileFacade.GetProductFamilyMappingsAsync(ct);
+        return Ok(result);
+    }
 }
