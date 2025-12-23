@@ -24,7 +24,7 @@ public class ResourceNormalizationService(ICloudPricingRepository cloudPricingRe
 
         var categories = new Dictionary<ResourceCategory, CategoryResourcesDto>();
 
-        // Initialize lists for all needed categories
+        // Initialize lists for all resource categories requested in neededResources parameter
         var needCompute = neededResources.Contains(ResourceCategory.Compute);
         var needDatabases = neededResources.Contains(ResourceCategory.Databases);
         var needStorage = neededResources.Contains(ResourceCategory.Storage);
@@ -321,6 +321,7 @@ public class ResourceNormalizationService(ICloudPricingRepository cloudPricingRe
         }
 
         // Add hardcoded networking and management resources if requested
+        // These resources are computed on-demand based on usage size rather than loaded from JSON files
         if (neededResources.Contains(ResourceCategory.Networking))
         {
             var loadBalancers = GetNormalizedLoadBalancers(usage);

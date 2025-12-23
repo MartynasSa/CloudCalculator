@@ -37,7 +37,10 @@ public class NormalizedMonitoringDto
     public decimal? PricePerMonth { get; set; }
 }
 
-// Generic normalized resource DTO for all other resource categories
+// Generic normalized resource DTO for resource categories that don't have specialized DTOs.
+// Compute and Database instances use NormalizedComputeInstanceDto and NormalizedDatabaseDto respectively.
+// This DTO is used for: Storage, Analytics, AI, Security, ApplicationServices, DeveloperTools, 
+// IoT, Data, Integration, Web, EnterpriseApplications, Licensing, and Other categories.
 public class NormalizedResourceDto
 {
     public required CloudProvider Cloud { get; set; }
