@@ -57,36 +57,3 @@ public enum CloudProvider
     [EnumMember(Value = "gcp")]
     GCP,
 }
-
-public enum CloudCategory
-{
-    None = 0,
-    Compute,
-    Database,
-    Networking,
-    Monitoring,
-}
-
-public enum ComputeType
-{
-    None = 0,
-    VM = 1,
-}
-
-public enum DatabaseType
-{
-    None = 0,
-    PostgreSQL = 1,
-}
-
-public enum NetworkingType
-{
-    None = 0,
-    LoadBalancer = 1,
-}
-
-public enum MonitoringType
-{
-    None = 0,
-    ApplicationMonitoring = 1,
-}
