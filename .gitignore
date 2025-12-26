@@ -346,3 +346,7 @@ healthchecksdb
 *.db
 /src/WebApi/private-tact.pem
 /src/WebApi/public-tact.pem
+
+# Verify snapshot test files
+*.received.txt
+*.received.json
