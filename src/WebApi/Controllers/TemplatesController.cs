@@ -22,8 +22,13 @@ public class TemplatesController(ITemplateFacade templateFacade) : Controller
     }
 
     [HttpPost("templates/cost-comparison")]
-    public async Task<IActionResult> GetCostComparison([FromBody] CostCalcualtor templateDto, CancellationToken ct)
+    public async Task<IActionResult> GetCostComparison([FromBody] TemplateDto templateDto, CancellationToken ct)
     {
+        if (templateDto.Template == TemplateType.None || templateDto.Usage == UsageSize.None)
+        {
+            return BadRequest("Template and Usage must be specified with valid values");
+        }
+        
         var result = await templateFacade.CalculateCostComparisonsAsync(templateDto, ct);
         return Ok(result);
     }
