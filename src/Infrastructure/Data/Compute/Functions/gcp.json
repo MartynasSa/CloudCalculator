@@ -1,0 +1,88 @@
+{
+  "data": {
+    "products": [
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Network Internet Data Transfer Out (2nd Gen) North America to North America"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "PremiumInternetEgress"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Cloud Functions",
+        "region": "us-east1",
+        "productFamily": "Network",
+        "prices": [
+          {
+            "USD": "0.105",
+            "unit": "gibibyte"
+          },
+          {
+            "USD": "0.06",
+            "unit": "gibibyte"
+          },
+          {
+            "USD": "0",
+            "unit": "gibibyte"
+          },
+          {
+            "USD": "0.08",
+            "unit": "gibibyte"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Network Inter Region Data Transfer Out (2nd Gen) North America to North America"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "InterregionEgress"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Cloud Functions",
+        "region": "us-east1",
+        "productFamily": "Network",
+        "prices": [
+          {
+            "USD": "0.01",
+            "unit": "gibibyte"
+          },
+          {
+            "USD": "0",
+            "unit": "gibibyte"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Network Data Transfer Out (2nd Gen) via Carrier Peering Network - North America Based"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "PeeringOrInterconnectEgress"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Cloud Functions",
+        "region": "us-east1",
+        "productFamily": "Network",
+        "prices": [
+          {
+            "USD": "0.02",
+            "unit": "gibibyte"
+          }
+        ]
+      }
+    ]
+  }
+}

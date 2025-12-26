@@ -1,0 +1,1254 @@
+{
+  "data": {
+    "products": [
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Autopilot Scale-Out Arm Pod Memory Requests (us-east1)"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "Kubernetes"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Kubernetes Engine",
+        "region": "us-east1",
+        "productFamily": "Compute",
+        "prices": [
+          {
+            "USD": "0.003938",
+            "unit": "gibibyte hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Autopilot Scale-Out Arm Spot Pod mCPU Requests (us-east1)"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "Kubernetes"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Kubernetes Engine",
+        "region": "us-east1",
+        "productFamily": "Compute",
+        "prices": []
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Autopilot Scale-Out Arm Spot Pod Memory Requests (us-east1)"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "Kubernetes"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Kubernetes Engine",
+        "region": "us-east1",
+        "productFamily": "Compute",
+        "prices": []
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Autopilot Scale-Out Arm Pod mCPU Requests (us-east1)"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "Kubernetes"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Kubernetes Engine",
+        "region": "us-east1",
+        "productFamily": "Compute",
+        "prices": [
+          {
+            "USD": "0.0000356",
+            "unit": "hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Autopilot GPU Pod Local SSD (us-east1)"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "Kubernetes"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Kubernetes Engine",
+        "region": "us-east1",
+        "productFamily": "Compute",
+        "prices": [
+          {
+            "USD": "0.088",
+            "unit": "gibibyte hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Autopilot PD Balanced Premium (us-east1)"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "Kubernetes"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Kubernetes Engine",
+        "region": "us-east1",
+        "productFamily": "Compute",
+        "prices": [
+          {
+            "USD": "0.012",
+            "unit": "gibibyte month"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Autopilot SSD Pod Ephemeral Storage Requests (us-east1)"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "Kubernetes"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Kubernetes Engine",
+        "region": "us-east1",
+        "productFamily": "Compute",
+        "prices": [
+          {
+            "USD": "0.0001389",
+            "unit": "gibibyte hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Autopilot Pod Memory Requests (us-east1)"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "Kubernetes"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Kubernetes Engine",
+        "region": "us-east1",
+        "productFamily": "Compute",
+        "prices": [
+          {
+            "USD": "0.0049225",
+            "unit": "gibibyte hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Commitment - dollar based v1: Kubernetes Engine Autopilot us-east1 for 3 years"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "Kubernetes"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Kubernetes Engine",
+        "region": "us-east1",
+        "productFamily": "Compute",
+        "prices": []
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Autopilot Scale-Out x86 Spot Pod Memory Requests (us-east1)"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "Kubernetes"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Kubernetes Engine",
+        "region": "us-east1",
+        "productFamily": "Compute",
+        "prices": []
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Autopilot Accelerator Spot CPU Premium (us-east1)"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "Kubernetes"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Kubernetes Engine",
+        "region": "us-east1",
+        "productFamily": "Compute",
+        "prices": []
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Autopilot Scale-Out x86 Pod Memory Requests (us-east1)"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "Kubernetes"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Kubernetes Engine",
+        "region": "us-east1",
+        "productFamily": "Compute",
+        "prices": [
+          {
+            "USD": "0.0062023",
+            "unit": "gibibyte hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Autopilot Balanced Spot Pod mCPU Requests (us-east1)"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "Kubernetes"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Kubernetes Engine",
+        "region": "us-east1",
+        "productFamily": "Compute",
+        "prices": []
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Autopilot Accelerator Spot Memory Premium (us-east1)"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "Kubernetes"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Kubernetes Engine",
+        "region": "us-east1",
+        "productFamily": "Compute",
+        "prices": []
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Autopilot Local SSD Premium (us-east1)"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "Kubernetes"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Kubernetes Engine",
+        "region": "us-east1",
+        "productFamily": "Compute",
+        "prices": [
+          {
+            "USD": "0.009",
+            "unit": "gibibyte month"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Autopilot Balanced Spot Pod Memory Requests (us-east1)"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "Kubernetes"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Kubernetes Engine",
+        "region": "us-east1",
+        "productFamily": "Compute",
+        "prices": []
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Autopilot Pod Ephemeral Storage Requests (us-east1)"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "Kubernetes"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Kubernetes Engine",
+        "region": "us-east1",
+        "productFamily": "Compute",
+        "prices": [
+          {
+            "USD": "0.0000548",
+            "unit": "gibibyte hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Autopilot Spot Pod mCPU Requests (us-east1)"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "Kubernetes"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Kubernetes Engine",
+        "region": "us-east1",
+        "productFamily": "Compute",
+        "prices": []
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Autopilot TPU v6e Premium (us-east1)"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "Kubernetes"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Kubernetes Engine",
+        "region": "us-east1",
+        "productFamily": "Compute",
+        "prices": [
+          {
+            "USD": "0.324",
+            "unit": "hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Autopilot Spot Pod Memory Requests (us-east1)"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "Kubernetes"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Kubernetes Engine",
+        "region": "us-east1",
+        "productFamily": "Compute",
+        "prices": []
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Autopilot TPU v5p Spot Premium (us-east1)"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "Kubernetes"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Kubernetes Engine",
+        "region": "us-east1",
+        "productFamily": "Compute",
+        "prices": []
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Autopilot T4 Spot Premium (us-east1)"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "Kubernetes"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Kubernetes Engine",
+        "region": "us-east1",
+        "productFamily": "Compute",
+        "prices": []
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Autopilot Accelerator Memory Premium (us-east1)"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "Kubernetes"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Kubernetes Engine",
+        "region": "us-east1",
+        "productFamily": "Compute",
+        "prices": [
+          {
+            "USD": "0.00035",
+            "unit": "gibibyte hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Autopilot A100 40GB Premium (us-east1)"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "Kubernetes"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Kubernetes Engine",
+        "region": "us-east1",
+        "productFamily": "Compute",
+        "prices": [
+          {
+            "USD": "0.00035",
+            "unit": "hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Autopilot Scale-Out x86 Pod mCPU Requests (us-east1)"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "Kubernetes"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Kubernetes Engine",
+        "region": "us-east1",
+        "productFamily": "Compute",
+        "prices": [
+          {
+            "USD": "0.0000561",
+            "unit": "hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Autopilot Balanced Pod Memory Requests (us-east1)"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "Kubernetes"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Kubernetes Engine",
+        "region": "us-east1",
+        "productFamily": "Compute",
+        "prices": [
+          {
+            "USD": "0.0071354",
+            "unit": "gibibyte hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Autopilot NVIDIA A100 Spot Pod mCPU Requests (us-east1)"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "Kubernetes"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Kubernetes Engine",
+        "region": "us-east1",
+        "productFamily": "Compute",
+        "prices": []
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Autopilot NVIDIA A100 Spot Pod Memory Requests (us-east1)"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "Kubernetes"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Kubernetes Engine",
+        "region": "us-east1",
+        "productFamily": "Compute",
+        "prices": []
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Autopilot Balanced Pod mCPU Requests (us-east1)"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "Kubernetes"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Kubernetes Engine",
+        "region": "us-east1",
+        "productFamily": "Compute",
+        "prices": [
+          {
+            "USD": "0.0000645",
+            "unit": "hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Autopilot Performance Memory Premium (us-east1)"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "Kubernetes"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Kubernetes Engine",
+        "region": "us-east1",
+        "productFamily": "Compute",
+        "prices": [
+          {
+            "USD": "0.0005",
+            "unit": "gibibyte hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Autopilot NVIDIA T4 Pod GPU Requests (us-east1)"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "Kubernetes"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Kubernetes Engine",
+        "region": "us-east1",
+        "productFamily": "Compute",
+        "prices": [
+          {
+            "USD": "0.385",
+            "unit": "hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Autopilot NVIDIA A100 Pod mCPU Requests (us-east1)"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "Kubernetes"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Kubernetes Engine",
+        "region": "us-east1",
+        "productFamily": "Compute",
+        "prices": [
+          {
+            "USD": "0.0000645",
+            "unit": "hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Autopilot NVIDIA L4 Spot Pod Memory Requests (us-east1)"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "Kubernetes"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Kubernetes Engine",
+        "region": "us-east1",
+        "productFamily": "Compute",
+        "prices": []
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Autopilot NVIDIA L4 Pod mCPU Requests (us-east1)"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "Kubernetes"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Kubernetes Engine",
+        "region": "us-east1",
+        "productFamily": "Compute",
+        "prices": [
+          {
+            "USD": "0.0000645",
+            "unit": "hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Autopilot NVIDIA T4 Spot Pod mCPU Requests (us-east1)"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "Kubernetes"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Kubernetes Engine",
+        "region": "us-east1",
+        "productFamily": "Compute",
+        "prices": []
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Autopilot TPU v6e Spot Premium (us-east1)"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "Kubernetes"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Kubernetes Engine",
+        "region": "us-east1",
+        "productFamily": "Compute",
+        "prices": []
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Autopilot Scale-Out x86 Spot Pod mCPU Requests (us-east1)"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "Kubernetes"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Kubernetes Engine",
+        "region": "us-east1",
+        "productFamily": "Compute",
+        "prices": []
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Autopilot NVIDIA T4 Pod Memory Requests (us-east1)"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "Kubernetes"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Kubernetes Engine",
+        "region": "us-east1",
+        "productFamily": "Compute",
+        "prices": [
+          {
+            "USD": "0.0071354",
+            "unit": "gibibyte hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Autopilot NVIDIA L4 Pod Memory Requests (us-east1)"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "Kubernetes"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Kubernetes Engine",
+        "region": "us-east1",
+        "productFamily": "Compute",
+        "prices": [
+          {
+            "USD": "0.0071354",
+            "unit": "gibibyte hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Kubernetes Engine Committed Use Discounts - us-east1 - 3 Year"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "Kubernetes"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Kubernetes Engine",
+        "region": "us-east1",
+        "productFamily": "Compute",
+        "prices": []
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Autopilot Accelerator CPU Premium (us-east1)"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "Kubernetes"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Kubernetes Engine",
+        "region": "us-east1",
+        "productFamily": "Compute",
+        "prices": [
+          {
+            "USD": "0.000003",
+            "unit": "hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Autopilot Performance CPU Premium (us-east1)"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "Kubernetes"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Kubernetes Engine",
+        "region": "us-east1",
+        "productFamily": "Compute",
+        "prices": [
+          {
+            "USD": "0.000004",
+            "unit": "hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Autopilot Performance Spot CPU Premium (us-east1)"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "Kubernetes"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Kubernetes Engine",
+        "region": "us-east1",
+        "productFamily": "Compute",
+        "prices": []
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Autopilot Performance Spot Memory Premium (us-east1)"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "Kubernetes"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Kubernetes Engine",
+        "region": "us-east1",
+        "productFamily": "Compute",
+        "prices": []
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Autopilot TPU 7x Spot Premium (us-east1)"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "Kubernetes"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Kubernetes Engine",
+        "region": "us-east1",
+        "productFamily": "Compute",
+        "prices": []
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Autopilot L4 Spot Premium (us-east1)"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "Kubernetes"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Kubernetes Engine",
+        "region": "us-east1",
+        "productFamily": "Compute",
+        "prices": []
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Autopilot Pod mCPU Requests (us-east1)"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "Kubernetes"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Kubernetes Engine",
+        "region": "us-east1",
+        "productFamily": "Compute",
+        "prices": [
+          {
+            "USD": "0.0000445",
+            "unit": "hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Autopilot NVIDIA A100 Pod GPU Requests (us-east1)"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "Kubernetes"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Kubernetes Engine",
+        "region": "us-east1",
+        "productFamily": "Compute",
+        "prices": [
+          {
+            "USD": "3.2274",
+            "unit": "hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Autopilot NVIDIA A100 Pod Memory Requests (us-east1)"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "Kubernetes"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Kubernetes Engine",
+        "region": "us-east1",
+        "productFamily": "Compute",
+        "prices": [
+          {
+            "USD": "0.0071354",
+            "unit": "gibibyte hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Autopilot NVIDIA T4 Spot Pod GPU Requests (us-east1)"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "Kubernetes"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Kubernetes Engine",
+        "region": "us-east1",
+        "productFamily": "Compute",
+        "prices": []
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Autopilot TPU v5p Premium (us-east1)"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "Kubernetes"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Kubernetes Engine",
+        "region": "us-east1",
+        "productFamily": "Compute",
+        "prices": [
+          {
+            "USD": "0.5",
+            "unit": "hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Autopilot L4 Premium (us-east1)"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "Kubernetes"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Kubernetes Engine",
+        "region": "us-east1",
+        "productFamily": "Compute",
+        "prices": [
+          {
+            "USD": "0.000067",
+            "unit": "hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Autopilot NVIDIA A100 Spot Pod GPU Requests (us-east1)"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "Kubernetes"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Kubernetes Engine",
+        "region": "us-east1",
+        "productFamily": "Compute",
+        "prices": []
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Autopilot NVIDIA L4 Spot Pod GPU Requests (us-east1)"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "Kubernetes"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Kubernetes Engine",
+        "region": "us-east1",
+        "productFamily": "Compute",
+        "prices": []
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Autopilot A100 40GB Spot Premium (us-east1)"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "Kubernetes"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Kubernetes Engine",
+        "region": "us-east1",
+        "productFamily": "Compute",
+        "prices": []
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Kubernetes Engine Committed Use Discounts - us-east1 - 1 Year"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "Kubernetes"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Kubernetes Engine",
+        "region": "us-east1",
+        "productFamily": "Compute",
+        "prices": []
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Autopilot TPU 7x Premium (us-east1)"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "Kubernetes"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Kubernetes Engine",
+        "region": "us-east1",
+        "productFamily": "Compute",
+        "prices": [
+          {
+            "USD": "1.44",
+            "unit": "hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Autopilot T4 Premium (us-east1)"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "Kubernetes"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Kubernetes Engine",
+        "region": "us-east1",
+        "productFamily": "Compute",
+        "prices": [
+          {
+            "USD": "0.000042",
+            "unit": "hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Autopilot Local SSD Spot Premium (us-east1)"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "Kubernetes"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Kubernetes Engine",
+        "region": "us-east1",
+        "productFamily": "Compute",
+        "prices": []
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Commitment - dollar based v1: Kubernetes Engine Autopilot us-east1 for 1 year"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "Kubernetes"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Kubernetes Engine",
+        "region": "us-east1",
+        "productFamily": "Compute",
+        "prices": []
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Autopilot NVIDIA T4 Pod mCPU Requests (us-east1)"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "Kubernetes"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Kubernetes Engine",
+        "region": "us-east1",
+        "productFamily": "Compute",
+        "prices": [
+          {
+            "USD": "0.0000645",
+            "unit": "hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Autopilot NVIDIA L4 Spot Pod mCPU Requests (us-east1)"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "Kubernetes"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Kubernetes Engine",
+        "region": "us-east1",
+        "productFamily": "Compute",
+        "prices": []
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Autopilot NVIDIA T4 Spot Pod Memory Requests (us-east1)"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "Kubernetes"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Kubernetes Engine",
+        "region": "us-east1",
+        "productFamily": "Compute",
+        "prices": []
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Autopilot NVIDIA L4 Pod GPU Requests (us-east1)"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "Kubernetes"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Kubernetes Engine",
+        "region": "us-east1",
+        "productFamily": "Compute",
+        "prices": [
+          {
+            "USD": "0.616",
+            "unit": "hour"
+          }
+        ]
+      }
+    ]
+  }
+}

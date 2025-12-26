@@ -1,0 +1,5256 @@
+{
+  "data": {
+    "products": [
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "f44baa6b-141d-5b1a-a603-73adcb76be3b"
+          },
+          {
+            "key": "skuName",
+            "value": "MVBuilder D8s"
+          },
+          {
+            "key": "meterName",
+            "value": "MVBuilder D8s vCore"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0DX1T"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH317DL9CC7"
+          },
+          {
+            "key": "armSkuName",
+            "value": "Azure Cosmos DB Materialized Views Builder D8s"
+          },
+          {
+            "key": "productName",
+            "value": "Azure Cosmos DB Materialized Views"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Databases"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2023-08-01T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Azure Cosmos DB",
+        "region": "eastus",
+        "productFamily": "Databases",
+        "prices": [
+          {
+            "USD": "0.76",
+            "unit": "1 Hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "59c78b09-08e2-466a-9f3b-57a94c9e2f31"
+          },
+          {
+            "key": "skuName",
+            "value": "Free"
+          },
+          {
+            "key": "meterName",
+            "value": "Free Data Stored"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0BPJH"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH317DL9CC7"
+          },
+          {
+            "key": "armSkuName",
+            "value": ""
+          },
+          {
+            "key": "productName",
+            "value": "Azure Cosmos DB"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Databases"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2017-09-25T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Azure Cosmos DB",
+        "region": "eastus",
+        "productFamily": "Databases",
+        "prices": [
+          {
+            "USD": "0",
+            "unit": "1 GB/Month"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "24a0d4d4-0519-5b57-afff-3f8c11b1b33c"
+          },
+          {
+            "key": "skuName",
+            "value": "MVBuilderD16s"
+          },
+          {
+            "key": "meterName",
+            "value": "MVBuilderD16s vCore"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0DX1T"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH317DL9CC7"
+          },
+          {
+            "key": "armSkuName",
+            "value": "Azure Cosmos DB Materialized Views Builder D16s"
+          },
+          {
+            "key": "productName",
+            "value": "Azure Cosmos DB Materialized Views"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Databases"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2023-08-01T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Azure Cosmos DB",
+        "region": "eastus",
+        "productFamily": "Databases",
+        "prices": [
+          {
+            "USD": "1.52",
+            "unit": "1 Hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "a4091e4d-a70a-4dec-8dd5-629a5d53344d"
+          },
+          {
+            "key": "skuName",
+            "value": "D8s"
+          },
+          {
+            "key": "meterName",
+            "value": "D8s"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0CCGK"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH317DL9CC7"
+          },
+          {
+            "key": "armSkuName",
+            "value": ""
+          },
+          {
+            "key": "productName",
+            "value": "Azure Cosmos DB Dedicated Gateway - General Purpose"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Databases"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2020-11-04T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Azure Cosmos DB",
+        "region": "eastus",
+        "productFamily": "Databases",
+        "prices": [
+          {
+            "USD": "0.759",
+            "unit": "1 Hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "5d638a6f-e221-41cf-ae3f-0f81d368cef6"
+          },
+          {
+            "key": "skuName",
+            "value": "Free"
+          },
+          {
+            "key": "meterName",
+            "value": "Free 100 RU/s"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0BPJH"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH317DL9CC7"
+          },
+          {
+            "key": "armSkuName",
+            "value": ""
+          },
+          {
+            "key": "productName",
+            "value": "Azure Cosmos DB"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Databases"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2017-09-25T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Azure Cosmos DB",
+        "region": "eastus",
+        "productFamily": "Databases",
+        "prices": [
+          {
+            "USD": "0",
+            "unit": "1/Hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "c103f1a1-2d8c-5198-b759-d40dfb709aa8"
+          },
+          {
+            "key": "skuName",
+            "value": "Worker Node 104 vCore"
+          },
+          {
+            "key": "meterName",
+            "value": "vCore"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0J95H"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH317DL9CC7"
+          },
+          {
+            "key": "armSkuName",
+            "value": "Azure_Cosmos_DB_for_MongoDB_Worker_Node_104vCore"
+          },
+          {
+            "key": "productName",
+            "value": "Azure DocumentDB"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Databases"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2024-12-01T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Azure Cosmos DB",
+        "region": "eastus",
+        "productFamily": "Databases",
+        "prices": [
+          {
+            "USD": "14.859",
+            "unit": "1 Hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "aed39227-9a35-5bf1-8459-6f72fd21b4ec"
+          },
+          {
+            "key": "skuName",
+            "value": "Burstable 2 vCore"
+          },
+          {
+            "key": "meterName",
+            "value": "vCore"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0J95H"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH317DL9CC7"
+          },
+          {
+            "key": "armSkuName",
+            "value": "2 vCore - burstable"
+          },
+          {
+            "key": "productName",
+            "value": "Azure DocumentDB"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Databases"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2023-10-01T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Azure Cosmos DB",
+        "region": "eastus",
+        "productFamily": "Databases",
+        "prices": [
+          {
+            "USD": "0.0764",
+            "unit": "1 Hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "ffc804ca-1e13-5efe-8d7c-53f0352a53f1"
+          },
+          {
+            "key": "skuName",
+            "value": "B2S"
+          },
+          {
+            "key": "meterName",
+            "value": "vCore"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0J95H"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH317DL9CC7"
+          },
+          {
+            "key": "armSkuName",
+            "value": "B2S"
+          },
+          {
+            "key": "productName",
+            "value": "Azure DocumentDB"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Databases"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2024-12-01T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Azure Cosmos DB",
+        "region": "eastus",
+        "productFamily": "Databases",
+        "prices": [
+          {
+            "USD": "0.0764",
+            "unit": "1 Hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "a50e6d94-32c3-59a4-9f9b-6813ad1a084e"
+          },
+          {
+            "key": "skuName",
+            "value": "Coordinator Node 16 vCore"
+          },
+          {
+            "key": "meterName",
+            "value": "vCore"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0J95H"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH317DL9CC7"
+          },
+          {
+            "key": "armSkuName",
+            "value": "Azure_Cosmos_DB_for_MongoDB_Coordinator_Node_16vCore"
+          },
+          {
+            "key": "productName",
+            "value": "Azure DocumentDB"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Databases"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2024-12-01T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Azure Cosmos DB",
+        "region": "eastus",
+        "productFamily": "Databases",
+        "prices": [
+          {
+            "USD": "1.763712",
+            "unit": "1 Hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "9fe35855-ae40-5039-b811-066e013eb38c"
+          },
+          {
+            "key": "skuName",
+            "value": "Coordinator Node Free"
+          },
+          {
+            "key": "meterName",
+            "value": "vCore"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0J95H"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH317DL9CC7"
+          },
+          {
+            "key": "armSkuName",
+            "value": "Azure_Cosmos_DB_for_MongoDB_Coordinator_Node_Free"
+          },
+          {
+            "key": "productName",
+            "value": "Azure DocumentDB"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Databases"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2024-12-01T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Azure Cosmos DB",
+        "region": "eastus",
+        "productFamily": "Databases",
+        "prices": [
+          {
+            "USD": "0",
+            "unit": "1 Hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "a1e98ad6-4171-4b8d-8672-aac66d54163e"
+          },
+          {
+            "key": "skuName",
+            "value": "AP3"
+          },
+          {
+            "key": "meterName",
+            "value": "AP3 100 RUs"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0CGSV"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH317DL9CC7"
+          },
+          {
+            "key": "armSkuName",
+            "value": ""
+          },
+          {
+            "key": "productName",
+            "value": "Azure Cosmos DB autoscale"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Databases"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2023-04-01T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Azure Cosmos DB",
+        "region": "eastus",
+        "productFamily": "Databases",
+        "prices": [
+          {
+            "USD": "0.012",
+            "unit": "1/Hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "e604b347-2cf4-57b2-ae57-02a34d8ce25e"
+          },
+          {
+            "key": "skuName",
+            "value": "Backup Globally Redundant Storage"
+          },
+          {
+            "key": "meterName",
+            "value": "Backup GRS Data Stored"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0J95H"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH317DL9CC7"
+          },
+          {
+            "key": "armSkuName",
+            "value": "Azure_Cosmos_DB_for_MongoDB_Backup_Globally_Redundant_Storage"
+          },
+          {
+            "key": "productName",
+            "value": "Azure DocumentDB"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Databases"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2024-12-01T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Azure Cosmos DB",
+        "region": "eastus",
+        "productFamily": "Databases",
+        "prices": [
+          {
+            "USD": "0.19",
+            "unit": "1 GB/Month"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "10a4e377-5ab6-51b1-9c89-27d2f4f76888"
+          },
+          {
+            "key": "skuName",
+            "value": "Premium SSD Managed Disk"
+          },
+          {
+            "key": "meterName",
+            "value": "Premium SSD Managed Disk"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0TF33"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH317DL9CC7"
+          },
+          {
+            "key": "armSkuName",
+            "value": "Premium SSD Managed Disk"
+          },
+          {
+            "key": "productName",
+            "value": "Azure Cosmos DB Garnet Cache"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Databases"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2025-11-01T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Azure Cosmos DB",
+        "region": "eastus",
+        "productFamily": "Databases",
+        "prices": [
+          {
+            "USD": "0.00333",
+            "unit": "1/Hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "c2e8b27d-f979-5dcb-8153-75f8abfd47c0"
+          },
+          {
+            "key": "skuName",
+            "value": "Worker Node 32 vCore"
+          },
+          {
+            "key": "meterName",
+            "value": "vCore"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0J95H"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH317DL9CC7"
+          },
+          {
+            "key": "armSkuName",
+            "value": "Azure_Cosmos_DB_for_MongoDB_Worker_Node_32vCore"
+          },
+          {
+            "key": "productName",
+            "value": "Azure DocumentDB"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Databases"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2024-12-01T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Azure Cosmos DB",
+        "region": "eastus",
+        "productFamily": "Databases",
+        "prices": [
+          {
+            "USD": "4.572",
+            "unit": "1 Hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "b693ea8a-f907-45ef-8c8a-2b29b80d160c"
+          },
+          {
+            "key": "skuName",
+            "value": "E8s"
+          },
+          {
+            "key": "meterName",
+            "value": "E8s"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0CCGL"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH317DL9CC7"
+          },
+          {
+            "key": "armSkuName",
+            "value": ""
+          },
+          {
+            "key": "productName",
+            "value": "Azure Cosmos DB Dedicated Gateway - Memory Optimized"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Databases"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2020-11-04T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Azure Cosmos DB",
+        "region": "eastus",
+        "productFamily": "Databases",
+        "prices": [
+          {
+            "USD": "1",
+            "unit": "1 Hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "4be3877e-a0d4-5526-a90e-9463bb2ee82e"
+          },
+          {
+            "key": "skuName",
+            "value": "Worker Node 64 vCore"
+          },
+          {
+            "key": "meterName",
+            "value": "vCore"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0J95H"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH317DL9CC7"
+          },
+          {
+            "key": "armSkuName",
+            "value": "Azure_Cosmos_DB_for_MongoDB_Worker_Node_64vCore"
+          },
+          {
+            "key": "productName",
+            "value": "Azure DocumentDB"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Databases"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2024-12-01T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Azure Cosmos DB",
+        "region": "eastus",
+        "productFamily": "Databases",
+        "prices": [
+          {
+            "USD": "9.144",
+            "unit": "1 Hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "2fc60ffa-2274-5f6f-a703-55a7c11f7c13"
+          },
+          {
+            "key": "skuName",
+            "value": "B1MS"
+          },
+          {
+            "key": "meterName",
+            "value": "vCore"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0J95H"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH317DL9CC7"
+          },
+          {
+            "key": "armSkuName",
+            "value": "B1MS"
+          },
+          {
+            "key": "productName",
+            "value": "Azure DocumentDB"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Databases"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2023-10-01T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Azure Cosmos DB",
+        "region": "eastus",
+        "productFamily": "Databases",
+        "prices": [
+          {
+            "USD": "0.0191",
+            "unit": "1 Hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "ad99a624-4c9c-5c74-857a-11c8c4d9a156"
+          },
+          {
+            "key": "skuName",
+            "value": "Backup Locally Redundant Storage Free"
+          },
+          {
+            "key": "meterName",
+            "value": "Backup LRS Free Data Stored"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0J95H"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH317DL9CC7"
+          },
+          {
+            "key": "armSkuName",
+            "value": "Azure_Cosmos_DB_for_MongoDB_Backup_Locally_Redundant_Storage_Free"
+          },
+          {
+            "key": "productName",
+            "value": "Azure DocumentDB"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Databases"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2024-12-01T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Azure Cosmos DB",
+        "region": "eastus",
+        "productFamily": "Databases",
+        "prices": [
+          {
+            "USD": "0",
+            "unit": "1 GB/Month"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "42e8caad-4cd4-5c51-9323-ccfba6d06e63"
+          },
+          {
+            "key": "skuName",
+            "value": "D8s"
+          },
+          {
+            "key": "meterName",
+            "value": "D8s"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0B07D"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH317DL9CC7"
+          },
+          {
+            "key": "armSkuName",
+            "value": ""
+          },
+          {
+            "key": "productName",
+            "value": "Graph API - General Purpose Compute"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Databases"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2023-04-01T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Azure Cosmos DB",
+        "region": "eastus",
+        "productFamily": "Databases",
+        "prices": [
+          {
+            "USD": "2.81",
+            "unit": "1 Hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "26f4be76-5d51-4556-bb70-64283336513d"
+          },
+          {
+            "key": "skuName",
+            "value": "D64s"
+          },
+          {
+            "key": "meterName",
+            "value": "D64s"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0CCGK"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH317DL9CC7"
+          },
+          {
+            "key": "armSkuName",
+            "value": ""
+          },
+          {
+            "key": "productName",
+            "value": "Azure Cosmos DB Dedicated Gateway - General Purpose"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Databases"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2020-11-04T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Azure Cosmos DB",
+        "region": "eastus",
+        "productFamily": "Databases",
+        "prices": [
+          {
+            "USD": "6.07",
+            "unit": "1 Hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "cef8cbd2-4dd5-4e59-bee6-abdc99caa956"
+          },
+          {
+            "key": "skuName",
+            "value": "AP1"
+          },
+          {
+            "key": "meterName",
+            "value": "AP1 Entry Price"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0CGSV"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH317DL9CC7"
+          },
+          {
+            "key": "armSkuName",
+            "value": ""
+          },
+          {
+            "key": "productName",
+            "value": "Azure Cosmos DB autoscale"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Databases"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2023-04-01T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Azure Cosmos DB",
+        "region": "eastus",
+        "productFamily": "Databases",
+        "prices": [
+          {
+            "USD": "0.032",
+            "unit": "1/Hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "11655217-740a-4f85-bf15-bbb5bd63101b"
+          },
+          {
+            "key": "skuName",
+            "value": "AP2"
+          },
+          {
+            "key": "meterName",
+            "value": "AP2 Entry Price"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0CGSV"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH317DL9CC7"
+          },
+          {
+            "key": "armSkuName",
+            "value": ""
+          },
+          {
+            "key": "productName",
+            "value": "Azure Cosmos DB autoscale"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Databases"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2023-04-01T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Azure Cosmos DB",
+        "region": "eastus",
+        "productFamily": "Databases",
+        "prices": [
+          {
+            "USD": "0.16",
+            "unit": "1/Hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "48ead41b-d263-512b-b3d2-ae5fb34e84a7"
+          },
+          {
+            "key": "skuName",
+            "value": "D4s"
+          },
+          {
+            "key": "meterName",
+            "value": "D4s"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0B07D"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH317DL9CC7"
+          },
+          {
+            "key": "armSkuName",
+            "value": ""
+          },
+          {
+            "key": "productName",
+            "value": "Graph API - General Purpose Compute"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Databases"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2023-04-01T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Azure Cosmos DB",
+        "region": "eastus",
+        "productFamily": "Databases",
+        "prices": [
+          {
+            "USD": "1.4",
+            "unit": "1 Hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "2c8d546c-1458-5d50-9605-adc78bdd0bec"
+          },
+          {
+            "key": "skuName",
+            "value": "Memory Optimized"
+          },
+          {
+            "key": "meterName",
+            "value": "Memory Optimized vCore"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0TF33"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH317DL9CC7"
+          },
+          {
+            "key": "armSkuName",
+            "value": "Memory Optimized"
+          },
+          {
+            "key": "productName",
+            "value": "Azure Cosmos DB Garnet Cache"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Databases"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2025-11-01T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Azure Cosmos DB",
+        "region": "eastus",
+        "productFamily": "Databases",
+        "prices": [
+          {
+            "USD": "0.175",
+            "unit": "1 Hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "de7d5063-dddc-5a6d-a829-7bbe603aceaf"
+          },
+          {
+            "key": "skuName",
+            "value": "Coordinator Node 96 vCore"
+          },
+          {
+            "key": "meterName",
+            "value": "vCore"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0J95H"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH317DL9CC7"
+          },
+          {
+            "key": "armSkuName",
+            "value": "Azure_Cosmos_DB_for_MongoDB_Coordinator_Node_96vCore"
+          },
+          {
+            "key": "productName",
+            "value": "Azure DocumentDB"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Databases"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2024-12-01T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Azure Cosmos DB",
+        "region": "eastus",
+        "productFamily": "Databases",
+        "prices": [
+          {
+            "USD": "10.582272",
+            "unit": "1 Hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "56f07b6a-c7d9-490f-a196-a7ee08e28712"
+          },
+          {
+            "key": "skuName",
+            "value": "RUs"
+          },
+          {
+            "key": "meterName",
+            "value": "Data Stored"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0BPJH"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH317DL9CC7"
+          },
+          {
+            "key": "armSkuName",
+            "value": ""
+          },
+          {
+            "key": "productName",
+            "value": "Azure Cosmos DB"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Databases"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2016-04-01T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Azure Cosmos DB",
+        "region": "eastus",
+        "productFamily": "Databases",
+        "prices": [
+          {
+            "USD": "0.25",
+            "unit": "1 GB/Month"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "62dc9670-a8db-5b7e-97ab-fd1921971742"
+          },
+          {
+            "key": "skuName",
+            "value": "General Purpose Storage"
+          },
+          {
+            "key": "meterName",
+            "value": "General Purpose Storage Data Stored"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0J95H"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH317DL9CC7"
+          },
+          {
+            "key": "armSkuName",
+            "value": "Azure_Cosmos_DB_for_MongoDB_General_Purpose_Storage"
+          },
+          {
+            "key": "productName",
+            "value": "Azure DocumentDB"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Databases"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2024-12-01T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Azure Cosmos DB",
+        "region": "eastus",
+        "productFamily": "Databases",
+        "prices": [
+          {
+            "USD": "0.115",
+            "unit": "1 GB/Month"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "fe9a66e0-fe30-5e2d-b383-d32352524fe7"
+          },
+          {
+            "key": "skuName",
+            "value": "Burstable 1 vCore"
+          },
+          {
+            "key": "meterName",
+            "value": "vCore"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0J95H"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH317DL9CC7"
+          },
+          {
+            "key": "armSkuName",
+            "value": "1 vCore - burstable"
+          },
+          {
+            "key": "productName",
+            "value": "Azure DocumentDB"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Databases"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2023-10-01T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Azure Cosmos DB",
+        "region": "eastus",
+        "productFamily": "Databases",
+        "prices": [
+          {
+            "USD": "0.0191",
+            "unit": "1 Hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "340d7b11-3f4f-51ed-a407-d5bd59f26e94"
+          },
+          {
+            "key": "skuName",
+            "value": "D16s"
+          },
+          {
+            "key": "meterName",
+            "value": "D16s"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0B07D"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH317DL9CC7"
+          },
+          {
+            "key": "armSkuName",
+            "value": ""
+          },
+          {
+            "key": "productName",
+            "value": "Graph API - General Purpose Compute"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Databases"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2023-04-01T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Azure Cosmos DB",
+        "region": "eastus",
+        "productFamily": "Databases",
+        "prices": [
+          {
+            "USD": "5.62",
+            "unit": "1 Hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "3586f957-2ffc-5356-b8fb-53e5b02c0edc"
+          },
+          {
+            "key": "skuName",
+            "value": "MVBuilder D2s"
+          },
+          {
+            "key": "meterName",
+            "value": "MVBuilder D2s vCore"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0DX1T"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH317DL9CC7"
+          },
+          {
+            "key": "armSkuName",
+            "value": "Azure Cosmos DB Materialized Views Builder D2s"
+          },
+          {
+            "key": "productName",
+            "value": "Azure Cosmos DB Materialized Views"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Databases"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2023-08-01T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Azure Cosmos DB",
+        "region": "eastus",
+        "productFamily": "Databases",
+        "prices": [
+          {
+            "USD": "0.19",
+            "unit": "1 Hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "d0cfd288-6b3e-4032-ab91-81a488152bd4"
+          },
+          {
+            "key": "skuName",
+            "value": "E16s"
+          },
+          {
+            "key": "meterName",
+            "value": "E16s"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0CCGL"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH317DL9CC7"
+          },
+          {
+            "key": "armSkuName",
+            "value": ""
+          },
+          {
+            "key": "productName",
+            "value": "Azure Cosmos DB Dedicated Gateway - Memory Optimized"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Databases"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2020-11-04T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Azure Cosmos DB",
+        "region": "eastus",
+        "productFamily": "Databases",
+        "prices": [
+          {
+            "USD": "2.01",
+            "unit": "1 Hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "424aa64e-dc25-49c4-8565-b86222279260"
+          },
+          {
+            "key": "skuName",
+            "value": "S1"
+          },
+          {
+            "key": "meterName",
+            "value": "S1"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0BPJH"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH317DL9CC7"
+          },
+          {
+            "key": "armSkuName",
+            "value": ""
+          },
+          {
+            "key": "productName",
+            "value": "Azure Cosmos DB"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Databases"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2015-04-08T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Azure Cosmos DB",
+        "region": "eastus",
+        "productFamily": "Databases",
+        "prices": [
+          {
+            "USD": "0.034",
+            "unit": "1 Hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "c36b440f-b132-5c73-8b66-8fd48d9bc37d"
+          },
+          {
+            "key": "skuName",
+            "value": "E2s"
+          },
+          {
+            "key": "meterName",
+            "value": "E2s"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0CCGL"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH317DL9CC7"
+          },
+          {
+            "key": "armSkuName",
+            "value": ""
+          },
+          {
+            "key": "productName",
+            "value": "Azure Cosmos DB Dedicated Gateway - Memory Optimized"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Databases"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2020-11-01T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Azure Cosmos DB",
+        "region": "eastus",
+        "productFamily": "Databases",
+        "prices": [
+          {
+            "USD": "0.251",
+            "unit": "1 Hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "c22d2e64-62b3-5454-9be7-13f41902c13d"
+          },
+          {
+            "key": "skuName",
+            "value": "E8s"
+          },
+          {
+            "key": "meterName",
+            "value": "E8s"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0B07F"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH317DL9CC7"
+          },
+          {
+            "key": "armSkuName",
+            "value": ""
+          },
+          {
+            "key": "productName",
+            "value": "Graph API - Memory Optimized Compute"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Databases"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2023-04-01T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Azure Cosmos DB",
+        "region": "eastus",
+        "productFamily": "Databases",
+        "prices": [
+          {
+            "USD": "2.81",
+            "unit": "1 Hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "42fb50f3-4298-5710-951c-f20e50a5df56"
+          },
+          {
+            "key": "skuName",
+            "value": "Coordinator Node 64 vCore"
+          },
+          {
+            "key": "meterName",
+            "value": "vCore"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0J95H"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH317DL9CC7"
+          },
+          {
+            "key": "armSkuName",
+            "value": "Azure_Cosmos_DB_for_MongoDB_Coordinator_Node_64vCore"
+          },
+          {
+            "key": "productName",
+            "value": "Azure DocumentDB"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Databases"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2024-12-01T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Azure Cosmos DB",
+        "region": "eastus",
+        "productFamily": "Databases",
+        "prices": [
+          {
+            "USD": "7.054848",
+            "unit": "1 Hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "c8930d87-dce8-4d29-ad76-4da0add8ce21"
+          },
+          {
+            "key": "skuName",
+            "value": "D4s"
+          },
+          {
+            "key": "meterName",
+            "value": "D4s"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0CCGK"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH317DL9CC7"
+          },
+          {
+            "key": "armSkuName",
+            "value": ""
+          },
+          {
+            "key": "productName",
+            "value": "Azure Cosmos DB Dedicated Gateway - General Purpose"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Databases"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2020-11-04T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Azure Cosmos DB",
+        "region": "eastus",
+        "productFamily": "Databases",
+        "prices": [
+          {
+            "USD": "0.38",
+            "unit": "1 Hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "3cccd0dd-0129-45ff-91b9-455c78cb56b5"
+          },
+          {
+            "key": "skuName",
+            "value": "AP4"
+          },
+          {
+            "key": "meterName",
+            "value": "AP4 100 RUs"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0CGSV"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH317DL9CC7"
+          },
+          {
+            "key": "armSkuName",
+            "value": ""
+          },
+          {
+            "key": "productName",
+            "value": "Azure Cosmos DB autoscale"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Databases"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2023-04-01T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Azure Cosmos DB",
+        "region": "eastus",
+        "productFamily": "Databases",
+        "prices": [
+          {
+            "USD": "0.012",
+            "unit": "1/Hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "4cc7d096-a5ed-4b92-ac29-6521c26e2afb"
+          },
+          {
+            "key": "skuName",
+            "value": "E64s"
+          },
+          {
+            "key": "meterName",
+            "value": "E64s"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0CCGL"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH317DL9CC7"
+          },
+          {
+            "key": "armSkuName",
+            "value": ""
+          },
+          {
+            "key": "productName",
+            "value": "Azure Cosmos DB Dedicated Gateway - Memory Optimized"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Databases"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2020-11-04T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Azure Cosmos DB",
+        "region": "eastus",
+        "productFamily": "Databases",
+        "prices": [
+          {
+            "USD": "7.63",
+            "unit": "1 Hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "97f0c44f-9c62-49b6-b35d-261d4c5c8cc1"
+          },
+          {
+            "key": "skuName",
+            "value": "RUm"
+          },
+          {
+            "key": "meterName",
+            "value": "1000 RU/m"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0BPJH"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH317DL9CC7"
+          },
+          {
+            "key": "armSkuName",
+            "value": ""
+          },
+          {
+            "key": "productName",
+            "value": "Azure Cosmos DB"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Databases"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2017-11-01T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Azure Cosmos DB",
+        "region": "eastus",
+        "productFamily": "Databases",
+        "prices": [
+          {
+            "USD": "0.002688",
+            "unit": "1/Hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "4e182cc0-995e-4564-af1b-e83de0d09ea6"
+          },
+          {
+            "key": "skuName",
+            "value": "AP4"
+          },
+          {
+            "key": "meterName",
+            "value": "AP4 Entry Price"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0CGSV"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH317DL9CC7"
+          },
+          {
+            "key": "armSkuName",
+            "value": ""
+          },
+          {
+            "key": "productName",
+            "value": "Azure Cosmos DB autoscale"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Databases"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2023-04-01T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Azure Cosmos DB",
+        "region": "eastus",
+        "productFamily": "Databases",
+        "prices": [
+          {
+            "USD": "0.8",
+            "unit": "1/Hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "43f87e56-e590-4de6-b355-a754d8bc9001"
+          },
+          {
+            "key": "skuName",
+            "value": "D32s"
+          },
+          {
+            "key": "meterName",
+            "value": "D32s"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0CCGK"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH317DL9CC7"
+          },
+          {
+            "key": "armSkuName",
+            "value": ""
+          },
+          {
+            "key": "productName",
+            "value": "Azure Cosmos DB Dedicated Gateway - General Purpose"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Databases"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2020-11-04T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Azure Cosmos DB",
+        "region": "eastus",
+        "productFamily": "Databases",
+        "prices": [
+          {
+            "USD": "3.04",
+            "unit": "1 Hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "3621208a-e57e-5d97-bac8-bd3588076bcb"
+          },
+          {
+            "key": "skuName",
+            "value": "Coordinator Node 32 vCore"
+          },
+          {
+            "key": "meterName",
+            "value": "vCore"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0J95H"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH317DL9CC7"
+          },
+          {
+            "key": "armSkuName",
+            "value": "Azure_Cosmos_DB_for_MongoDB_Coordinator_Node_32vCore"
+          },
+          {
+            "key": "productName",
+            "value": "Azure DocumentDB"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Databases"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2024-12-01T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Azure Cosmos DB",
+        "region": "eastus",
+        "productFamily": "Databases",
+        "prices": [
+          {
+            "USD": "3.527424",
+            "unit": "1 Hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "e7a3800b-837b-46df-aa29-147ccf373cfb"
+          },
+          {
+            "key": "skuName",
+            "value": "Free"
+          },
+          {
+            "key": "meterName",
+            "value": "Free 100 Multi-master RU/s"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0BPJH"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH317DL9CC7"
+          },
+          {
+            "key": "armSkuName",
+            "value": ""
+          },
+          {
+            "key": "productName",
+            "value": "Azure Cosmos DB"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Databases"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2018-09-24T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Azure Cosmos DB",
+        "region": "eastus",
+        "productFamily": "Databases",
+        "prices": [
+          {
+            "USD": "0",
+            "unit": "1/Hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "536d17c5-33bb-43ba-b524-90fc6172800e"
+          },
+          {
+            "key": "skuName",
+            "value": "256 GiB"
+          },
+          {
+            "key": "meterName",
+            "value": "256 GiB Disk"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0CF60"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH317DL9CC7"
+          },
+          {
+            "key": "armSkuName",
+            "value": ""
+          },
+          {
+            "key": "productName",
+            "value": "Cosmos DB Compute Attached SSD Disk"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Databases"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2023-04-01T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Azure Cosmos DB",
+        "region": "eastus",
+        "productFamily": "Databases",
+        "prices": [
+          {
+            "USD": "0.05",
+            "unit": "1/Hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "41812077-88d1-5b07-a295-6e1f727fbe00"
+          },
+          {
+            "key": "skuName",
+            "value": "Backup"
+          },
+          {
+            "key": "meterName",
+            "value": "Cont 30D Bckp On Demand Backup"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0BX2J"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH317DL9CC7"
+          },
+          {
+            "key": "armSkuName",
+            "value": ""
+          },
+          {
+            "key": "productName",
+            "value": "Azure Cosmos DB - PITR"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Databases"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2021-06-01T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Azure Cosmos DB",
+        "region": "eastus",
+        "productFamily": "Databases",
+        "prices": [
+          {
+            "USD": "0.1",
+            "unit": "1 GB"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "ecf11a21-e6da-552b-bb5f-57483f7ff807"
+          },
+          {
+            "key": "skuName",
+            "value": "Periodic Backup - ZRS"
+          },
+          {
+            "key": "meterName",
+            "value": "Periodic Backup - ZRS Data Stored"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0CCH1"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH317DL9CC7"
+          },
+          {
+            "key": "armSkuName",
+            "value": ""
+          },
+          {
+            "key": "productName",
+            "value": "Azure Cosmos DB Snapshot"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Databases"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2021-04-01T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Azure Cosmos DB",
+        "region": "eastus",
+        "productFamily": "Databases",
+        "prices": [
+          {
+            "USD": "0.125",
+            "unit": "1 GB/Month"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "65d4ded2-41ae-43a8-bb68-3c200e1ba864"
+          },
+          {
+            "key": "skuName",
+            "value": "RUs"
+          },
+          {
+            "key": "meterName",
+            "value": "100 RU/s"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0BPJH"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH317DL9CC7"
+          },
+          {
+            "key": "armSkuName",
+            "value": ""
+          },
+          {
+            "key": "productName",
+            "value": "Azure Cosmos DB"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Databases"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2016-04-01T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Azure Cosmos DB",
+        "region": "eastus",
+        "productFamily": "Databases",
+        "prices": [
+          {
+            "USD": "0.008",
+            "unit": "1/Hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "5de227bb-ebcf-4661-905a-096cef6b6c86"
+          },
+          {
+            "key": "skuName",
+            "value": "E4s"
+          },
+          {
+            "key": "meterName",
+            "value": "E4s"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0CCGL"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH317DL9CC7"
+          },
+          {
+            "key": "armSkuName",
+            "value": ""
+          },
+          {
+            "key": "productName",
+            "value": "Azure Cosmos DB Dedicated Gateway - Memory Optimized"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Databases"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2020-11-04T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Azure Cosmos DB",
+        "region": "eastus",
+        "productFamily": "Databases",
+        "prices": [
+          {
+            "USD": "0.502",
+            "unit": "1 Hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "f99e7237-6062-5ee6-ae78-b788337ccddd"
+          },
+          {
+            "key": "skuName",
+            "value": "General Purpose Storage Free"
+          },
+          {
+            "key": "meterName",
+            "value": "General Purpose Storage Free Data Stored"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0J95H"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH317DL9CC7"
+          },
+          {
+            "key": "armSkuName",
+            "value": "Azure_Cosmos_DB_for_MongoDB_General_Purpose_Storage_Free"
+          },
+          {
+            "key": "productName",
+            "value": "Azure DocumentDB"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Databases"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2024-12-01T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Azure Cosmos DB",
+        "region": "eastus",
+        "productFamily": "Databases",
+        "prices": [
+          {
+            "USD": "0",
+            "unit": "1 GB/Month"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "64546d01-a85c-55c0-ae66-ea66fcb286ea"
+          },
+          {
+            "key": "skuName",
+            "value": "Periodic Backup - LRS"
+          },
+          {
+            "key": "meterName",
+            "value": "Periodic Backup - LRS Data Stored"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0CCH1"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH317DL9CC7"
+          },
+          {
+            "key": "armSkuName",
+            "value": ""
+          },
+          {
+            "key": "productName",
+            "value": "Azure Cosmos DB Snapshot"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Databases"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2021-04-01T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Azure Cosmos DB",
+        "region": "eastus",
+        "productFamily": "Databases",
+        "prices": [
+          {
+            "USD": "0.1",
+            "unit": "1 GB/Month"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "13ff7328-fc1a-47ec-ab1f-9b365a92f688"
+          },
+          {
+            "key": "skuName",
+            "value": "D16s"
+          },
+          {
+            "key": "meterName",
+            "value": "D16s"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0CCGK"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH317DL9CC7"
+          },
+          {
+            "key": "armSkuName",
+            "value": ""
+          },
+          {
+            "key": "productName",
+            "value": "Azure Cosmos DB Dedicated Gateway - General Purpose"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Databases"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2020-11-04T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Azure Cosmos DB",
+        "region": "eastus",
+        "productFamily": "Databases",
+        "prices": [
+          {
+            "USD": "1.52",
+            "unit": "1 Hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "c9442ae9-c8df-548a-b10f-20ef8d3254e0"
+          },
+          {
+            "key": "skuName",
+            "value": "MVBuilder D32s"
+          },
+          {
+            "key": "meterName",
+            "value": "MVBuilder D32s vCore"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0DX1T"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH317DL9CC7"
+          },
+          {
+            "key": "armSkuName",
+            "value": "Azure Cosmos DB Materialized Views Builder D32s"
+          },
+          {
+            "key": "productName",
+            "value": "Azure Cosmos DB Materialized Views"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Databases"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2023-08-01T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Azure Cosmos DB",
+        "region": "eastus",
+        "productFamily": "Databases",
+        "prices": [
+          {
+            "USD": "3.04",
+            "unit": "1 Hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "07e48c44-d18f-501d-80ba-5511c8dfe644"
+          },
+          {
+            "key": "skuName",
+            "value": "E64s"
+          },
+          {
+            "key": "meterName",
+            "value": "E64s"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0B07F"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH317DL9CC7"
+          },
+          {
+            "key": "armSkuName",
+            "value": ""
+          },
+          {
+            "key": "productName",
+            "value": "Graph API - Memory Optimized Compute"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Databases"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2023-04-01T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Azure Cosmos DB",
+        "region": "eastus",
+        "productFamily": "Databases",
+        "prices": [
+          {
+            "USD": "22.45",
+            "unit": "1 Hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "eeb9d7d4-5a2e-4750-a028-065ebfc70ac2"
+          },
+          {
+            "key": "skuName",
+            "value": "Standard"
+          },
+          {
+            "key": "meterName",
+            "value": "Backup Data Stored"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0CCH1"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH317DL9CC7"
+          },
+          {
+            "key": "armSkuName",
+            "value": ""
+          },
+          {
+            "key": "productName",
+            "value": "Azure Cosmos DB Snapshot"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Databases"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2020-06-01T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Azure Cosmos DB",
+        "region": "eastus",
+        "productFamily": "Databases",
+        "prices": [
+          {
+            "USD": "0.12",
+            "unit": "1 GB/Month"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "d8398626-a1da-59ca-a38c-d45b524558d1"
+          },
+          {
+            "key": "skuName",
+            "value": "Worker Node 2 vCore"
+          },
+          {
+            "key": "meterName",
+            "value": "vCore"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0J95H"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH317DL9CC7"
+          },
+          {
+            "key": "armSkuName",
+            "value": "Azure_Cosmos_DB_for_MongoDB_Worker_Node_2vCore"
+          },
+          {
+            "key": "productName",
+            "value": "Azure DocumentDB"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Databases"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2024-12-01T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Azure Cosmos DB",
+        "region": "eastus",
+        "productFamily": "Databases",
+        "prices": [
+          {
+            "USD": "0.28575",
+            "unit": "1 Hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "3ca4122d-1646-5486-857f-084422b39908"
+          },
+          {
+            "key": "skuName",
+            "value": "E2s"
+          },
+          {
+            "key": "meterName",
+            "value": "E2s"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0B07F"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH317DL9CC7"
+          },
+          {
+            "key": "armSkuName",
+            "value": ""
+          },
+          {
+            "key": "productName",
+            "value": "Graph API - Memory Optimized Compute"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Databases"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2023-04-01T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Azure Cosmos DB",
+        "region": "eastus",
+        "productFamily": "Databases",
+        "prices": [
+          {
+            "USD": "0.7",
+            "unit": "1 Hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "db168134-f631-5304-8e36-15fd963427f6"
+          },
+          {
+            "key": "skuName",
+            "value": "Coordinator Node 8 vCore"
+          },
+          {
+            "key": "meterName",
+            "value": "vCore"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0J95H"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH317DL9CC7"
+          },
+          {
+            "key": "armSkuName",
+            "value": "Azure_Cosmos_DB_for_MongoDB_Coordinator_Node_8vCore"
+          },
+          {
+            "key": "productName",
+            "value": "Azure DocumentDB"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Databases"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2024-12-01T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Azure Cosmos DB",
+        "region": "eastus",
+        "productFamily": "Databases",
+        "prices": [
+          {
+            "USD": "0.881856",
+            "unit": "1 Hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "6b9644b8-048a-5219-aebd-66c578a1b4b9"
+          },
+          {
+            "key": "skuName",
+            "value": "Free Tier"
+          },
+          {
+            "key": "meterName",
+            "value": "Data Stored"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0BPJH"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH317DL9CC7"
+          },
+          {
+            "key": "armSkuName",
+            "value": ""
+          },
+          {
+            "key": "productName",
+            "value": "Azure Cosmos DB"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Databases"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2021-07-01T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Azure Cosmos DB",
+        "region": "eastus",
+        "productFamily": "Databases",
+        "prices": [
+          {
+            "USD": "0",
+            "unit": "1 GB/Month"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "648fab43-623d-5f16-a2b3-7a35c339aef8"
+          },
+          {
+            "key": "skuName",
+            "value": "Worker Node 16 vCore"
+          },
+          {
+            "key": "meterName",
+            "value": "vCore"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0J95H"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH317DL9CC7"
+          },
+          {
+            "key": "armSkuName",
+            "value": "Azure_Cosmos_DB_for_MongoDB_Worker_Node_16vCore"
+          },
+          {
+            "key": "productName",
+            "value": "Azure DocumentDB"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Databases"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2024-12-01T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Azure Cosmos DB",
+        "region": "eastus",
+        "productFamily": "Databases",
+        "prices": [
+          {
+            "USD": "2.286",
+            "unit": "1 Hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "dbf98eb8-237e-59da-9075-524ba18aff44"
+          },
+          {
+            "key": "skuName",
+            "value": "Backup Globally Redundant Storage Free"
+          },
+          {
+            "key": "meterName",
+            "value": "Backup GRS Free Data Stored"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0J95H"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH317DL9CC7"
+          },
+          {
+            "key": "armSkuName",
+            "value": "Azure_Cosmos_DB_for_MongoDB_Backup_Globally_Redundant_Storage_Free"
+          },
+          {
+            "key": "productName",
+            "value": "Azure DocumentDB"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Databases"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2024-12-01T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Azure Cosmos DB",
+        "region": "eastus",
+        "productFamily": "Databases",
+        "prices": [
+          {
+            "USD": "0",
+            "unit": "1 GB/Month"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "92b0ef8d-72cd-50bf-8aa2-9454f1fd5a0d"
+          },
+          {
+            "key": "skuName",
+            "value": "Free Tier"
+          },
+          {
+            "key": "meterName",
+            "value": "100 RU/s"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0BPJH"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH317DL9CC7"
+          },
+          {
+            "key": "armSkuName",
+            "value": ""
+          },
+          {
+            "key": "productName",
+            "value": "Azure Cosmos DB"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Databases"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2021-07-01T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Azure Cosmos DB",
+        "region": "eastus",
+        "productFamily": "Databases",
+        "prices": [
+          {
+            "USD": "0",
+            "unit": "1/Hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "dd976128-3478-523f-ae38-0d4cbf169a05"
+          },
+          {
+            "key": "skuName",
+            "value": "Backup Locally Redundant Storage"
+          },
+          {
+            "key": "meterName",
+            "value": "Backup LRS Data Stored"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0J95H"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH317DL9CC7"
+          },
+          {
+            "key": "armSkuName",
+            "value": "Azure_Cosmos_DB_for_MongoDB_Backup_Locally_Redundant_Storage"
+          },
+          {
+            "key": "productName",
+            "value": "Azure DocumentDB"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Databases"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2024-12-01T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Azure Cosmos DB",
+        "region": "eastus",
+        "productFamily": "Databases",
+        "prices": [
+          {
+            "USD": "0.095",
+            "unit": "1 GB/Month"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "73a9758d-a043-46f4-804b-d4a4b0c063ff"
+          },
+          {
+            "key": "skuName",
+            "value": "AP1"
+          },
+          {
+            "key": "meterName",
+            "value": "AP1 100 RUs"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0CGSV"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH317DL9CC7"
+          },
+          {
+            "key": "armSkuName",
+            "value": ""
+          },
+          {
+            "key": "productName",
+            "value": "Azure Cosmos DB autoscale"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Databases"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2020-05-18T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Azure Cosmos DB",
+        "region": "eastus",
+        "productFamily": "Databases",
+        "prices": [
+          {
+            "USD": "0.012",
+            "unit": "1/Hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "754e25f9-b117-5f15-a6ba-4b737e984669"
+          },
+          {
+            "key": "skuName",
+            "value": "Coordinator Node 4 vCore"
+          },
+          {
+            "key": "meterName",
+            "value": "vCore"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0J95H"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH317DL9CC7"
+          },
+          {
+            "key": "armSkuName",
+            "value": "Azure_Cosmos_DB_for_MongoDB_Coordinator_Node_4vCore"
+          },
+          {
+            "key": "productName",
+            "value": "Azure DocumentDB"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Databases"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2024-12-01T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Azure Cosmos DB",
+        "region": "eastus",
+        "productFamily": "Databases",
+        "prices": [
+          {
+            "USD": "0.440928",
+            "unit": "1 Hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "42fc5389-6d71-55b9-abd0-0aa418ed8b30"
+          },
+          {
+            "key": "skuName",
+            "value": "E4s"
+          },
+          {
+            "key": "meterName",
+            "value": "E4s"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0B07F"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH317DL9CC7"
+          },
+          {
+            "key": "armSkuName",
+            "value": ""
+          },
+          {
+            "key": "productName",
+            "value": "Graph API - Memory Optimized Compute"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Databases"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2023-04-01T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Azure Cosmos DB",
+        "region": "eastus",
+        "productFamily": "Databases",
+        "prices": [
+          {
+            "USD": "1.4",
+            "unit": "1 Hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "7e46c634-1b52-5131-bf20-7fbe42059b2b"
+          },
+          {
+            "key": "skuName",
+            "value": "Worker Node 96 vCore"
+          },
+          {
+            "key": "meterName",
+            "value": "vCore"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0J95H"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH317DL9CC7"
+          },
+          {
+            "key": "armSkuName",
+            "value": "Azure_Cosmos_DB_for_MongoDB_Worker_Node_96vCore"
+          },
+          {
+            "key": "productName",
+            "value": "Azure DocumentDB"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Databases"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2024-12-01T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Azure Cosmos DB",
+        "region": "eastus",
+        "productFamily": "Databases",
+        "prices": [
+          {
+            "USD": "13.716",
+            "unit": "1 Hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "7c55c659-76ae-5107-98fa-ae8f2d5264fa"
+          },
+          {
+            "key": "skuName",
+            "value": "Free - Burstable"
+          },
+          {
+            "key": "meterName",
+            "value": "vCore"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0J95H"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH317DL9CC7"
+          },
+          {
+            "key": "armSkuName",
+            "value": "Free - Burstable"
+          },
+          {
+            "key": "productName",
+            "value": "Azure DocumentDB"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Databases"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2023-10-01T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Azure Cosmos DB",
+        "region": "eastus",
+        "productFamily": "Databases",
+        "prices": [
+          {
+            "USD": "0",
+            "unit": "1 Hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "4bf50fb6-485a-56cf-abd9-fc3900d2c973"
+          },
+          {
+            "key": "skuName",
+            "value": "D32s"
+          },
+          {
+            "key": "meterName",
+            "value": "D32s"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0B07D"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH317DL9CC7"
+          },
+          {
+            "key": "armSkuName",
+            "value": ""
+          },
+          {
+            "key": "productName",
+            "value": "Graph API - General Purpose Compute"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Databases"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2023-04-01T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Azure Cosmos DB",
+        "region": "eastus",
+        "productFamily": "Databases",
+        "prices": [
+          {
+            "USD": "11.23",
+            "unit": "1 Hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "589dbe86-40d4-5d67-8470-f7d7abcead53"
+          },
+          {
+            "key": "skuName",
+            "value": "1 vCore - autoscale"
+          },
+          {
+            "key": "meterName",
+            "value": "vCore"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0J95H"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH317DL9CC7"
+          },
+          {
+            "key": "armSkuName",
+            "value": "1 vCore - autoscale"
+          },
+          {
+            "key": "productName",
+            "value": "Azure DocumentDB"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Databases"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2025-12-01T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Azure Cosmos DB",
+        "region": "eastus",
+        "productFamily": "Databases",
+        "prices": [
+          {
+            "USD": "0.103441",
+            "unit": "1 Hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "56f07b6a-c7d9-490f-a196-a7ee08e28712"
+          },
+          {
+            "key": "skuName",
+            "value": "RUm"
+          },
+          {
+            "key": "meterName",
+            "value": "Data Stored"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0BPJH"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH317DL9CC7"
+          },
+          {
+            "key": "armSkuName",
+            "value": ""
+          },
+          {
+            "key": "productName",
+            "value": "Azure Cosmos DB"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Databases"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2016-04-01T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Azure Cosmos DB",
+        "region": "eastus",
+        "productFamily": "Databases",
+        "prices": [
+          {
+            "USD": "0.25",
+            "unit": "1 GB/Month"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "e8788c09-a4f9-508f-afee-647449f98da0"
+          },
+          {
+            "key": "skuName",
+            "value": "Worker Node Free"
+          },
+          {
+            "key": "meterName",
+            "value": "vCore"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0J95H"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH317DL9CC7"
+          },
+          {
+            "key": "armSkuName",
+            "value": "Azure_Cosmos_DB_for_MongoDB_Worker_Node_Free"
+          },
+          {
+            "key": "productName",
+            "value": "Azure DocumentDB"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Databases"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2024-12-01T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Azure Cosmos DB",
+        "region": "eastus",
+        "productFamily": "Databases",
+        "prices": [
+          {
+            "USD": "0",
+            "unit": "1 Hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "49fe373c-1c78-5d79-b984-cd5682475e49"
+          },
+          {
+            "key": "skuName",
+            "value": "Periodic Backup - RA-GRS"
+          },
+          {
+            "key": "meterName",
+            "value": "Periodic Backup - RA-GRS Data Stored"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0CCH1"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH317DL9CC7"
+          },
+          {
+            "key": "armSkuName",
+            "value": ""
+          },
+          {
+            "key": "productName",
+            "value": "Azure Cosmos DB Snapshot"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Databases"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2021-04-01T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Azure Cosmos DB",
+        "region": "eastus",
+        "productFamily": "Databases",
+        "prices": [
+          {
+            "USD": "0.2",
+            "unit": "1 GB/Month"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "7527fae2-f984-528f-855b-ec21564df21e"
+          },
+          {
+            "key": "skuName",
+            "value": "D64s"
+          },
+          {
+            "key": "meterName",
+            "value": "D64s"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0B07D"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH317DL9CC7"
+          },
+          {
+            "key": "armSkuName",
+            "value": ""
+          },
+          {
+            "key": "productName",
+            "value": "Graph API - General Purpose Compute"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Databases"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2023-04-01T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Azure Cosmos DB",
+        "region": "eastus",
+        "productFamily": "Databases",
+        "prices": [
+          {
+            "USD": "22.45",
+            "unit": "1 Hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "8cd66cd6-4779-4946-86ff-e2f6c179786f"
+          },
+          {
+            "key": "skuName",
+            "value": "E32s"
+          },
+          {
+            "key": "meterName",
+            "value": "E32s"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0CCGL"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH317DL9CC7"
+          },
+          {
+            "key": "armSkuName",
+            "value": ""
+          },
+          {
+            "key": "productName",
+            "value": "Azure Cosmos DB Dedicated Gateway - Memory Optimized"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Databases"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2020-11-04T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Azure Cosmos DB",
+        "region": "eastus",
+        "productFamily": "Databases",
+        "prices": [
+          {
+            "USD": "4.02",
+            "unit": "1 Hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "8fecc290-0cdc-4026-b2f4-bf5c512d8f24"
+          },
+          {
+            "key": "skuName",
+            "value": "AP3"
+          },
+          {
+            "key": "meterName",
+            "value": "AP3 Entry Price"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0CGSV"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH317DL9CC7"
+          },
+          {
+            "key": "armSkuName",
+            "value": ""
+          },
+          {
+            "key": "productName",
+            "value": "Azure Cosmos DB autoscale"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Databases"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2023-04-01T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Azure Cosmos DB",
+        "region": "eastus",
+        "productFamily": "Databases",
+        "prices": [
+          {
+            "USD": "0.4",
+            "unit": "1/Hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "db291728-af4e-5f92-98ad-26f693ec3dd0"
+          },
+          {
+            "key": "skuName",
+            "value": "D2s"
+          },
+          {
+            "key": "meterName",
+            "value": "D2s"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0CCGK"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH317DL9CC7"
+          },
+          {
+            "key": "armSkuName",
+            "value": ""
+          },
+          {
+            "key": "productName",
+            "value": "Azure Cosmos DB Dedicated Gateway - General Purpose"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Databases"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2020-11-01T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Azure Cosmos DB",
+        "region": "eastus",
+        "productFamily": "Databases",
+        "prices": [
+          {
+            "USD": "0.19",
+            "unit": "1 Hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "116659ab-31ce-5914-a35b-39bac447f3f3"
+          },
+          {
+            "key": "skuName",
+            "value": "Backup"
+          },
+          {
+            "key": "meterName",
+            "value": "Cont 30D Bckp Continuous Backup"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0BX2J"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH317DL9CC7"
+          },
+          {
+            "key": "armSkuName",
+            "value": ""
+          },
+          {
+            "key": "productName",
+            "value": "Azure Cosmos DB - PITR"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Databases"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2022-04-01T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Azure Cosmos DB",
+        "region": "eastus",
+        "productFamily": "Databases",
+        "prices": [
+          {
+            "USD": "0.2",
+            "unit": "1 GB"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "0f0dfaab-e0f7-54de-8523-14077e047a01"
+          },
+          {
+            "key": "skuName",
+            "value": "Compute Optimized"
+          },
+          {
+            "key": "meterName",
+            "value": "Compute Optimized vCore"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0TF33"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH317DL9CC7"
+          },
+          {
+            "key": "armSkuName",
+            "value": "Compute Optimized"
+          },
+          {
+            "key": "productName",
+            "value": "Azure Cosmos DB Garnet Cache"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Databases"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2025-11-01T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Azure Cosmos DB",
+        "region": "eastus",
+        "productFamily": "Databases",
+        "prices": [
+          {
+            "USD": "0.204",
+            "unit": "1 Hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "5704f643-ec9b-5a3a-aa13-fea9122b7eda"
+          },
+          {
+            "key": "skuName",
+            "value": "MVBuilder D1s"
+          },
+          {
+            "key": "meterName",
+            "value": "MVBuilder D1s vCore"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0DX1T"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH317DL9CC7"
+          },
+          {
+            "key": "armSkuName",
+            "value": "Azure Cosmos DB Materialized Views Builder D1s"
+          },
+          {
+            "key": "productName",
+            "value": "Azure Cosmos DB Materialized Views"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Databases"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2023-08-01T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Azure Cosmos DB",
+        "region": "eastus",
+        "productFamily": "Databases",
+        "prices": [
+          {
+            "USD": "0.095",
+            "unit": "1 Hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "1a8502c3-adcb-4c62-8a5e-25e974dbeed6"
+          },
+          {
+            "key": "skuName",
+            "value": "Standard"
+          },
+          {
+            "key": "meterName",
+            "value": "Standard Data Stored"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0CDGF"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH317DL9CC7"
+          },
+          {
+            "key": "armSkuName",
+            "value": ""
+          },
+          {
+            "key": "productName",
+            "value": "Azure Cosmos DB Analytics Storage"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Databases"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2023-05-01T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Azure Cosmos DB",
+        "region": "eastus",
+        "productFamily": "Databases",
+        "prices": [
+          {
+            "USD": "0.03",
+            "unit": "1 GB/Month"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "cc1cac92-62f6-4035-9db3-1aae89fff740"
+          },
+          {
+            "key": "skuName",
+            "value": "AP2"
+          },
+          {
+            "key": "meterName",
+            "value": "AP2 100 RUs"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0CGSV"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH317DL9CC7"
+          },
+          {
+            "key": "armSkuName",
+            "value": ""
+          },
+          {
+            "key": "productName",
+            "value": "Azure Cosmos DB autoscale"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Databases"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2023-04-01T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Azure Cosmos DB",
+        "region": "eastus",
+        "productFamily": "Databases",
+        "prices": [
+          {
+            "USD": "0.012",
+            "unit": "1/Hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "f55031f2-16cc-52f2-abfd-f1009095fbd3"
+          },
+          {
+            "key": "skuName",
+            "value": "Worker Node 4 vCore"
+          },
+          {
+            "key": "meterName",
+            "value": "vCore"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0J95H"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH317DL9CC7"
+          },
+          {
+            "key": "armSkuName",
+            "value": "Azure_Cosmos_DB_for_MongoDB_Worker_Node_4vCore"
+          },
+          {
+            "key": "productName",
+            "value": "Azure DocumentDB"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Databases"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2024-12-01T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Azure Cosmos DB",
+        "region": "eastus",
+        "productFamily": "Databases",
+        "prices": [
+          {
+            "USD": "0.5715",
+            "unit": "1 Hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "5e4fe89e-6326-40b0-9f10-ce5e4f97be4e"
+          },
+          {
+            "key": "skuName",
+            "value": "Standard"
+          },
+          {
+            "key": "meterName",
+            "value": "Standard Write Operations"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0CDGF"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH317DL9CC7"
+          },
+          {
+            "key": "armSkuName",
+            "value": ""
+          },
+          {
+            "key": "productName",
+            "value": "Azure Cosmos DB Analytics Storage"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Databases"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2023-05-01T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Azure Cosmos DB",
+        "region": "eastus",
+        "productFamily": "Databases",
+        "prices": [
+          {
+            "USD": "0.05",
+            "unit": "10K"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "f7aeda1d-30d1-5681-b35a-e2f35760a007"
+          },
+          {
+            "key": "skuName",
+            "value": "RUs"
+          },
+          {
+            "key": "meterName",
+            "value": "1M RUs"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0D20N"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH317DL9CC7"
+          },
+          {
+            "key": "armSkuName",
+            "value": ""
+          },
+          {
+            "key": "productName",
+            "value": "Azure Cosmos DB serverless"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Databases"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2021-07-01T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Azure Cosmos DB",
+        "region": "eastus",
+        "productFamily": "Databases",
+        "prices": [
+          {
+            "USD": "0.25",
+            "unit": "1M"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "656b9bf0-3173-5bc1-bebb-2e27d8939a39"
+          },
+          {
+            "key": "skuName",
+            "value": "Coordinator Node 1 vCore"
+          },
+          {
+            "key": "meterName",
+            "value": "vCore"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0J95H"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH317DL9CC7"
+          },
+          {
+            "key": "armSkuName",
+            "value": "Azure_Cosmos_DB_for_MongoDB_Coordinator_Node_1vCore"
+          },
+          {
+            "key": "productName",
+            "value": "Azure DocumentDB"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Databases"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2025-12-01T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Azure Cosmos DB",
+        "region": "eastus",
+        "productFamily": "Databases",
+        "prices": [
+          {
+            "USD": "0.068961",
+            "unit": "1 Hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "678b0010-e167-4357-9850-ac2639933eae"
+          },
+          {
+            "key": "skuName",
+            "value": "Standard"
+          },
+          {
+            "key": "meterName",
+            "value": "Standard Read Operations"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0CDGF"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH317DL9CC7"
+          },
+          {
+            "key": "armSkuName",
+            "value": ""
+          },
+          {
+            "key": "productName",
+            "value": "Azure Cosmos DB Analytics Storage"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Databases"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2023-05-01T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Azure Cosmos DB",
+        "region": "eastus",
+        "productFamily": "Databases",
+        "prices": [
+          {
+            "USD": "0.005",
+            "unit": "10K"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "685cdd4e-551c-5b0c-b688-6c015da33660"
+          },
+          {
+            "key": "skuName",
+            "value": "Worker Node 1 vCore"
+          },
+          {
+            "key": "meterName",
+            "value": "vCore"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0J95H"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH317DL9CC7"
+          },
+          {
+            "key": "armSkuName",
+            "value": "Azure_Cosmos_DB_for_MongoDB_Worker_Node_1vCore"
+          },
+          {
+            "key": "productName",
+            "value": "Azure DocumentDB"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Databases"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2024-12-01T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Azure Cosmos DB",
+        "region": "eastus",
+        "productFamily": "Databases",
+        "prices": [
+          {
+            "USD": "0.142875",
+            "unit": "1 Hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "6bd46429-6063-55fe-8053-cd54f5b213d9"
+          },
+          {
+            "key": "skuName",
+            "value": "B4MS"
+          },
+          {
+            "key": "meterName",
+            "value": "vCore"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0J95H"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH317DL9CC7"
+          },
+          {
+            "key": "armSkuName",
+            "value": "B4MS"
+          },
+          {
+            "key": "productName",
+            "value": "Azure DocumentDB"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Databases"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2023-10-01T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Azure Cosmos DB",
+        "region": "eastus",
+        "productFamily": "Databases",
+        "prices": [
+          {
+            "USD": "0.3056",
+            "unit": "1 Hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "77e2e5e6-d622-5598-bd8a-03d690928f2b"
+          },
+          {
+            "key": "skuName",
+            "value": "Free Tier"
+          },
+          {
+            "key": "meterName",
+            "value": "100 Multi-master RU/s"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0BPJH"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH317DL9CC7"
+          },
+          {
+            "key": "armSkuName",
+            "value": ""
+          },
+          {
+            "key": "productName",
+            "value": "Azure Cosmos DB"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Databases"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2021-07-01T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Azure Cosmos DB",
+        "region": "eastus",
+        "productFamily": "Databases",
+        "prices": [
+          {
+            "USD": "0",
+            "unit": "1/Hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "e80bd6e2-731d-4e39-92cf-06482af38e4a"
+          },
+          {
+            "key": "skuName",
+            "value": "S2"
+          },
+          {
+            "key": "meterName",
+            "value": "S2"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0BPJH"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH317DL9CC7"
+          },
+          {
+            "key": "armSkuName",
+            "value": ""
+          },
+          {
+            "key": "productName",
+            "value": "Azure Cosmos DB"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Databases"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2015-04-08T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Azure Cosmos DB",
+        "region": "eastus",
+        "productFamily": "Databases",
+        "prices": [
+          {
+            "USD": "0.067",
+            "unit": "1 Hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "f7bef8e4-3ec3-5976-8dc6-d0aa50a91bd1"
+          },
+          {
+            "key": "skuName",
+            "value": "B2MS"
+          },
+          {
+            "key": "meterName",
+            "value": "vCore"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0J95H"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH317DL9CC7"
+          },
+          {
+            "key": "armSkuName",
+            "value": "B2MS"
+          },
+          {
+            "key": "productName",
+            "value": "Azure DocumentDB"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Databases"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2023-10-01T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Azure Cosmos DB",
+        "region": "eastus",
+        "productFamily": "Databases",
+        "prices": [
+          {
+            "USD": "0.1528",
+            "unit": "1 Hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "7c203c4a-f06c-597c-9e51-5603ad38c56c"
+          },
+          {
+            "key": "skuName",
+            "value": "B8MS"
+          },
+          {
+            "key": "meterName",
+            "value": "vCore"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0J95H"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH317DL9CC7"
+          },
+          {
+            "key": "armSkuName",
+            "value": "B8MS"
+          },
+          {
+            "key": "productName",
+            "value": "Azure DocumentDB"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Databases"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2023-10-01T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Azure Cosmos DB",
+        "region": "eastus",
+        "productFamily": "Databases",
+        "prices": [
+          {
+            "USD": "0.6112",
+            "unit": "1 Hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "a7df2b11-3394-5c24-81b8-4d24e6a0089f"
+          },
+          {
+            "key": "skuName",
+            "value": "Cont 7D Bkup"
+          },
+          {
+            "key": "meterName",
+            "value": "Cont 7D Bkup Continuous Backup"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0BX2J"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH317DL9CC7"
+          },
+          {
+            "key": "armSkuName",
+            "value": "Cont_7D_Bkup"
+          },
+          {
+            "key": "productName",
+            "value": "Azure Cosmos DB - PITR"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Databases"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2023-05-01T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Azure Cosmos DB",
+        "region": "eastus",
+        "productFamily": "Databases",
+        "prices": [
+          {
+            "USD": "0",
+            "unit": "1 GB"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "bb8a035f-5ff5-44bf-aeb6-77b2fc1de144"
+          },
+          {
+            "key": "skuName",
+            "value": "S3"
+          },
+          {
+            "key": "meterName",
+            "value": "S3"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0BPJH"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH317DL9CC7"
+          },
+          {
+            "key": "armSkuName",
+            "value": ""
+          },
+          {
+            "key": "productName",
+            "value": "Azure Cosmos DB"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Databases"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2015-04-08T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Azure Cosmos DB",
+        "region": "eastus",
+        "productFamily": "Databases",
+        "prices": [
+          {
+            "USD": "0.134",
+            "unit": "1 Hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "7596dbad-a3d3-5664-916e-12eb1395840f"
+          },
+          {
+            "key": "skuName",
+            "value": "Worker Node 8 vCore"
+          },
+          {
+            "key": "meterName",
+            "value": "vCore"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0J95H"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH317DL9CC7"
+          },
+          {
+            "key": "armSkuName",
+            "value": "Azure_Cosmos_DB_for_MongoDB_Worker_Node_8vCore"
+          },
+          {
+            "key": "productName",
+            "value": "Azure DocumentDB"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Databases"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2024-12-01T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Azure Cosmos DB",
+        "region": "eastus",
+        "productFamily": "Databases",
+        "prices": [
+          {
+            "USD": "1.143",
+            "unit": "1 Hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "7dcce0e0-91c5-5088-b475-9c934dd95065"
+          },
+          {
+            "key": "skuName",
+            "value": "Coordinator Node 2 vCore"
+          },
+          {
+            "key": "meterName",
+            "value": "vCore"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0J95H"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH317DL9CC7"
+          },
+          {
+            "key": "armSkuName",
+            "value": "Azure_Cosmos_DB_for_MongoDB_Coordinator_Node_2vCore"
+          },
+          {
+            "key": "productName",
+            "value": "Azure DocumentDB"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Databases"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2024-12-01T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Azure Cosmos DB",
+        "region": "eastus",
+        "productFamily": "Databases",
+        "prices": [
+          {
+            "USD": "0.220464",
+            "unit": "1 Hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "831650b0-42db-52f6-8a2f-c6429c0ca93d"
+          },
+          {
+            "key": "skuName",
+            "value": "E16s"
+          },
+          {
+            "key": "meterName",
+            "value": "E16s"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0B07F"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH317DL9CC7"
+          },
+          {
+            "key": "armSkuName",
+            "value": ""
+          },
+          {
+            "key": "productName",
+            "value": "Graph API - Memory Optimized Compute"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Databases"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2023-04-01T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Azure Cosmos DB",
+        "region": "eastus",
+        "productFamily": "Databases",
+        "prices": [
+          {
+            "USD": "5.62",
+            "unit": "1 Hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "d205cfb6-affc-469b-8d59-aaf017a21011"
+          },
+          {
+            "key": "skuName",
+            "value": "mRUs"
+          },
+          {
+            "key": "meterName",
+            "value": "100 Multi-master RU/s"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0BPJH"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH317DL9CC7"
+          },
+          {
+            "key": "armSkuName",
+            "value": ""
+          },
+          {
+            "key": "productName",
+            "value": "Azure Cosmos DB"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Databases"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2018-09-24T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Azure Cosmos DB",
+        "region": "eastus",
+        "productFamily": "Databases",
+        "prices": [
+          {
+            "USD": "0.016",
+            "unit": "1/Hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "a992052b-92b1-5652-b178-614b7272efa6"
+          },
+          {
+            "key": "skuName",
+            "value": "MVBuilder D64s"
+          },
+          {
+            "key": "meterName",
+            "value": "MVBuilder D64s vCore"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0DX1T"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH317DL9CC7"
+          },
+          {
+            "key": "armSkuName",
+            "value": "Azure Cosmos DB Materialized Views Builder D64s"
+          },
+          {
+            "key": "productName",
+            "value": "Azure Cosmos DB Materialized Views"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Databases"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2023-08-01T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Azure Cosmos DB",
+        "region": "eastus",
+        "productFamily": "Databases",
+        "prices": [
+          {
+            "USD": "6.08",
+            "unit": "1 Hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "56f07b6a-c7d9-490f-a196-a7ee08e28712"
+          },
+          {
+            "key": "skuName",
+            "value": "mRUs"
+          },
+          {
+            "key": "meterName",
+            "value": "Data Stored"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0BPJH"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH317DL9CC7"
+          },
+          {
+            "key": "armSkuName",
+            "value": ""
+          },
+          {
+            "key": "productName",
+            "value": "Azure Cosmos DB"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Databases"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2016-04-01T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Azure Cosmos DB",
+        "region": "eastus",
+        "productFamily": "Databases",
+        "prices": [
+          {
+            "USD": "0.25",
+            "unit": "1 GB/Month"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "98598563-5f0e-5a28-9c6b-66bbb873eaf5"
+          },
+          {
+            "key": "skuName",
+            "value": "MVBuilder D4s"
+          },
+          {
+            "key": "meterName",
+            "value": "MVBuilder D4s vCore"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0DX1T"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH317DL9CC7"
+          },
+          {
+            "key": "armSkuName",
+            "value": "Azure Cosmos DB Materialized Views Builder D4s"
+          },
+          {
+            "key": "productName",
+            "value": "Azure Cosmos DB Materialized Views"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Databases"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2023-08-01T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Azure Cosmos DB",
+        "region": "eastus",
+        "productFamily": "Databases",
+        "prices": [
+          {
+            "USD": "0.38",
+            "unit": "1 Hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "695d33e2-8ef7-5b02-ae6d-7d2f2be0c915"
+          },
+          {
+            "key": "skuName",
+            "value": "E32s"
+          },
+          {
+            "key": "meterName",
+            "value": "E32s"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0B07F"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH317DL9CC7"
+          },
+          {
+            "key": "armSkuName",
+            "value": ""
+          },
+          {
+            "key": "productName",
+            "value": "Graph API - Memory Optimized Compute"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Databases"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2023-04-01T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Azure Cosmos DB",
+        "region": "eastus",
+        "productFamily": "Databases",
+        "prices": [
+          {
+            "USD": "11.23",
+            "unit": "1 Hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "9b6dec96-5286-52fa-bc74-ce393f2b042f"
+          },
+          {
+            "key": "skuName",
+            "value": "General Purpose"
+          },
+          {
+            "key": "meterName",
+            "value": "General Purpose vCore"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0TF33"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH317DL9CC7"
+          },
+          {
+            "key": "armSkuName",
+            "value": "General Purpose"
+          },
+          {
+            "key": "productName",
+            "value": "Azure Cosmos DB Garnet Cache"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Databases"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2025-11-01T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Azure Cosmos DB",
+        "region": "eastus",
+        "productFamily": "Databases",
+        "prices": [
+          {
+            "USD": "0.1265",
+            "unit": "1 Hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "f5ae75e5-a76d-5209-a12d-475d307a4524"
+          },
+          {
+            "key": "skuName",
+            "value": "D2s"
+          },
+          {
+            "key": "meterName",
+            "value": "D2s"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0B07D"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH317DL9CC7"
+          },
+          {
+            "key": "armSkuName",
+            "value": ""
+          },
+          {
+            "key": "productName",
+            "value": "Graph API - General Purpose Compute"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Databases"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2023-04-01T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Azure Cosmos DB",
+        "region": "eastus",
+        "productFamily": "Databases",
+        "prices": [
+          {
+            "USD": "0.7",
+            "unit": "1 Hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "1dbf94d1-7cb9-568a-972f-32c10dc21235"
+          },
+          {
+            "key": "skuName",
+            "value": "Backup"
+          },
+          {
+            "key": "meterName",
+            "value": "Cont 30D Bckp Data Restore"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0BX2J"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH317DL9CC7"
+          },
+          {
+            "key": "armSkuName",
+            "value": ""
+          },
+          {
+            "key": "productName",
+            "value": "Azure Cosmos DB - PITR"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Databases"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2022-04-01T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Azure Cosmos DB",
+        "region": "eastus",
+        "productFamily": "Databases",
+        "prices": [
+          {
+            "USD": "0.15",
+            "unit": "1 GB"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,142 @@
+{
+  "data": {
+    "products": [
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Storage"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "RealtimeDatabaseStorage"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Firebase Realtime Database",
+        "region": "global",
+        "productFamily": "Storage",
+        "prices": [
+          {
+            "USD": "5",
+            "unit": "gibibyte month",
+            "startUsageAmount": "0.03571428571428571",
+            "endUsageAmount": null,
+            "purchaseOption": "OnDemand",
+            "termPurchaseOption": null,
+            "termLength": null,
+            "termOfferingClass": null
+          },
+          {
+            "USD": "0",
+            "unit": "gibibyte month",
+            "startUsageAmount": "0",
+            "endUsageAmount": "0.034482758620689655",
+            "purchaseOption": "OnDemand",
+            "termPurchaseOption": null,
+            "termLength": null,
+            "termOfferingClass": null
+          },
+          {
+            "USD": "0",
+            "unit": "gibibyte month",
+            "startUsageAmount": "0",
+            "endUsageAmount": "0.03225806451612903",
+            "purchaseOption": "OnDemand",
+            "termPurchaseOption": null,
+            "termLength": null,
+            "termOfferingClass": null
+          },
+          {
+            "USD": "5",
+            "unit": "gibibyte month",
+            "startUsageAmount": "0.03333333333333333",
+            "endUsageAmount": null,
+            "purchaseOption": "OnDemand",
+            "termPurchaseOption": null,
+            "termLength": null,
+            "termOfferingClass": null
+          },
+          {
+            "USD": "5",
+            "unit": "gibibyte month",
+            "startUsageAmount": "0.03225806451612903",
+            "endUsageAmount": null,
+            "purchaseOption": "OnDemand",
+            "termPurchaseOption": null,
+            "termLength": null,
+            "termOfferingClass": null
+          },
+          {
+            "USD": "5",
+            "unit": "gibibyte month",
+            "startUsageAmount": "0.034482758620689655",
+            "endUsageAmount": null,
+            "purchaseOption": "OnDemand",
+            "termPurchaseOption": null,
+            "termLength": null,
+            "termOfferingClass": null
+          },
+          {
+            "USD": "0",
+            "unit": "gibibyte month",
+            "startUsageAmount": "0",
+            "endUsageAmount": "0.03333333333333333",
+            "purchaseOption": "OnDemand",
+            "termPurchaseOption": null,
+            "termLength": null,
+            "termOfferingClass": null
+          },
+          {
+            "USD": "0",
+            "unit": "gibibyte month",
+            "startUsageAmount": "0",
+            "endUsageAmount": "0.03571428571428571",
+            "purchaseOption": "OnDemand",
+            "termPurchaseOption": null,
+            "termLength": null,
+            "termOfferingClass": null
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Outgoing Bandwidth"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "FirebaseInternetEgress"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Firebase Realtime Database",
+        "region": "global",
+        "productFamily": "Network",
+        "prices": [
+          {
+            "USD": "1",
+            "unit": "gibibyte",
+            "startUsageAmount": "0.3515625",
+            "endUsageAmount": null,
+            "purchaseOption": "OnDemand",
+            "termPurchaseOption": null,
+            "termLength": null,
+            "termOfferingClass": null
+          },
+          {
+            "USD": "0",
+            "unit": "gibibyte",
+            "startUsageAmount": "0",
+            "endUsageAmount": "0.3515625",
+            "purchaseOption": "OnDemand",
+            "termPurchaseOption": null,
+            "termLength": null,
+            "termOfferingClass": null
+          }
+        ]
+      }
+    ]
+  }
+}

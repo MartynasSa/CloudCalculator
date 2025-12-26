@@ -1,0 +1,506 @@
+{
+  "data": {
+    "products": [
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "cb148791-ff88-5698-b288-d612fbc3bfe3"
+          },
+          {
+            "key": "skuName",
+            "value": "Automatic"
+          },
+          {
+            "key": "meterName",
+            "value": "Automatic Compute Optimized"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0RCC3"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH315HTQSK6"
+          },
+          {
+            "key": "armSkuName",
+            "value": "Automatic"
+          },
+          {
+            "key": "productName",
+            "value": "Azure Kubernetes Service - Automatic"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Compute"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2025-10-01T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Azure Kubernetes Service",
+        "region": "eastus",
+        "productFamily": "Compute",
+        "prices": [
+          {
+            "USD": "0.012196",
+            "unit": "1 Hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "a5bda4c6-08bf-5c90-bfc0-704f3d25def9"
+          },
+          {
+            "key": "skuName",
+            "value": "Automatic"
+          },
+          {
+            "key": "meterName",
+            "value": "Automatic Hosted Control Plane"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0RCC3"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH315HTQSK6"
+          },
+          {
+            "key": "armSkuName",
+            "value": "Automatic"
+          },
+          {
+            "key": "productName",
+            "value": "Azure Kubernetes Service - Automatic"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Compute"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2025-10-01T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Azure Kubernetes Service",
+        "region": "eastus",
+        "productFamily": "Compute",
+        "prices": [
+          {
+            "USD": "0.16",
+            "unit": "1 Hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "abec1f9a-776d-5af5-956f-4bbd9f409df9"
+          },
+          {
+            "key": "skuName",
+            "value": "Standard"
+          },
+          {
+            "key": "meterName",
+            "value": "Standard Long Term Support"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0CQSH"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH315HTQSK6"
+          },
+          {
+            "key": "armSkuName",
+            "value": ""
+          },
+          {
+            "key": "productName",
+            "value": "Azure Kubernetes Service"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Compute"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2023-05-01T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Azure Kubernetes Service",
+        "region": "eastus",
+        "productFamily": "Compute",
+        "prices": [
+          {
+            "USD": "0.6",
+            "unit": "1 Hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "ca03de9c-92eb-580d-81be-f28f296c7a68"
+          },
+          {
+            "key": "skuName",
+            "value": "Automatic"
+          },
+          {
+            "key": "meterName",
+            "value": "Automatic Storage Optimized"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0RCC3"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH315HTQSK6"
+          },
+          {
+            "key": "armSkuName",
+            "value": "Automatic"
+          },
+          {
+            "key": "productName",
+            "value": "Azure Kubernetes Service - Automatic"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Compute"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2025-10-01T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Azure Kubernetes Service",
+        "region": "eastus",
+        "productFamily": "Compute",
+        "prices": [
+          {
+            "USD": "0.014487",
+            "unit": "1 Hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "8af3a4cb-3640-54ab-8e5d-f8edfc462303"
+          },
+          {
+            "key": "skuName",
+            "value": "Automatic"
+          },
+          {
+            "key": "meterName",
+            "value": "Automatic Memory Optimized"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0RCC3"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH315HTQSK6"
+          },
+          {
+            "key": "armSkuName",
+            "value": "Automatic"
+          },
+          {
+            "key": "productName",
+            "value": "Azure Kubernetes Service - Automatic"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Compute"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2025-10-01T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Azure Kubernetes Service",
+        "region": "eastus",
+        "productFamily": "Compute",
+        "prices": [
+          {
+            "USD": "0.012427",
+            "unit": "1 Hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "251a08e1-40d6-48e6-8368-4c3e5ee3bbff"
+          },
+          {
+            "key": "skuName",
+            "value": "Standard"
+          },
+          {
+            "key": "meterName",
+            "value": "Standard Uptime SLA"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0CQSH"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH315HTQSK6"
+          },
+          {
+            "key": "armSkuName",
+            "value": ""
+          },
+          {
+            "key": "productName",
+            "value": "Azure Kubernetes Service"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Compute"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2020-03-01T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Azure Kubernetes Service",
+        "region": "eastus",
+        "productFamily": "Compute",
+        "prices": [
+          {
+            "USD": "0.1",
+            "unit": "1 Hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "4d359ed3-a822-5237-ab40-1c5432092ff2"
+          },
+          {
+            "key": "skuName",
+            "value": "Automatic"
+          },
+          {
+            "key": "meterName",
+            "value": "Automatic High Performance Compute"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0RCC3"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH315HTQSK6"
+          },
+          {
+            "key": "armSkuName",
+            "value": "Automatic"
+          },
+          {
+            "key": "productName",
+            "value": "Azure Kubernetes Service - Automatic"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Compute"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2025-10-01T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Azure Kubernetes Service",
+        "region": "eastus",
+        "productFamily": "Compute",
+        "prices": [
+          {
+            "USD": "0.007312",
+            "unit": "1 Hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "82275a0a-ea63-59a4-9833-a2fd04bdea8c"
+          },
+          {
+            "key": "skuName",
+            "value": "Automatic"
+          },
+          {
+            "key": "meterName",
+            "value": "Automatic GPU Accelerated"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0RCC3"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH315HTQSK6"
+          },
+          {
+            "key": "armSkuName",
+            "value": "Automatic"
+          },
+          {
+            "key": "productName",
+            "value": "Azure Kubernetes Service - Automatic"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Compute"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2025-10-01T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Azure Kubernetes Service",
+        "region": "eastus",
+        "productFamily": "Compute",
+        "prices": [
+          {
+            "USD": "0.035952",
+            "unit": "1 Hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "6ed6bb11-e932-5859-b878-4906e907ac71"
+          },
+          {
+            "key": "skuName",
+            "value": "Automatic"
+          },
+          {
+            "key": "meterName",
+            "value": "Automatic General Purpose"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0RCC3"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH315HTQSK6"
+          },
+          {
+            "key": "armSkuName",
+            "value": "Automatic"
+          },
+          {
+            "key": "productName",
+            "value": "Azure Kubernetes Service - Automatic"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Compute"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2025-10-01T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Azure Kubernetes Service",
+        "region": "eastus",
+        "productFamily": "Compute",
+        "prices": [
+          {
+            "USD": "0.007841",
+            "unit": "1 Hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "89e55533-3241-5172-a3de-54888673318a"
+          },
+          {
+            "key": "skuName",
+            "value": "Automatic"
+          },
+          {
+            "key": "meterName",
+            "value": "Automatic Confidential Compute"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0RCC3"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH315HTQSK6"
+          },
+          {
+            "key": "armSkuName",
+            "value": "Automatic"
+          },
+          {
+            "key": "productName",
+            "value": "Azure Kubernetes Service - Automatic"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Compute"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2025-10-01T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Azure Kubernetes Service",
+        "region": "eastus",
+        "productFamily": "Compute",
+        "prices": [
+          {
+            "USD": "0.012117",
+            "unit": "1 Hour"
+          }
+        ]
+      }
+    ]
+  }
+}

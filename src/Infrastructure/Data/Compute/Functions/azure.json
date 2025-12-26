@@ -1,0 +1,722 @@
+{
+  "data": {
+    "products": [
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "27efe182-100d-54cd-9dde-e68be9498465"
+          },
+          {
+            "key": "skuName",
+            "value": "Always Ready"
+          },
+          {
+            "key": "meterName",
+            "value": "Always Ready Total Executions"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0DW2R"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH319HJX2WX"
+          },
+          {
+            "key": "armSkuName",
+            "value": "Always Ready"
+          },
+          {
+            "key": "productName",
+            "value": "Flex Consumption"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Compute"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2024-12-01T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Functions",
+        "region": "eastus",
+        "productFamily": "Compute",
+        "prices": [
+          {
+            "USD": "0.000004",
+            "unit": "10"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "bf16dee5-54de-5959-afd8-0ddb8638b6e0"
+          },
+          {
+            "key": "skuName",
+            "value": "Always Ready - NeverUsed"
+          },
+          {
+            "key": "meterName",
+            "value": "Always Ready - NeverUsed Total Executions"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0DW2R"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH319HJX2WX"
+          },
+          {
+            "key": "armSkuName",
+            "value": "Always Ready"
+          },
+          {
+            "key": "productName",
+            "value": "Flex Consumption"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Compute"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2023-10-01T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Functions",
+        "region": "eastus",
+        "productFamily": "Compute",
+        "prices": [
+          {
+            "USD": "0.01",
+            "unit": "10"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "08bfd03b-1cc7-43b7-bb94-66082518eeaf"
+          },
+          {
+            "key": "skuName",
+            "value": "Premium"
+          },
+          {
+            "key": "meterName",
+            "value": "Premium Memory Duration"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0BXVK"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH319HJX2WX"
+          },
+          {
+            "key": "armSkuName",
+            "value": ""
+          },
+          {
+            "key": "productName",
+            "value": "Premium Functions"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Compute"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2019-11-11T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Functions",
+        "region": "eastus",
+        "productFamily": "Compute",
+        "prices": [
+          {
+            "USD": "0.0123",
+            "unit": "1 GiB Hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "6470f5a8-3e62-5f8b-8ac3-a47b3bc9d4b4"
+          },
+          {
+            "key": "skuName",
+            "value": "Always Ready - NeverUsed"
+          },
+          {
+            "key": "meterName",
+            "value": "Always Ready - NeverUsed Execution Time"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0DW2R"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH319HJX2WX"
+          },
+          {
+            "key": "armSkuName",
+            "value": "Always Ready"
+          },
+          {
+            "key": "productName",
+            "value": "Flex Consumption"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Compute"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2023-10-01T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Functions",
+        "region": "eastus",
+        "productFamily": "Compute",
+        "prices": [
+          {
+            "USD": "0.01",
+            "unit": "1 GB Second"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "55b01a56-f3b2-5a84-a849-0bea3e3d5c50"
+          },
+          {
+            "key": "skuName",
+            "value": "On Demand - NeverUsed"
+          },
+          {
+            "key": "meterName",
+            "value": "On Demand - NeverUsed Execution Time"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0DW2R"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH319HJX2WX"
+          },
+          {
+            "key": "armSkuName",
+            "value": "On Demand"
+          },
+          {
+            "key": "productName",
+            "value": "Flex Consumption"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Compute"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2023-10-01T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Functions",
+        "region": "eastus",
+        "productFamily": "Compute",
+        "prices": [
+          {
+            "USD": "0.01",
+            "unit": "1 GB Second"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "4e5cd9e2-c20f-4d7f-acbe-58931b8b49ef"
+          },
+          {
+            "key": "skuName",
+            "value": "Standard"
+          },
+          {
+            "key": "meterName",
+            "value": "Standard Total Executions"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0BNWB"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH319HJX2WX"
+          },
+          {
+            "key": "armSkuName",
+            "value": ""
+          },
+          {
+            "key": "productName",
+            "value": "Functions"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Compute"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2017-01-01T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Functions",
+        "region": "eastus",
+        "productFamily": "Compute",
+        "prices": [
+          {
+            "USD": "0",
+            "unit": "10"
+          },
+          {
+            "USD": "0.000002",
+            "unit": "10"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "88ce9748-8e1e-52f7-9f58-0527bb1d4241"
+          },
+          {
+            "key": "skuName",
+            "value": "On Demand - NeverUsed"
+          },
+          {
+            "key": "meterName",
+            "value": "On Demand - NeverUsed Total Executions"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0DW2R"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH319HJX2WX"
+          },
+          {
+            "key": "armSkuName",
+            "value": "On Demand"
+          },
+          {
+            "key": "productName",
+            "value": "Flex Consumption"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Compute"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2023-10-01T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Functions",
+        "region": "eastus",
+        "productFamily": "Compute",
+        "prices": [
+          {
+            "USD": "0.01",
+            "unit": "10"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "cd5d6bae-9b8d-5456-ab84-46919175c318"
+          },
+          {
+            "key": "skuName",
+            "value": "On Demand"
+          },
+          {
+            "key": "meterName",
+            "value": "On Demand Execution Time"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0DW2R"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH319HJX2WX"
+          },
+          {
+            "key": "armSkuName",
+            "value": "On Demand"
+          },
+          {
+            "key": "productName",
+            "value": "Flex Consumption"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Compute"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2024-12-01T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Functions",
+        "region": "eastus",
+        "productFamily": "Compute",
+        "prices": [
+          {
+            "USD": "0",
+            "unit": "1 GB Second"
+          },
+          {
+            "USD": "0.000026",
+            "unit": "1 GB Second"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "2a384075-01d7-4f66-a84a-0eed3ca58876"
+          },
+          {
+            "key": "skuName",
+            "value": "Standard"
+          },
+          {
+            "key": "meterName",
+            "value": "Standard Execution Time"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0BNWB"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH319HJX2WX"
+          },
+          {
+            "key": "armSkuName",
+            "value": ""
+          },
+          {
+            "key": "productName",
+            "value": "Functions"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Compute"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2017-01-01T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Functions",
+        "region": "eastus",
+        "productFamily": "Compute",
+        "prices": [
+          {
+            "USD": "0",
+            "unit": "1 GB Second"
+          },
+          {
+            "USD": "0.000016",
+            "unit": "1 GB Second"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "df5a0f19-e5ba-4d46-95cd-0fb29c69e7cd"
+          },
+          {
+            "key": "skuName",
+            "value": "Premium"
+          },
+          {
+            "key": "meterName",
+            "value": "Premium vCPU Duration"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0BXVK"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH319HJX2WX"
+          },
+          {
+            "key": "armSkuName",
+            "value": ""
+          },
+          {
+            "key": "productName",
+            "value": "Premium Functions"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Compute"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2019-11-11T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Functions",
+        "region": "eastus",
+        "productFamily": "Compute",
+        "prices": [
+          {
+            "USD": "0.173",
+            "unit": "1 Hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "4d397fba-0393-57dd-9da3-f145b5c874fe"
+          },
+          {
+            "key": "skuName",
+            "value": "On Demand"
+          },
+          {
+            "key": "meterName",
+            "value": "On Demand Total Executions"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0DW2R"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH319HJX2WX"
+          },
+          {
+            "key": "armSkuName",
+            "value": "On Demand"
+          },
+          {
+            "key": "productName",
+            "value": "Flex Consumption"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Compute"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2024-12-01T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Functions",
+        "region": "eastus",
+        "productFamily": "Compute",
+        "prices": [
+          {
+            "USD": "0.000004",
+            "unit": "10"
+          },
+          {
+            "USD": "0",
+            "unit": "10"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "64944692-160a-5ca0-9f88-c61776ca0142"
+          },
+          {
+            "key": "skuName",
+            "value": "Always Ready"
+          },
+          {
+            "key": "meterName",
+            "value": "Always Ready Baseline"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0DW2R"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH319HJX2WX"
+          },
+          {
+            "key": "armSkuName",
+            "value": "Always Ready"
+          },
+          {
+            "key": "productName",
+            "value": "Flex Consumption"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Compute"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2024-12-01T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Functions",
+        "region": "eastus",
+        "productFamily": "Compute",
+        "prices": [
+          {
+            "USD": "0.000004",
+            "unit": "1 GB Second"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "027afd58-24db-521f-8309-dcb3da519422"
+          },
+          {
+            "key": "skuName",
+            "value": "Always Ready"
+          },
+          {
+            "key": "meterName",
+            "value": "Always Ready Execution Time"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0DW2R"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH319HJX2WX"
+          },
+          {
+            "key": "armSkuName",
+            "value": "Always Ready"
+          },
+          {
+            "key": "productName",
+            "value": "Flex Consumption"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Compute"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2024-12-01T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Functions",
+        "region": "eastus",
+        "productFamily": "Compute",
+        "prices": [
+          {
+            "USD": "0.000016",
+            "unit": "1 GB Second"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "dbc8089b-e7e2-56d1-8330-1bd398ed7e42"
+          },
+          {
+            "key": "skuName",
+            "value": "Always Ready - NeverUsed"
+          },
+          {
+            "key": "meterName",
+            "value": "Always Ready - NeverUsed Baseline"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0DW2R"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH319HJX2WX"
+          },
+          {
+            "key": "armSkuName",
+            "value": "Always Ready"
+          },
+          {
+            "key": "productName",
+            "value": "Flex Consumption"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Compute"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2023-10-01T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Functions",
+        "region": "eastus",
+        "productFamily": "Compute",
+        "prices": [
+          {
+            "USD": "0.01",
+            "unit": "1 GB Second"
+          }
+        ]
+      }
+    ]
+  }
+}

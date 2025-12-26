@@ -1,0 +1,198 @@
+{
+  "data": {
+    "products": [
+      {
+        "attributes": [
+          {
+            "key": "group",
+            "value": "ELB:Balancing"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "LoadBalancing"
+          },
+          {
+            "key": "usagetype",
+            "value": "DataProcessing-Bytes"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonEC2"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon Elastic Compute Cloud"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "groupDescription",
+            "value": "Data processed by Elastic Load Balancer"
+          }
+        ],
+        "service": "AmazonEC2",
+        "productFamily": "Load Balancer",
+        "prices": [
+          {
+            "USD": "0.008",
+            "unit": "GB"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "group",
+            "value": "ELB:Balancer"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "LoadBalancing"
+          },
+          {
+            "key": "usagetype",
+            "value": "LoadBalancerUsage"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonEC2"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon Elastic Compute Cloud"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "groupDescription",
+            "value": "Standard Elastic Load Balancer"
+          }
+        ],
+        "service": "AmazonEC2",
+        "productFamily": "Load Balancer",
+        "prices": [
+          {
+            "USD": "0.025",
+            "unit": "Hrs"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "group",
+            "value": "ELB:Balancing"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "LoadBalancing"
+          },
+          {
+            "key": "usagetype",
+            "value": "DataProcessing-Bytes"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "servicecode",
+            "value": "AWSELB"
+          },
+          {
+            "key": "servicename",
+            "value": "Elastic Load Balancing"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "groupDescription",
+            "value": "Data processed by Classic Load Balancer"
+          }
+        ],
+        "service": "AWSELB",
+        "productFamily": "Load Balancer",
+        "prices": [
+          {
+            "USD": "0.008",
+            "unit": "GB"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "group",
+            "value": "ELB:Balancing"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "LoadBalancing"
+          },
+          {
+            "key": "usagetype",
+            "value": "LoadBalancerUsage"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "servicecode",
+            "value": "AWSELB"
+          },
+          {
+            "key": "servicename",
+            "value": "Elastic Load Balancing"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "groupDescription",
+            "value": "LoadBalancer hourly usage by Classic Load Balancer"
+          }
+        ],
+        "service": "AWSELB",
+        "productFamily": "Load Balancer",
+        "prices": [
+          {
+            "USD": "0.025",
+            "unit": "Hrs"
+          }
+        ]
+      }
+    ]
+  }
+}

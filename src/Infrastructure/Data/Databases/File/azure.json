@@ -1,0 +1,2546 @@
+{
+  "data": {
+    "products": [
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "9ebec363-7e14-5db9-85b6-bf00943f9c3b"
+          },
+          {
+            "key": "skuName",
+            "value": "Cross Region Replication - US East to US West 2"
+          },
+          {
+            "key": "meterName",
+            "value": "Cross Region Replication - US East to US West 2 Minutes"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0BXV9"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH3147RZ57L"
+          },
+          {
+            "key": "armSkuName",
+            "value": ""
+          },
+          {
+            "key": "productName",
+            "value": "Azure NetApp Files"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Storage"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2021-10-01T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Azure NetApp Files",
+        "region": "eastus",
+        "productFamily": "Storage",
+        "prices": [
+          {
+            "USD": "0.14",
+            "unit": "1 GiB/Hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "a014ef1a-40ef-5cdb-9c50-c74150d4e9a2"
+          },
+          {
+            "key": "skuName",
+            "value": "Cross Region Replication - US East to US Central"
+          },
+          {
+            "key": "meterName",
+            "value": "Cross Region Replication - US East to US Central Days"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0BXV9"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH3147RZ57L"
+          },
+          {
+            "key": "armSkuName",
+            "value": "Cross Region Replication - US East to US Central"
+          },
+          {
+            "key": "productName",
+            "value": "Azure NetApp Files"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Storage"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2025-07-01T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Azure NetApp Files",
+        "region": "eastus",
+        "productFamily": "Storage",
+        "prices": [
+          {
+            "USD": "0.12",
+            "unit": "1 GiB/Hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "7b2f0295-c41a-40d9-bdde-17976a7f675d"
+          },
+          {
+            "key": "skuName",
+            "value": "Premium - 1 PiB"
+          },
+          {
+            "key": "meterName",
+            "value": "Premium - 1 PiB Capacity"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z08G4K"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH3147RZ57L"
+          },
+          {
+            "key": "armSkuName",
+            "value": "NetApp_Premium_1 PiB"
+          },
+          {
+            "key": "productName",
+            "value": "Azure NetApp Files Reserved Capacity"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Storage"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2024-02-01T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Azure NetApp Files",
+        "region": "eastus",
+        "productFamily": "Storage",
+        "prices": []
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "baefc2a9-2e58-44c9-819a-770f887dfa27"
+          },
+          {
+            "key": "skuName",
+            "value": "Standard"
+          },
+          {
+            "key": "meterName",
+            "value": "Standard Snapshots"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0BXV9"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH3147RZ57L"
+          },
+          {
+            "key": "armSkuName",
+            "value": ""
+          },
+          {
+            "key": "productName",
+            "value": "Azure NetApp Files"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Storage"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2019-05-28T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Azure NetApp Files",
+        "region": "eastus",
+        "productFamily": "Storage",
+        "prices": [
+          {
+            "USD": "0.000202",
+            "unit": "1 GiB/Hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "47635fe2-6435-43f0-b657-66efee7e105a"
+          },
+          {
+            "key": "skuName",
+            "value": "Remote"
+          },
+          {
+            "key": "meterName",
+            "value": "Remote Vault - Capacity"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0BXV9"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH3147RZ57L"
+          },
+          {
+            "key": "armSkuName",
+            "value": ""
+          },
+          {
+            "key": "productName",
+            "value": "Azure NetApp Files"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Storage"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2019-05-28T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Azure NetApp Files",
+        "region": "eastus",
+        "productFamily": "Storage",
+        "prices": [
+          {
+            "USD": "0.000202",
+            "unit": "1 GiB/Hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "5c82a6d9-c23b-42b4-b0ba-201062adf09a"
+          },
+          {
+            "key": "skuName",
+            "value": "Standard - 1 PiB"
+          },
+          {
+            "key": "meterName",
+            "value": "Standard - 1 PiB Capacity"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z08G4K"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH3147RZ57L"
+          },
+          {
+            "key": "armSkuName",
+            "value": "NetApp_Standard_1 PiB"
+          },
+          {
+            "key": "productName",
+            "value": "Azure NetApp Files Reserved Capacity"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Storage"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2024-02-01T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Azure NetApp Files",
+        "region": "eastus",
+        "productFamily": "Storage",
+        "prices": []
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "404d55e7-c412-4a2e-8147-6e75089d54fe"
+          },
+          {
+            "key": "skuName",
+            "value": "Ultra - 100 TiB"
+          },
+          {
+            "key": "meterName",
+            "value": "Ultra - 100 TiB Capacity"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z08G4K"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH3147RZ57L"
+          },
+          {
+            "key": "armSkuName",
+            "value": "NetApp_Ultra_100 TiB"
+          },
+          {
+            "key": "productName",
+            "value": "Azure NetApp Files Reserved Capacity"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Storage"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2024-02-01T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Azure NetApp Files",
+        "region": "eastus",
+        "productFamily": "Storage",
+        "prices": []
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "404d55e7-c412-4a2e-8147-6e75089d54fe"
+          },
+          {
+            "key": "skuName",
+            "value": "Ultra"
+          },
+          {
+            "key": "meterName",
+            "value": "Ultra Capacity"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0BXV9"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH3147RZ57L"
+          },
+          {
+            "key": "armSkuName",
+            "value": ""
+          },
+          {
+            "key": "productName",
+            "value": "Azure NetApp Files"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Storage"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2019-05-28T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Azure NetApp Files",
+        "region": "eastus",
+        "productFamily": "Storage",
+        "prices": [
+          {
+            "USD": "0.000538",
+            "unit": "1 GiB/Hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "9daf6974-1cdc-4b43-addc-e0f3e01f02b1"
+          },
+          {
+            "key": "skuName",
+            "value": "Ultra"
+          },
+          {
+            "key": "meterName",
+            "value": "Ultra Snapshots"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0BXV9"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH3147RZ57L"
+          },
+          {
+            "key": "armSkuName",
+            "value": ""
+          },
+          {
+            "key": "productName",
+            "value": "Azure NetApp Files"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Storage"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2019-05-28T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Azure NetApp Files",
+        "region": "eastus",
+        "productFamily": "Storage",
+        "prices": [
+          {
+            "USD": "0.000538",
+            "unit": "1 GiB/Hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "5c82a6d9-c23b-42b4-b0ba-201062adf09a"
+          },
+          {
+            "key": "skuName",
+            "value": "Standard - 1 PiB"
+          },
+          {
+            "key": "meterName",
+            "value": "Standard - 1 PiB Capacity"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z08G4K"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH3147RZ57L"
+          },
+          {
+            "key": "armSkuName",
+            "value": "NetApp_Standard_1 PiB"
+          },
+          {
+            "key": "productName",
+            "value": "Azure NetApp Files Reserved Capacity"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Storage"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2024-02-01T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Azure NetApp Files",
+        "region": "eastus",
+        "productFamily": "Storage",
+        "prices": []
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "d07c88f6-40c9-5585-a12a-139217f895f8"
+          },
+          {
+            "key": "skuName",
+            "value": "Cross Region Replication - US East to US West 3"
+          },
+          {
+            "key": "meterName",
+            "value": "Cross Region Replication - US East to US West 3 Days"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0BXV9"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH3147RZ57L"
+          },
+          {
+            "key": "armSkuName",
+            "value": ""
+          },
+          {
+            "key": "productName",
+            "value": "Azure NetApp Files"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Storage"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2021-10-01T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Azure NetApp Files",
+        "region": "eastus",
+        "productFamily": "Storage",
+        "prices": [
+          {
+            "USD": "0.1265",
+            "unit": "1 GiB/Hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "cc4b4b2a-869e-5e34-aa18-1d891300121e"
+          },
+          {
+            "key": "skuName",
+            "value": "CRR - US East to US South Central"
+          },
+          {
+            "key": "meterName",
+            "value": "CRR - US East to US South Central Minutes"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0BXV9"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH3147RZ57L"
+          },
+          {
+            "key": "armSkuName",
+            "value": ""
+          },
+          {
+            "key": "productName",
+            "value": "Azure NetApp Files"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Storage"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2021-10-01T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Azure NetApp Files",
+        "region": "eastus",
+        "productFamily": "Storage",
+        "prices": [
+          {
+            "USD": "0.154",
+            "unit": "1 GiB/Hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "60c2a97a-65ca-5872-aa61-5900570aef8c"
+          },
+          {
+            "key": "skuName",
+            "value": "Flexible Service Level"
+          },
+          {
+            "key": "meterName",
+            "value": "Flexible Service Level Capacity"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0BXV9"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH3147RZ57L"
+          },
+          {
+            "key": "armSkuName",
+            "value": "Flexible Service Level"
+          },
+          {
+            "key": "productName",
+            "value": "Azure NetApp Files"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Storage"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2025-09-01T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Azure NetApp Files",
+        "region": "eastus",
+        "productFamily": "Storage",
+        "prices": [
+          {
+            "USD": "0.000151",
+            "unit": "1 GiB/Hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "db52b596-8cb3-5f73-8448-5e3296850277"
+          },
+          {
+            "key": "skuName",
+            "value": "Cross Region Replication"
+          },
+          {
+            "key": "meterName",
+            "value": "Cross Region Replication Hours"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0BXV9"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH3147RZ57L"
+          },
+          {
+            "key": "armSkuName",
+            "value": ""
+          },
+          {
+            "key": "productName",
+            "value": "Azure NetApp Files"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Storage"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2021-09-01T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Azure NetApp Files",
+        "region": "eastus",
+        "productFamily": "Storage",
+        "prices": [
+          {
+            "USD": "0.12",
+            "unit": "1 GiB/Hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "d44404ab-2d16-5f6b-acbb-58069b6bca09"
+          },
+          {
+            "key": "skuName",
+            "value": "CRR - US East to US South Central"
+          },
+          {
+            "key": "meterName",
+            "value": "CRR - US East to US South Central Days"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0BXV9"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH3147RZ57L"
+          },
+          {
+            "key": "armSkuName",
+            "value": ""
+          },
+          {
+            "key": "productName",
+            "value": "Azure NetApp Files"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Storage"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2021-10-01T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Azure NetApp Files",
+        "region": "eastus",
+        "productFamily": "Storage",
+        "prices": [
+          {
+            "USD": "0.121",
+            "unit": "1 GiB/Hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "5c82a6d9-c23b-42b4-b0ba-201062adf09a"
+          },
+          {
+            "key": "skuName",
+            "value": "Standard - 100 TiB"
+          },
+          {
+            "key": "meterName",
+            "value": "Standard - 100 TiB Capacity"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z08G4K"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH3147RZ57L"
+          },
+          {
+            "key": "armSkuName",
+            "value": "NetApp_Standard_100 TiB"
+          },
+          {
+            "key": "productName",
+            "value": "Azure NetApp Files Reserved Capacity"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Storage"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2024-02-01T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Azure NetApp Files",
+        "region": "eastus",
+        "productFamily": "Storage",
+        "prices": []
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "021f8272-2da4-59f2-af4a-995a3ee5c0ef"
+          },
+          {
+            "key": "skuName",
+            "value": "Ultra Double Encrypted"
+          },
+          {
+            "key": "meterName",
+            "value": "Ultra Double Encrypted Capacity"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0BXV9"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH3147RZ57L"
+          },
+          {
+            "key": "armSkuName",
+            "value": ""
+          },
+          {
+            "key": "productName",
+            "value": "Azure NetApp Files"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Storage"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2021-02-01T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Azure NetApp Files",
+        "region": "eastus",
+        "productFamily": "Storage",
+        "prices": [
+          {
+            "USD": "0.00065",
+            "unit": "1 GiB/Hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "57ce162a-ad5b-587c-8224-0b438b354bae"
+          },
+          {
+            "key": "skuName",
+            "value": "Flexible Service Level"
+          },
+          {
+            "key": "meterName",
+            "value": "Flexible Service Level Throughput MiBps"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0BXV9"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH3147RZ57L"
+          },
+          {
+            "key": "armSkuName",
+            "value": "Flexible Service Level"
+          },
+          {
+            "key": "productName",
+            "value": "Azure NetApp Files"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Storage"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2025-09-01T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Azure NetApp Files",
+        "region": "eastus",
+        "productFamily": "Storage",
+        "prices": [
+          {
+            "USD": "0.003082",
+            "unit": "1/Hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "4335e0fc-7a62-5798-8a31-a000ac00f704"
+          },
+          {
+            "key": "skuName",
+            "value": "Standard Double Encrypted"
+          },
+          {
+            "key": "meterName",
+            "value": "Standard Double Encrypted Capacity"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0BXV9"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH3147RZ57L"
+          },
+          {
+            "key": "armSkuName",
+            "value": ""
+          },
+          {
+            "key": "productName",
+            "value": "Azure NetApp Files"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Storage"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2021-02-01T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Azure NetApp Files",
+        "region": "eastus",
+        "productFamily": "Storage",
+        "prices": [
+          {
+            "USD": "0.00024",
+            "unit": "1 GiB/Hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "5c82a6d9-c23b-42b4-b0ba-201062adf09a"
+          },
+          {
+            "key": "skuName",
+            "value": "Standard"
+          },
+          {
+            "key": "meterName",
+            "value": "Standard Capacity"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0BXV9"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH3147RZ57L"
+          },
+          {
+            "key": "armSkuName",
+            "value": ""
+          },
+          {
+            "key": "productName",
+            "value": "Azure NetApp Files"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Storage"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2019-05-28T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Azure NetApp Files",
+        "region": "eastus",
+        "productFamily": "Storage",
+        "prices": [
+          {
+            "USD": "0.000202",
+            "unit": "1 GiB/Hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "eea517d5-fdd4-5395-8f14-ad2d9c4348a1"
+          },
+          {
+            "key": "skuName",
+            "value": "Premium Double Encrypted"
+          },
+          {
+            "key": "meterName",
+            "value": "Premium Double Encrypted Capacity"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0BXV9"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH3147RZ57L"
+          },
+          {
+            "key": "armSkuName",
+            "value": ""
+          },
+          {
+            "key": "productName",
+            "value": "Azure NetApp Files"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Storage"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2021-02-01T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Azure NetApp Files",
+        "region": "eastus",
+        "productFamily": "Storage",
+        "prices": [
+          {
+            "USD": "0.00048",
+            "unit": "1 GiB/Hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "f1900a39-59d7-52ba-832c-b751fe642cb6"
+          },
+          {
+            "key": "skuName",
+            "value": "CRR - US East to US North Central"
+          },
+          {
+            "key": "meterName",
+            "value": "CRR - US East to US North Central Minutes"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0BXV9"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH3147RZ57L"
+          },
+          {
+            "key": "armSkuName",
+            "value": "Cross Region Replication - US East to US North Central"
+          },
+          {
+            "key": "productName",
+            "value": "Azure NetApp Files"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Storage"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2024-11-01T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Azure NetApp Files",
+        "region": "eastus",
+        "productFamily": "Storage",
+        "prices": [
+          {
+            "USD": "0.16",
+            "unit": "1 GiB/Hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "51c46ebb-85ff-5494-a13a-8a2fe72930fa"
+          },
+          {
+            "key": "skuName",
+            "value": "Cross Region Replication - US East to US Central"
+          },
+          {
+            "key": "meterName",
+            "value": "Cross Region Replication - US East to US Central Hours"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0BXV9"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH3147RZ57L"
+          },
+          {
+            "key": "armSkuName",
+            "value": "Cross Region Replication - US East to US Central"
+          },
+          {
+            "key": "productName",
+            "value": "Azure NetApp Files"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Storage"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2025-07-01T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Azure NetApp Files",
+        "region": "eastus",
+        "productFamily": "Storage",
+        "prices": [
+          {
+            "USD": "0.13",
+            "unit": "1 GiB/Hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "4bf9cca2-bd6d-50b4-9588-0ed62a6fcb68"
+          },
+          {
+            "key": "skuName",
+            "value": "Cross Region Replication - US East to US East 2"
+          },
+          {
+            "key": "meterName",
+            "value": "Cross Region Replication - US East to US East 2 Hours"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0BXV9"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH3147RZ57L"
+          },
+          {
+            "key": "armSkuName",
+            "value": ""
+          },
+          {
+            "key": "productName",
+            "value": "Azure NetApp Files"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Storage"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2021-10-01T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Azure NetApp Files",
+        "region": "eastus",
+        "productFamily": "Storage",
+        "prices": [
+          {
+            "USD": "0.12",
+            "unit": "1 GiB/Hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "7b2f0295-c41a-40d9-bdde-17976a7f675d"
+          },
+          {
+            "key": "skuName",
+            "value": "Premium - 100 TiB"
+          },
+          {
+            "key": "meterName",
+            "value": "Premium - 100 TiB Capacity"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z08G4K"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH3147RZ57L"
+          },
+          {
+            "key": "armSkuName",
+            "value": "NetApp_Premium_100 TiB"
+          },
+          {
+            "key": "productName",
+            "value": "Azure NetApp Files Reserved Capacity"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Storage"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2024-02-01T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Azure NetApp Files",
+        "region": "eastus",
+        "productFamily": "Storage",
+        "prices": []
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "40d563b5-6763-54dd-bee9-93ac0c19bce8"
+          },
+          {
+            "key": "skuName",
+            "value": "Cross Region Replication - US East to US West"
+          },
+          {
+            "key": "meterName",
+            "value": "Cross Region Replication - US East to US West Minutes"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0BXV9"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH3147RZ57L"
+          },
+          {
+            "key": "armSkuName",
+            "value": ""
+          },
+          {
+            "key": "productName",
+            "value": "Azure NetApp Files"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Storage"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2021-10-01T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Azure NetApp Files",
+        "region": "eastus",
+        "productFamily": "Storage",
+        "prices": [
+          {
+            "USD": "0.161",
+            "unit": "1 GiB/Hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "7b2f0295-c41a-40d9-bdde-17976a7f675d"
+          },
+          {
+            "key": "skuName",
+            "value": "Premium - 100 TiB"
+          },
+          {
+            "key": "meterName",
+            "value": "Premium - 100 TiB Capacity"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z08G4K"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH3147RZ57L"
+          },
+          {
+            "key": "armSkuName",
+            "value": "NetApp_Premium_100 TiB"
+          },
+          {
+            "key": "productName",
+            "value": "Azure NetApp Files Reserved Capacity"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Storage"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2024-02-01T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Azure NetApp Files",
+        "region": "eastus",
+        "productFamily": "Storage",
+        "prices": []
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "82ad13a0-7f9f-5853-9e85-8c7b7ffea657"
+          },
+          {
+            "key": "skuName",
+            "value": "Cross Region Replication - US East to US West"
+          },
+          {
+            "key": "meterName",
+            "value": "Cross Region Replication - US East to US West Days"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0BXV9"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH3147RZ57L"
+          },
+          {
+            "key": "armSkuName",
+            "value": ""
+          },
+          {
+            "key": "productName",
+            "value": "Azure NetApp Files"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Storage"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2021-10-01T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Azure NetApp Files",
+        "region": "eastus",
+        "productFamily": "Storage",
+        "prices": [
+          {
+            "USD": "0.1265",
+            "unit": "1 GiB/Hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "404d55e7-c412-4a2e-8147-6e75089d54fe"
+          },
+          {
+            "key": "skuName",
+            "value": "Ultra - 100 TiB"
+          },
+          {
+            "key": "meterName",
+            "value": "Ultra - 100 TiB Capacity"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z08G4K"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH3147RZ57L"
+          },
+          {
+            "key": "armSkuName",
+            "value": "NetApp_Ultra_100 TiB"
+          },
+          {
+            "key": "productName",
+            "value": "Azure NetApp Files Reserved Capacity"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Storage"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2024-02-01T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Azure NetApp Files",
+        "region": "eastus",
+        "productFamily": "Storage",
+        "prices": []
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "a0938362-4c53-588d-8246-c22d7dbf4af4"
+          },
+          {
+            "key": "skuName",
+            "value": "CRR - US East to US North Central"
+          },
+          {
+            "key": "meterName",
+            "value": "CRR - US East to US North Central Hours"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0BXV9"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH3147RZ57L"
+          },
+          {
+            "key": "armSkuName",
+            "value": "Cross Region Replication - US East to US North Central"
+          },
+          {
+            "key": "productName",
+            "value": "Azure NetApp Files"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Storage"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2024-11-01T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Azure NetApp Files",
+        "region": "eastus",
+        "productFamily": "Storage",
+        "prices": [
+          {
+            "USD": "0.13",
+            "unit": "1 GiB/Hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "404d55e7-c412-4a2e-8147-6e75089d54fe"
+          },
+          {
+            "key": "skuName",
+            "value": "Ultra - 1 PiB"
+          },
+          {
+            "key": "meterName",
+            "value": "Ultra - 1 PiB Capacity"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z08G4K"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH3147RZ57L"
+          },
+          {
+            "key": "armSkuName",
+            "value": "NetApp_Ultra_1 PiB"
+          },
+          {
+            "key": "productName",
+            "value": "Azure NetApp Files Reserved Capacity"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Storage"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2024-02-01T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Azure NetApp Files",
+        "region": "eastus",
+        "productFamily": "Storage",
+        "prices": []
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "86a7dc6c-37c2-403d-b541-49ad46081bd0"
+          },
+          {
+            "key": "skuName",
+            "value": "Premium"
+          },
+          {
+            "key": "meterName",
+            "value": "Premium Snapshots"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0BXV9"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH3147RZ57L"
+          },
+          {
+            "key": "armSkuName",
+            "value": ""
+          },
+          {
+            "key": "productName",
+            "value": "Azure NetApp Files"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Storage"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2019-05-28T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Azure NetApp Files",
+        "region": "eastus",
+        "productFamily": "Storage",
+        "prices": [
+          {
+            "USD": "0.000403",
+            "unit": "1 GiB/Hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "5816b487-ce2a-54ba-a608-db70bbfa972d"
+          },
+          {
+            "key": "skuName",
+            "value": "Standard Storage with Cool Access"
+          },
+          {
+            "key": "meterName",
+            "value": "Standard Storage with Cool Access Capacity"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0BXV9"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH3147RZ57L"
+          },
+          {
+            "key": "armSkuName",
+            "value": ""
+          },
+          {
+            "key": "productName",
+            "value": "Azure NetApp Files"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Storage"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2024-06-01T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Azure NetApp Files",
+        "region": "eastus",
+        "productFamily": "Storage",
+        "prices": [
+          {
+            "USD": "0.000082",
+            "unit": "1 GiB/Hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "5c82a6d9-c23b-42b4-b0ba-201062adf09a"
+          },
+          {
+            "key": "skuName",
+            "value": "Standard - 100 TiB"
+          },
+          {
+            "key": "meterName",
+            "value": "Standard - 100 TiB Capacity"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z08G4K"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH3147RZ57L"
+          },
+          {
+            "key": "armSkuName",
+            "value": "NetApp_Standard_100 TiB"
+          },
+          {
+            "key": "productName",
+            "value": "Azure NetApp Files Reserved Capacity"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Storage"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2024-02-01T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Azure NetApp Files",
+        "region": "eastus",
+        "productFamily": "Storage",
+        "prices": []
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "e6d33429-b125-51f8-8db0-fe007a856a23"
+          },
+          {
+            "key": "skuName",
+            "value": "Cross Region Replication - US East to US Central"
+          },
+          {
+            "key": "meterName",
+            "value": "Cross Region Replication - US East to US Central Minutes"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0BXV9"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH3147RZ57L"
+          },
+          {
+            "key": "armSkuName",
+            "value": "Cross Region Replication - US East to US Central"
+          },
+          {
+            "key": "productName",
+            "value": "Azure NetApp Files"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Storage"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2025-07-01T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Azure NetApp Files",
+        "region": "eastus",
+        "productFamily": "Storage",
+        "prices": [
+          {
+            "USD": "0.16",
+            "unit": "1 GiB/Hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "c6b4a50d-2fcc-5c50-a195-773b37f2b54d"
+          },
+          {
+            "key": "skuName",
+            "value": "Cross Region Replication"
+          },
+          {
+            "key": "meterName",
+            "value": "Cross Region Replication Minutes"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0BXV9"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH3147RZ57L"
+          },
+          {
+            "key": "armSkuName",
+            "value": ""
+          },
+          {
+            "key": "productName",
+            "value": "Azure NetApp Files"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Storage"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2021-09-01T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Azure NetApp Files",
+        "region": "eastus",
+        "productFamily": "Storage",
+        "prices": [
+          {
+            "USD": "0.14",
+            "unit": "1 GiB/Hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "7b2f0295-c41a-40d9-bdde-17976a7f675d"
+          },
+          {
+            "key": "skuName",
+            "value": "Premium - 1 PiB"
+          },
+          {
+            "key": "meterName",
+            "value": "Premium - 1 PiB Capacity"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z08G4K"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH3147RZ57L"
+          },
+          {
+            "key": "armSkuName",
+            "value": "NetApp_Premium_1 PiB"
+          },
+          {
+            "key": "productName",
+            "value": "Azure NetApp Files Reserved Capacity"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Storage"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2024-02-01T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Azure NetApp Files",
+        "region": "eastus",
+        "productFamily": "Storage",
+        "prices": []
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "e337d23d-6da5-525f-8b75-37ac076a4055"
+          },
+          {
+            "key": "skuName",
+            "value": "CRR - US East to US South Central"
+          },
+          {
+            "key": "meterName",
+            "value": "CRR - US East to US South Central Hours"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0BXV9"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH3147RZ57L"
+          },
+          {
+            "key": "armSkuName",
+            "value": ""
+          },
+          {
+            "key": "productName",
+            "value": "Azure NetApp Files"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Storage"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2021-10-01T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Azure NetApp Files",
+        "region": "eastus",
+        "productFamily": "Storage",
+        "prices": [
+          {
+            "USD": "0.132",
+            "unit": "1 GiB/Hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "62b08398-7110-5f66-97a5-c018eb252907"
+          },
+          {
+            "key": "skuName",
+            "value": "Cross Region Replication - US East to US West 2"
+          },
+          {
+            "key": "meterName",
+            "value": "Cross Region Replication - US East to US West 2 Hours"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0BXV9"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH3147RZ57L"
+          },
+          {
+            "key": "armSkuName",
+            "value": ""
+          },
+          {
+            "key": "productName",
+            "value": "Azure NetApp Files"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Storage"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2021-10-01T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Azure NetApp Files",
+        "region": "eastus",
+        "productFamily": "Storage",
+        "prices": [
+          {
+            "USD": "0.12",
+            "unit": "1 GiB/Hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "fe786db3-a4ca-5818-a311-6f3cea4eb266"
+          },
+          {
+            "key": "skuName",
+            "value": "Backup"
+          },
+          {
+            "key": "meterName",
+            "value": "Backup Capacity"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0BXV9"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH3147RZ57L"
+          },
+          {
+            "key": "armSkuName",
+            "value": ""
+          },
+          {
+            "key": "productName",
+            "value": "Azure NetApp Files"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Storage"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2022-03-01T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Azure NetApp Files",
+        "region": "eastus",
+        "productFamily": "Storage",
+        "prices": [
+          {
+            "USD": "0.05",
+            "unit": "1 GiB/Month"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "a05c949f-4043-5252-b78c-aaee8c029fe9"
+          },
+          {
+            "key": "skuName",
+            "value": "Volume Restore"
+          },
+          {
+            "key": "meterName",
+            "value": "Volume Restore Capacity"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0BXV9"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH3147RZ57L"
+          },
+          {
+            "key": "armSkuName",
+            "value": ""
+          },
+          {
+            "key": "productName",
+            "value": "Azure NetApp Files"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Storage"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2022-03-01T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Azure NetApp Files",
+        "region": "eastus",
+        "productFamily": "Storage",
+        "prices": [
+          {
+            "USD": "0.02",
+            "unit": "1 GiB"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "78ae8e06-af12-564c-8200-1f89c0ac61f5"
+          },
+          {
+            "key": "skuName",
+            "value": "Cross Region Replication - US East to US East 2"
+          },
+          {
+            "key": "meterName",
+            "value": "Cross Region Replication - US East to US East 2 Minutes"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0BXV9"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH3147RZ57L"
+          },
+          {
+            "key": "armSkuName",
+            "value": ""
+          },
+          {
+            "key": "productName",
+            "value": "Azure NetApp Files"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Storage"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2021-10-01T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Azure NetApp Files",
+        "region": "eastus",
+        "productFamily": "Storage",
+        "prices": [
+          {
+            "USD": "0.14",
+            "unit": "1 GiB/Hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "7b2f0295-c41a-40d9-bdde-17976a7f675d"
+          },
+          {
+            "key": "skuName",
+            "value": "Premium"
+          },
+          {
+            "key": "meterName",
+            "value": "Premium Capacity"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0BXV9"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH3147RZ57L"
+          },
+          {
+            "key": "armSkuName",
+            "value": ""
+          },
+          {
+            "key": "productName",
+            "value": "Azure NetApp Files"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Storage"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2019-05-28T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Azure NetApp Files",
+        "region": "eastus",
+        "productFamily": "Storage",
+        "prices": [
+          {
+            "USD": "0.000403",
+            "unit": "1 GiB/Hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "953c2b84-8bc4-597f-b89f-d9f42bfece00"
+          },
+          {
+            "key": "skuName",
+            "value": "CRR - US East to US North Central"
+          },
+          {
+            "key": "meterName",
+            "value": "CRR - US East to US North Central Days"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0BXV9"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH3147RZ57L"
+          },
+          {
+            "key": "armSkuName",
+            "value": "Cross Region Replication - US East to US North Central"
+          },
+          {
+            "key": "productName",
+            "value": "Azure NetApp Files"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Storage"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2024-11-01T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Azure NetApp Files",
+        "region": "eastus",
+        "productFamily": "Storage",
+        "prices": [
+          {
+            "USD": "0.12",
+            "unit": "1 GiB/Hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "404d55e7-c412-4a2e-8147-6e75089d54fe"
+          },
+          {
+            "key": "skuName",
+            "value": "Ultra - 1 PiB"
+          },
+          {
+            "key": "meterName",
+            "value": "Ultra - 1 PiB Capacity"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z08G4K"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH3147RZ57L"
+          },
+          {
+            "key": "armSkuName",
+            "value": "NetApp_Ultra_1 PiB"
+          },
+          {
+            "key": "productName",
+            "value": "Azure NetApp Files Reserved Capacity"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Storage"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2024-02-01T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Azure NetApp Files",
+        "region": "eastus",
+        "productFamily": "Storage",
+        "prices": []
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "0e21e036-7f97-55d0-88bc-91f87a157fc8"
+          },
+          {
+            "key": "skuName",
+            "value": "Cross Region Replication"
+          },
+          {
+            "key": "meterName",
+            "value": "Cross Region Replication Days"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0BXV9"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH3147RZ57L"
+          },
+          {
+            "key": "armSkuName",
+            "value": ""
+          },
+          {
+            "key": "productName",
+            "value": "Azure NetApp Files"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Storage"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2021-09-01T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Azure NetApp Files",
+        "region": "eastus",
+        "productFamily": "Storage",
+        "prices": [
+          {
+            "USD": "0.11",
+            "unit": "1 GiB/Hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "8b0f3d58-c5d4-54d5-b9e6-c700918c34a2"
+          },
+          {
+            "key": "skuName",
+            "value": "Standard Storage with Cool Access"
+          },
+          {
+            "key": "meterName",
+            "value": "Standard Storage with Cool Access Data Transfer"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0BXV9"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH3147RZ57L"
+          },
+          {
+            "key": "armSkuName",
+            "value": ""
+          },
+          {
+            "key": "productName",
+            "value": "Azure NetApp Files"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Storage"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2024-06-01T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Azure NetApp Files",
+        "region": "eastus",
+        "productFamily": "Storage",
+        "prices": [
+          {
+            "USD": "0.02",
+            "unit": "1 GiB"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "91f10a18-ea0e-5b3a-b24a-1d83f9a3ee8b"
+          },
+          {
+            "key": "skuName",
+            "value": "Cross Region Replication - US East to US West 3"
+          },
+          {
+            "key": "meterName",
+            "value": "Cross Region Replication - US East to US West 3 Hours"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0BXV9"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH3147RZ57L"
+          },
+          {
+            "key": "armSkuName",
+            "value": ""
+          },
+          {
+            "key": "productName",
+            "value": "Azure NetApp Files"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Storage"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2021-10-01T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Azure NetApp Files",
+        "region": "eastus",
+        "productFamily": "Storage",
+        "prices": [
+          {
+            "USD": "0.138",
+            "unit": "1 GiB/Hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "92ba86ed-8224-50f0-9679-8f4b9fc879cc"
+          },
+          {
+            "key": "skuName",
+            "value": "Cross Region Replication - US East to US East 2"
+          },
+          {
+            "key": "meterName",
+            "value": "Cross Region Replication - US East to US East 2 Days"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0BXV9"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH3147RZ57L"
+          },
+          {
+            "key": "armSkuName",
+            "value": ""
+          },
+          {
+            "key": "productName",
+            "value": "Azure NetApp Files"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Storage"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2021-10-01T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Azure NetApp Files",
+        "region": "eastus",
+        "productFamily": "Storage",
+        "prices": [
+          {
+            "USD": "0.11",
+            "unit": "1 GiB/Hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "a8074d64-d77f-5353-b830-045d64ae5ab5"
+          },
+          {
+            "key": "skuName",
+            "value": "Cross Region Replication - US East to US West 3"
+          },
+          {
+            "key": "meterName",
+            "value": "Cross Region Replication - US East to US West 3 Minutes"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0BXV9"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH3147RZ57L"
+          },
+          {
+            "key": "armSkuName",
+            "value": ""
+          },
+          {
+            "key": "productName",
+            "value": "Azure NetApp Files"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Storage"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2021-10-01T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Azure NetApp Files",
+        "region": "eastus",
+        "productFamily": "Storage",
+        "prices": [
+          {
+            "USD": "0.161",
+            "unit": "1 GiB/Hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "d84187c2-0a61-5954-871b-62d1d0fdd824"
+          },
+          {
+            "key": "skuName",
+            "value": "Cross Region Replication - US East to US West"
+          },
+          {
+            "key": "meterName",
+            "value": "Cross Region Replication - US East to US West Hours"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0BXV9"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH3147RZ57L"
+          },
+          {
+            "key": "armSkuName",
+            "value": ""
+          },
+          {
+            "key": "productName",
+            "value": "Azure NetApp Files"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Storage"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2021-10-01T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Azure NetApp Files",
+        "region": "eastus",
+        "productFamily": "Storage",
+        "prices": [
+          {
+            "USD": "0.138",
+            "unit": "1 GiB/Hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "e953cdae-438b-5bfc-a7cd-be706e30bec4"
+          },
+          {
+            "key": "skuName",
+            "value": "Cross Region Replication - US East to US West 2"
+          },
+          {
+            "key": "meterName",
+            "value": "Cross Region Replication - US East to US West 2 Days"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0BXV9"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH3147RZ57L"
+          },
+          {
+            "key": "armSkuName",
+            "value": ""
+          },
+          {
+            "key": "productName",
+            "value": "Azure NetApp Files"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Storage"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2021-10-01T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Azure NetApp Files",
+        "region": "eastus",
+        "productFamily": "Storage",
+        "prices": [
+          {
+            "USD": "0.11",
+            "unit": "1 GiB/Hour"
+          }
+        ]
+      }
+    ]
+  }
+}
