@@ -295,13 +295,8 @@ public class ResourceNormalizationService(ICloudPricingRepositoryFacade cloudPri
             _ => 0m
         };
 
-        var azurePricing = usage switch
-        {
-            UsageSize.Small => 0m,
-            UsageSize.Medium => 0m,
-            UsageSize.Large => 0m,
-            _ => 0m
-        };
+        // Azure Load Balancer is free
+        var azurePricing = 0m;
 
         var gcpPricing = usage switch
         {
