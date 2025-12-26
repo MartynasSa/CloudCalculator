@@ -79,14 +79,6 @@ public class TemplateControllerTests(WebApplicationFactory<Program> factory) : T
         Assert.Equal(HttpStatusCode.BadRequest, response.StatusCode);
     }
 
-    [Fact]
-    public async Task Get_Templates_WithMissingUsage_Returns_BadRequest()
-    {
-        var response = await Client.GetAsync("/api/templates?template=saas");
-
-        Assert.Equal(HttpStatusCode.BadRequest, response.StatusCode);
-    }
-
     private static void AssertContainsResource(TemplateDto template, ResourceSubCategory resource)
     {
         Assert.Contains(resource, template.Resources);

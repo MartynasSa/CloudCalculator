@@ -1,86 +1,23 @@
 ﻿using Application.Models.Dtos;
 using Application.Models.Enums;
+using Application.Services;
 using Application.Services.Normalization;
 
 namespace Application.Facade;
 
 public interface ITemplateFacade
 {
-    Task<TemplateDto> GetTemplateAsync(TemplateRequest request);
+    Task<TemplateDto> GetTemplateAsync(TemplateType templateType);
     Task<TemplateCostComparisonDto> CalculateCostComparisonsAsync(TemplateDto templateDto, CancellationToken ct = default);
 }
 
-public class TemplateFacade(IResourceNormalizationService resourceNormalizationService) : ITemplateFacade
+public class TemplateFacade(
+    ITemplateService templateService, 
+    IResourceNormalizationService resourceNormalizationService) : ITemplateFacade
 {
-    public async Task<TemplateDto> GetTemplateAsync(TemplateRequest request)
+    public async Task<TemplateDto> GetTemplateAsync(TemplateType templateType)
     {
-        var result = new TemplateDto()
-        {
-            Template = request.Template,
-        };
-
-        switch (request.Template)
-        {
-            case TemplateType.Saas:
-                result.Resources.Add(ResourceSubCategory.VirtualMachines);
-                result.Resources.Add(ResourceSubCategory.Relational);
-                result.Resources.Add(ResourceSubCategory.LoadBalancer);
-                result.Resources.Add(ResourceSubCategory.Monitoring);
-                break;
-            case TemplateType.WordPress:
-                result.Resources.Add(ResourceSubCategory.VirtualMachines);
-                result.Resources.Add(ResourceSubCategory.Relational);
-                result.Resources.Add(ResourceSubCategory.LoadBalancer);
-                break;
-            case TemplateType.RestApi:
-                result.Resources.Add(ResourceSubCategory.VirtualMachines);
-                result.Resources.Add(ResourceSubCategory.Relational);
-                result.Resources.Add(ResourceSubCategory.LoadBalancer);
-                result.Resources.Add(ResourceSubCategory.Monitoring);
-                break;
-            case TemplateType.StaticSite:
-                result.Resources.Add(ResourceSubCategory.LoadBalancer);
-                break;
-            case TemplateType.Ecommerce:
-                result.Resources.Add(ResourceSubCategory.VirtualMachines);
-                result.Resources.Add(ResourceSubCategory.Relational);
-                result.Resources.Add(ResourceSubCategory.LoadBalancer);
-                result.Resources.Add(ResourceSubCategory.Monitoring);
-                break;
-            case TemplateType.MobileAppBackend:
-                result.Resources.Add(ResourceSubCategory.VirtualMachines);
-                result.Resources.Add(ResourceSubCategory.Relational);
-                result.Resources.Add(ResourceSubCategory.LoadBalancer);
-                result.Resources.Add(ResourceSubCategory.Monitoring);
-                break;
-            case TemplateType.HeadlessFrontendApi:
-                result.Resources.Add(ResourceSubCategory.VirtualMachines);
-                result.Resources.Add(ResourceSubCategory.Relational);
-                result.Resources.Add(ResourceSubCategory.LoadBalancer);
-                result.Resources.Add(ResourceSubCategory.Monitoring);
-                break;
-            case TemplateType.DataAnalytics:
-                result.Resources.Add(ResourceSubCategory.VirtualMachines);
-                result.Resources.Add(ResourceSubCategory.Relational);
-                result.Resources.Add(ResourceSubCategory.LoadBalancer);
-                result.Resources.Add(ResourceSubCategory.Monitoring);
-                break;
-            case TemplateType.MachineLearning:
-                result.Resources.Add(ResourceSubCategory.VirtualMachines);
-                result.Resources.Add(ResourceSubCategory.LoadBalancer);
-                result.Resources.Add(ResourceSubCategory.Monitoring);
-                break;
-            case TemplateType.ServerlessEventDriven:
-                result.Resources.Add(ResourceSubCategory.LoadBalancer);
-                break;
-            case TemplateType.Blank:
-                // Blank template has no resources
-                break;
-            default:
-                throw new ArgumentOutOfRangeException();
-        }
-
-        return result;
+        return templateService.GetTemplate(templateType);
     }
 
     private async Task<Dictionary<CloudProvider, TemplateVirtualMachineDto>> GetVirtualMachinesAsync(UsageSize usage)

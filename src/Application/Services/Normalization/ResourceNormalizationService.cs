@@ -9,7 +9,7 @@ public interface IResourceNormalizationService
     Task<CategorizedResourcesDto> GetResourcesAsync(IReadOnlyCollection<ResourceCategory> neededResources, UsageSize usage, CancellationToken cancellationToken = default);
 }
 
-public class ResourceNormalizationService(ICloudPricingRepositoryFacade cloudPricingRepository) : IResourceNormalizationService
+public class ResourceNormalizationService(ICloudPricingRepositoryProvider cloudPricingRepository) : IResourceNormalizationService
 {
     
     private static readonly Dictionary<(string ProductFamily, string Service), (ResourceCategory Category, ResourceSubCategory SubCategory)> AwsProductFamilyServiceMap =

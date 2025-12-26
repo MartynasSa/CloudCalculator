@@ -4,12 +4,12 @@ using Microsoft.Extensions.Caching.Memory;
 
 namespace Application.Services;
 
-public interface ICloudPricingRepositoryFacade
+public interface ICloudPricingRepositoryProvider
 {
     Task<CloudPricingDto> GetAllAsync(CancellationToken cancellationToken);
 }
 
-public class CloudPricingRepositoryFacade(ICloudPricingRepository cloudPricingRepository, IMemoryCache cache) : ICloudPricingRepositoryFacade
+public class CloudPricingRepositoryProvider(ICloudPricingRepository cloudPricingRepository, IMemoryCache cache) : ICloudPricingRepositoryProvider
 {
     private static readonly TimeSpan DefaultTtl = TimeSpan.FromHours(24);
     private const string CacheKey = "cloud-pricing:all-data";
