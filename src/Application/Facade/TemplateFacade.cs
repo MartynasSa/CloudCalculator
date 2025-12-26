@@ -7,6 +7,7 @@ namespace Application.Facade;
 public interface ITemplateFacade
 {
     Task<TemplateDto> GetTemplateAsync(TemplateRequest request);
+    Task<TemplateCostComparisonDto> CalculateCostComparisonsAsync(TemplateDto templateDto, CancellationToken ct = default);
 }
 
 public class TemplateFacade(IResourceNormalizationService resourceNormalizationService) : ITemplateFacade
@@ -289,6 +290,83 @@ public class TemplateFacade(IResourceNormalizationService resourceNormalizationS
                 PricePerMonth = mon.PricePerMonth ?? 0m
             };
         }
+
+        return result;
+    }
+
+    public async Task<TemplateCostComparisonDto> CalculateCostComparisonsAsync(TemplateDto templateDto, CancellationToken ct = default)
+    {
+        var result = new TemplateCostComparisonDto
+        {
+            Template = templateDto.Template
+        };
+
+        // Calculate costs for each usage size concurrently
+        var usageSizes = new[] { UsageSize.Small, UsageSize.Medium, UsageSize.Large };
+
+        var templateTasks = usageSizes.Select(async usageSize =>
+        {
+            var request = new TemplateRequest
+            {
+                Template = templateDto.Template,
+                Usage = usageSize
+            };
+
+            var template = await GetTemplateAsync(request);
+
+            var usageBreakdown = new UsageCostBreakdownDto
+            {
+                Usage = usageSize
+            };
+
+            // Calculate costs for each cloud provider
+            var cloudProviders = new[] { CloudProvider.AWS, CloudProvider.Azure, CloudProvider.GCP };
+
+            foreach (var cloudProvider in cloudProviders)
+            {
+                var breakdown = new CostBreakdownDto();
+                decimal totalCost = 0m;
+
+                // VM costs
+                if (template.VirtualMachines != null && template.VirtualMachines.TryGetValue(cloudProvider, out var vm))
+                {
+                    breakdown.VirtualMachinesCost = vm.PricePerMonth;
+                    totalCost += vm.PricePerMonth;
+                }
+
+                // Database costs
+                if (template.Databases != null && template.Databases.TryGetValue(cloudProvider, out var db))
+                {
+                    breakdown.DatabasesCost = db.PricePerMonth;
+                    totalCost += db.PricePerMonth;
+                }
+
+                // Load Balancer costs
+                if (template.LoadBalancers != null && template.LoadBalancers.TryGetValue(cloudProvider, out var lb))
+                {
+                    breakdown.LoadBalancersCost = lb.PricePerMonth;
+                    totalCost += lb.PricePerMonth;
+                }
+
+                // Monitoring costs
+                if (template.Monitoring != null && template.Monitoring.TryGetValue(cloudProvider, out var mon))
+                {
+                    breakdown.MonitoringCost = mon.PricePerMonth;
+                    totalCost += mon.PricePerMonth;
+                }
+
+                usageBreakdown.CloudProviderCosts[cloudProvider] = new CloudProviderCostDto
+                {
+                    TotalMonthlyPrice = totalCost,
+                    Breakdown = breakdown
+                };
+            }
+
+            return usageBreakdown;
+        }).ToList();
+
+        var breakdowns = await Task.WhenAll(templateTasks);
+        result.UsageBreakdowns.AddRange(breakdowns);
 
         return result;
     }
