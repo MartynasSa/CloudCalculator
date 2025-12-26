@@ -21,9 +21,7 @@ public class ResourceNormalizationServiceTests(WebApplicationFactory<Program> fa
 
         // Act
         var categorized = await service.GetResourcesAsync();
-        var result = categorized.Categories.TryGetValue(ResourceCategory.Compute, out var computeCategory)
-            ? (computeCategory.ComputeInstances ?? [])
-            : [];
+        var result = categorized.ComputeInstances;
 
         // Assert
         Assert.NotNull(result);
@@ -53,9 +51,7 @@ public class ResourceNormalizationServiceTests(WebApplicationFactory<Program> fa
 
         // Act
         var categorized = await service.GetResourcesAsync();
-        var result = categorized.Categories.TryGetValue(ResourceCategory.Compute, out var computeCategory)
-            ? (computeCategory.ComputeInstances ?? [])
-            : [];
+        var result = categorized.Databases;
         var awsInstances = result.Where(r => r.Cloud == CloudProvider.AWS).ToList();
 
         // Assert
@@ -74,9 +70,7 @@ public class ResourceNormalizationServiceTests(WebApplicationFactory<Program> fa
 
         // Act
         var categorized = await service.GetResourcesAsync();
-        var result = categorized.Categories.TryGetValue(ResourceCategory.Compute, out var computeCategory)
-            ? (computeCategory.ComputeInstances ?? [])
-            : [];
+        var result = categorized.Databases;
         var azureInstances = result.Where(r => r.Cloud == CloudProvider.Azure).ToList();
 
         // Assert
@@ -94,9 +88,7 @@ public class ResourceNormalizationServiceTests(WebApplicationFactory<Program> fa
 
         // Act
         var categorized = await service.GetResourcesAsync();
-        var result = categorized.Categories.TryGetValue(ResourceCategory.Database, out var dbCategory)
-            ? (dbCategory.Databases ?? [])
-            : [];
+        var result = categorized.Databases;
 
         // Assert
         Assert.NotNull(result);
@@ -126,9 +118,8 @@ public class ResourceNormalizationServiceTests(WebApplicationFactory<Program> fa
 
         // Act
         var categorized = await service.GetResourcesAsync();
-        var result = categorized.Categories.TryGetValue(ResourceCategory.Database, out var dbCategory)
-            ? (dbCategory.Databases ?? [])
-            : [];
+        var result = categorized.Databases;
+
         var awsDatabases = result.Where(r => r.Cloud == CloudProvider.AWS).ToList();
 
         // Assert
@@ -146,9 +137,7 @@ public class ResourceNormalizationServiceTests(WebApplicationFactory<Program> fa
 
         // Act
         var categorized = await service.GetResourcesAsync();
-        var result = categorized.Categories.TryGetValue(ResourceCategory.Database, out var dbCategory)
-            ? (dbCategory.Databases ?? [])
-            : [];
+        var result = categorized.Databases;
 
         // Assert
         Assert.NotEmpty(result);
@@ -166,9 +155,7 @@ public class ResourceNormalizationServiceTests(WebApplicationFactory<Program> fa
 
         // Act
         var categorized = await service.GetResourcesAsync();
-        var result = categorized.Categories.TryGetValue(ResourceCategory.Networking, out var netCategory)
-            ? (netCategory.LoadBalancers ?? [])
-            : [];
+        var result = categorized.LoadBalancers;
 
         // Assert
         Assert.NotNull(result);
@@ -194,9 +181,7 @@ public class ResourceNormalizationServiceTests(WebApplicationFactory<Program> fa
 
         // Act
         var categorized = await service.GetResourcesAsync();
-        var result = categorized.Categories.TryGetValue(ResourceCategory.Networking, out var netCategory)
-            ? (netCategory.LoadBalancers ?? [])
-            : [];
+        var result = categorized.LoadBalancers;
 
         // Assert
         var awsLb = result.First(lb => lb.Cloud == CloudProvider.AWS);
@@ -216,9 +201,7 @@ public class ResourceNormalizationServiceTests(WebApplicationFactory<Program> fa
 
         // Act
         var categorized = await service.GetResourcesAsync();
-        var result = categorized.Categories.TryGetValue(ResourceCategory.Management, out var mgmtCategory)
-            ? (mgmtCategory.Monitoring ?? [])
-            : [];
+        var result = categorized.Monitoring;
 
         // Assert
         Assert.NotNull(result);
@@ -244,9 +227,7 @@ public class ResourceNormalizationServiceTests(WebApplicationFactory<Program> fa
 
         // Act
         var categorized = await service.GetResourcesAsync();
-        var result = categorized.Categories.TryGetValue(ResourceCategory.Management, out var mgmtCategory)
-            ? (mgmtCategory.Monitoring ?? [])
-            : [];
+        var result = categorized.Monitoring;
 
         // Assert
         var awsMon = result.First(mon => mon.Cloud == CloudProvider.AWS);
@@ -258,40 +239,6 @@ public class ResourceNormalizationServiceTests(WebApplicationFactory<Program> fa
         Assert.Equal(4m, gcpMon.PricePerMonth);
     }
 
-    [Fact]
-    public async Task GetCategorizedResourcesAsync_Returns_ResourcesByCategory()
-    {
-        // Arrange
-        var service = GetService();
-
-        // Act
-        var result = await service.GetResourcesAsync();
-
-        // Assert
-        Assert.NotNull(result);
-        Assert.NotNull(result.Categories);
-        Assert.NotEmpty(result.Categories);
-        
-        // Verify we have compute category with instances
-        Assert.True(result.Categories.ContainsKey(ResourceCategory.Compute));
-        var computeCategory = result.Categories[ResourceCategory.Compute];
-        Assert.NotEmpty(computeCategory.ComputeInstances);
-        
-        // Verify we have database category with databases
-        Assert.True(result.Categories.ContainsKey(ResourceCategory.Database));
-        var databaseCategory = result.Categories[ResourceCategory.Database];
-        Assert.NotEmpty(databaseCategory.Databases);
-        
-        // Verify we have networking category with load balancers
-        Assert.True(result.Categories.ContainsKey(ResourceCategory.Networking));
-        var networkingCategory = result.Categories[ResourceCategory.Networking];
-        Assert.NotEmpty(networkingCategory.LoadBalancers);
-        
-        // Verify we have management category with monitoring
-        Assert.True(result.Categories.ContainsKey(ResourceCategory.Management));
-        var managementCategory = result.Categories[ResourceCategory.Management];
-        Assert.NotEmpty(managementCategory.Monitoring);
-    }
 
     [Fact]
     public async Task ResourceSubCategory_Uses_Correct_Integer_Ranges()

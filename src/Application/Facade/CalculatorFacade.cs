@@ -8,19 +8,19 @@ public interface ICalculatorFacade
 {
     Task<TemplateCostComparisonDto> CalculateCostComparisonsAsync(TemplateDto templateDto, CancellationToken ct = default);
 }
+
 public class CalculatorFacade(IResourceNormalizationService resourceNormalizationService) : ICalculatorFacade
 {
     public async Task<TemplateCostComparisonDto> CalculateCostComparisonsAsync(TemplateDto request, CancellationToken ct = default)
     {
+        var resources = await resourceNormalizationService.GetResourcesAsync(ct);
+
         var result = new TemplateCostComparisonDto
         {
             Template = request.Template
         };
 
-        // Determine which resource subcategories are needed for this template
         var subcategories = GetSubCategoriesForTemplate(request.Template);
-
-        // Calculate for all three usage sizes
         var usageSizes = new[] { UsageSize.Small, UsageSize.Medium, UsageSize.Large };
 
         foreach (var usage in usageSizes)
@@ -30,26 +30,22 @@ public class CalculatorFacade(IResourceNormalizationService resourceNormalizatio
                 Usage = usage
             };
 
-            // Calculate costs for each cloud provider
             foreach (var cloud in new[] { CloudProvider.AWS, CloudProvider.Azure, CloudProvider.GCP })
             {
                 var cloudCost = new CloudProviderCostDto();
 
-                // Calculate cost for each resource subcategory needed for this template
                 foreach (var subCategory in subcategories)
                 {
-                    var cost = await CalculateSubCategoryCostAsync(subCategory, cloud, usage, ct);
+                    var cost = await CalculateSubCategoryCostAsync(subCategory, cloud, usage, resources, ct);
 
                     if (cost > 0)
                     {
                         cloudCost.Details[subCategory] = cost;
                     }
 
-                    // Populate breakdown with specific properties
                     SetBreakdownCost(cloudCost.Breakdown, subCategory, cost);
                 }
 
-                // Calculate total monthly price as sum of all details
                 cloudCost.TotalMonthlyPrice = cloudCost.Details.Values.Sum();
 
                 usageBreakdown.CloudProviderCosts[cloud] = cloudCost;
@@ -61,67 +57,65 @@ public class CalculatorFacade(IResourceNormalizationService resourceNormalizatio
         return result;
     }
 
-    private async Task<decimal> CalculateSubCategoryCostAsync(
-    ResourceSubCategory subCategory,
-    CloudProvider cloud,
-    UsageSize usage,
-    CancellationToken ct)
+    private static Task<decimal> CalculateSubCategoryCostAsync(
+        ResourceSubCategory subCategory,
+        CloudProvider cloud,
+        UsageSize usage,
+        CategorizedResourcesDto resources,
+        CancellationToken ct)
     {
-        // Map subcategory to resource category
         var category = MapSubCategoryToCategory(subCategory);
 
         if (category == ResourceCategory.Unknown)
         {
-            return 0m;
+            return Task.FromResult(0m);
         }
 
         try
         {
-            // Calculate cost based on subcategory
-            return subCategory switch
+            var cost = subCategory switch
             {
-                ResourceSubCategory.VirtualMachines => CalculateVirtualMachineCost(categoryData, cloud, usage),
-                ResourceSubCategory.CloudFunctions => CalculateCloudFunctionsCost(categoryData, cloud, usage),
-                ResourceSubCategory.Kubernetes => CalculateKubernetesCost(categoryData, cloud, usage),
-                ResourceSubCategory.ContainerInstances => CalculateContainerInstancesCost(categoryData, cloud, usage),
-                ResourceSubCategory.Relational => CalculateDatabaseCost(categoryData, cloud, usage),
-                ResourceSubCategory.NoSQL => CalculateDatabaseCost(categoryData, cloud, usage),
-                ResourceSubCategory.DatabaseStorage => CalculateDatabaseStorageCost(categoryData, cloud, usage),
-                ResourceSubCategory.Caching => CalculateCachingCost(categoryData, cloud, usage),
-                ResourceSubCategory.ObjectStorage => CalculateStorageCost(categoryData, cloud, usage),
-                ResourceSubCategory.BlobStorage => CalculateStorageCost(categoryData, cloud, usage),
-                ResourceSubCategory.FileStorage => CalculateStorageCost(categoryData, cloud, usage),
-                ResourceSubCategory.Backup => CalculateBackupCost(categoryData, cloud, usage),
-                ResourceSubCategory.VpnGateway => CalculateVpnGatewayCost(categoryData, cloud, usage),
-                ResourceSubCategory.LoadBalancer => CalculateLoadBalancerCost(categoryData, cloud, usage),
-                ResourceSubCategory.ApiGateway => CalculateApiGatewayCost(categoryData, cloud, usage),
-                ResourceSubCategory.Dns => CalculateDnsCost(categoryData, cloud, usage),
-                ResourceSubCategory.CDN => CalculateCdnCost(categoryData, cloud, usage),
-                ResourceSubCategory.DataWarehouse => CalculateDataWarehouseCost(categoryData, cloud, usage),
-                ResourceSubCategory.Streaming => CalculateStreamingCost(categoryData, cloud, usage),
-                ResourceSubCategory.MachineLearning => CalculateMachineLearningCost(categoryData, cloud, usage),
-                ResourceSubCategory.Queueing => CalculateQueueingCost(categoryData, cloud, usage),
-                ResourceSubCategory.Messaging => CalculateMessagingCost(categoryData, cloud, usage),
-                ResourceSubCategory.Secrets => CalculateSecretsCost(categoryData, cloud, usage),
-                ResourceSubCategory.Compliance => CalculateComplianceCost(categoryData, cloud, usage),
-                ResourceSubCategory.Monitoring => CalculateMonitoringCost(categoryData, cloud, usage),
+                ResourceSubCategory.VirtualMachines => CalculateVirtualMachineCost(resources, cloud, usage),
+                ResourceSubCategory.CloudFunctions => CalculateCloudFunctionsCost(resources, cloud, usage),
+                ResourceSubCategory.Kubernetes => CalculateKubernetesCost(resources, cloud, usage),
+                ResourceSubCategory.ContainerInstances => CalculateContainerInstancesCost(resources, cloud, usage),
+                ResourceSubCategory.Relational => CalculateDatabaseCost(resources, cloud, usage),
+                ResourceSubCategory.NoSQL => CalculateDatabaseCost(resources, cloud, usage),
+                ResourceSubCategory.DatabaseStorage => CalculateDatabaseStorageCost(resources, cloud, usage),
+                ResourceSubCategory.Caching => CalculateCachingCost(resources, cloud, usage),
+                ResourceSubCategory.ObjectStorage => CalculateStorageCost(resources, cloud, usage),
+                ResourceSubCategory.BlobStorage => CalculateStorageCost(resources, cloud, usage),
+                ResourceSubCategory.FileStorage => CalculateStorageCost(resources, cloud, usage),
+                ResourceSubCategory.Backup => CalculateBackupCost(resources, cloud, usage),
+                ResourceSubCategory.VpnGateway => CalculateVpnGatewayCost(resources, cloud, usage),
+                ResourceSubCategory.LoadBalancer => CalculateLoadBalancerCost(resources, cloud, usage),
+                ResourceSubCategory.ApiGateway => CalculateApiGatewayCost(resources, cloud, usage),
+                ResourceSubCategory.Dns => CalculateDnsCost(resources, cloud, usage),
+                ResourceSubCategory.CDN => CalculateCdnCost(resources, cloud, usage),
+                ResourceSubCategory.DataWarehouse => CalculateDataWarehouseCost(resources, cloud, usage),
+                ResourceSubCategory.Streaming => CalculateStreamingCost(resources, cloud, usage),
+                ResourceSubCategory.MachineLearning => CalculateMachineLearningCost(resources, cloud, usage),
+                ResourceSubCategory.Queueing => CalculateQueueingCost(resources, cloud, usage),
+                ResourceSubCategory.Messaging => CalculateMessagingCost(resources, cloud, usage),
+                ResourceSubCategory.Secrets => CalculateSecretsCost(resources, cloud, usage),
+                ResourceSubCategory.Compliance => CalculateComplianceCost(resources, cloud, usage),
+                ResourceSubCategory.Monitoring => CalculateMonitoringCost(resources, cloud, usage),
                 _ => 0m
             };
+
+            return Task.FromResult(cost);
         }
         catch
         {
-            return 0m;
+            return Task.FromResult(0m);
         }
     }
-
 
     private async Task<Dictionary<CloudProvider, TemplateVirtualMachineDto>> GetVirtualMachinesAsync(UsageSize usage)
     {
         var categorized = await resourceNormalizationService.GetResourcesAsync();
 
-        var instances = categorized.Categories.TryGetValue(ResourceCategory.Compute, out var computeCategory)
-            ? (computeCategory.ComputeInstances ?? [])
-            : [];
+        var instances = categorized.ComputeInstances ?? [];
 
         var result = new Dictionary<CloudProvider, TemplateVirtualMachineDto>();
         var specs = GetVirtualMachineSpecs(usage);
@@ -141,7 +135,7 @@ public class CalculatorFacade(IResourceNormalizationService resourceNormalizatio
 
             if (matchedInstance != null)
             {
-                result[cloud] = new TemplateVirtualMachineDto()
+                result[cloud] = new TemplateVirtualMachineDto
                 {
                     InstanceName = matchedInstance.InstanceName,
                     CpuCores = matchedInstance.VCpu ?? specs.MinCpu,
@@ -158,9 +152,7 @@ public class CalculatorFacade(IResourceNormalizationService resourceNormalizatio
     {
         var categorized = await resourceNormalizationService.GetResourcesAsync();
 
-        var databases = categorized.Categories.TryGetValue(ResourceCategory.Database, out var dbCategory)
-            ? (dbCategory.Databases ?? [])
-            : [];
+        var databases = categorized.Databases ?? [];
 
         var result = new Dictionary<CloudProvider, TemplateDatabaseDto>();
         var specs = GetDatabaseSpecs(usage);
@@ -181,7 +173,7 @@ public class CalculatorFacade(IResourceNormalizationService resourceNormalizatio
 
             if (matchedDatabase != null)
             {
-                result[cloud] = new TemplateDatabaseDto()
+                result[cloud] = new TemplateDatabaseDto
                 {
                     InstanceName = matchedDatabase.InstanceName,
                     CpuCores = matchedDatabase.VCpu ?? specs.MinCpu,
@@ -248,12 +240,15 @@ public class CalculatorFacade(IResourceNormalizationService resourceNormalizatio
     private static double? ParseMemory(string? memory)
     {
         if (string.IsNullOrWhiteSpace(memory))
+        {
             return null;
+        }
 
-        // Handle formats like "4 GB", "4GB", "4", etc.
         var parts = memory.Split(' ', StringSplitOptions.RemoveEmptyEntries);
         if (parts.Length > 0 && double.TryParse(parts[0], out var value))
+        {
             return value;
+        }
 
         return null;
     }
@@ -261,28 +256,26 @@ public class CalculatorFacade(IResourceNormalizationService resourceNormalizatio
     private static decimal CalculateMonthlyPrice(decimal? pricePerHour)
     {
         if (!pricePerHour.HasValue)
+        {
             return 0m;
+        }
 
-        // Assuming 730 hours per month (365 days / 12 months * 24 hours)
         return pricePerHour.Value * 730m;
     }
 
     private Dictionary<CloudProvider, TemplateLoadBalancerDto> GetLoadBalancers(UsageSize usage)
     {
-        // Fetch networking resources (load balancers) via the categorization API
         var categorizedTask = resourceNormalizationService.GetResourcesAsync();
 
         var categorized = categorizedTask.GetAwaiter().GetResult();
 
-        var loadBalancers = categorized.Categories.TryGetValue(ResourceCategory.Networking, out var netCategory)
-            ? (netCategory.LoadBalancers ?? [])
-            : [];
+        var loadBalancers = categorized.LoadBalancers ?? [];
 
         var result = new Dictionary<CloudProvider, TemplateLoadBalancerDto>();
 
         foreach (var lb in loadBalancers)
         {
-            result[lb.Cloud] = new TemplateLoadBalancerDto()
+            result[lb.Cloud] = new TemplateLoadBalancerDto
             {
                 Name = lb.Name,
                 PricePerMonth = lb.PricePerMonth ?? 0m
@@ -294,20 +287,17 @@ public class CalculatorFacade(IResourceNormalizationService resourceNormalizatio
 
     private Dictionary<CloudProvider, TemplateMonitoringDto> GetMonitoring(UsageSize usage)
     {
-        // Fetch management resources (monitoring) via the categorization API
         var categorizedTask = resourceNormalizationService.GetResourcesAsync();
 
         var categorized = categorizedTask.GetAwaiter().GetResult();
 
-        var monitoring = categorized.Categories.TryGetValue(ResourceCategory.Management, out var mgmtCategory)
-            ? (mgmtCategory.Monitoring ?? [])
-            : [];
+        var monitoring = categorized.Monitoring ?? [];
 
         var result = new Dictionary<CloudProvider, TemplateMonitoringDto>();
 
         foreach (var mon in monitoring)
         {
-            result[mon.Cloud] = new TemplateMonitoringDto()
+            result[mon.Cloud] = new TemplateMonitoringDto
             {
                 Name = mon.Name,
                 PricePerMonth = mon.PricePerMonth ?? 0m
@@ -316,8 +306,6 @@ public class CalculatorFacade(IResourceNormalizationService resourceNormalizatio
 
         return result;
     }
-
-
 
     private static List<ResourceSubCategory> GetSubCategoriesForTemplate(TemplateType template)
     {
@@ -390,8 +378,6 @@ public class CalculatorFacade(IResourceNormalizationService resourceNormalizatio
         };
     }
 
-
-
     private static ResourceCategory MapSubCategoryToCategory(ResourceSubCategory subCategory)
     {
         return subCategory switch
@@ -400,33 +386,27 @@ public class CalculatorFacade(IResourceNormalizationService resourceNormalizatio
             ResourceSubCategory.CloudFunctions => ResourceCategory.Compute,
             ResourceSubCategory.Kubernetes => ResourceCategory.Compute,
             ResourceSubCategory.ContainerInstances => ResourceCategory.Compute,
-
             ResourceSubCategory.Relational => ResourceCategory.Database,
             ResourceSubCategory.NoSQL => ResourceCategory.Database,
             ResourceSubCategory.DatabaseStorage => ResourceCategory.Database,
             ResourceSubCategory.Caching => ResourceCategory.Database,
-
             ResourceSubCategory.ObjectStorage => ResourceCategory.Storage,
             ResourceSubCategory.BlobStorage => ResourceCategory.Storage,
             ResourceSubCategory.FileStorage => ResourceCategory.Storage,
             ResourceSubCategory.Backup => ResourceCategory.Storage,
-
             ResourceSubCategory.VpnGateway => ResourceCategory.Networking,
             ResourceSubCategory.LoadBalancer => ResourceCategory.Networking,
             ResourceSubCategory.ApiGateway => ResourceCategory.Networking,
             ResourceSubCategory.Dns => ResourceCategory.Networking,
             ResourceSubCategory.CDN => ResourceCategory.Networking,
-
             ResourceSubCategory.DataWarehouse => ResourceCategory.Analytics,
             ResourceSubCategory.Streaming => ResourceCategory.Analytics,
             ResourceSubCategory.MachineLearning => ResourceCategory.AI_ML,
-
             ResourceSubCategory.Queueing => ResourceCategory.Management,
             ResourceSubCategory.Messaging => ResourceCategory.Management,
             ResourceSubCategory.Secrets => ResourceCategory.Security,
             ResourceSubCategory.Compliance => ResourceCategory.Security,
             ResourceSubCategory.Monitoring => ResourceCategory.Management,
-
             _ => ResourceCategory.Unknown
         };
     }
@@ -503,10 +483,10 @@ public class CalculatorFacade(IResourceNormalizationService resourceNormalizatio
         }
     }
 
-    private static decimal CalculateVirtualMachineCost(CategoryResourcesDto categoryData, CloudProvider cloud, UsageSize usage)
+    private static decimal CalculateVirtualMachineCost(CategorizedResourcesDto resources, CloudProvider cloud, UsageSize usage)
     {
         var specs = GetVirtualMachineSpecs(usage);
-        var instances = categoryData.ComputeInstances
+        var instances = resources.ComputeInstances
             .Where(i => i.Cloud == cloud)
             .Where(i => i.VCpu.HasValue && i.Memory != null)
             .ToList();
@@ -516,31 +496,29 @@ public class CalculatorFacade(IResourceNormalizationService resourceNormalizatio
         {
             return CalculateMonthlyPrice(matchedInstance.PricePerHour);
         }
+
         return 0m;
     }
 
-    private static decimal CalculateCloudFunctionsCost(CategoryResourcesDto categoryData, CloudProvider cloud, UsageSize usage)
+    private static decimal CalculateCloudFunctionsCost(CategorizedResourcesDto resources, CloudProvider cloud, UsageSize usage)
     {
-        // TODO: Implement cloud functions pricing
         return 0m;
     }
 
-    private static decimal CalculateKubernetesCost(CategoryResourcesDto categoryData, CloudProvider cloud, UsageSize usage)
+    private static decimal CalculateKubernetesCost(CategorizedResourcesDto resources, CloudProvider cloud, UsageSize usage)
     {
-        // TODO: Implement Kubernetes pricing
         return 0m;
     }
 
-    private static decimal CalculateContainerInstancesCost(CategoryResourcesDto categoryData, CloudProvider cloud, UsageSize usage)
+    private static decimal CalculateContainerInstancesCost(CategorizedResourcesDto resources, CloudProvider cloud, UsageSize usage)
     {
-        // TODO: Implement container instances pricing
         return 0m;
     }
 
-    private static decimal CalculateDatabaseCost(CategoryResourcesDto categoryData, CloudProvider cloud, UsageSize usage)
+    private static decimal CalculateDatabaseCost(CategorizedResourcesDto resources, CloudProvider cloud, UsageSize usage)
     {
         var specs = GetDatabaseSpecs(usage);
-        var databases = categoryData.Databases
+        var databases = resources.Databases
             .Where(d => d.Cloud == cloud)
             .Where(d => d.VCpu.HasValue && d.Memory != null)
             .ToList();
@@ -550,42 +528,38 @@ public class CalculatorFacade(IResourceNormalizationService resourceNormalizatio
         {
             return CalculateMonthlyPrice(matchedDatabase.PricePerHour);
         }
+
         return 0m;
     }
 
-    private static decimal CalculateDatabaseStorageCost(CategoryResourcesDto categoryData, CloudProvider cloud, UsageSize usage)
+    private static decimal CalculateDatabaseStorageCost(CategorizedResourcesDto resources, CloudProvider cloud, UsageSize usage)
     {
-        // TODO: Implement database storage pricing
         return 0m;
     }
 
-    private static decimal CalculateCachingCost(CategoryResourcesDto categoryData, CloudProvider cloud, UsageSize usage)
+    private static decimal CalculateCachingCost(CategorizedResourcesDto resources, CloudProvider cloud, UsageSize usage)
     {
-        // TODO: Implement caching pricing
         return 0m;
     }
 
-    private static decimal CalculateStorageCost(CategoryResourcesDto categoryData, CloudProvider cloud, UsageSize usage)
+    private static decimal CalculateStorageCost(CategorizedResourcesDto resources, CloudProvider cloud, UsageSize usage)
     {
-        // TODO: Implement storage pricing
         return 0m;
     }
 
-    private static decimal CalculateBackupCost(CategoryResourcesDto categoryData, CloudProvider cloud, UsageSize usage)
+    private static decimal CalculateBackupCost(CategorizedResourcesDto resources, CloudProvider cloud, UsageSize usage)
     {
-        // TODO: Implement backup pricing
         return 0m;
     }
 
-    private static decimal CalculateVpnGatewayCost(CategoryResourcesDto categoryData, CloudProvider cloud, UsageSize usage)
+    private static decimal CalculateVpnGatewayCost(CategorizedResourcesDto resources, CloudProvider cloud, UsageSize usage)
     {
-        // TODO: Implement VPN gateway pricing
         return 0m;
     }
 
-    private static decimal CalculateLoadBalancerCost(CategoryResourcesDto categoryData, CloudProvider cloud, UsageSize usage)
+    private static decimal CalculateLoadBalancerCost(CategorizedResourcesDto resources, CloudProvider cloud, UsageSize usage)
     {
-        var loadBalancers = categoryData.LoadBalancers
+        var loadBalancers = resources.LoadBalancers
             .Where(lb => lb.Cloud == cloud)
             .ToList();
 
@@ -593,72 +567,63 @@ public class CalculatorFacade(IResourceNormalizationService resourceNormalizatio
         {
             return loadBalancers.First().PricePerMonth ?? 0m;
         }
+
         return 0m;
     }
 
-    private static decimal CalculateApiGatewayCost(CategoryResourcesDto categoryData, CloudProvider cloud, UsageSize usage)
+    private static decimal CalculateApiGatewayCost(CategorizedResourcesDto resources, CloudProvider cloud, UsageSize usage)
     {
-        // TODO: Implement API Gateway pricing
         return 0m;
     }
 
-    private static decimal CalculateDnsCost(CategoryResourcesDto categoryData, CloudProvider cloud, UsageSize usage)
+    private static decimal CalculateDnsCost(CategorizedResourcesDto resources, CloudProvider cloud, UsageSize usage)
     {
-        // TODO: Implement DNS pricing
         return 0m;
     }
 
-    private static decimal CalculateCdnCost(CategoryResourcesDto categoryData, CloudProvider cloud, UsageSize usage)
+    private static decimal CalculateCdnCost(CategorizedResourcesDto resources, CloudProvider cloud, UsageSize usage)
     {
-        // TODO: Implement CDN pricing
         return 0m;
     }
 
-    private static decimal CalculateDataWarehouseCost(CategoryResourcesDto categoryData, CloudProvider cloud, UsageSize usage)
+    private static decimal CalculateDataWarehouseCost(CategorizedResourcesDto resources, CloudProvider cloud, UsageSize usage)
     {
-        // TODO: Implement data warehouse pricing
         return 0m;
     }
 
-    private static decimal CalculateStreamingCost(CategoryResourcesDto categoryData, CloudProvider cloud, UsageSize usage)
+    private static decimal CalculateStreamingCost(CategorizedResourcesDto resources, CloudProvider cloud, UsageSize usage)
     {
-        // TODO: Implement streaming pricing
         return 0m;
     }
 
-    private static decimal CalculateMachineLearningCost(CategoryResourcesDto categoryData, CloudProvider cloud, UsageSize usage)
+    private static decimal CalculateMachineLearningCost(CategorizedResourcesDto resources, CloudProvider cloud, UsageSize usage)
     {
-        // TODO: Implement machine learning pricing
         return 0m;
     }
 
-    private static decimal CalculateQueueingCost(CategoryResourcesDto categoryData, CloudProvider cloud, UsageSize usage)
+    private static decimal CalculateQueueingCost(CategorizedResourcesDto resources, CloudProvider cloud, UsageSize usage)
     {
-        // TODO: Implement queueing pricing
         return 0m;
     }
 
-    private static decimal CalculateMessagingCost(CategoryResourcesDto categoryData, CloudProvider cloud, UsageSize usage)
+    private static decimal CalculateMessagingCost(CategorizedResourcesDto resources, CloudProvider cloud, UsageSize usage)
     {
-        // TODO: Implement messaging pricing
         return 0m;
     }
 
-    private static decimal CalculateSecretsCost(CategoryResourcesDto categoryData, CloudProvider cloud, UsageSize usage)
+    private static decimal CalculateSecretsCost(CategorizedResourcesDto resources, CloudProvider cloud, UsageSize usage)
     {
-        // TODO: Implement secrets pricing
         return 0m;
     }
 
-    private static decimal CalculateComplianceCost(CategoryResourcesDto categoryData, CloudProvider cloud, UsageSize usage)
+    private static decimal CalculateComplianceCost(CategorizedResourcesDto resources, CloudProvider cloud, UsageSize usage)
     {
-        // TODO: Implement compliance pricing
         return 0m;
     }
 
-    private static decimal CalculateMonitoringCost(CategoryResourcesDto categoryData, CloudProvider cloud, UsageSize usage)
+    private static decimal CalculateMonitoringCost(CategorizedResourcesDto resources, CloudProvider cloud, UsageSize usage)
     {
-        var monitoring = categoryData.Monitoring
+        var monitoring = resources.Monitoring
             .Where(m => m.Cloud == cloud)
             .ToList();
 
@@ -666,6 +631,7 @@ public class CalculatorFacade(IResourceNormalizationService resourceNormalizatio
         {
             return monitoring.First().PricePerMonth ?? 0m;
         }
+
         return 0m;
     }
 }

@@ -27,9 +27,9 @@ public class CloudPricingControllerTests(WebApplicationFactory<Program> factory)
         Assert.NotNull(result);
         
         // Verify we have the expected categories
-        Assert.Contains(ResourceCategory.Compute, result.Categories.Keys);
-        Assert.Contains(ResourceCategory.Database, result.Categories.Keys);
-        Assert.Contains(ResourceCategory.Networking, result.Categories.Keys);
-        Assert.Contains(ResourceCategory.Management, result.Categories.Keys);
+        Assert.NotEmpty(result.ComputeInstances);
+        Assert.NotEmpty(result.Databases);
+        Assert.NotEmpty(result.Networking);
+        Assert.NotEmpty(result.Monitoring);
     }
 }
