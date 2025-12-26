@@ -7,10 +7,10 @@ public enum ResourceCategory
     Storage,
     Database,
     Network,
-    //Analytics,
-    //AI_ML,
-    //Management,
-    //Security
+    Analytics,
+    AI_ML,
+    Management,
+    Security
 }
 
 public enum ResourceSubCategory
@@ -49,5 +49,6 @@ public enum ResourceSubCategory
     Queueing,       // SQS
     Messaging,      // SNS
     Secrets,        // SecretsManager
-    Compliance      // Config/CloudTrail
+    Compliance,     // Config/CloudTrail
+    Monitoring,
 }
