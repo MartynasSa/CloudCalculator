@@ -28,7 +28,7 @@ public class TemplateCostComparisonControllerTests(WebApplicationFactory<Program
         var content = new StringContent(json, Encoding.UTF8, "application/json");
 
         // Act
-        var response = await Client.PostAsync("/api/templates/cost-comparison", content);
+        var response = await Client.PostAsync("/api/calculator/calculate", content);
 
         // Assert
         response.EnsureSuccessStatusCode();
@@ -58,7 +58,7 @@ public class TemplateCostComparisonControllerTests(WebApplicationFactory<Program
         var content = new StringContent(json, Encoding.UTF8, "application/json");
 
         // Act
-        var response = await Client.PostAsync("/api/templates/cost-comparison", content);
+        var response = await Client.PostAsync("/api/calculator/calculate", content);
 
         // Assert
         response.EnsureSuccessStatusCode();
@@ -87,7 +87,7 @@ public class TemplateCostComparisonControllerTests(WebApplicationFactory<Program
         var content = new StringContent(json, Encoding.UTF8, "application/json");
 
         // Act
-        var response = await Client.PostAsync("/api/templates/cost-comparison", content);
+        var response = await Client.PostAsync("/api/calculator/calculate", content);
 
         // Assert
         response.EnsureSuccessStatusCode();
@@ -124,7 +124,7 @@ public class TemplateCostComparisonControllerTests(WebApplicationFactory<Program
         var content = new StringContent(json, Encoding.UTF8, "application/json");
 
         // Act
-        var response = await Client.PostAsync("/api/templates/cost-comparison", content);
+        var response = await Client.PostAsync("/api/calculator/calculate", content);
 
         // Assert
         response.EnsureSuccessStatusCode();
@@ -156,7 +156,7 @@ public class TemplateCostComparisonControllerTests(WebApplicationFactory<Program
         var content = new StringContent(json, Encoding.UTF8, "application/json");
 
         // Act
-        var response = await Client.PostAsync("/api/templates/cost-comparison", content);
+        var response = await Client.PostAsync("/api/calculator/calculate", content);
 
         // Assert
         response.EnsureSuccessStatusCode();
@@ -189,7 +189,7 @@ public class TemplateCostComparisonControllerTests(WebApplicationFactory<Program
         var content = new StringContent(json, Encoding.UTF8, "application/json");
 
         // Act
-        var response = await Client.PostAsync("/api/templates/cost-comparison", content);
+        var response = await Client.PostAsync("/api/calculator/calculate", content);
 
         // Assert
         Assert.Equal(HttpStatusCode.BadRequest, response.StatusCode);
@@ -202,7 +202,7 @@ public class TemplateCostComparisonControllerTests(WebApplicationFactory<Program
         var content = new StringContent("", Encoding.UTF8, "application/json");
 
         // Act
-        var response = await Client.PostAsync("/api/templates/cost-comparison", content);
+        var response = await Client.PostAsync("/api/calculator/calculate", content);
 
         // Assert
         Assert.Equal(HttpStatusCode.BadRequest, response.StatusCode);
@@ -220,7 +220,7 @@ public class TemplateCostComparisonControllerTests(WebApplicationFactory<Program
         var content = new StringContent(json, Encoding.UTF8, "application/json");
 
         // Act
-        var response = await Client.PostAsync("/api/templates/cost-comparison", content);
+        var response = await Client.PostAsync("/api/calculator/calculate", content);
 
         // Assert
         response.EnsureSuccessStatusCode();
@@ -258,7 +258,7 @@ public class TemplateCostComparisonControllerTests(WebApplicationFactory<Program
         var content = new StringContent(json, Encoding.UTF8, "application/json");
 
         // Act
-        var response = await Client.PostAsync("/api/templates/cost-comparison", content);
+        var response = await Client.PostAsync("/api/calculator/calculate", content);
 
         // Assert
         response.EnsureSuccessStatusCode();
@@ -290,7 +290,7 @@ public class TemplateCostComparisonControllerTests(WebApplicationFactory<Program
         var content = new StringContent(json, Encoding.UTF8, "application/json");
 
         // Act
-        var response = await Client.PostAsync("/api/templates/cost-comparison", content);
+        var response = await Client.PostAsync("/api/calculator/calculate", content);
 
         // Assert
         response.EnsureSuccessStatusCode();

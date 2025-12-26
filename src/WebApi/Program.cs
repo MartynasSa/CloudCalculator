@@ -62,6 +62,7 @@ builder.Services.AddScoped<ITemplateFacade, TemplateFacade>();
 builder.Services.AddScoped<IResourceNormalizationService, ResourceNormalizationService>();
 builder.Services.AddScoped<ICloudPricingRepositoryProvider, CloudPricingRepositoryProvider>();
 builder.Services.AddScoped<ITemplateService, TemplateService>();
+builder.Services.AddScoped<ICalculatorFacade, CalculatorFacade>();
 
 var app = builder.Build();
 

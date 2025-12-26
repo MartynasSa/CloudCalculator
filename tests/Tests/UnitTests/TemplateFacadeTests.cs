@@ -8,10 +8,10 @@ namespace Tests.UnitTests;
 
 public class TemplateFacadeTests(WebApplicationFactory<Program> factory) : TestBase(factory)
 {
-    private ITemplateFacade GetService()
+    private ICalculatorFacade GetService()
     {
         var scope = factory.Services.CreateScope();
-        return scope.ServiceProvider.GetRequiredService<ITemplateFacade>();
+        return scope.ServiceProvider.GetRequiredService<ICalculatorFacade>();
     }
 
     [Fact]
