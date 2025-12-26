@@ -122,19 +122,8 @@ public class ResourceNormalizationService(ICloudPricingRepositoryProvider cloudP
         }
 
         result.Monitoring.AddRange(GetNormalizedMonitoring());
-        result.LoadBalancers.AddRange(GetNormalizedLoadBalancers());
 
         return result;
-    }
-
-    private static List<NormalizedLoadBalancerDto> GetNormalizedLoadBalancers()
-    {
-        return new List<NormalizedLoadBalancerDto>
-        {
-            new() { Cloud = CloudProvider.AWS, Category = ResourceCategory.Networking, SubCategory = ResourceSubCategory.LoadBalancer, Name = "Application Load Balancer", PricePerMonth = 16.51m },
-            new() { Cloud = CloudProvider.Azure, Category = ResourceCategory.Networking, SubCategory = ResourceSubCategory.LoadBalancer, Name = "Azure Load Balancer", PricePerMonth = 0m },
-            new() { Cloud = CloudProvider.GCP, Category = ResourceCategory.Networking, SubCategory = ResourceSubCategory.LoadBalancer, Name = "Cloud Load Balancing", PricePerMonth = 18.41m }
-        };
     }
 
     private static (ResourceCategory Category, ResourceSubCategory SubCategory) MapAwsProductFamilyToCategoryAndSubCategory(string productFamily, string service)
