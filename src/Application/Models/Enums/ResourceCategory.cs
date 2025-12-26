@@ -6,8 +6,6 @@ public enum ResourceCategory
     Compute,
     Storage,
     Database,
-    Databases,
-    Network,
     Networking,
     Analytics,
     AI_ML,
@@ -25,14 +23,13 @@ public enum ResourceSubCategory
     VirtualMachines = 100,
     CloudFunctions = 101, // Lambda
     Kubernetes = 102,     // EKS/GKE
-    ContainerInstances = 103,
-    BareMetalServers = 104,
-    DedicatedHosts = 105,
-    Containers = 106,
+    //ContainerInstances = 103,
+    //BareMetalServers = 104,
+    //DedicatedHosts = 105,
+    //Containers = 106,
 
     // Database (200-299)
     Relational = 200,     // RDS/SQL
-    RelationalDatabases = 201, // SQL Databases
     NoSQL = 202,          // DynamoDB
     DatabaseStorage = 203,
     Caching = 204,        // ElastiCache
@@ -40,18 +37,18 @@ public enum ResourceSubCategory
     // Storage (300-399)
     ObjectStorage = 300,  // S3
     BlobStorage = 301,    // Blob storage
-    BlockStorage = 302,   // EBS
+    //BlockStorage = 302,   // EBS
     FileStorage = 303,    // EFS/FSx
     Backup = 304,
-    PerformanceStorage = 305,
+    //PerformanceStorage = 305,
 
     // Network (400-499)
-    VpnGateway = 400,
+    //VpnGateway = 400,
     LoadBalancer = 401,
     ApiGateway = 402,
-    Dns = 403,            // Route53
-    ContentDelivery = 404,// CloudFront
-    DataTransfer = 405,   // Bandwidth/Egress
+    //Dns = 403,            // Route53
+    //ContentDelivery = 404,// CloudFront
+    //DataTransfer = 405,   // Bandwidth/Egress
 
     // Analytics & AI (500-599)
     DataWarehouse = 500,  // Redshift

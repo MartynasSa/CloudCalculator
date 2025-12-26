@@ -28,7 +28,7 @@ public class CloudPricingControllerTests(WebApplicationFactory<Program> factory)
         
         // Verify we have the expected categories
         Assert.Contains(ResourceCategory.Compute, result.Categories.Keys);
-        Assert.Contains(ResourceCategory.Databases, result.Categories.Keys);
+        Assert.Contains(ResourceCategory.Database, result.Categories.Keys);
         Assert.Contains(ResourceCategory.Networking, result.Categories.Keys);
         Assert.Contains(ResourceCategory.Management, result.Categories.Keys);
     }

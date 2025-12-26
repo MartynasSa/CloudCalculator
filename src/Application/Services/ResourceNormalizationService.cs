@@ -24,8 +24,8 @@ public class ResourceNormalizationService(ICloudPricingRepository cloudPricingRe
             { ("Compute", "AmazonEKS"), (ResourceCategory.Compute, ResourceSubCategory.Kubernetes) },
             
             // Databases
-            { ("Database Instance", "AmazonRDS"), (ResourceCategory.Databases, ResourceSubCategory.RelationalDatabases) },
-            { ("", "AmazonDynamoDB"), (ResourceCategory.Databases, ResourceSubCategory.NoSQL) },
+            { ("Database Instance", "AmazonRDS"), (ResourceCategory.Database, ResourceSubCategory.Relational) },
+            { ("", "AmazonDynamoDB"), (ResourceCategory.Database, ResourceSubCategory.NoSQL) },
             
             // Network
             { ("Load Balancer", "AmazonEC2"), (ResourceCategory.Networking, ResourceSubCategory.LoadBalancer) },
@@ -46,8 +46,8 @@ public class ResourceNormalizationService(ICloudPricingRepository cloudPricingRe
             { ("Compute", "Azure Kubernetes Service"), (ResourceCategory.Compute, ResourceSubCategory.Kubernetes) },
             
             // Databases
-            { ("Databases", "SQL Database"), (ResourceCategory.Databases, ResourceSubCategory.RelationalDatabases) },
-            { ("Databases", "Azure Cosmos DB"), (ResourceCategory.Databases, ResourceSubCategory.NoSQL) },
+            { ("Databases", "SQL Database"), (ResourceCategory.Database, ResourceSubCategory.Relational) },
+            { ("Databases", "Azure Cosmos DB"), (ResourceCategory.Database, ResourceSubCategory.NoSQL) },
             
             // Network
             { ("Networking", "Load Balancer"), (ResourceCategory.Networking, ResourceSubCategory.LoadBalancer) },
@@ -67,8 +67,8 @@ public class ResourceNormalizationService(ICloudPricingRepository cloudPricingRe
             { ("Compute", "Google Kubernetes Engine"), (ResourceCategory.Compute, ResourceSubCategory.Kubernetes) },
             
             // Databases
-            { ("ApplicationServices", "Cloud SQL"), (ResourceCategory.Databases, ResourceSubCategory.RelationalDatabases) },
-            { ("Storage", "Firebase Realtime Database"), (ResourceCategory.Databases, ResourceSubCategory.NoSQL) },
+            { ("ApplicationServices", "Cloud SQL"), (ResourceCategory.Database, ResourceSubCategory.Relational) },
+            { ("Storage", "Firebase Realtime Database"), (ResourceCategory.Database, ResourceSubCategory.NoSQL) },
             
             // Network
             { ("Networking", "Cloud Load Balancing"), (ResourceCategory.Networking, ResourceSubCategory.LoadBalancer) },
@@ -114,7 +114,7 @@ public class ResourceNormalizationService(ICloudPricingRepository cloudPricingRe
             {
                 categoryDto.ComputeInstances.Add(MapToComputeInstance(product));
             }
-            else if (category == ResourceCategory.Databases)
+            else if (category == ResourceCategory.Database)
             {
                 categoryDto.Databases.Add(MapToDatabase(product));
             }

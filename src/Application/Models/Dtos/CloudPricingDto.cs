@@ -44,25 +44,3 @@ public class CloudPricingPriceDto
     public string? TermLength { get; set; }
     public string? TermOfferingClass { get; set; }
 }
-
-public class CloudPricingAttributeSummary
-{
-    public required string Key { get; set; }
-    public required List<string> Values { get; set; } = new List<string>();
-}
-
-public class DistinctFiltersDto
-{
-    public required List<CloudProvider> VendorNames { get; set; } = new List<CloudProvider>();
-    public required List<string> Services { get; set; } = new List<string>();
-    public required List<string> Regions { get; set; } = new List<string>();
-    public required List<string> ProductFamilies { get; set; } = new List<string>();
-    public required List<CloudPricingAttributeSummary> AttributeSummaries { get; set; } = new List<CloudPricingAttributeSummary>();
-    public required List<string> StartUsageAmounts { get; set; } = new List<string>();
-    public required List<string> EndUsageAmounts { get; set; } = new List<string>();
-
-    public required List<string> PurchaseOptions { get; set; } = new List<string>();
-    public required List<string> TermPurchaseOptions { get; set; } = new List<string>();
-    public required List<string> TermLengths { get; set; } = new List<string>();
-    public required List<string> TermOfferingClasses { get; set; } = new List<string>();
-}

@@ -93,8 +93,8 @@ public class ResourceNormalizationServiceTests(WebApplicationFactory<Program> fa
         var service = GetService();
 
         // Act
-        var categorized = await service.GetResourcesAsync(new[] { ResourceCategory.Databases }, UsageSize.Small);
-        var result = categorized.Categories.TryGetValue(ResourceCategory.Databases, out var dbCategory)
+        var categorized = await service.GetResourcesAsync(new[] { ResourceCategory.Database }, UsageSize.Small);
+        var result = categorized.Categories.TryGetValue(ResourceCategory.Database, out var dbCategory)
             ? (dbCategory.Databases ?? [])
             : [];
 
@@ -125,8 +125,8 @@ public class ResourceNormalizationServiceTests(WebApplicationFactory<Program> fa
         var service = GetService();
 
         // Act
-        var categorized = await service.GetResourcesAsync(new[] { ResourceCategory.Databases }, UsageSize.Small);
-        var result = categorized.Categories.TryGetValue(ResourceCategory.Databases, out var dbCategory)
+        var categorized = await service.GetResourcesAsync(new[] { ResourceCategory.Database }, UsageSize.Small);
+        var result = categorized.Categories.TryGetValue(ResourceCategory.Database, out var dbCategory)
             ? (dbCategory.Databases ?? [])
             : [];
         var awsDatabases = result.Where(r => r.Cloud == CloudProvider.AWS).ToList();
@@ -145,8 +145,8 @@ public class ResourceNormalizationServiceTests(WebApplicationFactory<Program> fa
         var service = GetService();
 
         // Act
-        var categorized = await service.GetResourcesAsync(new[] { ResourceCategory.Databases }, UsageSize.Small);
-        var result = categorized.Categories.TryGetValue(ResourceCategory.Databases, out var dbCategory)
+        var categorized = await service.GetResourcesAsync(new[] { ResourceCategory.Database }, UsageSize.Small);
+        var result = categorized.Categories.TryGetValue(ResourceCategory.Database, out var dbCategory)
             ? (dbCategory.Databases ?? [])
             : [];
 
@@ -266,7 +266,7 @@ public class ResourceNormalizationServiceTests(WebApplicationFactory<Program> fa
 
         // Act
         var result = await service.GetResourcesAsync(
-            new[] { ResourceCategory.Compute, ResourceCategory.Databases, ResourceCategory.Networking, ResourceCategory.Management },
+            new[] { ResourceCategory.Compute, ResourceCategory.Database, ResourceCategory.Networking, ResourceCategory.Management },
             UsageSize.Small);
 
         // Assert
@@ -280,8 +280,8 @@ public class ResourceNormalizationServiceTests(WebApplicationFactory<Program> fa
         Assert.NotEmpty(computeCategory.ComputeInstances);
         
         // Verify we have database category with databases
-        Assert.True(result.Categories.ContainsKey(ResourceCategory.Databases));
-        var databaseCategory = result.Categories[ResourceCategory.Databases];
+        Assert.True(result.Categories.ContainsKey(ResourceCategory.Database));
+        var databaseCategory = result.Categories[ResourceCategory.Database];
         Assert.NotEmpty(databaseCategory.Databases);
         
         // Verify we have networking category with load balancers
@@ -302,21 +302,20 @@ public class ResourceNormalizationServiceTests(WebApplicationFactory<Program> fa
         var computeSubCategories = new[]
         {
             ResourceSubCategory.VirtualMachines,
-            ResourceSubCategory.BareMetalServers,
-            ResourceSubCategory.DedicatedHosts,
-            ResourceSubCategory.Containers
+            ResourceSubCategory.Kubernetes,
+            ResourceSubCategory.CloudFunctions,
         };
 
         var databaseSubCategories = new[]
         {
-            ResourceSubCategory.RelationalDatabases,
+            ResourceSubCategory.Relational,
             ResourceSubCategory.DatabaseStorage
         };
 
         var storageSubCategories = new[]
         {
-            ResourceSubCategory.BlockStorage,
-            ResourceSubCategory.PerformanceStorage
+            ResourceSubCategory.BlobStorage,
+            ResourceSubCategory.ObjectStorage
         };
 
         // Assert - Compute subcategories should be in range 100-199

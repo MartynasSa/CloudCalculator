@@ -127,10 +127,10 @@ public class TemplateFacade(IResourceNormalizationService resourceNormalizationS
     private async Task<Dictionary<CloudProvider, TemplateDatabaseDto>> GetDatabasesAsync(UsageSize usage)
     {
         var categorized = await resourceNormalizationService.GetResourcesAsync(
-            new[] { ResourceCategory.Databases },
+            new[] { ResourceCategory.Database },
             usage);
 
-        var databases = categorized.Categories.TryGetValue(ResourceCategory.Databases, out var dbCategory)
+        var databases = categorized.Categories.TryGetValue(ResourceCategory.Database, out var dbCategory)
             ? (dbCategory.Databases ?? [])
             : [];
 
