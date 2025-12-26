@@ -5,7 +5,10 @@ namespace Application.Mappers;
 
 public static class NormalizationMapper
 {
-    public static NormalizedComputeInstanceDto MapToComputeInstance(CloudPricingProductDto product)
+    public static NormalizedComputeInstanceDto MapToComputeInstance(
+        CloudPricingProductDto product,
+        ResourceCategory Category, 
+        ResourceSubCategory SubCategory)
     {
         var instanceName = product.Attributes.FirstOrDefault(a => a.Key == "instanceType")?.Value
                           ?? product.Attributes.FirstOrDefault(a => a.Key == "vmSize")?.Value
@@ -31,6 +34,8 @@ public static class NormalizationMapper
 
         return new NormalizedComputeInstanceDto
         {
+            Category = Category,
+            SubCategory = SubCategory,
             Cloud = product.VendorName,
             InstanceName = instanceName,
             Region = product.Region,
@@ -40,7 +45,8 @@ public static class NormalizationMapper
         };
     }
 
-    public static NormalizedDatabaseDto MapToDatabase(CloudPricingProductDto product)
+    public static NormalizedDatabaseDto MapToDatabase(CloudPricingProductDto product,
+        ResourceCategory Category, ResourceSubCategory SubCategory)
     {
         var instanceName = product.Attributes.FirstOrDefault(a => a.Key == "instanceType")?.Value
                           ?? product.Attributes.FirstOrDefault(a => a.Key == "databaseEngine")?.Value
@@ -70,6 +76,8 @@ public static class NormalizationMapper
 
         return new NormalizedDatabaseDto
         {
+            Category = Category,
+            SubCategory = SubCategory,
             Cloud = product.VendorName,
             InstanceName = instanceName,
             Region = product.Region,
@@ -80,7 +88,8 @@ public static class NormalizationMapper
         };
     }
 
-    public static NormalizedResourceDto MapToNormalizedResource(CloudPricingProductDto product, ResourceCategory category, ResourceSubCategory subCategory)
+    public static NormalizedResourceDto MapToNormalizedResource(
+        CloudPricingProductDto product, ResourceCategory category, ResourceSubCategory subCategory)
     {
         var attributes = product.Attributes.ToDictionary(a => a.Key, a => a.Value);
 

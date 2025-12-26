@@ -2,9 +2,8 @@ using Application.Models.Enums;
 
 namespace Application.Models.Dtos;
 
-public class NormalizedComputeInstanceDto
+public class NormalizedComputeInstanceDto : NormalizedResource
 {
-    public required CloudProvider Cloud { get; set; }
     public required string InstanceName { get; set; }
     public required string Region { get; set; }
     public int? VCpu { get; set; }
@@ -12,9 +11,8 @@ public class NormalizedComputeInstanceDto
     public decimal? PricePerHour { get; set; }
 }
 
-public class NormalizedDatabaseDto
+public class NormalizedDatabaseDto : NormalizedResource
 {
-    public required CloudProvider Cloud { get; set; }
     public required string InstanceName { get; set; }
     public required string Region { get; set; }
     public string? DatabaseEngine { get; set; }
@@ -23,27 +21,22 @@ public class NormalizedDatabaseDto
     public decimal? PricePerHour { get; set; }
 }
 
-public class NormalizedLoadBalancerDto
+public class NormalizedLoadBalancerDto : NormalizedResource
 {
-    public required CloudProvider Cloud { get; set; }
     public required string Name { get; set; }
     public decimal? PricePerMonth { get; set; }
 }
 
-public class NormalizedMonitoringDto
+public class NormalizedMonitoringDto : NormalizedResource
 {
-    public required CloudProvider Cloud { get; set; }
     public required string Name { get; set; }
     public decimal? PricePerMonth { get; set; }
 }
 
-public class NormalizedResourceDto
+public class NormalizedResourceDto : NormalizedResource
 {
-    public required CloudProvider Cloud { get; set; }
     public required string Service { get; set; }
     public required string Region { get; set; }
-    public required ResourceCategory Category { get; set; }
-    public required ResourceSubCategory SubCategory { get; set; }
     public string? ProductFamily { get; set; }
     public string? ResourceName { get; set; }
     public decimal? PricePerHour { get; set; }

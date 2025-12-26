@@ -79,7 +79,7 @@ public class ResourceNormalizationService(ICloudPricingRepositoryProvider cloudP
     {
         var data = await cloudPricingRepository.GetAllAsync(cancellationToken);
 
-        var categories = new Dictionary<ResourceCategory, CategoryResourcesDto>();
+        var result = new CategorizedResourcesDto();
 
         foreach (var product in data.Data.Products)
         {
@@ -91,34 +91,25 @@ public class ResourceNormalizationService(ICloudPricingRepositoryProvider cloudP
                 _ => (ResourceCategory.Other, ResourceSubCategory.Uncategorized)
             };
 
-            // Ensure category exists in dictionary
-            if (!categories.ContainsKey(category))
-            {
-                categories[category] = new CategoryResourcesDto { Category = category };
-            }
-
-            var categoryDto = categories[category];
-
-            // Process different resource types
             switch ((category, subCategory))
             {
                 case (ResourceCategory.Compute, ResourceSubCategory.VirtualMachines):
-                    categoryDto.ComputeInstances.Add(NormalizationMapper.MapToComputeInstance(product));
+                    result.ComputeInstances.Add(NormalizationMapper.MapToComputeInstance(product, category, subCategory));
                     break;
                 case (ResourceCategory.Database, _):
-                    categoryDto.Databases.Add(NormalizationMapper.MapToDatabase(product));
+                    result.Databases.Add(NormalizationMapper.MapToDatabase(product, category, subCategory));
                     break;
                 default:
-                    // Generic resource
-                    categoryDto.Networking.Add(NormalizationMapper.MapToNormalizedResource(product, category, subCategory));
+                    result.Networking.Add(NormalizationMapper.MapToNormalizedResource(product, category, subCategory));
                     break;
             }
         }
 
-        categories[ResourceCategory.Management].Monitoring.AddRange(GetNormalizedMonitoring());
+        result.Monitoring.AddRange(GetNormalizedMonitoring());
 
 
-        return new CategorizedResourcesDto { Categories = categories };
+        return new CategorizedResourcesDto { 
+        };
     }
 
     private static (ResourceCategory Category, ResourceSubCategory SubCategory) MapAwsProductFamilyToCategoryAndSubCategory(string productFamily, string service)
@@ -155,15 +146,15 @@ public class ResourceNormalizationService(ICloudPricingRepositoryProvider cloudP
     {
         return new List<NormalizedMonitoringDto>
         {
-            new() { Cloud = CloudProvider.GCP, Name = "Cloud Ops", PricePerMonth = 4m },
-            new() { Cloud = CloudProvider.GCP, Name = "Cloud Ops", PricePerMonth = 12m },
-            new() { Cloud = CloudProvider.GCP, Name = "Cloud Ops", PricePerMonth = 40m },
-            new() { Cloud = CloudProvider.Azure, Name = "Azure Monitor", PricePerMonth = 6m },
-            new() { Cloud = CloudProvider.Azure, Name = "Azure Monitor", PricePerMonth = 18m },
-            new() { Cloud = CloudProvider.Azure, Name = "Azure Monitor", PricePerMonth = 60m },
-            new() { Cloud = CloudProvider.AWS, Name = "CloudWatch", PricePerMonth = 5m },
-            new() { Cloud = CloudProvider.AWS, Name = "CloudWatch", PricePerMonth = 15m },
-            new() { Cloud = CloudProvider.AWS, Name = "CloudWatch", PricePerMonth = 50m }
+            new() { Cloud = CloudProvider.GCP, Category = ResourceCategory.Management, SubCategory = ResourceSubCategory.Monitoring, Name = "Cloud Ops", PricePerMonth = 4m },
+            new() { Cloud = CloudProvider.GCP, Category = ResourceCategory.Management, SubCategory = ResourceSubCategory.Monitoring, Name = "Cloud Ops", PricePerMonth = 12m },
+            new() { Cloud = CloudProvider.GCP, Category = ResourceCategory.Management, SubCategory = ResourceSubCategory.Monitoring, Name = "Cloud Ops", PricePerMonth = 40m },
+            new() { Cloud = CloudProvider.Azure, Category = ResourceCategory.Management, SubCategory = ResourceSubCategory.Monitoring, Name = "Azure Monitor", PricePerMonth = 6m },
+            new() { Cloud = CloudProvider.Azure, Category = ResourceCategory.Management, SubCategory = ResourceSubCategory.Monitoring, Name = "Azure Monitor", PricePerMonth = 18m },
+            new() { Cloud = CloudProvider.Azure, Category = ResourceCategory.Management, SubCategory = ResourceSubCategory.Monitoring, Name = "Azure Monitor", PricePerMonth = 60m },
+            new() { Cloud = CloudProvider.AWS, Category = ResourceCategory.Management, SubCategory = ResourceSubCategory.Monitoring, Name = "CloudWatch", PricePerMonth = 5m },
+            new() { Cloud = CloudProvider.AWS, Category = ResourceCategory.Management, SubCategory = ResourceSubCategory.Monitoring, Name = "CloudWatch", PricePerMonth = 15m },
+            new() {Cloud = CloudProvider.AWS, Category = ResourceCategory.Management, SubCategory = ResourceSubCategory.Monitoring, Name = "CloudWatch", PricePerMonth = 50m}
         };
     }
 }

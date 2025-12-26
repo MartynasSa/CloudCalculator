@@ -77,14 +77,6 @@ public class CalculatorFacade(IResourceNormalizationService resourceNormalizatio
 
         try
         {
-            var categorized = await resourceNormalizationService.GetResourcesAsync(
-                ct);
-
-            if (!categorized.Categories.TryGetValue(category, out var categoryData))
-            {
-                return 0m;
-            }
-
             // Calculate cost based on subcategory
             return subCategory switch
             {
