@@ -1,12 +1,11 @@
 using Application.Models.Dtos;
 using Application.Models.Enums;
-using Application.Ports;
 
 namespace Application.Services.Normalization;
 
 public interface IResourceNormalizationService
 {
-    Task<CategorizedResourcesDto> GetResourcesAsync(IReadOnlyCollection<ResourceCategory> neededResources, UsageSize usage, CancellationToken cancellationToken = default);
+    Task<CategorizedResourcesDto> GetResourcesAsync(CancellationToken cancellationToken = default);
 }
 
 public class ResourceNormalizationService(ICloudPricingRepositoryProvider cloudPricingRepository) : IResourceNormalizationService
@@ -75,10 +74,7 @@ public class ResourceNormalizationService(ICloudPricingRepositoryProvider cloudP
             { ("Storage", "Cloud Storage"), (ResourceCategory.Storage, ResourceSubCategory.BlobStorage) },
         };
 
-    public async Task<CategorizedResourcesDto> GetResourcesAsync(
-        IReadOnlyCollection<ResourceCategory> neededResources,
-        UsageSize usage,
-        CancellationToken cancellationToken = default)
+    public async Task<CategorizedResourcesDto> GetResourcesAsync(CancellationToken cancellationToken = default)
     {
         var data = await cloudPricingRepository.GetAllAsync(cancellationToken);
 
@@ -93,10 +89,6 @@ public class ResourceNormalizationService(ICloudPricingRepositoryProvider cloudP
                 CloudProvider.GCP => MapGcpProductFamilyToCategoryAndSubCategory(product.ProductFamily, product.Service),
                 _ => (ResourceCategory.Other, ResourceSubCategory.Uncategorized)
             };
-
-            // Skip if not in needed resources
-            if (!neededResources.Contains(category))
-                continue;
 
             // Ensure category exists in dictionary
             if (!categories.ContainsKey(category))
@@ -128,27 +120,9 @@ public class ResourceNormalizationService(ICloudPricingRepositoryProvider cloudP
             }
         }
 
-        // Add load balancers for networking category
-        if (neededResources.Contains(ResourceCategory.Networking))
-        {
-            if (!categories.ContainsKey(ResourceCategory.Networking))
-            {
-                categories[ResourceCategory.Networking] = new CategoryResourcesDto { Category = ResourceCategory.Networking };
-            }
-            
-            categories[ResourceCategory.Networking].LoadBalancers.AddRange(GetNormalizedLoadBalancers(usage));
-        }
+        categories[ResourceCategory.Networking].LoadBalancers.AddRange(GetNormalizedLoadBalancers());
+        categories[ResourceCategory.Management].Monitoring.AddRange(GetNormalizedMonitoring());
 
-        // Add monitoring for management category
-        if (neededResources.Contains(ResourceCategory.Management))
-        {
-            if (!categories.ContainsKey(ResourceCategory.Management))
-            {
-                categories[ResourceCategory.Management] = new CategoryResourcesDto { Category = ResourceCategory.Management };
-            }
-            
-            categories[ResourceCategory.Management].Monitoring.AddRange(GetNormalizedMonitoring(usage));
-        }
 
         return new CategorizedResourcesDto { Categories = categories };
     }
@@ -281,67 +255,35 @@ public class ResourceNormalizationService(ICloudPricingRepositoryProvider cloudP
         return product.Prices.FirstOrDefault()?.Usd;
     }
 
-    private static List<NormalizedLoadBalancerDto> GetNormalizedLoadBalancers(UsageSize usage)
+    private static List<NormalizedLoadBalancerDto> GetNormalizedLoadBalancers()
     {
-        // Load balancer pricing scales with usage size
-        var awsPricing = usage switch
-        {
-            UsageSize.Small => 16.51m,
-            UsageSize.Medium => 49.53m,
-            UsageSize.Large => 165.1m,
-            _ => 0m
-        };
-
-        // Azure Load Balancer is free
-        var azurePricing = 0m;
-
-        var gcpPricing = usage switch
-        {
-            UsageSize.Small => 18.41m,
-            UsageSize.Medium => 55.23m,
-            UsageSize.Large => 184.1m,
-            _ => 0m
-        };
-
         return new List<NormalizedLoadBalancerDto>
         {
-            new() { Cloud = CloudProvider.AWS,   Name = "Application Load Balancer", PricePerMonth = awsPricing },
-            new() { Cloud = CloudProvider.Azure, Name = "Azure Load Balancer",       PricePerMonth = azurePricing },
-            new() { Cloud = CloudProvider.GCP,   Name = "Cloud Load Balancing",      PricePerMonth = gcpPricing }
+            new() { Cloud = CloudProvider.AWS,   Name = "Application Load Balancer", PricePerMonth = 16.51m },
+            new() { Cloud = CloudProvider.AWS,   Name = "Application Load Balancer", PricePerMonth = 49.53m },
+            new() { Cloud = CloudProvider.AWS,   Name = "Application Load Balancer", PricePerMonth = 165.1m },
+            new() { Cloud = CloudProvider.Azure, Name = "Azure Load Balancer",       PricePerMonth = 0 },
+            new() { Cloud = CloudProvider.Azure, Name = "Azure Load Balancer",       PricePerMonth = 0 },
+            new() { Cloud = CloudProvider.Azure, Name = "Azure Load Balancer",       PricePerMonth = 0 },
+            new() { Cloud = CloudProvider.GCP,   Name = "Cloud Load Balancing",      PricePerMonth = 18.41m },
+            new() { Cloud = CloudProvider.GCP,   Name = "Cloud Load Balancing",      PricePerMonth = 55.23m },
+            new() { Cloud = CloudProvider.GCP,   Name = "Cloud Load Balancing",      PricePerMonth = 184.1m }
         };
     }
 
-    private static List<NormalizedMonitoringDto> GetNormalizedMonitoring(UsageSize usage)
+    private static List<NormalizedMonitoringDto> GetNormalizedMonitoring()
     {
-        var gcpPricing = usage switch
-        {
-            UsageSize.Small => 4m,
-            UsageSize.Medium => 12m,
-            UsageSize.Large => 40m,
-            _ => 0m
-        };
-
-        var azurePricing = usage switch
-        {
-            UsageSize.Small => 6m,
-            UsageSize.Medium => 18m,
-            UsageSize.Large => 60m,
-            _ => 0m
-        };
-
-        var awsPricing = usage switch
-        {
-            UsageSize.Small => 5m,
-            UsageSize.Medium => 15m,
-            UsageSize.Large => 50m,
-            _ => 0m
-        };
-
         return new List<NormalizedMonitoringDto>
         {
-            new() { Cloud = CloudProvider.GCP,  Name = "Cloud Ops",     PricePerMonth = gcpPricing },
-            new() { Cloud = CloudProvider.Azure, Name = "Azure Monitor", PricePerMonth = azurePricing },
-            new() { Cloud = CloudProvider.AWS,  Name = "CloudWatch",    PricePerMonth = awsPricing }
+            new() { Cloud = CloudProvider.GCP,  Name = "Cloud Ops",     PricePerMonth = 4m },
+            new() { Cloud = CloudProvider.GCP,  Name = "Cloud Ops",     PricePerMonth = 12m },
+            new() { Cloud = CloudProvider.GCP,  Name = "Cloud Ops",     PricePerMonth = 40m },
+            new() { Cloud = CloudProvider.Azure, Name = "Azure Monitor", PricePerMonth = 6m },
+            new() { Cloud = CloudProvider.Azure, Name = "Azure Monitor", PricePerMonth = 18m },
+            new() { Cloud = CloudProvider.Azure, Name = "Azure Monitor", PricePerMonth = 60m },
+            new() { Cloud = CloudProvider.AWS,  Name = "CloudWatch",    PricePerMonth = 5m },
+            new() { Cloud = CloudProvider.AWS,  Name = "CloudWatch",    PricePerMonth = 15m },
+            new() { Cloud = CloudProvider.AWS,  Name = "CloudWatch",    PricePerMonth = 50m }
         };
     }
 }

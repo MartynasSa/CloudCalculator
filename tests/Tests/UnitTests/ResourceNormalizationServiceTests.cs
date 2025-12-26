@@ -20,7 +20,7 @@ public class ResourceNormalizationServiceTests(WebApplicationFactory<Program> fa
         var service = GetService();
 
         // Act
-        var categorized = await service.GetResourcesAsync(new[] { ResourceCategory.Compute }, UsageSize.Small);
+        var categorized = await service.GetResourcesAsync();
         var result = categorized.Categories.TryGetValue(ResourceCategory.Compute, out var computeCategory)
             ? (computeCategory.ComputeInstances ?? [])
             : [];
@@ -52,7 +52,7 @@ public class ResourceNormalizationServiceTests(WebApplicationFactory<Program> fa
         var service = GetService();
 
         // Act
-        var categorized = await service.GetResourcesAsync(new[] { ResourceCategory.Compute }, UsageSize.Small);
+        var categorized = await service.GetResourcesAsync();
         var result = categorized.Categories.TryGetValue(ResourceCategory.Compute, out var computeCategory)
             ? (computeCategory.ComputeInstances ?? [])
             : [];
@@ -73,7 +73,7 @@ public class ResourceNormalizationServiceTests(WebApplicationFactory<Program> fa
         var service = GetService();
 
         // Act
-        var categorized = await service.GetResourcesAsync(new[] { ResourceCategory.Compute }, UsageSize.Small);
+        var categorized = await service.GetResourcesAsync();
         var result = categorized.Categories.TryGetValue(ResourceCategory.Compute, out var computeCategory)
             ? (computeCategory.ComputeInstances ?? [])
             : [];
@@ -93,7 +93,7 @@ public class ResourceNormalizationServiceTests(WebApplicationFactory<Program> fa
         var service = GetService();
 
         // Act
-        var categorized = await service.GetResourcesAsync(new[] { ResourceCategory.Database }, UsageSize.Small);
+        var categorized = await service.GetResourcesAsync();
         var result = categorized.Categories.TryGetValue(ResourceCategory.Database, out var dbCategory)
             ? (dbCategory.Databases ?? [])
             : [];
@@ -125,7 +125,7 @@ public class ResourceNormalizationServiceTests(WebApplicationFactory<Program> fa
         var service = GetService();
 
         // Act
-        var categorized = await service.GetResourcesAsync(new[] { ResourceCategory.Database }, UsageSize.Small);
+        var categorized = await service.GetResourcesAsync();
         var result = categorized.Categories.TryGetValue(ResourceCategory.Database, out var dbCategory)
             ? (dbCategory.Databases ?? [])
             : [];
@@ -145,7 +145,7 @@ public class ResourceNormalizationServiceTests(WebApplicationFactory<Program> fa
         var service = GetService();
 
         // Act
-        var categorized = await service.GetResourcesAsync(new[] { ResourceCategory.Database }, UsageSize.Small);
+        var categorized = await service.GetResourcesAsync();
         var result = categorized.Categories.TryGetValue(ResourceCategory.Database, out var dbCategory)
             ? (dbCategory.Databases ?? [])
             : [];
@@ -165,7 +165,7 @@ public class ResourceNormalizationServiceTests(WebApplicationFactory<Program> fa
         var service = GetService();
 
         // Act
-        var categorized = await service.GetResourcesAsync(new[] { ResourceCategory.Networking }, UsageSize.Small);
+        var categorized = await service.GetResourcesAsync();
         var result = categorized.Categories.TryGetValue(ResourceCategory.Networking, out var netCategory)
             ? (netCategory.LoadBalancers ?? [])
             : [];
@@ -193,7 +193,7 @@ public class ResourceNormalizationServiceTests(WebApplicationFactory<Program> fa
         var service = GetService();
 
         // Act
-        var categorized = await service.GetResourcesAsync(new[] { ResourceCategory.Networking }, UsageSize.Small);
+        var categorized = await service.GetResourcesAsync();
         var result = categorized.Categories.TryGetValue(ResourceCategory.Networking, out var netCategory)
             ? (netCategory.LoadBalancers ?? [])
             : [];
@@ -215,7 +215,7 @@ public class ResourceNormalizationServiceTests(WebApplicationFactory<Program> fa
         var service = GetService();
 
         // Act
-        var categorized = await service.GetResourcesAsync(new[] { ResourceCategory.Management }, UsageSize.Small);
+        var categorized = await service.GetResourcesAsync();
         var result = categorized.Categories.TryGetValue(ResourceCategory.Management, out var mgmtCategory)
             ? (mgmtCategory.Monitoring ?? [])
             : [];
@@ -243,7 +243,7 @@ public class ResourceNormalizationServiceTests(WebApplicationFactory<Program> fa
         var service = GetService();
 
         // Act
-        var categorized = await service.GetResourcesAsync(new[] { ResourceCategory.Management }, UsageSize.Small);
+        var categorized = await service.GetResourcesAsync();
         var result = categorized.Categories.TryGetValue(ResourceCategory.Management, out var mgmtCategory)
             ? (mgmtCategory.Monitoring ?? [])
             : [];
@@ -265,9 +265,7 @@ public class ResourceNormalizationServiceTests(WebApplicationFactory<Program> fa
         var service = GetService();
 
         // Act
-        var result = await service.GetResourcesAsync(
-            new[] { ResourceCategory.Compute, ResourceCategory.Database, ResourceCategory.Networking, ResourceCategory.Management },
-            UsageSize.Small);
+        var result = await service.GetResourcesAsync();
 
         // Assert
         Assert.NotNull(result);

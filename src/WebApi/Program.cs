@@ -2,6 +2,7 @@ using Application.Facade;
 using Application.Models;
 using Application.Ports;
 using Application.Services;
+using Application.Services.Calculator;
 using Application.Services.Normalization;
 using Infrastructure;
 using Microsoft.AspNetCore.Mvc;
@@ -63,6 +64,8 @@ builder.Services.AddScoped<IResourceNormalizationService, ResourceNormalizationS
 builder.Services.AddScoped<ICloudPricingRepositoryProvider, CloudPricingRepositoryProvider>();
 builder.Services.AddScoped<ITemplateService, TemplateService>();
 builder.Services.AddScoped<ICalculatorFacade, CalculatorFacade>();
+builder.Services.AddScoped<ICalculatorService, CalculatorService>();
+builder.Services.AddScoped<IPriceProvider, PriceProvider>();
 
 var app = builder.Build();
 

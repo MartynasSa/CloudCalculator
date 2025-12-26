@@ -8,7 +8,6 @@ namespace Application.Facade;
 public interface ITemplateFacade
 {
     Task<TemplateDto> GetTemplateAsync(TemplateType templateType);
-
 }
 
 public class TemplateFacade(
@@ -18,5 +17,4 @@ public class TemplateFacade(
     {
         return templateService.GetTemplate(templateType);
     }
-
 }

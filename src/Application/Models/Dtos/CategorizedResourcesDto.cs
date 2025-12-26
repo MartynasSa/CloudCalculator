@@ -7,6 +7,13 @@ public class CategorizedResourcesDto
     public required Dictionary<ResourceCategory, CategoryResourcesDto> Categories { get; set; } = new();
 }
 
+public class NormalizedResourceDto<T>
+{   
+    public required ResourceCategory Category { get; set; }
+    public required ResourceSubCategory SubCategory { get; set; }   
+    public required T Details { get; set; }
+}
+
 public class CategoryResourcesDto
 {
     public required ResourceCategory Category { get; set; }

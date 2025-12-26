@@ -78,8 +78,6 @@ public class CalculatorFacade(IResourceNormalizationService resourceNormalizatio
         try
         {
             var categorized = await resourceNormalizationService.GetResourcesAsync(
-                new[] { category },
-                usage,
                 ct);
 
             if (!categorized.Categories.TryGetValue(category, out var categoryData))
@@ -127,9 +125,7 @@ public class CalculatorFacade(IResourceNormalizationService resourceNormalizatio
 
     private async Task<Dictionary<CloudProvider, TemplateVirtualMachineDto>> GetVirtualMachinesAsync(UsageSize usage)
     {
-        var categorized = await resourceNormalizationService.GetResourcesAsync(
-            new[] { ResourceCategory.Compute },
-            usage);
+        var categorized = await resourceNormalizationService.GetResourcesAsync();
 
         var instances = categorized.Categories.TryGetValue(ResourceCategory.Compute, out var computeCategory)
             ? (computeCategory.ComputeInstances ?? [])
@@ -168,9 +164,7 @@ public class CalculatorFacade(IResourceNormalizationService resourceNormalizatio
 
     private async Task<Dictionary<CloudProvider, TemplateDatabaseDto>> GetDatabasesAsync(UsageSize usage)
     {
-        var categorized = await resourceNormalizationService.GetResourcesAsync(
-            new[] { ResourceCategory.Database },
-            usage);
+        var categorized = await resourceNormalizationService.GetResourcesAsync();
 
         var databases = categorized.Categories.TryGetValue(ResourceCategory.Database, out var dbCategory)
             ? (dbCategory.Databases ?? [])
@@ -284,9 +278,7 @@ public class CalculatorFacade(IResourceNormalizationService resourceNormalizatio
     private Dictionary<CloudProvider, TemplateLoadBalancerDto> GetLoadBalancers(UsageSize usage)
     {
         // Fetch networking resources (load balancers) via the categorization API
-        var categorizedTask = resourceNormalizationService.GetResourcesAsync(
-            new[] { ResourceCategory.Networking },
-            usage);
+        var categorizedTask = resourceNormalizationService.GetResourcesAsync();
 
         var categorized = categorizedTask.GetAwaiter().GetResult();
 
@@ -311,9 +303,7 @@ public class CalculatorFacade(IResourceNormalizationService resourceNormalizatio
     private Dictionary<CloudProvider, TemplateMonitoringDto> GetMonitoring(UsageSize usage)
     {
         // Fetch management resources (monitoring) via the categorization API
-        var categorizedTask = resourceNormalizationService.GetResourcesAsync(
-            new[] { ResourceCategory.Management },
-            usage);
+        var categorizedTask = resourceNormalizationService.GetResourcesAsync();
 
         var categorized = categorizedTask.GetAwaiter().GetResult();
 
