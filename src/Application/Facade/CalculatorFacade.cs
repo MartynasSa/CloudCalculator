@@ -178,7 +178,7 @@ public class CalculatorFacade(
                 {
                     InstanceName = matchedInstance.InstanceName,
                     CpuCores = matchedInstance.VCpu ?? specs.MinCpu,
-                    Memory = ParseMemory(matchedInstance.Memory) ?? specs.MinMemory,
+                    Memory = ResourceParsingUtils.ParseMemory(matchedInstance.Memory) ?? specs.MinMemory,
                     PricePerMonth = calculatorService.CalculateMonthlyPrice(matchedInstance.PricePerHour),
                 };
             }
@@ -215,7 +215,7 @@ public class CalculatorFacade(
                 {
                     InstanceName = matchedDatabase.InstanceName,
                     CpuCores = matchedDatabase.VCpu ?? specs.MinCpu,
-                    Memory = ParseMemory(matchedDatabase.Memory) ?? specs.MinMemory,
+                    Memory = ResourceParsingUtils.ParseMemory(matchedDatabase.Memory) ?? specs.MinMemory,
                     DatabaseEngine = matchedDatabase.DatabaseEngine,
                     PricePerMonth = calculatorService.CalculateMonthlyPrice(matchedDatabase.PricePerHour),
                 };
@@ -223,22 +223,6 @@ public class CalculatorFacade(
         }
 
         return result;
-    }
-
-    private static double? ParseMemory(string? memory)
-    {
-        if (string.IsNullOrWhiteSpace(memory))
-        {
-            return null;
-        }
-
-        var parts = memory.Split(' ', StringSplitOptions.RemoveEmptyEntries);
-        if (parts.Length > 0 && double.TryParse(parts[0], out var value))
-        {
-            return value;
-        }
-
-        return null;
     }
 
     private Dictionary<CloudProvider, TemplateLoadBalancerDto> GetLoadBalancers(UsageSize usage)
