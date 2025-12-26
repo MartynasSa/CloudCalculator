@@ -142,69 +142,69 @@ public enum OtherSubCategory
 public enum ResourceSubCategory
 {
     None = 0,
-    
+
     // Compute (100-199)
-    VirtualMachines = 100,
-    BareMetalServers = 101,
-    DedicatedHosts = 102,
-    Containers = 103,
-    
+    VirtualMachines = ComputeSubCategory.VirtualMachines,
+    BareMetalServers = ComputeSubCategory.BareMetalServers,
+    DedicatedHosts = ComputeSubCategory.DedicatedHosts,
+    Containers = ComputeSubCategory.Containers,
+
     // Databases (200-299)
-    RelationalDatabases = 200,
-    DatabaseStorage = 201,
-    
+    RelationalDatabases = DatabaseSubCategory.RelationalDatabases,
+    DatabaseStorage = DatabaseSubCategory.DatabaseStorage,
+
     // Storage (300-399)
-    BlockStorage = 300,
-    PerformanceStorage = 301,
-    
+    BlockStorage = StorageSubCategory.BlockStorage,
+    PerformanceStorage = StorageSubCategory.PerformanceStorage,
+
     // Networking (400-499)
-    NetworkServices = 400,
-    IPAddresses = 401,
-    
+    NetworkServices = NetworkingSubCategory.NetworkServices,
+    IPAddresses = NetworkingSubCategory.IPAddresses,
+
     // Analytics (500-599)
-    DataAnalytics = 500,
-    DataLakes = 501,
-    
+    DataAnalytics = AnalyticsSubCategory.DataAnalytics,
+    DataLakes = AnalyticsSubCategory.DataLakes,
+
     // AI (600-699)
-    MachineLearning = 600,
-    
+    MachineLearning = AISubCategory.MachineLearning,
+
     // Security (700-799)
-    SecurityServices = 700,
-    VulnerabilityScanning = 701,
-    WebApplicationFirewall = 702,
-    
+    SecurityServices = SecuritySubCategory.SecurityServices,
+    VulnerabilityScanning = SecuritySubCategory.VulnerabilityScanning,
+    WebApplicationFirewall = SecuritySubCategory.WebApplicationFirewall,
+
     // Application Services (800-899)
-    ManagedServices = 800,
-    ContactCenter = 801,
-    CommunicationServices = 802,
-    
+    ManagedServices = ApplicationServicesSubCategory.ManagedServices,
+    ContactCenter = ApplicationServicesSubCategory.ContactCenter,
+    CommunicationServices = ApplicationServicesSubCategory.CommunicationServices,
+
     // Management (900-999)
-    CloudManagement = 900,
-    Operations = 901,
-    
+    CloudManagement = ManagementSubCategory.CloudManagement,
+    Operations = ManagementSubCategory.Operations,
+
     // Developer Tools (1000-1099)
-    Development = 1000,
-    
+    Development = DeveloperToolsSubCategory.Development,
+
     // IoT (1100-1199)
-    IoTServices = 1100,
-    
+    IoTServices = IoTSubCategory.IoTServices,
+
     // Data (1200-1299)
-    DataServices = 1200,
-    
+    DataServices = DataSubCategory.DataServices,
+
     // Integration (1300-1399)
-    IntegrationServices = 1300,
-    FileTransfer = 1301,
-    
+    IntegrationServices = IntegrationSubCategory.IntegrationServices,
+    FileTransfer = IntegrationSubCategory.FileTransfer,
+
     // Web (1400-1499)
-    WebServices = 1400,
-    
+    WebServices = WebSubCategory.WebServices,
+
     // Enterprise Applications (1500-1599)
-    BusinessApplications = 1500,
-    ContentServices = 1501,
-    
+    BusinessApplications = EnterpriseApplicationsSubCategory.BusinessApplications,
+    ContentServices = EnterpriseApplicationsSubCategory.ContentServices,
+
     // Licensing (1600-1699)
-    SoftwareLicenses = 1600,
-    
+    SoftwareLicenses = LicensingSubCategory.SoftwareLicenses,
+
     // Other (1700-1799)
-    Uncategorized = 1700
+    Uncategorized = OtherSubCategory.Uncategorized
 }
