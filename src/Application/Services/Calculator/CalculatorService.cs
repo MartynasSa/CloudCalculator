@@ -23,6 +23,7 @@ public class CalculatorService : ICalculatorService
             UsageSize.Small => (MinCpu: 2, MinMemory: 4),
             UsageSize.Medium => (MinCpu: 4, MinMemory: 8),
             UsageSize.Large => (MinCpu: 8, MinMemory: 16),
+            UsageSize.ExtraLarge => (MinCpu: 16, MinMemory: 32),
             _ => throw new ArgumentOutOfRangeException(nameof(usage)),
         };
     }
@@ -34,6 +35,7 @@ public class CalculatorService : ICalculatorService
             UsageSize.Small => (MinCpu: 1, MinMemory: 2),
             UsageSize.Medium => (MinCpu: 2, MinMemory: 4),
             UsageSize.Large => (MinCpu: 4, MinMemory: 8),
+            UsageSize.ExtraLarge => (MinCpu: 8, MinMemory: 16),
             _ => throw new ArgumentOutOfRangeException(nameof(usage)),
         };
     }

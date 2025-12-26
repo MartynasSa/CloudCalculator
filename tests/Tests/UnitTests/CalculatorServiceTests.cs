@@ -17,6 +17,7 @@ public class CalculatorServiceTests
     [InlineData(UsageSize.Small, 2, 4)]
     [InlineData(UsageSize.Medium, 4, 8)]
     [InlineData(UsageSize.Large, 8, 16)]
+    [InlineData(UsageSize.ExtraLarge, 16, 32)]
     public void GetVirtualMachineSpecs_Returns_Correct_Specs(UsageSize usage, int expectedCpu, double expectedMemory)
     {
         // Act
@@ -31,6 +32,7 @@ public class CalculatorServiceTests
     [InlineData(UsageSize.Small, 1, 2)]
     [InlineData(UsageSize.Medium, 2, 4)]
     [InlineData(UsageSize.Large, 4, 8)]
+    [InlineData(UsageSize.ExtraLarge, 8, 16)]
     public void GetDatabaseSpecs_Returns_Correct_Specs(UsageSize usage, int expectedCpu, double expectedMemory)
     {
         // Act
