@@ -23,42 +23,33 @@ public enum ResourceSubCategory
     VirtualMachines = 100,
     CloudFunctions = 101, // Lambda
     Kubernetes = 102,     // EKS/GKE
-    //ContainerInstances = 103,
-    //BareMetalServers = 104,
-    //DedicatedHosts = 105,
-    //Containers = 106,
+    ContainerInstances = 103,
 
     // Database (200-299)
-    Relational = 200,     // RDS/SQL
-    NoSQL = 202,          // DynamoDB
+    Relational = 200,
+    NoSQL = 202,
     DatabaseStorage = 203,
-    Caching = 204,        // ElastiCache
+    Caching = 204,
 
     // Storage (300-399)
-    ObjectStorage = 300,  // S3
-    BlobStorage = 301,    // Blob storage
-    //BlockStorage = 302,   // EBS
-    FileStorage = 303,    // EFS/FSx
+    ObjectStorage = 300,
+    BlobStorage = 301,
+    FileStorage = 303,
     Backup = 304,
-    //PerformanceStorage = 305,
 
-    // Network (400-499)
-    //VpnGateway = 400,
+    VpnGateway = 400,
     LoadBalancer = 401,
     ApiGateway = 402,
-    //Dns = 403,            // Route53
-    //ContentDelivery = 404,// CloudFront
-    //DataTransfer = 405,   // Bandwidth/Egress
+    Dns = 403,
+    CDN = 404,
 
-    // Analytics & AI (500-599)
-    DataWarehouse = 500,  // Redshift
-    Streaming = 501,      // Kinesis/MSK
-    MachineLearning = 502,// SageMaker
+    DataWarehouse = 500,
+    Streaming = 501,
+    MachineLearning = 502,
 
-    // Management/Security (600-699)
-    Queueing = 600,       // SQS
-    Messaging = 601,      // SNS
-    Secrets = 602,        // SecretsManager
-    Compliance = 603,     // Config/CloudTrail
+    Queueing = 600,
+    Messaging = 601,
+    Secrets = 602,
+    Compliance = 603,
     Monitoring = 604,
 }
