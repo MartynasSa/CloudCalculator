@@ -1,0 +1,66 @@
+﻿[
+  {
+    Name: AmazonApiGateway,
+    Region: us-east-1,
+    PricePerMonth: 730.0,
+    Cloud: aws,
+    Category: Networking,
+    SubCategory: ApiGateway
+  },
+  {
+    Name: AmazonApiGateway,
+    Region: us-east-1,
+    PricePerMonth: 365.0,
+    Cloud: aws,
+    Category: Networking,
+    SubCategory: ApiGateway
+  },
+  {
+    Name: AmazonApiGateway,
+    Region: us-east-1,
+    PricePerMonth: 146.0,
+    Cloud: aws,
+    Category: Networking,
+    SubCategory: ApiGateway
+  },
+  {
+    Name: AmazonApiGateway,
+    Region: us-east-1,
+    PricePerMonth: 182.50,
+    Cloud: aws,
+    Category: Networking,
+    SubCategory: ApiGateway
+  },
+  {
+    Name: AmazonApiGateway,
+    Region: us-east-1,
+    PricePerMonth: 1387.0,
+    Cloud: aws,
+    Category: Networking,
+    SubCategory: ApiGateway
+  },
+  {
+    Name: AmazonApiGateway,
+    Region: us-east-1,
+    PricePerMonth: 27.740,
+    Cloud: aws,
+    Category: Networking,
+    SubCategory: ApiGateway
+  },
+  {
+    Name: AmazonApiGateway,
+    Region: us-east-1,
+    PricePerMonth: 2774.0,
+    Cloud: aws,
+    Category: Networking,
+    SubCategory: ApiGateway
+  },
+  {
+    Name: AmazonApiGateway,
+    Region: us-east-1,
+    PricePerMonth: 14.60,
+    Cloud: aws,
+    Category: Networking,
+    SubCategory: ApiGateway
+  }
+]

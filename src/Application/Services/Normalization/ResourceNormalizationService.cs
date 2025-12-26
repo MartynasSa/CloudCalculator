@@ -95,10 +95,26 @@ public class ResourceNormalizationService(ICloudPricingRepositoryProvider cloudP
                 case (ResourceCategory.Compute, ResourceSubCategory.VirtualMachines):
                     result.ComputeInstances.Add(NormalizationMapper.MapToComputeInstance(product, category, subCategory));
                     break;
-                case (ResourceCategory.Database, _):
+                case (ResourceCategory.Compute, ResourceSubCategory.CloudFunctions):
+                    result.CloudFunctions.Add(NormalizationMapper.MapToCloudFunction(product, category, subCategory));
+                    break;
+                case (ResourceCategory.Compute, ResourceSubCategory.Kubernetes):
+                    result.Kubernetes.Add(NormalizationMapper.MapToKubernetes(product, category, subCategory));
+                    break;
+                case (ResourceCategory.Database, ResourceSubCategory.Relational):
+                    result.Databases.Add(NormalizationMapper.MapToDatabase(product, category, subCategory));
+                    break;
+                case (ResourceCategory.Database, ResourceSubCategory.NoSQL):
                     result.Databases.Add(NormalizationMapper.MapToDatabase(product, category, subCategory));
                     break;
                 case (ResourceCategory.Networking, ResourceSubCategory.LoadBalancer):
+                    // LoadBalancers are added separately using hardcoded values
+                    break;
+                case (ResourceCategory.Networking, ResourceSubCategory.ApiGateway):
+                    result.ApiGateways.Add(NormalizationMapper.MapToApiGateway(product, category, subCategory));
+                    break;
+                case (ResourceCategory.Storage, ResourceSubCategory.BlobStorage):
+                    result.BlobStorage.Add(NormalizationMapper.MapToBlobStorage(product, category, subCategory));
                     break;
                 default:
                     break;
@@ -106,8 +122,19 @@ public class ResourceNormalizationService(ICloudPricingRepositoryProvider cloudP
         }
 
         result.Monitoring.AddRange(GetNormalizedMonitoring());
+        result.LoadBalancers.AddRange(GetNormalizedLoadBalancers());
 
-        return new CategorizedResourcesDto { };
+        return result;
+    }
+
+    private static List<NormalizedLoadBalancerDto> GetNormalizedLoadBalancers()
+    {
+        return new List<NormalizedLoadBalancerDto>
+        {
+            new() { Cloud = CloudProvider.AWS, Category = ResourceCategory.Networking, SubCategory = ResourceSubCategory.LoadBalancer, Name = "Application Load Balancer", PricePerMonth = 16.51m },
+            new() { Cloud = CloudProvider.Azure, Category = ResourceCategory.Networking, SubCategory = ResourceSubCategory.LoadBalancer, Name = "Azure Load Balancer", PricePerMonth = 0m },
+            new() { Cloud = CloudProvider.GCP, Category = ResourceCategory.Networking, SubCategory = ResourceSubCategory.LoadBalancer, Name = "Cloud Load Balancing", PricePerMonth = 18.41m }
+        };
     }
 
     private static (ResourceCategory Category, ResourceSubCategory SubCategory) MapAwsProductFamilyToCategoryAndSubCategory(string productFamily, string service)
@@ -144,15 +171,9 @@ public class ResourceNormalizationService(ICloudPricingRepositoryProvider cloudP
     {
         return new List<NormalizedMonitoringDto>
         {
-            new() { Cloud = CloudProvider.GCP, Category = ResourceCategory.Management, SubCategory = ResourceSubCategory.Monitoring, Name = "Cloud Ops", PricePerMonth = 4m },
-            new() { Cloud = CloudProvider.GCP, Category = ResourceCategory.Management, SubCategory = ResourceSubCategory.Monitoring, Name = "Cloud Ops", PricePerMonth = 12m },
-            new() { Cloud = CloudProvider.GCP, Category = ResourceCategory.Management, SubCategory = ResourceSubCategory.Monitoring, Name = "Cloud Ops", PricePerMonth = 40m },
-            new() { Cloud = CloudProvider.Azure, Category = ResourceCategory.Management, SubCategory = ResourceSubCategory.Monitoring, Name = "Azure Monitor", PricePerMonth = 6m },
-            new() { Cloud = CloudProvider.Azure, Category = ResourceCategory.Management, SubCategory = ResourceSubCategory.Monitoring, Name = "Azure Monitor", PricePerMonth = 18m },
-            new() { Cloud = CloudProvider.Azure, Category = ResourceCategory.Management, SubCategory = ResourceSubCategory.Monitoring, Name = "Azure Monitor", PricePerMonth = 60m },
             new() { Cloud = CloudProvider.AWS, Category = ResourceCategory.Management, SubCategory = ResourceSubCategory.Monitoring, Name = "CloudWatch", PricePerMonth = 5m },
-            new() { Cloud = CloudProvider.AWS, Category = ResourceCategory.Management, SubCategory = ResourceSubCategory.Monitoring, Name = "CloudWatch", PricePerMonth = 15m },
-            new() {Cloud = CloudProvider.AWS, Category = ResourceCategory.Management, SubCategory = ResourceSubCategory.Monitoring, Name = "CloudWatch", PricePerMonth = 50m}
+            new() { Cloud = CloudProvider.Azure, Category = ResourceCategory.Management, SubCategory = ResourceSubCategory.Monitoring, Name = "Azure Monitor", PricePerMonth = 6m },
+            new() { Cloud = CloudProvider.GCP, Category = ResourceCategory.Management, SubCategory = ResourceSubCategory.Monitoring, Name = "Cloud Ops", PricePerMonth = 4m }
         };
     }
 }
