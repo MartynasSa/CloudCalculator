@@ -11,7 +11,6 @@ public interface IResourceNormalizationService
 
 public class ResourceNormalizationService(ICloudPricingRepositoryProvider cloudPricingRepository) : IResourceNormalizationService
 {
-    
     private static readonly Dictionary<(string ProductFamily, string Service), (ResourceCategory Category, ResourceSubCategory SubCategory)> AwsProductFamilyServiceMap =
         new()
         {
@@ -108,8 +107,7 @@ public class ResourceNormalizationService(ICloudPricingRepositoryProvider cloudP
 
         result.Monitoring.AddRange(GetNormalizedMonitoring());
 
-        return new CategorizedResourcesDto { 
-        };
+        return new CategorizedResourcesDto { };
     }
 
     private static (ResourceCategory Category, ResourceSubCategory SubCategory) MapAwsProductFamilyToCategoryAndSubCategory(string productFamily, string service)

@@ -1,5 +1,4 @@
 ﻿using Application.Facade;
-using Application.Models.Dtos;
 using Application.Models.Enums;
 using Microsoft.AspNetCore.Mvc;
 
@@ -9,7 +8,7 @@ namespace WebApi.Controllers;
 [Route("api")]
 public class TemplatesController(ITemplateFacade templateFacade) : Controller
 {
-    [HttpGet("templates")]
+    [HttpGet("template")]
     public async Task<IActionResult> GetTemplate([FromQuery] TemplateType template, CancellationToken ct)
     {
         if (template == TemplateType.None)
@@ -18,6 +17,14 @@ public class TemplatesController(ITemplateFacade templateFacade) : Controller
         }
         
         var result = await templateFacade.GetTemplateAsync(template);
+        return Ok(result);
+    }
+
+    [HttpGet("templates")]
+    public async Task<IActionResult> GetTemplates(CancellationToken ct)
+    {
+
+        var result = templateFacade.GetTemplates();
         return Ok(result);
     }
 }
