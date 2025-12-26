@@ -27,4 +27,6 @@ public class CategoryResourcesDto
     public List<NormalizedResourceDto> EnterpriseApplications { get; set; } = new();
     public List<NormalizedResourceDto> Licensing { get; set; } = new();
     public List<NormalizedResourceDto> Other { get; set; } = new();
+    public List<NormalizedResourceDto> Networking { get; set; } = new();
+    public List<NormalizedResourceDto> Management { get; set; } = new();
 }

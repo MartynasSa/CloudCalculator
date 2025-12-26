@@ -252,6 +252,8 @@ public class ResourceNormalizationService(ICloudPricingRepository cloudPricingRe
             ResourceCategory.EnterpriseApplications => dto.EnterpriseApplications ??= new List<NormalizedResourceDto>(),
             ResourceCategory.Licensing => dto.Licensing ??= new List<NormalizedResourceDto>(),
             ResourceCategory.Other => dto.Other ??= new List<NormalizedResourceDto>(),
+            ResourceCategory.Networking => dto.Networking ??= new List<NormalizedResourceDto>(),
+            ResourceCategory.Management => dto.Management ??= new List<NormalizedResourceDto>(),
             _ => throw new ArgumentOutOfRangeException(nameof(category), $"Unsupported category {category} for generic resources.")
         };
     }

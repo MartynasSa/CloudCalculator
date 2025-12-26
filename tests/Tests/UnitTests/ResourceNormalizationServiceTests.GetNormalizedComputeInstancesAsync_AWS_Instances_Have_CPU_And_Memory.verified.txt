@@ -7265,6 +7265,14 @@
   },
   {
     Cloud: aws,
+    InstanceName: c6g,
+    Region: unknown,
+    VCpu: 64,
+    Memory: NA,
+    PricePerHour: 2.712
+  },
+  {
+    Cloud: aws,
     InstanceName: c7i-flex.12xlarge,
     Region: eu-west-1,
     VCpu: 48,

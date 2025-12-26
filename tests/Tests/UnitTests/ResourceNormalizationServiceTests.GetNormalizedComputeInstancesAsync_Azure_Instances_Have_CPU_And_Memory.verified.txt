@@ -247,9 +247,27 @@
   },
   {
     Cloud: azure,
+    InstanceName: Standard,
+    Region: northcentralus,
+    PricePerHour: 0.000024
+  },
+  {
+    Cloud: azure,
+    InstanceName: 32 vCPU,
+    Region: unknown,
+    PricePerHour: 3.2
+  },
+  {
+    Cloud: azure,
     InstanceName: Standard_F32as_v7,
     Region: israelnorthwest,
     PricePerHour: 0.576576
+  },
+  {
+    Cloud: azure,
+    InstanceName: 4 TB ANF Std,
+    Region: eastus,
+    PricePerHour: 24.22
   },
   {
     Cloud: azure,
@@ -350,6 +368,12 @@
     InstanceName: Standard_D64-32s_v3,
     Region: usgovvirginia,
     PricePerHour: 1.289165
+  },
+  {
+    Cloud: azure,
+    InstanceName: SAP_HANA_On_Azure_S72m,
+    Region: japanwest,
+    PricePerHour: 27.381
   },
   {
     Cloud: azure,
@@ -501,6 +525,12 @@
   },
   {
     Cloud: azure,
+    InstanceName: F4s v2 Low Priority,
+    Region: canadaeast,
+    PricePerHour: 0.034
+  },
+  {
+    Cloud: azure,
     InstanceName: Standard_D32as_v6,
     Region: canadaeast,
     VCpu: 32,
@@ -611,6 +641,14 @@
   },
   {
     Cloud: azure,
+    InstanceName: Standard_A4m_v2,
+    Region: eastasia,
+    VCpu: 4,
+    Memory: 32 GB,
+    PricePerHour: 0.0552
+  },
+  {
+    Cloud: azure,
     InstanceName: Standard_D8s_v5,
     Region: usgovvirginia,
     VCpu: 8,
@@ -670,6 +708,12 @@
     VCpu: 32,
     Memory: 128 GB,
     PricePerHour: 0.528528
+  },
+  {
+    Cloud: azure,
+    InstanceName: B2,
+    Region: indonesiacentral,
+    PricePerHour: 0.15
   },
   {
     Cloud: azure,
@@ -951,6 +995,14 @@
   },
   {
     Cloud: azure,
+    InstanceName: Standard_D12_v2,
+    Region: brazilsouth,
+    VCpu: 4,
+    Memory: 28 GB,
+    PricePerHour: 0.996
+  },
+  {
+    Cloud: azure,
     InstanceName: Standard_D48ads_v5,
     Region: southeastasia,
     VCpu: 48,
@@ -1143,6 +1195,12 @@
   },
   {
     Cloud: azure,
+    InstanceName: Automatic,
+    Region: francecentral,
+    PricePerHour: 0.04494
+  },
+  {
+    Cloud: azure,
     InstanceName: Standard_E2d_v5,
     Region: westus3,
     VCpu: 2,
@@ -1278,6 +1336,12 @@
     VCpu: 4,
     Memory: 28 GB,
     PricePerHour: 0.1088
+  },
+  {
+    Cloud: azure,
+    InstanceName: Standard,
+    Region: canadaeast,
+    PricePerHour: 0.4
   },
   {
     Cloud: azure,
@@ -1535,6 +1599,18 @@
   },
   {
     Cloud: azure,
+    InstanceName: App_Service_I3_mv2_linux,
+    Region: southcentralus,
+    PricePerHour: 2.266
+  },
+  {
+    Cloud: azure,
+    InstanceName: Automatic,
+    Region: newzealandnorth,
+    PricePerHour: 0.018641
+  },
+  {
+    Cloud: azure,
     InstanceName: Standard_E4-2s_v4,
     Region: israelcentral,
     VCpu: 2,
@@ -1605,11 +1681,31 @@
   },
   {
     Cloud: azure,
+    InstanceName: Standard VM,
+    Region: unknown,
+    PricePerHour: 500.0
+  },
+  {
+    Cloud: azure,
     InstanceName: Standard_E32_v4,
     Region: jioindiawest,
     VCpu: 32,
     Memory: 256 GB,
     PricePerHour: 2.08
+  },
+  {
+    Cloud: azure,
+    InstanceName: Standard_E4_v3,
+    Region: canadaeast,
+    VCpu: 4,
+    Memory: 32 GB,
+    PricePerHour: 0.476
+  },
+  {
+    Cloud: azure,
+    InstanceName: SAP_HANA_On_Azure_S672,
+    Region: westus,
+    PricePerHour: 201.13
   },
   {
     Cloud: azure,
@@ -1798,6 +1894,12 @@
     VCpu: 96,
     Memory: 384 GB,
     PricePerHour: 7.648
+  },
+  {
+    Cloud: azure,
+    InstanceName: Standard,
+    Region: switzerlandwest,
+    PricePerHour: 0.1
   },
   {
     Cloud: azure,
@@ -2043,6 +2145,12 @@
   },
   {
     Cloud: azure,
+    InstanceName: Premium,
+    Region: westeurope,
+    PricePerHour: 1.6666
+  },
+  {
+    Cloud: azure,
     InstanceName: Standard_D64ds_v6,
     Region: centralus,
     VCpu: 64,
@@ -2215,6 +2323,12 @@
   },
   {
     Cloud: azure,
+    InstanceName: AV36P,
+    Region: uksouth,
+    PricePerHour: 10.67
+  },
+  {
+    Cloud: azure,
     InstanceName: Standard_FX48-24mds_v2,
     Region: southeastasia,
     VCpu: 24,
@@ -2296,6 +2410,12 @@
     InstanceName: Standard_E8-4as_v6,
     Region: switzerlandnorth,
     PricePerHour: 0.126034
+  },
+  {
+    Cloud: azure,
+    InstanceName: P3,
+    Region: westus2,
+    PricePerHour: 1.2
   },
   {
     Cloud: azure,
@@ -2417,6 +2537,14 @@
   },
   {
     Cloud: azure,
+    InstanceName: Standard_D16_v3,
+    Region: canadacentral,
+    VCpu: 16,
+    Memory: 64 GB,
+    PricePerHour: 0.178
+  },
+  {
+    Cloud: azure,
     InstanceName: Standard_E64_v5,
     Region: australiasoutheast,
     VCpu: 64,
@@ -2477,6 +2605,14 @@
   },
   {
     Cloud: azure,
+    InstanceName: Standard_A8m_v2,
+    Region: westus,
+    VCpu: 8,
+    Memory: 64 GB,
+    PricePerHour: 0.843
+  },
+  {
+    Cloud: azure,
     InstanceName: Standard_M128-64ms,
     Region: austriaeast,
     VCpu: 64,
@@ -2514,6 +2650,12 @@
     VCpu: 8,
     Memory: 256 GB,
     PricePerHour: 0.594317
+  },
+  {
+    Cloud: azure,
+    InstanceName: AV64,
+    Region: indonesiacentral,
+    PricePerHour: 162594.0
   },
   {
     Cloud: azure,
@@ -2747,6 +2889,12 @@
   },
   {
     Cloud: azure,
+    InstanceName: AV64,
+    Region: uaenorth,
+    PricePerHour: 167371.0
+  },
+  {
+    Cloud: azure,
     InstanceName: Standard_D96_v5,
     Region: israelcentral,
     VCpu: 96,
@@ -2768,6 +2916,14 @@
     VCpu: 16,
     Memory: 128 GB,
     PricePerHour: 0.243
+  },
+  {
+    Cloud: azure,
+    InstanceName: Standard_D32_v3,
+    Region: germanynorth,
+    VCpu: 32,
+    Memory: 128 GB,
+    PricePerHour: 3.864
   },
   {
     Cloud: azure,
@@ -2795,6 +2951,12 @@
   },
   {
     Cloud: azure,
+    InstanceName: Azure Benefit,
+    Region: Global,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: azure,
     InstanceName: Standard_E20ds_v4,
     Region: switzerlandwest,
     VCpu: 20,
@@ -2808,6 +2970,12 @@
     VCpu: 32,
     Memory: 256 GB,
     PricePerHour: 3.568
+  },
+  {
+    Cloud: azure,
+    InstanceName: App_Service_I1_v2_linux,
+    Region: southcentralus2,
+    PricePerHour: 0.4246
   },
   {
     Cloud: azure,
@@ -2880,6 +3048,12 @@
     VCpu: 8,
     Memory: 256 GB,
     PricePerHour: 3.888
+  },
+  {
+    Cloud: azure,
+    InstanceName: App_Service_I3_v2_linux,
+    Region: southeastasia,
+    PricePerHour: 1.656
   },
   {
     Cloud: azure,
@@ -3070,6 +3244,12 @@
     VCpu: 8,
     Memory: 64 GB,
     PricePerHour: 0.134
+  },
+  {
+    Cloud: azure,
+    InstanceName: P4,
+    Region: canadacentral,
+    PricePerHour: 2.64
   },
   {
     Cloud: azure,
@@ -3275,6 +3455,12 @@
   },
   {
     Cloud: azure,
+    InstanceName: SAP_HANA_On_Azure_S672ooo,
+    Region: westus,
+    PricePerHour: 911940.0
+  },
+  {
+    Cloud: azure,
     InstanceName: Standard_D32as_v5,
     Region: austriaeast,
     VCpu: 32,
@@ -3400,6 +3586,12 @@
     VCpu: 64,
     Memory: 128 GB,
     PricePerHour: 0.635158
+  },
+  {
+    Cloud: azure,
+    InstanceName: P2,
+    Region: italynorth,
+    PricePerHour: 0.6
   },
   {
     Cloud: azure,
@@ -3624,6 +3816,12 @@
     VCpu: 4,
     Memory: 32 GB,
     PricePerHour: 0.302
+  },
+  {
+    Cloud: azure,
+    InstanceName: I14,
+    Region: westindia,
+    PricePerHour: 5.336
   },
   {
     Cloud: azure,

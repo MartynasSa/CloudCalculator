@@ -12,12 +12,5 @@
     Memory: 16.0,
     DatabaseEngine: PostgreSQL,
     PricePerMonth: 408.80
-  },
-  gcp: {
-    InstanceName: SQLGen2InstancesN1Standard,
-    CpuCores: 1.0,
-    Memory: 3.75,
-    DatabaseEngine: MySQL,
-    PricePerMonth: 66.430
   }
 }
