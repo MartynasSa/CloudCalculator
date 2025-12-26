@@ -241,6 +241,154 @@ public class ResourceNormalizationServiceTests(WebApplicationFactory<Program> fa
 
 
     [Fact]
+    public async Task GetNormalizedCloudFunctions_Returns_CloudFunctions()
+    {
+        // Arrange
+        var service = GetService();
+
+        // Act
+        var categorized = await service.GetResourcesAsync();
+        var result = categorized.CloudFunctions;
+
+        // Assert
+        Assert.NotNull(result);
+        Assert.NotEmpty(result);
+
+        // Verify all functions have required properties
+        Assert.All(result, cf =>
+        {
+            Assert.False(string.IsNullOrWhiteSpace(cf.Cloud.ToString()));
+            Assert.False(string.IsNullOrWhiteSpace(cf.FunctionName));
+            Assert.False(string.IsNullOrWhiteSpace(cf.Region));
+            Assert.Equal(ResourceCategory.Compute, cf.Category);
+            Assert.Equal(ResourceSubCategory.CloudFunctions, cf.SubCategory);
+        });
+
+        await Verify(result);
+    }
+
+    [Fact]
+    public async Task GetNormalizedKubernetes_Returns_Kubernetes()
+    {
+        // Arrange
+        var service = GetService();
+
+        // Act
+        var categorized = await service.GetResourcesAsync();
+        var result = categorized.Kubernetes;
+
+        // Assert
+        Assert.NotNull(result);
+        Assert.NotEmpty(result);
+
+        // Verify all kubernetes have required properties
+        Assert.All(result, k =>
+        {
+            Assert.False(string.IsNullOrWhiteSpace(k.Cloud.ToString()));
+            Assert.False(string.IsNullOrWhiteSpace(k.ClusterName));
+            Assert.False(string.IsNullOrWhiteSpace(k.Region));
+            Assert.Equal(ResourceCategory.Compute, k.Category);
+            Assert.Equal(ResourceSubCategory.Kubernetes, k.SubCategory);
+        });
+
+        await Verify(result);
+    }
+
+    [Fact]
+    public async Task GetNormalizedApiGateways_Returns_ApiGateways()
+    {
+        // Arrange
+        var service = GetService();
+
+        // Act
+        var categorized = await service.GetResourcesAsync();
+        var result = categorized.ApiGateways;
+
+        // Assert
+        Assert.NotNull(result);
+        Assert.NotEmpty(result);
+
+        // Verify all API gateways have required properties
+        Assert.All(result, ag =>
+        {
+            Assert.False(string.IsNullOrWhiteSpace(ag.Cloud.ToString()));
+            Assert.False(string.IsNullOrWhiteSpace(ag.Name));
+            Assert.False(string.IsNullOrWhiteSpace(ag.Region));
+            Assert.Equal(ResourceCategory.Networking, ag.Category);
+            Assert.Equal(ResourceSubCategory.ApiGateway, ag.SubCategory);
+        });
+
+        await Verify(result);
+    }
+
+    [Fact]
+    public async Task GetNormalizedBlobStorage_Returns_BlobStorage()
+    {
+        // Arrange
+        var service = GetService();
+
+        // Act
+        var categorized = await service.GetResourcesAsync();
+        var result = categorized.BlobStorage;
+
+        // Assert
+        Assert.NotNull(result);
+        Assert.NotEmpty(result);
+
+        // Verify all blob storage have required properties
+        Assert.All(result, bs =>
+        {
+            Assert.False(string.IsNullOrWhiteSpace(bs.Cloud.ToString()));
+            Assert.False(string.IsNullOrWhiteSpace(bs.Name));
+            Assert.False(string.IsNullOrWhiteSpace(bs.Region));
+            Assert.Equal(ResourceCategory.Storage, bs.Category);
+            Assert.Equal(ResourceSubCategory.BlobStorage, bs.SubCategory);
+        });
+
+        await Verify(result);
+    }
+
+    [Fact]
+    public async Task GetNormalizedDatabases_Includes_NoSQL_Databases()
+    {
+        // Arrange
+        var service = GetService();
+
+        // Act
+        var categorized = await service.GetResourcesAsync();
+        var result = categorized.Databases;
+
+        // Assert
+        Assert.NotNull(result);
+        Assert.NotEmpty(result);
+
+        // Verify we have NoSQL databases
+        Assert.Contains(result, db => db.SubCategory == ResourceSubCategory.NoSQL);
+
+        await Verify(result.Where(db => db.SubCategory == ResourceSubCategory.NoSQL).ToList());
+    }
+
+    [Fact]
+    public async Task GetNormalizedDatabases_Includes_Relational_Databases()
+    {
+        // Arrange
+        var service = GetService();
+
+        // Act
+        var categorized = await service.GetResourcesAsync();
+        var result = categorized.Databases;
+
+        // Assert
+        Assert.NotNull(result);
+        Assert.NotEmpty(result);
+
+        // Verify we have Relational databases
+        Assert.Contains(result, db => db.SubCategory == ResourceSubCategory.Relational);
+
+        await Verify(result.Where(db => db.SubCategory == ResourceSubCategory.Relational).ToList());
+    }
+
+    [Fact]
     public async Task ResourceSubCategory_Uses_Correct_Integer_Ranges()
     {
         // Arrange & Act
