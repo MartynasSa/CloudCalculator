@@ -70,7 +70,7 @@ public class ResourceNormalizationServiceTests(WebApplicationFactory<Program> fa
 
         // Act
         var categorized = await service.GetResourcesAsync();
-        var result = categorized.Databases;
+        var result = categorized.ComputeInstances;
         var azureInstances = result.Where(r => r.Cloud == CloudProvider.Azure).ToList();
 
         // Assert
