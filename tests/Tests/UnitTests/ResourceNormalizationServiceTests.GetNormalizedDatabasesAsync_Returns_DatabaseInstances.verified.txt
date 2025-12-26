@@ -928,6 +928,18 @@
   },
   {
     Cloud: gcp,
+    InstanceName: InterregionEgress,
+    Region: us-east5,
+    PricePerHour: 0.12
+  },
+  {
+    Cloud: gcp,
+    InstanceName: PremiumInternetEgress,
+    Region: asia-southeast2,
+    PricePerHour: 0.19
+  },
+  {
+    Cloud: gcp,
     InstanceName: SQLGen2InstancesN1Highmem,
     Region: europe-west2,
     DatabaseEngine: MySQL,
@@ -964,6 +976,12 @@
   },
   {
     Cloud: gcp,
+    InstanceName: IpAddress,
+    Region: europe-west2,
+    PricePerHour: 0.012
+  },
+  {
+    Cloud: gcp,
     InstanceName: SQLGen2InstancesN1Standard,
     Region: us-central1,
     DatabaseEngine: MySQL,
@@ -973,10 +991,29 @@
   },
   {
     Cloud: gcp,
+    InstanceName: IpAddress,
+    Region: asia-northeast1,
+    DatabaseEngine: PostgreSQL,
+    PricePerHour: 0.013
+  },
+  {
+    Cloud: gcp,
+    InstanceName: PremiumInternetEgress,
+    Region: europe-west1,
+    PricePerHour: 0.12
+  },
+  {
+    Cloud: gcp,
     InstanceName: SSD,
     Region: europe-west2,
     DatabaseEngine: PostgreSQL,
     PricePerHour: 0.276
+  },
+  {
+    Cloud: gcp,
+    InstanceName: PremiumInternetEgress,
+    Region: asia-south1,
+    PricePerHour: 0.12
   },
   {
     Cloud: gcp,
@@ -994,6 +1031,18 @@
   },
   {
     Cloud: gcp,
+    InstanceName: InterregionEgress,
+    Region: europe-west10,
+    PricePerHour: 0.12
+  },
+  {
+    Cloud: gcp,
+    InstanceName: PremiumInternetEgress,
+    Region: australia-southeast2,
+    PricePerHour: 0.19
+  },
+  {
+    Cloud: gcp,
     InstanceName: PDStandard,
     Region: us-east4,
     DatabaseEngine: MySQL,
@@ -1005,6 +1054,18 @@
     Region: us-west4,
     DatabaseEngine: PostgreSQL,
     PricePerHour: 0.0107
+  },
+  {
+    Cloud: gcp,
+    InstanceName: PremiumInternetEgress,
+    Region: us-west3,
+    PricePerHour: 0.12
+  },
+  {
+    Cloud: gcp,
+    InstanceName: PremiumInternetEgress,
+    Region: us-west2,
+    PricePerHour: 0.19
   },
   {
     Cloud: gcp,
@@ -1033,9 +1094,21 @@
   },
   {
     Cloud: gcp,
+    InstanceName: PremiumInternetEgress,
+    Region: europe-southwest1,
+    PricePerHour: 0.19
+  },
+  {
+    Cloud: gcp,
     InstanceName: SSD,
     Region: northamerica-northeast1,
     PricePerHour: 0.187
+  },
+  {
+    Cloud: gcp,
+    InstanceName: InterregionEgress,
+    Region: europe-west2,
+    PricePerHour: 0.12
   },
   {
     Cloud: gcp,
@@ -1079,10 +1152,22 @@
   },
   {
     Cloud: gcp,
+    InstanceName: PremiumInternetEgress,
+    Region: us-west3,
+    PricePerHour: 0.12
+  },
+  {
+    Cloud: gcp,
     InstanceName: SQLGen2InstancesCPU,
     Region: australia-southeast1,
     DatabaseEngine: PostgreSQL,
     PricePerHour: 0.189
+  },
+  {
+    Cloud: gcp,
+    InstanceName: PremiumInternetEgress,
+    Region: europe-west8,
+    PricePerHour: 0.19
   },
   {
     Cloud: gcp,
@@ -1123,6 +1208,12 @@
     InstanceName: SSD,
     Region: southamerica-west1,
     PricePerHour: 0.112
+  },
+  {
+    Cloud: gcp,
+    InstanceName: InterregionEgress,
+    Region: europe-west1,
+    PricePerHour: 0.12
   },
   {
     Cloud: gcp,
@@ -1207,6 +1298,12 @@
   },
   {
     Cloud: gcp,
+    InstanceName: PremiumInternetEgress,
+    Region: us-west8,
+    PricePerHour: 0.12
+  },
+  {
+    Cloud: gcp,
     InstanceName: SQLGen2InstancesN1Standard,
     Region: australia-southeast1,
     DatabaseEngine: MySQL,
@@ -1245,6 +1342,19 @@
   },
   {
     Cloud: gcp,
+    InstanceName: IpAddress,
+    Region: us-west4,
+    DatabaseEngine: PostgreSQL,
+    PricePerHour: 0.0107
+  },
+  {
+    Cloud: gcp,
+    InstanceName: PremiumInternetEgress,
+    Region: asia-east1,
+    PricePerHour: 0.19
+  },
+  {
+    Cloud: gcp,
     InstanceName: SQLGen2InstancesG1Small,
     Region: africa-south1,
     DatabaseEngine: MySQL,
@@ -1255,6 +1365,12 @@
     InstanceName: SSD,
     Region: australia-southeast1,
     PricePerHour: 0.216
+  },
+  {
+    Cloud: gcp,
+    InstanceName: InterregionEgress,
+    Region: us-west8,
+    PricePerHour: 0.12
   },
   {
     Cloud: gcp,
@@ -1287,6 +1403,18 @@
   },
   {
     Cloud: gcp,
+    InstanceName: InterregionEgress,
+    Region: me-central2,
+    PricePerHour: 0.12
+  },
+  {
+    Cloud: gcp,
+    InstanceName: InterzoneEgress,
+    Region: africa-south1,
+    PricePerHour: 0.0
+  },
+  {
+    Cloud: gcp,
     InstanceName: SQLGen2InstancesN1Standard,
     Region: europe-west8,
     DatabaseEngine: MySQL,
@@ -1310,10 +1438,28 @@
   },
   {
     Cloud: gcp,
+    InstanceName: InterregionEgress,
+    Region: me-central1,
+    PricePerHour: 0.12
+  },
+  {
+    Cloud: gcp,
     InstanceName: SQLGen2InstancesRAM,
     Region: australia-southeast2,
     DatabaseEngine: PostgreSQL,
     PricePerHour: 0.00945
+  },
+  {
+    Cloud: gcp,
+    InstanceName: InterregionEgress,
+    Region: europe-north2,
+    PricePerHour: 0.12
+  },
+  {
+    Cloud: gcp,
+    InstanceName: PremiumInternetEgress,
+    Region: asia-east2,
+    PricePerHour: 0.12
   },
   {
     Cloud: gcp,
@@ -1340,12 +1486,31 @@
   },
   {
     Cloud: gcp,
+    InstanceName: PremiumInternetEgress,
+    Region: us-east1,
+    PricePerHour: 0.12
+  },
+  {
+    Cloud: gcp,
     InstanceName: SQLGen2InstancesN1Standard,
     Region: northamerica-south1,
     DatabaseEngine: MySQL,
     VCpu: 16,
     Memory: 60 GB,
     PricePerHour: 1.2208
+  },
+  {
+    Cloud: gcp,
+    InstanceName: IpAddress,
+    Region: us-east4,
+    DatabaseEngine: MySQL,
+    PricePerHour: 0.0107
+  },
+  {
+    Cloud: gcp,
+    InstanceName: InterregionEgress,
+    Region: us-central1,
+    PricePerHour: 0.12
   },
   {
     Cloud: gcp,
@@ -1390,6 +1555,18 @@
   },
   {
     Cloud: gcp,
+    InstanceName: InterregionEgress,
+    Region: northamerica-south1,
+    PricePerHour: 0.12
+  },
+  {
+    Cloud: gcp,
+    InstanceName: InterregionEgress,
+    Region: europe-west8,
+    PricePerHour: 0.12
+  },
+  {
+    Cloud: gcp,
     InstanceName: SQLGen2InstancesG1Small,
     Region: northamerica-northeast1,
     DatabaseEngine: PostgreSQL,
@@ -1412,6 +1589,12 @@
   },
   {
     Cloud: gcp,
+    InstanceName: PremiumInternetEgress,
+    Region: us-central1,
+    PricePerHour: 0.19
+  },
+  {
+    Cloud: gcp,
     InstanceName: SQLGen2InstancesN1Standard,
     Region: us-central1,
     DatabaseEngine: MySQL,
@@ -1430,10 +1613,22 @@
   },
   {
     Cloud: gcp,
+    InstanceName: PremiumInternetEgress,
+    Region: northamerica-south1,
+    PricePerHour: 0.19
+  },
+  {
+    Cloud: gcp,
     InstanceName: SQLGen2InstancesRAM,
     Region: europe-west9,
     DatabaseEngine: MySQL,
     PricePerHour: 0.00812
+  },
+  {
+    Cloud: gcp,
+    InstanceName: PremiumInternetEgress,
+    Region: asia-northeast3,
+    PricePerHour: 0.12
   },
   {
     Cloud: gcp,
@@ -1443,6 +1638,36 @@
     VCpu: 16,
     Memory: 104 GB,
     PricePerHour: 1.7112
+  },
+  {
+    Cloud: gcp,
+    InstanceName: PremiumInternetEgress,
+    Region: northamerica-south1,
+    PricePerHour: 0.12
+  },
+  {
+    Cloud: gcp,
+    InstanceName: InterregionEgress,
+    Region: us-central1,
+    PricePerHour: 0.12
+  },
+  {
+    Cloud: gcp,
+    InstanceName: InterregionEgress,
+    Region: asia-east1,
+    PricePerHour: 0.12
+  },
+  {
+    Cloud: gcp,
+    InstanceName: PremiumInternetEgress,
+    Region: us-west2,
+    PricePerHour: 0.19
+  },
+  {
+    Cloud: gcp,
+    InstanceName: PremiumInternetEgress,
+    Region: us-west2,
+    PricePerHour: 0.19
   },
   {
     Cloud: gcp,
@@ -1458,6 +1683,12 @@
     InstanceName: SSD,
     Region: northamerica-northeast1,
     PricePerHour: 0.176
+  },
+  {
+    Cloud: gcp,
+    InstanceName: PremiumInternetEgress,
+    Region: us-west4,
+    PricePerHour: 0.19
   },
   {
     Cloud: gcp,
@@ -1477,12 +1708,36 @@
   },
   {
     Cloud: gcp,
+    InstanceName: InterregionEgress,
+    Region: europe-central2,
+    PricePerHour: 0.12
+  },
+  {
+    Cloud: gcp,
     InstanceName: SQLGen2InstancesN1Highmem,
     Region: northamerica-northeast1,
     DatabaseEngine: MySQL,
     VCpu: 16,
     Memory: 104 GB,
     PricePerHour: 3.0985
+  },
+  {
+    Cloud: gcp,
+    InstanceName: PremiumInternetEgress,
+    Region: africa-south1,
+    PricePerHour: 0.12
+  },
+  {
+    Cloud: gcp,
+    InstanceName: PremiumInternetEgress,
+    Region: asia-east1,
+    PricePerHour: 0.12
+  },
+  {
+    Cloud: gcp,
+    InstanceName: InterregionEgress,
+    Region: me-west1,
+    PricePerHour: 0.12
   },
   {
     Cloud: gcp,
@@ -1501,6 +1756,12 @@
   },
   {
     Cloud: gcp,
+    InstanceName: InterregionEgress,
+    Region: asia-south2,
+    PricePerHour: 0.12
+  },
+  {
+    Cloud: gcp,
     InstanceName: SQLGen2InstancesN1Highmem,
     Region: asia-southeast3,
     DatabaseEngine: MySQL,
@@ -1514,6 +1775,12 @@
     Region: europe-southwest1,
     DatabaseEngine: PostgreSQL,
     PricePerHour: 0.042
+  },
+  {
+    Cloud: gcp,
+    InstanceName: PremiumInternetEgress,
+    Region: europe-central2,
+    PricePerHour: 0.19
   },
   {
     Cloud: gcp,
@@ -1558,10 +1825,28 @@
   },
   {
     Cloud: gcp,
+    InstanceName: PremiumInternetEgress,
+    Region: asia-south1,
+    PricePerHour: 0.12
+  },
+  {
+    Cloud: gcp,
+    InstanceName: PremiumInternetEgress,
+    Region: europe-central2,
+    PricePerHour: 0.19
+  },
+  {
+    Cloud: gcp,
     InstanceName: SSD,
     Region: asia-east2,
     DatabaseEngine: PostgreSQL,
     PricePerHour: 0.06
+  },
+  {
+    Cloud: gcp,
+    InstanceName: InterregionEgress,
+    Region: europe-north1,
+    PricePerHour: 0.12
   },
   {
     Cloud: gcp,
@@ -1578,6 +1863,12 @@
     VCpu: 96,
     Memory: 360 GB,
     PricePerHour: 17.472
+  },
+  {
+    Cloud: gcp,
+    InstanceName: PremiumInternetEgress,
+    Region: asia-southeast3,
+    PricePerHour: 0.19
   },
   {
     Cloud: gcp,
@@ -1604,6 +1895,18 @@
   },
   {
     Cloud: gcp,
+    InstanceName: InterregionEgress,
+    Region: asia-northeast3,
+    PricePerHour: 0.12
+  },
+  {
+    Cloud: gcp,
+    InstanceName: InterregionEgress,
+    Region: europe-west10,
+    PricePerHour: 0.12
+  },
+  {
+    Cloud: gcp,
     InstanceName: SQLGen2InstancesRAM,
     Region: southamerica-east1,
     DatabaseEngine: MySQL,
@@ -1615,6 +1918,12 @@
     Region: asia-southeast2,
     DatabaseEngine: PostgreSQL,
     PricePerHour: 0.091
+  },
+  {
+    Cloud: gcp,
+    InstanceName: InterregionEgress,
+    Region: europe-west3,
+    PricePerHour: 0.12
   },
   {
     Cloud: gcp,

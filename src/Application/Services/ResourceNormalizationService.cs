@@ -91,6 +91,13 @@ public class ResourceNormalizationService(ICloudPricingRepository cloudPricingRe
 
             var (category, subCategory) = MapProductFamilyToCategoryAndSubCategory(product.ProductFamily);
 
+            // Override category for GCP Cloud SQL - treat it as a database
+            if (product.VendorName == CloudProvider.GCP && product.Service == "Cloud SQL")
+            {
+                category = ResourceCategory.Databases;
+                subCategory = ResourceSubCategory.RelationalDatabases;
+            }
+
             if (!neededResources.Contains(category))
                 continue;
 
