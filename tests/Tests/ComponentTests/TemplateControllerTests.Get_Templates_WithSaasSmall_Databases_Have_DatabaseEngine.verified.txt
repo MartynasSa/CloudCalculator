@@ -1,23 +1,9 @@
 ﻿{
   aws: {
-    InstanceName: db.t3.xlarge,
-    CpuCores: 4.0,
-    Memory: 16.0,
-    DatabaseEngine: Oracle,
-    PricePerMonth: 457.762560
-  },
-  azure: {
-    InstanceName: Standard_B4ms,
-    CpuCores: 4.0,
-    Memory: 16.0,
-    DatabaseEngine: PostgreSQL,
-    PricePerMonth: 408.80
-  },
-  gcp: {
-    InstanceName: SQLGen2InstancesN1Standard,
-    CpuCores: 1.0,
-    Memory: 3.75,
-    DatabaseEngine: MySQL,
-    PricePerMonth: 66.430
+    InstanceName: db.m5.large,
+    CpuCores: 2.0,
+    Memory: 8.0,
+    DatabaseEngine: MySQL (on-premise for Outpost),
+    PricePerMonth: 54.750
   }
 }

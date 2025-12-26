@@ -9977,12 +9977,6 @@
         },
         {
           Cloud: azure,
-          InstanceName: Premium,
-          Region: westeurope,
-          PricePerHour: 1.6666
-        },
-        {
-          Cloud: azure,
           InstanceName: Standard_D64ds_v6,
           Region: centralus,
           VCpu: 64,
@@ -28257,6 +28251,27 @@
         },
         {
           Cloud: azure,
+          Service: Container Registry,
+          Region: westeurope,
+          Category: Other,
+          SubCategory: Uncategorized,
+          ProductFamily: Containers,
+          ResourceName: Premium,
+          PricePerHour: 1.6666,
+          Attributes: {
+            armSkuName: ,
+            effectiveStartDate: DateTimeOffset_6,
+            meterId: Guid_312,
+            meterName: Premium Registry Replication Unit,
+            productId: DZH318Z0BQV5,
+            productName: Container Registry,
+            serviceFamily: Containers,
+            serviceId: DZH315F9L8DM,
+            skuName: Premium
+          }
+        },
+        {
+          Cloud: azure,
           Service: Azure Spring Cloud,
           Region: eastus2,
           Category: Other,
@@ -28267,7 +28282,7 @@
           Attributes: {
             armSkuName: Standard Consumption,
             effectiveStartDate: DateTimeOffset_88,
-            meterId: Guid_312,
+            meterId: Guid_313,
             meterName: Standard Consumption Memory Active Usage,
             productId: DZH318Z0CGV9,
             productName: Azure Spring Apps,
@@ -28288,7 +28303,7 @@
           Attributes: {
             armSkuName: Standard Consumption,
             effectiveStartDate: DateTimeOffset_88,
-            meterId: Guid_313,
+            meterId: Guid_314,
             meterName: Standard Consumption Memory Idle Usage,
             productId: DZH318Z0CGV9,
             productName: Azure Spring Apps,
@@ -28309,7 +28324,7 @@
           Attributes: {
             armSkuName: ,
             effectiveStartDate: DateTimeOffset_60,
-            meterId: Guid_314,
+            meterId: Guid_315,
             meterName: Free - Transcode DICOM,
             productId: DZH318Z094ML,
             productName: Azure Health Data Services,

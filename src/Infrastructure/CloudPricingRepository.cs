@@ -1,4 +1,5 @@
 ﻿using Application.Models.Dtos;
+using Application.Models.Enums;
 using Application.Ports;
 using System.Text.Json;
 using System.Text.Json.Serialization;
@@ -9,8 +10,6 @@ public class CloudPricingRepository(string? dataDirectory = null) : ICloudPricin
 {
     public async Task<CloudPricingDto> GetAllAsync(CancellationToken cancellationToken )
     {
-        var filesToLoad = new[] { "aws.json", "azure.json", "gcp.json" };
-
         var dataDir = ResolveDataDirectory();
         var options = new JsonSerializerOptions
         {
@@ -24,20 +23,49 @@ public class CloudPricingRepository(string? dataDirectory = null) : ICloudPricin
             Data = new CloudPricingDataDto()
         };
 
-        foreach (var fileName in filesToLoad)
-        {
-            var path = Path.Combine(dataDir, fileName);
-            if (!File.Exists(path))
-            {
-                continue;
-            }
+        // Scan all JSON files in the Data directory and its subdirectories
+        var jsonFiles = Directory.Exists(dataDir) 
+            ? Directory.GetFiles(dataDir, "*.json", SearchOption.AllDirectories)
+            : Array.Empty<string>();
 
-            await using var stream = File.OpenRead(path);
+        foreach (var filePath in jsonFiles)
+        {
+            // Determine vendor from filename (aws.json, azure.json, gcp.json)
+            var fileName = Path.GetFileNameWithoutExtension(filePath);
+            var vendor = fileName.ToLowerInvariant() switch
+            {
+                "aws" => CloudProvider.AWS,
+                "azure" => CloudProvider.Azure,
+                "gcp" => CloudProvider.GCP,
+                _ => CloudProvider.None
+            };
+
+            await using var stream = File.OpenRead(filePath);
             var dto = await JsonSerializer.DeserializeAsync<CloudPricingDto>(stream, options, cancellationToken)
                       ?? new CloudPricingDto { Data = new CloudPricingDataDto() };
 
             if (dto.Data?.Products is { } products)
             {
+                // Fill in missing vendor name and region from file metadata
+                foreach (var product in products)
+                {
+                    // Set vendor if not already set or set to None
+                    if (product.VendorName == CloudProvider.None && vendor != CloudProvider.None)
+                    {
+                        product.VendorName = vendor;
+                    }
+                    
+                    // Extract region from regionCode attribute if region is missing
+                    if (string.IsNullOrWhiteSpace(product.Region))
+                    {
+                        var regionCode = product.Attributes.FirstOrDefault(a => a.Key == "regionCode")?.Value;
+                        if (!string.IsNullOrWhiteSpace(regionCode))
+                        {
+                            product.Region = regionCode;
+                        }
+                    }
+                }
+                
                 combined.Data.Products.AddRange(products);
             }
         }

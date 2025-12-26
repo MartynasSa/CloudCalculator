@@ -3,50 +3,30 @@
   Usage: small,
   VirtualMachines: {
     aws: {
-      InstanceName: c6a.large,
+      InstanceName: t3a.medium,
       CpuCores: 2.0,
       Memory: 4.0,
-      PricePerMonth: 67.160
+      PricePerMonth: 27.4480
     },
     azure: {
-      InstanceName: Standard_DC2as_v6,
-      CpuCores: 2.0,
-      Memory: 8.0,
-      PricePerMonth: 8.3220
-    },
-    gcp: {
-      InstanceName: c2d-highcpu-2,
+      InstanceName: Standard_D2pls_v6,
       CpuCores: 2.0,
       Memory: 4.0,
-      PricePerMonth: 86.890440
+      PricePerMonth: 45.260
     }
   },
   Databases: {
     aws: {
-      InstanceName: db.t3.xlarge,
-      CpuCores: 4.0,
-      Memory: 16.0,
-      DatabaseEngine: Oracle,
-      PricePerMonth: 457.762560
-    },
-    azure: {
-      InstanceName: Standard_B4ms,
-      CpuCores: 4.0,
-      Memory: 16.0,
-      DatabaseEngine: PostgreSQL,
-      PricePerMonth: 408.80
-    },
-    gcp: {
-      InstanceName: SQLGen2InstancesN1Standard,
-      CpuCores: 1.0,
-      Memory: 3.75,
-      DatabaseEngine: MySQL,
-      PricePerMonth: 66.430
+      InstanceName: db.m5.large,
+      CpuCores: 2.0,
+      Memory: 8.0,
+      DatabaseEngine: MySQL (on-premise for Outpost),
+      PricePerMonth: 54.750
     }
   },
   LoadBalancers: {
     aws: {
-      Name: Elastic Load Balancing,
+      Name: Application Load Balancer,
       PricePerMonth: 16.51
     },
     azure: {
