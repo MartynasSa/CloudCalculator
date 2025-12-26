@@ -313,13 +313,14 @@ public class ResourceNormalizationServiceTests(WebApplicationFactory<Program> fa
         Assert.All(result.Mappings, mapping =>
         {
             Assert.False(string.IsNullOrWhiteSpace(mapping.ProductFamily));
+            Assert.False(string.IsNullOrWhiteSpace(mapping.Service));
             Assert.NotEqual(ResourceCategory.None, mapping.Category);
             Assert.NotEqual(ResourceSubCategory.None, mapping.SubCategory);
         });
 
-        // Verify that we have unique product families
-        var uniqueFamilies = result.Mappings.Select(m => m.ProductFamily).Distinct().Count();
-        Assert.Equal(result.Mappings.Count, uniqueFamilies);
+        // Verify that we have unique productFamily + service combinations
+        var uniqueCombinations = result.Mappings.Select(m => (m.ProductFamily, m.Service)).Distinct().Count();
+        Assert.Equal(result.Mappings.Count, uniqueCombinations);
 
         await Verify(result);
     }
