@@ -10,8 +10,4 @@
     <PackageReference Include="Microsoft.Extensions.Caching.Memory" Version="9.0.11" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Services\Normalization\" />
-  </ItemGroup>
-
 </Project>

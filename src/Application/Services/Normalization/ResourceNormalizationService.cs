@@ -2,14 +2,14 @@ using Application.Models.Dtos;
 using Application.Models.Enums;
 using Application.Ports;
 
-namespace Application.Services;
+namespace Application.Services.Normalization;
 
 public interface IResourceNormalizationService
 {
     Task<CategorizedResourcesDto> GetResourcesAsync(IReadOnlyCollection<ResourceCategory> neededResources, UsageSize usage, CancellationToken cancellationToken = default);
 }
 
-public class ResourceNormalizationService(ICloudPricingRepository cloudPricingRepository) : IResourceNormalizationService
+public class ResourceNormalizationService(ICloudPricingRepositoryFacade cloudPricingRepository) : IResourceNormalizationService
 {
     // Map product families and services to categories based on file structure
     // The file structure is: Data/{Category}/{SubCategory}/{provider}.json
@@ -110,38 +110,25 @@ public class ResourceNormalizationService(ICloudPricingRepository cloudPricingRe
             var categoryDto = categories[category];
 
             // Process different resource types
-            if (category == ResourceCategory.Compute && subCategory == ResourceSubCategory.VirtualMachines)
+            switch ((category, subCategory))
             {
-                categoryDto.ComputeInstances.Add(MapToComputeInstance(product));
+                case (ResourceCategory.Compute, ResourceSubCategory.VirtualMachines):
+                    categoryDto.ComputeInstances.Add(MapToComputeInstance(product));
+                    break;
+                case (ResourceCategory.Database, _):
+                    categoryDto.Databases.Add(MapToDatabase(product));
+                    break;
+                case (ResourceCategory.Networking, ResourceSubCategory.LoadBalancer):
+                    // Load balancers are handled separately with fixed pricing
+                    break;
+                case (ResourceCategory.Management, ResourceSubCategory.Monitoring):
+                    // Monitoring is handled separately with GetNormalizedMonitoring
+                    break;
+                default:
+                    // Generic resource
+                    categoryDto.Networking.Add(MapToNormalizedResource(product, category, subCategory));
+                    break;
             }
-            else if (category == ResourceCategory.Database)
-            {
-                categoryDto.Databases.Add(MapToDatabase(product));
-            }
-            else if (category == ResourceCategory.Networking && subCategory == ResourceSubCategory.LoadBalancer)
-            {
-                // Load balancers are handled separately with fixed pricing
-            }
-            else if (category == ResourceCategory.Management && subCategory == ResourceSubCategory.Monitoring)
-            {
-                // Monitoring is handled separately with GetNormalizedMonitoring
-            }
-            else
-            {
-                // Generic resource
-                categoryDto.Networking.Add(MapToNormalizedResource(product, category, subCategory));
-            }
-        }
-
-        // Add load balancers for networking category
-        if (neededResources.Contains(ResourceCategory.Networking))
-        {
-            if (!categories.ContainsKey(ResourceCategory.Networking))
-            {
-                categories[ResourceCategory.Networking] = new CategoryResourcesDto { Category = ResourceCategory.Networking };
-            }
-            
-            categories[ResourceCategory.Networking].LoadBalancers.AddRange(GetNormalizedLoadBalancers(usage));
         }
 
         // Add monitoring for management category
@@ -283,51 +270,7 @@ public class ResourceNormalizationService(ICloudPricingRepository cloudPricingRe
 
     private static decimal? GetPricePerHour(CloudPricingProductDto product)
     {
-        var price = product.Prices.FirstOrDefault(p => IsOnDemand(p.PurchaseOption))?.Usd
-                    ?? product.Prices.FirstOrDefault()?.Usd;
-        return price;
-    }
-
-    private static bool IsOnDemand(string? purchaseOption)
-    {
-        if (string.IsNullOrWhiteSpace(purchaseOption))
-            return true;
-        
-        return purchaseOption.Equals("OnDemand", StringComparison.OrdinalIgnoreCase);
-    }
-
-    private static List<NormalizedLoadBalancerDto> GetNormalizedLoadBalancers(UsageSize usage)
-    {
-        var gcpPricing = usage switch
-        {
-            UsageSize.Small => 18.41m,
-            UsageSize.Medium => 55.23m,
-            UsageSize.Large => 184.1m,
-            _ => 0m
-        };
-
-        var azurePricing = usage switch
-        {
-            UsageSize.Small => 0m,
-            UsageSize.Medium => 0m,
-            UsageSize.Large => 0m,
-            _ => 0m
-        };
-
-        var awsPricing = usage switch
-        {
-            UsageSize.Small => 16.51m,
-            UsageSize.Medium => 49.53m,
-            UsageSize.Large => 165.1m,
-            _ => 0m
-        };
-
-        return new List<NormalizedLoadBalancerDto>
-        {
-            new() { Cloud = CloudProvider.AWS, Name = "Application Load Balancer", PricePerMonth = awsPricing },
-            new() { Cloud = CloudProvider.Azure, Name = "Azure Load Balancer", PricePerMonth = azurePricing },
-            new() { Cloud = CloudProvider.GCP, Name = "Cloud Load Balancing", PricePerMonth = gcpPricing }
-        };
+        return product.Prices.FirstOrDefault()?.Usd;
     }
 
     private static List<NormalizedMonitoringDto> GetNormalizedMonitoring(UsageSize usage)

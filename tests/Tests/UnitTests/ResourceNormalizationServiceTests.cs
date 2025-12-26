@@ -1,5 +1,5 @@
 using Application.Models.Enums;
-using Application.Services;
+using Application.Services.Normalization;
 using Microsoft.AspNetCore.Mvc.Testing;
 using Microsoft.Extensions.DependencyInjection;
 
