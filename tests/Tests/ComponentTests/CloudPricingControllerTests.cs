@@ -66,6 +66,7 @@ public class CloudPricingControllerTests(WebApplicationFactory<Program> factory)
         Assert.All(result.Mappings, mapping =>
         {
             Assert.False(string.IsNullOrWhiteSpace(mapping.ProductFamily));
+            Assert.False(string.IsNullOrWhiteSpace(mapping.Service));
             Assert.NotEqual(ResourceCategory.None, mapping.Category);
             Assert.NotEqual(ResourceSubCategory.None, mapping.SubCategory);
         });
