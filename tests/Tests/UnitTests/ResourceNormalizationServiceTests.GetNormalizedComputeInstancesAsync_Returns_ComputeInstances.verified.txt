@@ -9973,12 +9973,6 @@
   },
   {
     Cloud: azure,
-    InstanceName: Premium,
-    Region: westeurope,
-    PricePerHour: 1.6666
-  },
-  {
-    Cloud: azure,
     InstanceName: Standard_D64ds_v6,
     Region: centralus,
     VCpu: 64,

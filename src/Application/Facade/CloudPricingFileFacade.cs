@@ -8,7 +8,6 @@ namespace Application.Facade;
 public interface ICloudPricingFileFacade
 {
     Task<CategorizedResourcesDto> GetCategorizedResourcesAsync(UsageSize usage, CancellationToken cancellationToken);
-    Task<ProductFamilyMappingsDto> GetProductFamilyMappingsAsync(CancellationToken cancellationToken);
 }
 
 public class CloudPricingFileFacade(IResourceNormalizationService resourceNormalizationService) : ICloudPricingFileFacade
@@ -18,10 +17,5 @@ public class CloudPricingFileFacade(IResourceNormalizationService resourceNormal
         var neededResources = Enum.GetValues<ResourceCategory>();
 
         return await resourceNormalizationService.GetResourcesAsync(neededResources, usage, cancellationToken);
-    }
-
-    public async Task<ProductFamilyMappingsDto> GetProductFamilyMappingsAsync(CancellationToken cancellationToken)
-    {
-        return await resourceNormalizationService.GetProductFamilyMappingsAsync(cancellationToken);
     }
 }

@@ -296,64 +296,6 @@ public class ResourceNormalizationServiceTests(WebApplicationFactory<Program> fa
     }
 
     [Fact]
-    public async Task GetProductFamilyMappingsAsync_Returns_All_Product_Families()
-    {
-        // Arrange
-        var service = GetService();
-
-        // Act
-        var result = await service.GetProductFamilyMappingsAsync();
-
-        // Assert
-        Assert.NotNull(result);
-        Assert.NotNull(result.Mappings);
-        Assert.NotEmpty(result.Mappings);
-
-        // Verify all mappings have required properties
-        Assert.All(result.Mappings, mapping =>
-        {
-            Assert.False(string.IsNullOrWhiteSpace(mapping.ProductFamily));
-            Assert.False(string.IsNullOrWhiteSpace(mapping.Service));
-            Assert.NotEqual(ResourceCategory.None, mapping.Category);
-            Assert.NotEqual(ResourceSubCategory.None, mapping.SubCategory);
-        });
-
-        // Verify that we have unique productFamily + service combinations
-        var uniqueCombinations = result.Mappings.Select(m => (m.ProductFamily, m.Service)).Distinct().Count();
-        Assert.Equal(result.Mappings.Count, uniqueCombinations);
-
-        await Verify(result);
-    }
-
-    [Fact]
-    public async Task GetProductFamilyMappingsAsync_Maps_Known_Product_Families_Correctly()
-    {
-        // Arrange
-        var service = GetService();
-
-        // Act
-        var result = await service.GetProductFamilyMappingsAsync();
-
-        // Assert
-        Assert.NotEmpty(result.Mappings);
-
-        // Check some specific mappings
-        var computeMapping = result.Mappings.FirstOrDefault(m => m.ProductFamily == "Compute Instance");
-        if (computeMapping != null)
-        {
-            Assert.Equal(ResourceCategory.Compute, computeMapping.Category);
-            Assert.Equal(ResourceSubCategory.VirtualMachines, computeMapping.SubCategory);
-        }
-
-        var databaseMapping = result.Mappings.FirstOrDefault(m => m.ProductFamily == "Database Instance");
-        if (databaseMapping != null)
-        {
-            Assert.Equal(ResourceCategory.Databases, databaseMapping.Category);
-            Assert.Equal(ResourceSubCategory.RelationalDatabases, databaseMapping.SubCategory);
-        }
-    }
-
-    [Fact]
     public async Task ResourceSubCategory_Uses_Correct_Integer_Ranges()
     {
         // Arrange & Act
