@@ -1,0 +1,880 @@
+{
+  "data": {
+    "products": [
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Network Load Balancing: Data Processing Charge in Americas"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "LoadBalancing"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Compute Engine",
+        "region": "us-east1",
+        "productFamily": "Network",
+        "prices": [
+          {
+            "USD": "0.008",
+            "unit": "gibibyte"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Network Load Balancing: Forwarding Rule Minimum Service Charge in Americas"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "LoadBalancing"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Compute Engine",
+        "region": "us-east1",
+        "productFamily": "Network",
+        "prices": [
+          {
+            "USD": "0.025",
+            "unit": "hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Network Load Balancing: Forwarding Rule Additional Service Charge in Americas"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "LoadBalancing"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Compute Engine",
+        "region": "us-east1",
+        "productFamily": "Network",
+        "prices": [
+          {
+            "USD": "0.01",
+            "unit": "hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Network Internal Load Balancing: Data Processing Charge in Americas"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "LoadBalancing"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Compute Engine",
+        "region": "us-east1",
+        "productFamily": "Network",
+        "prices": [
+          {
+            "USD": "0.008",
+            "unit": "gibibyte"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Networking Cloud Load Balancing HTTPS External Regional Forwarding Rule Useast1"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "LoadBalancing"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Networking",
+        "region": "us-east1",
+        "productFamily": "Network",
+        "prices": [
+          {
+            "USD": "0.025",
+            "unit": "hour"
+          },
+          {
+            "USD": "0",
+            "unit": "hour"
+          },
+          {
+            "USD": "0.01",
+            "unit": "hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Cross Regional Internal Proxy Network Load Balancer Forwarding Rule Additional for South Carolina (us-east1)"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "LoadBalancing"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Networking",
+        "region": "us-east1",
+        "productFamily": "Network",
+        "prices": [
+          {
+            "USD": "0.01",
+            "unit": "hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Regional External Proxy Network Load Balancer Forwarding Rule Additional for South Carolina (us-east1)"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "LoadBalancing"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Networking",
+        "region": "us-east1",
+        "productFamily": "Network",
+        "prices": [
+          {
+            "USD": "0.01",
+            "unit": "hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Regional External Application Load Balancer Inbound Data Processing for South Carolina (us-east1)"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "LoadBalancing"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Networking",
+        "region": "us-east1",
+        "productFamily": "Network",
+        "prices": [
+          {
+            "USD": "0.008",
+            "unit": "gibibyte"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Regional External Application Load Balancer Forwarding Rule Minimum for South Carolina (us-east1)"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "LoadBalancing"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Networking",
+        "region": "us-east1",
+        "productFamily": "Network",
+        "prices": [
+          {
+            "USD": "0.025",
+            "unit": "hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Cross Regional Internal Application Load Balancer Inbound Data Processing for South Carolina (us-east1)"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "LoadBalancing"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Networking",
+        "region": "us-east1",
+        "productFamily": "Network",
+        "prices": [
+          {
+            "USD": "0.008",
+            "unit": "gibibyte"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Global External Application Load Balancer Outbound Data Processing for South Carolina (us-east1)"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "LoadBalancing"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Networking",
+        "region": "us-east1",
+        "productFamily": "Network",
+        "prices": [
+          {
+            "USD": "0.008",
+            "unit": "gibibyte"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Regional Internal Application Load Balancer Outbound Data Processing for South Carolina (us-east1)"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "LoadBalancing"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Networking",
+        "region": "us-east1",
+        "productFamily": "Network",
+        "prices": [
+          {
+            "USD": "0.008",
+            "unit": "gibibyte"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Regional Internal Application Load Balancer Proxy Instance Charge for South Carolina (us-east1)"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "LoadBalancing"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Networking",
+        "region": "us-east1",
+        "productFamily": "Network",
+        "prices": [
+          {
+            "USD": "0.025",
+            "unit": "hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Global External Proxy Network Load Balancer Outbound Data Processing for South Carolina (us-east1)"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "LoadBalancing"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Networking",
+        "region": "us-east1",
+        "productFamily": "Network",
+        "prices": [
+          {
+            "USD": "0.008",
+            "unit": "gibibyte"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Regional External Passthrough Network Load Balancer Inbound Data Processing for South Carolina (us-east1)"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "LoadBalancing"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Networking",
+        "region": "us-east1",
+        "productFamily": "Network",
+        "prices": [
+          {
+            "USD": "0.008",
+            "unit": "gibibyte"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Cloud Load Balancer Forwarding Rule Additional for Americas (multi-region)"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "LoadBalancing"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Networking",
+        "region": "us-east1",
+        "productFamily": "Network",
+        "prices": [
+          {
+            "USD": "0.01",
+            "unit": "hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Regional External Passthrough Network Load Balancer Outbound Data Processing for South Carolina (us-east1)"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "LoadBalancing"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Networking",
+        "region": "us-east1",
+        "productFamily": "Network",
+        "prices": [
+          {
+            "USD": "0.008",
+            "unit": "gibibyte"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Regional External Proxy Network Load Balancer Outbound Data Processing for South Carolina (us-east1)"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "LoadBalancing"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Networking",
+        "region": "us-east1",
+        "productFamily": "Network",
+        "prices": [
+          {
+            "USD": "0.008",
+            "unit": "gibibyte"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Cross Regional Internal Application Load Balancer Proxy Instance Charge for South Carolina (us-east1)"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "LoadBalancing"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Networking",
+        "region": "us-east1",
+        "productFamily": "Network",
+        "prices": [
+          {
+            "USD": "0.025",
+            "unit": "hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Cross Regional Internal Proxy Network Load Balancer Inbound Data Processing for South Carolina (us-east1)"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "LoadBalancing"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Networking",
+        "region": "us-east1",
+        "productFamily": "Network",
+        "prices": [
+          {
+            "USD": "0.008",
+            "unit": "gibibyte"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Regional External Application Load Balancer Forwarding Rule Additional for South Carolina (us-east1)"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "LoadBalancing"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Networking",
+        "region": "us-east1",
+        "productFamily": "Network",
+        "prices": [
+          {
+            "USD": "0.01",
+            "unit": "hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Regional Internal Proxy Network Load Balancer Forwarding Rule Additional for South Carolina (us-east1)"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "LoadBalancing"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Networking",
+        "region": "us-east1",
+        "productFamily": "Network",
+        "prices": [
+          {
+            "USD": "0.01",
+            "unit": "hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Regional Internal Passthrough Network Load Balancer Outbound Data Processing for South Carolina (us-east1)"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "LoadBalancing"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Networking",
+        "region": "us-east1",
+        "productFamily": "Network",
+        "prices": [
+          {
+            "USD": "0.008",
+            "unit": "gibibyte"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Regional Internal Application Load Balancer Inbound Data Processing for South Carolina (us-east1)"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "LoadBalancing"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Networking",
+        "region": "us-east1",
+        "productFamily": "Network",
+        "prices": [
+          {
+            "USD": "0.008",
+            "unit": "gibibyte"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Regional Internal Proxy Network Load Balancer Forwarding Rule Minimum for South Carolina (us-east1)"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "LoadBalancing"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Networking",
+        "region": "us-east1",
+        "productFamily": "Network",
+        "prices": [
+          {
+            "USD": "0.025",
+            "unit": "hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Cross Regional Internal Proxy Network Load Balancer Forwarding Rule Minimum for South Carolina (us-east1)"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "LoadBalancing"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Networking",
+        "region": "us-east1",
+        "productFamily": "Network",
+        "prices": [
+          {
+            "USD": "0.025",
+            "unit": "hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Global External Proxy Network Load Balancer Inbound Data Processing for South Carolina (us-east1)"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "LoadBalancing"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Networking",
+        "region": "us-east1",
+        "productFamily": "Network",
+        "prices": [
+          {
+            "USD": "0.008",
+            "unit": "gibibyte"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Regional Internal Passthrough Network Load Balancer Inbound Data Processing for South Carolina (us-east1)"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "LoadBalancing"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Networking",
+        "region": "us-east1",
+        "productFamily": "Network",
+        "prices": [
+          {
+            "USD": "0.008",
+            "unit": "gibibyte"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Cross Regional Internal Application Load Balancer Outbound Data Processing for South Carolina (us-east1)"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "LoadBalancing"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Networking",
+        "region": "us-east1",
+        "productFamily": "Network",
+        "prices": [
+          {
+            "USD": "0.008",
+            "unit": "gibibyte"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Cross Regional Internal Proxy Network Load Balancer Outbound Data Processing for South Carolina (us-east1)"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "LoadBalancing"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Networking",
+        "region": "us-east1",
+        "productFamily": "Network",
+        "prices": [
+          {
+            "USD": "0.008",
+            "unit": "gibibyte"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Regional External Application Load Balancer Outbound Data Processing for South Carolina (us-east1)"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "LoadBalancing"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Networking",
+        "region": "us-east1",
+        "productFamily": "Network",
+        "prices": [
+          {
+            "USD": "0.008",
+            "unit": "gibibyte"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Global External Application Load Balancer Inbound Data Processing for South Carolina (us-east1)"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "LoadBalancing"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Networking",
+        "region": "us-east1",
+        "productFamily": "Network",
+        "prices": [
+          {
+            "USD": "0.008",
+            "unit": "gibibyte"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Networking Cloud Load Balancing HTTPS External Regional Forwarding Rule North America"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "LoadBalancing"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Networking",
+        "region": "us-east1",
+        "productFamily": "Network",
+        "prices": [
+          {
+            "USD": "0.025",
+            "unit": "hour"
+          },
+          {
+            "USD": "0",
+            "unit": "hour"
+          },
+          {
+            "USD": "0.011",
+            "unit": "hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Cloud Load Balancer Forwarding Rule Minimum for Americas (multi-region)"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "LoadBalancing"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Networking",
+        "region": "us-east1",
+        "productFamily": "Network",
+        "prices": [
+          {
+            "USD": "0.025",
+            "unit": "hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Regional External Proxy Network Load Balancer Forwarding Rule Minimum for South Carolina (us-east1)"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "LoadBalancing"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Networking",
+        "region": "us-east1",
+        "productFamily": "Network",
+        "prices": [
+          {
+            "USD": "0.025",
+            "unit": "hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Regional Internal Proxy Network Load Balancer Outbound Data Processing for South Carolina (us-east1)"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "LoadBalancing"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Networking",
+        "region": "us-east1",
+        "productFamily": "Network",
+        "prices": [
+          {
+            "USD": "0.008",
+            "unit": "gibibyte"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Regional Internal Proxy Network Load Balancer Inbound Data Processing for South Carolina (us-east1)"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "LoadBalancing"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Networking",
+        "region": "us-east1",
+        "productFamily": "Network",
+        "prices": [
+          {
+            "USD": "0.008",
+            "unit": "gibibyte"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Regional External Proxy Network Load Balancer Inbound Data Processing for South Carolina (us-east1)"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "LoadBalancing"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Networking",
+        "region": "us-east1",
+        "productFamily": "Network",
+        "prices": [
+          {
+            "USD": "0.008",
+            "unit": "gibibyte"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Networking Cloud Load Balancing HTTPS External Regional Inbound Data Processing North America"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "LoadBalancing"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Networking",
+        "region": "us-east1",
+        "productFamily": "Network",
+        "prices": [
+          {
+            "USD": "0.0081",
+            "unit": "gibibyte"
+          }
+        ]
+      }
+    ]
+  }
+}

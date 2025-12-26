@@ -1,0 +1,1364 @@
+{
+  "data": {
+    "products": [
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "c90ed474-f4e3-5f1a-af88-f7aadbecdba9"
+          },
+          {
+            "key": "skuName",
+            "value": "Standard"
+          },
+          {
+            "key": "meterName",
+            "value": "Standard Fixed Cost"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0VL2F"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH319QDM5ZN"
+          },
+          {
+            "key": "armSkuName",
+            "value": "Standard"
+          },
+          {
+            "key": "productName",
+            "value": "Application Gateway WAF v2 - Discounted"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Networking"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2025-10-01T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Application Gateway",
+        "region": "eastus",
+        "productFamily": "Networking",
+        "prices": [
+          {
+            "USD": "0.2",
+            "unit": "1/Hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "ed074374-a912-561d-aae1-b794c227f5c4"
+          },
+          {
+            "key": "skuName",
+            "value": "Standard"
+          },
+          {
+            "key": "meterName",
+            "value": "Standard AGC"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0RP9J"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH319QDM5ZN"
+          },
+          {
+            "key": "armSkuName",
+            "value": "Standard"
+          },
+          {
+            "key": "productName",
+            "value": "Application Gateway for Containers WAF"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Networking"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2025-12-01T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Application Gateway",
+        "region": "eastus",
+        "productFamily": "Networking",
+        "prices": [
+          {
+            "USD": "0.031",
+            "unit": "1 Hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "c31b2562-1c9f-4a13-9c0b-f00848068558"
+          },
+          {
+            "key": "skuName",
+            "value": "Medium"
+          },
+          {
+            "key": "meterName",
+            "value": "Medium Data Processed"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0BNXC"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH319QDM5ZN"
+          },
+          {
+            "key": "armSkuName",
+            "value": ""
+          },
+          {
+            "key": "productName",
+            "value": "Basic Application Gateway"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Networking"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2015-06-24T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Application Gateway",
+        "region": "eastus",
+        "productFamily": "Networking",
+        "prices": [
+          {
+            "USD": "0",
+            "unit": "1 GB"
+          },
+          {
+            "USD": "0.007",
+            "unit": "1 GB"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "a9654c48-5860-51ce-9525-e7b509cf5fa4"
+          },
+          {
+            "key": "skuName",
+            "value": "Standard"
+          },
+          {
+            "key": "meterName",
+            "value": "Standard AGC WAF"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0KGFZ"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH319QDM5ZN"
+          },
+          {
+            "key": "armSkuName",
+            "value": ""
+          },
+          {
+            "key": "productName",
+            "value": "Application Gateway for Containers"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Networking"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2025-08-01T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Application Gateway",
+        "region": "eastus",
+        "productFamily": "Networking",
+        "prices": [
+          {
+            "USD": "0.068",
+            "unit": "1 Hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "9cf8879d-6bf7-5ca2-af0b-1328ceb8e00c"
+          },
+          {
+            "key": "skuName",
+            "value": "Standard"
+          },
+          {
+            "key": "meterName",
+            "value": "Standard Association"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0RP9J"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH319QDM5ZN"
+          },
+          {
+            "key": "armSkuName",
+            "value": "Standard"
+          },
+          {
+            "key": "productName",
+            "value": "Application Gateway for Containers WAF"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Networking"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2025-12-01T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Application Gateway",
+        "region": "eastus",
+        "productFamily": "Networking",
+        "prices": [
+          {
+            "USD": "0.216",
+            "unit": "1 Hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "271d5647-090a-5012-af52-5d35f27b4081"
+          },
+          {
+            "key": "skuName",
+            "value": "Standard"
+          },
+          {
+            "key": "meterName",
+            "value": "Standard WAF Requests"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0KGFZ"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH319QDM5ZN"
+          },
+          {
+            "key": "armSkuName",
+            "value": ""
+          },
+          {
+            "key": "productName",
+            "value": "Application Gateway for Containers"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Networking"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2025-08-01T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Application Gateway",
+        "region": "eastus",
+        "productFamily": "Networking",
+        "prices": [
+          {
+            "USD": "0.75",
+            "unit": "1M"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "cc143740-dafd-4586-b1cf-f07c5665a1be"
+          },
+          {
+            "key": "skuName",
+            "value": "Large"
+          },
+          {
+            "key": "meterName",
+            "value": "Large Gateway"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0BNXC"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH319QDM5ZN"
+          },
+          {
+            "key": "armSkuName",
+            "value": ""
+          },
+          {
+            "key": "productName",
+            "value": "Basic Application Gateway"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Networking"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2015-06-24T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Application Gateway",
+        "region": "eastus",
+        "productFamily": "Networking",
+        "prices": [
+          {
+            "USD": "0.32",
+            "unit": "1 Hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "a9932ac3-4654-5a82-ab10-217cc4875696"
+          },
+          {
+            "key": "skuName",
+            "value": "Standard"
+          },
+          {
+            "key": "meterName",
+            "value": "Standard Capacity Units"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0KGFZ"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH319QDM5ZN"
+          },
+          {
+            "key": "armSkuName",
+            "value": ""
+          },
+          {
+            "key": "productName",
+            "value": "Application Gateway for Containers"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Networking"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2024-04-01T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Application Gateway",
+        "region": "eastus",
+        "productFamily": "Networking",
+        "prices": [
+          {
+            "USD": "0.008",
+            "unit": "1/Hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "4062934b-a0aa-40df-a9fb-dcf8e4e7043e"
+          },
+          {
+            "key": "skuName",
+            "value": "Standard"
+          },
+          {
+            "key": "meterName",
+            "value": "Standard Fixed Cost"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0BSD1"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH319QDM5ZN"
+          },
+          {
+            "key": "armSkuName",
+            "value": ""
+          },
+          {
+            "key": "productName",
+            "value": "Application Gateway Standard v2"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Networking"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2019-05-09T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Application Gateway",
+        "region": "eastus",
+        "productFamily": "Networking",
+        "prices": [
+          {
+            "USD": "0.2",
+            "unit": "1/Hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "c53957cb-e558-4d3f-bd96-c2d0d83b0b19"
+          },
+          {
+            "key": "skuName",
+            "value": "Standard"
+          },
+          {
+            "key": "meterName",
+            "value": "Standard Capacity Units"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0BSD0"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH319QDM5ZN"
+          },
+          {
+            "key": "armSkuName",
+            "value": ""
+          },
+          {
+            "key": "productName",
+            "value": "Application Gateway WAF v2"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Networking"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2019-05-09T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Application Gateway",
+        "region": "eastus",
+        "productFamily": "Networking",
+        "prices": [
+          {
+            "USD": "0.0144",
+            "unit": "1/Hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "a21a11a4-65c4-5733-93a8-f37971b1e79c"
+          },
+          {
+            "key": "skuName",
+            "value": "Standard"
+          },
+          {
+            "key": "meterName",
+            "value": "Standard AGC"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0KGFZ"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH319QDM5ZN"
+          },
+          {
+            "key": "armSkuName",
+            "value": ""
+          },
+          {
+            "key": "productName",
+            "value": "Application Gateway for Containers"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Networking"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2024-04-01T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Application Gateway",
+        "region": "eastus",
+        "productFamily": "Networking",
+        "prices": [
+          {
+            "USD": "0.017",
+            "unit": "1 Hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "19a893d2-cde0-5be8-84ac-5a2e229b4346"
+          },
+          {
+            "key": "skuName",
+            "value": "Standard"
+          },
+          {
+            "key": "meterName",
+            "value": "Standard Capacity Units"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0RP9J"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH319QDM5ZN"
+          },
+          {
+            "key": "armSkuName",
+            "value": "Standard"
+          },
+          {
+            "key": "productName",
+            "value": "Application Gateway for Containers WAF"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Networking"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2025-12-01T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Application Gateway",
+        "region": "eastus",
+        "productFamily": "Networking",
+        "prices": [
+          {
+            "USD": "0.014",
+            "unit": "1/Hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "d558c311-7f47-493d-bc8a-b8eb54bad7d1"
+          },
+          {
+            "key": "skuName",
+            "value": "Medium"
+          },
+          {
+            "key": "meterName",
+            "value": "Medium Gateway"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0BNVT"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH319QDM5ZN"
+          },
+          {
+            "key": "armSkuName",
+            "value": ""
+          },
+          {
+            "key": "productName",
+            "value": "WAF Application Gateway"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Networking"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2018-10-01T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Application Gateway",
+        "region": "eastus",
+        "productFamily": "Networking",
+        "prices": [
+          {
+            "USD": "0.126",
+            "unit": "1 Hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "6e72c174-f258-4d94-899f-94beb69d135e"
+          },
+          {
+            "key": "skuName",
+            "value": "Standard"
+          },
+          {
+            "key": "meterName",
+            "value": "Standard Capacity Units"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0BSD1"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH319QDM5ZN"
+          },
+          {
+            "key": "armSkuName",
+            "value": ""
+          },
+          {
+            "key": "productName",
+            "value": "Application Gateway Standard v2"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Networking"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2019-05-09T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Application Gateway",
+        "region": "eastus",
+        "productFamily": "Networking",
+        "prices": [
+          {
+            "USD": "0.008",
+            "unit": "1/Hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "ec4b0893-9afd-43f7-af7e-609027099243"
+          },
+          {
+            "key": "skuName",
+            "value": "Medium"
+          },
+          {
+            "key": "meterName",
+            "value": "Medium Gateway"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0BNXC"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH319QDM5ZN"
+          },
+          {
+            "key": "armSkuName",
+            "value": ""
+          },
+          {
+            "key": "productName",
+            "value": "Basic Application Gateway"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Networking"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2015-06-24T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Application Gateway",
+        "region": "eastus",
+        "productFamily": "Networking",
+        "prices": [
+          {
+            "USD": "0.07",
+            "unit": "1 Hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "856850ca-095c-5c64-b242-39ef26494ed9"
+          },
+          {
+            "key": "skuName",
+            "value": "Standard"
+          },
+          {
+            "key": "meterName",
+            "value": "Standard Frontend"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0KGFZ"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH319QDM5ZN"
+          },
+          {
+            "key": "armSkuName",
+            "value": ""
+          },
+          {
+            "key": "productName",
+            "value": "Application Gateway for Containers"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Networking"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2024-04-01T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Application Gateway",
+        "region": "eastus",
+        "productFamily": "Networking",
+        "prices": [
+          {
+            "USD": "0.01",
+            "unit": "1 Hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "91d11f2e-23a5-467f-bfd6-cb9e5080cc9f"
+          },
+          {
+            "key": "skuName",
+            "value": "Large"
+          },
+          {
+            "key": "meterName",
+            "value": "Large Gateway"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0BNVT"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH319QDM5ZN"
+          },
+          {
+            "key": "armSkuName",
+            "value": ""
+          },
+          {
+            "key": "productName",
+            "value": "WAF Application Gateway"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Networking"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2018-10-01T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Application Gateway",
+        "region": "eastus",
+        "productFamily": "Networking",
+        "prices": [
+          {
+            "USD": "0.448",
+            "unit": "1 Hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "153f1e57-2a58-4e97-94e9-1beea575e196"
+          },
+          {
+            "key": "skuName",
+            "value": "Small"
+          },
+          {
+            "key": "meterName",
+            "value": "Small Data Processed"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0BNXC"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH319QDM5ZN"
+          },
+          {
+            "key": "armSkuName",
+            "value": ""
+          },
+          {
+            "key": "productName",
+            "value": "Basic Application Gateway"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Networking"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2015-06-24T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Application Gateway",
+        "region": "eastus",
+        "productFamily": "Networking",
+        "prices": [
+          {
+            "USD": "0.008",
+            "unit": "1 GB"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "4e74b71d-4247-5173-861d-32febb15d0aa"
+          },
+          {
+            "key": "skuName",
+            "value": "Standard"
+          },
+          {
+            "key": "meterName",
+            "value": "Standard Capacity Units"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0VL2F"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH319QDM5ZN"
+          },
+          {
+            "key": "armSkuName",
+            "value": "Standard"
+          },
+          {
+            "key": "productName",
+            "value": "Application Gateway WAF v2 - Discounted"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Networking"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2025-10-01T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Application Gateway",
+        "region": "eastus",
+        "productFamily": "Networking",
+        "prices": [
+          {
+            "USD": "0.008",
+            "unit": "1/Hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "5521bc8d-3109-5c09-b226-41c16cb25002"
+          },
+          {
+            "key": "skuName",
+            "value": "Standard"
+          },
+          {
+            "key": "meterName",
+            "value": "Standard Association"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0KGFZ"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH319QDM5ZN"
+          },
+          {
+            "key": "armSkuName",
+            "value": ""
+          },
+          {
+            "key": "productName",
+            "value": "Application Gateway for Containers"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Networking"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2024-04-01T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Application Gateway",
+        "region": "eastus",
+        "productFamily": "Networking",
+        "prices": [
+          {
+            "USD": "0.12",
+            "unit": "1 Hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "acac7492-1c40-4088-bf01-40d582b85b63"
+          },
+          {
+            "key": "skuName",
+            "value": "Large"
+          },
+          {
+            "key": "meterName",
+            "value": "Large Data Processed"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0BNXC"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH319QDM5ZN"
+          },
+          {
+            "key": "armSkuName",
+            "value": ""
+          },
+          {
+            "key": "productName",
+            "value": "Basic Application Gateway"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Networking"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2015-06-24T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Application Gateway",
+        "region": "eastus",
+        "productFamily": "Networking",
+        "prices": [
+          {
+            "USD": "0",
+            "unit": "1 GB"
+          },
+          {
+            "USD": "0.0035",
+            "unit": "1 GB"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "e82437bb-3bea-5966-a5f1-5cd8f5f7663e"
+          },
+          {
+            "key": "skuName",
+            "value": "Basic"
+          },
+          {
+            "key": "meterName",
+            "value": "Basic Capacity Units"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0F7PW"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH319QDM5ZN"
+          },
+          {
+            "key": "armSkuName",
+            "value": "Basic"
+          },
+          {
+            "key": "productName",
+            "value": "Application Gateway Basic v2"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Networking"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2024-11-01T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Application Gateway",
+        "region": "eastus",
+        "productFamily": "Networking",
+        "prices": [
+          {
+            "USD": "0.008",
+            "unit": "1/Hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "67265447-f98f-5e78-8e2a-7555869a8496"
+          },
+          {
+            "key": "skuName",
+            "value": "Standard"
+          },
+          {
+            "key": "meterName",
+            "value": "Standard Captcha Sessions"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0BSD0"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH319QDM5ZN"
+          },
+          {
+            "key": "armSkuName",
+            "value": ""
+          },
+          {
+            "key": "productName",
+            "value": "Application Gateway WAF v2"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Networking"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2025-11-01T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Application Gateway",
+        "region": "eastus",
+        "productFamily": "Networking",
+        "prices": [
+          {
+            "USD": "0.4",
+            "unit": "1K"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "0b6fa8ff-c1be-5fbc-af3f-3622d39642da"
+          },
+          {
+            "key": "skuName",
+            "value": "Standard"
+          },
+          {
+            "key": "meterName",
+            "value": "Standard Frontend"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0RP9J"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH319QDM5ZN"
+          },
+          {
+            "key": "armSkuName",
+            "value": "Standard"
+          },
+          {
+            "key": "productName",
+            "value": "Application Gateway for Containers WAF"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Networking"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2025-12-01T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Application Gateway",
+        "region": "eastus",
+        "productFamily": "Networking",
+        "prices": [
+          {
+            "USD": "0.018",
+            "unit": "1 Hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "8dd72d7f-40db-535b-baba-14422fe21e55"
+          },
+          {
+            "key": "skuName",
+            "value": "Basic"
+          },
+          {
+            "key": "meterName",
+            "value": "Basic Fixed Cost"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0F7PW"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH319QDM5ZN"
+          },
+          {
+            "key": "armSkuName",
+            "value": "Basic"
+          },
+          {
+            "key": "productName",
+            "value": "Application Gateway Basic v2"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Networking"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2024-11-01T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Application Gateway",
+        "region": "eastus",
+        "productFamily": "Networking",
+        "prices": [
+          {
+            "USD": "0.0225",
+            "unit": "1/Hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "928d2f33-0737-413d-bcd6-d340f6c67250"
+          },
+          {
+            "key": "skuName",
+            "value": "Standard"
+          },
+          {
+            "key": "meterName",
+            "value": "Standard Fixed Cost"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0BSD0"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH319QDM5ZN"
+          },
+          {
+            "key": "armSkuName",
+            "value": ""
+          },
+          {
+            "key": "productName",
+            "value": "Application Gateway WAF v2"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Networking"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2019-05-09T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Application Gateway",
+        "region": "eastus",
+        "productFamily": "Networking",
+        "prices": [
+          {
+            "USD": "0.36",
+            "unit": "1/Hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "fdad599c-0589-42c4-8f8b-011e214baffa"
+          },
+          {
+            "key": "skuName",
+            "value": "Small"
+          },
+          {
+            "key": "meterName",
+            "value": "Small Gateway"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0BNXC"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH319QDM5ZN"
+          },
+          {
+            "key": "armSkuName",
+            "value": ""
+          },
+          {
+            "key": "productName",
+            "value": "Basic Application Gateway"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Networking"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2015-06-24T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Application Gateway",
+        "region": "eastus",
+        "productFamily": "Networking",
+        "prices": [
+          {
+            "USD": "0.025",
+            "unit": "1 Hour"
+          }
+        ]
+      }
+    ]
+  }
+}

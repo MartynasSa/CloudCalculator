@@ -1,0 +1,80 @@
+{
+  "data": {
+    "products": [
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "API Gateway Network Inter Region Egress North America to North America"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "InterregionEgress"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "API Gateway",
+        "region": "us-east1",
+        "productFamily": "Network",
+        "prices": [
+          {
+            "USD": "0.01",
+            "unit": "gibibyte"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "API Gateway Network Egress via Carrier Peering Network - North America Based"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "PeeringOrInterconnectEgress"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "API Gateway",
+        "region": "us-east1",
+        "productFamily": "Network",
+        "prices": [
+          {
+            "USD": "0.02",
+            "unit": "gibibyte"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "API Gateway Network Internet Egress North America to North America"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "PremiumInternetEgress"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "API Gateway",
+        "region": "us-east1",
+        "productFamily": "Network",
+        "prices": [
+          {
+            "USD": "0.06",
+            "unit": "gibibyte"
+          },
+          {
+            "USD": "0.105",
+            "unit": "gibibyte"
+          },
+          {
+            "USD": "0.08",
+            "unit": "gibibyte"
+          }
+        ]
+      }
+    ]
+  }
+}

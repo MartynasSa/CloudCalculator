@@ -1,0 +1,650 @@
+{
+  "data": {
+    "products": [
+      {
+        "attributes": [
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "RunInstances"
+          },
+          {
+            "key": "usagetype",
+            "value": "USE1-ApiGatewayCacheUsage:58.2GB"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonApiGateway"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon API Gateway"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "cacheMemorySizeGb",
+            "value": "58.2"
+          }
+        ],
+        "service": "AmazonApiGateway",
+        "productFamily": "Amazon API Gateway Cache",
+        "prices": [
+          {
+            "USD": "1",
+            "unit": "Hrs"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "RunInstances"
+          },
+          {
+            "key": "usagetype",
+            "value": "USE1-ApiGatewayCacheUsage:28.4GB"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonApiGateway"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon API Gateway"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "cacheMemorySizeGb",
+            "value": "28.4"
+          }
+        ],
+        "service": "AmazonApiGateway",
+        "productFamily": "Amazon API Gateway Cache",
+        "prices": [
+          {
+            "USD": "0.5",
+            "unit": "Hrs"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "RunInstances"
+          },
+          {
+            "key": "usagetype",
+            "value": "USE1-ApiGatewayCacheUsage:6.05GB"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonApiGateway"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon API Gateway"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "cacheMemorySizeGb",
+            "value": "6.1"
+          }
+        ],
+        "service": "AmazonApiGateway",
+        "productFamily": "Amazon API Gateway Cache",
+        "prices": [
+          {
+            "USD": "0.2",
+            "unit": "Hrs"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "RunInstances"
+          },
+          {
+            "key": "usagetype",
+            "value": "USE1-ApiGatewayCacheUsage:13.5GB"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonApiGateway"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon API Gateway"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "cacheMemorySizeGb",
+            "value": "13.5"
+          }
+        ],
+        "service": "AmazonApiGateway",
+        "productFamily": "Amazon API Gateway Cache",
+        "prices": [
+          {
+            "USD": "0.25",
+            "unit": "Hrs"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "RunInstances"
+          },
+          {
+            "key": "usagetype",
+            "value": "USE1-ApiGatewayCacheUsage:118GB"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonApiGateway"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon API Gateway"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "cacheMemorySizeGb",
+            "value": "118"
+          }
+        ],
+        "service": "AmazonApiGateway",
+        "productFamily": "Amazon API Gateway Cache",
+        "prices": [
+          {
+            "USD": "1.9",
+            "unit": "Hrs"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "RunInstances"
+          },
+          {
+            "key": "usagetype",
+            "value": "USE1-ApiGatewayCacheUsage:1.55GB"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonApiGateway"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon API Gateway"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "cacheMemorySizeGb",
+            "value": "1.6"
+          }
+        ],
+        "service": "AmazonApiGateway",
+        "productFamily": "Amazon API Gateway Cache",
+        "prices": [
+          {
+            "USD": "0.038",
+            "unit": "Hrs"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "RunInstances"
+          },
+          {
+            "key": "usagetype",
+            "value": "USE1-ApiGatewayCacheUsage:237GB"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonApiGateway"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon API Gateway"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "cacheMemorySizeGb",
+            "value": "237"
+          }
+        ],
+        "service": "AmazonApiGateway",
+        "productFamily": "Amazon API Gateway Cache",
+        "prices": [
+          {
+            "USD": "3.8",
+            "unit": "Hrs"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "RunInstances"
+          },
+          {
+            "key": "usagetype",
+            "value": "USE1-ApiGatewayCacheUsage:0.5GB"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonApiGateway"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon API Gateway"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "cacheMemorySizeGb",
+            "value": "0.5"
+          }
+        ],
+        "service": "AmazonApiGateway",
+        "productFamily": "Amazon API Gateway Cache",
+        "prices": [
+          {
+            "USD": "0.02",
+            "unit": "Hrs"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "APIGateway-Portals"
+          },
+          {
+            "key": "usagetype",
+            "value": "USE1-APIGateway-Portal-Months"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonApiGateway"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon API Gateway"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          }
+        ],
+        "service": "AmazonApiGateway",
+        "productFamily": "Amazon API Gateway Portals",
+        "prices": [
+          {
+            "USD": "125",
+            "unit": "Month"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "APIGateway-Portals"
+          },
+          {
+            "key": "usagetype",
+            "value": "USE1-APIGateway-Portal-Product-Months"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonApiGateway"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon API Gateway"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          }
+        ],
+        "service": "AmazonApiGateway",
+        "productFamily": "Amazon API Gateway Portals",
+        "prices": [
+          {
+            "USD": "12.5",
+            "unit": "Month"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "ApiGatewayRequest"
+          },
+          {
+            "key": "usagetype",
+            "value": "USE1-ApiGatewayRequest"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "description",
+            "value": "API calls received"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonApiGateway"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon API Gateway"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          }
+        ],
+        "service": "AmazonApiGateway",
+        "productFamily": "API Calls",
+        "prices": [
+          {
+            "USD": "0.0000035",
+            "unit": "Requests"
+          },
+          {
+            "USD": "0.0000028",
+            "unit": "Requests"
+          },
+          {
+            "USD": "0.00000238",
+            "unit": "Requests"
+          },
+          {
+            "USD": "0.00000151",
+            "unit": "Requests"
+          },
+          {
+            "USD": "0.0000035",
+            "unit": "USE1-AmazonApiGateway-Request"
+          },
+          {
+            "USD": "0.0000028",
+            "unit": "USE1-AmazonApiGateway-Request"
+          },
+          {
+            "USD": "0.00000238",
+            "unit": "USE1-AmazonApiGateway-Request"
+          },
+          {
+            "USD": "0.00000151",
+            "unit": "USE1-AmazonApiGateway-Request"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "ApiGatewayHttpApi"
+          },
+          {
+            "key": "usagetype",
+            "value": "USE1-ApiGatewayHttpRequest"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "description",
+            "value": "HTTP API Requests"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonApiGateway"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon API Gateway"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          }
+        ],
+        "service": "AmazonApiGateway",
+        "productFamily": "API Calls",
+        "prices": [
+          {
+            "USD": "0.000001",
+            "unit": "Requests"
+          },
+          {
+            "USD": "9e-7",
+            "unit": "Requests"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "ApiGatewayWebSocket"
+          },
+          {
+            "key": "usagetype",
+            "value": "USE1-ApiGatewayMinute"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "description",
+            "value": "WebSocket Connection Minutes"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonApiGateway"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon API Gateway"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          }
+        ],
+        "service": "AmazonApiGateway",
+        "productFamily": "WebSocket",
+        "prices": [
+          {
+            "USD": "2.5e-7",
+            "unit": "minutes"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "ApiGatewayWebSocket"
+          },
+          {
+            "key": "usagetype",
+            "value": "USE1-ApiGatewayMessage"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "description",
+            "value": "WebSocket Messages"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonApiGateway"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon API Gateway"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          }
+        ],
+        "service": "AmazonApiGateway",
+        "productFamily": "WebSocket",
+        "prices": [
+          {
+            "USD": "0.000001",
+            "unit": "Messages"
+          },
+          {
+            "USD": "8e-7",
+            "unit": "Messages"
+          }
+        ]
+      }
+    ]
+  }
+}
