@@ -119,7 +119,7 @@ public class ResourceNormalizationService(ICloudPricingRepositoryFacade cloudPri
                     categoryDto.Databases.Add(MapToDatabase(product));
                     break;
                 case (ResourceCategory.Networking, ResourceSubCategory.LoadBalancer):
-                    // Load balancers are handled separately with fixed pricing
+                    // Load balancers are handled separately with GetNormalizedLoadBalancers
                     break;
                 case (ResourceCategory.Management, ResourceSubCategory.Monitoring):
                     // Monitoring is handled separately with GetNormalizedMonitoring
@@ -129,6 +129,17 @@ public class ResourceNormalizationService(ICloudPricingRepositoryFacade cloudPri
                     categoryDto.Networking.Add(MapToNormalizedResource(product, category, subCategory));
                     break;
             }
+        }
+
+        // Add load balancers for networking category
+        if (neededResources.Contains(ResourceCategory.Networking))
+        {
+            if (!categories.ContainsKey(ResourceCategory.Networking))
+            {
+                categories[ResourceCategory.Networking] = new CategoryResourcesDto { Category = ResourceCategory.Networking };
+            }
+            
+            categories[ResourceCategory.Networking].LoadBalancers.AddRange(GetNormalizedLoadBalancers(usage));
         }
 
         // Add monitoring for management category
@@ -271,6 +282,36 @@ public class ResourceNormalizationService(ICloudPricingRepositoryFacade cloudPri
     private static decimal? GetPricePerHour(CloudPricingProductDto product)
     {
         return product.Prices.FirstOrDefault()?.Usd;
+    }
+
+    private static List<NormalizedLoadBalancerDto> GetNormalizedLoadBalancers(UsageSize usage)
+    {
+        // Load balancer pricing scales with usage size
+        var awsPricing = usage switch
+        {
+            UsageSize.Small => 16.51m,
+            UsageSize.Medium => 49.53m,
+            UsageSize.Large => 165.1m,
+            _ => 0m
+        };
+
+        // Azure Load Balancer is free
+        var azurePricing = 0m;
+
+        var gcpPricing = usage switch
+        {
+            UsageSize.Small => 18.41m,
+            UsageSize.Medium => 55.23m,
+            UsageSize.Large => 184.1m,
+            _ => 0m
+        };
+
+        return new List<NormalizedLoadBalancerDto>
+        {
+            new() { Cloud = CloudProvider.AWS,   Name = "Application Load Balancer", PricePerMonth = awsPricing },
+            new() { Cloud = CloudProvider.Azure, Name = "Azure Load Balancer",       PricePerMonth = azurePricing },
+            new() { Cloud = CloudProvider.GCP,   Name = "Cloud Load Balancing",      PricePerMonth = gcpPricing }
+        };
     }
 
     private static List<NormalizedMonitoringDto> GetNormalizedMonitoring(UsageSize usage)
