@@ -99,14 +99,14 @@ public class ResourceNormalizationService(ICloudPricingRepositoryProvider cloudP
                 case (ResourceCategory.Database, _):
                     result.Databases.Add(NormalizationMapper.MapToDatabase(product, category, subCategory));
                     break;
+                case (ResourceCategory.Networking, ResourceSubCategory.LoadBalancer):
+                    break;
                 default:
-                    result.Networking.Add(NormalizationMapper.MapToNormalizedResource(product, category, subCategory));
                     break;
             }
         }
 
         result.Monitoring.AddRange(GetNormalizedMonitoring());
-
 
         return new CategorizedResourcesDto { 
         };

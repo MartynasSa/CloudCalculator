@@ -51,7 +51,7 @@ public class ResourceNormalizationServiceTests(WebApplicationFactory<Program> fa
 
         // Act
         var categorized = await service.GetResourcesAsync();
-        var result = categorized.Databases;
+        var result = categorized.ComputeInstances;
         var awsInstances = result.Where(r => r.Cloud == CloudProvider.AWS).ToList();
 
         // Assert
