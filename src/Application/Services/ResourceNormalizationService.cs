@@ -19,7 +19,156 @@ public class ResourceNormalizationService(ICloudPricingRepository cloudPricingRe
     private const double GCP_ULTRAMEM_MEMORY_RATIO = 25.0;
     private const double GCP_STANDARD_MEMORY_RATIO = 4.0;
 
-    private static readonly Dictionary<string, (ResourceCategory Category, ResourceSubCategory SubCategory)> ProductFamilyMap =
+    // Mapping based on productFamily and service combination
+    private static readonly Dictionary<(string ProductFamily, string Service), (ResourceCategory Category, ResourceSubCategory SubCategory)> ProductFamilyServiceMap =
+        new()
+        {
+            // Compute - Virtual Machines
+            [("Compute", "Virtual Machines")] = (ResourceCategory.Compute, ResourceSubCategory.VirtualMachines),
+            [("Compute", "Compute Engine")] = (ResourceCategory.Compute, ResourceSubCategory.VirtualMachines),
+            [("Compute Instance", "AmazonEC2")] = (ResourceCategory.Compute, ResourceSubCategory.VirtualMachines),
+            [("Compute Instance", "AWSOutposts")] = (ResourceCategory.Compute, ResourceSubCategory.VirtualMachines),
+            [("Compute Instance", "AmazonDeadline")] = (ResourceCategory.Compute, ResourceSubCategory.VirtualMachines),
+            [("Compute Instance", "Compute Engine")] = (ResourceCategory.Compute, ResourceSubCategory.VirtualMachines),
+            
+            // Compute - Bare Metal
+            [("Compute Instance (bare metal)", "AmazonEC2")] = (ResourceCategory.Compute, ResourceSubCategory.BareMetalServers),
+            
+            // Compute - Dedicated Hosts
+            [("Dedicated Host", "AmazonEC2")] = (ResourceCategory.Compute, ResourceSubCategory.DedicatedHosts),
+            
+            // Compute - Containers
+            [("Compute", "Azure Kubernetes Service")] = (ResourceCategory.Compute, ResourceSubCategory.Containers),
+            [("Compute", "Azure Container Apps")] = (ResourceCategory.Compute, ResourceSubCategory.Containers),
+            [("Containers", "Container Registry")] = (ResourceCategory.Compute, ResourceSubCategory.Containers),
+            [("Compute", "Azure App Service")] = (ResourceCategory.Compute, ResourceSubCategory.Containers),
+            [("Compute", "Cloud Services")] = (ResourceCategory.Compute, ResourceSubCategory.Containers),
+            
+            // Compute - Other
+            [("Compute", "Azure Local")] = (ResourceCategory.Compute, ResourceSubCategory.VirtualMachines),
+            [("Compute", "Azure Modeling and Simulation Workbench")] = (ResourceCategory.Compute, ResourceSubCategory.VirtualMachines),
+            [("Compute", "Specialized Compute")] = (ResourceCategory.Compute, ResourceSubCategory.VirtualMachines),
+            [("Compute", "Virtual Machines Licenses")] = (ResourceCategory.Licensing, ResourceSubCategory.SoftwareLicenses),
+            
+            // Databases - Relational
+            [("Databases", "Azure Database for PostgreSQL")] = (ResourceCategory.Databases, ResourceSubCategory.RelationalDatabases),
+            [("Databases", "Azure Database for MySQL")] = (ResourceCategory.Databases, ResourceSubCategory.RelationalDatabases),
+            [("Databases", "Azure Database for MariaDB")] = (ResourceCategory.Databases, ResourceSubCategory.RelationalDatabases),
+            [("Databases", "SQL Database")] = (ResourceCategory.Databases, ResourceSubCategory.RelationalDatabases),
+            [("Databases", "SQL Managed Instance")] = (ResourceCategory.Databases, ResourceSubCategory.RelationalDatabases),
+            [("Databases", "Azure Cosmos DB")] = (ResourceCategory.Databases, ResourceSubCategory.RelationalDatabases),
+            [("Databases", "Azure Managed Instance for Apache Cassandra")] = (ResourceCategory.Databases, ResourceSubCategory.RelationalDatabases),
+            [("Databases", "Redis Cache")] = (ResourceCategory.Databases, ResourceSubCategory.RelationalDatabases),
+            [("Databases", "SQL Data Warehouse")] = (ResourceCategory.Databases, ResourceSubCategory.RelationalDatabases),
+            [("Databases", "Azure Arc Enabled Databases")] = (ResourceCategory.Databases, ResourceSubCategory.RelationalDatabases),
+            [("Databases", "Azure Database Migration Service")] = (ResourceCategory.Databases, ResourceSubCategory.RelationalDatabases),
+            [("Database Instance", "AmazonRDS")] = (ResourceCategory.Databases, ResourceSubCategory.RelationalDatabases),
+            
+            // Databases - Storage
+            [("Database Storage", "AmazonRDS")] = (ResourceCategory.Databases, ResourceSubCategory.DatabaseStorage),
+            
+            // Storage
+            [("Storage", "AmazonS3")] = (ResourceCategory.Storage, ResourceSubCategory.BlockStorage),
+            [("Storage", "Cloud Storage")] = (ResourceCategory.Storage, ResourceSubCategory.BlockStorage),
+            [("Storage", "Compute Engine")] = (ResourceCategory.Storage, ResourceSubCategory.BlockStorage),
+            [("Storage", "Storage")] = (ResourceCategory.Storage, ResourceSubCategory.BlockStorage),
+            [("Storage", "Azure NetApp Files")] = (ResourceCategory.Storage, ResourceSubCategory.BlockStorage),
+            [("Storage", "Backup")] = (ResourceCategory.Storage, ResourceSubCategory.BlockStorage),
+            [("Provisioned IOPS", "AmazonRDS")] = (ResourceCategory.Storage, ResourceSubCategory.PerformanceStorage),
+            [("Provisioned Throughput", "AmazonRDS")] = (ResourceCategory.Storage, ResourceSubCategory.PerformanceStorage),
+            
+            // Networking
+            [("Network", "Cloud SQL")] = (ResourceCategory.Networking, ResourceSubCategory.NetworkServices),
+            [("Network", "Cloud Storage")] = (ResourceCategory.Networking, ResourceSubCategory.NetworkServices),
+            [("Network", "Compute Engine")] = (ResourceCategory.Networking, ResourceSubCategory.NetworkServices),
+            [("Network", "Firebase Realtime Database")] = (ResourceCategory.Networking, ResourceSubCategory.NetworkServices),
+            [("Networking", "Application Gateway")] = (ResourceCategory.Networking, ResourceSubCategory.NetworkServices),
+            [("Networking", "Azure Bastion")] = (ResourceCategory.Networking, ResourceSubCategory.NetworkServices),
+            [("Networking", "Azure Firewall")] = (ResourceCategory.Networking, ResourceSubCategory.NetworkServices),
+            [("Networking", "Bandwidth")] = (ResourceCategory.Networking, ResourceSubCategory.NetworkServices),
+            [("Networking", "Content Delivery Network")] = (ResourceCategory.Networking, ResourceSubCategory.NetworkServices),
+            [("Networking", "ExpressRoute")] = (ResourceCategory.Networking, ResourceSubCategory.NetworkServices),
+            [("Networking", "VPN Gateway")] = (ResourceCategory.Networking, ResourceSubCategory.NetworkServices),
+            [("Networking", "Virtual Network")] = (ResourceCategory.Networking, ResourceSubCategory.NetworkServices),
+            [("IP Address", "AmazonEC2")] = (ResourceCategory.Networking, ResourceSubCategory.IPAddresses),
+            
+            // Analytics
+            [("Analytics", "Azure Data Factory v2")] = (ResourceCategory.Analytics, ResourceSubCategory.DataAnalytics),
+            [("Analytics", "Azure Data Share")] = (ResourceCategory.Analytics, ResourceSubCategory.DataAnalytics),
+            [("Analytics", "Azure Databricks")] = (ResourceCategory.Analytics, ResourceSubCategory.DataAnalytics),
+            [("Analytics", "Azure Synapse Analytics")] = (ResourceCategory.Analytics, ResourceSubCategory.DataAnalytics),
+            [("Analytics", "HDInsight")] = (ResourceCategory.Analytics, ResourceSubCategory.DataAnalytics),
+            [("Analytics", "Power BI Embedded")] = (ResourceCategory.Analytics, ResourceSubCategory.DataAnalytics),
+            [("AWS Lake Formation", "AWSLakeFormation")] = (ResourceCategory.Analytics, ResourceSubCategory.DataLakes),
+            
+            // AI
+            [("AI + Machine Learning", "Cognitive Services")] = (ResourceCategory.AI, ResourceSubCategory.MachineLearning),
+            [("AI + Machine Learning", "Foundry Models")] = (ResourceCategory.AI, ResourceSubCategory.MachineLearning),
+            [("AI + Machine Learning", "Foundry Tools")] = (ResourceCategory.AI, ResourceSubCategory.MachineLearning),
+            
+            // Security
+            [("Security", "Key Vault")] = (ResourceCategory.Security, ResourceSubCategory.SecurityServices),
+            [("Security", "Microsoft Defender for Cloud")] = (ResourceCategory.Security, ResourceSubCategory.SecurityServices),
+            [("Amazon Inspector", "AmazonInspectorV2")] = (ResourceCategory.Security, ResourceSubCategory.VulnerabilityScanning),
+            [("Web Application Firewall", "awswaf")] = (ResourceCategory.Security, ResourceSubCategory.WebApplicationFirewall),
+            
+            // Application Services
+            [("ApplicationServices", "Cloud SQL")] = (ResourceCategory.ApplicationServices, ResourceSubCategory.ManagedServices),
+            [("ApplicationServices", "Cloud Workstations")] = (ResourceCategory.ApplicationServices, ResourceSubCategory.ManagedServices),
+            [("ApplicationServices", "Collibra collibra-data-intelligence-cloud-gcp")] = (ResourceCategory.ApplicationServices, ResourceSubCategory.ManagedServices),
+            [("ApplicationServices", "Firebase Phone Number Verification")] = (ResourceCategory.ApplicationServices, ResourceSubCategory.ManagedServices),
+            [("ApplicationServices", "Firebase Test Lab")] = (ResourceCategory.ApplicationServices, ResourceSubCategory.ManagedServices),
+            [("ApplicationServices", "FortiGate Next-Generation Firewall (PAYG)")] = (ResourceCategory.ApplicationServices, ResourceSubCategory.ManagedServices),
+            [("ApplicationServices", "Fortinet FortiADC Application Delivery Controller PAYG 10Gbps")] = (ResourceCategory.ApplicationServices, ResourceSubCategory.ManagedServices),
+            [("ApplicationServices", "Fortinet FortiWeb Web Application Firewall WAF (BYOL)")] = (ResourceCategory.ApplicationServices, ResourceSubCategory.ManagedServices),
+            [("ApplicationServices", "Gemini API")] = (ResourceCategory.ApplicationServices, ResourceSubCategory.ManagedServices),
+            [("AmazonConnect", "AmazonConnect")] = (ResourceCategory.ApplicationServices, ResourceSubCategory.ContactCenter),
+            [("Azure Communication Services", "Messaging")] = (ResourceCategory.ApplicationServices, ResourceSubCategory.CommunicationServices),
+            [("Azure Communication Services", "Phone Numbers")] = (ResourceCategory.ApplicationServices, ResourceSubCategory.CommunicationServices),
+            [("Azure Communication Services", "SMS")] = (ResourceCategory.ApplicationServices, ResourceSubCategory.CommunicationServices),
+            [("Azure Communication Services", "Voice")] = (ResourceCategory.ApplicationServices, ResourceSubCategory.CommunicationServices),
+            
+            // Management
+            [("Management and Governance", "Application Insights")] = (ResourceCategory.Management, ResourceSubCategory.CloudManagement),
+            [("Management and Governance", "Azure Monitor")] = (ResourceCategory.Management, ResourceSubCategory.CloudManagement),
+            [("Management and Governance", "Azure Site Recovery")] = (ResourceCategory.Management, ResourceSubCategory.CloudManagement),
+            [("Management and Governance", "Sentinel")] = (ResourceCategory.Management, ResourceSubCategory.CloudManagement),
+            [("System Operation", "AmazonEC2")] = (ResourceCategory.Management, ResourceSubCategory.Operations),
+            
+            // Developer Tools
+            [("Developer Tools", "API Management")] = (ResourceCategory.DeveloperTools, ResourceSubCategory.Development),
+            [("Developer Tools", "Microsoft Dev Box")] = (ResourceCategory.DeveloperTools, ResourceSubCategory.Development),
+            
+            // IoT
+            [("Internet of Things", "Azure Maps")] = (ResourceCategory.IoT, ResourceSubCategory.IoTServices),
+            [("Internet of Things", "Event Hubs")] = (ResourceCategory.IoT, ResourceSubCategory.IoTServices),
+            [("Internet of Things", "IoT Central")] = (ResourceCategory.IoT, ResourceSubCategory.IoTServices),
+            
+            // Data
+            [("Data", "Microsoft Fabric")] = (ResourceCategory.Data, ResourceSubCategory.DataServices),
+            
+            // Integration
+            [("Integration", "Service Bus")] = (ResourceCategory.Integration, ResourceSubCategory.IntegrationServices),
+            [("AWS Transfer Family", "AWSTransfer")] = (ResourceCategory.Integration, ResourceSubCategory.FileTransfer),
+            
+            // Web
+            [("Web", "Azure Cognitive Search")] = (ResourceCategory.Web, ResourceSubCategory.WebServices),
+            [("Web", "Media Services")] = (ResourceCategory.Web, ResourceSubCategory.WebServices),
+            
+            // Enterprise Applications
+            [("Enterprise Applications", "AmazonWorkSpaces")] = (ResourceCategory.EnterpriseApplications, ResourceSubCategory.BusinessApplications),
+            [("Microsoft Syntex", "Syntex")] = (ResourceCategory.EnterpriseApplications, ResourceSubCategory.ContentServices),
+            
+            // Licensing
+            [("License", "Compute Engine")] = (ResourceCategory.Licensing, ResourceSubCategory.SoftwareLicenses),
+            
+            // Other
+            [("Other", "Azure API for FHIR")] = (ResourceCategory.Other, ResourceSubCategory.Uncategorized),
+            [("Other", "Azure Spring Cloud")] = (ResourceCategory.Other, ResourceSubCategory.Uncategorized)
+        };
+
+    // Fallback mapping based on productFamily only (for backward compatibility and unmapped combinations)
+    private static readonly Dictionary<string, (ResourceCategory Category, ResourceSubCategory SubCategory)> ProductFamilyFallbackMap =
         new(StringComparer.OrdinalIgnoreCase)
         {
             ["Compute"] = (ResourceCategory.Compute, ResourceSubCategory.VirtualMachines),
@@ -89,7 +238,7 @@ public class ResourceNormalizationService(ICloudPricingRepository cloudPricingRe
             if (string.IsNullOrWhiteSpace(product.ProductFamily))
                 continue;
 
-            var (category, subCategory) = MapProductFamilyToCategoryAndSubCategory(product.ProductFamily);
+            var (category, subCategory) = MapProductFamilyToCategoryAndSubCategory(product.ProductFamily, product.Service);
 
             // Override category for GCP Cloud SQL - treat it as a database
             if (product.VendorName == CloudProvider.GCP && product.Service == "Cloud SQL")
@@ -202,21 +351,25 @@ public class ResourceNormalizationService(ICloudPricingRepository cloudPricingRe
     {
         var data = await cloudPricingRepository.GetAllAsync(cancellationToken);
 
-        var processedFamilies = new HashSet<string>(StringComparer.OrdinalIgnoreCase);
+        var processedCombinations = new HashSet<(string ProductFamily, string Service)>();
         var mappings = new List<ProductFamilyMappingDto>();
 
         foreach (var product in data.Data.Products)
         {
             var family = product.ProductFamily;
-            if (string.IsNullOrWhiteSpace(family))
+            var service = product.Service;
+            
+            if (string.IsNullOrWhiteSpace(family) || string.IsNullOrWhiteSpace(service))
                 continue;
 
-            if (processedFamilies.Add(family))
+            var key = (family, service);
+            if (processedCombinations.Add(key))
             {
-                var (category, subCategory) = MapProductFamilyToCategoryAndSubCategory(family);
+                var (category, subCategory) = MapProductFamilyToCategoryAndSubCategory(family, service);
                 mappings.Add(new ProductFamilyMappingDto
                 {
                     ProductFamily = family,
+                    Service = service,
                     Category = category,
                     SubCategory = subCategory
                 });
@@ -228,6 +381,8 @@ public class ResourceNormalizationService(ICloudPricingRepository cloudPricingRe
             Mappings = mappings
                 .OrderBy(m => m.Category)
                 .ThenBy(m => m.SubCategory)
+                .ThenBy(m => m.ProductFamily)
+                .ThenBy(m => m.Service)
                 .ToList()
         };
     }
@@ -265,11 +420,23 @@ public class ResourceNormalizationService(ICloudPricingRepository cloudPricingRe
         };
     }
 
-    private static (ResourceCategory Category, ResourceSubCategory SubCategory) MapProductFamilyToCategoryAndSubCategory(string productFamily)
+    private static (ResourceCategory Category, ResourceSubCategory SubCategory) MapProductFamilyToCategoryAndSubCategory(string productFamily, string? service)
     {
-        return ProductFamilyMap.TryGetValue(productFamily, out var mapping)
-            ? mapping
-            : (ResourceCategory.Other, ResourceSubCategory.Uncategorized);
+        // Try to find mapping using both productFamily and service
+        if (!string.IsNullOrWhiteSpace(service) && 
+            ProductFamilyServiceMap.TryGetValue((productFamily, service), out var exactMapping))
+        {
+            return exactMapping;
+        }
+
+        // Fall back to productFamily-only mapping
+        if (ProductFamilyFallbackMap.TryGetValue(productFamily, out var fallbackMapping))
+        {
+            return fallbackMapping;
+        }
+
+        // Default to Other/Uncategorized if no mapping found
+        return (ResourceCategory.Other, ResourceSubCategory.Uncategorized);
     }
 
     private static string? GetInstanceName(CloudPricingProductDto product)

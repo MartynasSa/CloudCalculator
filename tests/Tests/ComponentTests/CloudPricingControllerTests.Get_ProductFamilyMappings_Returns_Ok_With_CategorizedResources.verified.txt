@@ -8097,12 +8097,6 @@
         },
         {
           Cloud: azure,
-          InstanceName: 32 vCPU,
-          Region: unknown,
-          PricePerHour: 3.2
-        },
-        {
-          Cloud: azure,
           InstanceName: Standard_F32as_v7,
           Region: israelnorthwest,
           PricePerHour: 0.576576
@@ -9522,12 +9516,6 @@
           VCpu: 8,
           Memory: 64 GB,
           PricePerHour: 0.0572
-        },
-        {
-          Cloud: azure,
-          InstanceName: Standard VM,
-          Region: unknown,
-          PricePerHour: 500.0
         },
         {
           Cloud: azure,
@@ -27934,6 +27922,48 @@
       Category: Licensing,
       Licensing: [
         {
+          Cloud: azure,
+          Service: Virtual Machines Licenses,
+          Region: unknown,
+          Category: Licensing,
+          SubCategory: SoftwareLicenses,
+          ProductFamily: Compute,
+          ResourceName: 32 vCPU,
+          PricePerHour: 3.2,
+          Attributes: {
+            armSkuName: 32 vCPU,
+            effectiveStartDate: DateTimeOffset_56,
+            meterId: Guid_309,
+            meterName: 32 vCPU License,
+            productId: DZH318Z0D8KM,
+            productName: SQL Server Standard - Analysis Services,
+            serviceFamily: Compute,
+            serviceId: DZH317WPTGV0,
+            skuName: 32 vCPU
+          }
+        },
+        {
+          Cloud: azure,
+          Service: Virtual Machines Licenses,
+          Region: unknown,
+          Category: Licensing,
+          SubCategory: SoftwareLicenses,
+          ProductFamily: Compute,
+          ResourceName: Standard VM,
+          PricePerHour: 500.0,
+          Attributes: {
+            armSkuName: ,
+            effectiveStartDate: DateTimeOffset_106,
+            meterId: Guid_310,
+            meterName: Standard VM Support Minimum Fee,
+            productId: DZH318Z0BJVR,
+            productName: Ubuntu Advantage,
+            serviceFamily: Compute,
+            serviceId: DZH317WPTGV0,
+            skuName: Standard VM
+          }
+        },
+        {
           Cloud: gcp,
           Service: Compute Engine,
           Region: global,
@@ -28216,7 +28246,7 @@
           Attributes: {
             armSkuName: ,
             effectiveStartDate: DateTimeOffset_88,
-            meterId: Guid_309,
+            meterId: Guid_311,
             meterName: Export Streaming,
             productId: DZH318Z094ML,
             productName: Azure Health Data Services,
@@ -28237,7 +28267,7 @@
           Attributes: {
             armSkuName: Standard Consumption,
             effectiveStartDate: DateTimeOffset_88,
-            meterId: Guid_310,
+            meterId: Guid_312,
             meterName: Standard Consumption Memory Active Usage,
             productId: DZH318Z0CGV9,
             productName: Azure Spring Apps,
@@ -28258,7 +28288,7 @@
           Attributes: {
             armSkuName: Standard Consumption,
             effectiveStartDate: DateTimeOffset_88,
-            meterId: Guid_311,
+            meterId: Guid_313,
             meterName: Standard Consumption Memory Idle Usage,
             productId: DZH318Z0CGV9,
             productName: Azure Spring Apps,
@@ -28279,7 +28309,7 @@
           Attributes: {
             armSkuName: ,
             effectiveStartDate: DateTimeOffset_60,
-            meterId: Guid_312,
+            meterId: Guid_314,
             meterName: Free - Transcode DICOM,
             productId: DZH318Z094ML,
             productName: Azure Health Data Services,

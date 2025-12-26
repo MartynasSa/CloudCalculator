@@ -8093,12 +8093,6 @@
   },
   {
     Cloud: azure,
-    InstanceName: 32 vCPU,
-    Region: unknown,
-    PricePerHour: 3.2
-  },
-  {
-    Cloud: azure,
     InstanceName: Standard_F32as_v7,
     Region: israelnorthwest,
     PricePerHour: 0.576576
@@ -9518,12 +9512,6 @@
     VCpu: 8,
     Memory: 64 GB,
     PricePerHour: 0.0572
-  },
-  {
-    Cloud: azure,
-    InstanceName: Standard VM,
-    Region: unknown,
-    PricePerHour: 500.0
   },
   {
     Cloud: azure,
