@@ -1,9 +1,0 @@
-﻿{
-  aws: {
-    InstanceName: db.m5.large,
-    CpuCores: 2.0,
-    Memory: 8.0,
-    DatabaseEngine: MySQL (on-premise for Outpost),
-    PricePerMonth: 54.750
-  }
-}
