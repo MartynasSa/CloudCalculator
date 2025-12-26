@@ -266,13 +266,11 @@ public class TemplateFacadeTests(WebApplicationFactory<Program> factory) : TestB
             .Except(implementedSubCategories)
             .ToList();
 
-        Assert.Empty(missingImplementations);
-        
-        if (missingImplementations.Any())
-        {
-            var missingNames = string.Join(", ", missingImplementations.Select(sc => sc.ToString()));
-            Assert.Fail($"The following ResourceSubCategory enums do not have calculation logic implemented: {missingNames}. " +
-                       "Please add calculation methods in TemplateFacade.CalculateSubCategoryCostAsync and update this test.");
-        }
+        // Assert.Empty will throw if there are missing implementations
+        // Provide a helpful message in the assertion
+        Assert.True(
+            missingImplementations.Count == 0,
+            $"The following ResourceSubCategory enums do not have calculation logic implemented: {string.Join(", ", missingImplementations)}. " +
+            "Please add calculation methods in TemplateFacade.CalculateSubCategoryCostAsync and update this test.");
     }
 }

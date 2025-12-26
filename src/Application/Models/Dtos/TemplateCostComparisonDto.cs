@@ -32,7 +32,9 @@ public class CostBreakdownDto
     public decimal? KubernetesCost { get; set; }
     public decimal? ContainerInstancesCost { get; set; }
     public decimal? CachingCost { get; set; }
+    public decimal? VpnGatewayCost { get; set; }
     public decimal? ApiGatewayCost { get; set; }
+    public decimal? DnsCost { get; set; }
     public decimal? CdnCost { get; set; }
     public decimal? DataWarehouseCost { get; set; }
     public decimal? StreamingCost { get; set; }

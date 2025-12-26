@@ -554,8 +554,14 @@ public class TemplateFacade(IResourceNormalizationService resourceNormalizationS
             case ResourceSubCategory.Caching:
                 breakdown.CachingCost = (breakdown.CachingCost ?? 0) + cost;
                 break;
+            case ResourceSubCategory.VpnGateway:
+                breakdown.VpnGatewayCost = (breakdown.VpnGatewayCost ?? 0) + cost;
+                break;
             case ResourceSubCategory.ApiGateway:
                 breakdown.ApiGatewayCost = (breakdown.ApiGatewayCost ?? 0) + cost;
+                break;
+            case ResourceSubCategory.Dns:
+                breakdown.DnsCost = (breakdown.DnsCost ?? 0) + cost;
                 break;
             case ResourceSubCategory.CDN:
                 breakdown.CdnCost = (breakdown.CdnCost ?? 0) + cost;
