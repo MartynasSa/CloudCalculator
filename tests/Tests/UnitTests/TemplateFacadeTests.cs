@@ -209,4 +209,70 @@ public class TemplateFacadeTests(WebApplicationFactory<Program> factory) : TestB
             Assert.False(cloudCost.Breakdown.MonitoringCost.HasValue);
         });
     }
+
+    [Fact]
+    public void AllResourceSubCategoryEnumsHaveCalculationLogic()
+    {
+        // This test ensures that when a new ResourceSubCategory is added,
+        // a developer must also implement calculation logic for it.
+        // If this test fails, it means you added a new ResourceSubCategory
+        // without implementing the corresponding calculation method.
+        
+        var allSubCategories = Enum.GetValues<ResourceSubCategory>()
+            .Where(sc => sc != ResourceSubCategory.Unknown && sc != ResourceSubCategory.Uncategorized)
+            .ToList();
+
+        var implementedSubCategories = new List<ResourceSubCategory>
+        {
+            // Compute (100-199)
+            ResourceSubCategory.VirtualMachines,
+            ResourceSubCategory.CloudFunctions,
+            ResourceSubCategory.Kubernetes,
+            ResourceSubCategory.ContainerInstances,
+
+            // Database (200-299)
+            ResourceSubCategory.Relational,
+            ResourceSubCategory.NoSQL,
+            ResourceSubCategory.DatabaseStorage,
+            ResourceSubCategory.Caching,
+
+            // Storage (300-399)
+            ResourceSubCategory.ObjectStorage,
+            ResourceSubCategory.BlobStorage,
+            ResourceSubCategory.FileStorage,
+            ResourceSubCategory.Backup,
+
+            // Networking (400-499)
+            ResourceSubCategory.VpnGateway,
+            ResourceSubCategory.LoadBalancer,
+            ResourceSubCategory.ApiGateway,
+            ResourceSubCategory.Dns,
+            ResourceSubCategory.CDN,
+
+            // Analytics (500-599)
+            ResourceSubCategory.DataWarehouse,
+            ResourceSubCategory.Streaming,
+            ResourceSubCategory.MachineLearning,
+
+            // Management & Security (600-699)
+            ResourceSubCategory.Queueing,
+            ResourceSubCategory.Messaging,
+            ResourceSubCategory.Secrets,
+            ResourceSubCategory.Compliance,
+            ResourceSubCategory.Monitoring,
+        };
+
+        var missingImplementations = allSubCategories
+            .Except(implementedSubCategories)
+            .ToList();
+
+        Assert.Empty(missingImplementations);
+        
+        if (missingImplementations.Any())
+        {
+            var missingNames = string.Join(", ", missingImplementations.Select(sc => sc.ToString()));
+            Assert.Fail($"The following ResourceSubCategory enums do not have calculation logic implemented: {missingNames}. " +
+                       "Please add calculation methods in TemplateFacade.CalculateSubCategoryCostAsync and update this test.");
+        }
+    }
 }
