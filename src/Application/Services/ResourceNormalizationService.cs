@@ -41,12 +41,12 @@ public class ResourceNormalizationService(ICloudPricingRepository cloudPricingRe
         new()
         {
             // Compute
-            { ("Virtual Machines", "Virtual Machines"), (ResourceCategory.Compute, ResourceSubCategory.VirtualMachines) },
+            { ("Compute", "Virtual Machines"), (ResourceCategory.Compute, ResourceSubCategory.VirtualMachines) },
             { ("Serverless", "Azure Functions"), (ResourceCategory.Compute, ResourceSubCategory.CloudFunctions) },
             { ("Compute", "Azure Kubernetes Service"), (ResourceCategory.Compute, ResourceSubCategory.Kubernetes) },
             
             // Databases
-            { ("Databases", "Azure SQL Database"), (ResourceCategory.Databases, ResourceSubCategory.RelationalDatabases) },
+            { ("Databases", "SQL Database"), (ResourceCategory.Databases, ResourceSubCategory.RelationalDatabases) },
             { ("Databases", "Azure Cosmos DB"), (ResourceCategory.Databases, ResourceSubCategory.NoSQL) },
             
             // Network
@@ -67,8 +67,8 @@ public class ResourceNormalizationService(ICloudPricingRepository cloudPricingRe
             { ("Compute", "Google Kubernetes Engine"), (ResourceCategory.Compute, ResourceSubCategory.Kubernetes) },
             
             // Databases
-            { ("Databases", "Cloud SQL"), (ResourceCategory.Databases, ResourceSubCategory.RelationalDatabases) },
-            { ("Databases", "Cloud Firestore"), (ResourceCategory.Databases, ResourceSubCategory.NoSQL) },
+            { ("ApplicationServices", "Cloud SQL"), (ResourceCategory.Databases, ResourceSubCategory.RelationalDatabases) },
+            { ("Storage", "Firebase Realtime Database"), (ResourceCategory.Databases, ResourceSubCategory.NoSQL) },
             
             // Network
             { ("Networking", "Cloud Load Balancing"), (ResourceCategory.Networking, ResourceSubCategory.LoadBalancer) },
@@ -192,18 +192,33 @@ public class ResourceNormalizationService(ICloudPricingRepository cloudPricingRe
     {
         var instanceName = product.Attributes.FirstOrDefault(a => a.Key == "instanceType")?.Value
                           ?? product.Attributes.FirstOrDefault(a => a.Key == "vmSize")?.Value
-                          ?? "Unknown";
+                          ?? product.Attributes.FirstOrDefault(a => a.Key == "armSkuName")?.Value
+                          ?? product.Attributes.FirstOrDefault(a => a.Key == "skuName")?.Value
+                          ?? product.Attributes.FirstOrDefault(a => a.Key == "machineType")?.Value
+                          ?? product.Attributes.FirstOrDefault(a => a.Key == "meterName")?.Value;
         
-        var vcpu = product.Attributes.FirstOrDefault(a => a.Key == "vcpu")?.Value;
-        var memory = product.Attributes.FirstOrDefault(a => a.Key == "memory")?.Value;
+        // Fallback to "Unknown" if still empty
+        if (string.IsNullOrWhiteSpace(instanceName))
+        {
+            instanceName = "Unknown";
+        }
+        
+        var vcpuStr = product.Attributes.FirstOrDefault(a => a.Key == "vcpu")?.Value
+                     ?? product.Attributes.FirstOrDefault(a => a.Key == "numberOfCores")?.Value
+                     ?? product.Attributes.FirstOrDefault(a => a.Key == "vCpusAvailable")?.Value
+                     ?? product.Attributes.FirstOrDefault(a => a.Key == "vCPUs")?.Value;
+        
+        var memory = product.Attributes.FirstOrDefault(a => a.Key == "memory")?.Value
+                    ?? product.Attributes.FirstOrDefault(a => a.Key == "memoryInGB")?.Value
+                    ?? product.Attributes.FirstOrDefault(a => a.Key == "memoryGb")?.Value;
 
         return new NormalizedComputeInstanceDto
         {
             Cloud = product.VendorName,
             InstanceName = instanceName,
             Region = product.Region,
-            VCpu = int.TryParse(vcpu, out var cpu) ? cpu : null,
-            Memory = memory,
+            VCpu = int.TryParse(vcpuStr, out var cpu) ? cpu : null,
+            Memory = !string.IsNullOrWhiteSpace(memory) ? memory : null,
             PricePerHour = GetPricePerHour(product)
         };
     }
@@ -212,12 +227,29 @@ public class ResourceNormalizationService(ICloudPricingRepository cloudPricingRe
     {
         var instanceName = product.Attributes.FirstOrDefault(a => a.Key == "instanceType")?.Value
                           ?? product.Attributes.FirstOrDefault(a => a.Key == "databaseEngine")?.Value
-                          ?? "Unknown";
+                          ?? product.Attributes.FirstOrDefault(a => a.Key == "armSkuName")?.Value
+                          ?? product.Attributes.FirstOrDefault(a => a.Key == "skuName")?.Value
+                          ?? product.Attributes.FirstOrDefault(a => a.Key == "machineType")?.Value
+                          ?? product.Attributes.FirstOrDefault(a => a.Key == "meterName")?.Value;
         
-        var vcpu = product.Attributes.FirstOrDefault(a => a.Key == "vcpu")?.Value;
-        var memory = product.Attributes.FirstOrDefault(a => a.Key == "memory")?.Value;
+        // Fallback to "Unknown" if still empty
+        if (string.IsNullOrWhiteSpace(instanceName))
+        {
+            instanceName = "Unknown";
+        }
+        
+        var vcpuStr = product.Attributes.FirstOrDefault(a => a.Key == "vcpu")?.Value
+                     ?? product.Attributes.FirstOrDefault(a => a.Key == "numberOfCores")?.Value
+                     ?? product.Attributes.FirstOrDefault(a => a.Key == "vCpusAvailable")?.Value
+                     ?? product.Attributes.FirstOrDefault(a => a.Key == "vCPUs")?.Value;
+        
+        var memory = product.Attributes.FirstOrDefault(a => a.Key == "memory")?.Value
+                    ?? product.Attributes.FirstOrDefault(a => a.Key == "memoryInGB")?.Value
+                    ?? product.Attributes.FirstOrDefault(a => a.Key == "memoryGb")?.Value;
+        
         var databaseEngine = product.Attributes.FirstOrDefault(a => a.Key == "databaseEngine")?.Value
-                            ?? product.Attributes.FirstOrDefault(a => a.Key == "engine")?.Value;
+                            ?? product.Attributes.FirstOrDefault(a => a.Key == "engine")?.Value
+                            ?? product.Attributes.FirstOrDefault(a => a.Key == "databaseFamily")?.Value;
 
         return new NormalizedDatabaseDto
         {
@@ -225,8 +257,8 @@ public class ResourceNormalizationService(ICloudPricingRepository cloudPricingRe
             InstanceName = instanceName,
             Region = product.Region,
             DatabaseEngine = databaseEngine,
-            VCpu = int.TryParse(vcpu, out var cpu) ? cpu : null,
-            Memory = memory,
+            VCpu = int.TryParse(vcpuStr, out var cpu) ? cpu : null,
+            Memory = !string.IsNullOrWhiteSpace(memory) ? memory : null,
             PricePerHour = GetPricePerHour(product)
         };
     }

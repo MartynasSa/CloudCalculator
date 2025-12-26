@@ -1,631 +1,631 @@
 ﻿[
   {
     Cloud: azure,
-    InstanceName: Azure Cosmos DB Materialized Views Builder D8s,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.76
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.0
   },
   {
     Cloud: azure,
-    InstanceName: Azure Cosmos DB Materialized Views Builder D16s,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 1.52
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.759
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.0
   },
   {
     Cloud: azure,
-    InstanceName: Azure_Cosmos_DB_for_MongoDB_Worker_Node_104vCore,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 14.859
   },
   {
     Cloud: azure,
-    InstanceName: 2 vCore - burstable,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.0764
   },
   {
     Cloud: azure,
-    InstanceName: B2S,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.0764
   },
   {
     Cloud: azure,
-    InstanceName: Azure_Cosmos_DB_for_MongoDB_Coordinator_Node_16vCore,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 1.763712
   },
   {
     Cloud: azure,
-    InstanceName: Azure_Cosmos_DB_for_MongoDB_Coordinator_Node_Free,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.0
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.012
   },
   {
     Cloud: azure,
-    InstanceName: Azure_Cosmos_DB_for_MongoDB_Backup_Globally_Redundant_Storage,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.19
   },
   {
     Cloud: azure,
-    InstanceName: Premium SSD Managed Disk,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.00333
   },
   {
     Cloud: azure,
-    InstanceName: Azure_Cosmos_DB_for_MongoDB_Worker_Node_32vCore,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 4.572
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 1.0
   },
   {
     Cloud: azure,
-    InstanceName: Azure_Cosmos_DB_for_MongoDB_Worker_Node_64vCore,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 9.144
   },
   {
     Cloud: azure,
-    InstanceName: B1MS,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.0191
   },
   {
     Cloud: azure,
-    InstanceName: Azure_Cosmos_DB_for_MongoDB_Backup_Locally_Redundant_Storage_Free,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.0
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 2.81
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 6.07
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.032
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.16
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 1.4
   },
   {
     Cloud: azure,
-    InstanceName: Memory Optimized,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.175
   },
   {
     Cloud: azure,
-    InstanceName: Azure_Cosmos_DB_for_MongoDB_Coordinator_Node_96vCore,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 10.582272
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.25
   },
   {
     Cloud: azure,
-    InstanceName: Azure_Cosmos_DB_for_MongoDB_General_Purpose_Storage,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.115
   },
   {
     Cloud: azure,
-    InstanceName: 1 vCore - burstable,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.0191
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 5.62
   },
   {
     Cloud: azure,
-    InstanceName: Azure Cosmos DB Materialized Views Builder D2s,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.19
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 2.01
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.034
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.251
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 2.81
   },
   {
     Cloud: azure,
-    InstanceName: Azure_Cosmos_DB_for_MongoDB_Coordinator_Node_64vCore,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 7.054848
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.38
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.012
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 7.63
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.002688
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.8
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 3.04
   },
   {
     Cloud: azure,
-    InstanceName: Azure_Cosmos_DB_for_MongoDB_Coordinator_Node_32vCore,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 3.527424
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.0
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.05
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.1
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.125
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.008
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.502
   },
   {
     Cloud: azure,
-    InstanceName: Azure_Cosmos_DB_for_MongoDB_General_Purpose_Storage_Free,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.0
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.1
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 1.52
   },
   {
     Cloud: azure,
-    InstanceName: Azure Cosmos DB Materialized Views Builder D32s,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 3.04
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 22.45
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.12
   },
   {
     Cloud: azure,
-    InstanceName: Azure_Cosmos_DB_for_MongoDB_Worker_Node_2vCore,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.28575
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.7
   },
   {
     Cloud: azure,
-    InstanceName: Azure_Cosmos_DB_for_MongoDB_Coordinator_Node_8vCore,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.881856
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.0
   },
   {
     Cloud: azure,
-    InstanceName: Azure_Cosmos_DB_for_MongoDB_Worker_Node_16vCore,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 2.286
   },
   {
     Cloud: azure,
-    InstanceName: Azure_Cosmos_DB_for_MongoDB_Backup_Globally_Redundant_Storage_Free,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.0
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.0
   },
   {
     Cloud: azure,
-    InstanceName: Azure_Cosmos_DB_for_MongoDB_Backup_Locally_Redundant_Storage,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.095
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.012
   },
   {
     Cloud: azure,
-    InstanceName: Azure_Cosmos_DB_for_MongoDB_Coordinator_Node_4vCore,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.440928
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 1.4
   },
   {
     Cloud: azure,
-    InstanceName: Azure_Cosmos_DB_for_MongoDB_Worker_Node_96vCore,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 13.716
   },
   {
     Cloud: azure,
-    InstanceName: Free - Burstable,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.0
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 11.23
   },
   {
     Cloud: azure,
-    InstanceName: 1 vCore - autoscale,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.103441
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.25
   },
   {
     Cloud: azure,
-    InstanceName: Azure_Cosmos_DB_for_MongoDB_Worker_Node_Free,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.0
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.2
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 22.45
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 4.02
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.4
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.19
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.2
   },
   {
     Cloud: azure,
-    InstanceName: Compute Optimized,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.204
   },
   {
     Cloud: azure,
-    InstanceName: Azure Cosmos DB Materialized Views Builder D1s,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.095
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.03
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.012
   },
   {
     Cloud: azure,
-    InstanceName: Azure_Cosmos_DB_for_MongoDB_Worker_Node_4vCore,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.5715
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.05
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.25
   },
   {
     Cloud: azure,
-    InstanceName: Azure_Cosmos_DB_for_MongoDB_Coordinator_Node_1vCore,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.068961
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.005
   },
   {
     Cloud: azure,
-    InstanceName: Azure_Cosmos_DB_for_MongoDB_Worker_Node_1vCore,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.142875
   },
   {
     Cloud: azure,
-    InstanceName: B4MS,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.3056
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.0
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.067
   },
   {
     Cloud: azure,
-    InstanceName: B2MS,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.1528
   },
   {
     Cloud: azure,
-    InstanceName: B8MS,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.6112
   },
   {
     Cloud: azure,
-    InstanceName: Cont_7D_Bkup,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.0
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.134
   },
   {
     Cloud: azure,
-    InstanceName: Azure_Cosmos_DB_for_MongoDB_Worker_Node_8vCore,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 1.143
   },
   {
     Cloud: azure,
-    InstanceName: Azure_Cosmos_DB_for_MongoDB_Coordinator_Node_2vCore,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.220464
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 5.62
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.016
   },
   {
     Cloud: azure,
-    InstanceName: Azure Cosmos DB Materialized Views Builder D64s,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 6.08
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.25
   },
   {
     Cloud: azure,
-    InstanceName: Azure Cosmos DB Materialized Views Builder D4s,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.38
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 11.23
   },
   {
     Cloud: azure,
-    InstanceName: General Purpose,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.1265
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.7
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.15
   },
@@ -649,3063 +649,3063 @@
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 540.0
   },
   {
     Cloud: azure,
-    InstanceName: SQLDB_GP_Compute_Gen5_4,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.36532
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 9.678
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 9.68
   },
   {
     Cloud: azure,
-    InstanceName: Hyperscale,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.25
   },
   {
     Cloud: azure,
-    InstanceName: 10 vCore,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.18266
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.0
   },
   {
     Cloud: azure,
-    InstanceName: 8 vCore,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.18266
   },
   {
     Cloud: azure,
-    InstanceName: 16 vCore,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.18266
   },
   {
     Cloud: azure,
-    InstanceName: 40 vCore,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.18266
   },
   {
     Cloud: azure,
-    InstanceName: SQLDB_GP_Compute_Gen5_14,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 2.131038
   },
   {
     Cloud: azure,
-    InstanceName: 14 vCore,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.18266
   },
   {
     Cloud: azure,
-    InstanceName: 12 vCore,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.18266
   },
   {
     Cloud: azure,
-    InstanceName: FSv2Series_vCore,
+    InstanceName: Unknown,
     Region: eastus
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 14.52
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 4.243
   },
   {
     Cloud: azure,
-    InstanceName: 2 vCore,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.18266
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 2.192
   },
   {
     Cloud: azure,
-    InstanceName: 4 vCore,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.18266
   },
   {
     Cloud: azure,
-    InstanceName: 16 vCore,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 4.872
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 1.414
   },
   {
     Cloud: azure,
-    InstanceName: SQLDB_GP_Compute_Gen5_32,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 4.870944
   },
   {
     Cloud: azure,
-    InstanceName: SQLDB_GP_Compute_Gen5_1,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.09133
   },
   {
     Cloud: azure,
-    InstanceName: 1 vCore,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.521758
   },
   {
     Cloud: azure,
-    InstanceName: 12 vCore,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 7.308
   },
   {
     Cloud: azure,
-    InstanceName: 12 vCore,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 3.654
   },
   {
     Cloud: azure,
-    InstanceName: 18 vCore,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.18266
   },
   {
     Cloud: azure,
-    InstanceName: 24 vCore,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.18266
   },
   {
     Cloud: azure,
-    InstanceName: 80 vCore,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.18266
   },
   {
     Cloud: azure,
-    InstanceName: 48 vCore,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.18266
   },
   {
     Cloud: azure,
-    InstanceName: 20 vCore,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.18266
   },
   {
     Cloud: azure,
-    InstanceName: 6 vCore,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.18266
   },
   {
     Cloud: azure,
-    InstanceName: SQLDB_GP_Compute_Gen4_1,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.152217
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 720.0
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 180.0
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 6.0887
   },
   {
     Cloud: azure,
-    InstanceName: 8 vCore,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 13.430248
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 2.504438
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 2.42
   },
   {
     Cloud: azure,
-    InstanceName: SQLDB_GP_Compute_Gen5_16,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 1.46128
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.025
   },
   {
     Cloud: azure,
-    InstanceName: 18 vCore,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 5.481
   },
   {
     Cloud: azure,
-    InstanceName: SQLDB_HS_Compute_Gen5_12,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 2.19192
   },
   {
     Cloud: azure,
-    InstanceName: 4 vCore,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 1.04
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.0
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.0
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 2.19
   },
   {
     Cloud: azure,
-    InstanceName: 4 vCore,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.378
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.161
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.18266
   },
   {
     Cloud: azure,
-    InstanceName: 36 vCore,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 4.80888
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 4.84
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 2.828
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 5.657
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.304
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.707
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.4839
   },
   {
     Cloud: azure,
-    InstanceName: 12 vCore,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 3.12
   },
   {
     Cloud: azure,
-    InstanceName: 24 vCore,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 6.24
   },
   {
     Cloud: azure,
-    InstanceName: 20 vCore,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 6.09
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 214.884
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 2.436
   },
   {
     Cloud: azure,
-    InstanceName: 16 vCore,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.378
   },
   {
     Cloud: azure,
-    InstanceName: SQLDB_GP_Compute_Gen5_14,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 2.131038
   },
   {
     Cloud: azure,
-    InstanceName: 18 vCore,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 6.579
   },
   {
     Cloud: azure,
-    InstanceName: SQLDB_GP_Compute_Gen5_18,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 2.739906
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 1.414
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 2.92
   },
   {
     Cloud: azure,
-    InstanceName: SQLDB_GP_Compute_Gen5,
+    InstanceName: Unknown,
     Region: eastus
   },
   {
     Cloud: azure,
-    InstanceName: FSv2Series_vCore,
+    InstanceName: Unknown,
     Region: eastus
   },
   {
     Cloud: azure,
-    InstanceName: SQLDB_HyperScale_Compute_Gen4,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.18266
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 7.513315
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 4.243
   },
   {
     Cloud: azure,
-    InstanceName: SQLDB_GP_Compute_Gen5_1,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.152217
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 7.5
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.13358
   },
   {
     Cloud: azure,
-    InstanceName: SQLDB_GP_Compute_Gen5_16,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 2.435472
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 77.424
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 2.923
   },
   {
     Cloud: azure,
-    InstanceName: SQLDB_GP_Compute_Gen5_2,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.304434
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 5.657
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 30.0
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 5.008877
   },
   {
     Cloud: azure,
-    InstanceName: 32 vCore,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 9.744
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 9.61776
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.4839
   },
   {
     Cloud: azure,
-    InstanceName: 24 vCore,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.378
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.0
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.731
   },
   {
     Cloud: azure,
-    InstanceName: SQLDB_BC_Compute_Gen5_4,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 1.21774
   },
   {
     Cloud: azure,
-    InstanceName: 20 vCore,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 5.2
   },
   {
     Cloud: azure,
-    InstanceName: 48 vCore,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 12.48
   },
   {
     Cloud: azure,
-    InstanceName: SQL_Database_SingleDB_Hyperscale_Compute_DC-Series_vCore,
+    InstanceName: Unknown,
     Region: eastus
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 3.625
   },
   {
     Cloud: azure,
-    InstanceName: JA800,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.247
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 4.243
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 3.65322
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 22.5
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 1.461
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 9.61776
   },
   {
     Cloud: azure,
-    InstanceName: 1 vCore,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.585
   },
   {
     Cloud: azure,
-    InstanceName: 6 vCore,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 1.56
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 3.04435
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.025
   },
   {
     Cloud: azure,
-    InstanceName: 18 vCore,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 4.68
   },
   {
     Cloud: azure,
-    InstanceName: 32 vCore,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.378
   },
   {
     Cloud: azure,
-    InstanceName: 12 vCore,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 4.386
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 3.75
   },
   {
     Cloud: azure,
-    InstanceName: 8 vCore,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.585
   },
   {
     Cloud: azure,
-    InstanceName: 12 vCore,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 3.654
   },
   {
     Cloud: azure,
-    InstanceName: SQLDB_GP_Compute_Gen5_ZR,
+    InstanceName: Unknown,
     Region: eastus
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 77.44
   },
   {
     Cloud: azure,
-    InstanceName: 14 vCore,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 5.117
   },
   {
     Cloud: azure,
-    InstanceName: FSv2Series_vCore,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.13358
   },
   {
     Cloud: azure,
-    InstanceName: 16 vCore,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 4.872
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.521758
   },
   {
     Cloud: azure,
-    InstanceName: 14 vCore,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 8.526
   },
   {
     Cloud: azure,
-    InstanceName: SQLDB_GP_Compute_Gen5_32,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 4.870944
   },
   {
     Cloud: azure,
-    InstanceName: SQLDB_BC_Compute_Gen5_2,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.60887
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 2.192
   },
   {
     Cloud: azure,
-    InstanceName: SQLDB_GP_Compute_Gen5,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.152217
   },
   {
     Cloud: azure,
-    InstanceName: SQLDB_HS_Premium Compute_1,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.18266
   },
   {
     Cloud: azure,
-    InstanceName: 10 vCore,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 2.6
   },
   {
     Cloud: azure,
-    InstanceName: 1 vCore,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.05
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.0
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.0
   },
   {
     Cloud: azure,
-    InstanceName: JA200,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.062
   },
   {
     Cloud: azure,
-    InstanceName: 16 vCore,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 4.16
   },
   {
     Cloud: azure,
-    InstanceName: 32 vCore,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 8.32
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 2.8125
   },
   {
     Cloud: azure,
-    InstanceName: SQLDB_HyperScale_Compute_Premium_Memory_Optimized,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.255724
   },
   {
     Cloud: azure,
-    InstanceName: SQLDB_HyperScale_Compute_Premium_Memory_Optimized,
+    InstanceName: Unknown,
     Region: eastus
   },
   {
     Cloud: azure,
-    InstanceName: 2 vCore,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.52
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.731
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 22.5
   },
   {
     Cloud: azure,
-    InstanceName: 32 vCore,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 9.744
   },
   {
     Cloud: azure,
-    InstanceName: 8 vCore,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 2.08
   },
   {
     Cloud: azure,
-    InstanceName: 18 vCore,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 10.962
   },
   {
     Cloud: azure,
-    InstanceName: SQLDB_GP_Compute_Gen4,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.152217
   },
   {
     Cloud: azure,
-    InstanceName: SQLDB_GP_Compute_Gen5_80,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 12.17736
   },
   {
     Cloud: azure,
-    InstanceName: SQLDB_GP_Compute_Gen5_14,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 1.27862
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 7.25
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 180.0
   },
   {
     Cloud: azure,
-    InstanceName: SQLDB_BC_Compute_Gen5_2,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.60887
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 4.8387
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.304435
   },
   {
     Cloud: azure,
-    InstanceName: SQLDB_GP_Compute_Gen5_10,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 1.52217
   },
   {
     Cloud: azure,
-    InstanceName: 10 vCore,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 3.655
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 19.36
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 30.0
   },
   {
     Cloud: azure,
-    InstanceName: SQLDB_BC_Compute_Gen5_24,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 7.30644
   },
   {
     Cloud: azure,
-    InstanceName: 14 vCore,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 8.526
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.707
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 21.75
   },
   {
     Cloud: azure,
-    InstanceName: SQLDB_GP_Compute_Gen5_16,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 2.435472
   },
   {
     Cloud: azure,
-    InstanceName: 20 vCore,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 7.31
   },
   {
     Cloud: azure,
-    InstanceName: SQLDB_GP_Compute_Gen5_12,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 1.09596
   },
   {
     Cloud: azure,
-    InstanceName: SQLDB_GP_Compute_Gen5_16,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 1.46128
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.365
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 19.356
   },
   {
     Cloud: azure,
-    InstanceName: SQLDB_GP_Compute_Gen5_1,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.152217
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.23
   },
   {
     Cloud: azure,
-    InstanceName: 8 vCore,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 13.430248
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 1.46
   },
   {
     Cloud: azure,
-    InstanceName: SQLDB_BC_Compute_Gen4_1,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.304435
   },
   {
     Cloud: azure,
-    InstanceName: 18 vCore,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 2.40444
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 516.128
   },
   {
     Cloud: azure,
-    InstanceName: SQLDB_GP_Compute_Gen5_6,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.913302
   },
   {
     Cloud: azure,
-    InstanceName: 80 vCore,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.378
   },
   {
     Cloud: azure,
-    InstanceName: 40 vCore,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 14.62
   },
   {
     Cloud: azure,
-    InstanceName: 14 vCore,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 1.87012
   },
   {
     Cloud: azure,
-    InstanceName: ComputeMSeries_vCore,
+    InstanceName: Unknown,
     Region: eastus
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 15.02663
   },
   {
     Cloud: azure,
-    InstanceName: 18 vCore,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 30.218058
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 6.0887
   },
   {
     Cloud: azure,
-    InstanceName: 10 vCore,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 3.045
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.025
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 30.0
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.9677
   },
   {
     Cloud: azure,
-    InstanceName: 12 vCore,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 1.60296
   },
   {
     Cloud: azure,
-    InstanceName: SQLDB_GP_Compute_Gen5_8,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 1.217736
   },
   {
     Cloud: azure,
-    InstanceName: 20 vCore,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 2.6716
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 387.1
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 1.218
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 30.0
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 1.82661
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 11.25
   },
   {
     Cloud: azure,
-    InstanceName: 18 vCore,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 10.962
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.609
   },
   {
     Cloud: azure,
-    InstanceName: SQLDB_GP_Compute_Gen5_24,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 3.653208
   },
   {
     Cloud: azure,
-    InstanceName: 80 vCore,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 20.8
   },
   {
     Cloud: azure,
-    InstanceName: 32 vCore,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 11.696
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.1
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 2.828
   },
   {
     Cloud: azure,
-    InstanceName: 14 vCore,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 1.87012
   },
   {
     Cloud: azure,
-    InstanceName: SQLDB_HyperScale_Compute_Premium,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.18266
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 120.0
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.08
   },
   {
     Cloud: azure,
-    InstanceName: SQLDB_GP_Compute_Gen5_80,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 12.17736
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 10.017754
   },
   {
     Cloud: azure,
-    InstanceName: 10 vCore,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 6.09
   },
   {
     Cloud: azure,
-    InstanceName: SQLDB_HS_Compute_Gen5_1,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.18266
   },
   {
     Cloud: azure,
-    InstanceName: SQLDB_GP_Compute_Gen5_ZR,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.09133
   },
   {
     Cloud: azure,
-    InstanceName: SQLDB_GP_Compute_Gen5_ZR,
+    InstanceName: Unknown,
     Region: eastus
   },
   {
     Cloud: azure,
-    InstanceName: SQLDB_BC_Compute_Gen5_4,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 1.21774
   },
   {
     Cloud: azure,
-    InstanceName: 10 vCore,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 1.3358
   },
   {
     Cloud: azure,
-    InstanceName: 2 vCore,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.585
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 3.654
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 145.0
   },
   {
     Cloud: azure,
-    InstanceName: 4 vCore,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.585
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.73
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.304
   },
   {
     Cloud: azure,
-    InstanceName: 32 vCore,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 11.696
   },
   {
     Cloud: azure,
-    InstanceName: 20 vCore,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 7.31
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.18
   },
   {
     Cloud: azure,
-    InstanceName: SQLDB_GP_Compute_Gen5_80,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 7.3064
   },
   {
     Cloud: azure,
-    InstanceName: 12 vCore,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 1.60296
   },
   {
     Cloud: azure,
-    InstanceName: SQLDB_BC_Compute_Gen4_1,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.304435
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.05
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 450.0
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.304435
   },
   {
     Cloud: azure,
-    InstanceName: SQLDB_GP_Compute_Gen5_32,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 2.92256
   },
   {
     Cloud: azure,
-    InstanceName: SQLDB_HyperScale_Compute_Premium_Memory_Optimized,
+    InstanceName: Unknown,
     Region: eastus
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.1
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.1
   },
   {
     Cloud: azure,
-    InstanceName: SQLDB_BC_Compute_Gen5_80,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 24.3548
   },
   {
     Cloud: azure,
-    InstanceName: SQLDB_BC_Compute_Gen5_16,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 4.87096
   },
   {
     Cloud: azure,
-    InstanceName: JA400,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.123
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.0
   },
   {
     Cloud: azure,
-    InstanceName: SQLDB_GP_Compute_Gen5_2,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.18266
   },
   {
     Cloud: azure,
-    InstanceName: SQL_Database_Single_Elastic_Pool_General_Purpose_Compute_DC-Series_vCore,
+    InstanceName: Unknown,
     Region: eastus
   },
   {
     Cloud: azure,
-    InstanceName: SQLDB_GP_Compute_Gen5_20,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 3.04434
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 38.72
   },
   {
     Cloud: azure,
-    InstanceName: SQLDB_BC_Compute_Gen4,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.304435
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 1.218
   },
   {
     Cloud: azure,
-    InstanceName: 18 vCore,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 30.218058
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.365
   },
   {
     Cloud: azure,
-    InstanceName: SQLDB_HS_Compute_Gen5_48,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 8.76768
   },
   {
     Cloud: azure,
-    InstanceName: SQLDB_HyperScale_Compute_Premium,
+    InstanceName: Unknown,
     Region: eastus
   },
   {
     Cloud: azure,
-    InstanceName: SQLDB_HyperScale_Compute_Premium,
+    InstanceName: Unknown,
     Region: eastus
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 5.625
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 90.0
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 25.044384
   },
   {
     Cloud: azure,
-    InstanceName: SQLDB_BC_Compute_Gen5_16,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 4.87096
   },
   {
     Cloud: azure,
-    InstanceName: 18 vCore,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 6.579
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.2
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 4.8387
   },
   {
     Cloud: azure,
-    InstanceName: 10 vCore,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 6.09
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 169.36
   },
   {
     Cloud: azure,
-    InstanceName: SQLDB_HS_Compute_Gen5_8,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 1.46128
   },
   {
     Cloud: azure,
-    InstanceName: 8 vCore,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 1.06864
   },
   {
     Cloud: azure,
-    InstanceName: SQLDB_GP_Compute_Gen5_10,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.9133
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 87.0
   },
   {
     Cloud: azure,
-    InstanceName: 32 vCore,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.585
   },
   {
     Cloud: azure,
-    InstanceName: SQLDB_GP_Compute_Gen5_8,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 1.217736
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 45.0
   },
   {
     Cloud: azure,
-    InstanceName: 16 vCore,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 26.860496
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 2.42
   },
   {
     Cloud: azure,
-    InstanceName: SQLDB_GP_Compute_Gen5_10,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.9133
   },
   {
     Cloud: azure,
-    InstanceName: SQLDB_HS_Compute_Gen5_24,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 4.38384
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 135.0
   },
   {
     Cloud: azure,
-    InstanceName: SQLDB_GP_Compute_Gen4_1,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.152217
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 630.0
   },
   {
     Cloud: azure,
-    InstanceName: SQLDB_HS_Compute_Gen5_32,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 5.84512
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 214.884
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 1.82661
   },
   {
     Cloud: azure,
-    InstanceName: SQLDB_GP_Compute_Gen5_24,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 2.19192
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 1.414
   },
   {
     Cloud: azure,
-    InstanceName: SQLDB_GP_Compute_Gen5_20,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 3.04434
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 58.08
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.045
   },
   {
     Cloud: azure,
-    InstanceName: 20 vCore,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 12.18
   },
   {
     Cloud: azure,
-    InstanceName: SQLDB_GP_Compute_Gen5_18,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 1.64394
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 2.435
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 360.0
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.1
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 1.414
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 12.1774
   },
   {
     Cloud: azure,
-    InstanceName: 14 vCore,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 4.263
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.62611
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.313055
   },
   {
     Cloud: azure,
-    InstanceName: SQLDB_GP_Compute_Gen5_24,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 3.653208
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.365
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 3.654
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.05
   },
   {
     Cloud: azure,
-    InstanceName: SQLDB_GP_Compute_Gen5_6,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.913302
   },
   {
     Cloud: azure,
-    InstanceName: SQLDB_HS_Compute_Gen5_14,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 2.55724
   },
   {
     Cloud: azure,
-    InstanceName: 16 vCore,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 2.13728
   },
   {
     Cloud: azure,
-    InstanceName: 8 vCore,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 1.06864
   },
   {
     Cloud: azure,
-    InstanceName: 48 vCore,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.378
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 225.81
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 29.0
   },
   {
     Cloud: azure,
-    InstanceName: 40 vCore,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 12.18
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 11.25
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.2
   },
   {
     Cloud: azure,
-    InstanceName: 16 vCore,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.585
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.0
   },
   {
     Cloud: azure,
-    InstanceName: JA100,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.031
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 516.128
   },
   {
     Cloud: azure,
-    InstanceName: SQL_Database_Single_Elastic_Pool_Business_Critical_Compute_DC-Series_vCore,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.609
   },
   {
     Cloud: azure,
-    InstanceName: SQL_Database_Single_Elastic_Pool_Business_Critical_Compute_DC-Series_vCore,
+    InstanceName: Unknown,
     Region: eastus
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.609
   },
   {
     Cloud: azure,
-    InstanceName: 10 vCore,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 3.655
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.0
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 120.0
   },
   {
     Cloud: azure,
-    InstanceName: 1 vCore,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.378
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 2.92
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 22.5
   },
   {
     Cloud: azure,
-    InstanceName: SQLDB_BC_Compute_Gen5_8,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 2.43548
   },
   {
     Cloud: azure,
-    InstanceName: SQLDB_GP_Compute_Gen5_8,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.73064
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.0
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 15.0
   },
   {
     Cloud: azure,
-    InstanceName: SQLDB_HS_Compute_Gen5_40,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 7.3064
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 4.26209
   },
   {
     Cloud: azure,
-    InstanceName: SQLDB_BC_Compute_Gen5_8,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 2.43548
   },
   {
     Cloud: azure,
-    InstanceName: SQLDB_GP_Compute_Gen5_4,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.608868
   },
   {
     Cloud: azure,
-    InstanceName: ComputeMSeries_vCore,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 1.678781
   },
   {
     Cloud: azure,
-    InstanceName: ComputeMSeries_vCore,
+    InstanceName: Unknown,
     Region: eastus
   },
   {
     Cloud: azure,
-    InstanceName: SQLDB_GP_Compute_Gen5_4,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.36532
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.2
   },
   {
     Cloud: azure,
-    InstanceName: 20 vCore,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 2.6716
   },
   {
     Cloud: azure,
-    InstanceName: SQLDB_BC_Compute_Gen5_32,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 9.74192
   },
   {
     Cloud: azure,
-    InstanceName: SQL_Database_Single_Elastic_Pool_General_Purpose_Compute_DC-Series_vCore,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.304
   },
   {
     Cloud: azure,
-    InstanceName: SQL_Database_Single_Elastic_Pool_General_Purpose_Compute_DC-Series_vCore,
+    InstanceName: Unknown,
     Region: eastus
   },
   {
     Cloud: azure,
-    InstanceName: SQLDB_GP_Compute_Gen5_12,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 1.826604
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 58.0
   },
   {
     Cloud: azure,
-    InstanceName: SQLDB_HS_Compute_Gen5_10,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 1.8266
   },
   {
     Cloud: azure,
-    InstanceName: 18 vCore,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 5.481
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.0725
   },
   {
     Cloud: azure,
-    InstanceName: 12 vCore,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 20.145372
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.521758
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 112.5
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 1.678781
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 15.0
   },
   {
     Cloud: azure,
-    InstanceName: 16 vCore,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 9.744
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 1.81
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 3.75
   },
   {
     Cloud: azure,
-    InstanceName: 32 vCore,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 4.27456
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 4.243
   },
   {
     Cloud: azure,
-    InstanceName: 32 vCore,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 53.720992
   },
   {
     Cloud: azure,
-    InstanceName: SQLDB_GP_Compute_Gen5_1,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.09133
   },
   {
     Cloud: azure,
-    InstanceName: SQLDB_HyperScale_Compute_Gen5,
+    InstanceName: Unknown,
     Region: eastus
   },
   {
     Cloud: azure,
-    InstanceName: SQLDB_GP_Compute_Gen5_40,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 3.6532
   },
   {
     Cloud: azure,
-    InstanceName: 64 vCore,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 107.442
   },
   {
     Cloud: azure,
-    InstanceName: SQLDB_BC_Compute_Gen5_32,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 9.74192
   },
   {
     Cloud: azure,
-    InstanceName: SQLDB_GP_Compute_Gen5_12,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 1.09596
   },
   {
     Cloud: azure,
-    InstanceName: 32 vCore,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 19.488
   },
   {
     Cloud: azure,
-    InstanceName: SQL_Database_Single_Elastic_Pool_Business_Critical_Compute_DC-Series_vCore,
+    InstanceName: Unknown,
     Region: eastus
   },
   {
     Cloud: azure,
-    InstanceName: SQLDB_GP_Compute_Gen5_14,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 1.27862
   },
   {
     Cloud: azure,
-    InstanceName: SQLDB_GP_Compute_Gen5_20,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 1.8266
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 5.47983
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 15.0
   },
   {
     Cloud: azure,
-    InstanceName: SQL_Database_SingleDB_Hyperscale_Compute_DC-Series_vCore,
+    InstanceName: Unknown,
     Region: eastus
   },
   {
     Cloud: azure,
-    InstanceName: SQLDB_GP_Compute_Gen5_40,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 6.08868
   },
   {
     Cloud: azure,
-    InstanceName: SQLDB_GP_Compute_Gen5_6,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.54798
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 4.174064
   },
   {
     Cloud: azure,
-    InstanceName: SQLDB_BC_Compute_Gen5,
+    InstanceName: Unknown,
     Region: eastus
   },
   {
     Cloud: azure,
-    InstanceName: 20 vCore,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 6.09
   },
   {
     Cloud: azure,
-    InstanceName: 14 vCore,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 3.64
   },
   {
     Cloud: azure,
-    InstanceName: 40 vCore,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 10.4
   },
   {
     Cloud: azure,
-    InstanceName: 32 vCore,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.18266
   },
   {
     Cloud: azure,
-    InstanceName: SQLDB_HS_Premium Memory Optimized Compute_1,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.255724
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 1.461
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 2.828
   },
   {
     Cloud: azure,
-    InstanceName: 24 vCore,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 40.290744
   },
   {
     Cloud: azure,
-    InstanceName: 2 vCore,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.378
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 2.923
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 181.25
   },
   {
     Cloud: azure,
-    InstanceName: SQLDB_HyperScale_Compute_Gen5,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.18266
   },
   {
     Cloud: azure,
-    InstanceName: 20 vCore,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 33.57562
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 15.0
   },
   {
     Cloud: azure,
-    InstanceName: SQLDB_BC_Compute_Gen5_80,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 24.3548
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 3.04435
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 2.435
   },
   {
     Cloud: azure,
-    InstanceName: 64 vCore,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 107.442
   },
   {
     Cloud: azure,
-    InstanceName: 1 vCore,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.313055
   },
   {
     Cloud: azure,
-    InstanceName: SQLDB_GP_Compute_Gen5_40,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 3.6532
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 1.218
   },
   {
     Cloud: azure,
-    InstanceName: 14 vCore,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 4.263
   },
   {
     Cloud: azure,
-    InstanceName: SQLDB_GP_Compute_Gen5_6,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.54798
   },
   {
     Cloud: azure,
-    InstanceName: 12 vCore,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 4.386
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 60.0
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 41.74064
   },
   {
     Cloud: azure,
-    InstanceName: SQLDB_GP_Compute_Gen5_2,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.304434
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 225.81
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 16.696256
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 4.26209
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.609
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 38.712
   },
   {
     Cloud: azure,
-    InstanceName: 24 vCore,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 3.20592
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 145.17
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 14.5
   },
   {
     Cloud: azure,
-    InstanceName: SQLDB_GP_Compute_Gen5_48,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 4.38384
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.9677
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 157.5
   },
   {
     Cloud: azure,
-    InstanceName: 36 vCore,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 4.80888
   },
   {
     Cloud: azure,
-    InstanceName: 32 vCore,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 4.27456
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 5.657
   },
   {
     Cloud: azure,
-    InstanceName: 10 vCore,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 1.3358
   },
   {
     Cloud: azure,
-    InstanceName: 80 vCore,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.585
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 12.522192
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.2
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 4.872
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 270.0
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 116.0
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.73
   },
   {
     Cloud: azure,
-    InstanceName: SQLDB_GP_Compute_Gen5_24,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 2.19192
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 1.678781
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.115
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 1.827
   },
   {
     Cloud: azure,
-    InstanceName: SQLDB_BC_Compute_Gen5,
+    InstanceName: Unknown,
     Region: eastus
   },
   {
     Cloud: azure,
-    InstanceName: SQLDB_GP_Compute_Gen5_20,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 1.8266
   },
   {
     Cloud: azure,
-    InstanceName: 16 vCore,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 9.744
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.609
   },
   {
     Cloud: azure,
-    InstanceName: SQLDB_GP_Compute_Gen5_18,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 2.739906
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.4839
   },
   {
     Cloud: azure,
-    InstanceName: SQLDB_HS_Compute_Gen5_2,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.36532
   },
   {
     Cloud: azure,
-    InstanceName: SQLDB_HS_Compute_Gen5_18,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 3.28788
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.05
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 90.0
   },
   {
     Cloud: azure,
-    InstanceName: SQLDB_HS_Compute_Gen5_6,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 1.09596
   },
   {
     Cloud: azure,
-    InstanceName: 24 vCore,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 3.20592
   },
   {
     Cloud: azure,
-    InstanceName: SQLDB_GP_Compute_Gen5_8,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.73064
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 12.1774
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.25
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.2
   },
   {
     Cloud: azure,
-    InstanceName: SQLDB_GP_Compute_Gen5_18,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 1.64394
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 60.0
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.161
   },
   {
     Cloud: azure,
-    InstanceName: SQLDB_BC_Compute_Gen5,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.304435
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 2.42
   },
   {
     Cloud: azure,
-    InstanceName: 18 vCore,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 2.40444
   },
   {
     Cloud: azure,
-    InstanceName: 10 vCore,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 3.045
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 217.5
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 3.629
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.2
   },
   {
     Cloud: azure,
-    InstanceName: 14 vCore,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 23.502934
   },
   {
     Cloud: azure,
-    InstanceName: 40 vCore,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 14.62
   },
   {
     Cloud: azure,
-    InstanceName: 14 vCore,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 5.117
   },
   {
     Cloud: azure,
-    InstanceName: SQLDB_BC_Compute_Gen5_48,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 14.61288
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.0
   },
   {
     Cloud: azure,
-    InstanceName: 10 vCore,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 16.78781
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.13358
   },
   {
     Cloud: azure,
-    InstanceName: SQLDB_GP_Compute_Gen5_32,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 2.92256
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 7.5
   },
   {
     Cloud: azure,
-    InstanceName: 20 vCore,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 12.18
   },
   {
     Cloud: azure,
-    InstanceName: 40 vCore,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 24.36
   },
   {
     Cloud: azure,
-    InstanceName: 12 vCore,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 7.308
   },
   {
     Cloud: azure,
-    InstanceName: 1 vCore,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.378
   },
   {
     Cloud: azure,
-    InstanceName: SQLDB_GP_Compute_Gen5_10,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 1.52217
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.2
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.0
   },
   {
     Cloud: azure,
-    InstanceName: 40 vCore,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 24.36
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.0
   },
   {
     Cloud: azure,
-    InstanceName: 40 vCore,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 12.18
   },
   {
     Cloud: azure,
-    InstanceName: 16 vCore,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 2.13728
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.0
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.0
   },
   {
     Cloud: azure,
-    InstanceName: SQLDB_HyperScale_Compute_Gen5,
+    InstanceName: Unknown,
     Region: eastus
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 3.65322
   },
   {
     Cloud: azure,
-    InstanceName: SQLDB_GP_Compute_Gen5,
+    InstanceName: Unknown,
     Region: eastus
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.0484
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 67.5
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.025
   },
   {
     Cloud: azure,
-    InstanceName: SQL_Database_SingleDB_Hyperscale_Compute_DC-Series_vCore,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.365
   },
   {
     Cloud: azure,
-    InstanceName: SQLDB_GP_Compute_Gen5_80,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 7.3064
   },
   {
     Cloud: azure,
-    InstanceName: 32 vCore,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 19.488
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 45.0
   },
   {
     Cloud: azure,
-    InstanceName: 16 vCore,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 5.848
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.2
   },
   {
     Cloud: azure,
-    InstanceName: SQLDB_GP_Compute_Gen5_40,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 6.08868
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 1.218
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 8.348128
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 4.872
   },
   {
     Cloud: azure,
-    InstanceName: 10 vCore,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 16.78781
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 2.19
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 1.827
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 2.828
   },
   {
     Cloud: azure,
-    InstanceName: SQLDB_HS_Compute_Gen5_4,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.73064
   },
   {
     Cloud: azure,
-    InstanceName: 20 vCore,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 33.57562
   },
   {
     Cloud: azure,
-    InstanceName: 14 vCore,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 23.502934
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 2.087032
   },
   {
     Cloud: azure,
-    InstanceName: SQLDB_HS_Compute_Gen5_20,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 3.6532
   },
   {
     Cloud: azure,
-    InstanceName: 24 vCore,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 40.290744
   },
   {
     Cloud: azure,
-    InstanceName: 12 vCore,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 20.145372
   },
   {
     Cloud: azure,
-    InstanceName: SQLDB_GP_Compute_Gen5_12,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 1.826604
   },
   {
     Cloud: azure,
-    InstanceName: SQLDB_HS_Compute_Gen5_80,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 14.6128
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 25.044384
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.73
   },
   {
     Cloud: azure,
-    InstanceName: SQLDB_BC_Compute_Gen5_24,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 7.30644
   },
   {
     Cloud: azure,
-    InstanceName: SQLDB_GP_Compute_Gen5_48,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 7.306416
   },
   {
     Cloud: azure,
-    InstanceName: SQLDB_GP_Compute_Gen5_48,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 7.306416
   },
   {
     Cloud: azure,
-    InstanceName: SQLDB_GP_Compute_Gen5_4,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.608868
   },
   {
     Cloud: azure,
-    InstanceName: SQLDB_GP_Compute_Gen5_2,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.18266
   },
   {
     Cloud: azure,
-    InstanceName: 24 vCore,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.585
   },
   {
     Cloud: azure,
-    InstanceName: 16 vCore,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 5.848
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 1.46
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 45.0
   },
   {
     Cloud: azure,
-    InstanceName: SQLDB_BC_Compute_Gen5_48,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 14.61288
   },
   {
     Cloud: azure,
-    InstanceName: 32 vCore,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 53.720992
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 90.0
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.34
   },
   {
     Cloud: azure,
-    InstanceName: SQLDB_HS_Compute_Gen5_16,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 2.92256
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.17
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 1.252219
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 5.657
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 5.47983
   },
   {
     Cloud: azure,
-    InstanceName: SQLDB_GP_Compute_Gen5_48,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 4.38384
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.05
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 2.436
   },
   {
     Cloud: azure,
-    InstanceName: ,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 1.043516
   },
   {
     Cloud: azure,
-    InstanceName: 8 vCore,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.378
   },
   {
     Cloud: azure,
-    InstanceName: 16 vCore,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 26.860496
   },
   {
     Cloud: azure,
-    InstanceName: 48 vCore,
+    InstanceName: Unknown,
     Region: eastus,
     PricePerHour: 0.585
   },
