@@ -12,6 +12,11 @@ public class TemplateDto
     public Dictionary<CloudProvider, TemplateMonitoringDto>? Monitoring { get; set; }
 }
 
+
+public class CostCalcualtor
+{
+    public List<ResourceSubCategory> Resources { get; set; } = new();
+}
 public class TemplateVirtualMachineDto : TemplateResourceDtoBase
 {
     public required string InstanceName { get; set; }
