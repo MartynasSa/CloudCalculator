@@ -11,9 +11,6 @@ public interface IResourceNormalizationService
 
 public class ResourceNormalizationService(ICloudPricingRepositoryFacade cloudPricingRepository) : IResourceNormalizationService
 {
-    // Map product families and services to categories based on file structure
-    // The file structure is: Data/{Category}/{SubCategory}/{provider}.json
-    // For example: Data/Compute/VM/aws.json -> Category: Compute, SubCategory: VirtualMachines
     
     private static readonly Dictionary<(string ProductFamily, string Service), (ResourceCategory Category, ResourceSubCategory SubCategory)> AwsProductFamilyServiceMap =
         new()

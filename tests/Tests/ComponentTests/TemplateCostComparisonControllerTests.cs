@@ -23,7 +23,6 @@ public class TemplateCostComparisonControllerTests(WebApplicationFactory<Program
         var templateDto = new TemplateDto
         {
             Template = TemplateType.Saas,
-            Usage = UsageSize.Small
         };
         var json = JsonSerializer.Serialize(templateDto, JsonOptions);
         var content = new StringContent(json, Encoding.UTF8, "application/json");
@@ -54,7 +53,6 @@ public class TemplateCostComparisonControllerTests(WebApplicationFactory<Program
         var templateDto = new TemplateDto
         {
             Template = TemplateType.Saas,
-            Usage = UsageSize.Small
         };
         var json = JsonSerializer.Serialize(templateDto, JsonOptions);
         var content = new StringContent(json, Encoding.UTF8, "application/json");
@@ -84,7 +82,6 @@ public class TemplateCostComparisonControllerTests(WebApplicationFactory<Program
         var templateDto = new TemplateDto
         {
             Template = TemplateType.Saas,
-            Usage = UsageSize.Small
         };
         var json = JsonSerializer.Serialize(templateDto, JsonOptions);
         var content = new StringContent(json, Encoding.UTF8, "application/json");
@@ -122,7 +119,6 @@ public class TemplateCostComparisonControllerTests(WebApplicationFactory<Program
         var templateDto = new TemplateDto
         {
             Template = TemplateType.Blank,
-            Usage = UsageSize.Small
         };
         var json = JsonSerializer.Serialize(templateDto, JsonOptions);
         var content = new StringContent(json, Encoding.UTF8, "application/json");
@@ -155,7 +151,6 @@ public class TemplateCostComparisonControllerTests(WebApplicationFactory<Program
         var templateDto = new TemplateDto
         {
             Template = TemplateType.StaticSite,
-            Usage = UsageSize.Medium
         };
         var json = JsonSerializer.Serialize(templateDto, JsonOptions);
         var content = new StringContent(json, Encoding.UTF8, "application/json");
@@ -189,7 +184,6 @@ public class TemplateCostComparisonControllerTests(WebApplicationFactory<Program
         var templateDto = new TemplateDto
         {
             Template = TemplateType.None,
-            Usage = UsageSize.Small
         };
         var json = JsonSerializer.Serialize(templateDto, JsonOptions);
         var content = new StringContent(json, Encoding.UTF8, "application/json");
@@ -221,7 +215,6 @@ public class TemplateCostComparisonControllerTests(WebApplicationFactory<Program
         var templateDto = new TemplateDto
         {
             Template = TemplateType.Ecommerce,
-            Usage = UsageSize.Small
         };
         var json = JsonSerializer.Serialize(templateDto, JsonOptions);
         var content = new StringContent(json, Encoding.UTF8, "application/json");
@@ -260,7 +253,6 @@ public class TemplateCostComparisonControllerTests(WebApplicationFactory<Program
         var templateDto = new TemplateDto
         {
             Template = TemplateType.WordPress,
-            Usage = UsageSize.Medium
         };
         var json = JsonSerializer.Serialize(templateDto, JsonOptions);
         var content = new StringContent(json, Encoding.UTF8, "application/json");
@@ -293,7 +285,6 @@ public class TemplateCostComparisonControllerTests(WebApplicationFactory<Program
         var templateDto = new TemplateDto
         {
             Template = TemplateType.MachineLearning,
-            Usage = UsageSize.Large
         };
         var json = JsonSerializer.Serialize(templateDto, JsonOptions);
         var content = new StringContent(json, Encoding.UTF8, "application/json");

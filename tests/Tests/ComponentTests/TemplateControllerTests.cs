@@ -3,7 +3,6 @@ using Application.Models.Enums;
 using Microsoft.AspNetCore.Mvc.Testing;
 using System.Net;
 using System.Text.Json;
-using System.Text.Json.Serialization;
 
 namespace Tests.ComponentTests;
 
@@ -17,7 +16,7 @@ public class TemplateControllerTests(WebApplicationFactory<Program> factory) : T
     };
 
     [Fact]
-    public async Task Get_Templates_WithSaasSmall_Returns_Template_With_VirtualMachines()
+    public async Task Get_Templates_WithSaasSmall_Returns_Template_With_Resources()
     {
         var response = await Client.GetAsync("/api/templates?template=saas&usage=small");
         response.EnsureSuccessStatusCode();
@@ -27,16 +26,19 @@ public class TemplateControllerTests(WebApplicationFactory<Program> factory) : T
 
         Assert.NotNull(template);
         Assert.Equal(TemplateType.Saas, template.Template);
-        Assert.Equal(UsageSize.Small, template.Usage);
+        Assert.NotNull(template.Resources);
+        Assert.NotEmpty(template.Resources);
 
-        AssertValidTemplate(template);
-        AssertSmallGranularitySpecs(template);
+        AssertContainsResource(template, ResourceSubCategory.VirtualMachines);
+        AssertContainsResource(template, ResourceSubCategory.Relational);
+        AssertContainsResource(template, ResourceSubCategory.LoadBalancer);
+        AssertContainsResource(template, ResourceSubCategory.Monitoring);
 
         await Verify(template);
     }
 
     [Fact]
-    public async Task Get_Templates_WithSaasMedium_Returns_Template_With_VirtualMachines()
+    public async Task Get_Templates_WithSaasMedium_Returns_Template_With_Resources()
     {
         var response = await Client.GetAsync("/api/templates?template=saas&usage=medium");
         response.EnsureSuccessStatusCode();
@@ -46,16 +48,14 @@ public class TemplateControllerTests(WebApplicationFactory<Program> factory) : T
 
         Assert.NotNull(template);
         Assert.Equal(TemplateType.Saas, template.Template);
-        Assert.Equal(UsageSize.Medium, template.Usage);
-
-        AssertValidTemplate(template);
-        AssertMediumGranularitySpecs(template);
+        Assert.NotNull(template.Resources);
+        Assert.NotEmpty(template.Resources);
 
         await Verify(template);
     }
 
     [Fact]
-    public async Task Get_Templates_WithSaasLarge_Returns_Template_With_VirtualMachines()
+    public async Task Get_Templates_WithSaasLarge_Returns_Template_With_Resources()
     {
         var response = await Client.GetAsync("/api/templates?template=saas&usage=large");
         response.EnsureSuccessStatusCode();
@@ -65,84 +65,10 @@ public class TemplateControllerTests(WebApplicationFactory<Program> factory) : T
 
         Assert.NotNull(template);
         Assert.Equal(TemplateType.Saas, template.Template);
-        Assert.Equal(UsageSize.Large, template.Usage);
-
-        AssertValidTemplate(template);
-        AssertLargeGranularitySpecs(template);
+        Assert.NotNull(template.Resources);
+        Assert.NotEmpty(template.Resources);
 
         await Verify(template);
-    }
-
-    //[Theory]
-    //[InlineData("small")]
-    //[InlineData("medium")]
-    //[InlineData("large")]
-    //public async Task Get_Templates_WithSaasAllGranularities_Returns_All_CloudProviders(string usage)
-    //{
-    //    var response = await Client.GetAsync($"/api/templates?template=saas&usage={usage}");
-    //    response.EnsureSuccessStatusCode();
-
-    //    await using var stream = await response.Content.ReadAsStreamAsync();
-    //    var template = await JsonSerializer.DeserializeAsync<TemplateDto>(stream, JsonOptions);
-
-    //    Assert.NotNull(template);
-    //    AssertValidTemplate(template);
-
-    //    // Verify all major clouds are represented in databases
-    //    if (template.Databases != null)
-    //    {
-    //        Assert.Contains(CloudProvider.AWS, template.Databases.Keys);
-    //        Assert.Contains(CloudProvider.Azure, template.Databases.Keys);
-    //        Assert.Contains(CloudProvider.GCP, template.Databases.Keys);
-    //    }
-        
-    //    // Verify AWS and Azure VMs are always present
-    //    if (template.VirtualMachines != null)
-    //    {
-    //        Assert.Contains(CloudProvider.AWS, template.VirtualMachines.Keys);
-    //        Assert.Contains(CloudProvider.Azure, template.VirtualMachines.Keys);
-    //    }
-    //}
-
-    [Fact]
-    public async Task Get_Templates_WithSaasSmall_Databases_Have_DatabaseEngine()
-    {
-        var response = await Client.GetAsync("/api/templates?template=saas&usage=small");
-        response.EnsureSuccessStatusCode();
-
-        await using var stream = await response.Content.ReadAsStreamAsync();
-        var template = await JsonSerializer.DeserializeAsync<TemplateDto>(stream, JsonOptions);
-
-        Assert.NotNull(template);
-        Assert.NotNull(template.Databases);
-
-        Assert.All(template.Databases.Values, db =>
-        {
-            Assert.False(string.IsNullOrWhiteSpace(db.DatabaseEngine));
-        });
-
-        await Verify(template.Databases);
-    }
-
-    [Fact]
-    public async Task Get_Templates_WithSaasSmall_Instances_Have_Required_Properties()
-    {
-        var response = await Client.GetAsync("/api/templates?template=saas&usage=small");
-        response.EnsureSuccessStatusCode();
-
-        await using var stream = await response.Content.ReadAsStreamAsync();
-        var template = await JsonSerializer.DeserializeAsync<TemplateDto>(stream, JsonOptions);
-
-        Assert.NotNull(template);
-        Assert.NotNull(template.VirtualMachines);
-
-        Assert.All(template.VirtualMachines.Values, vm =>
-        {
-            Assert.False(string.IsNullOrWhiteSpace(vm.InstanceName));
-            Assert.True(vm.CpuCores > 0);
-            Assert.True(vm.Memory > 0);
-            Assert.True(vm.PricePerMonth > 0);
-        });
     }
 
     [Fact]
@@ -161,156 +87,14 @@ public class TemplateControllerTests(WebApplicationFactory<Program> factory) : T
         Assert.Equal(HttpStatusCode.BadRequest, response.StatusCode);
     }
 
-    [Fact]
-    public async Task Get_Templates_WithSaasSmall_VM_Prices_Are_Reasonable()
+    private static void AssertContainsResource(TemplateDto template, ResourceSubCategory resource)
     {
-        var response = await Client.GetAsync("/api/templates?template=saas&usage=small");
-        response.EnsureSuccessStatusCode();
-
-        await using var stream = await response.Content.ReadAsStreamAsync();
-        var template = await JsonSerializer.DeserializeAsync<TemplateDto>(stream, JsonOptions);
-
-        Assert.NotNull(template);
-        Assert.NotNull(template.VirtualMachines);
-
-        // Small instance with 2 CPUs and 4GB memory should be reasonably priced
-        // Expecting somewhere between $5 and $100 per month for small instance
-        Assert.All(template.VirtualMachines.Values, vm =>
-        {
-            Assert.True(vm.PricePerMonth >= 5m, $"Price too low: {vm.PricePerMonth}");
-            Assert.True(vm.PricePerMonth <= 200m, $"Price too high: {vm.PricePerMonth}");
-        });
-    }
-
-    [Fact]
-    public async Task Get_Templates_WithSaasSmall_Has_LoadBalancers_And_Monitoring()
-    {
-        var response = await Client.GetAsync("/api/templates?template=saas&usage=small");
-        response.EnsureSuccessStatusCode();
-
-        await using var stream = await response.Content.ReadAsStreamAsync();
-        var template = await JsonSerializer.DeserializeAsync<TemplateDto>(stream, JsonOptions);
-
-        Assert.NotNull(template);
-        Assert.NotNull(template.LoadBalancers);
-        Assert.NotNull(template.Monitoring);
-
-        // Verify all major clouds are represented
-        Assert.Contains(CloudProvider.AWS, template.LoadBalancers.Keys);
-        Assert.Contains(CloudProvider.Azure, template.LoadBalancers.Keys);
-        Assert.Contains(CloudProvider.GCP, template.LoadBalancers.Keys);
-
-        Assert.Contains(CloudProvider.AWS, template.Monitoring.Keys);
-        Assert.Contains(CloudProvider.Azure, template.Monitoring.Keys);
-        Assert.Contains(CloudProvider.GCP, template.Monitoring.Keys);
-    }
-
-    [Fact]
-    public async Task Get_Templates_WithSaasSmall_LoadBalancers_Have_Correct_Pricing()
-    {
-        var response = await Client.GetAsync("/api/templates?template=saas&usage=small");
-        response.EnsureSuccessStatusCode();
-
-        await using var stream = await response.Content.ReadAsStreamAsync();
-        var template = await JsonSerializer.DeserializeAsync<TemplateDto>(stream, JsonOptions);
-
-        Assert.NotNull(template);
-        Assert.NotNull(template.LoadBalancers);
-
-        var awsLb = template.LoadBalancers[CloudProvider.AWS];
-        var azureLb = template.LoadBalancers[CloudProvider.Azure];
-        var gcpLb = template.LoadBalancers[CloudProvider.GCP];
-
-        Assert.Equal(16.51m, awsLb.PricePerMonth);
-        Assert.Equal(0m, azureLb.PricePerMonth);
-        Assert.Equal(18.41m, gcpLb.PricePerMonth);
-    }
-
-    [Fact]
-    public async Task Get_Templates_WithSaasSmall_Monitoring_Has_Correct_Pricing()
-    {
-        var response = await Client.GetAsync("/api/templates?template=saas&usage=small");
-        response.EnsureSuccessStatusCode();
-
-        await using var stream = await response.Content.ReadAsStreamAsync();
-        var template = await JsonSerializer.DeserializeAsync<TemplateDto>(stream, JsonOptions);
-
-        Assert.NotNull(template);
-        Assert.NotNull(template.Monitoring);
-
-        var awsMon = template.Monitoring[CloudProvider.AWS];
-        var azureMon = template.Monitoring[CloudProvider.Azure];
-        var gcpMon = template.Monitoring[CloudProvider.GCP];
-
-        Assert.Equal(5m, awsMon.PricePerMonth);
-        Assert.Equal(6m, azureMon.PricePerMonth);
-        Assert.Equal(4m, gcpMon.PricePerMonth);
-    }
-
-    private static void AssertValidTemplate(TemplateDto template)
-    {
-        Assert.NotNull(template);
-        Assert.NotNull(template.VirtualMachines);
-        Assert.NotEmpty(template.VirtualMachines);
-        Assert.NotNull(template.Databases);
-        Assert.NotEmpty(template.Databases);
-        Assert.NotNull(template.LoadBalancers);
-        Assert.NotEmpty(template.LoadBalancers);
-        Assert.NotNull(template.Monitoring);
-        Assert.NotEmpty(template.Monitoring);
-    }
-
-    private static void AssertSmallGranularitySpecs(TemplateDto template)
-    {
-        Assert.All(template.VirtualMachines!.Values, vm =>
-        {
-            Assert.True(vm.CpuCores >= 2, $"Expected at least 2 CPUs for Small, got {vm.CpuCores}");
-            Assert.True(vm.Memory >= 4, $"Expected at least 4GB for Small, got {vm.Memory}GB");
-        });
-
-        Assert.All(template.Databases!.Values, db =>
-        {
-            Assert.True(db.CpuCores >= 1, $"Expected at least 1 CPU for database Small, got {db.CpuCores}");
-            Assert.True(db.Memory >= 2, $"Expected at least 2GB for database Small, got {db.Memory}GB");
-        });
-    }
-
-    private static void AssertMediumGranularitySpecs(TemplateDto template)
-    {
-        Assert.All(template.VirtualMachines!.Values, vm =>
-        {
-            Assert.True(vm.CpuCores >= 4, $"Expected at least 4 CPUs for Medium, got {vm.CpuCores}");
-            Assert.True(vm.Memory >= 8, $"Expected at least 8GB for Medium, got {vm.Memory}GB");
-        });
-
-        Assert.All(template.Databases!.Values, db =>
-        {
-            Assert.True(db.CpuCores >= 2, $"Expected at least 2 CPUs for database Medium, got {db.CpuCores}");
-            Assert.True(db.Memory >= 4, $"Expected at least 4GB for database Medium, got {db.Memory}GB");
-        });
-    }
-
-    private static void AssertLargeGranularitySpecs(TemplateDto template)
-    {
-        Assert.All(template.VirtualMachines!.Values, vm =>
-        {
-            Assert.True(vm.CpuCores >= 8, $"Expected at least 8 CPUs for Large, got {vm.CpuCores}");
-            Assert.True(vm.Memory >= 16, $"Expected at least 16GB for Large, got {vm.Memory}GB");
-        });
-
-        Assert.All(template.Databases!.Values, db =>
-        {
-            Assert.True(db.CpuCores >= 4, $"Expected at least 4 CPUs for database Large, got {db.CpuCores}");
-            Assert.True(db.Memory >= 8, $"Expected at least 8GB for database Large, got {db.Memory}GB");
-        });
+        Assert.Contains(resource, template.Resources);
     }
 
     private static void AssertEmptyTemplate(TemplateDto template)
     {
-        Assert.True(template.VirtualMachines == null || template.VirtualMachines.Count == 0);
-        Assert.True(template.Databases == null || template.Databases.Count == 0);
-        Assert.True(template.LoadBalancers == null || template.LoadBalancers.Count == 0);
-        Assert.True(template.Monitoring == null || template.Monitoring.Count == 0);
+        Assert.True(template.Resources == null || template.Resources.Count == 0);
     }
 
     // WordPress template tests
@@ -325,13 +109,12 @@ public class TemplateControllerTests(WebApplicationFactory<Program> factory) : T
 
         Assert.NotNull(template);
         Assert.Equal(TemplateType.WordPress, template.Template);
-        Assert.Equal(UsageSize.Small, template.Usage);
-        Assert.NotNull(template.VirtualMachines);
-        Assert.NotEmpty(template.VirtualMachines);
-        Assert.NotNull(template.Databases);
-        Assert.NotEmpty(template.Databases);
-        Assert.NotNull(template.LoadBalancers);
-        Assert.NotEmpty(template.LoadBalancers);
+        Assert.NotNull(template.Resources);
+        Assert.NotEmpty(template.Resources);
+
+        AssertContainsResource(template, ResourceSubCategory.VirtualMachines);
+        AssertContainsResource(template, ResourceSubCategory.Relational);
+        AssertContainsResource(template, ResourceSubCategory.LoadBalancer);
     }
 
     [Fact]
@@ -345,7 +128,8 @@ public class TemplateControllerTests(WebApplicationFactory<Program> factory) : T
 
         Assert.NotNull(template);
         Assert.Equal(TemplateType.WordPress, template.Template);
-        Assert.Equal(UsageSize.Medium, template.Usage);
+        Assert.NotNull(template.Resources);
+        Assert.NotEmpty(template.Resources);
     }
 
     [Fact]
@@ -359,7 +143,8 @@ public class TemplateControllerTests(WebApplicationFactory<Program> factory) : T
 
         Assert.NotNull(template);
         Assert.Equal(TemplateType.WordPress, template.Template);
-        Assert.Equal(UsageSize.Large, template.Usage);
+        Assert.NotNull(template.Resources);
+        Assert.NotEmpty(template.Resources);
     }
 
     // REST API template tests
@@ -374,15 +159,13 @@ public class TemplateControllerTests(WebApplicationFactory<Program> factory) : T
 
         Assert.NotNull(template);
         Assert.Equal(TemplateType.RestApi, template.Template);
-        Assert.Equal(UsageSize.Small, template.Usage);
-        Assert.NotNull(template.VirtualMachines);
-        Assert.NotEmpty(template.VirtualMachines);
-        Assert.NotNull(template.Databases);
-        Assert.NotEmpty(template.Databases);
-        Assert.NotNull(template.LoadBalancers);
-        Assert.NotEmpty(template.LoadBalancers);
-        Assert.NotNull(template.Monitoring);
-        Assert.NotEmpty(template.Monitoring);
+        Assert.NotNull(template.Resources);
+        Assert.NotEmpty(template.Resources);
+
+        AssertContainsResource(template, ResourceSubCategory.VirtualMachines);
+        AssertContainsResource(template, ResourceSubCategory.Relational);
+        AssertContainsResource(template, ResourceSubCategory.LoadBalancer);
+        AssertContainsResource(template, ResourceSubCategory.Monitoring);
     }
 
     [Fact]
@@ -396,7 +179,8 @@ public class TemplateControllerTests(WebApplicationFactory<Program> factory) : T
 
         Assert.NotNull(template);
         Assert.Equal(TemplateType.RestApi, template.Template);
-        Assert.Equal(UsageSize.Medium, template.Usage);
+        Assert.NotNull(template.Resources);
+        Assert.NotEmpty(template.Resources);
     }
 
     [Fact]
@@ -410,7 +194,8 @@ public class TemplateControllerTests(WebApplicationFactory<Program> factory) : T
 
         Assert.NotNull(template);
         Assert.Equal(TemplateType.RestApi, template.Template);
-        Assert.Equal(UsageSize.Large, template.Usage);
+        Assert.NotNull(template.Resources);
+        Assert.NotEmpty(template.Resources);
     }
 
     // Static Site template tests
@@ -425,12 +210,12 @@ public class TemplateControllerTests(WebApplicationFactory<Program> factory) : T
 
         Assert.NotNull(template);
         Assert.Equal(TemplateType.StaticSite, template.Template);
-        Assert.Equal(UsageSize.Small, template.Usage);
-        Assert.NotNull(template.LoadBalancers);
-        Assert.NotEmpty(template.LoadBalancers);
-        // Static sites don't need VMs or databases
-        Assert.True(template.VirtualMachines == null || template.VirtualMachines.Count == 0);
-        Assert.True(template.Databases == null || template.Databases.Count == 0);
+        Assert.NotNull(template.Resources);
+        Assert.NotEmpty(template.Resources);
+
+        AssertContainsResource(template, ResourceSubCategory.LoadBalancer);
+        Assert.DoesNotContain(ResourceSubCategory.VirtualMachines, template.Resources);
+        Assert.DoesNotContain(ResourceSubCategory.Relational, template.Resources);
     }
 
     [Fact]
@@ -444,7 +229,8 @@ public class TemplateControllerTests(WebApplicationFactory<Program> factory) : T
 
         Assert.NotNull(template);
         Assert.Equal(TemplateType.StaticSite, template.Template);
-        Assert.Equal(UsageSize.Medium, template.Usage);
+        Assert.NotNull(template.Resources);
+        Assert.NotEmpty(template.Resources);
     }
 
     [Fact]
@@ -458,7 +244,8 @@ public class TemplateControllerTests(WebApplicationFactory<Program> factory) : T
 
         Assert.NotNull(template);
         Assert.Equal(TemplateType.StaticSite, template.Template);
-        Assert.Equal(UsageSize.Large, template.Usage);
+        Assert.NotNull(template.Resources);
+        Assert.NotEmpty(template.Resources);
     }
 
     // E-commerce template tests
@@ -473,15 +260,13 @@ public class TemplateControllerTests(WebApplicationFactory<Program> factory) : T
 
         Assert.NotNull(template);
         Assert.Equal(TemplateType.Ecommerce, template.Template);
-        Assert.Equal(UsageSize.Small, template.Usage);
-        Assert.NotNull(template.VirtualMachines);
-        Assert.NotEmpty(template.VirtualMachines);
-        Assert.NotNull(template.Databases);
-        Assert.NotEmpty(template.Databases);
-        Assert.NotNull(template.LoadBalancers);
-        Assert.NotEmpty(template.LoadBalancers);
-        Assert.NotNull(template.Monitoring);
-        Assert.NotEmpty(template.Monitoring);
+        Assert.NotNull(template.Resources);
+        Assert.NotEmpty(template.Resources);
+
+        AssertContainsResource(template, ResourceSubCategory.VirtualMachines);
+        AssertContainsResource(template, ResourceSubCategory.Relational);
+        AssertContainsResource(template, ResourceSubCategory.LoadBalancer);
+        AssertContainsResource(template, ResourceSubCategory.Monitoring);
     }
 
     [Fact]
@@ -495,7 +280,8 @@ public class TemplateControllerTests(WebApplicationFactory<Program> factory) : T
 
         Assert.NotNull(template);
         Assert.Equal(TemplateType.Ecommerce, template.Template);
-        Assert.Equal(UsageSize.Medium, template.Usage);
+        Assert.NotNull(template.Resources);
+        Assert.NotEmpty(template.Resources);
     }
 
     [Fact]
@@ -509,7 +295,8 @@ public class TemplateControllerTests(WebApplicationFactory<Program> factory) : T
 
         Assert.NotNull(template);
         Assert.Equal(TemplateType.Ecommerce, template.Template);
-        Assert.Equal(UsageSize.Large, template.Usage);
+        Assert.NotNull(template.Resources);
+        Assert.NotEmpty(template.Resources);
     }
 
     // Mobile App Backend template tests
@@ -524,15 +311,13 @@ public class TemplateControllerTests(WebApplicationFactory<Program> factory) : T
 
         Assert.NotNull(template);
         Assert.Equal(TemplateType.MobileAppBackend, template.Template);
-        Assert.Equal(UsageSize.Small, template.Usage);
-        Assert.NotNull(template.VirtualMachines);
-        Assert.NotEmpty(template.VirtualMachines);
-        Assert.NotNull(template.Databases);
-        Assert.NotEmpty(template.Databases);
-        Assert.NotNull(template.LoadBalancers);
-        Assert.NotEmpty(template.LoadBalancers);
-        Assert.NotNull(template.Monitoring);
-        Assert.NotEmpty(template.Monitoring);
+        Assert.NotNull(template.Resources);
+        Assert.NotEmpty(template.Resources);
+
+        AssertContainsResource(template, ResourceSubCategory.VirtualMachines);
+        AssertContainsResource(template, ResourceSubCategory.Relational);
+        AssertContainsResource(template, ResourceSubCategory.LoadBalancer);
+        AssertContainsResource(template, ResourceSubCategory.Monitoring);
     }
 
     [Fact]
@@ -546,7 +331,8 @@ public class TemplateControllerTests(WebApplicationFactory<Program> factory) : T
 
         Assert.NotNull(template);
         Assert.Equal(TemplateType.MobileAppBackend, template.Template);
-        Assert.Equal(UsageSize.Medium, template.Usage);
+        Assert.NotNull(template.Resources);
+        Assert.NotEmpty(template.Resources);
     }
 
     [Fact]
@@ -560,7 +346,8 @@ public class TemplateControllerTests(WebApplicationFactory<Program> factory) : T
 
         Assert.NotNull(template);
         Assert.Equal(TemplateType.MobileAppBackend, template.Template);
-        Assert.Equal(UsageSize.Large, template.Usage);
+        Assert.NotNull(template.Resources);
+        Assert.NotEmpty(template.Resources);
     }
 
     // Headless Frontend + API template tests
@@ -575,15 +362,13 @@ public class TemplateControllerTests(WebApplicationFactory<Program> factory) : T
 
         Assert.NotNull(template);
         Assert.Equal(TemplateType.HeadlessFrontendApi, template.Template);
-        Assert.Equal(UsageSize.Small, template.Usage);
-        Assert.NotNull(template.VirtualMachines);
-        Assert.NotEmpty(template.VirtualMachines);
-        Assert.NotNull(template.Databases);
-        Assert.NotEmpty(template.Databases);
-        Assert.NotNull(template.LoadBalancers);
-        Assert.NotEmpty(template.LoadBalancers);
-        Assert.NotNull(template.Monitoring);
-        Assert.NotEmpty(template.Monitoring);
+        Assert.NotNull(template.Resources);
+        Assert.NotEmpty(template.Resources);
+
+        AssertContainsResource(template, ResourceSubCategory.VirtualMachines);
+        AssertContainsResource(template, ResourceSubCategory.Relational);
+        AssertContainsResource(template, ResourceSubCategory.LoadBalancer);
+        AssertContainsResource(template, ResourceSubCategory.Monitoring);
     }
 
     [Fact]
@@ -597,7 +382,8 @@ public class TemplateControllerTests(WebApplicationFactory<Program> factory) : T
 
         Assert.NotNull(template);
         Assert.Equal(TemplateType.HeadlessFrontendApi, template.Template);
-        Assert.Equal(UsageSize.Medium, template.Usage);
+        Assert.NotNull(template.Resources);
+        Assert.NotEmpty(template.Resources);
     }
 
     [Fact]
@@ -611,7 +397,8 @@ public class TemplateControllerTests(WebApplicationFactory<Program> factory) : T
 
         Assert.NotNull(template);
         Assert.Equal(TemplateType.HeadlessFrontendApi, template.Template);
-        Assert.Equal(UsageSize.Large, template.Usage);
+        Assert.NotNull(template.Resources);
+        Assert.NotEmpty(template.Resources);
     }
 
     // Data Analytics & Reporting Platform template tests
@@ -626,15 +413,13 @@ public class TemplateControllerTests(WebApplicationFactory<Program> factory) : T
 
         Assert.NotNull(template);
         Assert.Equal(TemplateType.DataAnalytics, template.Template);
-        Assert.Equal(UsageSize.Small, template.Usage);
-        Assert.NotNull(template.VirtualMachines);
-        Assert.NotEmpty(template.VirtualMachines);
-        Assert.NotNull(template.Databases);
-        Assert.NotEmpty(template.Databases);
-        Assert.NotNull(template.LoadBalancers);
-        Assert.NotEmpty(template.LoadBalancers);
-        Assert.NotNull(template.Monitoring);
-        Assert.NotEmpty(template.Monitoring);
+        Assert.NotNull(template.Resources);
+        Assert.NotEmpty(template.Resources);
+
+        AssertContainsResource(template, ResourceSubCategory.VirtualMachines);
+        AssertContainsResource(template, ResourceSubCategory.Relational);
+        AssertContainsResource(template, ResourceSubCategory.LoadBalancer);
+        AssertContainsResource(template, ResourceSubCategory.Monitoring);
     }
 
     [Fact]
@@ -648,7 +433,8 @@ public class TemplateControllerTests(WebApplicationFactory<Program> factory) : T
 
         Assert.NotNull(template);
         Assert.Equal(TemplateType.DataAnalytics, template.Template);
-        Assert.Equal(UsageSize.Medium, template.Usage);
+        Assert.NotNull(template.Resources);
+        Assert.NotEmpty(template.Resources);
     }
 
     [Fact]
@@ -662,7 +448,8 @@ public class TemplateControllerTests(WebApplicationFactory<Program> factory) : T
 
         Assert.NotNull(template);
         Assert.Equal(TemplateType.DataAnalytics, template.Template);
-        Assert.Equal(UsageSize.Large, template.Usage);
+        Assert.NotNull(template.Resources);
+        Assert.NotEmpty(template.Resources);
     }
 
     // Machine Learning Inference Service template tests
@@ -677,15 +464,13 @@ public class TemplateControllerTests(WebApplicationFactory<Program> factory) : T
 
         Assert.NotNull(template);
         Assert.Equal(TemplateType.MachineLearning, template.Template);
-        Assert.Equal(UsageSize.Small, template.Usage);
-        Assert.NotNull(template.VirtualMachines);
-        Assert.NotEmpty(template.VirtualMachines);
-        Assert.NotNull(template.LoadBalancers);
-        Assert.NotEmpty(template.LoadBalancers);
-        Assert.NotNull(template.Monitoring);
-        Assert.NotEmpty(template.Monitoring);
-        // Machine Learning typically doesn't need a traditional database
-        Assert.True(template.Databases == null || template.Databases.Count == 0);
+        Assert.NotNull(template.Resources);
+        Assert.NotEmpty(template.Resources);
+
+        AssertContainsResource(template, ResourceSubCategory.VirtualMachines);
+        AssertContainsResource(template, ResourceSubCategory.LoadBalancer);
+        AssertContainsResource(template, ResourceSubCategory.Monitoring);
+        Assert.DoesNotContain(ResourceSubCategory.Relational, template.Resources);
     }
 
     [Fact]
@@ -699,7 +484,8 @@ public class TemplateControllerTests(WebApplicationFactory<Program> factory) : T
 
         Assert.NotNull(template);
         Assert.Equal(TemplateType.MachineLearning, template.Template);
-        Assert.Equal(UsageSize.Medium, template.Usage);
+        Assert.NotNull(template.Resources);
+        Assert.NotEmpty(template.Resources);
     }
 
     [Fact]
@@ -713,7 +499,8 @@ public class TemplateControllerTests(WebApplicationFactory<Program> factory) : T
 
         Assert.NotNull(template);
         Assert.Equal(TemplateType.MachineLearning, template.Template);
-        Assert.Equal(UsageSize.Large, template.Usage);
+        Assert.NotNull(template.Resources);
+        Assert.NotEmpty(template.Resources);
     }
 
     // Serverless Event-Driven Application template tests
@@ -728,13 +515,13 @@ public class TemplateControllerTests(WebApplicationFactory<Program> factory) : T
 
         Assert.NotNull(template);
         Assert.Equal(TemplateType.ServerlessEventDriven, template.Template);
-        Assert.Equal(UsageSize.Small, template.Usage);
-        Assert.NotNull(template.LoadBalancers);
-        Assert.NotEmpty(template.LoadBalancers);
-        // Serverless doesn't need VMs or databases
-        Assert.True(template.VirtualMachines == null || template.VirtualMachines.Count == 0);
-        Assert.True(template.Databases == null || template.Databases.Count == 0);
-        Assert.True(template.Monitoring == null || template.Monitoring.Count == 0);
+        Assert.NotNull(template.Resources);
+        Assert.NotEmpty(template.Resources);
+
+        AssertContainsResource(template, ResourceSubCategory.LoadBalancer);
+        Assert.DoesNotContain(ResourceSubCategory.VirtualMachines, template.Resources);
+        Assert.DoesNotContain(ResourceSubCategory.Relational, template.Resources);
+        Assert.DoesNotContain(ResourceSubCategory.Monitoring, template.Resources);
     }
 
     [Fact]
@@ -748,7 +535,8 @@ public class TemplateControllerTests(WebApplicationFactory<Program> factory) : T
 
         Assert.NotNull(template);
         Assert.Equal(TemplateType.ServerlessEventDriven, template.Template);
-        Assert.Equal(UsageSize.Medium, template.Usage);
+        Assert.NotNull(template.Resources);
+        Assert.NotEmpty(template.Resources);
     }
 
     [Fact]
@@ -762,7 +550,8 @@ public class TemplateControllerTests(WebApplicationFactory<Program> factory) : T
 
         Assert.NotNull(template);
         Assert.Equal(TemplateType.ServerlessEventDriven, template.Template);
-        Assert.Equal(UsageSize.Large, template.Usage);
+        Assert.NotNull(template.Resources);
+        Assert.NotEmpty(template.Resources);
     }
 
     // Blank template tests
@@ -777,7 +566,6 @@ public class TemplateControllerTests(WebApplicationFactory<Program> factory) : T
 
         Assert.NotNull(template);
         Assert.Equal(TemplateType.Blank, template.Template);
-        Assert.Equal(UsageSize.Small, template.Usage);
         AssertEmptyTemplate(template);
     }
 
@@ -792,7 +580,6 @@ public class TemplateControllerTests(WebApplicationFactory<Program> factory) : T
 
         Assert.NotNull(template);
         Assert.Equal(TemplateType.Blank, template.Template);
-        Assert.Equal(UsageSize.Medium, template.Usage);
         AssertEmptyTemplate(template);
     }
 
@@ -807,7 +594,6 @@ public class TemplateControllerTests(WebApplicationFactory<Program> factory) : T
 
         Assert.NotNull(template);
         Assert.Equal(TemplateType.Blank, template.Template);
-        Assert.Equal(UsageSize.Large, template.Usage);
         AssertEmptyTemplate(template);
     }
 }

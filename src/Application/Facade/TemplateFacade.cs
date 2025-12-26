@@ -17,62 +17,61 @@ public class TemplateFacade(IResourceNormalizationService resourceNormalizationS
         var result = new TemplateDto()
         {
             Template = request.Template,
-            Usage = request.Usage,
         };
 
         switch (request.Template)
         {
             case TemplateType.Saas:
-                result.VirtualMachines = await GetVirtualMachinesAsync(request.Usage);
-                result.Databases = await GetDatabasesAsync(request.Usage);
-                result.LoadBalancers = GetLoadBalancers(request.Usage);
-                result.Monitoring = GetMonitoring(request.Usage);
+                result.Resources.Add(ResourceSubCategory.VirtualMachines);
+                result.Resources.Add(ResourceSubCategory.Relational);
+                result.Resources.Add(ResourceSubCategory.LoadBalancer);
+                result.Resources.Add(ResourceSubCategory.Monitoring);
                 break;
             case TemplateType.WordPress:
-                result.VirtualMachines = await GetVirtualMachinesAsync(request.Usage);
-                result.Databases = await GetDatabasesAsync(request.Usage);
-                result.LoadBalancers = GetLoadBalancers(request.Usage);
+                result.Resources.Add(ResourceSubCategory.VirtualMachines);
+                result.Resources.Add(ResourceSubCategory.Relational);
+                result.Resources.Add(ResourceSubCategory.LoadBalancer);
                 break;
             case TemplateType.RestApi:
-                result.VirtualMachines = await GetVirtualMachinesAsync(request.Usage);
-                result.Databases = await GetDatabasesAsync(request.Usage);
-                result.LoadBalancers = GetLoadBalancers(request.Usage);
-                result.Monitoring = GetMonitoring(request.Usage);
+                result.Resources.Add(ResourceSubCategory.VirtualMachines);
+                result.Resources.Add(ResourceSubCategory.Relational);
+                result.Resources.Add(ResourceSubCategory.LoadBalancer);
+                result.Resources.Add(ResourceSubCategory.Monitoring);
                 break;
             case TemplateType.StaticSite:
-                result.LoadBalancers = GetLoadBalancers(request.Usage);
+                result.Resources.Add(ResourceSubCategory.LoadBalancer);
                 break;
             case TemplateType.Ecommerce:
-                result.VirtualMachines = await GetVirtualMachinesAsync(request.Usage);
-                result.Databases = await GetDatabasesAsync(request.Usage);
-                result.LoadBalancers = GetLoadBalancers(request.Usage);
-                result.Monitoring = GetMonitoring(request.Usage);
+                result.Resources.Add(ResourceSubCategory.VirtualMachines);
+                result.Resources.Add(ResourceSubCategory.Relational);
+                result.Resources.Add(ResourceSubCategory.LoadBalancer);
+                result.Resources.Add(ResourceSubCategory.Monitoring);
                 break;
             case TemplateType.MobileAppBackend:
-                result.VirtualMachines = await GetVirtualMachinesAsync(request.Usage);
-                result.Databases = await GetDatabasesAsync(request.Usage);
-                result.LoadBalancers = GetLoadBalancers(request.Usage);
-                result.Monitoring = GetMonitoring(request.Usage);
+                result.Resources.Add(ResourceSubCategory.VirtualMachines);
+                result.Resources.Add(ResourceSubCategory.Relational);
+                result.Resources.Add(ResourceSubCategory.LoadBalancer);
+                result.Resources.Add(ResourceSubCategory.Monitoring);
                 break;
             case TemplateType.HeadlessFrontendApi:
-                result.VirtualMachines = await GetVirtualMachinesAsync(request.Usage);
-                result.Databases = await GetDatabasesAsync(request.Usage);
-                result.LoadBalancers = GetLoadBalancers(request.Usage);
-                result.Monitoring = GetMonitoring(request.Usage);
+                result.Resources.Add(ResourceSubCategory.VirtualMachines);
+                result.Resources.Add(ResourceSubCategory.Relational);
+                result.Resources.Add(ResourceSubCategory.LoadBalancer);
+                result.Resources.Add(ResourceSubCategory.Monitoring);
                 break;
             case TemplateType.DataAnalytics:
-                result.VirtualMachines = await GetVirtualMachinesAsync(request.Usage);
-                result.Databases = await GetDatabasesAsync(request.Usage);
-                result.LoadBalancers = GetLoadBalancers(request.Usage);
-                result.Monitoring = GetMonitoring(request.Usage);
+                result.Resources.Add(ResourceSubCategory.VirtualMachines);
+                result.Resources.Add(ResourceSubCategory.Relational);
+                result.Resources.Add(ResourceSubCategory.LoadBalancer);
+                result.Resources.Add(ResourceSubCategory.Monitoring);
                 break;
             case TemplateType.MachineLearning:
-                result.VirtualMachines = await GetVirtualMachinesAsync(request.Usage);
-                result.LoadBalancers = GetLoadBalancers(request.Usage);
-                result.Monitoring = GetMonitoring(request.Usage);
+                result.Resources.Add(ResourceSubCategory.VirtualMachines);
+                result.Resources.Add(ResourceSubCategory.LoadBalancer);
+                result.Resources.Add(ResourceSubCategory.Monitoring);
                 break;
             case TemplateType.ServerlessEventDriven:
-                result.LoadBalancers = GetLoadBalancers(request.Usage);
+                result.Resources.Add(ResourceSubCategory.LoadBalancer);
                 break;
             case TemplateType.Blank:
                 // Blank template has no resources

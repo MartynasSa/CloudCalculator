@@ -22,7 +22,6 @@ public class TemplateFacadeTests(WebApplicationFactory<Program> factory) : TestB
         var templateDto = new TemplateDto
         {
             Template = TemplateType.Saas,
-            Usage = UsageSize.Small
         };
 
         // Act
@@ -47,7 +46,6 @@ public class TemplateFacadeTests(WebApplicationFactory<Program> factory) : TestB
         var templateDto = new TemplateDto
         {
             Template = TemplateType.Saas,
-            Usage = UsageSize.Small
         };
 
         // Act
@@ -71,7 +69,6 @@ public class TemplateFacadeTests(WebApplicationFactory<Program> factory) : TestB
         var templateDto = new TemplateDto
         {
             Template = TemplateType.Saas,
-            Usage = UsageSize.Small
         };
 
         // Act
@@ -103,7 +100,6 @@ public class TemplateFacadeTests(WebApplicationFactory<Program> factory) : TestB
         var templateDto = new TemplateDto
         {
             Template = TemplateType.Blank,
-            Usage = UsageSize.Small
         };
 
         // Act
@@ -130,7 +126,7 @@ public class TemplateFacadeTests(WebApplicationFactory<Program> factory) : TestB
         var templateDto = new TemplateDto
         {
             Template = TemplateType.StaticSite,
-            Usage = UsageSize.Small
+  
         };
 
         // Act
@@ -159,7 +155,6 @@ public class TemplateFacadeTests(WebApplicationFactory<Program> factory) : TestB
         var templateDto = new TemplateDto
         {
             Template = TemplateType.Saas,
-            Usage = UsageSize.Small
         };
 
         // Act
@@ -190,7 +185,6 @@ public class TemplateFacadeTests(WebApplicationFactory<Program> factory) : TestB
         var templateDto = new TemplateDto
         {
             Template = TemplateType.WordPress,
-            Usage = UsageSize.Medium
         };
 
         // Act

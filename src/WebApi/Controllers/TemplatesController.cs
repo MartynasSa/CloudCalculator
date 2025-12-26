@@ -24,7 +24,7 @@ public class TemplatesController(ITemplateFacade templateFacade) : Controller
     [HttpPost("templates/cost-comparison")]
     public async Task<IActionResult> GetCostComparison([FromBody] TemplateDto templateDto, CancellationToken ct)
     {
-        if (templateDto.Template == TemplateType.None || templateDto.Usage == UsageSize.None)
+        if (templateDto.Template == TemplateType.None)
         {
             return BadRequest("Template and Usage must be specified with valid values");
         }
