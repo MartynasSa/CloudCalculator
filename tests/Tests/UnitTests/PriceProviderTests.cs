@@ -55,7 +55,7 @@ public class PriceProviderTests
         };
 
         // Act
-        var result = _priceProvider.GetCheapestComputeInstance(instances, 2, 4, CloudProvider.AWS);
+        var result = _priceProvider.GetCheapestComputeInstance(instances, 2, 4);
 
         // Assert
         Assert.NotNull(result);
@@ -83,7 +83,7 @@ public class PriceProviderTests
         };
 
         // Act
-        var result = _priceProvider.GetCheapestComputeInstance(instances, 2, 4, CloudProvider.AWS);
+        var result = _priceProvider.GetCheapestComputeInstance(instances, 2, 4);
 
         // Assert
         Assert.Null(result);
@@ -120,7 +120,7 @@ public class PriceProviderTests
         };
 
         // Act
-        var result = _priceProvider.GetCheapestComputeInstance(instances, 2, 4, CloudProvider.AWS);
+        var result = _priceProvider.GetCheapestComputeInstance(instances, 2, 4);
 
         // Assert
         Assert.NotNull(result);
@@ -159,7 +159,7 @@ public class PriceProviderTests
         };
 
         // Act
-        var result = _priceProvider.GetCheapestComputeInstance(instances, 2, 4, CloudProvider.AWS);
+        var result = _priceProvider.GetCheapestComputeInstance(instances, 2, 4);
 
         // Assert
         Assert.NotNull(result);
@@ -197,7 +197,7 @@ public class PriceProviderTests
         };
 
         // Act
-        var result = _priceProvider.GetCheapestDatabase(databases, 1, 2, CloudProvider.AWS);
+        var result = _priceProvider.GetCheapestDatabase(databases, 1, 2);
 
         // Assert
         Assert.NotNull(result);

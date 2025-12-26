@@ -8,14 +8,12 @@ public interface IPriceProvider
     NormalizedComputeInstanceDto? GetCheapestComputeInstance(
         List<NormalizedComputeInstanceDto> instances,
         int minCpu,
-        double minMemory,
-        CloudProvider cloud);
+        double minMemory);
 
     NormalizedDatabaseDto? GetCheapestDatabase(
         List<NormalizedDatabaseDto> databases,
         int minCpu,
-        double minMemory,
-        CloudProvider cloud);
+        double minMemory);
 
     NormalizedLoadBalancerDto? GetLoadBalancer(
         List<NormalizedLoadBalancerDto> loadBalancers,
@@ -31,8 +29,7 @@ public class PriceProvider : IPriceProvider
     public NormalizedComputeInstanceDto? GetCheapestComputeInstance(
         List<NormalizedComputeInstanceDto> instances,
         int minCpu,
-        double minMemory,
-        CloudProvider cloud)
+        double minMemory)
     {
         return instances
             .Where(i => (i.VCpu ?? 0) >= minCpu)
@@ -45,8 +42,7 @@ public class PriceProvider : IPriceProvider
     public NormalizedDatabaseDto? GetCheapestDatabase(
         List<NormalizedDatabaseDto> databases,
         int minCpu,
-        double minMemory,
-        CloudProvider cloud)
+        double minMemory)
     {
         return databases
             .Where(i => (i.VCpu ?? 0) >= minCpu)

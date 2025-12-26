@@ -123,7 +123,7 @@ public class CalculatorFacade(
             .Where(i => i.VCpu.HasValue && i.Memory != null)
             .ToList();
 
-        var cheapestInstance = priceProvider.GetCheapestComputeInstance(instances, specs.MinCpu, specs.MinMemory, cloud);
+        var cheapestInstance = priceProvider.GetCheapestComputeInstance(instances, specs.MinCpu, specs.MinMemory);
         return calculatorService.CalculateVirtualMachineCost(cheapestInstance);
     }
 
@@ -135,7 +135,7 @@ public class CalculatorFacade(
             .Where(d => d.VCpu.HasValue && d.Memory != null)
             .ToList();
 
-        var cheapestDatabase = priceProvider.GetCheapestDatabase(databases, specs.MinCpu, specs.MinMemory, cloud);
+        var cheapestDatabase = priceProvider.GetCheapestDatabase(databases, specs.MinCpu, specs.MinMemory);
         return calculatorService.CalculateDatabaseCost(cheapestDatabase);
     }
 
@@ -170,8 +170,7 @@ public class CalculatorFacade(
             var matchedInstance = priceProvider.GetCheapestComputeInstance(
                 cloudInstances,
                 specs.MinCpu,
-                specs.MinMemory,
-                cloud);
+                specs.MinMemory);
 
             if (matchedInstance != null)
             {
@@ -208,8 +207,7 @@ public class CalculatorFacade(
             var matchedDatabase = priceProvider.GetCheapestDatabase(
                 cloudDatabases,
                 specs.MinCpu,
-                specs.MinMemory,
-                cloud);
+                specs.MinMemory);
 
             if (matchedDatabase != null)
             {
@@ -241,48 +239,6 @@ public class CalculatorFacade(
         }
 
         return null;
-    }
-
-    private static (int MinCpu, double MinMemory) GetVirtualMachineSpecs(UsageSize usage)
-    {
-        // Delegated to CalculatorService, but kept here for now to maintain backward compatibility
-        return usage switch
-        {
-            UsageSize.Small => (MinCpu: 2, MinMemory: 4),
-            UsageSize.Medium => (MinCpu: 4, MinMemory: 8),
-            UsageSize.Large => (MinCpu: 8, MinMemory: 16),
-            _ => throw new ArgumentOutOfRangeException(nameof(usage)),
-        };
-    }
-
-    private static (int MinCpu, double MinMemory) GetDatabaseSpecs(UsageSize usage)
-    {
-        // Delegated to CalculatorService, but kept here for now to maintain backward compatibility
-        return usage switch
-        {
-            UsageSize.Small => (MinCpu: 1, MinMemory: 2),
-            UsageSize.Medium => (MinCpu: 2, MinMemory: 4),
-            UsageSize.Large => (MinCpu: 4, MinMemory: 8),
-            _ => throw new ArgumentOutOfRangeException(nameof(usage)),
-        };
-    }
-
-    private NormalizedComputeInstanceDto? FindCheapestInstance(
-        List<NormalizedComputeInstanceDto> instances,
-        int minCpu,
-        double minMemory,
-        CloudProvider cloud)
-    {
-        return priceProvider.GetCheapestComputeInstance(instances, minCpu, minMemory, cloud);
-    }
-
-    private NormalizedDatabaseDto? FindCheapestInstance(
-        List<NormalizedDatabaseDto> instances,
-        int minCpu,
-        double minMemory,
-        CloudProvider cloud)
-    {
-        return priceProvider.GetCheapestDatabase(instances, minCpu, minMemory, cloud);
     }
 
     private Dictionary<CloudProvider, TemplateLoadBalancerDto> GetLoadBalancers(UsageSize usage)
