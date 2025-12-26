@@ -7,7 +7,7 @@ namespace Application.Facade;
 public interface ITemplateFacade
 {
     Task<TemplateDto> GetTemplateAsync(TemplateRequest request);
-    Task<TemplateCostComparisonDto> CalculateCostComparisonsAsync(TemplateDto templateDto);
+    Task<TemplateCostComparisonDto> CalculateCostComparisonsAsync(TemplateDto templateDto, CancellationToken ct = default);
 }
 
 public class TemplateFacade(IResourceNormalizationService resourceNormalizationService) : ITemplateFacade
@@ -294,17 +294,17 @@ public class TemplateFacade(IResourceNormalizationService resourceNormalizationS
         return result;
     }
 
-    public async Task<TemplateCostComparisonDto> CalculateCostComparisonsAsync(TemplateDto templateDto)
+    public async Task<TemplateCostComparisonDto> CalculateCostComparisonsAsync(TemplateDto templateDto, CancellationToken ct = default)
     {
         var result = new TemplateCostComparisonDto
         {
             Template = templateDto.Template
         };
 
-        // Calculate costs for each usage size
+        // Calculate costs for each usage size concurrently
         var usageSizes = new[] { UsageSize.Small, UsageSize.Medium, UsageSize.Large };
 
-        foreach (var usageSize in usageSizes)
+        var templateTasks = usageSizes.Select(async usageSize =>
         {
             var request = new TemplateRequest
             {
@@ -362,8 +362,11 @@ public class TemplateFacade(IResourceNormalizationService resourceNormalizationS
                 };
             }
 
-            result.UsageBreakdowns.Add(usageBreakdown);
-        }
+            return usageBreakdown;
+        }).ToList();
+
+        var breakdowns = await Task.WhenAll(templateTasks);
+        result.UsageBreakdowns.AddRange(breakdowns);
 
         return result;
     }

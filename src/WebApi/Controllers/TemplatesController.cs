@@ -24,12 +24,12 @@ public class TemplatesController(ITemplateFacade templateFacade) : Controller
     [HttpPost("templates/cost-comparison")]
     public async Task<IActionResult> GetCostComparison([FromBody] TemplateDto templateDto, CancellationToken ct)
     {
-        if (templateDto == null || templateDto.Template == TemplateType.None)
+        if (templateDto == null || templateDto.Template == TemplateType.None || !Enum.IsDefined(typeof(TemplateType), templateDto.Template))
         {
             return BadRequest("Template must be specified with a valid value");
         }
 
-        var result = await templateFacade.CalculateCostComparisonsAsync(templateDto);
+        var result = await templateFacade.CalculateCostComparisonsAsync(templateDto, ct);
         return Ok(result);
     }
 }
