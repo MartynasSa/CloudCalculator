@@ -74,13 +74,13 @@
     <None Update="Data\Network\LB\gcp.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Data\Databases\File\aws.json">
+    <None Update="Data\Storage\Blob\aws.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Data\Databases\File\azure.json">
+    <None Update="Data\Storage\Blob\azure.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Data\Databases\File\gcp.json">
+    <None Update="Data\Storage\Blob\gcp.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
   </ItemGroup>

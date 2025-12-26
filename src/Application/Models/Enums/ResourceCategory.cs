@@ -7,10 +7,10 @@ public enum ResourceCategory
     Storage,
     Database,
     Network,
-    Analytics,
-    AI_ML,
-    Management,
-    Security
+    //Analytics,
+    //AI_ML,
+    //Management,
+    //Security
 }
 
 public enum ResourceSubCategory
