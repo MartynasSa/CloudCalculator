@@ -1,0 +1,413 @@
+﻿{
+  Resources: [
+    VirtualMachines,
+    Relational,
+    LoadBalancer
+  ],
+  CloudCosts: {
+    small: [
+      {
+        CloudProvider: aws,
+        TotalMonthlyPrice: 88.0380,
+        CostDetails: [
+          {
+            Cost: 27.4480,
+            ResourceSubCategory: VirtualMachines,
+            ResourceDetails: {
+              instanceName: {
+                ValueKind: String
+              },
+              memory: {
+                ValueKind: String
+              },
+              pricePerHour: {
+                ValueKind: Number
+              },
+              vCpu: {
+                ValueKind: Number
+              }
+            }
+          },
+          {
+            Cost: 54.750,
+            ResourceSubCategory: Relational,
+            ResourceDetails: {
+              databaseEngine: {
+                ValueKind: String
+              },
+              instanceName: {
+                ValueKind: String
+              },
+              memory: {
+                ValueKind: String
+              },
+              pricePerHour: {
+                ValueKind: Number
+              },
+              vCpu: {
+                ValueKind: Number
+              }
+            }
+          },
+          {
+            Cost: 5.840,
+            ResourceSubCategory: LoadBalancer,
+            ResourceDetails: {
+              name: {
+                ValueKind: String
+              },
+              pricePerMonth: {
+                ValueKind: Number
+              }
+            }
+          }
+        ]
+      },
+      {
+        CloudProvider: azure,
+        TotalMonthlyPrice: 45.260,
+        CostDetails: [
+          {
+            Cost: 45.260,
+            ResourceSubCategory: VirtualMachines,
+            ResourceDetails: {
+              instanceName: {
+                ValueKind: String
+              },
+              memory: {
+                ValueKind: String
+              },
+              pricePerHour: {
+                ValueKind: Number
+              },
+              vCpu: {
+                ValueKind: Number
+              }
+            }
+          }
+        ]
+      },
+      {
+        CloudProvider: gcp,
+        TotalMonthlyPrice: 5.840,
+        CostDetails: [
+          {
+            Cost: 5.840,
+            ResourceSubCategory: LoadBalancer,
+            ResourceDetails: {
+              name: {
+                ValueKind: String
+              },
+              pricePerMonth: {
+                ValueKind: Number
+              }
+            }
+          }
+        ]
+      }
+    ],
+    medium: [
+      {
+        CloudProvider: aws,
+        TotalMonthlyPrice: 154.030,
+        CostDetails: [
+          {
+            Cost: 93.440,
+            ResourceSubCategory: VirtualMachines,
+            ResourceDetails: {
+              instanceName: {
+                ValueKind: String
+              },
+              memory: {
+                ValueKind: String
+              },
+              pricePerHour: {
+                ValueKind: Number
+              },
+              vCpu: {
+                ValueKind: Number
+              }
+            }
+          },
+          {
+            Cost: 54.750,
+            ResourceSubCategory: Relational,
+            ResourceDetails: {
+              databaseEngine: {
+                ValueKind: String
+              },
+              instanceName: {
+                ValueKind: String
+              },
+              memory: {
+                ValueKind: String
+              },
+              pricePerHour: {
+                ValueKind: Number
+              },
+              vCpu: {
+                ValueKind: Number
+              }
+            }
+          },
+          {
+            Cost: 5.840,
+            ResourceSubCategory: LoadBalancer,
+            ResourceDetails: {
+              name: {
+                ValueKind: String
+              },
+              pricePerMonth: {
+                ValueKind: Number
+              }
+            }
+          }
+        ]
+      },
+      {
+        CloudProvider: azure,
+        TotalMonthlyPrice: 111.690,
+        CostDetails: [
+          {
+            Cost: 111.690,
+            ResourceSubCategory: VirtualMachines,
+            ResourceDetails: {
+              instanceName: {
+                ValueKind: String
+              },
+              memory: {
+                ValueKind: String
+              },
+              pricePerHour: {
+                ValueKind: Number
+              },
+              vCpu: {
+                ValueKind: Number
+              }
+            }
+          }
+        ]
+      },
+      {
+        CloudProvider: gcp,
+        TotalMonthlyPrice: 5.840,
+        CostDetails: [
+          {
+            Cost: 5.840,
+            ResourceSubCategory: LoadBalancer,
+            ResourceDetails: {
+              name: {
+                ValueKind: String
+              },
+              pricePerMonth: {
+                ValueKind: Number
+              }
+            }
+          }
+        ]
+      }
+    ],
+    large: [
+      {
+        CloudProvider: aws,
+        TotalMonthlyPrice: 254.770,
+        CostDetails: [
+          {
+            Cost: 194.180,
+            ResourceSubCategory: VirtualMachines,
+            ResourceDetails: {
+              instanceName: {
+                ValueKind: String
+              },
+              memory: {
+                ValueKind: String
+              },
+              pricePerHour: {
+                ValueKind: Number
+              },
+              vCpu: {
+                ValueKind: Number
+              }
+            }
+          },
+          {
+            Cost: 54.750,
+            ResourceSubCategory: Relational,
+            ResourceDetails: {
+              databaseEngine: {
+                ValueKind: String
+              },
+              instanceName: {
+                ValueKind: String
+              },
+              memory: {
+                ValueKind: String
+              },
+              pricePerHour: {
+                ValueKind: Number
+              },
+              vCpu: {
+                ValueKind: Number
+              }
+            }
+          },
+          {
+            Cost: 5.840,
+            ResourceSubCategory: LoadBalancer,
+            ResourceDetails: {
+              name: {
+                ValueKind: String
+              },
+              pricePerMonth: {
+                ValueKind: Number
+              }
+            }
+          }
+        ]
+      },
+      {
+        CloudProvider: azure,
+        TotalMonthlyPrice: 181.040,
+        CostDetails: [
+          {
+            Cost: 181.040,
+            ResourceSubCategory: VirtualMachines,
+            ResourceDetails: {
+              instanceName: {
+                ValueKind: String
+              },
+              memory: {
+                ValueKind: String
+              },
+              pricePerHour: {
+                ValueKind: Number
+              },
+              vCpu: {
+                ValueKind: Number
+              }
+            }
+          }
+        ]
+      },
+      {
+        CloudProvider: gcp,
+        TotalMonthlyPrice: 5.840,
+        CostDetails: [
+          {
+            Cost: 5.840,
+            ResourceSubCategory: LoadBalancer,
+            ResourceDetails: {
+              name: {
+                ValueKind: String
+              },
+              pricePerMonth: {
+                ValueKind: Number
+              }
+            }
+          }
+        ]
+      }
+    ],
+    xlarge: [
+      {
+        CloudProvider: aws,
+        TotalMonthlyPrice: 354.050,
+        CostDetails: [
+          {
+            Cost: 293.460,
+            ResourceSubCategory: VirtualMachines,
+            ResourceDetails: {
+              instanceName: {
+                ValueKind: String
+              },
+              memory: {
+                ValueKind: String
+              },
+              pricePerHour: {
+                ValueKind: Number
+              },
+              vCpu: {
+                ValueKind: Number
+              }
+            }
+          },
+          {
+            Cost: 54.750,
+            ResourceSubCategory: Relational,
+            ResourceDetails: {
+              databaseEngine: {
+                ValueKind: String
+              },
+              instanceName: {
+                ValueKind: String
+              },
+              memory: {
+                ValueKind: String
+              },
+              pricePerHour: {
+                ValueKind: Number
+              },
+              vCpu: {
+                ValueKind: Number
+              }
+            }
+          },
+          {
+            Cost: 5.840,
+            ResourceSubCategory: LoadBalancer,
+            ResourceDetails: {
+              name: {
+                ValueKind: String
+              },
+              pricePerMonth: {
+                ValueKind: Number
+              }
+            }
+          }
+        ]
+      },
+      {
+        CloudProvider: azure,
+        TotalMonthlyPrice: 535.820,
+        CostDetails: [
+          {
+            Cost: 535.820,
+            ResourceSubCategory: VirtualMachines,
+            ResourceDetails: {
+              instanceName: {
+                ValueKind: String
+              },
+              memory: {
+                ValueKind: String
+              },
+              pricePerHour: {
+                ValueKind: Number
+              },
+              vCpu: {
+                ValueKind: Number
+              }
+            }
+          }
+        ]
+      },
+      {
+        CloudProvider: gcp,
+        TotalMonthlyPrice: 5.840,
+        CostDetails: [
+          {
+            Cost: 5.840,
+            ResourceSubCategory: LoadBalancer,
+            ResourceDetails: {
+              name: {
+                ValueKind: String
+              },
+              pricePerMonth: {
+                ValueKind: Number
+              }
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

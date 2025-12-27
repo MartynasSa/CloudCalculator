@@ -34,16 +34,22 @@ public class TemplateFacadeTests(WebApplicationFactory<Program> factory) : TestB
         Assert.Contains(ResourceSubCategory.Relational, result.Resources);
         Assert.Contains(ResourceSubCategory.LoadBalancer, result.Resources);
         Assert.Contains(ResourceSubCategory.Monitoring, result.Resources);
-        
-        // Verify we have all cloud providers and usage sizes (3 providers x 4 sizes = 12 entries)
-        Assert.Equal(12, result.CloudCosts.Count);
-        
-        // Verify we have all usage sizes for each cloud provider
-        foreach (var cloud in new[] { CloudProvider.AWS, CloudProvider.Azure, CloudProvider.GCP })
+
+        // Verify we have all usage sizes (4 sizes)
+        Assert.Equal(4, result.CloudCosts.Count);
+        Assert.Contains(UsageSize.Small, result.CloudCosts.Keys);
+        Assert.Contains(UsageSize.Medium, result.CloudCosts.Keys);
+        Assert.Contains(UsageSize.Large, result.CloudCosts.Keys);
+        Assert.Contains(UsageSize.ExtraLarge, result.CloudCosts.Keys);
+
+        // Verify each usage size has all 3 cloud providers
+        foreach (var usageSize in new[] { UsageSize.Small, UsageSize.Medium, UsageSize.Large, UsageSize.ExtraLarge })
         {
-            Assert.Contains(result.CloudCosts, cc => cc.CloudProvider == cloud && cc.UsageSize == UsageSize.Small);
-            Assert.Contains(result.CloudCosts, cc => cc.CloudProvider == cloud && cc.UsageSize == UsageSize.Medium);
-            Assert.Contains(result.CloudCosts, cc => cc.CloudProvider == cloud && cc.UsageSize == UsageSize.Large);
+            var cloudCosts = result.CloudCosts[usageSize];
+            Assert.Equal(3, cloudCosts.Count);
+            Assert.Contains(cloudCosts, cc => cc.CloudProvider == CloudProvider.AWS);
+            Assert.Contains(cloudCosts, cc => cc.CloudProvider == CloudProvider.Azure);
+            Assert.Contains(cloudCosts, cc => cc.CloudProvider == CloudProvider.GCP);
         }
     }
 
@@ -62,9 +68,14 @@ public class TemplateFacadeTests(WebApplicationFactory<Program> factory) : TestB
 
         // Assert
         Assert.NotNull(result);
-        Assert.Contains(result.CloudCosts, cc => cc.CloudProvider == CloudProvider.AWS);
-        Assert.Contains(result.CloudCosts, cc => cc.CloudProvider == CloudProvider.Azure);
-        Assert.Contains(result.CloudCosts, cc => cc.CloudProvider == CloudProvider.GCP);
+
+        // Verify all usage sizes have AWS, Azure, and GCP
+        foreach (var kvp in result.CloudCosts)
+        {
+            Assert.Contains(kvp.Value, cc => cc.CloudProvider == CloudProvider.AWS);
+            Assert.Contains(kvp.Value, cc => cc.CloudProvider == CloudProvider.Azure);
+            Assert.Contains(kvp.Value, cc => cc.CloudProvider == CloudProvider.GCP);
+        }
     }
 
     [Fact]
@@ -74,7 +85,6 @@ public class TemplateFacadeTests(WebApplicationFactory<Program> factory) : TestB
         var service = GetService();
         var templateDto = new CalculationRequest
         {
-
             Resources = { ResourceSubCategory.VirtualMachines, ResourceSubCategory.Relational, ResourceSubCategory.LoadBalancer, ResourceSubCategory.Monitoring }
         };
 
@@ -82,12 +92,12 @@ public class TemplateFacadeTests(WebApplicationFactory<Program> factory) : TestB
         var result = await service.CalculateCostComparisonsAsync(templateDto);
 
         // Assert
-        var smallAwsCost = result.CloudCosts.First(cc => cc.CloudProvider == CloudProvider.AWS && cc.UsageSize == UsageSize.Small);
-        
+        var smallAwsCost = result.CloudCosts[UsageSize.Small].First(cc => cc.CloudProvider == CloudProvider.AWS);
+
         // Total should be sum of all cost details
         var expectedTotal = smallAwsCost.CostDetails.Sum(cd => cd.Cost);
         Assert.Equal(expectedTotal, smallAwsCost.TotalMonthlyPrice);
-        
+
         // Verify that we have costs for each resource category
         Assert.Contains(smallAwsCost.CostDetails, cd => cd.ResourceSubCategory == ResourceSubCategory.VirtualMachines);
         Assert.Contains(smallAwsCost.CostDetails, cd => cd.ResourceSubCategory == ResourceSubCategory.Relational);
@@ -109,12 +119,16 @@ public class TemplateFacadeTests(WebApplicationFactory<Program> factory) : TestB
         // Assert
         Assert.NotNull(result);
         Assert.Empty(result.Resources);
-        
-        Assert.All(result.CloudCosts, cloudCost =>
+
+        // Verify all usage sizes and cloud providers have zero costs
+        foreach (var kvp in result.CloudCosts)
         {
-            Assert.Equal(0m, cloudCost.TotalMonthlyPrice);
-            Assert.Empty(cloudCost.CostDetails);
-        });
+            Assert.All(kvp.Value, cloudCost =>
+            {
+                Assert.Equal(0m, cloudCost.TotalMonthlyPrice);
+                Assert.Empty(cloudCost.CostDetails);
+            });
+        }
     }
 
     [Fact]
@@ -134,9 +148,9 @@ public class TemplateFacadeTests(WebApplicationFactory<Program> factory) : TestB
         Assert.NotNull(result);
         Assert.Single(result.Resources);
         Assert.Contains(ResourceSubCategory.LoadBalancer, result.Resources);
-        
-        var smallAwsCost = result.CloudCosts.First(cc => cc.CloudProvider == CloudProvider.AWS && cc.UsageSize == UsageSize.Small);
-        
+
+        var smallAwsCost = result.CloudCosts[UsageSize.Small].First(cc => cc.CloudProvider == CloudProvider.AWS);
+
         // Static site template should only have load balancer costs
         Assert.DoesNotContain(smallAwsCost.CostDetails, cd => cd.ResourceSubCategory == ResourceSubCategory.VirtualMachines);
         Assert.DoesNotContain(smallAwsCost.CostDetails, cd => cd.ResourceSubCategory == ResourceSubCategory.Relational);
@@ -160,9 +174,9 @@ public class TemplateFacadeTests(WebApplicationFactory<Program> factory) : TestB
         // For each cloud provider, costs should generally increase with usage size
         foreach (var cloudProvider in new[] { CloudProvider.AWS, CloudProvider.Azure, CloudProvider.GCP })
         {
-            var smallCost = result.CloudCosts.First(cc => cc.CloudProvider == cloudProvider && cc.UsageSize == UsageSize.Small).TotalMonthlyPrice;
-            var mediumCost = result.CloudCosts.First(cc => cc.CloudProvider == cloudProvider && cc.UsageSize == UsageSize.Medium).TotalMonthlyPrice;
-            var largeCost = result.CloudCosts.First(cc => cc.CloudProvider == cloudProvider && cc.UsageSize == UsageSize.Large).TotalMonthlyPrice;
+            var smallCost = result.CloudCosts[UsageSize.Small].First(cc => cc.CloudProvider == cloudProvider).TotalMonthlyPrice;
+            var mediumCost = result.CloudCosts[UsageSize.Medium].First(cc => cc.CloudProvider == cloudProvider).TotalMonthlyPrice;
+            var largeCost = result.CloudCosts[UsageSize.Large].First(cc => cc.CloudProvider == cloudProvider).TotalMonthlyPrice;
 
             Assert.True(mediumCost >= smallCost, $"{cloudProvider} medium cost should be >= small cost");
             Assert.True(largeCost >= mediumCost, $"{cloudProvider} large cost should be >= medium cost");
@@ -186,9 +200,9 @@ public class TemplateFacadeTests(WebApplicationFactory<Program> factory) : TestB
         Assert.NotNull(result);
         Assert.Equal(3, result.Resources.Count);
         Assert.DoesNotContain(ResourceSubCategory.Monitoring, result.Resources);
-        
-        var mediumAwsCost = result.CloudCosts.First(cc => cc.CloudProvider == CloudProvider.AWS && cc.UsageSize == UsageSize.Medium);
-        
+
+        var mediumAwsCost = result.CloudCosts[UsageSize.Medium].First(cc => cc.CloudProvider == CloudProvider.AWS);
+
         // WordPress template should not have Monitoring
         Assert.DoesNotContain(mediumAwsCost.CostDetails, cd => cd.ResourceSubCategory == ResourceSubCategory.Monitoring);
     }
@@ -200,7 +214,7 @@ public class TemplateFacadeTests(WebApplicationFactory<Program> factory) : TestB
         // a developer must also implement calculation logic for it.
         // If this test fails, it means you added a new ResourceSubCategory
         // without implementing the corresponding calculation method.
-        
+
         var allSubCategories = Enum.GetValues<ResourceSubCategory>()
             .Where(sc => sc != ResourceSubCategory.None && sc != ResourceSubCategory.Uncategorized)
             .ToList();

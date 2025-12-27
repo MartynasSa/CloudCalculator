@@ -1,6 +1,5 @@
 ﻿using Application.Facade;
 using Application.Models.Dtos;
-using Application.Models.Enums;
 using Microsoft.AspNetCore.Mvc;
 
 namespace WebApi.Controllers;

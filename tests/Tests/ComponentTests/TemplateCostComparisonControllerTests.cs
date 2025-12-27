@@ -20,12 +20,11 @@ public class TemplateCostComparisonControllerTests(WebApplicationFactory<Program
     public async Task Post_TemplatesCostComparison_WithSaasTemplate_Returns_CostBreakdown()
     {
         // Arrange
-        var templateDto = new TemplateDto
+        var request = new CalculationRequest
         {
-            Template = TemplateType.Saas,
-            Resources = { ResourceSubCategory.VirtualMachines, ResourceSubCategory.Relational, ResourceSubCategory.LoadBalancer, ResourceSubCategory.Monitoring }
+            Resources = [ResourceSubCategory.VirtualMachines, ResourceSubCategory.Relational, ResourceSubCategory.LoadBalancer, ResourceSubCategory.Monitoring]
         };
-        var json = JsonSerializer.Serialize(templateDto, JsonOptions);
+        var json = JsonSerializer.Serialize(request, JsonOptions);
         var content = new StringContent(json, Encoding.UTF8, "application/json");
 
         // Act
@@ -33,28 +32,22 @@ public class TemplateCostComparisonControllerTests(WebApplicationFactory<Program
 
         // Assert
         response.EnsureSuccessStatusCode();
-        
+
         await using var stream = await response.Content.ReadAsStreamAsync();
         var result = await JsonSerializer.DeserializeAsync<TemplateCostComparisonResultDto>(stream, JsonOptions);
 
-        Assert.NotNull(result);
-        Assert.Equal(4, result.Resources.Count);
-        Assert.NotEmpty(result.CloudCosts);
-        
-        // Verify we have all cloud providers and usage sizes (3 providers x 4 sizes = 12 entries)
-        Assert.Equal(12, result.CloudCosts.Count);
+        await Verify(result);
     }
 
     [Fact]
     public async Task Post_TemplatesCostComparison_WithSaasTemplate_ReturnsAllCloudProviders()
     {
         // Arrange
-        var templateDto = new TemplateDto
+        var request = new CalculationRequest
         {
-            Template = TemplateType.Saas,
-            Resources = { ResourceSubCategory.VirtualMachines, ResourceSubCategory.Relational, ResourceSubCategory.LoadBalancer, ResourceSubCategory.Monitoring }
+            Resources = [ResourceSubCategory.VirtualMachines, ResourceSubCategory.Relational, ResourceSubCategory.LoadBalancer, ResourceSubCategory.Monitoring]
         };
-        var json = JsonSerializer.Serialize(templateDto, JsonOptions);
+        var json = JsonSerializer.Serialize(request, JsonOptions);
         var content = new StringContent(json, Encoding.UTF8, "application/json");
 
         // Act
@@ -62,26 +55,22 @@ public class TemplateCostComparisonControllerTests(WebApplicationFactory<Program
 
         // Assert
         response.EnsureSuccessStatusCode();
-        
+
         await using var stream = await response.Content.ReadAsStreamAsync();
         var result = await JsonSerializer.DeserializeAsync<TemplateCostComparisonResultDto>(stream, JsonOptions);
 
-        Assert.NotNull(result);
-        Assert.Contains(result.CloudCosts, cc => cc.CloudProvider == CloudProvider.AWS);
-        Assert.Contains(result.CloudCosts, cc => cc.CloudProvider == CloudProvider.Azure);
-        Assert.Contains(result.CloudCosts, cc => cc.CloudProvider == CloudProvider.GCP);
+        await Verify(result);
     }
 
     [Fact]
     public async Task Post_TemplatesCostComparison_WithSaasTemplate_HasValidCostBreakdown()
     {
         // Arrange
-        var templateDto = new TemplateDto
+        var request = new CalculationRequest
         {
-            Template = TemplateType.Saas,
-            Resources = { ResourceSubCategory.VirtualMachines, ResourceSubCategory.Relational, ResourceSubCategory.LoadBalancer, ResourceSubCategory.Monitoring }
+            Resources = [ResourceSubCategory.VirtualMachines, ResourceSubCategory.Relational, ResourceSubCategory.LoadBalancer, ResourceSubCategory.Monitoring]
         };
-        var json = JsonSerializer.Serialize(templateDto, JsonOptions);
+        var json = JsonSerializer.Serialize(request, JsonOptions);
         var content = new StringContent(json, Encoding.UTF8, "application/json");
 
         // Act
@@ -89,28 +78,22 @@ public class TemplateCostComparisonControllerTests(WebApplicationFactory<Program
 
         // Assert
         response.EnsureSuccessStatusCode();
-        
+
         await using var stream = await response.Content.ReadAsStreamAsync();
         var result = await JsonSerializer.DeserializeAsync<TemplateCostComparisonResultDto>(stream, JsonOptions);
 
-        Assert.NotNull(result);
-        var smallAwsCost = result.CloudCosts.First(cc => cc.CloudProvider == CloudProvider.AWS && cc.UsageSize == UsageSize.Small);
-        
-        // Verify cost breakdown is present
-        var expectedTotal = smallAwsCost.CostDetails.Sum(cd => cd.Cost);
-        Assert.Equal(expectedTotal, smallAwsCost.TotalMonthlyPrice);
+        await Verify(result);
     }
 
     [Fact]
     public async Task Post_TemplatesCostComparison_WithBlankTemplate_Returns_ZeroCosts()
     {
         // Arrange
-        var templateDto = new TemplateDto
+        var request = new CalculationRequest
         {
-            Template = TemplateType.Blank,
-            Resources = { }
+            Resources = []
         };
-        var json = JsonSerializer.Serialize(templateDto, JsonOptions);
+        var json = JsonSerializer.Serialize(request, JsonOptions);
         var content = new StringContent(json, Encoding.UTF8, "application/json");
 
         // Act
@@ -118,29 +101,22 @@ public class TemplateCostComparisonControllerTests(WebApplicationFactory<Program
 
         // Assert
         response.EnsureSuccessStatusCode();
-        
+
         await using var stream = await response.Content.ReadAsStreamAsync();
         var result = await JsonSerializer.DeserializeAsync<TemplateCostComparisonResultDto>(stream, JsonOptions);
 
-        Assert.NotNull(result);
-        Assert.Empty(result.Resources);
-        
-        Assert.All(result.CloudCosts, cloudCost =>
-        {
-            Assert.Equal(0m, cloudCost.TotalMonthlyPrice);
-        });
+        await Verify(result);
     }
 
     [Fact]
     public async Task Post_TemplatesCostComparison_WithStaticSiteTemplate_OnlyHasLoadBalancerCosts()
     {
         // Arrange
-        var templateDto = new TemplateDto
+        var request = new CalculationRequest
         {
-            Template = TemplateType.StaticSite,
-            Resources = { ResourceSubCategory.LoadBalancer }
+            Resources = [ResourceSubCategory.LoadBalancer]
         };
-        var json = JsonSerializer.Serialize(templateDto, JsonOptions);
+        var json = JsonSerializer.Serialize(request, JsonOptions);
         var content = new StringContent(json, Encoding.UTF8, "application/json");
 
         // Act
@@ -148,18 +124,11 @@ public class TemplateCostComparisonControllerTests(WebApplicationFactory<Program
 
         // Assert
         response.EnsureSuccessStatusCode();
-        
+
         await using var stream = await response.Content.ReadAsStreamAsync();
         var result = await JsonSerializer.DeserializeAsync<TemplateCostComparisonResultDto>(stream, JsonOptions);
 
-        Assert.NotNull(result);
-        
-        var mediumAwsCost = result.CloudCosts.First(cc => cc.CloudProvider == CloudProvider.AWS && cc.UsageSize == UsageSize.Medium);
-        
-        // Static site should not have VMs, Databases, or Monitoring
-        Assert.DoesNotContain(mediumAwsCost.CostDetails, cd => cd.ResourceSubCategory == ResourceSubCategory.VirtualMachines);
-        Assert.DoesNotContain(mediumAwsCost.CostDetails, cd => cd.ResourceSubCategory == ResourceSubCategory.Relational);
-        Assert.DoesNotContain(mediumAwsCost.CostDetails, cd => cd.ResourceSubCategory == ResourceSubCategory.Monitoring);
+        await Verify(result);
     }
 
     [Fact]
@@ -179,12 +148,11 @@ public class TemplateCostComparisonControllerTests(WebApplicationFactory<Program
     public async Task Post_TemplatesCostComparison_CostsIncreaseWithUsageSize()
     {
         // Arrange
-        var templateDto = new TemplateDto
+        var request = new CalculationRequest
         {
-            Template = TemplateType.Ecommerce,
-            Resources = { ResourceSubCategory.VirtualMachines, ResourceSubCategory.Relational, ResourceSubCategory.LoadBalancer, ResourceSubCategory.Monitoring }
+            Resources = [ResourceSubCategory.VirtualMachines, ResourceSubCategory.Relational, ResourceSubCategory.LoadBalancer, ResourceSubCategory.Monitoring]
         };
-        var json = JsonSerializer.Serialize(templateDto, JsonOptions);
+        var json = JsonSerializer.Serialize(request, JsonOptions);
         var content = new StringContent(json, Encoding.UTF8, "application/json");
 
         // Act
@@ -192,34 +160,22 @@ public class TemplateCostComparisonControllerTests(WebApplicationFactory<Program
 
         // Assert
         response.EnsureSuccessStatusCode();
-        
+
         await using var stream = await response.Content.ReadAsStreamAsync();
         var result = await JsonSerializer.DeserializeAsync<TemplateCostComparisonResultDto>(stream, JsonOptions);
 
-        Assert.NotNull(result);
-
-        // For each cloud provider, costs should generally increase with usage size
-        foreach (var cloudProvider in new[] { CloudProvider.AWS, CloudProvider.Azure, CloudProvider.GCP })
-        {
-            var smallCost = result.CloudCosts.First(cc => cc.CloudProvider == cloudProvider && cc.UsageSize == UsageSize.Small).TotalMonthlyPrice;
-            var mediumCost = result.CloudCosts.First(cc => cc.CloudProvider == cloudProvider && cc.UsageSize == UsageSize.Medium).TotalMonthlyPrice;
-            var largeCost = result.CloudCosts.First(cc => cc.CloudProvider == cloudProvider && cc.UsageSize == UsageSize.Large).TotalMonthlyPrice;
-
-            Assert.True(mediumCost >= smallCost, $"{cloudProvider} medium cost should be >= small cost");
-            Assert.True(largeCost >= mediumCost, $"{cloudProvider} large cost should be >= medium cost");
-        }
+        await Verify(result);
     }
 
     [Fact]
     public async Task Post_TemplatesCostComparison_WithWordPressTemplate_HasCorrectComponents()
     {
         // Arrange
-        var templateDto = new TemplateDto
+        var request = new CalculationRequest
         {
-            Template = TemplateType.WordPress,
-            Resources = { ResourceSubCategory.VirtualMachines, ResourceSubCategory.Relational, ResourceSubCategory.LoadBalancer }
+            Resources = [ResourceSubCategory.VirtualMachines, ResourceSubCategory.Relational, ResourceSubCategory.LoadBalancer]
         };
-        var json = JsonSerializer.Serialize(templateDto, JsonOptions);
+        var json = JsonSerializer.Serialize(request, JsonOptions);
         var content = new StringContent(json, Encoding.UTF8, "application/json");
 
         // Act
@@ -227,29 +183,22 @@ public class TemplateCostComparisonControllerTests(WebApplicationFactory<Program
 
         // Assert
         response.EnsureSuccessStatusCode();
-        
+
         await using var stream = await response.Content.ReadAsStreamAsync();
         var result = await JsonSerializer.DeserializeAsync<TemplateCostComparisonResultDto>(stream, JsonOptions);
 
-        Assert.NotNull(result);
-        Assert.DoesNotContain(ResourceSubCategory.Monitoring, result.Resources);
-        
-        var mediumAwsCost = result.CloudCosts.First(cc => cc.CloudProvider == CloudProvider.AWS && cc.UsageSize == UsageSize.Medium);
-        
-        // WordPress template should not have Monitoring
-        Assert.DoesNotContain(mediumAwsCost.CostDetails, cd => cd.ResourceSubCategory == ResourceSubCategory.Monitoring);
+        await Verify(result);
     }
 
     [Fact]
     public async Task Post_TemplatesCostComparison_WithMachineLearningTemplate_HasCorrectComponents()
     {
         // Arrange
-        var templateDto = new TemplateDto
+        var request = new CalculationRequest
         {
-            Template = TemplateType.MachineLearning,
-            Resources = { ResourceSubCategory.VirtualMachines, ResourceSubCategory.LoadBalancer, ResourceSubCategory.Monitoring }
+            Resources = [ResourceSubCategory.VirtualMachines, ResourceSubCategory.LoadBalancer, ResourceSubCategory.Monitoring]
         };
-        var json = JsonSerializer.Serialize(templateDto, JsonOptions);
+        var json = JsonSerializer.Serialize(request, JsonOptions);
         var content = new StringContent(json, Encoding.UTF8, "application/json");
 
         // Act
@@ -257,16 +206,10 @@ public class TemplateCostComparisonControllerTests(WebApplicationFactory<Program
 
         // Assert
         response.EnsureSuccessStatusCode();
-        
+
         await using var stream = await response.Content.ReadAsStreamAsync();
         var result = await JsonSerializer.DeserializeAsync<TemplateCostComparisonResultDto>(stream, JsonOptions);
 
-        Assert.NotNull(result);
-        Assert.DoesNotContain(ResourceSubCategory.Relational, result.Resources);
-        
-        var largeAwsCost = result.CloudCosts.First(cc => cc.CloudProvider == CloudProvider.AWS && cc.UsageSize == UsageSize.Large);
-        
-        // Machine Learning template should not have Databases
-        Assert.DoesNotContain(largeAwsCost.CostDetails, cd => cd.ResourceSubCategory == ResourceSubCategory.Relational);
+        await Verify(result);
     }
 }

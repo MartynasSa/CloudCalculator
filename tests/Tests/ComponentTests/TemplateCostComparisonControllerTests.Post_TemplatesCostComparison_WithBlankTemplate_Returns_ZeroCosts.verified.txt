@@ -1,0 +1,48 @@
+﻿{
+  CloudCosts: {
+    small: [
+      {
+        CloudProvider: aws
+      },
+      {
+        CloudProvider: azure
+      },
+      {
+        CloudProvider: gcp
+      }
+    ],
+    medium: [
+      {
+        CloudProvider: aws
+      },
+      {
+        CloudProvider: azure
+      },
+      {
+        CloudProvider: gcp
+      }
+    ],
+    large: [
+      {
+        CloudProvider: aws
+      },
+      {
+        CloudProvider: azure
+      },
+      {
+        CloudProvider: gcp
+      }
+    ],
+    xlarge: [
+      {
+        CloudProvider: aws
+      },
+      {
+        CloudProvider: azure
+      },
+      {
+        CloudProvider: gcp
+      }
+    ]
+  }
+}

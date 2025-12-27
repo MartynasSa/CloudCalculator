@@ -29,14 +29,15 @@ public class CalculatorFacade(
         // Get all prices once, grouped by usage size
         var filteredResources = priceProvider.GetPrices(resources);
 
-        foreach (var cloudProvider in cloudProviders)
+        foreach (var usageSize in usageSizes)
         {
-            foreach (var usageSize in usageSizes)
+            var resourcesForSize = filteredResources.CategorizedResources[usageSize];
+            var cloudCostsList = new List<TemplateCostComparisonResultCloudProviderDto>();
+
+            foreach (var cloudProvider in cloudProviders)
             {
                 var costDetails = new List<TemplateCostResourceSubCategoryDetailsDto>();
                 decimal totalCost = 0m;
-
-                var resourcesForSize = filteredResources.CategorizedResources[usageSize];
 
                 // Calculate VM costs if required
                 if (template.Resources.Contains(ResourceSubCategory.VirtualMachines))
@@ -131,14 +132,15 @@ public class CalculatorFacade(
                     }
                 }
 
-                result.CloudCosts.Add(new TemplateCostComparisonResultCloudProviderDto
+                cloudCostsList.Add(new TemplateCostComparisonResultCloudProviderDto
                 {
                     CloudProvider = cloudProvider,
-                    UsageSize = usageSize,
                     TotalMonthlyPrice = totalCost,
                     CostDetails = costDetails
                 });
             }
+
+            result.CloudCosts[usageSize] = cloudCostsList;
         }
 
         return result;
