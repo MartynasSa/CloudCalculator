@@ -213,7 +213,7 @@ public class TemplateFacadeTests(WebApplicationFactory<Program> factory) : TestB
         // without implementing the corresponding calculation method.
         
         var allSubCategories = Enum.GetValues<ResourceSubCategory>()
-            .Where(sc => sc != ResourceSubCategory.Unknown && sc != ResourceSubCategory.Uncategorized)
+            .Where(sc => sc != ResourceSubCategory.None && sc != ResourceSubCategory.Uncategorized)
             .ToList();
 
         var implementedSubCategories = new List<ResourceSubCategory>

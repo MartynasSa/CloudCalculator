@@ -14,7 +14,7 @@ public class PriceProviderTests
     }
 
     [Fact]
-    public void GetCheapestComputeInstance_Returns_Cheapest_Instance_Meeting_Requirements()
+    public void GetComputeInstance_Returns_Instance_Meeting_Requirements()
     {
         // Arrange
         var instances = new List<NormalizedComputeInstanceDto>
@@ -55,7 +55,7 @@ public class PriceProviderTests
         };
 
         // Act
-        var result = _priceProvider.GetCheapestComputeInstance(instances, 2, 4);
+        var result = _priceProvider.GetVm(instances, CloudProvider.AWS, UsageSize.Small);
 
         // Assert
         Assert.NotNull(result);
@@ -64,7 +64,7 @@ public class PriceProviderTests
     }
 
     [Fact]
-    public void GetCheapestComputeInstance_Returns_Null_When_No_Instance_Meets_Requirements()
+    public void GetComputeInstance_Returns_Null_When_No_Instance_Meets_Requirements()
     {
         // Arrange
         var instances = new List<NormalizedComputeInstanceDto>
@@ -83,14 +83,14 @@ public class PriceProviderTests
         };
 
         // Act
-        var result = _priceProvider.GetCheapestComputeInstance(instances, 2, 4);
+        var result = _priceProvider.GetVm(instances, CloudProvider.AWS, UsageSize.Small);
 
         // Assert
         Assert.Null(result);
     }
 
     [Fact]
-    public void GetCheapestComputeInstance_Filters_By_MinCpu()
+    public void GetComputeInstance_Filters_By_MinCpu()
     {
         // Arrange
         var instances = new List<NormalizedComputeInstanceDto>
@@ -120,7 +120,7 @@ public class PriceProviderTests
         };
 
         // Act
-        var result = _priceProvider.GetCheapestComputeInstance(instances, 2, 4);
+        var result = _priceProvider.GetVm(instances, CloudProvider.AWS, UsageSize.Small);
 
         // Assert
         Assert.NotNull(result);
@@ -129,7 +129,7 @@ public class PriceProviderTests
     }
 
     [Fact]
-    public void GetCheapestComputeInstance_Filters_By_MinMemory()
+    public void GetComputeInstance_Filters_By_MinMemory()
     {
         // Arrange
         var instances = new List<NormalizedComputeInstanceDto>
@@ -159,7 +159,7 @@ public class PriceProviderTests
         };
 
         // Act
-        var result = _priceProvider.GetCheapestComputeInstance(instances, 2, 4);
+        var result = _priceProvider.GetVm(instances, CloudProvider.AWS, UsageSize.Small);
 
         // Assert
         Assert.NotNull(result);
@@ -167,7 +167,7 @@ public class PriceProviderTests
     }
 
     [Fact]
-    public void GetCheapestDatabase_Returns_Cheapest_Database_Meeting_Requirements()
+    public void GetDatabase_Returns_Database_Meeting_Requirements()
     {
         // Arrange
         var databases = new List<NormalizedDatabaseDto>
@@ -197,7 +197,7 @@ public class PriceProviderTests
         };
 
         // Act
-        var result = _priceProvider.GetCheapestDatabase(databases, 1, 2);
+        var result = _priceProvider.GetDatabase(databases, CloudProvider.AWS, UsageSize.Small, 1, 2);
 
         // Assert
         Assert.NotNull(result);
@@ -230,7 +230,7 @@ public class PriceProviderTests
         };
 
         // Act
-        var result = _priceProvider.GetLoadBalancer(loadBalancers, CloudProvider.AWS);
+        var result = _priceProvider.GetLoadBalancer(loadBalancers, CloudProvider.AWS, UsageSize.Small);
 
         // Assert
         Assert.NotNull(result);
@@ -263,7 +263,7 @@ public class PriceProviderTests
         };
 
         // Act
-        var result = _priceProvider.GetMonitoring(monitoring, CloudProvider.GCP);
+        var result = _priceProvider.GetMonitoring(monitoring, CloudProvider.GCP, UsageSize.Small);
 
         // Assert
         Assert.NotNull(result);

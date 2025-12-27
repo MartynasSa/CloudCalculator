@@ -92,7 +92,7 @@ public class CalculatorFacade(
                 ResourceSubCategory.FileStorage => CalculateStorageCost(resources, cloud, usage),
                 ResourceSubCategory.Backup => CalculateBackupCost(resources, cloud, usage),
                 ResourceSubCategory.VpnGateway => CalculateVpnGatewayCost(resources, cloud, usage),
-                ResourceSubCategory.LoadBalancer => CalculateLoadBalancerCostRefactored(resources, cloud, usage),
+                //ResourceSubCategory.LoadBalancer => CalculateLoadBalancerCostRefactored(resources, cloud, usage),
                 ResourceSubCategory.ApiGateway => CalculateApiGatewayCost(resources, cloud, usage),
                 ResourceSubCategory.Dns => CalculateDnsCost(resources, cloud, usage),
                 ResourceSubCategory.CDN => CalculateCdnCost(resources, cloud, usage),
@@ -103,7 +103,7 @@ public class CalculatorFacade(
                 ResourceSubCategory.Messaging => CalculateMessagingCost(resources, cloud, usage),
                 ResourceSubCategory.Secrets => CalculateSecretsCost(resources, cloud, usage),
                 ResourceSubCategory.Compliance => CalculateComplianceCost(resources, cloud, usage),
-                ResourceSubCategory.Monitoring => CalculateMonitoringCostRefactored(resources, cloud, usage),
+                //ResourceSubCategory.Monitoring => CalculateMonitoringCostRefactored(resources, cloud, usage),
                 _ => 0m
             };
 
@@ -123,8 +123,8 @@ public class CalculatorFacade(
             .Where(i => i.VCpu.HasValue && i.Memory != null)
             .ToList();
 
-        var cheapestInstance = priceProvider.GetCheapestComputeInstance(instances, specs.MinCpu, specs.MinMemory);
-        return calculatorService.CalculateVirtualMachineCost(cheapestInstance);
+        var selectedInstance = priceProvider.GetVm(instances, cloud, usage);
+        return calculatorService.CalculateVirtualMachineCost(selectedInstance);
     }
 
     private decimal CalculateDatabaseCostRefactored(CategorizedResourcesDto resources, CloudProvider cloud, UsageSize usage)
@@ -135,20 +135,13 @@ public class CalculatorFacade(
             .Where(d => d.VCpu.HasValue && d.Memory != null)
             .ToList();
 
-        var cheapestDatabase = priceProvider.GetCheapestDatabase(databases, specs.MinCpu, specs.MinMemory);
-        return calculatorService.CalculateDatabaseCost(cheapestDatabase);
-    }
-
-    private decimal CalculateLoadBalancerCostRefactored(CategorizedResourcesDto resources, CloudProvider cloud, UsageSize usage)
-    {
-        var loadBalancer = priceProvider.GetLoadBalancer(resources.LoadBalancers, cloud);
-        return calculatorService.CalculateLoadBalancerCost(loadBalancer);
-    }
-
-    private decimal CalculateMonitoringCostRefactored(CategorizedResourcesDto resources, CloudProvider cloud, UsageSize usage)
-    {
-        var monitoring = priceProvider.GetMonitoring(resources.Monitoring, cloud);
-        return calculatorService.CalculateMonitoringCost(monitoring);
+        var selectedDatabase = priceProvider.GetDatabase(
+            databases,
+            cloud,
+            usage,
+            specs.MinCpu,
+            specs.MinMemory);
+        return calculatorService.CalculateDatabaseCost(selectedDatabase);
     }
 
     private async Task<Dictionary<CloudProvider, TemplateVirtualMachineDto>> GetVirtualMachinesAsync(UsageSize usage)
@@ -167,10 +160,10 @@ public class CalculatorFacade(
                 .Where(i => i.VCpu.HasValue && i.Memory != null)
                 .ToList();
 
-            var matchedInstance = priceProvider.GetCheapestComputeInstance(
+            var matchedInstance = priceProvider.GetVm(
                 cloudInstances,
-                specs.MinCpu,
-                specs.MinMemory);
+                cloud,
+                usage);
 
             if (matchedInstance != null)
             {
@@ -204,8 +197,10 @@ public class CalculatorFacade(
                 .Where(d => d.VCpu.HasValue && d.Memory != null)
                 .ToList();
 
-            var matchedDatabase = priceProvider.GetCheapestDatabase(
+            var matchedDatabase = priceProvider.GetDatabase(
                 cloudDatabases,
+                cloud,
+                usage,
                 specs.MinCpu,
                 specs.MinMemory);
 
