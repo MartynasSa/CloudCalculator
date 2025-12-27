@@ -37,7 +37,6 @@ public class CloudPricingRepository(string? dataDirectory = null) : ICloudPricin
                 "aws" => CloudProvider.AWS,
                 "azure" => CloudProvider.Azure,
                 "gcp" => CloudProvider.GCP,
-                _ => CloudProvider.None
             };
 
             await using var stream = File.OpenRead(filePath);
@@ -49,12 +48,6 @@ public class CloudPricingRepository(string? dataDirectory = null) : ICloudPricin
                 // Fill in missing vendor name and region from file metadata
                 foreach (var product in products)
                 {
-                    // Set vendor if not already set or set to None
-                    if (product.VendorName == CloudProvider.None && vendor != CloudProvider.None)
-                    {
-                        product.VendorName = vendor;
-                    }
-                    
                     // Extract region from regionCode attribute if region is missing
                     if (string.IsNullOrWhiteSpace(product.Region))
                     {

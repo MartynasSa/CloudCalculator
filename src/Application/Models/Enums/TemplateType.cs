@@ -35,7 +35,6 @@ public enum TemplateType
 [TypeConverter(typeof(EnumMemberTypeConverter<UsageSize>))]
 public enum UsageSize
 {
-    None = 0,
     [EnumMember(Value = "small")]
     Small = 1,
     [EnumMember(Value = "medium")]
@@ -49,7 +48,6 @@ public enum UsageSize
 [TypeConverter(typeof(EnumMemberTypeConverter<CloudProvider>))]
 public enum CloudProvider
 {
-    None = 0,
     [EnumMember(Value = "aws")]
     AWS,
     [EnumMember(Value = "azure")]

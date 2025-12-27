@@ -5,7 +5,6 @@
     VCpu: 8,
     Memory: 16 GiB,
     PricePerHour: 0.45162,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -15,7 +14,6 @@
     VCpu: 64,
     Memory: 128 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -25,7 +23,6 @@
     VCpu: 64,
     Memory: 256 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -35,7 +32,6 @@
     VCpu: 2,
     Memory: 16 GiB,
     PricePerHour: 0.6411,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -45,7 +41,6 @@
     VCpu: 32,
     Memory: 128 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -55,7 +50,6 @@
     VCpu: 48,
     Memory: 192 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -65,7 +59,6 @@
     VCpu: 128,
     Memory: 1024 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -75,7 +68,6 @@
     VCpu: 40,
     Memory: 160 GiB,
     PricePerHour: 6.8,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -85,7 +77,6 @@
     VCpu: 24,
     Memory: 48 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -95,7 +86,6 @@
     VCpu: 8,
     Memory: 32 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -105,7 +95,6 @@
     VCpu: 2,
     Memory: 3.75 GiB,
     PricePerHour: 0.624,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -115,7 +104,6 @@
     VCpu: 40,
     Memory: 160 GiB,
     PricePerHour: 2.1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -125,7 +113,6 @@
     VCpu: 48,
     Memory: 192 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -135,7 +122,6 @@
     VCpu: 128,
     Memory: 512 GiB,
     PricePerHour: 6.269,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -145,7 +131,6 @@
     VCpu: 16,
     Memory: 32 GiB,
     PricePerHour: 1.131,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -155,7 +140,6 @@
     VCpu: 1,
     Memory: 4 GiB,
     PricePerHour: 0.0529,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -165,7 +149,6 @@
     VCpu: 32,
     Memory: 128 GiB,
     PricePerHour: 2.92659,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -175,7 +158,6 @@
     VCpu: 192,
     Memory: 768 GiB,
     PricePerHour: 15.1936,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -185,7 +167,6 @@
     VCpu: 4,
     Memory: 32 GiB,
     PricePerHour: 1.03746,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -195,7 +176,6 @@
     VCpu: 2,
     Memory: 8 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -205,7 +185,6 @@
     VCpu: 64,
     Memory: 512 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -215,7 +194,6 @@
     VCpu: 4,
     Memory: 16 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -225,7 +203,6 @@
     VCpu: 8,
     Memory: 32 GiB,
     PricePerHour: 0.3328,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -235,7 +212,6 @@
     VCpu: 1,
     Memory: 2 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -245,7 +221,6 @@
     VCpu: 96,
     Memory: 384 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -255,7 +230,6 @@
     VCpu: 224,
     Memory: 6144 GiB,
     PricePerHour: 84.165,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -265,7 +239,6 @@
     VCpu: 192,
     Memory: 384 GiB,
     PricePerHour: 11.73898,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -275,7 +248,6 @@
     VCpu: 8,
     Memory: 16 GiB,
     PricePerHour: 1.599,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -285,7 +257,6 @@
     VCpu: 64,
     Memory: 256 GiB,
     PricePerHour: 4.9984,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -295,7 +266,6 @@
     VCpu: 4,
     Memory: 7.5 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -305,7 +275,6 @@
     VCpu: 32,
     Memory: 64 GiB,
     PricePerHour: 2.026,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -315,7 +284,6 @@
     VCpu: 24,
     Memory: 768 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -325,7 +293,6 @@
     VCpu: 96,
     Memory: 1152 GiB,
     PricePerHour: 24.2784062,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -335,7 +302,6 @@
     VCpu: 96,
     Memory: 1536 GiB,
     PricePerHour: 49.38465,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -345,7 +311,6 @@
     VCpu: 32,
     Memory: 256 GiB,
     PricePerHour: 3.914,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -355,7 +320,6 @@
     VCpu: 64,
     Memory: 512 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -365,7 +329,6 @@
     VCpu: 96,
     Memory: 768 GiB,
     PricePerHour: 11.12544,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -375,7 +338,6 @@
     VCpu: 2,
     Memory: 16 GiB,
     PricePerHour: 0.14696,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -385,7 +347,6 @@
     VCpu: 32,
     Memory: 256 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -395,7 +356,6 @@
     VCpu: 72,
     Memory: 576 GiB,
     PricePerHour: 18.774,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -405,7 +365,6 @@
     VCpu: 48,
     Memory: 192 GiB,
     PricePerHour: 2.45366,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -415,7 +374,6 @@
     VCpu: 1,
     Memory: 2 GiB,
     PricePerHour: 0.08835,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -425,7 +383,6 @@
     VCpu: 96,
     Memory: 384 GiB,
     PricePerHour: 8.794,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -435,7 +392,6 @@
     VCpu: 192,
     Memory: 384 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -445,7 +401,6 @@
     VCpu: 96,
     Memory: 384 GiB,
     PricePerHour: 8.083,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -455,7 +410,6 @@
     VCpu: 96,
     Memory: 768 GiB,
     PricePerHour: 8.29056,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -465,7 +419,6 @@
     VCpu: 32,
     Memory: 64 GiB,
     PricePerHour: 2.2451,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -475,7 +428,6 @@
     VCpu: 24,
     Memory: 48 GiB,
     PricePerHour: 1.916,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -485,7 +437,6 @@
     VCpu: 16,
     Memory: 488 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -495,7 +446,6 @@
     VCpu: 96,
     Memory: 384 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -505,7 +455,6 @@
     VCpu: 64,
     Memory: 256 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -515,7 +464,6 @@
     VCpu: 48,
     Memory: 192 GiB,
     PricePerHour: 4.32577,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -525,7 +473,6 @@
     VCpu: 16,
     Memory: 32 GiB,
     PricePerHour: 3.4624,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -535,7 +482,6 @@
     VCpu: 16,
     Memory: 128 GiB,
     PricePerHour: 1.2338,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -545,7 +491,6 @@
     VCpu: 8,
     Memory: 64 GiB,
     PricePerHour: 3.81252,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -555,7 +500,6 @@
     VCpu: 96,
     Memory: 384 GiB,
     PricePerHour: 7.47634,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -565,7 +509,6 @@
     VCpu: 2,
     Memory: 8 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -575,7 +518,6 @@
     VCpu: 2,
     Memory: 15.25 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -585,7 +527,6 @@
     VCpu: 48,
     Memory: 192 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -595,7 +536,6 @@
     VCpu: 32,
     Memory: 256 GiB,
     PricePerHour: 15.999,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -605,7 +545,6 @@
     VCpu: 16,
     Memory: 128 GiB,
     PricePerHour: 7.077,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -615,7 +554,6 @@
     VCpu: 1,
     Memory: 2 GiB,
     PricePerHour: 0.0376,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -625,7 +563,6 @@
     VCpu: 4,
     Memory: 8 GiB,
     PricePerHour: 0.24564,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -635,7 +572,6 @@
     VCpu: 32,
     Memory: 244 GiB,
     PricePerHour: 8.615,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -645,7 +581,6 @@
     VCpu: 32,
     Memory: 256 GiB,
     PricePerHour: 1.8216,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -655,7 +590,6 @@
     VCpu: 128,
     Memory: 256 GiB,
     PricePerHour: 9.8304,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -665,7 +599,6 @@
     VCpu: 36,
     Memory: 60 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -675,7 +608,6 @@
     VCpu: 32,
     Memory: 256 GiB,
     PricePerHour: 3.0202,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -685,7 +617,6 @@
     VCpu: 64,
     Memory: 128 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -695,7 +626,6 @@
     VCpu: 4,
     Memory: 16 GiB,
     PricePerHour: 0.27846,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -705,7 +635,6 @@
     VCpu: 64,
     Memory: 256 GiB,
     PricePerHour: 3.3792,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -715,7 +644,6 @@
     VCpu: 2,
     Memory: 16 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -725,7 +653,6 @@
     VCpu: 64,
     Memory: 128 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -735,7 +662,6 @@
     VCpu: 2,
     Memory: 16 GiB,
     PricePerHour: 0.27123,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -745,7 +671,6 @@
     VCpu: 96,
     Memory: 768 GiB,
     PricePerHour: 9.37872,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -755,7 +680,6 @@
     VCpu: 2,
     Memory: 15.25 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -765,7 +689,6 @@
     VCpu: 16,
     Memory: 30 GiB,
     PricePerHour: 0.876,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -775,7 +698,6 @@
     VCpu: 24,
     Memory: 192 GiB,
     PricePerHour: 7.3051,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -785,7 +707,6 @@
     VCpu: 64,
     Memory: 512 GiB,
     PricePerHour: 29.58118,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -795,7 +716,6 @@
     VCpu: 2,
     Memory: 8 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -805,7 +725,6 @@
     VCpu: 16,
     Memory: 256 GiB,
     PricePerHour: 1.5912,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -815,7 +734,6 @@
     VCpu: 448,
     Memory: 8192 GiB,
     PricePerHour: 256.0208,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -825,7 +743,6 @@
     VCpu: 4,
     Memory: 16 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -835,7 +752,6 @@
     VCpu: 8,
     Memory: 32 GiB,
     PricePerHour: 1.01325,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -845,7 +761,6 @@
     VCpu: 4,
     Memory: 16 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -855,7 +770,6 @@
     VCpu: 96,
     Memory: 384 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -865,7 +779,6 @@
     VCpu: 128,
     Memory: 1024 GiB,
     PricePerHour: 31.0272,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -875,7 +788,6 @@
     VCpu: 16,
     Memory: 128 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -885,7 +797,6 @@
     VCpu: 16,
     Memory: 64 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -895,7 +806,6 @@
     VCpu: 16,
     Memory: 64 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -905,7 +815,6 @@
     VCpu: 64,
     Memory: 512 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -915,7 +824,6 @@
     VCpu: 64,
     Memory: 256 GiB,
     PricePerHour: 4.9354,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -925,7 +833,6 @@
     VCpu: 8,
     Memory: 15 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -935,7 +842,6 @@
     VCpu: 4,
     Memory: 8 GiB,
     PricePerHour: 0.228,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -945,7 +851,6 @@
     VCpu: 384,
     Memory: 768 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -955,7 +860,6 @@
     VCpu: 8,
     Memory: 64 GiB,
     PricePerHour: 1.0054,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -965,7 +869,6 @@
     VCpu: 2,
     Memory: 4 GiB,
     PricePerHour: 0.08,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -975,7 +878,6 @@
     VCpu: 8,
     Memory: 16 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -985,7 +887,6 @@
     VCpu: 48,
     Memory: 192 GiB,
     PricePerHour: 9.95407,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -995,7 +896,6 @@
     VCpu: 48,
     Memory: 384 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -1005,7 +905,6 @@
     VCpu: 32,
     Memory: 128 GiB,
     PricePerHour: 2.21584,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -1015,7 +914,6 @@
     VCpu: 2,
     Memory: 16 GiB,
     PricePerHour: 0.131,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -1025,7 +923,6 @@
     VCpu: 4,
     Memory: 32 GiB,
     PricePerHour: 2.07478,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -1035,7 +932,6 @@
     VCpu: 448,
     Memory: 24576 GiB,
     PricePerHour: 168.165,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -1045,7 +941,6 @@
     VCpu: 2,
     Memory: 16 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -1055,7 +950,6 @@
     VCpu: 8,
     Memory: 32 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -1065,7 +959,6 @@
     VCpu: 4,
     Memory: 16 GiB,
     PricePerHour: 0.89228,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -1075,7 +968,6 @@
     VCpu: 4,
     Memory: 32 GiB,
     PricePerHour: 1.88,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -1085,7 +977,6 @@
     VCpu: 4,
     Memory: 16 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -1095,7 +986,6 @@
     VCpu: 32,
     Memory: 64 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -1105,7 +995,6 @@
     VCpu: 32,
     Memory: 976 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -1115,7 +1004,6 @@
     VCpu: 4,
     Memory: 128 GiB,
     PricePerHour: 0.98459,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -1125,7 +1013,6 @@
     VCpu: 32,
     Memory: 128 GiB,
     PricePerHour: 1.6088,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -1135,7 +1022,6 @@
     VCpu: 8,
     Memory: 64 GiB,
     PricePerHour: 0.668,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -1145,7 +1031,6 @@
     VCpu: 64,
     Memory: 128 GiB,
     PricePerHour: 4.1186,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -1155,7 +1040,6 @@
     VCpu: 896,
     Memory: 24576 GiB,
     PricePerHour: 419.46728,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -1165,7 +1049,6 @@
     VCpu: 24,
     Memory: 96 GiB,
     PricePerHour: 3.414,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -1175,7 +1058,6 @@
     VCpu: 2,
     Memory: 2 GiB,
     PricePerHour: 0.0456,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -1185,7 +1067,6 @@
     VCpu: 8,
     Memory: 32 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -1195,7 +1076,6 @@
     VCpu: 64,
     Memory: 256 GiB,
     PricePerHour: 2.8928,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -1205,7 +1085,6 @@
     VCpu: 32,
     Memory: 128 GiB,
     PricePerHour: 1.3879,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -1215,7 +1094,6 @@
     VCpu: 2,
     Memory: 4 GiB,
     PricePerHour: 0.08774,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -1225,7 +1103,6 @@
     VCpu: 48,
     Memory: 384 GiB,
     PricePerHour: 3.576,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -1235,7 +1112,6 @@
     VCpu: 96,
     Memory: 768 GiB,
     PricePerHour: 7.152,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -1245,7 +1121,6 @@
     VCpu: 8,
     Memory: 64 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -1255,7 +1130,6 @@
     VCpu: 12,
     Memory: 96 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -1265,7 +1139,6 @@
     VCpu: 96,
     Memory: 768 GiB,
     PricePerHour: 5.65536,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -1275,7 +1148,6 @@
     VCpu: 4,
     Memory: 32 GiB,
     PricePerHour: 0.323,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -1285,7 +1157,6 @@
     VCpu: 48,
     Memory: 384 GiB,
     PricePerHour: 4.464,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -1295,7 +1166,6 @@
     VCpu: 4,
     Memory: 32 GiB,
     PricePerHour: 0.556,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -1305,7 +1175,6 @@
     VCpu: 2,
     Memory: 7.5 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -1315,7 +1184,6 @@
     VCpu: 4,
     Memory: 30.5 GiB,
     PricePerHour: 0.333,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -1325,7 +1193,6 @@
     VCpu: 16,
     Memory: 128 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -1335,7 +1202,6 @@
     VCpu: 32,
     Memory: 128 GiB,
     PricePerHour: 3.70394,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -1345,7 +1211,6 @@
     VCpu: 2,
     Memory: 15.25 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -1355,7 +1220,6 @@
     VCpu: 32,
     Memory: 256 GiB,
     PricePerHour: 2.56832,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -1365,7 +1229,6 @@
     VCpu: 16,
     Memory: 64 GiB,
     PricePerHour: 1.1929,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -1375,7 +1238,6 @@
     VCpu: 4,
     Memory: 16 GiB,
     PricePerHour: 1.86632,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -1385,7 +1247,6 @@
     VCpu: 48,
     Memory: 384 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -1395,7 +1256,6 @@
     VCpu: 128,
     Memory: 256 GiB,
     PricePerHour: 5.3856,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -1405,7 +1265,6 @@
     VCpu: 48,
     Memory: 96 GiB,
     PricePerHour: 2.3562,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -1415,7 +1274,6 @@
     VCpu: 96,
     Memory: 384 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -1425,7 +1283,6 @@
     VCpu: 96,
     Memory: 1536 GiB,
     PricePerHour: 26.93985,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -1435,7 +1292,6 @@
     VCpu: 4,
     Memory: 32 GiB,
     PricePerHour: 1.213,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -1445,7 +1301,6 @@
     VCpu: 48,
     Memory: 96 GiB,
     PricePerHour: 3.2281,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -1455,7 +1310,6 @@
     VCpu: 4,
     Memory: 32 GiB,
     PricePerHour: 0.3335,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -1465,7 +1319,6 @@
     VCpu: 16,
     Memory: 64 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -1475,7 +1328,6 @@
     VCpu: 32,
     Memory: 128 GiB,
     PricePerHour: 2.694,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -1485,7 +1337,6 @@
     VCpu: 8,
     Memory: 64 GiB,
     PricePerHour: 0.48528,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -1495,7 +1346,6 @@
     VCpu: 2,
     Memory: 16 GiB,
     PricePerHour: 0.25169,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -1505,7 +1355,6 @@
     VCpu: 32,
     Memory: 256 GiB,
     PricePerHour: 2.84528,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -1515,7 +1364,6 @@
     VCpu: 36,
     Memory: 96 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -1525,7 +1373,6 @@
     VCpu: 64,
     Memory: 512 GiB,
     PricePerHour: 6.24416,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -1535,7 +1382,6 @@
     VCpu: 96,
     Memory: 384 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -1545,7 +1391,6 @@
     VCpu: 8,
     Memory: 16 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -1555,7 +1400,6 @@
     VCpu: 8,
     Memory: 16 GiB,
     PricePerHour: 3.66576,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -1565,7 +1409,6 @@
     VCpu: 4,
     Memory: 32 GiB,
     PricePerHour: 0.5559,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -1575,7 +1418,6 @@
     VCpu: 2,
     Memory: 16 GiB,
     PricePerHour: 0.298,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -1585,7 +1427,6 @@
     VCpu: 16,
     Memory: 64 GiB,
     PricePerHour: 3.81,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -1595,7 +1436,6 @@
     VCpu: 96,
     Memory: 192 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -1605,7 +1445,6 @@
     VCpu: 128,
     Memory: 1024 GiB,
     PricePerHour: 33.152,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -1615,7 +1454,6 @@
     VCpu: 128,
     Memory: 1024 GiB,
     PricePerHour: 10.71136,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -1625,7 +1463,6 @@
     VCpu: 192,
     Memory: 384 GiB,
     PricePerHour: 32.2272,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -1635,7 +1472,6 @@
     VCpu: 224,
     Memory: 6144 GiB,
     PricePerHour: 27.01,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -1645,7 +1481,6 @@
     VCpu: 48,
     Memory: 96 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -1655,7 +1490,6 @@
     VCpu: 48,
     Memory: 384 GiB,
     PricePerHour: 4.396,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -1665,7 +1499,6 @@
     VCpu: 48,
     Memory: 384 GiB,
     PricePerHour: 21.724,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -1675,7 +1508,6 @@
     VCpu: 8,
     Memory: 61 GiB,
     PricePerHour: 1.6604,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -1685,7 +1517,6 @@
     VCpu: 32,
     Memory: 976 GiB,
     PricePerHour: 7.685,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -1695,7 +1526,6 @@
     VCpu: 4,
     Memory: 8 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -1705,7 +1535,6 @@
     VCpu: 8,
     Memory: 16 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -1715,7 +1544,6 @@
     VCpu: 32,
     Memory: 128 GiB,
     PricePerHour: 2.218,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -1725,7 +1553,6 @@
     VCpu: 2,
     Memory: 8 GiB,
     PricePerHour: 0.092,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -1735,7 +1562,6 @@
     VCpu: 2,
     Memory: 15.25 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -1745,7 +1571,6 @@
     VCpu: 32,
     Memory: 64 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -1755,7 +1580,6 @@
     VCpu: 448,
     Memory: 6144 GiB,
     PricePerHour: 9.0048,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -1765,7 +1589,6 @@
     VCpu: 896,
     Memory: 16384 GiB,
     PricePerHour: 180.47558,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -1775,7 +1598,6 @@
     VCpu: 16,
     Memory: 64 GiB,
     PricePerHour: 0.8448,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -1785,7 +1607,6 @@
     VCpu: 8,
     Memory: 32 GiB,
     PricePerHour: 0.766,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -1795,7 +1616,6 @@
     VCpu: 32,
     Memory: 256 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -1805,7 +1625,6 @@
     VCpu: 48,
     Memory: 192 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -1815,7 +1634,6 @@
     VCpu: 128,
     Memory: 1024 GiB,
     PricePerHour: 5.888,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -1825,7 +1643,6 @@
     VCpu: 32,
     Memory: 128 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -1835,7 +1652,6 @@
     VCpu: 2,
     Memory: 16 GiB,
     PricePerHour: 0.7608,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -1845,7 +1661,6 @@
     VCpu: 8,
     Memory: 64 GiB,
     PricePerHour: 1.03196,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -1855,7 +1670,6 @@
     VCpu: 4,
     Memory: 64 GiB,
     PricePerHour: 0.5184,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -1865,7 +1679,6 @@
     VCpu: 96,
     Memory: 192 GiB,
     PricePerHour: 7.06608,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -1875,7 +1688,6 @@
     VCpu: 896,
     Memory: 12288 GiB,
     PricePerHour: 274.31782,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -1885,7 +1697,6 @@
     VCpu: 32,
     Memory: 256 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -1895,7 +1706,6 @@
     VCpu: 4,
     Memory: 16 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -1905,7 +1715,6 @@
     VCpu: 64,
     Memory: 128 GiB,
     PricePerHour: 3.028,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -1915,7 +1724,6 @@
     VCpu: 32,
     Memory: 128 GiB,
     PricePerHour: 3.24608,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -1925,7 +1733,6 @@
     VCpu: 48,
     Memory: 384 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -1935,7 +1742,6 @@
     VCpu: 2,
     Memory: 16 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -1945,7 +1751,6 @@
     VCpu: 8,
     Memory: 21 GiB,
     PricePerHour: 3.547,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -1955,7 +1760,6 @@
     VCpu: 64,
     Memory: 512 GiB,
     PricePerHour: 5.95476,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -1965,7 +1769,6 @@
     VCpu: 8,
     Memory: 16 GiB,
     PricePerHour: 3.708,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -1975,7 +1778,6 @@
     VCpu: 4,
     Memory: 8 GiB,
     PricePerHour: 0.20296,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -1985,7 +1787,6 @@
     VCpu: 32,
     Memory: 60 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -1995,7 +1796,6 @@
     VCpu: 8,
     Memory: 15 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -2005,7 +1805,6 @@
     VCpu: 32,
     Memory: 256 GiB,
     PricePerHour: 2.154,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -2015,7 +1814,6 @@
     VCpu: 4,
     Memory: 30.5 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -2025,7 +1823,6 @@
     VCpu: 2,
     Memory: 16 GiB,
     PricePerHour: 0.23,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -2035,7 +1832,6 @@
     VCpu: 192,
     Memory: 768 GiB,
     PricePerHour: 17.1264,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -2045,7 +1841,6 @@
     VCpu: 64,
     Memory: 128 GiB,
     PricePerHour: 12.1647,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -2055,7 +1850,6 @@
     VCpu: 64,
     Memory: 512 GiB,
     PricePerHour: 2.944,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -2065,7 +1859,6 @@
     VCpu: 2,
     Memory: 8 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -2075,7 +1868,6 @@
     VCpu: 4,
     Memory: 7.5 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -2085,7 +1877,6 @@
     VCpu: 4,
     Memory: 16 GiB,
     PricePerHour: 0.699,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -2095,7 +1886,6 @@
     VCpu: 2,
     Memory: 16 GiB,
     PricePerHour: 0.24373,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -2105,7 +1895,6 @@
     VCpu: 48,
     Memory: 384 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -2115,7 +1904,6 @@
     VCpu: 96,
     Memory: 192 GiB,
     PricePerHour: 8.482,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -2125,7 +1913,6 @@
     VCpu: 8,
     Memory: 32 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -2135,7 +1922,6 @@
     VCpu: 96,
     Memory: 768 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -2145,7 +1931,6 @@
     VCpu: 32,
     Memory: 128 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -2155,7 +1940,6 @@
     VCpu: 24,
     Memory: 192 GiB,
     PricePerHour: 0.538,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -2165,7 +1949,6 @@
     VCpu: 16,
     Memory: 128 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -2175,7 +1958,6 @@
     VCpu: 2,
     Memory: 4 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -2185,7 +1967,6 @@
     VCpu: 16,
     Memory: 64 GiB,
     PricePerHour: 1.222,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -2195,7 +1976,6 @@
     VCpu: 192,
     Memory: 1536 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -2205,7 +1985,6 @@
     VCpu: 4,
     Memory: 30.5 GiB,
     PricePerHour: 0.128,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -2215,7 +1994,6 @@
     VCpu: 192,
     Memory: 1536 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -2225,7 +2003,6 @@
     VCpu: 16,
     Memory: 128 GiB,
     PricePerHour: 1.068,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -2235,7 +2012,6 @@
     VCpu: 48,
     Memory: 192 GiB,
     PricePerHour: 5.06176,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -2245,7 +2021,6 @@
     VCpu: 1,
     Memory: 2 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -2255,7 +2030,6 @@
     VCpu: 8,
     Memory: 32 GiB,
     PricePerHour: 0.266,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -2265,7 +2039,6 @@
     VCpu: 64,
     Memory: 488 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -2275,7 +2048,6 @@
     VCpu: 8,
     Memory: 21 GiB,
     PricePerHour: 0.266,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -2285,7 +2057,6 @@
     VCpu: 64,
     Memory: 256 GiB,
     PricePerHour: 27.72557,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -2295,7 +2066,6 @@
     VCpu: 32,
     Memory: 256 GiB,
     PricePerHour: 3.3216,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -2305,7 +2075,6 @@
     VCpu: 4,
     Memory: 8 GiB,
     PricePerHour: 0.1798,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -2315,7 +2084,6 @@
     VCpu: 32,
     Memory: 244 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -2325,7 +2093,6 @@
     VCpu: 128,
     Memory: 256 GiB,
     PricePerHour: 55.9584,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -2335,7 +2102,6 @@
     VCpu: 8,
     Memory: 64 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -2345,7 +2111,6 @@
     VCpu: 128,
     Memory: 1024 GiB,
     PricePerHour: 12.28288,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -2355,7 +2120,6 @@
     VCpu: 8,
     Memory: 32 GiB,
     PricePerHour: 0.38304,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -2365,7 +2129,6 @@
     VCpu: 96,
     Memory: 384 GiB,
     PricePerHour: 5.837,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -2375,7 +2138,6 @@
     VCpu: 8,
     Memory: 16 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -2385,7 +2147,6 @@
     VCpu: 48,
     Memory: 384 GiB,
     PricePerHour: 5.2632,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -2395,7 +2156,6 @@
     VCpu: 48,
     Memory: 96 GiB,
     PricePerHour: 2.86992,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -2405,7 +2165,6 @@
     VCpu: 16,
     Memory: 32 GiB,
     PricePerHour: 3.2975,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -2415,7 +2174,6 @@
     VCpu: 48,
     Memory: 192 GiB,
     PricePerHour: 0.946,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -2425,7 +2183,6 @@
     VCpu: 2,
     Memory: 4 GiB,
     PricePerHour: 0.57818,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -2435,7 +2192,6 @@
     VCpu: 16,
     Memory: 64 GiB,
     PricePerHour: 1.5424,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -2445,7 +2201,6 @@
     VCpu: 192,
     Memory: 2048 GiB,
     PricePerHour: 71.4688,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -2455,7 +2210,6 @@
     VCpu: 96,
     Memory: 384 GiB,
     PricePerHour: 1.762,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -2465,7 +2219,6 @@
     VCpu: 4,
     Memory: 16 GiB,
     PricePerHour: 0.2081,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -2475,7 +2228,6 @@
     VCpu: 4,
     Memory: 16 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -2485,7 +2237,6 @@
     VCpu: 32,
     Memory: 244 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -2495,7 +2246,6 @@
     VCpu: 16,
     Memory: 32 GiB,
     PricePerHour: 2.608,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -2505,7 +2255,6 @@
     VCpu: 16,
     Memory: 64 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -2515,7 +2264,6 @@
     VCpu: 4,
     Memory: 32 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -2525,7 +2273,6 @@
     VCpu: 96,
     Memory: 192 GiB,
     PricePerHour: 43.385,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -2535,7 +2282,6 @@
     VCpu: 12,
     Memory: 96 GiB,
     PricePerHour: 2.9994,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -2545,7 +2291,6 @@
     VCpu: 72,
     Memory: 144 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -2555,7 +2300,6 @@
     VCpu: 64,
     Memory: 256 GiB,
     PricePerHour: 5.267,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -2565,7 +2309,6 @@
     VCpu: 8,
     Memory: 16 GiB,
     PricePerHour: 0.266,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -2575,7 +2318,6 @@
     VCpu: 64,
     Memory: 256 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -2585,7 +2327,6 @@
     VCpu: 36,
     Memory: 96 GiB,
     PricePerHour: 17.217,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -2595,7 +2336,6 @@
     VCpu: 2,
     Memory: 16 GiB,
     PricePerHour: 0.664,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -2605,7 +2345,6 @@
     VCpu: 16,
     Memory: 128 GiB,
     PricePerHour: 3.6962,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -2615,7 +2354,6 @@
     VCpu: 16,
     Memory: 64 GiB,
     PricePerHour: 3.07712,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -2625,7 +2363,6 @@
     VCpu: 2,
     Memory: 16 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -2635,7 +2372,6 @@
     VCpu: 48,
     Memory: 384 GiB,
     PricePerHour: 22.9296,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -2645,7 +2381,6 @@
     VCpu: 32,
     Memory: 64 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -2655,7 +2390,6 @@
     VCpu: 8,
     Memory: 32 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -2665,7 +2399,6 @@
     VCpu: 4,
     Memory: 16 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -2675,7 +2408,6 @@
     VCpu: 16,
     Memory: 488 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -2685,7 +2417,6 @@
     VCpu: 8,
     Memory: 61 GiB,
     PricePerHour: 0.266,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -2695,7 +2426,6 @@
     VCpu: 192,
     Memory: 768 GiB,
     PricePerHour: 8.2944,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -2705,7 +2435,6 @@
     VCpu: 8,
     Memory: 16 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -2715,7 +2444,6 @@
     VCpu: 96,
     Memory: 384 GiB,
     PricePerHour: 8.22336,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -2725,7 +2453,6 @@
     VCpu: 8,
     Memory: 256 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -2735,7 +2462,6 @@
     VCpu: 48,
     Memory: 192 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -2745,7 +2471,6 @@
     VCpu: 48,
     Memory: 192 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -2755,7 +2480,6 @@
     VCpu: 4,
     Memory: 128 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -2765,7 +2489,6 @@
     VCpu: 24,
     Memory: 192 GiB,
     PricePerHour: 2.93,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -2775,7 +2498,6 @@
     VCpu: 16,
     Memory: 64 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -2785,7 +2507,6 @@
     VCpu: 8,
     Memory: 64 GiB,
     PricePerHour: 0.63904,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -2795,7 +2516,6 @@
     VCpu: 32,
     Memory: 1024 GiB,
     PricePerHour: 8.8079,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -2805,7 +2525,6 @@
     VCpu: 8,
     Memory: 64 GiB,
     PricePerHour: 4.03746,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -2815,7 +2534,6 @@
     VCpu: 2,
     Memory: 4 GiB,
     PricePerHour: 0.1008,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -2825,7 +2543,6 @@
     VCpu: 4,
     Memory: 32 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -2835,7 +2552,6 @@
     VCpu: 64,
     Memory: 256 GiB,
     PricePerHour: 6.2432,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -2845,7 +2561,6 @@
     VCpu: 64,
     Memory: 256 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -2855,7 +2570,6 @@
     VCpu: 2,
     Memory: 16 GiB,
     PricePerHour: 0.199,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -2865,7 +2579,6 @@
     VCpu: 4,
     Memory: 16 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -2875,7 +2588,6 @@
     VCpu: 192,
     Memory: 1536 GiB,
     PricePerHour: 18.457,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -2885,7 +2597,6 @@
     VCpu: 8,
     Memory: 64 GiB,
     PricePerHour: 3.963,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -2895,7 +2606,6 @@
     VCpu: 4,
     Memory: 8 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -2905,7 +2615,6 @@
     VCpu: 8,
     Memory: 64 GiB,
     PricePerHour: 0.755,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -2915,7 +2624,6 @@
     VCpu: 192,
     Memory: 2048 GiB,
     PricePerHour: 3.8592,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -2925,7 +2633,6 @@
     VCpu: 48,
     Memory: 96 GiB,
     PricePerHour: 4.65,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -2935,7 +2642,6 @@
     VCpu: 16,
     Memory: 64 GiB,
     PricePerHour: 1.3512,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -2945,7 +2651,6 @@
     VCpu: 8,
     Memory: 32 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -2955,7 +2660,6 @@
     VCpu: 32,
     Memory: 256 GiB,
     PricePerHour: 3.02,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -2965,7 +2669,6 @@
     VCpu: 2,
     Memory: 16 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -2975,7 +2678,6 @@
     VCpu: 1,
     Memory: 3.75 GiB,
     PricePerHour: 0.087,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -2985,7 +2687,6 @@
     VCpu: 8,
     Memory: 32 GiB,
     PricePerHour: 0.6385,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -2995,7 +2696,6 @@
     VCpu: 32,
     Memory: 128 GiB,
     PricePerHour: 4.46325,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -3005,7 +2705,6 @@
     VCpu: 32,
     Memory: 128 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -3015,7 +2714,6 @@
     VCpu: 48,
     Memory: 384 GiB,
     PricePerHour: 3.205,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -3025,7 +2723,6 @@
     VCpu: 4,
     Memory: 10.5 GiB,
     PricePerHour: 1.9,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -3035,7 +2732,6 @@
     VCpu: 8,
     Memory: 32 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -3045,7 +2741,6 @@
     VCpu: 8,
     Memory: 15 GiB,
     PricePerHour: 3.788,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -3055,7 +2750,6 @@
     VCpu: 4,
     Memory: 7.5 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -3065,7 +2759,6 @@
     VCpu: 40,
     Memory: 160 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -3075,7 +2768,6 @@
     VCpu: 64,
     Memory: 256 GiB,
     PricePerHour: 3.2,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -3085,7 +2777,6 @@
     VCpu: 16,
     Memory: 64 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -3095,7 +2786,6 @@
     VCpu: 4,
     Memory: 16 GiB,
     PricePerHour: 0.22,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -3105,7 +2795,6 @@
     VCpu: 64,
     Memory: 256 GiB,
     PricePerHour: 3.259,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -3115,7 +2804,6 @@
     VCpu: 64,
     Memory: 256 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -3125,7 +2813,6 @@
     VCpu: 96,
     Memory: 384 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -3135,7 +2822,6 @@
     VCpu: 8,
     Memory: 32 GiB,
     PricePerHour: 0.407,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -3145,7 +2831,6 @@
     VCpu: 16,
     Memory: 64 GiB,
     PricePerHour: 0.815,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -3155,7 +2840,6 @@
     VCpu: 32,
     Memory: 128 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -3165,7 +2849,6 @@
     VCpu: 48,
     Memory: 192 GiB,
     PricePerHour: 2.064,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -3175,7 +2858,6 @@
     VCpu: 48,
     Memory: 192 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -3185,7 +2867,6 @@
     VCpu: 96,
     Memory: 384 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -3195,7 +2876,6 @@
     VCpu: 32,
     Memory: 128 GiB,
     PricePerHour: 1.918,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -3205,7 +2885,6 @@
     VCpu: 4,
     Memory: 16 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -3215,7 +2894,6 @@
     VCpu: 48,
     Memory: 192 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -3225,7 +2903,6 @@
     VCpu: 8,
     Memory: 32 GiB,
     PricePerHour: 0.577,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -3235,7 +2912,6 @@
     VCpu: 8,
     Memory: 32 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -3245,7 +2921,6 @@
     VCpu: 32,
     Memory: 128 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -3255,7 +2930,6 @@
     VCpu: 64,
     Memory: 256 GiB,
     PricePerHour: 3.808,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -3265,7 +2939,6 @@
     VCpu: 8,
     Memory: 32 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -3275,7 +2948,6 @@
     VCpu: 4,
     Memory: 16 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -3285,7 +2957,6 @@
     VCpu: 12,
     Memory: 48 GiB,
     PricePerHour: 1.0901,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -3295,7 +2966,6 @@
     VCpu: 12,
     Memory: 48 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -3305,7 +2975,6 @@
     VCpu: 48,
     Memory: 192 GiB,
     PricePerHour: 2.28096,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -3315,7 +2984,6 @@
     VCpu: 96,
     Memory: 384 GiB,
     PricePerHour: 4.56192,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -3325,7 +2993,6 @@
     VCpu: 192,
     Memory: 768 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -3335,7 +3002,6 @@
     VCpu: 4,
     Memory: 16 GiB,
     PricePerHour: 0.19008,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -3345,7 +3011,6 @@
     VCpu: 48,
     Memory: 192 GiB,
     PricePerHour: 1.9584,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -3355,7 +3020,6 @@
     VCpu: 24,
     Memory: 192 GiB,
     PricePerHour: 0.538,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -3365,7 +3029,6 @@
     VCpu: 2,
     Memory: 8 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -3375,7 +3038,6 @@
     VCpu: 2,
     Memory: 8 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -3385,7 +3047,6 @@
     VCpu: 16,
     Memory: 64 GiB,
     PricePerHour: 0.8448,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -3395,7 +3056,6 @@
     VCpu: 16,
     Memory: 64 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -3405,7 +3065,6 @@
     VCpu: 2,
     Memory: 8 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -3415,7 +3074,6 @@
     VCpu: 4,
     Memory: 16 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -3425,7 +3083,6 @@
     VCpu: 64,
     Memory: 256 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -3435,7 +3092,6 @@
     VCpu: 8,
     Memory: 32 GiB,
     PricePerHour: 0.52206,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -3445,7 +3101,6 @@
     VCpu: 4,
     Memory: 16 GiB,
     PricePerHour: 0.2373,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -3455,7 +3110,6 @@
     VCpu: 96,
     Memory: 384 GiB,
     PricePerHour: 8.40154,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -3465,7 +3119,6 @@
     VCpu: 128,
     Memory: 512 GiB,
     PricePerHour: 10.18368,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -3475,7 +3128,6 @@
     VCpu: 16,
     Memory: 64 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -3485,7 +3137,6 @@
     VCpu: 32,
     Memory: 128 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -3495,7 +3146,6 @@
     VCpu: 2,
     Memory: 8 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -3505,7 +3155,6 @@
     VCpu: 16,
     Memory: 64 GiB,
     PricePerHour: 1.11384,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -3515,7 +3164,6 @@
     VCpu: 16,
     Memory: 64 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -3525,7 +3173,6 @@
     VCpu: 4,
     Memory: 16 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -3535,7 +3182,6 @@
     VCpu: 64,
     Memory: 256 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -3545,7 +3191,6 @@
     VCpu: 8,
     Memory: 32 GiB,
     PricePerHour: 0.51005,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -3555,7 +3200,6 @@
     VCpu: 1,
     Memory: 4 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -3565,7 +3209,6 @@
     VCpu: 1,
     Memory: 4 GiB,
     PricePerHour: 0.05796,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -3575,7 +3218,6 @@
     VCpu: 64,
     Memory: 256 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -3585,7 +3227,6 @@
     VCpu: 2,
     Memory: 8 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -3595,7 +3236,6 @@
     VCpu: 48,
     Memory: 192 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -3605,7 +3245,6 @@
     VCpu: 2,
     Memory: 8 GiB,
     PricePerHour: 0.1068,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -3615,7 +3254,6 @@
     VCpu: 16,
     Memory: 64 GiB,
     PricePerHour: 0.76608,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -3625,7 +3263,6 @@
     VCpu: 4,
     Memory: 16 GiB,
     PricePerHour: 0.19152,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -3635,7 +3272,6 @@
     VCpu: 48,
     Memory: 192 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -3645,7 +3281,6 @@
     VCpu: 16,
     Memory: 64 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -3655,7 +3290,6 @@
     VCpu: 16,
     Memory: 64 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -3665,7 +3299,6 @@
     VCpu: 2,
     Memory: 8 GiB,
     PricePerHour: 0.12172,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -3675,7 +3308,6 @@
     VCpu: 2,
     Memory: 8 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -3685,7 +3317,6 @@
     VCpu: 8,
     Memory: 32 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -3695,7 +3326,6 @@
     VCpu: 192,
     Memory: 768 GiB,
     PricePerHour: 8.61696,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -3705,7 +3335,6 @@
     VCpu: 64,
     Memory: 256 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -3715,7 +3344,6 @@
     VCpu: 4,
     Memory: 16 GiB,
     PricePerHour: 0.291,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -3725,7 +3353,6 @@
     VCpu: 4,
     Memory: 16 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -3735,7 +3362,6 @@
     VCpu: 48,
     Memory: 192 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -3745,7 +3371,6 @@
     VCpu: 64,
     Memory: 256 GiB,
     PricePerHour: 3.69024,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -3755,7 +3380,6 @@
     VCpu: 64,
     Memory: 256 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -3765,7 +3389,6 @@
     VCpu: 8,
     Memory: 32 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -3775,7 +3398,6 @@
     VCpu: 2,
     Memory: 8 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -3785,7 +3407,6 @@
     VCpu: 4,
     Memory: 16 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -3795,7 +3416,6 @@
     VCpu: 4,
     Memory: 16 GiB,
     PricePerHour: 0.2011,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -3805,7 +3425,6 @@
     VCpu: 64,
     Memory: 256 GiB,
     PricePerHour: 3.38688,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -3815,7 +3434,6 @@
     VCpu: 64,
     Memory: 256 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -3825,7 +3443,6 @@
     VCpu: 96,
     Memory: 384 GiB,
     PricePerHour: 5.08032,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -3835,7 +3452,6 @@
     VCpu: 8,
     Memory: 32 GiB,
     PricePerHour: 0.4657,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -3845,7 +3461,6 @@
     VCpu: 128,
     Memory: 512 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -3855,7 +3470,6 @@
     VCpu: 128,
     Memory: 512 GiB,
     PricePerHour: 6.77376,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -3865,7 +3479,6 @@
     VCpu: 192,
     Memory: 768 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -3875,7 +3488,6 @@
     VCpu: 16,
     Memory: 64 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -3885,7 +3497,6 @@
     VCpu: 16,
     Memory: 64 GiB,
     PricePerHour: 0.84672,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -3895,7 +3506,6 @@
     VCpu: 32,
     Memory: 128 GiB,
     PricePerHour: 1.86278,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -3905,7 +3515,6 @@
     VCpu: 384,
     Memory: 1536 GiB,
     PricePerHour: 20.32128,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -3915,7 +3524,6 @@
     VCpu: 2,
     Memory: 8 GiB,
     PricePerHour: 0.10584,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -3925,7 +3533,6 @@
     VCpu: 4,
     Memory: 16 GiB,
     PricePerHour: 0.23285,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -3935,7 +3542,6 @@
     VCpu: 8,
     Memory: 32 GiB,
     PricePerHour: 0.3527,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -3945,7 +3551,6 @@
     VCpu: 8,
     Memory: 32 GiB,
     PricePerHour: 0.48,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -3955,7 +3560,6 @@
     VCpu: 2,
     Memory: 1 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -3965,7 +3569,6 @@
     VCpu: 2,
     Memory: 8 GiB,
     PricePerHour: 0.0752,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -3975,7 +3578,6 @@
     VCpu: 2,
     Memory: 4 GiB,
     PricePerHour: 0.0376,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -3985,7 +3587,6 @@
     VCpu: 2,
     Memory: 4 GiB,
     PricePerHour: 0.0376,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -3995,7 +3596,6 @@
     VCpu: 16,
     Memory: 32 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -4005,7 +3605,6 @@
     VCpu: 8,
     Memory: 15 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -4015,7 +3614,6 @@
     VCpu: 16,
     Memory: 30 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -4025,7 +3623,6 @@
     VCpu: 48,
     Memory: 96 GiB,
     PricePerHour: 2.162,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -4035,7 +3632,6 @@
     VCpu: 36,
     Memory: 72 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -4045,7 +3641,6 @@
     VCpu: 4,
     Memory: 8 GiB,
     PricePerHour: 0.172,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -4055,7 +3650,6 @@
     VCpu: 72,
     Memory: 144 GiB,
     PricePerHour: 3.456,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -4065,7 +3659,6 @@
     VCpu: 36,
     Memory: 72 GiB,
     PricePerHour: 1.728,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -4075,7 +3668,6 @@
     VCpu: 36,
     Memory: 72 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -4085,7 +3677,6 @@
     VCpu: 2,
     Memory: 4 GiB,
     PricePerHour: 0.102,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -4095,7 +3686,6 @@
     VCpu: 72,
     Memory: 192 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -4105,7 +3695,6 @@
     VCpu: 72,
     Memory: 192 GiB,
     PricePerHour: 3.888,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -4115,7 +3704,6 @@
     VCpu: 36,
     Memory: 96 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -4125,7 +3713,6 @@
     VCpu: 16,
     Memory: 32 GiB,
     PricePerHour: 0.6732,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -4135,7 +3722,6 @@
     VCpu: 16,
     Memory: 32 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -4145,7 +3731,6 @@
     VCpu: 2,
     Memory: 4 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -4155,7 +3740,6 @@
     VCpu: 48,
     Memory: 96 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -4165,7 +3749,6 @@
     VCpu: 32,
     Memory: 64 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -4175,7 +3758,6 @@
     VCpu: 2,
     Memory: 4 GiB,
     PricePerHour: 0.068,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -4185,7 +3767,6 @@
     VCpu: 8,
     Memory: 16 GiB,
     PricePerHour: 0.3072,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -4195,7 +3776,6 @@
     VCpu: 16,
     Memory: 32 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -4205,7 +3785,6 @@
     VCpu: 32,
     Memory: 64 GiB,
     PricePerHour: 1.3824,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -4215,7 +3794,6 @@
     VCpu: 4,
     Memory: 8 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -4225,7 +3803,6 @@
     VCpu: 8,
     Memory: 16 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -4235,7 +3812,6 @@
     VCpu: 4,
     Memory: 8 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -4245,7 +3821,6 @@
     VCpu: 4,
     Memory: 32 GiB,
     PricePerHour: 1.0335,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -4255,7 +3830,6 @@
     VCpu: 48,
     Memory: 96 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -4265,7 +3839,6 @@
     VCpu: 96,
     Memory: 192 GiB,
     PricePerHour: 4.8384,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -4275,7 +3848,6 @@
     VCpu: 96,
     Memory: 192 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -4285,7 +3857,6 @@
     VCpu: 8,
     Memory: 16 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -4295,7 +3866,6 @@
     VCpu: 128,
     Memory: 256 GiB,
     PricePerHour: 7.2576,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -4305,7 +3875,6 @@
     VCpu: 64,
     Memory: 128 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -4315,7 +3884,6 @@
     VCpu: 192,
     Memory: 384 GiB,
     PricePerHour: 9.85344,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -4325,7 +3893,6 @@
     VCpu: 16,
     Memory: 32 GiB,
     PricePerHour: 0.82112,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -4335,7 +3902,6 @@
     VCpu: 4,
     Memory: 8 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -4345,7 +3911,6 @@
     VCpu: 48,
     Memory: 96 GiB,
     PricePerHour: 1.74,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -4355,7 +3920,6 @@
     VCpu: 48,
     Memory: 96 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -4365,7 +3929,6 @@
     VCpu: 64,
     Memory: 128 GiB,
     PricePerHour: 2.903,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -4375,7 +3938,6 @@
     VCpu: 8,
     Memory: 16 GiB,
     PricePerHour: 0.3847,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -4385,7 +3947,6 @@
     VCpu: 8,
     Memory: 16 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -4395,7 +3956,6 @@
     VCpu: 16,
     Memory: 32 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -4405,7 +3965,6 @@
     VCpu: 48,
     Memory: 96 GiB,
     PricePerHour: 2.9952,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -4415,7 +3974,6 @@
     VCpu: 8,
     Memory: 16 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -4425,7 +3983,6 @@
     VCpu: 1,
     Memory: 2 GiB,
     PricePerHour: 0.0624,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -4435,7 +3992,6 @@
     VCpu: 16,
     Memory: 32 GiB,
     PricePerHour: 0.7854,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -4445,7 +4001,6 @@
     VCpu: 48,
     Memory: 96 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -4455,7 +4010,6 @@
     VCpu: 48,
     Memory: 96 GiB,
     PricePerHour: 4.79448,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -4465,7 +4019,6 @@
     VCpu: 48,
     Memory: 96 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -4475,7 +4028,6 @@
     VCpu: 64,
     Memory: 128 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -4485,7 +4037,6 @@
     VCpu: 64,
     Memory: 128 GiB,
     PricePerHour: 3.44864,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -4495,7 +4046,6 @@
     VCpu: 8,
     Memory: 16 GiB,
     PricePerHour: 0.47419,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -4505,7 +4055,6 @@
     VCpu: 8,
     Memory: 16 GiB,
     PricePerHour: 0.47419,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -4515,7 +4064,6 @@
     VCpu: 8,
     Memory: 16 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -4525,7 +4073,6 @@
     VCpu: 192,
     Memory: 384 GiB,
     PricePerHour: 10.34592,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -4535,7 +4082,6 @@
     VCpu: 32,
     Memory: 1024 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -4545,7 +4091,6 @@
     VCpu: 192,
     Memory: 384 GiB,
     PricePerHour: 8.832,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -4555,7 +4100,6 @@
     VCpu: 32,
     Memory: 64 GiB,
     PricePerHour: 1.472,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -4565,7 +4109,6 @@
     VCpu: 32,
     Memory: 64 GiB,
     PricePerHour: 3.36875,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -4575,7 +4118,6 @@
     VCpu: 2,
     Memory: 4 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -4585,7 +4127,6 @@
     VCpu: 2,
     Memory: 4 GiB,
     PricePerHour: 0.21055,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -4595,7 +4136,6 @@
     VCpu: 4,
     Memory: 8 GiB,
     PricePerHour: 0.184,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -4605,7 +4145,6 @@
     VCpu: 4,
     Memory: 8 GiB,
     PricePerHour: 0.39954,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -4615,7 +4154,6 @@
     VCpu: 4,
     Memory: 8 GiB,
     PricePerHour: 0.21554,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -4625,7 +4163,6 @@
     VCpu: 4,
     Memory: 8 GiB,
     PricePerHour: 0.42109,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -4635,7 +4172,6 @@
     VCpu: 96,
     Memory: 192 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -4645,7 +4181,6 @@
     VCpu: 8,
     Memory: 16 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -4655,7 +4190,6 @@
     VCpu: 192,
     Memory: 384 GiB,
     PricePerHour: 7.65696,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -4665,7 +4199,6 @@
     VCpu: 16,
     Memory: 32 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -4675,7 +4208,6 @@
     VCpu: 16,
     Memory: 32 GiB,
     PricePerHour: 0.70189,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -4685,7 +4217,6 @@
     VCpu: 1,
     Memory: 2 GiB,
     PricePerHour: 0.04387,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -4695,7 +4226,6 @@
     VCpu: 48,
     Memory: 96 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -4705,7 +4235,6 @@
     VCpu: 64,
     Memory: 128 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -4715,7 +4244,6 @@
     VCpu: 96,
     Memory: 192 GiB,
     PricePerHour: 6.02928,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -4725,7 +4253,6 @@
     VCpu: 8,
     Memory: 16 GiB,
     PricePerHour: 0.474,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -4735,7 +4262,6 @@
     VCpu: 16,
     Memory: 32 GiB,
     PricePerHour: 1.00488,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -4745,7 +4271,6 @@
     VCpu: 48,
     Memory: 96 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -4755,7 +4280,6 @@
     VCpu: 96,
     Memory: 192 GiB,
     PricePerHour: 4.70304,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -4765,7 +4289,6 @@
     VCpu: 32,
     Memory: 64 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -4775,7 +4298,6 @@
     VCpu: 32,
     Memory: 64 GiB,
     PricePerHour: 1.56768,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -4785,7 +4307,6 @@
     VCpu: 4,
     Memory: 8 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -4795,7 +4316,6 @@
     VCpu: 96,
     Memory: 192 GiB,
     PricePerHour: 6.0293,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -4805,7 +4325,6 @@
     VCpu: 96,
     Memory: 192 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -4815,7 +4334,6 @@
     VCpu: 192,
     Memory: 384 GiB,
     PricePerHour: 11.376,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -4825,7 +4343,6 @@
     VCpu: 192,
     Memory: 384 GiB,
     PricePerHour: 11.376,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -4835,7 +4352,6 @@
     VCpu: 1,
     Memory: 2 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -4845,7 +4361,6 @@
     VCpu: 64,
     Memory: 128 GiB,
     PricePerHour: 2.84864,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -4855,7 +4370,6 @@
     VCpu: 16,
     Memory: 32 GiB,
     PricePerHour: 0.71216,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -4865,7 +4379,6 @@
     VCpu: 48,
     Memory: 96 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -4875,7 +4388,6 @@
     VCpu: 48,
     Memory: 96 GiB,
     PricePerHour: 2.47394,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -4885,7 +4397,6 @@
     VCpu: 96,
     Memory: 192 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -4895,7 +4406,6 @@
     VCpu: 8,
     Memory: 16 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -4905,7 +4415,6 @@
     VCpu: 16,
     Memory: 32 GiB,
     PricePerHour: 0.74968,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -4915,7 +4424,6 @@
     VCpu: 16,
     Memory: 32 GiB,
     PricePerHour: 0.82465,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -4925,7 +4433,6 @@
     VCpu: 32,
     Memory: 64 GiB,
     PricePerHour: 1.6493,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -4935,7 +4442,6 @@
     VCpu: 384,
     Memory: 768 GiB,
     PricePerHour: 17.99232,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -4945,7 +4451,6 @@
     VCpu: 384,
     Memory: 768 GiB,
     PricePerHour: 17.99232,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -4955,7 +4460,6 @@
     VCpu: 48,
     Memory: 192 GiB,
     PricePerHour: 3.7015,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -4965,7 +4469,6 @@
     VCpu: 96,
     Memory: 384 GiB,
     PricePerHour: 7.403,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -4975,7 +4478,6 @@
     VCpu: 16,
     Memory: 64 GiB,
     PricePerHour: 1.2338,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -4985,7 +4487,6 @@
     VCpu: 96,
     Memory: 768 GiB,
     PricePerHour: 9.2693,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -4995,7 +4496,6 @@
     VCpu: 8,
     Memory: 64 GiB,
     PricePerHour: 0.7724,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -5005,7 +4505,6 @@
     VCpu: 2,
     Memory: 3.75 GiB,
     PricePerHour: 0.105,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -5015,7 +4514,6 @@
     VCpu: 8,
     Memory: 32 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -5025,7 +4523,6 @@
     VCpu: 4,
     Memory: 16 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -5035,7 +4532,6 @@
     VCpu: 4,
     Memory: 16 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -5045,7 +4541,6 @@
     VCpu: 64,
     Memory: 256 GiB,
     PricePerHour: 4.096,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -5055,7 +4550,6 @@
     VCpu: 192,
     Memory: 768 GiB,
     PricePerHour: 17.9168,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -5065,7 +4559,6 @@
     VCpu: 192,
     Memory: 768 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -5075,7 +4568,6 @@
     VCpu: 4,
     Memory: 16 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -5085,7 +4577,6 @@
     VCpu: 16,
     Memory: 32 GiB,
     PricePerHour: 0.828,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -5095,7 +4586,6 @@
     VCpu: 48,
     Memory: 192 GiB,
     PricePerHour: 4.6016,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -5105,7 +4595,6 @@
     VCpu: 64,
     Memory: 256 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -5115,7 +4604,6 @@
     VCpu: 64,
     Memory: 256 GiB,
     PricePerHour: 3.3968,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -5125,7 +4613,6 @@
     VCpu: 16,
     Memory: 64 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -5135,7 +4622,6 @@
     VCpu: 4,
     Memory: 16 GiB,
     PricePerHour: 0.88528,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -5145,7 +4631,6 @@
     VCpu: 4,
     Memory: 16 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -5155,7 +4640,6 @@
     VCpu: 64,
     Memory: 512 GiB,
     PricePerHour: 8.33491,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -5165,7 +4649,6 @@
     VCpu: 96,
     Memory: 768 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -5175,7 +4658,6 @@
     VCpu: 192,
     Memory: 1536 GiB,
     PricePerHour: 30.13118,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -5185,7 +4667,6 @@
     VCpu: 16,
     Memory: 128 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -5195,7 +4676,6 @@
     VCpu: 16,
     Memory: 128 GiB,
     PricePerHour: 4.04066,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -5205,7 +4685,6 @@
     VCpu: 16,
     Memory: 64 GiB,
     PricePerHour: 0.95,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -5215,7 +4694,6 @@
     VCpu: 4,
     Memory: 16 GiB,
     PricePerHour: 0.2375,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -5225,7 +4703,6 @@
     VCpu: 16,
     Memory: 128 GiB,
     PricePerHour: 1.5392,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -5235,7 +4712,6 @@
     VCpu: 32,
     Memory: 256 GiB,
     PricePerHour: 2.69104,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -5245,7 +4721,6 @@
     VCpu: 16,
     Memory: 128 GiB,
     PricePerHour: 1.1726,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -5255,7 +4730,6 @@
     VCpu: 96,
     Memory: 192 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -5265,7 +4739,6 @@
     VCpu: 24,
     Memory: 48 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -5275,7 +4748,6 @@
     VCpu: 32,
     Memory: 128 GiB,
     PricePerHour: 1.96786,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -5285,7 +4757,6 @@
     VCpu: 32,
     Memory: 128 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -5295,7 +4766,6 @@
     VCpu: 64,
     Memory: 488 GiB,
     PricePerHour: 24.48,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -5305,7 +4775,6 @@
     VCpu: 64,
     Memory: 488 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -5315,7 +4784,6 @@
     VCpu: 96,
     Memory: 768 GiB,
     PricePerHour: 31.212,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -5325,7 +4793,6 @@
     VCpu: 96,
     Memory: 1152 GiB,
     PricePerHour: 27.44705,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -5335,7 +4802,6 @@
     VCpu: 192,
     Memory: 2048 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -5345,7 +4811,6 @@
     VCpu: 192,
     Memory: 2048 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -5355,7 +4820,6 @@
     VCpu: 192,
     Memory: 2048 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -5365,7 +4829,6 @@
     VCpu: 96,
     Memory: 768 GiB,
     PricePerHour: 8.016,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -5375,7 +4838,6 @@
     VCpu: 96,
     Memory: 192 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -5385,7 +4847,6 @@
     VCpu: 24,
     Memory: 48 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -5395,7 +4856,6 @@
     VCpu: 16,
     Memory: 122 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -5405,7 +4865,6 @@
     VCpu: 96,
     Memory: 768 GiB,
     PricePerHour: 5.75,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -5415,7 +4874,6 @@
     VCpu: 64,
     Memory: 512 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -5425,7 +4883,6 @@
     VCpu: 96,
     Memory: 768 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -5435,7 +4892,6 @@
     VCpu: 8,
     Memory: 64 GiB,
     PricePerHour: 0.6556,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -5445,7 +4901,6 @@
     VCpu: 16,
     Memory: 128 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -5455,7 +4910,6 @@
     VCpu: 32,
     Memory: 256 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -5465,7 +4919,6 @@
     VCpu: 48,
     Memory: 384 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -5475,7 +4928,6 @@
     VCpu: 48,
     Memory: 384 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -5485,7 +4937,6 @@
     VCpu: 96,
     Memory: 768 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -5495,7 +4946,6 @@
     VCpu: 16,
     Memory: 122 GiB,
     PricePerHour: 0.402,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -5505,7 +4955,6 @@
     VCpu: 32,
     Memory: 256 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -5515,7 +4964,6 @@
     VCpu: 48,
     Memory: 384 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -5525,7 +4973,6 @@
     VCpu: 96,
     Memory: 768 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -5535,7 +4982,6 @@
     VCpu: 32,
     Memory: 256 GiB,
     PricePerHour: 2.384,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -5545,7 +4991,6 @@
     VCpu: 2,
     Memory: 16 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -5555,7 +5000,6 @@
     VCpu: 128,
     Memory: 1024 GiB,
     PricePerHour: 7.2576,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -5565,7 +5009,6 @@
     VCpu: 48,
     Memory: 384 GiB,
     PricePerHour: 2.5644,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -5575,7 +5018,6 @@
     VCpu: 48,
     Memory: 384 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -5585,7 +5027,6 @@
     VCpu: 1,
     Memory: 8 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -5595,7 +5036,6 @@
     VCpu: 1,
     Memory: 8 GiB,
     PricePerHour: 0.0504,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -5605,7 +5045,6 @@
     VCpu: 16,
     Memory: 128 GiB,
     PricePerHour: 0.9769,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -5615,7 +5054,6 @@
     VCpu: 32,
     Memory: 256 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -5625,7 +5063,6 @@
     VCpu: 2,
     Memory: 16 GiB,
     PricePerHour: 0.1221,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -5635,7 +5072,6 @@
     VCpu: 4,
     Memory: 32 GiB,
     PricePerHour: 0.2304,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -5645,7 +5081,6 @@
     VCpu: 64,
     Memory: 512 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -5655,7 +5090,6 @@
     VCpu: 96,
     Memory: 768 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -5665,7 +5099,6 @@
     VCpu: 16,
     Memory: 128 GiB,
     PricePerHour: 1.008,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -5675,7 +5108,6 @@
     VCpu: 16,
     Memory: 128 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -5685,7 +5117,6 @@
     VCpu: 32,
     Memory: 256 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -5695,7 +5126,6 @@
     VCpu: 96,
     Memory: 768 GiB,
     PricePerHour: 7.98336,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -5705,7 +5135,6 @@
     VCpu: 96,
     Memory: 768 GiB,
     PricePerHour: 7.2576,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -5715,7 +5144,6 @@
     VCpu: 8,
     Memory: 64 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -5725,7 +5153,6 @@
     VCpu: 128,
     Memory: 1024 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -5735,7 +5162,6 @@
     VCpu: 2,
     Memory: 16 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -5745,7 +5171,6 @@
     VCpu: 4,
     Memory: 32 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -5755,7 +5180,6 @@
     VCpu: 64,
     Memory: 512 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -5765,7 +5189,6 @@
     VCpu: 2,
     Memory: 16 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -5775,7 +5198,6 @@
     VCpu: 4,
     Memory: 32 GiB,
     PricePerHour: 0.42986,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -5785,7 +5207,6 @@
     VCpu: 4,
     Memory: 32 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -5795,7 +5216,6 @@
     VCpu: 64,
     Memory: 512 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -5805,7 +5225,6 @@
     VCpu: 8,
     Memory: 64 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -5815,7 +5234,6 @@
     VCpu: 128,
     Memory: 1024 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -5825,7 +5243,6 @@
     VCpu: 16,
     Memory: 128 GiB,
     PricePerHour: 1.5341,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -5835,7 +5252,6 @@
     VCpu: 4,
     Memory: 32 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -5845,7 +5261,6 @@
     VCpu: 64,
     Memory: 512 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -5855,7 +5270,6 @@
     VCpu: 96,
     Memory: 768 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -5865,7 +5279,6 @@
     VCpu: 2,
     Memory: 16 GiB,
     PricePerHour: 0.16737,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -5875,7 +5288,6 @@
     VCpu: 1,
     Memory: 8 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -5885,7 +5297,6 @@
     VCpu: 64,
     Memory: 512 GiB,
     PricePerHour: 4.65696,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -5895,7 +5306,6 @@
     VCpu: 64,
     Memory: 512 GiB,
     PricePerHour: 4.2336,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -5905,7 +5315,6 @@
     VCpu: 64,
     Memory: 512 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -5915,7 +5324,6 @@
     VCpu: 192,
     Memory: 1536 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -5925,7 +5333,6 @@
     VCpu: 48,
     Memory: 384 GiB,
     PricePerHour: 4.464,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -5935,7 +5342,6 @@
     VCpu: 32,
     Memory: 256 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -5945,7 +5351,6 @@
     VCpu: 48,
     Memory: 384 GiB,
     PricePerHour: 3.83424,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -5955,7 +5360,6 @@
     VCpu: 64,
     Memory: 512 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -5965,7 +5369,6 @@
     VCpu: 16,
     Memory: 128 GiB,
     PricePerHour: 1.40589,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -5975,7 +5378,6 @@
     VCpu: 2,
     Memory: 16 GiB,
     PricePerHour: 0.15976,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -5985,7 +5387,6 @@
     VCpu: 1,
     Memory: 8 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -5995,7 +5396,6 @@
     VCpu: 8,
     Memory: 64 GiB,
     PricePerHour: 0.51841,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -6005,7 +5405,6 @@
     VCpu: 192,
     Memory: 1536 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -6015,7 +5414,6 @@
     VCpu: 32,
     Memory: 256 GiB,
     PricePerHour: 2.07363,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -6025,7 +5423,6 @@
     VCpu: 48,
     Memory: 384 GiB,
     PricePerHour: 4.37232,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -6035,7 +5432,6 @@
     VCpu: 64,
     Memory: 512 GiB,
     PricePerHour: 5.82976,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -6045,7 +5441,6 @@
     VCpu: 96,
     Memory: 768 GiB,
     PricePerHour: 9.26932,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -6055,7 +5450,6 @@
     VCpu: 8,
     Memory: 64 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -6065,7 +5459,6 @@
     VCpu: 16,
     Memory: 128 GiB,
     PricePerHour: 1.45744,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -6075,7 +5468,6 @@
     VCpu: 32,
     Memory: 256 GiB,
     PricePerHour: 3.08977,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -6085,7 +5477,6 @@
     VCpu: 2,
     Memory: 16 GiB,
     PricePerHour: 0.18218,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -6095,7 +5486,6 @@
     VCpu: 1,
     Memory: 8 GiB,
     PricePerHour: 0.09656,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -6105,7 +5495,6 @@
     VCpu: 1,
     Memory: 8 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -6115,7 +5504,6 @@
     VCpu: 4,
     Memory: 32 GiB,
     PricePerHour: 0.36436,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -6125,7 +5513,6 @@
     VCpu: 64,
     Memory: 512 GiB,
     PricePerHour: 5.17299,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -6135,7 +5522,6 @@
     VCpu: 96,
     Memory: 768 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -6145,7 +5531,6 @@
     VCpu: 96,
     Memory: 768 GiB,
     PricePerHour: 7.75949,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -6155,7 +5540,6 @@
     VCpu: 32,
     Memory: 256 GiB,
     PricePerHour: 2.5865,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -6165,7 +5549,6 @@
     VCpu: 32,
     Memory: 256 GiB,
     PricePerHour: 2.35136,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -6175,7 +5558,6 @@
     VCpu: 4,
     Memory: 32 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -6185,7 +5567,6 @@
     VCpu: 8,
     Memory: 64 GiB,
     PricePerHour: 0.52788,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -6195,7 +5576,6 @@
     VCpu: 8,
     Memory: 64 GiB,
     PricePerHour: 0.52788,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -6205,7 +5585,6 @@
     VCpu: 32,
     Memory: 256 GiB,
     PricePerHour: 2.11152,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -6215,7 +5594,6 @@
     VCpu: 2,
     Memory: 16 GiB,
     PricePerHour: 0.13197,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -6225,7 +5603,6 @@
     VCpu: 8,
     Memory: 64 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -6235,7 +5612,6 @@
     VCpu: 16,
     Memory: 128 GiB,
     PricePerHour: 1.11136,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -6245,7 +5621,6 @@
     VCpu: 384,
     Memory: 3072 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -6255,7 +5630,6 @@
     VCpu: 384,
     Memory: 3072 GiB,
     PricePerHour: 26.67264,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -6265,7 +5639,6 @@
     VCpu: 384,
     Memory: 3072 GiB,
     PricePerHour: 26.67264,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -6275,7 +5648,6 @@
     VCpu: 2,
     Memory: 16 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -6285,7 +5657,6 @@
     VCpu: 4,
     Memory: 34.2 GiB,
     PricePerHour: 0.49,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -6295,7 +5666,6 @@
     VCpu: 64,
     Memory: 976 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -6305,7 +5675,6 @@
     VCpu: 8,
     Memory: 244 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -6315,7 +5684,6 @@
     VCpu: 16,
     Memory: 256 GiB,
     PricePerHour: 1.4696,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -6325,7 +5693,6 @@
     VCpu: 16,
     Memory: 256 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -6335,7 +5702,6 @@
     VCpu: 4,
     Memory: 64 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -6345,7 +5711,6 @@
     VCpu: 64,
     Memory: 1024 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -6355,7 +5720,6 @@
     VCpu: 96,
     Memory: 3072 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -6365,7 +5729,6 @@
     VCpu: 8,
     Memory: 256 GiB,
     PricePerHour: 1.66725,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -6375,7 +5738,6 @@
     VCpu: 48,
     Memory: 1536 GiB,
     PricePerHour: 10.008,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -6385,7 +5747,6 @@
     VCpu: 48,
     Memory: 1536 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -6395,7 +5756,6 @@
     VCpu: 8,
     Memory: 256 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -6405,7 +5765,6 @@
     VCpu: 24,
     Memory: 768 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -6415,7 +5774,6 @@
     VCpu: 2,
     Memory: 32 GiB,
     PricePerHour: 0.21494,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -6425,7 +5783,6 @@
     VCpu: 4,
     Memory: 64 GiB,
     PricePerHour: 0.42988,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -6435,7 +5792,6 @@
     VCpu: 4,
     Memory: 64 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -6445,7 +5801,6 @@
     VCpu: 48,
     Memory: 384 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -6455,7 +5810,6 @@
     VCpu: 12,
     Memory: 96 GiB,
     PricePerHour: 1.116,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -6465,7 +5819,6 @@
     VCpu: 12,
     Memory: 96 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -6475,7 +5828,6 @@
     VCpu: 24,
     Memory: 192 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -6485,7 +5837,6 @@
     VCpu: 8,
     Memory: 61 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -6495,7 +5846,6 @@
     VCpu: 32,
     Memory: 244 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -6505,7 +5855,6 @@
     VCpu: 8,
     Memory: 122 GiB,
     PricePerHour: 1.65,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -6515,7 +5864,6 @@
     VCpu: 16,
     Memory: 244 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -6525,7 +5873,6 @@
     VCpu: 192,
     Memory: 2048 GiB,
     PricePerHour: 17.424,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -6535,7 +5882,6 @@
     VCpu: 4,
     Memory: 32 GiB,
     PricePerHour: 0.549,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -6545,7 +5891,6 @@
     VCpu: 8,
     Memory: 32 GiB,
     PricePerHour: 1.051,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -6555,7 +5900,6 @@
     VCpu: 24,
     Memory: 96 GiB,
     PricePerHour: 3.47,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -6565,7 +5909,6 @@
     VCpu: 8,
     Memory: 32 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -6575,7 +5918,6 @@
     VCpu: 8,
     Memory: 32 GiB,
     PricePerHour: 0.468,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -6585,7 +5927,6 @@
     VCpu: 16,
     Memory: 64 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -6595,7 +5936,6 @@
     VCpu: 64,
     Memory: 488 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -6605,7 +5945,6 @@
     VCpu: 4,
     Memory: 30.5 GiB,
     PricePerHour: 0.343,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -6615,7 +5954,6 @@
     VCpu: 4,
     Memory: 30.5 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -6625,7 +5963,6 @@
     VCpu: 8,
     Memory: 64 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -6635,7 +5972,6 @@
     VCpu: 2,
     Memory: 16 GiB,
     PricePerHour: 0.241,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -6645,7 +5981,6 @@
     VCpu: 16,
     Memory: 128 GiB,
     PricePerHour: 1.23552,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -6655,7 +5990,6 @@
     VCpu: 16,
     Memory: 128 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -6665,7 +5999,6 @@
     VCpu: 64,
     Memory: 512 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -6675,7 +6008,6 @@
     VCpu: 8,
     Memory: 64 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -6685,7 +6017,6 @@
     VCpu: 128,
     Memory: 1024 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -6695,7 +6026,6 @@
     VCpu: 32,
     Memory: 256 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -6705,7 +6035,6 @@
     VCpu: 48,
     Memory: 384 GiB,
     PricePerHour: 4.8102,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -6715,7 +6044,6 @@
     VCpu: 64,
     Memory: 512 GiB,
     PricePerHour: 6.4136,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -6725,7 +6053,6 @@
     VCpu: 96,
     Memory: 768 GiB,
     PricePerHour: 9.6204,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -6735,7 +6062,6 @@
     VCpu: 8,
     Memory: 64 GiB,
     PricePerHour: 0.755,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -6745,7 +6071,6 @@
     VCpu: 8,
     Memory: 64 GiB,
     PricePerHour: 0.8017,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -6755,7 +6080,6 @@
     VCpu: 192,
     Memory: 1536 GiB,
     PricePerHour: 19.2408,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -6765,7 +6089,6 @@
     VCpu: 192,
     Memory: 1536 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -6775,7 +6098,6 @@
     VCpu: 16,
     Memory: 128 GiB,
     PricePerHour: 1.6034,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -6785,7 +6107,6 @@
     VCpu: 4,
     Memory: 32 GiB,
     PricePerHour: 0.3775,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -6795,7 +6116,6 @@
     VCpu: 4,
     Memory: 32 GiB,
     PricePerHour: 0.4009,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -6805,7 +6125,6 @@
     VCpu: 48,
     Memory: 384 GiB,
     PricePerHour: 6.6422,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -6815,7 +6134,6 @@
     VCpu: 96,
     Memory: 768 GiB,
     PricePerHour: 12.4752,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -6825,7 +6143,6 @@
     VCpu: 8,
     Memory: 64 GiB,
     PricePerHour: 1.107,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -6835,7 +6152,6 @@
     VCpu: 12,
     Memory: 96 GiB,
     PricePerHour: 1.5594,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -6845,7 +6161,6 @@
     VCpu: 12,
     Memory: 96 GiB,
     PricePerHour: 1.6605,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -6855,7 +6170,6 @@
     VCpu: 192,
     Memory: 1536 GiB,
     PricePerHour: 26.5687,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -6865,7 +6179,6 @@
     VCpu: 2,
     Memory: 16 GiB,
     PricePerHour: 0.2768,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -6875,7 +6188,6 @@
     VCpu: 2,
     Memory: 16 GiB,
     PricePerHour: 0.2599,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -6885,7 +6197,6 @@
     VCpu: 4,
     Memory: 32 GiB,
     PricePerHour: 0.5198,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -6895,7 +6206,6 @@
     VCpu: 64,
     Memory: 512 GiB,
     PricePerHour: 5.4912,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -6905,7 +6215,6 @@
     VCpu: 64,
     Memory: 512 GiB,
     PricePerHour: 6.04032,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -6915,7 +6224,6 @@
     VCpu: 96,
     Memory: 768 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -6925,7 +6233,6 @@
     VCpu: 8,
     Memory: 64 GiB,
     PricePerHour: 0.6864,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -6935,7 +6242,6 @@
     VCpu: 192,
     Memory: 1536 GiB,
     PricePerHour: 16.4736,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -6945,7 +6251,6 @@
     VCpu: 16,
     Memory: 128 GiB,
     PricePerHour: 1.5101,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -6955,7 +6260,6 @@
     VCpu: 16,
     Memory: 32 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -6965,7 +6269,6 @@
     VCpu: 32,
     Memory: 256 GiB,
     PricePerHour: 3.0202,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -6975,7 +6278,6 @@
     VCpu: 2,
     Memory: 16 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -6985,7 +6287,6 @@
     VCpu: 4,
     Memory: 32 GiB,
     PricePerHour: 0.3775,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -6995,7 +6296,6 @@
     VCpu: 4,
     Memory: 32 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -7005,7 +6305,6 @@
     VCpu: 72,
     Memory: 576 GiB,
     PricePerHour: 8.5428,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -7015,7 +6314,6 @@
     VCpu: 96,
     Memory: 768 GiB,
     PricePerHour: 11.3904,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -7025,7 +6323,6 @@
     VCpu: 96,
     Memory: 384 GiB,
     PricePerHour: 1.762,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -7035,7 +6332,6 @@
     VCpu: 8,
     Memory: 64 GiB,
     PricePerHour: 1.0109,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -7045,7 +6341,6 @@
     VCpu: 192,
     Memory: 1536 GiB,
     PricePerHour: 22.7808,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -7055,7 +6350,6 @@
     VCpu: 192,
     Memory: 1536 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -7065,7 +6359,6 @@
     VCpu: 24,
     Memory: 192 GiB,
     PricePerHour: 3.0328,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -7075,7 +6368,6 @@
     VCpu: 2,
     Memory: 16 GiB,
     PricePerHour: 0.2373,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -7085,7 +6377,6 @@
     VCpu: 4,
     Memory: 32 GiB,
     PricePerHour: 0.4746,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -7095,7 +6386,6 @@
     VCpu: 64,
     Memory: 256 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -7105,7 +6395,6 @@
     VCpu: 32,
     Memory: 128 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -7115,7 +6404,6 @@
     VCpu: 2,
     Memory: 8 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -7125,7 +6413,6 @@
     VCpu: 4,
     Memory: 16 GiB,
     PricePerHour: 0.36379,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -7135,7 +6422,6 @@
     VCpu: 8,
     Memory: 61 GiB,
     PricePerHour: 1.38,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -7145,7 +6431,6 @@
     VCpu: 36,
     Memory: 244 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -7155,7 +6440,6 @@
     VCpu: 64,
     Memory: 256 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -7165,7 +6449,6 @@
     VCpu: 96,
     Memory: 384 GiB,
     PricePerHour: 1.762,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -7175,7 +6458,6 @@
     VCpu: 32,
     Memory: 128 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -7185,7 +6467,6 @@
     VCpu: 48,
     Memory: 384 GiB,
     PricePerHour: 7.9296,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -7195,7 +6476,6 @@
     VCpu: 8,
     Memory: 64 GiB,
     PricePerHour: 3.8972,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -7205,7 +6485,6 @@
     VCpu: 4,
     Memory: 16 GiB,
     PricePerHour: 0.128,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -7215,7 +6494,6 @@
     VCpu: 2,
     Memory: 8 GiB,
     PricePerHour: 0.094,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -7225,7 +6503,6 @@
     VCpu: 48,
     Memory: 384 GiB,
     PricePerHour: 6.1008,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -7235,7 +6512,6 @@
     VCpu: 192,
     Memory: 1536 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -7245,7 +6521,6 @@
     VCpu: 32,
     Memory: 244 GiB,
     PricePerHour: 0.674,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -7255,7 +6530,6 @@
     VCpu: 2,
     Memory: 16 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -7265,7 +6539,6 @@
     VCpu: 2,
     Memory: 8 GiB,
     PricePerHour: 0.094,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -7275,7 +6548,6 @@
     VCpu: 64,
     Memory: 256 GiB,
     PricePerHour: 5.434,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -7285,7 +6557,6 @@
     VCpu: 4,
     Memory: 32 GiB,
     PricePerHour: 0.128,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -7295,7 +6566,6 @@
     VCpu: 16,
     Memory: 122 GiB,
     PricePerHour: 0.402,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -7305,7 +6575,6 @@
     VCpu: 4,
     Memory: 34.2 GiB,
     PricePerHour: 0.55,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -7315,7 +6584,6 @@
     VCpu: 8,
     Memory: 16 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -7325,7 +6593,6 @@
     VCpu: 8,
     Memory: 7 GiB,
     PricePerHour: 1.276,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -7335,7 +6602,6 @@
     VCpu: 16,
     Memory: 64 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -7345,7 +6611,6 @@
     VCpu: 96,
     Memory: 768 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -7355,7 +6620,6 @@
     VCpu: 16,
     Memory: 32 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -7365,7 +6629,6 @@
     VCpu: 48,
     Memory: 192 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -7375,7 +6638,6 @@
     VCpu: 8,
     Memory: 64 GiB,
     PricePerHour: 0.266,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -7385,7 +6647,6 @@
     VCpu: 64,
     Memory: 512 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -7395,7 +6656,6 @@
     VCpu: 8,
     Memory: 15 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -7405,7 +6665,6 @@
     VCpu: 16,
     Memory: 117 GiB,
     PricePerHour: 4.6,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -7415,7 +6674,6 @@
     VCpu: 8,
     Memory: 64 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -7425,7 +6683,6 @@
     VCpu: 96,
     Memory: 384 GiB,
     PricePerHour: 7.109,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -7435,7 +6692,6 @@
     VCpu: 48,
     Memory: 384 GiB,
     PricePerHour: 10.742,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -7445,7 +6701,6 @@
     VCpu: 48,
     Memory: 384 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -7455,7 +6710,6 @@
     VCpu: 16,
     Memory: 128 GiB,
     PricePerHour: 1.67488,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -7465,7 +6719,6 @@
     VCpu: 16,
     Memory: 64 GiB,
     PricePerHour: 0.768,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -7475,7 +6728,6 @@
     VCpu: 48,
     Memory: 192 GiB,
     PricePerHour: 3.04628,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -7485,7 +6737,6 @@
     VCpu: 96,
     Memory: 1536 GiB,
     PricePerHour: 11.0403,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -7495,7 +6746,6 @@
     VCpu: 4,
     Memory: 16 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -7505,7 +6755,6 @@
     VCpu: 64,
     Memory: 2048 GiB,
     PricePerHour: 15.363,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -7515,7 +6764,6 @@
     VCpu: 48,
     Memory: 96 GiB,
     PricePerHour: 2.04,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -7525,7 +6773,6 @@
     VCpu: 96,
     Memory: 768 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -7535,7 +6782,6 @@
     VCpu: 64,
     Memory: 256 GiB,
     PricePerHour: 7.098,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -7545,7 +6791,6 @@
     VCpu: 64,
     Memory: 512 GiB,
     PricePerHour: 9.19648,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -7555,7 +6800,6 @@
     VCpu: 16,
     Memory: 64 GiB,
     PricePerHour: 0.76032,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -7565,7 +6809,6 @@
     VCpu: 16,
     Memory: 64 GiB,
     PricePerHour: 1.7744,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -7575,7 +6818,6 @@
     VCpu: 4,
     Memory: 16 GiB,
     PricePerHour: 0.154,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -7585,7 +6827,6 @@
     VCpu: 8,
     Memory: 64 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -7595,7 +6836,6 @@
     VCpu: 64,
     Memory: 128 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -7605,7 +6845,6 @@
     VCpu: 448,
     Memory: 24576 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -7615,7 +6854,6 @@
     VCpu: 2,
     Memory: 4 GiB,
     PricePerHour: 0.077,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -7625,7 +6863,6 @@
     VCpu: 2,
     Memory: 4 GiB,
     PricePerHour: 0.0864,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -7635,7 +6872,6 @@
     VCpu: 32,
     Memory: 64 GiB,
     PricePerHour: 1.36,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -7645,7 +6881,6 @@
     VCpu: 8,
     Memory: 16 GiB,
     PricePerHour: 0.3082,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -7655,7 +6890,6 @@
     VCpu: 96,
     Memory: 384 GiB,
     PricePerHour: 8.144,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -7665,7 +6899,6 @@
     VCpu: 64,
     Memory: 128 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -7675,7 +6908,6 @@
     VCpu: 8,
     Memory: 64 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -7685,7 +6917,6 @@
     VCpu: 4,
     Memory: 30.5 GiB,
     PricePerHour: 0.293,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -7695,7 +6926,6 @@
     VCpu: 64,
     Memory: 1024 GiB,
     PricePerHour: 7.4609,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -7705,7 +6935,6 @@
     VCpu: 64,
     Memory: 256 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -7715,7 +6944,6 @@
     VCpu: 96,
     Memory: 1536 GiB,
     PricePerHour: 9.3792,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -7725,7 +6953,6 @@
     VCpu: 48,
     Memory: 192 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -7735,7 +6962,6 @@
     VCpu: 36,
     Memory: 244 GiB,
     PricePerHour: 5.52,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -7745,7 +6971,6 @@
     VCpu: 128,
     Memory: 256 GiB,
     PricePerHour: 6.4512,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -7755,7 +6980,6 @@
     VCpu: 64,
     Memory: 732 GiB,
     PricePerHour: 15.091,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -7765,7 +6989,6 @@
     VCpu: 64,
     Memory: 256 GiB,
     PricePerHour: 5.0604,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -7775,7 +6998,6 @@
     VCpu: 16,
     Memory: 64 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -7785,7 +7007,6 @@
     VCpu: 32,
     Memory: 128 GiB,
     PricePerHour: 15.1616,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -7795,7 +7016,6 @@
     VCpu: 48,
     Memory: 192 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -7805,7 +7025,6 @@
     VCpu: 48,
     Memory: 384 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -7815,7 +7034,6 @@
     VCpu: 32,
     Memory: 244 GiB,
     PricePerHour: 8.615,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -7825,7 +7043,6 @@
     VCpu: 128,
     Memory: 1952 GiB,
     PricePerHour: 15.501,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -7835,7 +7052,6 @@
     VCpu: 48,
     Memory: 192 GiB,
     PricePerHour: 3.617,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -7845,7 +7061,6 @@
     VCpu: 1,
     Memory: 3.75 GiB,
     PricePerHour: 0.101,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -7855,7 +7070,6 @@
     VCpu: 2,
     Memory: 4 GiB,
     PricePerHour: 0.09,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -7865,7 +7079,6 @@
     VCpu: 192,
     Memory: 384 GiB,
     PricePerHour: 33.38592,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -7875,7 +7088,6 @@
     VCpu: 64,
     Memory: 488 GiB,
     PricePerHour: 1.218,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -7885,7 +7097,6 @@
     VCpu: 96,
     Memory: 768 GiB,
     PricePerHour: 1.762,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -7895,7 +7106,6 @@
     VCpu: 36,
     Memory: 72 GiB,
     PricePerHour: 0.742,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -7905,7 +7115,6 @@
     VCpu: 64,
     Memory: 256 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -7915,7 +7124,6 @@
     VCpu: 64,
     Memory: 2048 GiB,
     PricePerHour: 14.0292,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -7925,7 +7133,6 @@
     VCpu: 128,
     Memory: 512 GiB,
     PricePerHour: 9.536,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -7935,7 +7142,6 @@
     VCpu: 4,
     Memory: 8 GiB,
     PricePerHour: 0.1923,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -7945,7 +7151,6 @@
     VCpu: 16,
     Memory: 64 GiB,
     PricePerHour: 2.784,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -7955,7 +7160,6 @@
     VCpu: 48,
     Memory: 96 GiB,
     PricePerHour: 2.328,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -7965,7 +7169,6 @@
     VCpu: 48,
     Memory: 384 GiB,
     PricePerHour: 4.2434,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -7975,7 +7178,6 @@
     VCpu: 8,
     Memory: 32 GiB,
     PricePerHour: 0.266,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -7985,7 +7187,6 @@
     VCpu: 4,
     Memory: 8 GiB,
     PricePerHour: 0.128,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -7995,7 +7196,6 @@
     VCpu: 64,
     Memory: 256 GiB,
     PricePerHour: 13.376,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -8005,7 +7205,6 @@
     VCpu: 64,
     Memory: 128 GiB,
     PricePerHour: 1.218,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -8015,7 +7214,6 @@
     VCpu: 32,
     Memory: 64 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -8025,7 +7223,6 @@
     VCpu: 16,
     Memory: 128 GiB,
     PricePerHour: 3.004,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -8035,7 +7232,6 @@
     VCpu: 32,
     Memory: 244 GiB,
     PricePerHour: 0.674,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -8045,7 +7241,6 @@
     VCpu: 8,
     Memory: 16 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -8055,7 +7250,6 @@
     VCpu: 4,
     Memory: 8 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -8065,7 +7259,6 @@
     VCpu: 48,
     Memory: 384 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -8075,7 +7268,6 @@
     VCpu: 48,
     Memory: 96 GiB,
     PricePerHour: 2.7216,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -8085,7 +7277,6 @@
     VCpu: 48,
     Memory: 192 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -8095,7 +7286,6 @@
     VCpu: 2,
     Memory: 5.25 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -8105,7 +7295,6 @@
     VCpu: 64,
     Memory: 128 GiB,
     PricePerHour: 29.654,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -8115,7 +7304,6 @@
     VCpu: 48,
     Memory: 96 GiB,
     PricePerHour: 3.01464,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -8125,7 +7313,6 @@
     VCpu: 48,
     Memory: 192 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -8135,7 +7322,6 @@
     VCpu: 96,
     Memory: 384 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -8145,7 +7331,6 @@
     VCpu: 32,
     Memory: 128 GiB,
     PricePerHour: 4.10104,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -8155,7 +7340,6 @@
     VCpu: 32,
     Memory: 256 GiB,
     PricePerHour: 8.18112,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -8165,7 +7349,6 @@
     VCpu: 192,
     Memory: 1536 GiB,
     PricePerHour: 35.7696,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -8175,7 +7358,6 @@
     VCpu: 36,
     Memory: 60 GiB,
     PricePerHour: 1.989,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -8185,7 +7367,6 @@
     VCpu: 24,
     Memory: 96 GiB,
     PricePerHour: 2.3876,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -8195,7 +7376,6 @@
     VCpu: 48,
     Memory: 192 GiB,
     PricePerHour: 6.30864,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -8205,7 +7385,6 @@
     VCpu: 4,
     Memory: 32 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -8215,7 +7394,6 @@
     VCpu: 4,
     Memory: 32 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -8225,7 +7403,6 @@
     VCpu: 4,
     Memory: 30.5 GiB,
     PricePerHour: 1.923,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -8235,7 +7412,6 @@
     VCpu: 48,
     Memory: 192 GiB,
     PricePerHour: 3.48864,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -8245,7 +7421,6 @@
     VCpu: 96,
     Memory: 384 GiB,
     PricePerHour: 9.73824,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -8255,7 +7430,6 @@
     VCpu: 16,
     Memory: 128 GiB,
     PricePerHour: 8.06656,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -8265,7 +7439,6 @@
     VCpu: 192,
     Memory: 1536 GiB,
     PricePerHour: 23.50195,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -8275,7 +7448,6 @@
     VCpu: 192,
     Memory: 384 GiB,
     PricePerHour: 10.4112,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -8285,7 +7457,6 @@
     VCpu: 64,
     Memory: 128 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -8295,7 +7466,6 @@
     VCpu: 72,
     Memory: 192 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -8305,7 +7475,6 @@
     VCpu: 4,
     Memory: 34.2 GiB,
     PricePerHour: 0.49,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -8315,7 +7484,6 @@
     VCpu: 48,
     Memory: 192 GiB,
     PricePerHour: 12.06864,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -8325,7 +7493,6 @@
     VCpu: 32,
     Memory: 256 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -8335,7 +7502,6 @@
     VCpu: 4,
     Memory: 32 GiB,
     PricePerHour: 2.0774,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -8345,7 +7511,6 @@
     VCpu: 2,
     Memory: 1 GiB,
     PricePerHour: 0.094,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -8355,7 +7520,6 @@
     VCpu: 64,
     Memory: 256 GiB,
     PricePerHour: 1.218,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -8365,7 +7529,6 @@
     VCpu: 2,
     Memory: 7.5 GiB,
     PricePerHour: 0.094,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -8375,7 +7538,6 @@
     VCpu: 36,
     Memory: 72 GiB,
     PricePerHour: 0.742,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -8385,7 +7547,6 @@
     VCpu: 8,
     Memory: 64 GiB,
     PricePerHour: 0.266,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -8395,7 +7556,6 @@
     VCpu: 64,
     Memory: 128 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -8405,7 +7565,6 @@
     VCpu: 48,
     Memory: 384 GiB,
     PricePerHour: 3.0147,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -8415,7 +7574,6 @@
     VCpu: 16,
     Memory: 42 GiB,
     PricePerHour: 0.402,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -8425,7 +7583,6 @@
     VCpu: 2,
     Memory: 3.75 GiB,
     PricePerHour: 0.624,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -8435,7 +7592,6 @@
     VCpu: 32,
     Memory: 128 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -8445,7 +7601,6 @@
     VCpu: 96,
     Memory: 768 GiB,
     PricePerHour: 7.33498,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -8455,7 +7610,6 @@
     VCpu: 448,
     Memory: 8192 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -8465,7 +7619,6 @@
     VCpu: 16,
     Memory: 64 GiB,
     PricePerHour: 1.85312,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -8475,7 +7628,6 @@
     VCpu: 8,
     Memory: 16 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -8485,7 +7637,6 @@
     VCpu: 448,
     Memory: 8192 GiB,
     PricePerHour: 83.72,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -8495,7 +7646,6 @@
     VCpu: 32,
     Memory: 256 GiB,
     PricePerHour: 14.833,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -8505,7 +7655,6 @@
     VCpu: 32,
     Memory: 64 GiB,
     PricePerHour: 1.3585,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -8515,7 +7664,6 @@
     VCpu: 32,
     Memory: 1024 GiB,
     PricePerHour: 6.672,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -8525,7 +7673,6 @@
     VCpu: 8,
     Memory: 61 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -8535,7 +7682,6 @@
     VCpu: 32,
     Memory: 128 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -8545,7 +7691,6 @@
     VCpu: 8,
     Memory: 16 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -8555,7 +7700,6 @@
     VCpu: 128,
     Memory: 1024 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -8565,7 +7709,6 @@
     VCpu: 16,
     Memory: 32 GiB,
     PricePerHour: 0.839,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -8575,7 +7718,6 @@
     VCpu: 48,
     Memory: 192 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -8585,7 +7727,6 @@
     VCpu: 1,
     Memory: 8 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -8595,7 +7736,6 @@
     VCpu: 8,
     Memory: 32 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -8605,7 +7745,6 @@
     VCpu: 32,
     Memory: 64 GiB,
     PricePerHour: 5.4893,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -8615,7 +7754,6 @@
     VCpu: 96,
     Memory: 192 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -8625,7 +7763,6 @@
     VCpu: 32,
     Memory: 244 GiB,
     PricePerHour: 3.542,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -8635,7 +7772,6 @@
     VCpu: 4,
     Memory: 32 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -8645,7 +7781,6 @@
     VCpu: 8,
     Memory: 32 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -8655,7 +7790,6 @@
     VCpu: 8,
     Memory: 15 GiB,
     PricePerHour: 0.398,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -8665,7 +7799,6 @@
     VCpu: 4,
     Memory: 32 GiB,
     PricePerHour: 2.027,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -8675,7 +7808,6 @@
     VCpu: 96,
     Memory: 384 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -8685,7 +7817,6 @@
     VCpu: 4,
     Memory: 8 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -8695,7 +7826,6 @@
     VCpu: 128,
     Memory: 512 GiB,
     PricePerHour: 13.57568,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -8705,7 +7835,6 @@
     VCpu: 32,
     Memory: 128 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -8715,7 +7844,6 @@
     VCpu: 96,
     Memory: 768 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -8725,7 +7853,6 @@
     VCpu: 16,
     Memory: 64 GiB,
     PricePerHour: 1.1968,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -8735,7 +7862,6 @@
     VCpu: 16,
     Memory: 64 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -8745,7 +7871,6 @@
     VCpu: 4,
     Memory: 122 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -8755,7 +7880,6 @@
     VCpu: 4,
     Memory: 16 GiB,
     PricePerHour: 2.153,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -8765,7 +7889,6 @@
     VCpu: 4,
     Memory: 16 GiB,
     PricePerHour: 1.834,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -8775,7 +7898,6 @@
     VCpu: 8,
     Memory: 64 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -8785,7 +7907,6 @@
     VCpu: 4,
     Memory: 30.5 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -8795,7 +7916,6 @@
     VCpu: 448,
     Memory: 6144 GiB,
     PricePerHour: 62.79,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -8805,7 +7925,6 @@
     VCpu: 64,
     Memory: 128 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -8815,7 +7934,6 @@
     VCpu: 16,
     Memory: 128 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -8825,7 +7943,6 @@
     VCpu: 2,
     Memory: 8 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -8835,7 +7952,6 @@
     VCpu: 4,
     Memory: 32 GiB,
     PricePerHour: 0.4295,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -8845,7 +7961,6 @@
     VCpu: 32,
     Memory: 256 GiB,
     PricePerHour: 2.5442,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -8855,7 +7970,6 @@
     VCpu: 8,
     Memory: 30 GiB,
     PricePerHour: 0.632,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -8865,7 +7979,6 @@
     VCpu: 72,
     Memory: 576 GiB,
     PricePerHour: 8.6688,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -8875,7 +7988,6 @@
     VCpu: 16,
     Memory: 32 GiB,
     PricePerHour: 0.6783,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -8885,7 +7997,6 @@
     VCpu: 12,
     Memory: 96 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -8895,7 +8006,6 @@
     VCpu: 4,
     Memory: 32 GiB,
     PricePerHour: 0.288,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -8905,7 +8015,6 @@
     VCpu: 4,
     Memory: 30.5 GiB,
     PricePerHour: 0.433,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -8915,7 +8024,6 @@
     VCpu: 16,
     Memory: 128 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -8925,7 +8033,6 @@
     VCpu: 32,
     Memory: 64 GiB,
     PricePerHour: 6.0616,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -8935,7 +8042,6 @@
     VCpu: 48,
     Memory: 192 GiB,
     PricePerHour: 20.582,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -8945,7 +8051,6 @@
     VCpu: 4,
     Memory: 8 GiB,
     PricePerHour: 0.337,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -8955,7 +8060,6 @@
     VCpu: 8,
     Memory: 32 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -8965,7 +8069,6 @@
     VCpu: 12,
     Memory: 96 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -8975,7 +8078,6 @@
     VCpu: 24,
     Memory: 192 GiB,
     PricePerHour: 3.553,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -8985,7 +8087,6 @@
     VCpu: 32,
     Memory: 976 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -8995,7 +8096,6 @@
     VCpu: 40,
     Memory: 160 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -9005,7 +8105,6 @@
     VCpu: 2,
     Memory: 8 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -9015,7 +8114,6 @@
     VCpu: 128,
     Memory: 3904 GiB,
     PricePerHour: 77.261,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -9025,7 +8123,6 @@
     VCpu: 96,
     Memory: 192 GiB,
     PricePerHour: 6.041,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -9035,7 +8132,6 @@
     VCpu: 2,
     Memory: 4 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -9045,7 +8141,6 @@
     VCpu: 1,
     Memory: 8 GiB,
     PricePerHour: 0.10798,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -9055,7 +8150,6 @@
     VCpu: 8,
     Memory: 32 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -9065,7 +8159,6 @@
     VCpu: 64,
     Memory: 128 GiB,
     PricePerHour: 13.376,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -9075,7 +8168,6 @@
     VCpu: 48,
     Memory: 96 GiB,
     PricePerHour: 3.09864,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -9085,7 +8177,6 @@
     VCpu: 2,
     Memory: 15.25 GiB,
     PricePerHour: 0.156,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -9095,7 +8186,6 @@
     VCpu: 4,
     Memory: 16 GiB,
     PricePerHour: 0.26202,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -9105,7 +8195,6 @@
     VCpu: 96,
     Memory: 384 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -9115,7 +8204,6 @@
     VCpu: 4,
     Memory: 32 GiB,
     PricePerHour: 0.834,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -9125,7 +8213,6 @@
     VCpu: 2,
     Memory: 16 GiB,
     PricePerHour: 0.1674,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -9135,7 +8222,6 @@
     VCpu: 2,
     Memory: 16 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -9145,7 +8231,6 @@
     VCpu: 2,
     Memory: 16 GiB,
     PricePerHour: 0.73919,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -9155,7 +8240,6 @@
     VCpu: 64,
     Memory: 128 GiB,
     PricePerHour: 3.4112,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -9165,7 +8249,6 @@
     VCpu: 4,
     Memory: 10.5 GiB,
     PricePerHour: 0.128,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -9175,7 +8258,6 @@
     VCpu: 64,
     Memory: 512 GiB,
     PricePerHour: 4.524,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -9185,7 +8267,6 @@
     VCpu: 16,
     Memory: 128 GiB,
     PricePerHour: 0.402,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -9195,7 +8276,6 @@
     VCpu: 96,
     Memory: 192 GiB,
     PricePerHour: 16.93939,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -9205,7 +8285,6 @@
     VCpu: 64,
     Memory: 128 GiB,
     PricePerHour: 2.744,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -9215,7 +8294,6 @@
     VCpu: 4,
     Memory: 8 GiB,
     PricePerHour: 0.128,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -9225,7 +8303,6 @@
     VCpu: 16,
     Memory: 128 GiB,
     PricePerHour: 2.118,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -9235,7 +8312,6 @@
     VCpu: 64,
     Memory: 512 GiB,
     PricePerHour: 11.872,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -9245,7 +8321,6 @@
     VCpu: 128,
     Memory: 1024 GiB,
     PricePerHour: 63.5648,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -9255,7 +8330,6 @@
     VCpu: 32,
     Memory: 256 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -9265,7 +8339,6 @@
     VCpu: 1,
     Memory: 2 GiB,
     PricePerHour: 0.05132,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -9275,7 +8348,6 @@
     VCpu: 448,
     Memory: 6144 GiB,
     PricePerHour: 54.6,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -9285,7 +8357,6 @@
     VCpu: 8,
     Memory: 64 GiB,
     PricePerHour: 0.69732,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -9295,7 +8366,6 @@
     VCpu: 32,
     Memory: 60 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -9305,7 +8375,6 @@
     VCpu: 96,
     Memory: 384 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -9315,7 +8384,6 @@
     VCpu: 32,
     Memory: 128 GiB,
     PricePerHour: 13.728,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -9325,7 +8393,6 @@
     VCpu: 8,
     Memory: 16 GiB,
     PricePerHour: 0.266,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -9335,7 +8402,6 @@
     VCpu: 16,
     Memory: 122 GiB,
     PricePerHour: 0.402,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -9345,7 +8411,6 @@
     VCpu: 4,
     Memory: 30.5 GiB,
     PricePerHour: 0.641,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -9355,7 +8420,6 @@
     VCpu: 4,
     Memory: 32 GiB,
     PricePerHour: 0.46737,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -9365,7 +8429,6 @@
     VCpu: 2,
     Memory: 8 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -9375,7 +8438,6 @@
     VCpu: 128,
     Memory: 1024 GiB,
     PricePerHour: 12.029,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -9385,7 +8447,6 @@
     VCpu: 8,
     Memory: 48 GiB,
     PricePerHour: 1.2776,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -9395,7 +8456,6 @@
     VCpu: 4,
     Memory: 32 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -9405,7 +8465,6 @@
     VCpu: 32,
     Memory: 256 GiB,
     PricePerHour: 0.674,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -9415,7 +8474,6 @@
     VCpu: 32,
     Memory: 64 GiB,
     PricePerHour: 1.8144,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -9425,7 +8483,6 @@
     VCpu: 4,
     Memory: 16 GiB,
     PricePerHour: 1.89,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -9435,7 +8492,6 @@
     VCpu: 8,
     Memory: 30 GiB,
     PricePerHour: 0.266,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -9445,7 +8501,6 @@
     VCpu: 8,
     Memory: 32 GiB,
     PricePerHour: 0.266,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -9455,7 +8510,6 @@
     VCpu: 2,
     Memory: 8 GiB,
     PricePerHour: 0.096,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -9465,7 +8519,6 @@
     VCpu: 128,
     Memory: 512 GiB,
     PricePerHour: 2.306,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -9475,7 +8528,6 @@
     VCpu: 48,
     Memory: 384 GiB,
     PricePerHour: 10.29516,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -9485,7 +8537,6 @@
     VCpu: 8,
     Memory: 64 GiB,
     PricePerHour: 3.82,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -9495,7 +8546,6 @@
     VCpu: 4,
     Memory: 7.5 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -9505,7 +8555,6 @@
     VCpu: 4,
     Memory: 30.5 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -9515,7 +8564,6 @@
     VCpu: 4,
     Memory: 8 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -9525,7 +8573,6 @@
     VCpu: 4,
     Memory: 8 GiB,
     PricePerHour: 0.8656,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -9535,7 +8582,6 @@
     VCpu: 32,
     Memory: 60 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -9545,7 +8591,6 @@
     VCpu: 32,
     Memory: 256 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -9555,7 +8600,6 @@
     VCpu: 96,
     Memory: 192 GiB,
     PricePerHour: 10.166,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -9565,7 +8609,6 @@
     VCpu: 2,
     Memory: 3.75 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -9575,7 +8618,6 @@
     VCpu: 2,
     Memory: 4 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -9585,7 +8627,6 @@
     VCpu: 48,
     Memory: 96 GiB,
     PricePerHour: 4.248,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -9595,7 +8636,6 @@
     VCpu: 8,
     Memory: 32 GiB,
     PricePerHour: 0.61188,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -9605,7 +8645,6 @@
     VCpu: 4,
     Memory: 122 GiB,
     PricePerHour: 0.834,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -9615,7 +8654,6 @@
     VCpu: 8,
     Memory: 32 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -9625,7 +8663,6 @@
     VCpu: 128,
     Memory: 1024 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -9635,7 +8672,6 @@
     VCpu: 8,
     Memory: 16 GiB,
     PricePerHour: 0.94672,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -9645,7 +8681,6 @@
     VCpu: 4,
     Memory: 30.5 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -9655,7 +8690,6 @@
     VCpu: 8,
     Memory: 15 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -9665,7 +8699,6 @@
     VCpu: 8,
     Memory: 16 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -9675,7 +8708,6 @@
     VCpu: 48,
     Memory: 384 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -9685,7 +8717,6 @@
     VCpu: 8,
     Memory: 61 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -9695,7 +8726,6 @@
     VCpu: 2,
     Memory: 4 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -9705,7 +8735,6 @@
     VCpu: 16,
     Memory: 64 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -9715,7 +8744,6 @@
     VCpu: 2,
     Memory: 16 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -9725,7 +8753,6 @@
     VCpu: 4,
     Memory: 32 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -9735,7 +8762,6 @@
     VCpu: 8,
     Memory: 32 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -9745,7 +8771,6 @@
     VCpu: 4,
     Memory: 16 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -9755,7 +8780,6 @@
     VCpu: 4,
     Memory: 8 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -9765,7 +8789,6 @@
     VCpu: 2,
     Memory: 8 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -9775,7 +8798,6 @@
     VCpu: 2,
     Memory: 3.75 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -9785,7 +8807,6 @@
     VCpu: 32,
     Memory: 244 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -9795,7 +8816,6 @@
     VCpu: 2,
     Memory: 8 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -9805,7 +8825,6 @@
     VCpu: 32,
     Memory: 244 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -9815,7 +8834,6 @@
     VCpu: 4,
     Memory: 16 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -9825,7 +8843,6 @@
     VCpu: 2,
     Memory: 16 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -9835,7 +8852,6 @@
     VCpu: 8,
     Memory: 32 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -9845,7 +8861,6 @@
     VCpu: 4,
     Memory: 16 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -9855,7 +8870,6 @@
     VCpu: 2,
     Memory: 3.75 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -9865,7 +8879,6 @@
     VCpu: 36,
     Memory: 72 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -9875,7 +8888,6 @@
     VCpu: 8,
     Memory: 15 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -9885,7 +8897,6 @@
     VCpu: 8,
     Memory: 32 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -9895,7 +8906,6 @@
     VCpu: 8,
     Memory: 32 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -9905,7 +8915,6 @@
     VCpu: 2,
     Memory: 4 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -9915,7 +8924,6 @@
     VCpu: 4,
     Memory: 7.5 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -9925,7 +8933,6 @@
     VCpu: 1,
     Memory: 0.5 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -9935,7 +8942,6 @@
     VCpu: 32,
     Memory: 256 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -9945,7 +8951,6 @@
     VCpu: 2,
     Memory: 3.75 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -9955,7 +8960,6 @@
     VCpu: 8,
     Memory: 16 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -9965,7 +8969,6 @@
     VCpu: 8,
     Memory: 32 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -9975,7 +8978,6 @@
     VCpu: 4,
     Memory: 30.5 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -9985,7 +8987,6 @@
     VCpu: 8,
     Memory: 16 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   },
@@ -9995,7 +8996,6 @@
     VCpu: 2,
     Memory: 15.25 GiB,
     PricePerHour: 0.0,
-    Cloud: aws,
     Category: Compute,
     SubCategory: VirtualMachines
   }

@@ -484,7 +484,6 @@ public class PriceProvider : IPriceProvider
     {
         return usageSize switch
         {
-            UsageSize.None => (0, 0),
             UsageSize.Small => (2, 4),
             UsageSize.Medium => (4, 8),
             UsageSize.Large => (8, 16),

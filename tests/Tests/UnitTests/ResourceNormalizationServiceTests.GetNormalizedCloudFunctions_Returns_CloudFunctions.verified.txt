@@ -2,1085 +2,930 @@
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWS-Lambda-SQS-Event-Poller-Unit-Duration,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWS-Lambda-Processed-Bytes,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWS-Lambda-Durable-Execution-TimedStorage-ByteHrs,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWS-Lambda-Tenant-Isolated-Environment-Memory-GB,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWS-Lambda-Duration,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWS-Lambda-Tenant-Isolated-Environment-Memory-GB-ARM,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWS-Lambda-Processed-Bytes-ARM,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWS-Lambda-Durable-Execution-Operations,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWS-Lambda-Event-Poller-Unit-Duration,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
@@ -1088,315 +933,270 @@
     FunctionName: AWS-Lambda-Duration-ARM,
     Region: us-east-1,
     PricePerGbSecond: 0.0000133334,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWS-Lambda-Durable-Execution-Written-Bytes,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
@@ -1404,42 +1204,36 @@
     FunctionName: AWS-Lambda-Duration-Provisioned-ARM,
     Region: us-east-1,
     PricePerGbSecond: 0.0000077778,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
@@ -1447,91 +1241,78 @@
     FunctionName: AWS-Lambda-Provisioned-Concurrency-ARM,
     Region: us-east-1,
     PricePerGbSecond: 0.0000033334,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
@@ -1539,35 +1320,30 @@
     FunctionName: AWS-Lambda-Edge-Duration,
     Region: us-east-1,
     PricePerGbSecond: 0.00005001,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
@@ -1575,231 +1351,198 @@
     FunctionName: AWS-Lambda-Storage-Duration,
     Region: us-east-1,
     PricePerGbSecond: 0.0000000309,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
@@ -1807,49 +1550,42 @@
     FunctionName: AWS-Lambda-Provisioned-Concurrency,
     Region: us-east-1,
     PricePerGbSecond: 0.0000041667,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
@@ -1857,98 +1593,84 @@
     FunctionName: AWSLambda,
     Region: us-east-1,
     PricePerRequest: 0.0000002,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
@@ -1956,84 +1678,72 @@
     FunctionName: AWSLambda,
     Region: us-east-1,
     PricePerRequest: 0.0000002,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
@@ -2041,476 +1751,408 @@
     FunctionName: AWS-Lambda-Requests-ARM,
     Region: us-east-1,
     PricePerRequest: 0.0000002,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
@@ -2518,518 +2160,444 @@
     FunctionName: AWS-Lambda-Requests,
     Region: us-east-1,
     PricePerRequest: 0.0000002,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
@@ -3037,217 +2605,186 @@
     FunctionName: AWS-Lambda-Storage-Duration-ARM,
     Region: us-east-1,
     PricePerGbSecond: 0.0000000309,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
@@ -3255,280 +2792,240 @@
     FunctionName: AWS-Lambda-Duration-Provisioned,
     Region: us-east-1,
     PricePerGbSecond: 0.0000097222,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWS-Lambda-SnapStart-Restore,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
@@ -3536,28 +3033,24 @@
     FunctionName: AWS-Lambda-Edge-Requests,
     Region: us-east-1,
     PricePerRequest: 0.0000006,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   },
@@ -3565,7 +3058,6 @@
     FunctionName: AWS-Lambda-SnapStart-Cache,
     Region: us-east-1,
     PricePerGbSecond: 0.0000015046,
-    Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
   }
