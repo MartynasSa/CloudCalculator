@@ -62,5 +62,29 @@
     Cloud: aws,
     Category: Networking,
     SubCategory: ApiGateway
+  },
+  {
+    Name: API Gateway,
+    Region: us-east1,
+    PricePerMonth: 7.30,
+    Cloud: gcp,
+    Category: Networking,
+    SubCategory: ApiGateway
+  },
+  {
+    Name: API Gateway,
+    Region: us-east1,
+    PricePerMonth: 14.60,
+    Cloud: gcp,
+    Category: Networking,
+    SubCategory: ApiGateway
+  },
+  {
+    Name: API Gateway,
+    Region: us-east1,
+    PricePerMonth: 43.80,
+    Cloud: gcp,
+    Category: Networking,
+    SubCategory: ApiGateway
   }
 ]

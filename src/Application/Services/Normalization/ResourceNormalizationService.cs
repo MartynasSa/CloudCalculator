@@ -67,8 +67,8 @@ public class ResourceNormalizationService(ICloudPricingRepositoryProvider cloudP
             { ("Storage", "Firebase Realtime Database"), (ResourceCategory.Database, ResourceSubCategory.NoSQL) },
             
             // Network
-            { ("Networking", "Compute Engine"), (ResourceCategory.Networking, ResourceSubCategory.LoadBalancer) },
-            { ("Networking", "API Gateway"), (ResourceCategory.Networking, ResourceSubCategory.ApiGateway) },
+            { ("Network", "Compute Engine"), (ResourceCategory.Networking, ResourceSubCategory.LoadBalancer) },
+            { ("Network", "API Gateway"), (ResourceCategory.Networking, ResourceSubCategory.ApiGateway) },
             
             // Storage
             { ("Storage", "Cloud Storage"), (ResourceCategory.Storage, ResourceSubCategory.BlobStorage) },
