@@ -163,24 +163,6 @@ public class TemplateCostComparisonControllerTests(WebApplicationFactory<Program
     }
 
     [Fact]
-    public async Task Post_TemplatesCostComparison_WithInvalidTemplate_Returns_BadRequest()
-    {
-        // Arrange
-        var templateDto = new TemplateDto
-        {
-            Template = TemplateType.None,
-        };
-        var json = JsonSerializer.Serialize(templateDto, JsonOptions);
-        var content = new StringContent(json, Encoding.UTF8, "application/json");
-
-        // Act
-        var response = await Client.PostAsync("/api/calculator/calculate", content);
-
-        // Assert
-        Assert.Equal(HttpStatusCode.BadRequest, response.StatusCode);
-    }
-
-    [Fact]
     public async Task Post_TemplatesCostComparison_WithNullBody_Returns_BadRequest()
     {
         // Arrange

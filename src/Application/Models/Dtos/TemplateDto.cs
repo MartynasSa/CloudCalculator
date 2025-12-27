@@ -8,6 +8,11 @@ public class TemplateDto
     public List<ResourceSubCategory> Resources { get; set; } = new();
 }
 
+public class CalculationRequest
+{
+    public List<ResourceSubCategory> Resources { get; set; } = new();
+}
+
 public class TemplateVirtualMachineDto : TemplateResourceDtoBase
 {
     public required string InstanceName { get; set; }

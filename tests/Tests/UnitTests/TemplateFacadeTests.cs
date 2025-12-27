@@ -19,9 +19,8 @@ public class TemplateFacadeTests(WebApplicationFactory<Program> factory) : TestB
     {
         // Arrange
         var service = GetService();
-        var templateDto = new TemplateDto
+        var templateDto = new CalculationRequest
         {
-            Template = TemplateType.Saas,
             Resources = { ResourceSubCategory.VirtualMachines, ResourceSubCategory.Relational, ResourceSubCategory.LoadBalancer, ResourceSubCategory.Monitoring }
         };
 
@@ -53,9 +52,8 @@ public class TemplateFacadeTests(WebApplicationFactory<Program> factory) : TestB
     {
         // Arrange
         var service = GetService();
-        var templateDto = new TemplateDto
+        var templateDto = new CalculationRequest
         {
-            Template = TemplateType.Saas,
             Resources = { ResourceSubCategory.VirtualMachines, ResourceSubCategory.Relational, ResourceSubCategory.LoadBalancer, ResourceSubCategory.Monitoring }
         };
 
@@ -74,9 +72,9 @@ public class TemplateFacadeTests(WebApplicationFactory<Program> factory) : TestB
     {
         // Arrange
         var service = GetService();
-        var templateDto = new TemplateDto
+        var templateDto = new CalculationRequest
         {
-            Template = TemplateType.Saas,
+
             Resources = { ResourceSubCategory.VirtualMachines, ResourceSubCategory.Relational, ResourceSubCategory.LoadBalancer, ResourceSubCategory.Monitoring }
         };
 
@@ -100,9 +98,8 @@ public class TemplateFacadeTests(WebApplicationFactory<Program> factory) : TestB
     {
         // Arrange
         var service = GetService();
-        var templateDto = new TemplateDto
+        var templateDto = new CalculationRequest
         {
-            Template = TemplateType.Blank,
             Resources = { }
         };
 
@@ -125,9 +122,8 @@ public class TemplateFacadeTests(WebApplicationFactory<Program> factory) : TestB
     {
         // Arrange
         var service = GetService();
-        var templateDto = new TemplateDto
+        var templateDto = new CalculationRequest
         {
-            Template = TemplateType.StaticSite,
             Resources = { ResourceSubCategory.LoadBalancer }
         };
 
@@ -152,9 +148,8 @@ public class TemplateFacadeTests(WebApplicationFactory<Program> factory) : TestB
     {
         // Arrange
         var service = GetService();
-        var templateDto = new TemplateDto
+        var templateDto = new CalculationRequest
         {
-            Template = TemplateType.Saas,
             Resources = { ResourceSubCategory.VirtualMachines, ResourceSubCategory.Relational, ResourceSubCategory.LoadBalancer, ResourceSubCategory.Monitoring }
         };
 
@@ -179,9 +174,8 @@ public class TemplateFacadeTests(WebApplicationFactory<Program> factory) : TestB
     {
         // Arrange
         var service = GetService();
-        var templateDto = new TemplateDto
+        var templateDto = new CalculationRequest
         {
-            Template = TemplateType.WordPress,
             Resources = { ResourceSubCategory.VirtualMachines, ResourceSubCategory.Relational, ResourceSubCategory.LoadBalancer }
         };
 
