@@ -20,8 +20,8 @@ public class CalculatorFacade(
     public async Task<TemplateCostComparisonResultDto> CalculateCostComparisonsAsync(TemplateDto request, CancellationToken ct = default)
     {
         // If resources aren't provided in the request, get them from the template service
-        var template = request.Resources.Count > 0 
-            ? request 
+        var template = request.Resources.Count > 0
+            ? request
             : templateService.GetTemplate(request.Template);
 
         var resources = await resourceNormalizationService.GetResourcesAsync(ct);
@@ -33,6 +33,9 @@ public class CalculatorFacade(
         var cloudProviders = new[] { CloudProvider.AWS, CloudProvider.Azure, CloudProvider.GCP };
         var usageSizes = new[] { UsageSize.Small, UsageSize.Medium, UsageSize.Large, UsageSize.ExtraLarge };
 
+        // Get all prices once, grouped by usage size
+        var filteredResources = priceProvider.GetPrices(resources);
+
         foreach (var cloudProvider in cloudProviders)
         {
             foreach (var usageSize in usageSizes)
@@ -40,15 +43,16 @@ public class CalculatorFacade(
                 var costDetails = new List<TemplateCostResourceSubCategoryDetailsDto>();
                 decimal totalCost = 0m;
 
+                var resourcesForSize = filteredResources.CategorizedResources[usageSize];
+
                 // Calculate VM costs if required
                 if (template.Resources.Contains(ResourceSubCategory.VirtualMachines))
                 {
-                    var vmPrices = priceProvider.GetVm(resources.ComputeInstances, cloudProvider);
-                    var vm = vmPrices[usageSize];
+                    var vm = resourcesForSize.ComputeInstances.FirstOrDefault(v => v.Cloud == cloudProvider);
                     var vmCost = calculatorService.CalculateVmCost(vm, CalculatorService.HoursPerMonth);
                     totalCost += vmCost;
 
-                    if (vmCost > 0)
+                    if (vmCost > 0 && vm != null)
                     {
                         costDetails.Add(new TemplateCostResourceSubCategoryDetailsDto
                         {
@@ -56,10 +60,10 @@ public class CalculatorFacade(
                             ResourceSubCategory = ResourceSubCategory.VirtualMachines,
                             ResourceDetails = new Dictionary<string, object>
                             {
-                                ["instanceName"] = vm?.InstanceName ?? "",
-                                ["vCpu"] = vm?.VCpu ?? 0,
-                                ["memory"] = vm?.Memory ?? "",
-                                ["pricePerHour"] = vm?.PricePerHour ?? 0m
+                                ["instanceName"] = vm.InstanceName ?? "",
+                                ["vCpu"] = vm.VCpu ?? 0,
+                                ["memory"] = vm.Memory ?? "",
+                                ["pricePerHour"] = vm.PricePerHour ?? 0m
                             }
                         });
                     }
@@ -68,12 +72,11 @@ public class CalculatorFacade(
                 // Calculate Database costs if required
                 if (template.Resources.Contains(ResourceSubCategory.Relational))
                 {
-                    var dbPrices = priceProvider.GetDatabase(resources.Databases, cloudProvider, 2, 4);
-                    var db = dbPrices[usageSize];
+                    var db = resourcesForSize.Databases.FirstOrDefault(d => d.Cloud == cloudProvider);
                     var dbCost = calculatorService.CalculateDatabaseCost(db, CalculatorService.HoursPerMonth);
                     totalCost += dbCost;
 
-                    if (dbCost > 0)
+                    if (dbCost > 0 && db != null)
                     {
                         costDetails.Add(new TemplateCostResourceSubCategoryDetailsDto
                         {
@@ -81,11 +84,11 @@ public class CalculatorFacade(
                             ResourceSubCategory = ResourceSubCategory.Relational,
                             ResourceDetails = new Dictionary<string, object>
                             {
-                                ["instanceName"] = db?.InstanceName ?? "",
-                                ["vCpu"] = db?.VCpu ?? 0,
-                                ["memory"] = db?.Memory ?? "",
-                                ["databaseEngine"] = db?.DatabaseEngine ?? "",
-                                ["pricePerHour"] = db?.PricePerHour ?? 0m
+                                ["instanceName"] = db.InstanceName ?? "",
+                                ["vCpu"] = db.VCpu ?? 0,
+                                ["memory"] = db.Memory ?? "",
+                                ["databaseEngine"] = db.DatabaseEngine ?? "",
+                                ["pricePerHour"] = db.PricePerHour ?? 0m
                             }
                         });
                     }
@@ -94,12 +97,11 @@ public class CalculatorFacade(
                 // Calculate LoadBalancer costs if required
                 if (template.Resources.Contains(ResourceSubCategory.LoadBalancer))
                 {
-                    var lbPrices = priceProvider.GetLoadBalancer(resources.LoadBalancers, cloudProvider);
-                    var lb = lbPrices[usageSize];
+                    var lb = resourcesForSize.LoadBalancers.FirstOrDefault(l => l.Cloud == cloudProvider);
                     var lbCost = calculatorService.CalculateLoadBalancerCost(lb);
                     totalCost += lbCost;
 
-                    if (lbCost > 0)
+                    if (lbCost > 0 && lb != null)
                     {
                         costDetails.Add(new TemplateCostResourceSubCategoryDetailsDto
                         {
@@ -107,8 +109,8 @@ public class CalculatorFacade(
                             ResourceSubCategory = ResourceSubCategory.LoadBalancer,
                             ResourceDetails = new Dictionary<string, object>
                             {
-                                ["name"] = lb?.Name ?? "",
-                                ["pricePerMonth"] = lb?.PricePerMonth ?? 0m
+                                ["name"] = lb.Name ?? "",
+                                ["pricePerMonth"] = lb.PricePerMonth ?? 0m
                             }
                         });
                     }
@@ -117,12 +119,11 @@ public class CalculatorFacade(
                 // Calculate Monitoring costs if required
                 if (template.Resources.Contains(ResourceSubCategory.Monitoring))
                 {
-                    var monitoringPrices = priceProvider.GetMonitoring(resources.Monitoring, cloudProvider);
-                    var monitoring = monitoringPrices[usageSize];
+                    var monitoring = resourcesForSize.Monitoring.FirstOrDefault(m => m.Cloud == cloudProvider);
                     var monitoringCost = calculatorService.CalculateMonitoringCost(monitoring);
                     totalCost += monitoringCost;
 
-                    if (monitoringCost > 0)
+                    if (monitoringCost > 0 && monitoring != null)
                     {
                         costDetails.Add(new TemplateCostResourceSubCategoryDetailsDto
                         {
@@ -130,8 +131,8 @@ public class CalculatorFacade(
                             ResourceSubCategory = ResourceSubCategory.Monitoring,
                             ResourceDetails = new Dictionary<string, object>
                             {
-                                ["name"] = monitoring?.Name ?? "",
-                                ["pricePerMonth"] = monitoring?.PricePerMonth ?? 0m
+                                ["name"] = monitoring.Name ?? "",
+                                ["pricePerMonth"] = monitoring.PricePerMonth ?? 0m
                             }
                         });
                     }

@@ -15,6 +15,11 @@ public class CategorizedResourcesDto
     public List<NormalizedResourceDto> Networking { get; set; } = new();
 }
 
+public class FilteredResourcesDto
+{
+    public Dictionary<UsageSize, CategorizedResourcesDto> CategorizedResources { get; set; } = new();
+}
+
 public class NormalizedResource
 {   
     public required CloudProvider Cloud { get; set; }
