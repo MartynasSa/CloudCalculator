@@ -26,7 +26,7 @@ public class TemplateCostResourceSubCategoryDetailsDto
 {
     public decimal Cost { get; set; }
     public ResourceSubCategory ResourceSubCategory { get; set; }
-    public Dictionary<string,object> ResouceDetails { get; set; } = new();
+    public Dictionary<string,object> ResourceDetails { get; set; } = new();
 }
 
 public class UsageCostBreakdownDto

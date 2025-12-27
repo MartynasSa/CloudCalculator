@@ -30,7 +30,6 @@ public class CalculatorFacade(
             Resources = template.Resources
         };
 
-        const int hoursPerMonth = 730;
         var cloudProviders = new[] { CloudProvider.AWS, CloudProvider.Azure, CloudProvider.GCP };
         var usageSizes = new[] { UsageSize.Small, UsageSize.Medium, UsageSize.Large, UsageSize.ExtraLarge };
 
@@ -46,7 +45,7 @@ public class CalculatorFacade(
                 {
                     var vmPrices = priceProvider.GetVm(resources.ComputeInstances, cloudProvider);
                     var vm = vmPrices[usageSize];
-                    var vmCost = calculatorService.CalculateVmCost(vm, hoursPerMonth);
+                    var vmCost = calculatorService.CalculateVmCost(vm, CalculatorService.HoursPerMonth);
                     totalCost += vmCost;
 
                     if (vmCost > 0)
@@ -55,7 +54,7 @@ public class CalculatorFacade(
                         {
                             Cost = vmCost,
                             ResourceSubCategory = ResourceSubCategory.VirtualMachines,
-                            ResouceDetails = new Dictionary<string, object>
+                            ResourceDetails = new Dictionary<string, object>
                             {
                                 ["instanceName"] = vm?.InstanceName ?? "",
                                 ["vCpu"] = vm?.VCpu ?? 0,
@@ -71,7 +70,7 @@ public class CalculatorFacade(
                 {
                     var dbPrices = priceProvider.GetDatabase(resources.Databases, cloudProvider, 2, 4);
                     var db = dbPrices[usageSize];
-                    var dbCost = calculatorService.CalculateDatabaseCost(db, hoursPerMonth);
+                    var dbCost = calculatorService.CalculateDatabaseCost(db, CalculatorService.HoursPerMonth);
                     totalCost += dbCost;
 
                     if (dbCost > 0)
@@ -80,7 +79,7 @@ public class CalculatorFacade(
                         {
                             Cost = dbCost,
                             ResourceSubCategory = ResourceSubCategory.Relational,
-                            ResouceDetails = new Dictionary<string, object>
+                            ResourceDetails = new Dictionary<string, object>
                             {
                                 ["instanceName"] = db?.InstanceName ?? "",
                                 ["vCpu"] = db?.VCpu ?? 0,
@@ -106,7 +105,7 @@ public class CalculatorFacade(
                         {
                             Cost = lbCost,
                             ResourceSubCategory = ResourceSubCategory.LoadBalancer,
-                            ResouceDetails = new Dictionary<string, object>
+                            ResourceDetails = new Dictionary<string, object>
                             {
                                 ["name"] = lb?.Name ?? "",
                                 ["pricePerMonth"] = lb?.PricePerMonth ?? 0m
@@ -129,7 +128,7 @@ public class CalculatorFacade(
                         {
                             Cost = monitoringCost,
                             ResourceSubCategory = ResourceSubCategory.Monitoring,
-                            ResouceDetails = new Dictionary<string, object>
+                            ResourceDetails = new Dictionary<string, object>
                             {
                                 ["name"] = monitoring?.Name ?? "",
                                 ["pricePerMonth"] = monitoring?.PricePerMonth ?? 0m

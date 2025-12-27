@@ -13,7 +13,7 @@ public interface ICalculatorService
 
 public class CalculatorService : ICalculatorService
 {
-    private const int HoursPerMonth = 730;
+    public const int HoursPerMonth = 730;
 
     public decimal CalculateVmCost(NormalizedComputeInstanceDto? vm, int usageHoursPerMonth)
     {
