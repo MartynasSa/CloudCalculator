@@ -16,37 +16,99 @@ public class PriceProvider : IPriceProvider
 
         foreach (UsageSize usageSize in Enum.GetValues<UsageSize>())
         {
-            result.CategorizedResources[usageSize] = new CategorizedResourcesDto
+            foreach (CloudProvider cloudProvider in Enum.GetValues<CloudProvider>())
             {
-                ComputeInstances = GetVm(categorizedResources.ComputeInstances)
-                    .TryGetValue(usageSize, out var vms) ? vms : new List<NormalizedComputeInstanceDto>(),
+                if (cloudProvider == CloudProvider.None || usageSize == UsageSize.None)
+                    continue;
 
-                CloudFunctions = GetCloudFunction(categorizedResources.CloudFunctions)
-                    .TryGetValue(usageSize, out var functions) ? functions : new List<NormalizedCloudFunctionDto>(),
+                var cheapestResource = GetCheapestResourceForUsageSizeAndCloud(
+                    categorizedResources,
+                    usageSize,
+                    cloudProvider);
 
-                Kubernetes = GetKubernetesCluster(categorizedResources.Kubernetes)
-                    .TryGetValue(usageSize, out var k8s) ? k8s : new List<NormalizedKubernetesDto>(),
-
-                Databases = GetDatabase(categorizedResources.Databases, 2, 4)
-                    .TryGetValue(usageSize, out var dbs) ? dbs : new List<NormalizedDatabaseDto>(),
-
-                ApiGateways = GetApiGateway(categorizedResources.ApiGateways)
-                    .TryGetValue(usageSize, out var gateways) ? gateways : new List<NormalizedApiGatewayDto>(),
-
-                LoadBalancers = GetLoadBalancer(categorizedResources.LoadBalancers)
-                    .TryGetValue(usageSize, out var lbs) ? lbs : new List<NormalizedLoadBalancerDto>(),
-
-                BlobStorage = GetBlobStorage(categorizedResources.BlobStorage)
-                    .TryGetValue(usageSize, out var blobs) ? blobs : new List<NormalizedBlobStorageDto>(),
-
-                Monitoring = GetMonitoring(categorizedResources.Monitoring)
-                    .TryGetValue(usageSize, out var monitoring) ? monitoring : new List<NormalizedMonitoringDto>(),
-
-                Networking = new List<NormalizedResourceDto>()
-            };
+                if (cheapestResource != null)
+                {
+                    result.Resources[(usageSize, cloudProvider)] = cheapestResource;
+                }
+            }
         }
 
         return result;
+    }
+
+    private NormalizedResource? GetCheapestResourceForUsageSizeAndCloud(
+        CategorizedResourcesDto categorizedResources,
+        UsageSize usageSize,
+        CloudProvider cloudProvider)
+    {
+        var candidates = new List<NormalizedResource>();
+
+        // Get VMs
+        var vmSpecs = GetVirtualMachineSpecs(usageSize);
+        var vms = categorizedResources.ComputeInstances
+            .Where(i => i.Cloud == cloudProvider)
+            .Where(i => (i.VCpu ?? 0) >= vmSpecs.MinCpu)
+            .Where(i => (ResourceParsingUtils.ParseMemory(i.Memory) ?? 0) >= vmSpecs.MinMemory)
+            .Where(i => (i.PricePerHour ?? 0m) > 0m)
+            .Cast<NormalizedResource>();
+        candidates.AddRange(vms);
+
+        // Get Cloud Functions
+        var functions = categorizedResources.CloudFunctions
+            .Where(f => f.Cloud == cloudProvider)
+            .Cast<NormalizedResource>();
+        candidates.AddRange(functions);
+
+        // Get Kubernetes
+        var k8s = categorizedResources.Kubernetes
+            .Where(k => k.Cloud == cloudProvider)
+            .Where(k => (k.PricePerHour ?? 0m) > 0m)
+            .Cast<NormalizedResource>();
+        candidates.AddRange(k8s);
+
+        // Get Databases
+        var dbs = categorizedResources.Databases
+            .Where(d => d.Cloud == cloudProvider)
+            .Where(d => (d.VCpu ?? 0) >= 2)
+            .Where(d => (ResourceParsingUtils.ParseMemory(d.Memory) ?? 0) >= 4)
+            .Where(d => (d.PricePerHour ?? 0m) > 0m)
+            .Cast<NormalizedResource>();
+        candidates.AddRange(dbs);
+
+        // Get API Gateways
+        var gateways = categorizedResources.ApiGateways
+            .Where(g => g.Cloud == cloudProvider)
+            .Cast<NormalizedResource>();
+        candidates.AddRange(gateways);
+
+        // Get Load Balancers
+        var lbs = categorizedResources.LoadBalancers
+            .Where(lb => lb.Cloud == cloudProvider)
+            .Cast<NormalizedResource>();
+        candidates.AddRange(lbs);
+
+        // Get Blob Storage
+        var blobs = categorizedResources.BlobStorage
+            .Where(b => b.Cloud == cloudProvider)
+            .Cast<NormalizedResource>();
+        candidates.AddRange(blobs);
+
+        // Get Monitoring
+        var monitoring = categorizedResources.Monitoring
+            .Where(m => m.Cloud == cloudProvider)
+            .Cast<NormalizedResource>();
+        candidates.AddRange(monitoring);
+
+        // Get Networking
+        var networking = categorizedResources.Networking
+            .Where(n => n.Cloud == cloudProvider)
+            .Cast<NormalizedResource>();
+        candidates.AddRange(networking);
+
+        // Return the cheapest resource
+        return candidates
+            //.OrderBy(r => r.PricePerHour ?? decimal.MaxValue)
+            .FirstOrDefault();
     }
 
     public Dictionary<UsageSize, List<NormalizedComputeInstanceDto>> GetVm(

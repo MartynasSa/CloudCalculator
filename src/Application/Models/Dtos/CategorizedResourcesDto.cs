@@ -17,7 +17,7 @@ public class CategorizedResourcesDto
 
 public class FilteredResourcesDto
 {
-    public Dictionary<UsageSize, CategorizedResourcesDto> CategorizedResources { get; set; } = new();
+    public Dictionary<(UsageSize UsageSize, CloudProvider CloudProvider), NormalizedResource> Resources { get; set; } = new();
 }
 
 public class NormalizedResource
