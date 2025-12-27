@@ -5,46 +5,166 @@
   CloudCosts: {
     small: [
       {
-        CloudProvider: aws
+        CloudProvider: aws,
+        TotalMonthlyPrice: 5.840,
+        CostDetails: [
+          {
+            Cost: 5.840,
+            ResourceSubCategory: LoadBalancer,
+            ResourceDetails: {
+              name: {
+                ValueKind: String
+              },
+              pricePerMonth: {
+                ValueKind: Number
+              }
+            }
+          }
+        ]
       },
       {
         CloudProvider: azure
       },
       {
-        CloudProvider: gcp
+        CloudProvider: gcp,
+        TotalMonthlyPrice: 5.840,
+        CostDetails: [
+          {
+            Cost: 5.840,
+            ResourceSubCategory: LoadBalancer,
+            ResourceDetails: {
+              name: {
+                ValueKind: String
+              },
+              pricePerMonth: {
+                ValueKind: Number
+              }
+            }
+          }
+        ]
       }
     ],
     medium: [
       {
-        CloudProvider: aws
+        CloudProvider: aws,
+        TotalMonthlyPrice: 5.840,
+        CostDetails: [
+          {
+            Cost: 5.840,
+            ResourceSubCategory: LoadBalancer,
+            ResourceDetails: {
+              name: {
+                ValueKind: String
+              },
+              pricePerMonth: {
+                ValueKind: Number
+              }
+            }
+          }
+        ]
       },
       {
         CloudProvider: azure
       },
       {
-        CloudProvider: gcp
+        CloudProvider: gcp,
+        TotalMonthlyPrice: 5.840,
+        CostDetails: [
+          {
+            Cost: 5.840,
+            ResourceSubCategory: LoadBalancer,
+            ResourceDetails: {
+              name: {
+                ValueKind: String
+              },
+              pricePerMonth: {
+                ValueKind: Number
+              }
+            }
+          }
+        ]
       }
     ],
     large: [
       {
-        CloudProvider: aws
+        CloudProvider: aws,
+        TotalMonthlyPrice: 5.840,
+        CostDetails: [
+          {
+            Cost: 5.840,
+            ResourceSubCategory: LoadBalancer,
+            ResourceDetails: {
+              name: {
+                ValueKind: String
+              },
+              pricePerMonth: {
+                ValueKind: Number
+              }
+            }
+          }
+        ]
       },
       {
         CloudProvider: azure
       },
       {
-        CloudProvider: gcp
+        CloudProvider: gcp,
+        TotalMonthlyPrice: 5.840,
+        CostDetails: [
+          {
+            Cost: 5.840,
+            ResourceSubCategory: LoadBalancer,
+            ResourceDetails: {
+              name: {
+                ValueKind: String
+              },
+              pricePerMonth: {
+                ValueKind: Number
+              }
+            }
+          }
+        ]
       }
     ],
     xlarge: [
       {
-        CloudProvider: aws
+        CloudProvider: aws,
+        TotalMonthlyPrice: 5.840,
+        CostDetails: [
+          {
+            Cost: 5.840,
+            ResourceSubCategory: LoadBalancer,
+            ResourceDetails: {
+              name: {
+                ValueKind: String
+              },
+              pricePerMonth: {
+                ValueKind: Number
+              }
+            }
+          }
+        ]
       },
       {
         CloudProvider: azure
       },
       {
-        CloudProvider: gcp
+        CloudProvider: gcp,
+        TotalMonthlyPrice: 5.840,
+        CostDetails: [
+          {
+            Cost: 5.840,
+            ResourceSubCategory: LoadBalancer,
+            ResourceDetails: {
+              name: {
+                ValueKind: String
+              },
+              pricePerMonth: {
+                ValueKind: Number
+              }
+            }
+          }
+        ]
       }
     ]
   }

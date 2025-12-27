@@ -38,19 +38,15 @@ public class CalculatorFacade(
                 var costDetails = new List<TemplateCostResourceSubCategoryDetailsDto>();
                 decimal totalCost = 0m;
 
-                // Get resource for this specific combination
-                if (filteredResources.Resources.TryGetValue((usageSize, cloudProvider), out var resource))
+                // Calculate costs based on requested resource subcategories
+                foreach (var requestedSubCategory in template.Resources)
                 {
-                    // Calculate costs based on requested resource subcategories
-                    foreach (var requestedSubCategory in template.Resources)
+                    var cost = CalculateResourceCost(filteredResources, usageSize, cloudProvider, requestedSubCategory);
+                    
+                    if (cost > 0m)
                     {
-                        var cost = CalculateResourceCost(resource, requestedSubCategory);
-                        
-                        if (cost > 0m)
-                        {
-                            totalCost += cost;
-                            costDetails.Add(CreateCostDetail(resource, requestedSubCategory, cost));
-                        }
+                        totalCost += cost;
+                        costDetails.Add(CreateCostDetail(filteredResources, usageSize, cloudProvider, requestedSubCategory, cost));
                     }
                 }
 
@@ -68,20 +64,22 @@ public class CalculatorFacade(
         return result;
     }
 
-    private decimal CalculateResourceCost(NormalizedResource resource, ResourceSubCategory subCategory)
+    private decimal CalculateResourceCost(FilteredResourcesDto filteredResources, UsageSize usageSize, CloudProvider cloudProvider, ResourceSubCategory subCategory)
     {
+        var key = (usageSize, cloudProvider);
+
         return subCategory switch
         {
-            ResourceSubCategory.VirtualMachines when resource is NormalizedComputeInstanceDto vm 
+            ResourceSubCategory.VirtualMachines when filteredResources.ComputeInstances.TryGetValue(key, out var vm)
                 => calculatorService.CalculateVmCost(vm, CalculatorService.HoursPerMonth),
             
-            ResourceSubCategory.Relational when resource is NormalizedDatabaseDto db 
+            ResourceSubCategory.Relational when filteredResources.Databases.TryGetValue(key, out var db)
                 => calculatorService.CalculateDatabaseCost(db, CalculatorService.HoursPerMonth),
             
-            ResourceSubCategory.LoadBalancer when resource is NormalizedLoadBalancerDto lb 
+            ResourceSubCategory.LoadBalancer when filteredResources.LoadBalancers.TryGetValue(key, out var lb)
                 => calculatorService.CalculateLoadBalancerCost(lb),
             
-            ResourceSubCategory.Monitoring when resource is NormalizedMonitoringDto monitoring 
+            ResourceSubCategory.Monitoring when filteredResources.Monitoring.TryGetValue(key, out var monitoring)
                 => calculatorService.CalculateMonitoringCost(monitoring),
             
             _ => 0m
@@ -89,10 +87,13 @@ public class CalculatorFacade(
     }
 
     private static TemplateCostResourceSubCategoryDetailsDto CreateCostDetail(
-        NormalizedResource resource, 
+        FilteredResourcesDto filteredResources,
+        UsageSize usageSize,
+        CloudProvider cloudProvider,
         ResourceSubCategory subCategory, 
         decimal cost)
     {
+        var key = (usageSize, cloudProvider);
         var costDetail = new TemplateCostResourceSubCategoryDetailsDto
         {
             Cost = cost,
@@ -100,9 +101,9 @@ public class CalculatorFacade(
             ResourceDetails = new Dictionary<string, object>()
         };
 
-        switch (resource)
+        switch (subCategory)
         {
-            case NormalizedComputeInstanceDto vm:
+            case ResourceSubCategory.VirtualMachines when filteredResources.ComputeInstances.TryGetValue(key, out var vm):
                 costDetail.ResourceDetails = new Dictionary<string, object>
                 {
                     ["instanceName"] = vm.InstanceName ?? "",
@@ -112,7 +113,7 @@ public class CalculatorFacade(
                 };
                 break;
 
-            case NormalizedDatabaseDto db:
+            case ResourceSubCategory.Relational when filteredResources.Databases.TryGetValue(key, out var db):
                 costDetail.ResourceDetails = new Dictionary<string, object>
                 {
                     ["instanceName"] = db.InstanceName ?? "",
@@ -123,7 +124,7 @@ public class CalculatorFacade(
                 };
                 break;
 
-            case NormalizedLoadBalancerDto lb:
+            case ResourceSubCategory.LoadBalancer when filteredResources.LoadBalancers.TryGetValue(key, out var lb):
                 costDetail.ResourceDetails = new Dictionary<string, object>
                 {
                     ["name"] = lb.Name ?? "",
@@ -131,19 +132,11 @@ public class CalculatorFacade(
                 };
                 break;
 
-            case NormalizedMonitoringDto monitoring:
+            case ResourceSubCategory.Monitoring when filteredResources.Monitoring.TryGetValue(key, out var monitoring):
                 costDetail.ResourceDetails = new Dictionary<string, object>
                 {
                     ["name"] = monitoring.Name ?? "",
                     ["pricePerMonth"] = monitoring.PricePerMonth ?? 0m
-                };
-                break;
-
-            case NormalizedResourceDto resourceDto:
-                costDetail.ResourceDetails = new Dictionary<string, object>
-                {
-                    ["service"] = resourceDto.Service,
-                    ["pricePerHour"] = resourceDto.PricePerHour ?? 0m
                 };
                 break;
         }

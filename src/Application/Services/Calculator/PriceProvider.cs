@@ -14,101 +14,96 @@ public class PriceProvider : IPriceProvider
     {
         var result = new FilteredResourcesDto();
 
+        var vmBySize = GetVm(categorizedResources.ComputeInstances);
+        var databaseBySize = GetDatabase(categorizedResources.Databases, 0, 0);
+        var cloudFunctionBySize = GetCloudFunction(categorizedResources.CloudFunctions);
+        var kubernetsBySize = GetKubernetesCluster(categorizedResources.Kubernetes);
+        var loadBalancerBySize = GetLoadBalancer(categorizedResources.LoadBalancers);
+        var apiGatewayBySize = GetApiGateway(categorizedResources.ApiGateways);
+        var blobStorageBySize = GetBlobStorage(categorizedResources.BlobStorage);
+        var monitoringBySize = GetMonitoring(categorizedResources.Monitoring);
+
         foreach (UsageSize usageSize in Enum.GetValues<UsageSize>())
         {
             foreach (CloudProvider cloudProvider in Enum.GetValues<CloudProvider>())
             {
-                if (cloudProvider == CloudProvider.None || usageSize == UsageSize.None)
-                    continue;
+                var key = (usageSize, cloudProvider);
 
-                var cheapestResource = GetCheapestResourceForUsageSizeAndCloud(
-                    categorizedResources,
-                    usageSize,
-                    cloudProvider);
-
-                if (cheapestResource != null)
+                if (vmBySize.TryGetValue(usageSize, out var vms))
                 {
-                    result.Resources[(usageSize, cloudProvider)] = cheapestResource;
+                    var vm = vms.FirstOrDefault(v => v.Cloud == cloudProvider);
+                    if (vm != null)
+                    {
+                        result.ComputeInstances[key] = vm;
+                    }
+                }
+
+                if (databaseBySize.TryGetValue(usageSize, out var databases))
+                {
+                    var db = databases.FirstOrDefault(d => d.Cloud == cloudProvider);
+                    if (db != null)
+                    {
+                        result.Databases[key] = db;
+                    }
+                }
+
+                if (cloudFunctionBySize.TryGetValue(usageSize, out var cloudFunctions))
+                {
+                    var cf = cloudFunctions.FirstOrDefault(c => c.Cloud == cloudProvider);
+                    if (cf != null)
+                    {
+                        result.CloudFunctions[key] = cf;
+                    }
+                }
+
+                if (kubernetsBySize.TryGetValue(usageSize, out var kubernetes))
+                {
+                    var k8s = kubernetes.FirstOrDefault(k => k.Cloud == cloudProvider);
+                    if (k8s != null)
+                    {
+                        result.Kubernetes[key] = k8s;
+                    }
+                }
+
+                if (loadBalancerBySize.TryGetValue(usageSize, out var loadBalancers))
+                {
+                    var lb = loadBalancers.FirstOrDefault(l => l.Cloud == cloudProvider);
+                    if (lb != null)
+                    {
+                        result.LoadBalancers[key] = lb;
+                    }
+                }
+
+                if (apiGatewayBySize.TryGetValue(usageSize, out var apiGateways))
+                {
+                    var ag = apiGateways.FirstOrDefault(a => a.Cloud == cloudProvider);
+                    if (ag != null)
+                    {
+                        result.ApiGateways[key] = ag;
+                    }
+                }
+
+                if (blobStorageBySize.TryGetValue(usageSize, out var blobStorage))
+                {
+                    var bs = blobStorage.FirstOrDefault(b => b.Cloud == cloudProvider);
+                    if (bs != null)
+                    {
+                        result.BlobStorage[key] = bs;
+                    }
+                }
+
+                if (monitoringBySize.TryGetValue(usageSize, out var monitoring))
+                {
+                    var mon = monitoring.FirstOrDefault(m => m.Cloud == cloudProvider);
+                    if (mon != null)
+                    {
+                        result.Monitoring[key] = mon;
+                    }
                 }
             }
         }
 
         return result;
-    }
-
-    private NormalizedResource? GetCheapestResourceForUsageSizeAndCloud(
-        CategorizedResourcesDto categorizedResources,
-        UsageSize usageSize,
-        CloudProvider cloudProvider)
-    {
-        var candidates = new List<NormalizedResource>();
-
-        // Get VMs
-        var vmSpecs = GetVirtualMachineSpecs(usageSize);
-        var vms = categorizedResources.ComputeInstances
-            .Where(i => i.Cloud == cloudProvider)
-            .Where(i => (i.VCpu ?? 0) >= vmSpecs.MinCpu)
-            .Where(i => (ResourceParsingUtils.ParseMemory(i.Memory) ?? 0) >= vmSpecs.MinMemory)
-            .Where(i => (i.PricePerHour ?? 0m) > 0m)
-            .Cast<NormalizedResource>();
-        candidates.AddRange(vms);
-
-        // Get Cloud Functions
-        var functions = categorizedResources.CloudFunctions
-            .Where(f => f.Cloud == cloudProvider)
-            .Cast<NormalizedResource>();
-        candidates.AddRange(functions);
-
-        // Get Kubernetes
-        var k8s = categorizedResources.Kubernetes
-            .Where(k => k.Cloud == cloudProvider)
-            .Where(k => (k.PricePerHour ?? 0m) > 0m)
-            .Cast<NormalizedResource>();
-        candidates.AddRange(k8s);
-
-        // Get Databases
-        var dbs = categorizedResources.Databases
-            .Where(d => d.Cloud == cloudProvider)
-            .Where(d => (d.VCpu ?? 0) >= 2)
-            .Where(d => (ResourceParsingUtils.ParseMemory(d.Memory) ?? 0) >= 4)
-            .Where(d => (d.PricePerHour ?? 0m) > 0m)
-            .Cast<NormalizedResource>();
-        candidates.AddRange(dbs);
-
-        // Get API Gateways
-        var gateways = categorizedResources.ApiGateways
-            .Where(g => g.Cloud == cloudProvider)
-            .Cast<NormalizedResource>();
-        candidates.AddRange(gateways);
-
-        // Get Load Balancers
-        var lbs = categorizedResources.LoadBalancers
-            .Where(lb => lb.Cloud == cloudProvider)
-            .Cast<NormalizedResource>();
-        candidates.AddRange(lbs);
-
-        // Get Blob Storage
-        var blobs = categorizedResources.BlobStorage
-            .Where(b => b.Cloud == cloudProvider)
-            .Cast<NormalizedResource>();
-        candidates.AddRange(blobs);
-
-        // Get Monitoring
-        var monitoring = categorizedResources.Monitoring
-            .Where(m => m.Cloud == cloudProvider)
-            .Cast<NormalizedResource>();
-        candidates.AddRange(monitoring);
-
-        // Get Networking
-        var networking = categorizedResources.Networking
-            .Where(n => n.Cloud == cloudProvider)
-            .Cast<NormalizedResource>();
-        candidates.AddRange(networking);
-
-        // Return the cheapest resource
-        return candidates
-            //.OrderBy(r => r.PricePerHour ?? decimal.MaxValue)
-            .FirstOrDefault();
     }
 
     public Dictionary<UsageSize, List<NormalizedComputeInstanceDto>> GetVm(

@@ -17,7 +17,15 @@ public class CategorizedResourcesDto
 
 public class FilteredResourcesDto
 {
-    public Dictionary<(UsageSize UsageSize, CloudProvider CloudProvider), NormalizedResource> Resources { get; set; } = new();
+    public Dictionary<(UsageSize UsageSize, CloudProvider CloudProvider), NormalizedComputeInstanceDto> ComputeInstances { get; set; } = new();
+    public Dictionary<(UsageSize UsageSize, CloudProvider CloudProvider), NormalizedCloudFunctionDto> CloudFunctions { get; set; } = new();
+    public Dictionary<(UsageSize UsageSize, CloudProvider CloudProvider), NormalizedKubernetesDto> Kubernetes { get; set; } = new();
+    public Dictionary<(UsageSize UsageSize, CloudProvider CloudProvider), NormalizedDatabaseDto> Databases { get; set; } = new();
+    public Dictionary<(UsageSize UsageSize, CloudProvider CloudProvider), NormalizedApiGatewayDto> ApiGateways { get; set; } = new();
+    public Dictionary<(UsageSize UsageSize, CloudProvider CloudProvider), NormalizedLoadBalancerDto> LoadBalancers { get; set; } = new();
+    public Dictionary<(UsageSize UsageSize, CloudProvider CloudProvider), NormalizedBlobStorageDto> BlobStorage { get; set; } = new();
+    public Dictionary<(UsageSize UsageSize, CloudProvider CloudProvider), NormalizedMonitoringDto> Monitoring { get; set; } = new();
+    public Dictionary<(UsageSize UsageSize, CloudProvider CloudProvider), NormalizedResourceDto> Networking { get; set; } = new();
 }
 
 public class NormalizedResource
