@@ -22,7 +22,7 @@ public class TemplateCostComparisonResultCloudProviderDto
     public List<TemplateCostResourceSubCategoryDetailsDto> CostDetails { get; set; } = new ();
 }
 
-public class TemplateCostResourceSubCategoryDetailsDto
+public class TemplateCostResourceSubCategoryDetailsDto 
 {
     public decimal Cost { get; set; }
     public ResourceSubCategory ResourceSubCategory { get; set; }

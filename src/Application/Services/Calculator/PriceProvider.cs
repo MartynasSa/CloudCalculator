@@ -5,376 +5,503 @@ namespace Application.Services.Calculator;
 
 public interface IPriceProvider
 {
-    NormalizedComputeInstanceDto? GetVm(
+    Dictionary<UsageSize, NormalizedComputeInstanceDto?> GetVm(
         List<NormalizedComputeInstanceDto> instances,
-        CloudProvider cloud,
-        UsageSize usageSize);
+        CloudProvider cloud);
 
-    NormalizedDatabaseDto? GetDatabase(
+    Dictionary<UsageSize, NormalizedDatabaseDto?> GetDatabase(
         List<NormalizedDatabaseDto> databases,
         CloudProvider cloud,
-        UsageSize usageSize,
         int minCpu,
         double minMemory);
 
-    NormalizedCloudFunctionDto? GetCloudFunction(
+    Dictionary<UsageSize, NormalizedCloudFunctionDto?> GetCloudFunction(
         List<NormalizedCloudFunctionDto> cloudFunctions,
-        CloudProvider cloud,
-        UsageSize usageSize);
+        CloudProvider cloud);
 
-    NormalizedKubernetesDto? GetKubernetesCluster(
+    Dictionary<UsageSize, NormalizedKubernetesDto?> GetKubernetesCluster(
         List<NormalizedKubernetesDto> kubernetes,
-        CloudProvider cloud,
-        UsageSize usageSize);
+        CloudProvider cloud);
 
-    NormalizedLoadBalancerDto? GetLoadBalancer(
+    Dictionary<UsageSize, NormalizedLoadBalancerDto?> GetLoadBalancer(
         List<NormalizedLoadBalancerDto> loadBalancers,
-        CloudProvider cloud,
-        UsageSize usageSize);
+        CloudProvider cloud);
 
-    NormalizedApiGatewayDto? GetApiGateway(
+    Dictionary<UsageSize, NormalizedApiGatewayDto?> GetApiGateway(
         List<NormalizedApiGatewayDto> apiGateways,
-        CloudProvider cloud,
-        UsageSize usageSize);
+        CloudProvider cloud);
 
-    NormalizedBlobStorageDto? GetBlobStorage(
+    Dictionary<UsageSize, NormalizedBlobStorageDto?> GetBlobStorage(
         List<NormalizedBlobStorageDto> blobStorage,
-        CloudProvider cloud,
-        UsageSize usageSize);
+        CloudProvider cloud);
 
-    NormalizedBlobStorageDto? GetObjectStorage(
+    Dictionary<UsageSize, NormalizedBlobStorageDto?> GetObjectStorage(
         List<NormalizedBlobStorageDto> objectStorage,
-        CloudProvider cloud,
-        UsageSize usageSize);
+        CloudProvider cloud);
 
-    NormalizedResourceDto? GetContainerInstance(
+    Dictionary<UsageSize, NormalizedResourceDto?> GetContainerInstance(
         List<NormalizedResourceDto> containerInstances,
-        CloudProvider cloud,
-        UsageSize usageSize);
+        CloudProvider cloud);
 
-    NormalizedResourceDto? GetDatabaseStorage(
+    Dictionary<UsageSize, NormalizedResourceDto?> GetDatabaseStorage(
         List<NormalizedResourceDto> databaseStorage,
-        CloudProvider cloud,
-        UsageSize usageSize);
+        CloudProvider cloud);
 
-    NormalizedResourceDto? GetCaching(
+    Dictionary<UsageSize, NormalizedResourceDto?> GetCaching(
         List<NormalizedResourceDto> caching,
-        CloudProvider cloud,
-        UsageSize usageSize);
+        CloudProvider cloud);
 
-    NormalizedResourceDto? GetFileStorage(
+    Dictionary<UsageSize, NormalizedResourceDto?> GetFileStorage(
         List<NormalizedResourceDto> fileStorage,
-        CloudProvider cloud,
-        UsageSize usageSize);
+        CloudProvider cloud);
 
-    NormalizedResourceDto? GetBackup(
+    Dictionary<UsageSize, NormalizedResourceDto?> GetBackup(
         List<NormalizedResourceDto> backups,
-        CloudProvider cloud,
-        UsageSize usageSize);
+        CloudProvider cloud);
 
-    NormalizedResourceDto? GetVpnGateway(
+    Dictionary<UsageSize, NormalizedResourceDto?> GetVpnGateway(
         List<NormalizedResourceDto> vpnGateways,
-        CloudProvider cloud,
-        UsageSize usageSize);
+        CloudProvider cloud);
 
-    NormalizedResourceDto? GetDns(
+    Dictionary<UsageSize, NormalizedResourceDto?> GetDns(
         List<NormalizedResourceDto> dns,
-        CloudProvider cloud,
-        UsageSize usageSize);
+        CloudProvider cloud);
 
-    NormalizedResourceDto? GetCdn(
+    Dictionary<UsageSize, NormalizedResourceDto?> GetCdn(
         List<NormalizedResourceDto> cdn,
-        CloudProvider cloud,
-        UsageSize usageSize);
+        CloudProvider cloud);
 
-    NormalizedResourceDto? GetDataWarehouse(
+    Dictionary<UsageSize, NormalizedResourceDto?> GetDataWarehouse(
         List<NormalizedResourceDto> dataWarehouses,
-        CloudProvider cloud,
-        UsageSize usageSize);
+        CloudProvider cloud);
 
-    NormalizedResourceDto? GetStreaming(
+    Dictionary<UsageSize, NormalizedResourceDto?> GetStreaming(
         List<NormalizedResourceDto> streaming,
-        CloudProvider cloud,
-        UsageSize usageSize);
+        CloudProvider cloud);
 
-    NormalizedResourceDto? GetMachineLearning(
+    Dictionary<UsageSize, NormalizedResourceDto?> GetMachineLearning(
         List<NormalizedResourceDto> machineLearning,
-        CloudProvider cloud,
-        UsageSize usageSize);
+        CloudProvider cloud);
 
-    NormalizedResourceDto? GetQueueing(
+    Dictionary<UsageSize, NormalizedResourceDto?> GetQueueing(
         List<NormalizedResourceDto> queueing,
-        CloudProvider cloud,
-        UsageSize usageSize);
+        CloudProvider cloud);
 
-    NormalizedResourceDto? GetMessaging(
+    Dictionary<UsageSize, NormalizedResourceDto?> GetMessaging(
         List<NormalizedResourceDto> messaging,
-        CloudProvider cloud,
-        UsageSize usageSize);
+        CloudProvider cloud);
 
-    NormalizedResourceDto? GetSecrets(
+    Dictionary<UsageSize, NormalizedResourceDto?> GetSecrets(
         List<NormalizedResourceDto> secrets,
-        CloudProvider cloud,
-        UsageSize usageSize);
+        CloudProvider cloud);
 
-    NormalizedResourceDto? GetCompliance(
+    Dictionary<UsageSize, NormalizedResourceDto?> GetCompliance(
         List<NormalizedResourceDto> compliance,
-        CloudProvider cloud,
-        UsageSize usageSize);
+        CloudProvider cloud);
 
-    decimal GetLoadBalancerPrice(
+    Dictionary<UsageSize, decimal> GetLoadBalancerPrice(
         List<NormalizedLoadBalancerDto> loadBalancers,
         CloudProvider cloud,
-        UsageSize usageSize,
         int usageHours);
 
-    NormalizedMonitoringDto? GetMonitoring(
+    Dictionary<UsageSize, NormalizedMonitoringDto?> GetMonitoring(
         List<NormalizedMonitoringDto> monitoring,
-        CloudProvider cloud,
-        UsageSize usageSize);
+        CloudProvider cloud);
 }
 
 public class PriceProvider : IPriceProvider
 {
-    public NormalizedComputeInstanceDto? GetVm(
+    public Dictionary<UsageSize, NormalizedComputeInstanceDto?> GetVm(
         List<NormalizedComputeInstanceDto> instances,
-        CloudProvider cloud,
-        UsageSize usageSize)
+        CloudProvider cloud)
     {
-        var specs = GetVirtualMachineSpecs(usageSize);
+        var result = new Dictionary<UsageSize, NormalizedComputeInstanceDto?>();
 
-        return instances
-            .Where(i => i.Cloud == cloud)
-            .Where(i => (i.VCpu ?? 0) >= specs.MinCpu)
-            .Where(i => (ResourceParsingUtils.ParseMemory(i.Memory) ?? 0) >= specs.MinMemory)
-            .Where(i => (i.PricePerHour ?? 0m) > 0m)
-            .OrderBy(i => i.PricePerHour ?? decimal.MaxValue)
-            .FirstOrDefault();
+        foreach (UsageSize usageSize in Enum.GetValues<UsageSize>())
+        {
+            var specs = GetVirtualMachineSpecs(usageSize);
+
+            result[usageSize] = instances
+                .Where(i => i.Cloud == cloud)
+                .Where(i => (i.VCpu ?? 0) >= specs.MinCpu)
+                .Where(i => (ResourceParsingUtils.ParseMemory(i.Memory) ?? 0) >= specs.MinMemory)
+                .Where(i => (i.PricePerHour ?? 0m) > 0m)
+                .OrderBy(i => i.PricePerHour ?? decimal.MaxValue)
+                .FirstOrDefault();
+        }
+
+        return result;
     }
 
-    public NormalizedDatabaseDto? GetDatabase(
+    public Dictionary<UsageSize, NormalizedDatabaseDto?> GetDatabase(
         List<NormalizedDatabaseDto> databases,
         CloudProvider cloud,
-        UsageSize usageSize,
         int minCpu,
         double minMemory)
     {
-        return databases
-            .Where(i => i.Cloud == cloud)
-            .Where(i => (i.VCpu ?? 0) >= minCpu)
-            .Where(i => (ResourceParsingUtils.ParseMemory(i.Memory) ?? 0) >= minMemory)
-            .Where(i => (i.PricePerHour ?? 0m) > 0m)
-            .OrderBy(i => i.PricePerHour ?? decimal.MaxValue)
-            .FirstOrDefault();
-    }
+        var result = new Dictionary<UsageSize, NormalizedDatabaseDto?>();
 
-    public NormalizedCloudFunctionDto? GetCloudFunction(
-        List<NormalizedCloudFunctionDto> cloudFunctions,
-        CloudProvider cloud,
-        UsageSize usageSize)
-    {
-        return cloudFunctions
-            .Where(f => f.Cloud == cloud)
-            .OrderBy(GetCloudFunctionPriceScore)
-            .FirstOrDefault();
-    }
-
-    public NormalizedKubernetesDto? GetKubernetesCluster(
-        List<NormalizedKubernetesDto> kubernetes,
-        CloudProvider cloud,
-        UsageSize usageSize)
-    {
-        return kubernetes
-            .Where(k => k.Cloud == cloud)
-            .Where(k => (k.PricePerHour ?? 0m) > 0m)
-            .OrderBy(k => k.PricePerHour ?? decimal.MaxValue)
-            .FirstOrDefault();
-    }
-
-    public NormalizedLoadBalancerDto? GetLoadBalancer(
-        List<NormalizedLoadBalancerDto> loadBalancers,
-        CloudProvider cloud,
-        UsageSize usageSize)
-    {
-        return loadBalancers
-            .Where(lb => lb.Cloud == cloud)
-            .FirstOrDefault();
-    }
-
-    public NormalizedApiGatewayDto? GetApiGateway(
-        List<NormalizedApiGatewayDto> apiGateways,
-        CloudProvider cloud,
-        UsageSize usageSize)
-    {
-        return apiGateways
-            .Where(g => g.Cloud == cloud)
-            .OrderBy(GetApiGatewayPriceScore)
-            .FirstOrDefault();
-    }
-
-    public NormalizedBlobStorageDto? GetBlobStorage(
-        List<NormalizedBlobStorageDto> blobStorage,
-        CloudProvider cloud,
-        UsageSize usageSize)
-    {
-        return GetBlobLikeResource(blobStorage, cloud, ResourceSubCategory.BlobStorage);
-    }
-
-    public NormalizedBlobStorageDto? GetObjectStorage(
-        List<NormalizedBlobStorageDto> objectStorage,
-        CloudProvider cloud,
-        UsageSize usageSize)
-    {
-        return GetBlobLikeResource(objectStorage, cloud, ResourceSubCategory.ObjectStorage);
-    }
-
-    public NormalizedResourceDto? GetContainerInstance(
-        List<NormalizedResourceDto> containerInstances,
-        CloudProvider cloud,
-        UsageSize usageSize)
-    {
-        return GetGenericResource(containerInstances, cloud, ResourceSubCategory.ContainerInstances);
-    }
-
-    public NormalizedResourceDto? GetDatabaseStorage(
-        List<NormalizedResourceDto> databaseStorage,
-        CloudProvider cloud,
-        UsageSize usageSize)
-    {
-        return GetGenericResource(databaseStorage, cloud, ResourceSubCategory.DatabaseStorage);
-    }
-
-    public NormalizedResourceDto? GetCaching(
-        List<NormalizedResourceDto> caching,
-        CloudProvider cloud,
-        UsageSize usageSize)
-    {
-        return GetGenericResource(caching, cloud, ResourceSubCategory.Caching);
-    }
-
-    public NormalizedResourceDto? GetFileStorage(
-        List<NormalizedResourceDto> fileStorage,
-        CloudProvider cloud,
-        UsageSize usageSize)
-    {
-        return GetGenericResource(fileStorage, cloud, ResourceSubCategory.FileStorage);
-    }
-
-    public NormalizedResourceDto? GetBackup(
-        List<NormalizedResourceDto> backups,
-        CloudProvider cloud,
-        UsageSize usageSize)
-    {
-        return GetGenericResource(backups, cloud, ResourceSubCategory.Backup);
-    }
-
-    public NormalizedResourceDto? GetVpnGateway(
-        List<NormalizedResourceDto> vpnGateways,
-        CloudProvider cloud,
-        UsageSize usageSize)
-    {
-        return GetGenericResource(vpnGateways, cloud, ResourceSubCategory.VpnGateway);
-    }
-
-    public NormalizedResourceDto? GetDns(
-        List<NormalizedResourceDto> dns,
-        CloudProvider cloud,
-        UsageSize usageSize)
-    {
-        return GetGenericResource(dns, cloud, ResourceSubCategory.Dns);
-    }
-
-    public NormalizedResourceDto? GetCdn(
-        List<NormalizedResourceDto> cdn,
-        CloudProvider cloud,
-        UsageSize usageSize)
-    {
-        return GetGenericResource(cdn, cloud, ResourceSubCategory.CDN);
-    }
-
-    public NormalizedResourceDto? GetDataWarehouse(
-        List<NormalizedResourceDto> dataWarehouses,
-        CloudProvider cloud,
-        UsageSize usageSize)
-    {
-        return GetGenericResource(dataWarehouses, cloud, ResourceSubCategory.DataWarehouse);
-    }
-
-    public NormalizedResourceDto? GetStreaming(
-        List<NormalizedResourceDto> streaming,
-        CloudProvider cloud,
-        UsageSize usageSize)
-    {
-        return GetGenericResource(streaming, cloud, ResourceSubCategory.Streaming);
-    }
-
-    public NormalizedResourceDto? GetMachineLearning(
-        List<NormalizedResourceDto> machineLearning,
-        CloudProvider cloud,
-        UsageSize usageSize)
-    {
-        return GetGenericResource(machineLearning, cloud, ResourceSubCategory.MachineLearning);
-    }
-
-    public NormalizedResourceDto? GetQueueing(
-        List<NormalizedResourceDto> queueing,
-        CloudProvider cloud,
-        UsageSize usageSize)
-    {
-        return GetGenericResource(queueing, cloud, ResourceSubCategory.Queueing);
-    }
-
-    public NormalizedResourceDto? GetMessaging(
-        List<NormalizedResourceDto> messaging,
-        CloudProvider cloud,
-        UsageSize usageSize)
-    {
-        return GetGenericResource(messaging, cloud, ResourceSubCategory.Messaging);
-    }
-
-    public NormalizedResourceDto? GetSecrets(
-        List<NormalizedResourceDto> secrets,
-        CloudProvider cloud,
-        UsageSize usageSize)
-    {
-        return GetGenericResource(secrets, cloud, ResourceSubCategory.Secrets);
-    }
-
-    public NormalizedResourceDto? GetCompliance(
-        List<NormalizedResourceDto> compliance,
-        CloudProvider cloud,
-        UsageSize usageSize)
-    {
-        return GetGenericResource(compliance, cloud, ResourceSubCategory.Compliance);
-    }
-
-    public decimal GetLoadBalancerPrice(
-        List<NormalizedLoadBalancerDto> loadBalancers,
-        CloudProvider cloud,
-        UsageSize usageSize,
-        int usageHours)
-    {
-        var loadBalancer = loadBalancers
-            .Where(lb => lb.Cloud == cloud)
-            .FirstOrDefault();
-
-        if (loadBalancer?.PricePerMonth is null)
+        foreach (UsageSize usageSize in Enum.GetValues<UsageSize>())
         {
-            return 0m;
+            result[usageSize] = databases
+                .Where(i => i.Cloud == cloud)
+                .Where(i => (i.VCpu ?? 0) >= minCpu)
+                .Where(i => (ResourceParsingUtils.ParseMemory(i.Memory) ?? 0) >= minMemory)
+                .Where(i => (i.PricePerHour ?? 0m) > 0m)
+                .OrderBy(i => i.PricePerHour ?? decimal.MaxValue)
+                .FirstOrDefault();
         }
 
-        const decimal hoursPerMonth = 730m;
-        return (loadBalancer.PricePerMonth.Value / hoursPerMonth) * usageHours;
+        return result;
     }
 
-    public NormalizedMonitoringDto? GetMonitoring(
-        List<NormalizedMonitoringDto> monitoring,
-        CloudProvider cloud,
-        UsageSize usageSize)
+    public Dictionary<UsageSize, NormalizedCloudFunctionDto?> GetCloudFunction(
+        List<NormalizedCloudFunctionDto> cloudFunctions,
+        CloudProvider cloud)
     {
-        return monitoring
-            .Where(m => m.Cloud == cloud)
-            .FirstOrDefault();
+        var result = new Dictionary<UsageSize, NormalizedCloudFunctionDto?>();
+
+        foreach (UsageSize usageSize in Enum.GetValues<UsageSize>())
+        {
+            result[usageSize] = cloudFunctions
+                .Where(f => f.Cloud == cloud)
+                .OrderBy(GetCloudFunctionPriceScore)
+                .FirstOrDefault();
+        }
+
+        return result;
+    }
+
+    public Dictionary<UsageSize, NormalizedKubernetesDto?> GetKubernetesCluster(
+        List<NormalizedKubernetesDto> kubernetes,
+        CloudProvider cloud)
+    {
+        var result = new Dictionary<UsageSize, NormalizedKubernetesDto?>();
+
+        foreach (UsageSize usageSize in Enum.GetValues<UsageSize>())
+        {
+            result[usageSize] = kubernetes
+                .Where(k => k.Cloud == cloud)
+                .Where(k => (k.PricePerHour ?? 0m) > 0m)
+                .OrderBy(k => k.PricePerHour ?? decimal.MaxValue)
+                .FirstOrDefault();
+        }
+
+        return result;
+    }
+
+    public Dictionary<UsageSize, NormalizedLoadBalancerDto?> GetLoadBalancer(
+        List<NormalizedLoadBalancerDto> loadBalancers,
+        CloudProvider cloud)
+    {
+        var result = new Dictionary<UsageSize, NormalizedLoadBalancerDto?>();
+
+        foreach (UsageSize usageSize in Enum.GetValues<UsageSize>())
+        {
+            result[usageSize] = loadBalancers
+                .Where(lb => lb.Cloud == cloud)
+                .FirstOrDefault();
+        }
+
+        return result;
+    }
+
+    public Dictionary<UsageSize, NormalizedApiGatewayDto?> GetApiGateway(
+        List<NormalizedApiGatewayDto> apiGateways,
+        CloudProvider cloud)
+    {
+        var result = new Dictionary<UsageSize, NormalizedApiGatewayDto?>();
+
+        foreach (UsageSize usageSize in Enum.GetValues<UsageSize>())
+        {
+            result[usageSize] = apiGateways
+                .Where(g => g.Cloud == cloud)
+                .OrderBy(GetApiGatewayPriceScore)
+                .FirstOrDefault();
+        }
+
+        return result;
+    }
+
+    public Dictionary<UsageSize, NormalizedBlobStorageDto?> GetBlobStorage(
+        List<NormalizedBlobStorageDto> blobStorage,
+        CloudProvider cloud)
+    {
+        var result = new Dictionary<UsageSize, NormalizedBlobStorageDto?>();
+
+        foreach (UsageSize usageSize in Enum.GetValues<UsageSize>())
+        {
+            result[usageSize] = GetBlobLikeResource(blobStorage, cloud, ResourceSubCategory.BlobStorage);
+        }
+
+        return result;
+    }
+
+    public Dictionary<UsageSize, NormalizedBlobStorageDto?> GetObjectStorage(
+        List<NormalizedBlobStorageDto> objectStorage,
+        CloudProvider cloud)
+    {
+        var result = new Dictionary<UsageSize, NormalizedBlobStorageDto?>();
+
+        foreach (UsageSize usageSize in Enum.GetValues<UsageSize>())
+        {
+            result[usageSize] = GetBlobLikeResource(objectStorage, cloud, ResourceSubCategory.ObjectStorage);
+        }
+
+        return result;
+    }
+
+    public Dictionary<UsageSize, NormalizedResourceDto?> GetContainerInstance(
+        List<NormalizedResourceDto> containerInstances,
+        CloudProvider cloud)
+    {
+        var result = new Dictionary<UsageSize, NormalizedResourceDto?>();
+
+        foreach (UsageSize usageSize in Enum.GetValues<UsageSize>())
+        {
+            result[usageSize] = GetGenericResource(containerInstances, cloud, ResourceSubCategory.ContainerInstances);
+        }
+
+        return result;
+    }
+
+    public Dictionary<UsageSize, NormalizedResourceDto?> GetDatabaseStorage(
+        List<NormalizedResourceDto> databaseStorage,
+        CloudProvider cloud)
+    {
+        var result = new Dictionary<UsageSize, NormalizedResourceDto?>();
+
+        foreach (UsageSize usageSize in Enum.GetValues<UsageSize>())
+        {
+            result[usageSize] = GetGenericResource(databaseStorage, cloud, ResourceSubCategory.DatabaseStorage);
+        }
+
+        return result;
+    }
+
+    public Dictionary<UsageSize, NormalizedResourceDto?> GetCaching(
+        List<NormalizedResourceDto> caching,
+        CloudProvider cloud)
+    {
+        var result = new Dictionary<UsageSize, NormalizedResourceDto?>();
+
+        foreach (UsageSize usageSize in Enum.GetValues<UsageSize>())
+        {
+            result[usageSize] = GetGenericResource(caching, cloud, ResourceSubCategory.Caching);
+        }
+
+        return result;
+    }
+
+    public Dictionary<UsageSize, NormalizedResourceDto?> GetFileStorage(
+        List<NormalizedResourceDto> fileStorage,
+        CloudProvider cloud)
+    {
+        var result = new Dictionary<UsageSize, NormalizedResourceDto?>();
+
+        foreach (UsageSize usageSize in Enum.GetValues<UsageSize>())
+        {
+            result[usageSize] = GetGenericResource(fileStorage, cloud, ResourceSubCategory.FileStorage);
+        }
+
+        return result;
+    }
+
+    public Dictionary<UsageSize, NormalizedResourceDto?> GetBackup(
+        List<NormalizedResourceDto> backups,
+        CloudProvider cloud)
+    {
+        var result = new Dictionary<UsageSize, NormalizedResourceDto?>();
+
+        foreach (UsageSize usageSize in Enum.GetValues<UsageSize>())
+        {
+            result[usageSize] = GetGenericResource(backups, cloud, ResourceSubCategory.Backup);
+        }
+
+        return result;
+    }
+
+    public Dictionary<UsageSize, NormalizedResourceDto?> GetVpnGateway(
+        List<NormalizedResourceDto> vpnGateways,
+        CloudProvider cloud)
+    {
+        var result = new Dictionary<UsageSize, NormalizedResourceDto?>();
+
+        foreach (UsageSize usageSize in Enum.GetValues<UsageSize>())
+        {
+            result[usageSize] = GetGenericResource(vpnGateways, cloud, ResourceSubCategory.VpnGateway);
+        }
+
+        return result;
+    }
+
+    public Dictionary<UsageSize, NormalizedResourceDto?> GetDns(
+        List<NormalizedResourceDto> dns,
+        CloudProvider cloud)
+    {
+        var result = new Dictionary<UsageSize, NormalizedResourceDto?>();
+
+        foreach (UsageSize usageSize in Enum.GetValues<UsageSize>())
+        {
+            result[usageSize] = GetGenericResource(dns, cloud, ResourceSubCategory.Dns);
+        }
+
+        return result;
+    }
+
+    public Dictionary<UsageSize, NormalizedResourceDto?> GetCdn(
+        List<NormalizedResourceDto> cdn,
+        CloudProvider cloud)
+    {
+        var result = new Dictionary<UsageSize, NormalizedResourceDto?>();
+
+        foreach (UsageSize usageSize in Enum.GetValues<UsageSize>())
+        {
+            result[usageSize] = GetGenericResource(cdn, cloud, ResourceSubCategory.CDN);
+        }
+
+        return result;
+    }
+
+    public Dictionary<UsageSize, NormalizedResourceDto?> GetDataWarehouse(
+        List<NormalizedResourceDto> dataWarehouses,
+        CloudProvider cloud)
+    {
+        var result = new Dictionary<UsageSize, NormalizedResourceDto?>();
+
+        foreach (UsageSize usageSize in Enum.GetValues<UsageSize>())
+        {
+            result[usageSize] = GetGenericResource(dataWarehouses, cloud, ResourceSubCategory.DataWarehouse);
+        }
+
+        return result;
+    }
+
+    public Dictionary<UsageSize, NormalizedResourceDto?> GetStreaming(
+        List<NormalizedResourceDto> streaming,
+        CloudProvider cloud)
+    {
+        var result = new Dictionary<UsageSize, NormalizedResourceDto?>();
+
+        foreach (UsageSize usageSize in Enum.GetValues<UsageSize>())
+        {
+            result[usageSize] = GetGenericResource(streaming, cloud, ResourceSubCategory.Streaming);
+        }
+
+        return result;
+    }
+
+    public Dictionary<UsageSize, NormalizedResourceDto?> GetMachineLearning(
+        List<NormalizedResourceDto> machineLearning,
+        CloudProvider cloud)
+    {
+        var result = new Dictionary<UsageSize, NormalizedResourceDto?>();
+
+        foreach (UsageSize usageSize in Enum.GetValues<UsageSize>())
+        {
+            result[usageSize] = GetGenericResource(machineLearning, cloud, ResourceSubCategory.MachineLearning);
+        }
+
+        return result;
+    }
+
+    public Dictionary<UsageSize, NormalizedResourceDto?> GetQueueing(
+        List<NormalizedResourceDto> queueing,
+        CloudProvider cloud)
+    {
+        var result = new Dictionary<UsageSize, NormalizedResourceDto?>();
+
+        foreach (UsageSize usageSize in Enum.GetValues<UsageSize>())
+        {
+            result[usageSize] = GetGenericResource(queueing, cloud, ResourceSubCategory.Queueing);
+        }
+
+        return result;
+    }
+
+    public Dictionary<UsageSize, NormalizedResourceDto?> GetMessaging(
+        List<NormalizedResourceDto> messaging,
+        CloudProvider cloud)
+    {
+        var result = new Dictionary<UsageSize, NormalizedResourceDto?>();
+
+        foreach (UsageSize usageSize in Enum.GetValues<UsageSize>())
+        {
+            result[usageSize] = GetGenericResource(messaging, cloud, ResourceSubCategory.Messaging);
+        }
+
+        return result;
+    }
+
+    public Dictionary<UsageSize, NormalizedResourceDto?> GetSecrets(
+        List<NormalizedResourceDto> secrets,
+        CloudProvider cloud)
+    {
+        var result = new Dictionary<UsageSize, NormalizedResourceDto?>();
+
+        foreach (UsageSize usageSize in Enum.GetValues<UsageSize>())
+        {
+            result[usageSize] = GetGenericResource(secrets, cloud, ResourceSubCategory.Secrets);
+        }
+
+        return result;
+    }
+
+    public Dictionary<UsageSize, NormalizedResourceDto?> GetCompliance(
+        List<NormalizedResourceDto> compliance,
+        CloudProvider cloud)
+    {
+        var result = new Dictionary<UsageSize, NormalizedResourceDto?>();
+
+        foreach (UsageSize usageSize in Enum.GetValues<UsageSize>())
+        {
+            result[usageSize] = GetGenericResource(compliance, cloud, ResourceSubCategory.Compliance);
+        }
+
+        return result;
+    }
+
+    public Dictionary<UsageSize, decimal> GetLoadBalancerPrice(
+        List<NormalizedLoadBalancerDto> loadBalancers,
+        CloudProvider cloud,
+        int usageHours)
+    {
+        var result = new Dictionary<UsageSize, decimal>();
+
+        foreach (UsageSize usageSize in Enum.GetValues<UsageSize>())
+        {
+            var loadBalancer = loadBalancers
+                .Where(lb => lb.Cloud == cloud)
+                .FirstOrDefault();
+
+            if (loadBalancer?.PricePerMonth is null)
+            {
+                result[usageSize] = 0m;
+            }
+            else
+            {
+                const decimal hoursPerMonth = 730m;
+                result[usageSize] = (loadBalancer.PricePerMonth.Value / hoursPerMonth) * usageHours;
+            }
+        }
+
+        return result;
+    }
+
+    public Dictionary<UsageSize, NormalizedMonitoringDto?> GetMonitoring(
+        List<NormalizedMonitoringDto> monitoring,
+        CloudProvider cloud)
+    {
+        var result = new Dictionary<UsageSize, NormalizedMonitoringDto?>();
+
+        foreach (UsageSize usageSize in Enum.GetValues<UsageSize>())
+        {
+            result[usageSize] = monitoring
+                .Where(m => m.Cloud == cloud)
+                .FirstOrDefault();
+        }
+
+        return result;
     }
 
     private static (int MinCpu, double MinMemory) GetVirtualMachineSpecs(UsageSize usageSize)
