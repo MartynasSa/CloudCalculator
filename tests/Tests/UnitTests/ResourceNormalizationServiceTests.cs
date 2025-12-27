@@ -159,7 +159,7 @@ public class ResourceNormalizationServiceTests(WebApplicationFactory<Program> fa
 
         // Assert
         Assert.NotNull(result);
-        Assert.Equal(3, result.Count);
+        Assert.Equal(5, result.Count);
         Assert.Contains(result, lb => lb.Cloud == CloudProvider.AWS);
         Assert.Contains(result, lb => lb.Cloud == CloudProvider.Azure);
         Assert.Contains(result, lb => lb.Cloud == CloudProvider.GCP);

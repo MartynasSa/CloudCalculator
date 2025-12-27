@@ -67,7 +67,7 @@ public class ResourceNormalizationService(ICloudPricingRepositoryProvider cloudP
             { ("Storage", "Firebase Realtime Database"), (ResourceCategory.Database, ResourceSubCategory.NoSQL) },
             
             // Network
-            { ("Networking", "Cloud Load Balancing"), (ResourceCategory.Networking, ResourceSubCategory.LoadBalancer) },
+            { ("Networking", "Compute Engine"), (ResourceCategory.Networking, ResourceSubCategory.LoadBalancer) },
             { ("Networking", "API Gateway"), (ResourceCategory.Networking, ResourceSubCategory.ApiGateway) },
             
             // Storage
@@ -108,7 +108,7 @@ public class ResourceNormalizationService(ICloudPricingRepositoryProvider cloudP
                     result.Databases.Add(NormalizationMapper.MapToDatabase(product, category, subCategory));
                     break;
                 case (ResourceCategory.Networking, ResourceSubCategory.LoadBalancer):
-                    // LoadBalancers are mapped separately to ensure one per cloud
+                    result.LoadBalancers.Add(NormalizationMapper.MapToLoadBalancer(product, category, subCategory));
                     break;
                 case (ResourceCategory.Networking, ResourceSubCategory.ApiGateway):
                     result.ApiGateways.Add(NormalizationMapper.MapToApiGateway(product, category, subCategory));
@@ -121,7 +121,6 @@ public class ResourceNormalizationService(ICloudPricingRepositoryProvider cloudP
             }
         }
 
-        result.LoadBalancers.AddRange(GetNormalizedLoadBalancers());
         result.Monitoring.AddRange(GetNormalizedMonitoring());
 
         return result;
@@ -155,16 +154,6 @@ public class ResourceNormalizationService(ICloudPricingRepositoryProvider cloudP
             return mapping;
         }
         return (ResourceCategory.Other, ResourceSubCategory.Uncategorized);
-    }
-
-    private static List<NormalizedLoadBalancerDto> GetNormalizedLoadBalancers()
-    {
-        return new List<NormalizedLoadBalancerDto>
-        {
-            new() { Cloud = CloudProvider.AWS, Category = ResourceCategory.Networking, SubCategory = ResourceSubCategory.LoadBalancer, Name = "Application Load Balancer", PricePerMonth = 16.51m },
-            new() { Cloud = CloudProvider.Azure, Category = ResourceCategory.Networking, SubCategory = ResourceSubCategory.LoadBalancer, Name = "Load Balancer", PricePerMonth = 0m },
-            new() { Cloud = CloudProvider.GCP, Category = ResourceCategory.Networking, SubCategory = ResourceSubCategory.LoadBalancer, Name = "Cloud Load Balancing", PricePerMonth = 18.41m }
-        };
     }
 
     private static List<NormalizedMonitoringDto> GetNormalizedMonitoring()
