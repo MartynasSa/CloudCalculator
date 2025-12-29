@@ -1,0 +1,986 @@
+{
+  "data": {
+    "products": [
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "9e9d8de5-90ab-5fca-824d-727ff5650522"
+          },
+          {
+            "key": "skuName",
+            "value": "Standard Spot"
+          },
+          {
+            "key": "meterName",
+            "value": "Standard Spot Memory Duration"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0BQV6"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH31976D030"
+          },
+          {
+            "key": "armSkuName",
+            "value": ""
+          },
+          {
+            "key": "productName",
+            "value": "Container Instances"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Containers"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2023-04-01T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Container Instances",
+        "region": "eastus",
+        "productFamily": "Containers",
+        "prices": []
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "a9097c64-17b1-5b4b-a9e5-6841a0cc0db6"
+          },
+          {
+            "key": "skuName",
+            "value": "Confidential containers ACI"
+          },
+          {
+            "key": "meterName",
+            "value": "Confidential containers ACI Memory Duration"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0BQV6"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH31976D030"
+          },
+          {
+            "key": "armSkuName",
+            "value": "Confidential containers ACI"
+          },
+          {
+            "key": "productName",
+            "value": "Container Instances"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Containers"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2024-09-01T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Container Instances",
+        "region": "eastus",
+        "productFamily": "Containers",
+        "prices": [
+          {
+            "USD": "0.004895",
+            "unit": "1 GB Hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "c2308667-7fef-4aa4-8f95-43c9e8dcac1e"
+          },
+          {
+            "key": "skuName",
+            "value": "Standard"
+          },
+          {
+            "key": "meterName",
+            "value": "Standard vCPU Duration (Long running)"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0BQV6"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH31976D030"
+          },
+          {
+            "key": "armSkuName",
+            "value": ""
+          },
+          {
+            "key": "productName",
+            "value": "Container Instances"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Containers"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2019-02-01T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Container Instances",
+        "region": "eastus",
+        "productFamily": "Containers",
+        "prices": [
+          {
+            "USD": "0.000011",
+            "unit": "1 Second"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "e286eade-e86c-4e25-8641-da115ce12140"
+          },
+          {
+            "key": "skuName",
+            "value": "Standard"
+          },
+          {
+            "key": "meterName",
+            "value": "Standard Memory Duration (Long running)"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0BQV6"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH31976D030"
+          },
+          {
+            "key": "armSkuName",
+            "value": ""
+          },
+          {
+            "key": "productName",
+            "value": "Container Instances"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Containers"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2019-02-01T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Container Instances",
+        "region": "eastus",
+        "productFamily": "Containers",
+        "prices": [
+          {
+            "USD": "0.000002",
+            "unit": "1 GB Second"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "f7856f57-0c37-4004-88a4-2f6a19fead96"
+          },
+          {
+            "key": "skuName",
+            "value": "P100"
+          },
+          {
+            "key": "meterName",
+            "value": "vCPU Duration"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0BWWM"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH31976D030"
+          },
+          {
+            "key": "armSkuName",
+            "value": ""
+          },
+          {
+            "key": "productName",
+            "value": "Container Instances with GPU"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Containers"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2018-12-04T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Container Instances",
+        "region": "eastus",
+        "productFamily": "Containers",
+        "prices": [
+          {
+            "USD": "0.000879",
+            "unit": "100 Seconds"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "3842ef03-27b8-401d-a6c9-798c98f7e44b"
+          },
+          {
+            "key": "skuName",
+            "value": "Standard"
+          },
+          {
+            "key": "meterName",
+            "value": "Standard Memory Duration"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0BQV6"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH31976D030"
+          },
+          {
+            "key": "armSkuName",
+            "value": ""
+          },
+          {
+            "key": "productName",
+            "value": "Container Instances"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Containers"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2019-03-01T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Container Instances",
+        "region": "eastus",
+        "productFamily": "Containers",
+        "prices": [
+          {
+            "USD": "0.00445",
+            "unit": "1 GB Hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "db5587e2-8e05-44e6-9a36-717135049487"
+          },
+          {
+            "key": "skuName",
+            "value": "Standard"
+          },
+          {
+            "key": "meterName",
+            "value": "Standard vCPU Duration"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0BQV6"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH31976D030"
+          },
+          {
+            "key": "armSkuName",
+            "value": ""
+          },
+          {
+            "key": "productName",
+            "value": "Container Instances"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Containers"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2019-03-01T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Container Instances",
+        "region": "eastus",
+        "productFamily": "Containers",
+        "prices": [
+          {
+            "USD": "0.0405",
+            "unit": "1 Hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "82cab898-9be6-5e5e-b333-65fe2d120730"
+          },
+          {
+            "key": "skuName",
+            "value": "Standard Spot"
+          },
+          {
+            "key": "meterName",
+            "value": "Standard Spot vCPU Duration"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0BQV6"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH31976D030"
+          },
+          {
+            "key": "armSkuName",
+            "value": ""
+          },
+          {
+            "key": "productName",
+            "value": "Container Instances"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Containers"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2023-04-01T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Container Instances",
+        "region": "eastus",
+        "productFamily": "Containers",
+        "prices": []
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "cf064067-9727-4f5f-8b4a-9bac0b243915"
+          },
+          {
+            "key": "skuName",
+            "value": "V100"
+          },
+          {
+            "key": "meterName",
+            "value": "V100 vGPU Duration"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0BWWM"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH31976D030"
+          },
+          {
+            "key": "armSkuName",
+            "value": ""
+          },
+          {
+            "key": "productName",
+            "value": "Container Instances with GPU"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Containers"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2018-12-04T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Container Instances",
+        "region": "eastus",
+        "productFamily": "Containers",
+        "prices": [
+          {
+            "USD": "0.0793",
+            "unit": "100 Seconds"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "9ec33f3b-fc63-473c-8482-dca4113c1f80"
+          },
+          {
+            "key": "skuName",
+            "value": "P100"
+          },
+          {
+            "key": "meterName",
+            "value": "P100 vGPU Duration"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0BWWM"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH31976D030"
+          },
+          {
+            "key": "armSkuName",
+            "value": ""
+          },
+          {
+            "key": "productName",
+            "value": "Container Instances with GPU"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Containers"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2018-12-04T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Container Instances",
+        "region": "eastus",
+        "productFamily": "Containers",
+        "prices": [
+          {
+            "USD": "0.0244",
+            "unit": "100 Seconds"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "26bc6313-7c21-477f-9233-9fd734c5186d"
+          },
+          {
+            "key": "skuName",
+            "value": "Standard"
+          },
+          {
+            "key": "meterName",
+            "value": "Standard Windows Software Duration"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0BQV6"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH31976D030"
+          },
+          {
+            "key": "armSkuName",
+            "value": ""
+          },
+          {
+            "key": "productName",
+            "value": "Container Instances"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Containers"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2018-04-02T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Container Instances",
+        "region": "eastus",
+        "productFamily": "Containers",
+        "prices": [
+          {
+            "USD": "0.000012",
+            "unit": "1 Second"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "89a2a8f5-a5ee-4f5e-b8d4-9d088ee0c590"
+          },
+          {
+            "key": "skuName",
+            "value": "P100"
+          },
+          {
+            "key": "meterName",
+            "value": "Memory Duration"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0BWWM"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH31976D030"
+          },
+          {
+            "key": "armSkuName",
+            "value": ""
+          },
+          {
+            "key": "productName",
+            "value": "Container Instances with GPU"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Containers"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2018-12-04T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Container Instances",
+        "region": "eastus",
+        "productFamily": "Containers",
+        "prices": [
+          {
+            "USD": "0.000118",
+            "unit": "100 GB Seconds"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "f5fa1706-b2cf-4329-b489-b4c178bfa8af"
+          },
+          {
+            "key": "skuName",
+            "value": "K80"
+          },
+          {
+            "key": "meterName",
+            "value": "K80 vGPU Duration"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0BWWM"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH31976D030"
+          },
+          {
+            "key": "armSkuName",
+            "value": ""
+          },
+          {
+            "key": "productName",
+            "value": "Container Instances with GPU"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Containers"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2018-12-04T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Container Instances",
+        "region": "eastus",
+        "productFamily": "Containers",
+        "prices": [
+          {
+            "USD": "0.01",
+            "unit": "100 Seconds"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "f7856f57-0c37-4004-88a4-2f6a19fead96"
+          },
+          {
+            "key": "skuName",
+            "value": "K80"
+          },
+          {
+            "key": "meterName",
+            "value": "vCPU Duration"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0BWWM"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH31976D030"
+          },
+          {
+            "key": "armSkuName",
+            "value": ""
+          },
+          {
+            "key": "productName",
+            "value": "Container Instances with GPU"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Containers"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2018-12-04T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Container Instances",
+        "region": "eastus",
+        "productFamily": "Containers",
+        "prices": [
+          {
+            "USD": "0.000879",
+            "unit": "100 Seconds"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "f7856f57-0c37-4004-88a4-2f6a19fead96"
+          },
+          {
+            "key": "skuName",
+            "value": "V100"
+          },
+          {
+            "key": "meterName",
+            "value": "vCPU Duration"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0BWWM"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH31976D030"
+          },
+          {
+            "key": "armSkuName",
+            "value": ""
+          },
+          {
+            "key": "productName",
+            "value": "Container Instances with GPU"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Containers"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2018-12-04T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Container Instances",
+        "region": "eastus",
+        "productFamily": "Containers",
+        "prices": [
+          {
+            "USD": "0.000879",
+            "unit": "100 Seconds"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "9e9d8de5-90ab-5fca-824d-727ff5650522"
+          },
+          {
+            "key": "skuName",
+            "value": "Standard Spot"
+          },
+          {
+            "key": "meterName",
+            "value": "Standard Spot Memory Duration"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0BQV6"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH31976D030"
+          },
+          {
+            "key": "armSkuName",
+            "value": ""
+          },
+          {
+            "key": "productName",
+            "value": "Container Instances"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Containers"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2024-01-01T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Container Instances",
+        "region": "eastus",
+        "productFamily": "Containers",
+        "prices": []
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "7ccada34-2330-52b6-93dc-2b8d78c1ae8e"
+          },
+          {
+            "key": "skuName",
+            "value": "Confidential containers ACI"
+          },
+          {
+            "key": "meterName",
+            "value": "Confidential containers ACI vCPU Duration"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0BQV6"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH31976D030"
+          },
+          {
+            "key": "armSkuName",
+            "value": "Confidential containers ACI"
+          },
+          {
+            "key": "productName",
+            "value": "Container Instances"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Containers"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2024-09-01T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Container Instances",
+        "region": "eastus",
+        "productFamily": "Containers",
+        "prices": [
+          {
+            "USD": "0.04455",
+            "unit": "1 Hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "82cab898-9be6-5e5e-b333-65fe2d120730"
+          },
+          {
+            "key": "skuName",
+            "value": "Standard Spot"
+          },
+          {
+            "key": "meterName",
+            "value": "Standard Spot vCPU Duration"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0BQV6"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH31976D030"
+          },
+          {
+            "key": "armSkuName",
+            "value": ""
+          },
+          {
+            "key": "productName",
+            "value": "Container Instances"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Containers"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2024-01-01T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Container Instances",
+        "region": "eastus",
+        "productFamily": "Containers",
+        "prices": []
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "89a2a8f5-a5ee-4f5e-b8d4-9d088ee0c590"
+          },
+          {
+            "key": "skuName",
+            "value": "K80"
+          },
+          {
+            "key": "meterName",
+            "value": "Memory Duration"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0BWWM"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH31976D030"
+          },
+          {
+            "key": "armSkuName",
+            "value": ""
+          },
+          {
+            "key": "productName",
+            "value": "Container Instances with GPU"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Containers"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2018-12-04T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Container Instances",
+        "region": "eastus",
+        "productFamily": "Containers",
+        "prices": [
+          {
+            "USD": "0.000118",
+            "unit": "100 GB Seconds"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "89a2a8f5-a5ee-4f5e-b8d4-9d088ee0c590"
+          },
+          {
+            "key": "skuName",
+            "value": "V100"
+          },
+          {
+            "key": "meterName",
+            "value": "Memory Duration"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0BWWM"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH31976D030"
+          },
+          {
+            "key": "armSkuName",
+            "value": ""
+          },
+          {
+            "key": "productName",
+            "value": "Container Instances with GPU"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Containers"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2018-12-04T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Container Instances",
+        "region": "eastus",
+        "productFamily": "Containers",
+        "prices": [
+          {
+            "USD": "0.000118",
+            "unit": "100 GB Seconds"
+          }
+        ]
+      }
+    ]
+  }
+}

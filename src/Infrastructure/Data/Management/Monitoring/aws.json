@@ -1,0 +1,4058 @@
+{
+  "data": {
+    "products": [
+      {
+        "attributes": [
+          {
+            "key": "group",
+            "value": "CW-InternetMonitor"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "putMonitoredResource"
+          },
+          {
+            "key": "usagetype",
+            "value": "USE1-CW:InternetMonitor-MonitoredResource"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonCloudWatch"
+          },
+          {
+            "key": "servicename",
+            "value": "AmazonCloudWatch"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "groupDescription",
+            "value": "CloudWatch Internet Monitor"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonCloudWatch",
+        "region": "us-east-1",
+        "productFamily": "",
+        "prices": [
+          {
+            "USD": "0.01",
+            "unit": "Internet Monitor - Monitored Resource"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "group",
+            "value": "CW-Evidently"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "evidently"
+          },
+          {
+            "key": "usagetype",
+            "value": "USE1-CW:Evidently-event1"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonCloudWatch"
+          },
+          {
+            "key": "servicename",
+            "value": "AmazonCloudWatch"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "groupDescription",
+            "value": "CloudWatch Evidently"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonCloudWatch",
+        "region": "us-east-1",
+        "productFamily": "",
+        "prices": [
+          {
+            "USD": "0.000005",
+            "unit": "Events"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "group",
+            "value": "CW-Evidently"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "evidently"
+          },
+          {
+            "key": "usagetype",
+            "value": "USE1-CW:Evidently-eau1"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonCloudWatch"
+          },
+          {
+            "key": "servicename",
+            "value": "AmazonCloudWatch"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "groupDescription",
+            "value": "CloudWatch Evidently EAUs"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonCloudWatch",
+        "region": "us-east-1",
+        "productFamily": "",
+        "prices": [
+          {
+            "USD": "0.0000075",
+            "unit": "Units"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "group",
+            "value": "CW-CityNetwork"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "putCityNetwork"
+          },
+          {
+            "key": "usagetype",
+            "value": "USE1-CW:InternetMonitor-CityNetwork"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonCloudWatch"
+          },
+          {
+            "key": "servicename",
+            "value": "AmazonCloudWatch"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "groupDescription",
+            "value": "CloudWatch City Network"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonCloudWatch",
+        "region": "us-east-1",
+        "productFamily": "",
+        "prices": [
+          {
+            "USD": "0.000074",
+            "unit": "Internet Monitor - City-Network"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "group",
+            "value": "CW-Evidently"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "evidently"
+          },
+          {
+            "key": "usagetype",
+            "value": "USE1-CW:Evidently-eau"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonCloudWatch"
+          },
+          {
+            "key": "servicename",
+            "value": "AmazonCloudWatch"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "groupDescription",
+            "value": "CloudWatch Evidently EAU"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonCloudWatch",
+        "region": "us-east-1",
+        "productFamily": "",
+        "prices": [
+          {
+            "USD": "0.0000075",
+            "unit": "Units"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "group",
+            "value": "DataProtection Logs"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "PutLogEvents"
+          },
+          {
+            "key": "usagetype",
+            "value": "USE1-DataProtection-Bytes"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonCloudWatch"
+          },
+          {
+            "key": "servicename",
+            "value": "AmazonCloudWatch"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "groupDescription",
+            "value": "CloudWatch Logs Data Protection"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonCloudWatch",
+        "region": "us-east-1",
+        "productFamily": "",
+        "prices": [
+          {
+            "USD": "0.12",
+            "unit": "GB"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "group",
+            "value": "CW-Evidently"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "evidently"
+          },
+          {
+            "key": "usagetype",
+            "value": "USE1-CW:Evidently-free-event"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonCloudWatch"
+          },
+          {
+            "key": "servicename",
+            "value": "AmazonCloudWatch"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "groupDescription",
+            "value": "CloudWatch Evidently free event"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonCloudWatch",
+        "region": "us-east-1",
+        "productFamily": "",
+        "prices": [
+          {
+            "USD": "0",
+            "unit": "Events"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "group",
+            "value": "Event-DynamoDB"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "DynamoDBEvents"
+          },
+          {
+            "key": "usagetype",
+            "value": "USE1-CW:ContributorEventsManaged"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonCloudWatch"
+          },
+          {
+            "key": "servicename",
+            "value": "AmazonCloudWatch"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "groupDescription",
+            "value": "CloudWatch Contributor Insights Matched Events"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonCloudWatch",
+        "region": "us-east-1",
+        "productFamily": "",
+        "prices": [
+          {
+            "USD": "3e-8",
+            "unit": "Events"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "group",
+            "value": "CW-RUM"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "PutRumOtelEvents"
+          },
+          {
+            "key": "usagetype",
+            "value": "USE1-CW:RUM-OTEL-bytes"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonCloudWatch"
+          },
+          {
+            "key": "servicename",
+            "value": "AmazonCloudWatch"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "groupDescription",
+            "value": "CloudWatch RUM OpenTelemetry Bytes"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonCloudWatch",
+        "region": "us-east-1",
+        "productFamily": "",
+        "prices": [
+          {
+            "USD": "0.35",
+            "unit": "GB"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "group",
+            "value": "CW-RUM"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "PutRumEvents"
+          },
+          {
+            "key": "usagetype",
+            "value": "USE1-CW:RUM-free-events"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonCloudWatch"
+          },
+          {
+            "key": "servicename",
+            "value": "AmazonCloudWatch"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "groupDescription",
+            "value": "CloudWatch RUM free events"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonCloudWatch",
+        "region": "us-east-1",
+        "productFamily": "",
+        "prices": [
+          {
+            "USD": "0",
+            "unit": "Events"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "group",
+            "value": "Event-CloudWatchLog"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": ""
+          },
+          {
+            "key": "usagetype",
+            "value": "USE1-CW:ContributorInsightEvents"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonCloudWatch"
+          },
+          {
+            "key": "servicename",
+            "value": "AmazonCloudWatch"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "groupDescription",
+            "value": "CloudWatch Contributor Insights Matched Events"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonCloudWatch",
+        "region": "us-east-1",
+        "productFamily": "",
+        "prices": [
+          {
+            "USD": "2e-8",
+            "unit": "Events"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "group",
+            "value": "Rule-PrivateLink"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "PrivateLink"
+          },
+          {
+            "key": "usagetype",
+            "value": "USE1-CW:ContributorRulesManaged"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonCloudWatch"
+          },
+          {
+            "key": "servicename",
+            "value": "AmazonCloudWatch"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "groupDescription",
+            "value": "CloudWatch Contributor Insights Rule"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonCloudWatch",
+        "region": "us-east-1",
+        "productFamily": "",
+        "prices": [
+          {
+            "USD": "9",
+            "unit": "Rule-Hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "group",
+            "value": "CW-RUM"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "PutRumEvents"
+          },
+          {
+            "key": "usagetype",
+            "value": "USE1-CW:RUM-events"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonCloudWatch"
+          },
+          {
+            "key": "servicename",
+            "value": "AmazonCloudWatch"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "groupDescription",
+            "value": "CloudWatch RUM events"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonCloudWatch",
+        "region": "us-east-1",
+        "productFamily": "",
+        "prices": [
+          {
+            "USD": "0.00001",
+            "unit": "Events"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "group",
+            "value": "CW-Evidently"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "evidently"
+          },
+          {
+            "key": "usagetype",
+            "value": "USE1-CW:Evidently-free-eau"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonCloudWatch"
+          },
+          {
+            "key": "servicename",
+            "value": "AmazonCloudWatch"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "groupDescription",
+            "value": "CloudWatch Evidently free EAU"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonCloudWatch",
+        "region": "us-east-1",
+        "productFamily": "",
+        "prices": [
+          {
+            "USD": "0",
+            "unit": "Units"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "group",
+            "value": "CW-RUM"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "PutRumEvents"
+          },
+          {
+            "key": "usagetype",
+            "value": "USE1-CW:RUM-event"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonCloudWatch"
+          },
+          {
+            "key": "servicename",
+            "value": "AmazonCloudWatch"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "groupDescription",
+            "value": "CloudWatch RUM"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonCloudWatch",
+        "region": "us-east-1",
+        "productFamily": "",
+        "prices": [
+          {
+            "USD": "0.00001",
+            "unit": "Events"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "group",
+            "value": "CW-Evidently"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "evidently"
+          },
+          {
+            "key": "usagetype",
+            "value": "USE1-CW:Evidently-event"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonCloudWatch"
+          },
+          {
+            "key": "servicename",
+            "value": "AmazonCloudWatch"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "groupDescription",
+            "value": "CloudWatch Evidently events and eaus"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonCloudWatch",
+        "region": "us-east-1",
+        "productFamily": "",
+        "prices": [
+          {
+            "USD": "0.000005",
+            "unit": "Events"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "group",
+            "value": "Alarm"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "alarmType",
+            "value": "Composite"
+          },
+          {
+            "key": "operation",
+            "value": ""
+          },
+          {
+            "key": "usagetype",
+            "value": "CW:CompositeAlarmMonitorUsage"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonCloudWatch"
+          },
+          {
+            "key": "servicename",
+            "value": "AmazonCloudWatch"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "groupDescription",
+            "value": "CloudWatch Alarms"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonCloudWatch",
+        "region": "us-east-1",
+        "productFamily": "Alarm",
+        "prices": [
+          {
+            "USD": "0.5",
+            "unit": "Alarms"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "group",
+            "value": "Alarm"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "alarmType",
+            "value": "High Resolution"
+          },
+          {
+            "key": "operation",
+            "value": ""
+          },
+          {
+            "key": "usagetype",
+            "value": "CW:HighResAlarmMonitorUsage"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonCloudWatch"
+          },
+          {
+            "key": "servicename",
+            "value": "AmazonCloudWatch"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "groupDescription",
+            "value": "CloudWatch Alarms"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonCloudWatch",
+        "region": "us-east-1",
+        "productFamily": "Alarm",
+        "prices": [
+          {
+            "USD": "0.3",
+            "unit": "Alarms"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "group",
+            "value": "Alarm"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "alarmType",
+            "value": "Standard"
+          },
+          {
+            "key": "operation",
+            "value": ""
+          },
+          {
+            "key": "usagetype",
+            "value": "CW:AlarmMonitorUsage"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonCloudWatch"
+          },
+          {
+            "key": "servicename",
+            "value": "AmazonCloudWatch"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "groupDescription",
+            "value": "CloudWatch Alarms"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonCloudWatch",
+        "region": "us-east-1",
+        "productFamily": "Alarm",
+        "prices": [
+          {
+            "USD": "0.1",
+            "unit": "Alarms"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "group",
+            "value": "Metrics Insights Alarms"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "alarmType",
+            "value": "Standard"
+          },
+          {
+            "key": "operation",
+            "value": ""
+          },
+          {
+            "key": "usagetype",
+            "value": "CW:MetricInsightAlarmUsage"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonCloudWatch"
+          },
+          {
+            "key": "servicename",
+            "value": "AmazonCloudWatch"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "groupDescription",
+            "value": "CloudWatch Alarms evaluating Metrics Insights queries"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonCloudWatch",
+        "region": "us-east-1",
+        "productFamily": "Alarm",
+        "prices": [
+          {
+            "USD": "0.1",
+            "unit": "Alarms"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "group",
+            "value": "CW-Requests"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "GetMetricWidgetImage"
+          },
+          {
+            "key": "usagetype",
+            "value": "CW:GMWI-Metrics"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonCloudWatch"
+          },
+          {
+            "key": "servicename",
+            "value": "AmazonCloudWatch"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "groupDescription",
+            "value": "CloudWatch Image API Requests"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonCloudWatch",
+        "region": "us-east-1",
+        "productFamily": "API Request",
+        "prices": [
+          {
+            "USD": "0.00002",
+            "unit": "Metrics"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "group",
+            "value": "CW-Requests"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "GetMetricData"
+          },
+          {
+            "key": "usagetype",
+            "value": "CW:GMD-Metrics"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonCloudWatch"
+          },
+          {
+            "key": "servicename",
+            "value": "AmazonCloudWatch"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "groupDescription",
+            "value": "CloudWatch Bulk API Requests"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonCloudWatch",
+        "region": "us-east-1",
+        "productFamily": "API Request",
+        "prices": [
+          {
+            "USD": "0.00001",
+            "unit": "Metrics"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "group",
+            "value": "CW-Requests"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "GetInsightRuleReport"
+          },
+          {
+            "key": "usagetype",
+            "value": "CW:GIRR-Metrics"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonCloudWatch"
+          },
+          {
+            "key": "servicename",
+            "value": "AmazonCloudWatch"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "groupDescription",
+            "value": "CloudWatch Contributor Insights API Requests"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonCloudWatch",
+        "region": "us-east-1",
+        "productFamily": "API Request",
+        "prices": [
+          {
+            "USD": "0.00001",
+            "unit": "Metrics"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "group",
+            "value": "CW-Requests"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": ""
+          },
+          {
+            "key": "usagetype",
+            "value": "CW:Requests"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonCloudWatch"
+          },
+          {
+            "key": "servicename",
+            "value": "AmazonCloudWatch"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "groupDescription",
+            "value": "CloudWatch API Requests"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonCloudWatch",
+        "region": "us-east-1",
+        "productFamily": "API Request",
+        "prices": [
+          {
+            "USD": "0.00001",
+            "unit": "Requests"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "group",
+            "value": "CW-APM"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": ""
+          },
+          {
+            "key": "usagetype",
+            "value": "USE1-Application-Signals"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonCloudWatch"
+          },
+          {
+            "key": "servicename",
+            "value": "AmazonCloudWatch"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "groupDescription",
+            "value": "CloudWatch Application Signals"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonCloudWatch",
+        "region": "us-east-1",
+        "productFamily": "Application Signals",
+        "prices": [
+          {
+            "USD": "0.0000015",
+            "unit": "Signals"
+          },
+          {
+            "USD": "7.5e-7",
+            "unit": "Signals"
+          },
+          {
+            "USD": "3e-7",
+            "unit": "Signals"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "PutRumOtelEvents"
+          },
+          {
+            "key": "usagetype",
+            "value": "USE1-RUM-OTEL-bytes"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonCloudWatch"
+          },
+          {
+            "key": "servicename",
+            "value": "AmazonCloudWatch"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonCloudWatch",
+        "region": "us-east-1",
+        "productFamily": "Application Signals",
+        "prices": [
+          {
+            "USD": "0.35",
+            "unit": "GB"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "group",
+            "value": "CW-Application-Signals-bundle"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": ""
+          },
+          {
+            "key": "usagetype",
+            "value": "USE1-Application-Signals-Bytes"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonCloudWatch"
+          },
+          {
+            "key": "servicename",
+            "value": "AmazonCloudWatch"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "groupDescription",
+            "value": "CloudWatch Application Signals Bytes"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonCloudWatch",
+        "region": "us-east-1",
+        "productFamily": "Application Signals Bytes",
+        "prices": [
+          {
+            "USD": "0.35",
+            "unit": "GB"
+          },
+          {
+            "USD": "0.2",
+            "unit": "GB"
+          },
+          {
+            "USD": "0.15",
+            "unit": "GB"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "group",
+            "value": "CW-Canaries"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": ""
+          },
+          {
+            "key": "usagetype",
+            "value": "USE1-CW:Canary-runs"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonCloudWatch"
+          },
+          {
+            "key": "servicename",
+            "value": "AmazonCloudWatch"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "groupDescription",
+            "value": "CloudWatch Synthetics Canaries"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonCloudWatch",
+        "region": "us-east-1",
+        "productFamily": "Canaries",
+        "prices": [
+          {
+            "USD": "0.0012",
+            "unit": "Runs"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "group",
+            "value": "CW-DatabaseInsights"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "RDS-PostgreSQL:Provisioned"
+          },
+          {
+            "key": "usagetype",
+            "value": "USE1-CW:DatabaseInsights-vCPU-Hours"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonCloudWatch"
+          },
+          {
+            "key": "servicename",
+            "value": "AmazonCloudWatch"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "groupDescription",
+            "value": "Granular database and SQL query metrics in a curated observability experience for Amazon Aurora and RDS databases"
+          },
+          {
+            "key": "databaseEngineType",
+            "value": "RDS PostgreSQL"
+          },
+          {
+            "key": "instanceConfigurationType",
+            "value": "Provisioned"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonCloudWatch",
+        "region": "us-east-1",
+        "productFamily": "CloudWatch Database Insights",
+        "prices": [
+          {
+            "USD": "0.0125",
+            "unit": "vCPU-Hours"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "group",
+            "value": "CW-DatabaseInsights"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "RDS-SQLServer:Provisioned"
+          },
+          {
+            "key": "usagetype",
+            "value": "USE1-CW:DatabaseInsights-vCPU-Hours"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonCloudWatch"
+          },
+          {
+            "key": "servicename",
+            "value": "AmazonCloudWatch"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "groupDescription",
+            "value": "Granular database and SQL query metrics in a curated observability experience for Amazon Aurora and RDS databases"
+          },
+          {
+            "key": "databaseEngineType",
+            "value": "RDS SQL Server"
+          },
+          {
+            "key": "instanceConfigurationType",
+            "value": "Provisioned"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonCloudWatch",
+        "region": "us-east-1",
+        "productFamily": "CloudWatch Database Insights",
+        "prices": [
+          {
+            "USD": "0.0125",
+            "unit": "vCPU-Hours"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "group",
+            "value": "CW-DatabaseInsights"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "Aurora-MySQL:Serverless"
+          },
+          {
+            "key": "usagetype",
+            "value": "USE1-CW:DatabaseInsights-ACU-Hours"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonCloudWatch"
+          },
+          {
+            "key": "servicename",
+            "value": "AmazonCloudWatch"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "groupDescription",
+            "value": "Granular database and SQL query metrics in a curated observability experience for Amazon Aurora and RDS databases"
+          },
+          {
+            "key": "databaseEngineType",
+            "value": "Aurora-MySQL"
+          },
+          {
+            "key": "instanceConfigurationType",
+            "value": "Serverless"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonCloudWatch",
+        "region": "us-east-1",
+        "productFamily": "CloudWatch Database Insights",
+        "prices": [
+          {
+            "USD": "0.003125",
+            "unit": "ACU-Hours"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "group",
+            "value": "CW-DatabaseInsights"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "RDS-Oracle:Provisioned"
+          },
+          {
+            "key": "usagetype",
+            "value": "USE1-CW:DatabaseInsights-vCPU-Hours"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonCloudWatch"
+          },
+          {
+            "key": "servicename",
+            "value": "AmazonCloudWatch"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "groupDescription",
+            "value": "Granular database and SQL query metrics in a curated observability experience for Amazon Aurora and RDS databases"
+          },
+          {
+            "key": "databaseEngineType",
+            "value": "RDS Oracle"
+          },
+          {
+            "key": "instanceConfigurationType",
+            "value": "Provisioned"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonCloudWatch",
+        "region": "us-east-1",
+        "productFamily": "CloudWatch Database Insights",
+        "prices": [
+          {
+            "USD": "0.0125",
+            "unit": "vCPU-Hours"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "group",
+            "value": "CW-DatabaseInsights"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "Aurora-MySQL:Provisioned"
+          },
+          {
+            "key": "usagetype",
+            "value": "USE1-CW:DatabaseInsights-vCPU-Hours"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonCloudWatch"
+          },
+          {
+            "key": "servicename",
+            "value": "AmazonCloudWatch"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "groupDescription",
+            "value": "Granular database and SQL query metrics in a curated observability experience for Amazon Aurora and RDS databases"
+          },
+          {
+            "key": "databaseEngineType",
+            "value": "Aurora-MySQL"
+          },
+          {
+            "key": "instanceConfigurationType",
+            "value": "Provisioned"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonCloudWatch",
+        "region": "us-east-1",
+        "productFamily": "CloudWatch Database Insights",
+        "prices": [
+          {
+            "USD": "0.0125",
+            "unit": "vCPU-Hours"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "group",
+            "value": "CW-DatabaseInsights"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "RDS-MariaDB:Provisioned"
+          },
+          {
+            "key": "usagetype",
+            "value": "USE1-CW:DatabaseInsights-vCPU-Hours"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonCloudWatch"
+          },
+          {
+            "key": "servicename",
+            "value": "AmazonCloudWatch"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "groupDescription",
+            "value": "Granular database and SQL query metrics in a curated observability experience for Amazon Aurora and RDS databases"
+          },
+          {
+            "key": "databaseEngineType",
+            "value": "RDS MariaDB"
+          },
+          {
+            "key": "instanceConfigurationType",
+            "value": "Provisioned"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonCloudWatch",
+        "region": "us-east-1",
+        "productFamily": "CloudWatch Database Insights",
+        "prices": [
+          {
+            "USD": "0.0125",
+            "unit": "vCPU-Hours"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "group",
+            "value": "CW-DatabaseInsights"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "Aurora-PostgreSQL:Serverless"
+          },
+          {
+            "key": "usagetype",
+            "value": "USE1-CW:DatabaseInsights-ACU-Hours"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonCloudWatch"
+          },
+          {
+            "key": "servicename",
+            "value": "AmazonCloudWatch"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "groupDescription",
+            "value": "Granular database and SQL query metrics in a curated observability experience for Amazon Aurora and RDS databases"
+          },
+          {
+            "key": "databaseEngineType",
+            "value": "Aurora-PostgreSQL"
+          },
+          {
+            "key": "instanceConfigurationType",
+            "value": "Serverless"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonCloudWatch",
+        "region": "us-east-1",
+        "productFamily": "CloudWatch Database Insights",
+        "prices": [
+          {
+            "USD": "0.003125",
+            "unit": "ACU-Hours"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "group",
+            "value": "CW-DatabaseInsights"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "RDS-MySQL:Provisioned"
+          },
+          {
+            "key": "usagetype",
+            "value": "USE1-CW:DatabaseInsights-vCPU-Hours"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonCloudWatch"
+          },
+          {
+            "key": "servicename",
+            "value": "AmazonCloudWatch"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "groupDescription",
+            "value": "Granular database and SQL query metrics in a curated observability experience for Amazon Aurora and RDS databases"
+          },
+          {
+            "key": "databaseEngineType",
+            "value": "RDS MySQL"
+          },
+          {
+            "key": "instanceConfigurationType",
+            "value": "Provisioned"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonCloudWatch",
+        "region": "us-east-1",
+        "productFamily": "CloudWatch Database Insights",
+        "prices": [
+          {
+            "USD": "0.0125",
+            "unit": "vCPU-Hours"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "group",
+            "value": "CW-DatabaseInsights"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "Aurora-PostgreSQL:Limitless"
+          },
+          {
+            "key": "usagetype",
+            "value": "USE1-CW:DatabaseInsights-ACU-Hours"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonCloudWatch"
+          },
+          {
+            "key": "servicename",
+            "value": "AmazonCloudWatch"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "groupDescription",
+            "value": "Granular database and SQL query metrics in a curated observability experience for Amazon Aurora and RDS databases"
+          },
+          {
+            "key": "databaseEngineType",
+            "value": "Aurora-PostgreSQL"
+          },
+          {
+            "key": "instanceConfigurationType",
+            "value": "Limitless"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonCloudWatch",
+        "region": "us-east-1",
+        "productFamily": "CloudWatch Database Insights",
+        "prices": [
+          {
+            "USD": "0.003125",
+            "unit": "ACU-Hours"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "group",
+            "value": "CW-DatabaseInsights"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "Aurora-PostgreSQL:Provisioned"
+          },
+          {
+            "key": "usagetype",
+            "value": "USE1-CW:DatabaseInsights-vCPU-Hours"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonCloudWatch"
+          },
+          {
+            "key": "servicename",
+            "value": "AmazonCloudWatch"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "groupDescription",
+            "value": "Granular database and SQL query metrics in a curated observability experience for Amazon Aurora and RDS databases"
+          },
+          {
+            "key": "databaseEngineType",
+            "value": "Aurora-PostgreSQL"
+          },
+          {
+            "key": "instanceConfigurationType",
+            "value": "Provisioned"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonCloudWatch",
+        "region": "us-east-1",
+        "productFamily": "CloudWatch Database Insights",
+        "prices": [
+          {
+            "USD": "0.0125",
+            "unit": "vCPU-Hours"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "group",
+            "value": "CW-NFM-FullyPaid"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "PutResourceHours"
+          },
+          {
+            "key": "usagetype",
+            "value": "USE1-CW:NFM-FullyPaidResourceHours"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonCloudWatch"
+          },
+          {
+            "key": "servicename",
+            "value": "AmazonCloudWatch"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "groupDescription",
+            "value": "CloudWatch Network Flow Monitor - Fully Paid Tier"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonCloudWatch",
+        "region": "us-east-1",
+        "productFamily": "CloudWatch Network Flow Monitor",
+        "prices": [
+          {
+            "USD": "0.0069",
+            "unit": "hours"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "group",
+            "value": "CW-NFM-Paid"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "PutResourceHours"
+          },
+          {
+            "key": "usagetype",
+            "value": "USE1-CW:NFM-ResourceHours"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonCloudWatch"
+          },
+          {
+            "key": "servicename",
+            "value": "AmazonCloudWatch"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "groupDescription",
+            "value": "CloudWatch Network Flow Monitor - Paid Tier"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonCloudWatch",
+        "region": "us-east-1",
+        "productFamily": "CloudWatch Network Flow Monitor",
+        "prices": [
+          {
+            "USD": "0.0069",
+            "unit": "hours"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "group",
+            "value": "CW-NM-Hybrid-Paid"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "CloudWatch-NM-Paid"
+          },
+          {
+            "key": "usagetype",
+            "value": "USE1-CWNMHybrid-Paid"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonCloudWatch"
+          },
+          {
+            "key": "servicename",
+            "value": "AmazonCloudWatch"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "groupDescription",
+            "value": "CloudWatch-Network Management - Hybrid - Paid"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonCloudWatch",
+        "region": "us-east-1",
+        "productFamily": "CloudWatch Network Monitor",
+        "prices": [
+          {
+            "USD": "0.1",
+            "unit": "hours"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "group",
+            "value": "Rule-CloudWatchLog"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "CloudWatchLogs"
+          },
+          {
+            "key": "usagetype",
+            "value": "USE1-CW:ContributorInsightRules"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonCloudWatch"
+          },
+          {
+            "key": "servicename",
+            "value": "AmazonCloudWatch"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "groupDescription",
+            "value": "CloudWatch Contributor Insights Rule"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonCloudWatch",
+        "region": "us-east-1",
+        "productFamily": "Contributor Insights",
+        "prices": [
+          {
+            "USD": "0.5",
+            "unit": "rule"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "group",
+            "value": "Rule-DynamoDB"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "DynamoDB"
+          },
+          {
+            "key": "usagetype",
+            "value": "USE1-CW:ContributorRulesManaged"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonCloudWatch"
+          },
+          {
+            "key": "servicename",
+            "value": "AmazonCloudWatch"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "groupDescription",
+            "value": "CloudWatch Contributor Insights Rule"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonCloudWatch",
+        "region": "us-east-1",
+        "productFamily": "Contributor Insights",
+        "prices": [
+          {
+            "USD": "0.5",
+            "unit": "Rule-Hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "group",
+            "value": "Ingested Logs"
+          },
+          {
+            "key": "version",
+            "value": "Current"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "PutLogEvents"
+          },
+          {
+            "key": "usagetype",
+            "value": "USE1-VendedLog-Bytes-CFLogs"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonCloudWatch"
+          },
+          {
+            "key": "servicename",
+            "value": "AmazonCloudWatch"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "logsDestination",
+            "value": "Amazon CloudWatch Logs"
+          },
+          {
+            "key": "groupDescription",
+            "value": "Logs generated by Amazon CloudFront and delivered to CloudWatch-Standard as Vended Logs"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonCloudWatch",
+        "region": "us-east-1",
+        "productFamily": "Data Payload",
+        "prices": [
+          {
+            "USD": "0.5",
+            "unit": "GB"
+          },
+          {
+            "USD": "0.25",
+            "unit": "GB"
+          },
+          {
+            "USD": "0.1",
+            "unit": "GB"
+          },
+          {
+            "USD": "0.05",
+            "unit": "GB"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "group",
+            "value": "IA Vended ingested logs"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "PutLogEvents"
+          },
+          {
+            "key": "usagetype",
+            "value": "USE1-VendedLogIA-Bytes"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonCloudWatch"
+          },
+          {
+            "key": "servicename",
+            "value": "AmazonCloudWatch"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "logsDestination",
+            "value": "Amazon CloudWatch Logs"
+          },
+          {
+            "key": "groupDescription",
+            "value": "Existing system, application, and custom log files"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonCloudWatch",
+        "region": "us-east-1",
+        "productFamily": "Data Payload",
+        "prices": [
+          {
+            "USD": "0.25",
+            "unit": "GB"
+          },
+          {
+            "USD": "0.15",
+            "unit": "GB"
+          },
+          {
+            "USD": "0.075",
+            "unit": "GB"
+          },
+          {
+            "USD": "0.05",
+            "unit": "GB"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "group",
+            "value": "Ingested Logs"
+          },
+          {
+            "key": "version",
+            "value": "Legacy"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "PutLogEvents"
+          },
+          {
+            "key": "usagetype",
+            "value": "DataProcessing-Bytes"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonCloudWatch"
+          },
+          {
+            "key": "servicename",
+            "value": "AmazonCloudWatch"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "logsDestination",
+            "value": "Amazon CloudWatch Logs"
+          },
+          {
+            "key": "groupDescription",
+            "value": "Existing system, application, and custom log files"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonCloudWatch",
+        "region": "us-east-1",
+        "productFamily": "Data Payload",
+        "prices": [
+          {
+            "USD": "0.5",
+            "unit": "GB"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "group",
+            "value": "Delivered Logs"
+          },
+          {
+            "key": "version",
+            "value": "Current"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": ""
+          },
+          {
+            "key": "usagetype",
+            "value": "USE1-S3-Egress-Bytes-MTLogs"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonCloudWatch"
+          },
+          {
+            "key": "servicename",
+            "value": "AmazonCloudWatch"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "logsDestination",
+            "value": "Amazon S3"
+          },
+          {
+            "key": "groupDescription",
+            "value": "Logs generated by Elemental MediaTailor and delivered to Amazon S3"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonCloudWatch",
+        "region": "us-east-1",
+        "productFamily": "Data Payload",
+        "prices": [
+          {
+            "USD": "0.25",
+            "unit": "GB"
+          },
+          {
+            "USD": "0.15",
+            "unit": "GB"
+          },
+          {
+            "USD": "0.075",
+            "unit": "GB"
+          },
+          {
+            "USD": "0.05",
+            "unit": "GB"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "group",
+            "value": "IA Vended ingested logs"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "PutLogEvents"
+          },
+          {
+            "key": "usagetype",
+            "value": "USE1-VendedLogIA-Bytes-CFLogs"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonCloudWatch"
+          },
+          {
+            "key": "servicename",
+            "value": "AmazonCloudWatch"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "logsDestination",
+            "value": "Amazon CloudWatch Logs"
+          },
+          {
+            "key": "groupDescription",
+            "value": "Log delivered from Amazon CloudFront to CloudWatch Logs - IA"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonCloudWatch",
+        "region": "us-east-1",
+        "productFamily": "Data Payload",
+        "prices": [
+          {
+            "USD": "0.25",
+            "unit": "GB"
+          },
+          {
+            "USD": "0.15",
+            "unit": "GB"
+          },
+          {
+            "USD": "0.075",
+            "unit": "GB"
+          },
+          {
+            "USD": "0.05",
+            "unit": "GB"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "group",
+            "value": "Delivered Logs"
+          },
+          {
+            "key": "version",
+            "value": "Current"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": ""
+          },
+          {
+            "key": "usagetype",
+            "value": "USE1-FH-Egress-Bytes-WAFLogs"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonCloudWatch"
+          },
+          {
+            "key": "servicename",
+            "value": "AmazonCloudWatch"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "logsDestination",
+            "value": "Amazon Kinesis Data Firehose"
+          },
+          {
+            "key": "groupDescription",
+            "value": "Logs generated by AWS WAF and delivered to Amazon Data Firehose"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonCloudWatch",
+        "region": "us-east-1",
+        "productFamily": "Data Payload",
+        "prices": [
+          {
+            "USD": "0.25",
+            "unit": "GB"
+          },
+          {
+            "USD": "0.15",
+            "unit": "GB"
+          },
+          {
+            "USD": "0.075",
+            "unit": "GB"
+          },
+          {
+            "USD": "0.05",
+            "unit": "GB"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "group",
+            "value": "IA Vended ingested logs"
+          },
+          {
+            "key": "version",
+            "value": "Current"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "PutLogEvents"
+          },
+          {
+            "key": "usagetype",
+            "value": "USE1-VendedLogIA-Bytes-MTLogs"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonCloudWatch"
+          },
+          {
+            "key": "servicename",
+            "value": "AmazonCloudWatch"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "logsDestination",
+            "value": "Amazon CloudWatch Logs"
+          },
+          {
+            "key": "groupDescription",
+            "value": "Log delivered from MediaTailor to CloudWatch Logs - IA"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonCloudWatch",
+        "region": "us-east-1",
+        "productFamily": "Data Payload",
+        "prices": [
+          {
+            "USD": "0.25",
+            "unit": "GB"
+          },
+          {
+            "USD": "0.15",
+            "unit": "GB"
+          },
+          {
+            "USD": "0.075",
+            "unit": "GB"
+          },
+          {
+            "USD": "0.05",
+            "unit": "GB"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "group",
+            "value": "Ingested Logs"
+          },
+          {
+            "key": "version",
+            "value": "Current"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "PutLogEvents"
+          },
+          {
+            "key": "usagetype",
+            "value": "USE1-VendedLog-Bytes-WAFLogs"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonCloudWatch"
+          },
+          {
+            "key": "servicename",
+            "value": "AmazonCloudWatch"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "logsDestination",
+            "value": "Amazon CloudWatch Logs"
+          },
+          {
+            "key": "groupDescription",
+            "value": "Logs generated by AWS WAF and delivered to CloudWatch as Vended Logs Standard"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonCloudWatch",
+        "region": "us-east-1",
+        "productFamily": "Data Payload",
+        "prices": [
+          {
+            "USD": "0.5",
+            "unit": "GB"
+          },
+          {
+            "USD": "0.25",
+            "unit": "GB"
+          },
+          {
+            "USD": "0.1",
+            "unit": "GB"
+          },
+          {
+            "USD": "0.05",
+            "unit": "GB"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "group",
+            "value": "IA Vended ingested logs"
+          },
+          {
+            "key": "version",
+            "value": "Current"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "PutLogEvents"
+          },
+          {
+            "key": "usagetype",
+            "value": "USE1-VendedLogIA-Bytes-WAFLogs"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonCloudWatch"
+          },
+          {
+            "key": "servicename",
+            "value": "AmazonCloudWatch"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "logsDestination",
+            "value": "Amazon CloudWatch Logs"
+          },
+          {
+            "key": "groupDescription",
+            "value": "Log delivered from AWS WAF to CloudWatch Logs - IA"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonCloudWatch",
+        "region": "us-east-1",
+        "productFamily": "Data Payload",
+        "prices": [
+          {
+            "USD": "0.25",
+            "unit": "GB"
+          },
+          {
+            "USD": "0.15",
+            "unit": "GB"
+          },
+          {
+            "USD": "0.075",
+            "unit": "GB"
+          },
+          {
+            "USD": "0.05",
+            "unit": "GB"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "group",
+            "value": "Delivered Logs"
+          },
+          {
+            "key": "version",
+            "value": "Current"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": ""
+          },
+          {
+            "key": "usagetype",
+            "value": "USE1-FH-Egress-Bytes-CFLogs"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonCloudWatch"
+          },
+          {
+            "key": "servicename",
+            "value": "AmazonCloudWatch"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "logsDestination",
+            "value": "Amazon Kinesis Data Firehose"
+          },
+          {
+            "key": "groupDescription",
+            "value": "Logs generated by Amazon CloudFront and delivered to Firehose as Vended Logs"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonCloudWatch",
+        "region": "us-east-1",
+        "productFamily": "Data Payload",
+        "prices": [
+          {
+            "USD": "0.25",
+            "unit": "GB"
+          },
+          {
+            "USD": "0.15",
+            "unit": "GB"
+          },
+          {
+            "USD": "0.075",
+            "unit": "GB"
+          },
+          {
+            "USD": "0.05",
+            "unit": "GB"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "group",
+            "value": "Delivered Logs"
+          },
+          {
+            "key": "version",
+            "value": "Current"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": ""
+          },
+          {
+            "key": "usagetype",
+            "value": "USE1-S3-Egress-Bytes-WAFLogs"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonCloudWatch"
+          },
+          {
+            "key": "servicename",
+            "value": "AmazonCloudWatch"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "logsDestination",
+            "value": "Amazon S3"
+          },
+          {
+            "key": "groupDescription",
+            "value": "Logs generated by AWS WAF and delivered to Amazon S3"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonCloudWatch",
+        "region": "us-east-1",
+        "productFamily": "Data Payload",
+        "prices": [
+          {
+            "USD": "0.25",
+            "unit": "GB"
+          },
+          {
+            "USD": "0.15",
+            "unit": "GB"
+          },
+          {
+            "USD": "0.075",
+            "unit": "GB"
+          },
+          {
+            "USD": "0.05",
+            "unit": "GB"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "type",
+            "value": "Live Tail"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "StartLiveTail"
+          },
+          {
+            "key": "usagetype",
+            "value": "USE1-Logs-LiveTail"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonCloudWatch"
+          },
+          {
+            "key": "servicename",
+            "value": "AmazonCloudWatch"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "typeDescription",
+            "value": "Live Tail Usage"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonCloudWatch",
+        "region": "us-east-1",
+        "productFamily": "Data Payload",
+        "prices": [
+          {
+            "USD": "0.01",
+            "unit": "minutes"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "group",
+            "value": "Converted Logs"
+          },
+          {
+            "key": "version",
+            "value": "Current"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "ParquetConversion"
+          },
+          {
+            "key": "usagetype",
+            "value": "USE1-S3-Egress-InputBytes"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonCloudWatch"
+          },
+          {
+            "key": "servicename",
+            "value": "AmazonCloudWatch"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "logsDestination",
+            "value": "Amazon S3"
+          },
+          {
+            "key": "groupDescription",
+            "value": "Log delivered from AWS services to log destinations other than CloudWatch"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonCloudWatch",
+        "region": "us-east-1",
+        "productFamily": "Data Payload",
+        "prices": [
+          {
+            "USD": "0.03",
+            "unit": "GB"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "group",
+            "value": "IA Custom ingested Logs"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "PutLogEvents"
+          },
+          {
+            "key": "usagetype",
+            "value": "USE1-DataProcessingIA-Bytes"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonCloudWatch"
+          },
+          {
+            "key": "servicename",
+            "value": "AmazonCloudWatch"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "logsDestination",
+            "value": "Amazon CloudWatch Logs"
+          },
+          {
+            "key": "groupDescription",
+            "value": "Existing system, application, and custom log files"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonCloudWatch",
+        "region": "us-east-1",
+        "productFamily": "Data Payload",
+        "prices": [
+          {
+            "USD": "0.25",
+            "unit": "GB"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "group",
+            "value": "Delivered Logs"
+          },
+          {
+            "key": "version",
+            "value": "Current"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": ""
+          },
+          {
+            "key": "usagetype",
+            "value": "USE1-S3-Egress-Bytes"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonCloudWatch"
+          },
+          {
+            "key": "servicename",
+            "value": "AmazonCloudWatch"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "logsDestination",
+            "value": "Amazon S3"
+          },
+          {
+            "key": "groupDescription",
+            "value": "Log delivered from AWS services to log destinations other than CloudWatch"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonCloudWatch",
+        "region": "us-east-1",
+        "productFamily": "Data Payload",
+        "prices": [
+          {
+            "USD": "0.25",
+            "unit": "GB"
+          },
+          {
+            "USD": "0.15",
+            "unit": "GB"
+          },
+          {
+            "USD": "0.075",
+            "unit": "GB"
+          },
+          {
+            "USD": "0.05",
+            "unit": "GB"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "group",
+            "value": "Ingested Logs"
+          },
+          {
+            "key": "version",
+            "value": "Current"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "PutLogEvents"
+          },
+          {
+            "key": "usagetype",
+            "value": "USE1-VendedLog-Bytes"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonCloudWatch"
+          },
+          {
+            "key": "servicename",
+            "value": "AmazonCloudWatch"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "logsDestination",
+            "value": "Amazon CloudWatch Logs"
+          },
+          {
+            "key": "groupDescription",
+            "value": "Log files generated by AWS services"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonCloudWatch",
+        "region": "us-east-1",
+        "productFamily": "Data Payload",
+        "prices": [
+          {
+            "USD": "0.5",
+            "unit": "GB"
+          },
+          {
+            "USD": "0.25",
+            "unit": "GB"
+          },
+          {
+            "USD": "0.1",
+            "unit": "GB"
+          },
+          {
+            "USD": "0.05",
+            "unit": "GB"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "group",
+            "value": "Delivered Logs"
+          },
+          {
+            "key": "version",
+            "value": "Current"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": ""
+          },
+          {
+            "key": "usagetype",
+            "value": "USE1-FH-Egress-Bytes-MTLogs"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonCloudWatch"
+          },
+          {
+            "key": "servicename",
+            "value": "AmazonCloudWatch"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "logsDestination",
+            "value": "Amazon Kinesis Data Firehose"
+          },
+          {
+            "key": "groupDescription",
+            "value": "Logs generated by Elemental MediaTailor and delivered to Amazon Data Firehose"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonCloudWatch",
+        "region": "us-east-1",
+        "productFamily": "Data Payload",
+        "prices": [
+          {
+            "USD": "0.25",
+            "unit": "GB"
+          },
+          {
+            "USD": "0.15",
+            "unit": "GB"
+          },
+          {
+            "USD": "0.075",
+            "unit": "GB"
+          },
+          {
+            "USD": "0.05",
+            "unit": "GB"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "group",
+            "value": "Delivered Logs"
+          },
+          {
+            "key": "version",
+            "value": "Current"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": ""
+          },
+          {
+            "key": "usagetype",
+            "value": "USE1-FH-Egress-Bytes"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonCloudWatch"
+          },
+          {
+            "key": "servicename",
+            "value": "AmazonCloudWatch"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "logsDestination",
+            "value": "Amazon Kinesis Data Firehose"
+          },
+          {
+            "key": "groupDescription",
+            "value": "Log delivered from AWS services to log destinations other than CloudWatch"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonCloudWatch",
+        "region": "us-east-1",
+        "productFamily": "Data Payload",
+        "prices": [
+          {
+            "USD": "0.25",
+            "unit": "GB"
+          },
+          {
+            "USD": "0.15",
+            "unit": "GB"
+          },
+          {
+            "USD": "0.075",
+            "unit": "GB"
+          },
+          {
+            "USD": "0.05",
+            "unit": "GB"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "group",
+            "value": "Queried Logs"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "StartQuery"
+          },
+          {
+            "key": "usagetype",
+            "value": "USE1-DataScanned-Bytes"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonCloudWatch"
+          },
+          {
+            "key": "servicename",
+            "value": "AmazonCloudWatch"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "groupDescription",
+            "value": "Log data queried using CloudWatch Logs Insights"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonCloudWatch",
+        "region": "us-east-1",
+        "productFamily": "Data Payload",
+        "prices": [
+          {
+            "USD": "0.005",
+            "unit": "GB"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "group",
+            "value": "Centralized Logs"
+          },
+          {
+            "key": "version",
+            "value": "Current"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "Centralization"
+          },
+          {
+            "key": "usagetype",
+            "value": "USE1-CentralizedBytes"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonCloudWatch"
+          },
+          {
+            "key": "servicename",
+            "value": "AmazonCloudWatch"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "logsDestination",
+            "value": "Amazon CloudWatch Logs"
+          },
+          {
+            "key": "groupDescription",
+            "value": "Log data centralized across accounts and regions into a single account and region in Amazon CloudWatch Logs"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonCloudWatch",
+        "region": "us-east-1",
+        "productFamily": "Data Payload",
+        "prices": [
+          {
+            "USD": "0.05",
+            "unit": "GB"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "group",
+            "value": "Ingested Logs"
+          },
+          {
+            "key": "version",
+            "value": "Current"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "PutLogEvents"
+          },
+          {
+            "key": "usagetype",
+            "value": "USE1-VendedLog-Bytes-MTLogs"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonCloudWatch"
+          },
+          {
+            "key": "servicename",
+            "value": "AmazonCloudWatch"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "logsDestination",
+            "value": "Amazon CloudWatch Logs"
+          },
+          {
+            "key": "groupDescription",
+            "value": "Logs generated by Elemental MediaTailor and delivered to CloudWatch-Standard as Vended Logs"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonCloudWatch",
+        "region": "us-east-1",
+        "productFamily": "Data Payload",
+        "prices": [
+          {
+            "USD": "0.5",
+            "unit": "GB"
+          },
+          {
+            "USD": "0.25",
+            "unit": "GB"
+          },
+          {
+            "USD": "0.1",
+            "unit": "GB"
+          },
+          {
+            "USD": "0.05",
+            "unit": "GB"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "group",
+            "value": "Ingested Logs"
+          },
+          {
+            "key": "version",
+            "value": "Current"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "PutLogEvents"
+          },
+          {
+            "key": "usagetype",
+            "value": "USE1-DataProcessing-Bytes"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonCloudWatch"
+          },
+          {
+            "key": "servicename",
+            "value": "AmazonCloudWatch"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "logsDestination",
+            "value": "Amazon CloudWatch Logs"
+          },
+          {
+            "key": "groupDescription",
+            "value": "Existing system, application, and custom log files"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonCloudWatch",
+        "region": "us-east-1",
+        "productFamily": "Data Payload",
+        "prices": [
+          {
+            "USD": "0.5",
+            "unit": "GB"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "group",
+            "value": "Metric"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": ""
+          },
+          {
+            "key": "usagetype",
+            "value": "CW:MetricMonitorUsage"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonCloudWatch"
+          },
+          {
+            "key": "servicename",
+            "value": "AmazonCloudWatch"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "groupDescription",
+            "value": "CloudWatch Custom Metrics"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonCloudWatch",
+        "region": "us-east-1",
+        "productFamily": "Metric",
+        "prices": [
+          {
+            "USD": "0.3",
+            "unit": "Metrics"
+          },
+          {
+            "USD": "0.1",
+            "unit": "Metrics"
+          },
+          {
+            "USD": "0.05",
+            "unit": "Metrics"
+          },
+          {
+            "USD": "0.02",
+            "unit": "Metrics"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "group",
+            "value": "Enhanced Container Insights"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "ObservationCount:CI-EKS"
+          },
+          {
+            "key": "usagetype",
+            "value": "USE1-CW:ObservationUsage"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonCloudWatch"
+          },
+          {
+            "key": "servicename",
+            "value": "AmazonCloudWatch"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "groupDescription",
+            "value": "Granular metrics and high level health and performance visibility across your containers"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonCloudWatch",
+        "region": "us-east-1",
+        "productFamily": "Metric",
+        "prices": [
+          {
+            "USD": "2.1e-7",
+            "unit": "Observations"
+          },
+          {
+            "USD": "1.8e-7",
+            "unit": "Observations"
+          },
+          {
+            "USD": "1e-7",
+            "unit": "Observations"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "group",
+            "value": "Enhanced Container Insights"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "MetricStorage:CI-ECS"
+          },
+          {
+            "key": "usagetype",
+            "value": "USE1-CW:MetricsUsage"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonCloudWatch"
+          },
+          {
+            "key": "servicename",
+            "value": "AmazonCloudWatch"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "groupDescription",
+            "value": "Granular metrics and high level health and performance visibility across your containers"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonCloudWatch",
+        "region": "us-east-1",
+        "productFamily": "Metric",
+        "prices": [
+          {
+            "USD": "0.07",
+            "unit": "Metrics"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "group",
+            "value": "CW-MetricStreams"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "MetricUpdate"
+          },
+          {
+            "key": "usagetype",
+            "value": "USE1-CW:MetricStreamUsage"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonCloudWatch"
+          },
+          {
+            "key": "servicename",
+            "value": "AmazonCloudWatch"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "groupDescription",
+            "value": "CloudWatch Metric Streams Metric Updates"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonCloudWatch",
+        "region": "us-east-1",
+        "productFamily": "Metric Streams",
+        "prices": [
+          {
+            "USD": "0.000003",
+            "unit": "Metric Update"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "version",
+            "value": "Legacy"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": ""
+          },
+          {
+            "key": "usagetype",
+            "value": "TimedStorage-ByteHrs"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonCloudWatch"
+          },
+          {
+            "key": "servicename",
+            "value": "AmazonCloudWatch"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "storageMedia",
+            "value": "Amazon S3"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonCloudWatch",
+        "region": "us-east-1",
+        "productFamily": "Storage Snapshot",
+        "prices": [
+          {
+            "USD": "0.03",
+            "unit": "GB-Mo"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "version",
+            "value": "Current"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": ""
+          },
+          {
+            "key": "usagetype",
+            "value": "USE1-TimedStorage-ByteHrs"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonCloudWatch"
+          },
+          {
+            "key": "servicename",
+            "value": "AmazonCloudWatch"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "storageMedia",
+            "value": "Amazon S3"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonCloudWatch",
+        "region": "us-east-1",
+        "productFamily": "Storage Snapshot",
+        "prices": [
+          {
+            "USD": "0.03",
+            "unit": "GB-Mo"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "group",
+            "value": "XRay-Spans-Indexed"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": ""
+          },
+          {
+            "key": "usagetype",
+            "value": "USE1-XRay-Spans-Indexed"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonCloudWatch"
+          },
+          {
+            "key": "servicename",
+            "value": "AmazonCloudWatch"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "groupDescription",
+            "value": "Number of spans indexed into X-Ray trace summaries"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonCloudWatch",
+        "region": "us-east-1",
+        "productFamily": "X-Ray Spans Indexed",
+        "prices": [
+          {
+            "USD": "7.5e-7",
+            "unit": "spans indexed"
+          }
+        ]
+      }
+    ]
+  }
+}

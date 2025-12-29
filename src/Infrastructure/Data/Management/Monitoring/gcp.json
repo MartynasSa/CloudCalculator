@@ -1,0 +1,76 @@
+{
+  "data": {
+    "products": [
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Vended Logs Storage"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "Logs"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Cloud Logging",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.25",
+            "unit": "gibibyte"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Log Retention cost"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "Logs"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Cloud Logging",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.01",
+            "unit": "gibibyte month"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Log Volume"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "Logs"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Cloud Logging",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0",
+            "unit": "gibibyte"
+          },
+          {
+            "USD": "0.5",
+            "unit": "gibibyte"
+          }
+        ]
+      }
+    ]
+  }
+}

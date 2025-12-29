@@ -1,0 +1,52 @@
+{
+  "data": {
+    "products": [
+      {
+        "attributes": [
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "tiertype",
+            "value": "HAStandard"
+          },
+          {
+            "key": "operation",
+            "value": "CreateOperation"
+          },
+          {
+            "key": "usagetype",
+            "value": "USE1-AmazonEKS-Hours:perCluster"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonEKS"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon Elastic Container Service for Kubernetes"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonEKS",
+        "region": "us-east-1",
+        "productFamily": "Compute",
+        "prices": [
+          {
+            "USD": "0.1",
+            "unit": "Hours"
+          }
+        ]
+      }
+    ]
+  }
+}
