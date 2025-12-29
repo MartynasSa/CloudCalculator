@@ -1,9 +1,9 @@
 ﻿{
   Template: saas,
   Resources: [
-    VirtualMachines,
     Relational,
     LoadBalancer,
-    Monitoring
+    Monitoring,
+    Kubernetes
   ]
 }

@@ -9,14 +9,19 @@ namespace WebApi.Controllers;
 public class TemplatesController(ITemplateFacade templateFacade) : Controller
 {
     [HttpGet("template")]
-    public async Task<IActionResult> GetTemplate([FromQuery] TemplateType template, CancellationToken ct)
+    public async Task<IActionResult> GetTemplate([FromQuery] TemplateType template, [FromQuery] UsageSize usage, CancellationToken ct)
     {
         if (template == TemplateType.None)
         {
-            return BadRequest("Template and Usage must be specified with valid values");
+            return BadRequest("Template must be specified with a valid value");
+        }
+
+        if (!Enum.IsDefined(typeof(UsageSize), usage) || usage == default(UsageSize))
+        {
+            return BadRequest("Usage must be specified with a valid value");
         }
         
-        var result = await templateFacade.GetTemplateAsync(template);
+        var result = await templateFacade.GetTemplateAsync(template, usage);
         return Ok(result);
     }
 

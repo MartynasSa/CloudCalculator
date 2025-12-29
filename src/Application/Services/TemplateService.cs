@@ -5,7 +5,7 @@ namespace Application.Services;
 
 public interface ITemplateService
 {
-    TemplateDto GetTemplate(TemplateType template);
+    TemplateDto GetTemplate(TemplateType template, UsageSize usageSize);
     List<TemplateDto> GetTemplates();
 }
 
@@ -126,9 +126,35 @@ public class TemplateService : ITemplateService
         return _templates;
     }
 
-    public TemplateDto GetTemplate(TemplateType template)
+    public TemplateDto GetTemplate(TemplateType template, UsageSize usageSize)
     {
-        return _templates.Single(x => x.Template == template);
+        var baseTemplate = _templates.Single(x => x.Template == template);
+        
+        // Create a new instance with resources adjusted based on usage size
+        var adjustedTemplate = new TemplateDto
+        {
+            Template = baseTemplate.Template,
+            Resources = AdjustResourcesForUsageSize(baseTemplate.Resources.ToList(), usageSize)
+        };
+        
+        return adjustedTemplate;
+    }
+    
+    private List<ResourceSubCategory> AdjustResourcesForUsageSize(List<ResourceSubCategory> resources, UsageSize usageSize)
+    {
+        var adjustedResources = new List<ResourceSubCategory>(resources);
+        
+        // For Large and ExtraLarge usage sizes, replace VirtualMachines with Kubernetes
+        if (usageSize == UsageSize.Large || usageSize == UsageSize.ExtraLarge)
+        {
+            if (adjustedResources.Contains(ResourceSubCategory.VirtualMachines))
+            {
+                adjustedResources.Remove(ResourceSubCategory.VirtualMachines);
+                adjustedResources.Add(ResourceSubCategory.Kubernetes);
+            }
+        }
+        
+        return adjustedResources;
     }
 }
 

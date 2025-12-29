@@ -78,6 +78,9 @@ public class CalculatorService(IResourceNormalizationService resourceNormalizati
             ResourceSubCategory.VirtualMachines when filteredResources.ComputeInstances.TryGetValue(key, out var vm)
                 => (CalculateVmCost(vm, CalculatorService.HoursPerMonth), vm),
 
+            ResourceSubCategory.Kubernetes when filteredResources.Kubernetes.TryGetValue(key, out var k8s)
+                => (CalculateKubernetesCost(k8s, CalculatorService.HoursPerMonth), k8s),
+
             ResourceSubCategory.Relational when filteredResources.Databases.TryGetValue(key, out var db)
                 => (CalculateDatabaseCost(db, CalculatorService.HoursPerMonth), db),
 
@@ -99,6 +102,16 @@ public class CalculatorService(IResourceNormalizationService resourceNormalizati
         }
 
         return vm.PricePerHour.Value * usageHoursPerMonth;
+    }
+
+    private decimal CalculateKubernetesCost(NormalizedKubernetesDto? kubernetes, int usageHoursPerMonth)
+    {
+        if (kubernetes?.PricePerHour is null || kubernetes.PricePerHour <= 0)
+        {
+            return 0m;
+        }
+
+        return kubernetes.PricePerHour.Value * usageHoursPerMonth;
     }
 
     private decimal CalculateDatabaseCost(NormalizedDatabaseDto? database, int usageHoursPerMonth)
