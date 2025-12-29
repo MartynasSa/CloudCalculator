@@ -336,9 +336,9 @@ public static class NormalizationMapper
     }
 
     public static NormalizedCachingDto MapToCaching(
-    CloudPricingProductDto product,
-    ResourceCategory category,
-    ResourceSubCategory subCategory)
+        CloudPricingProductDto product,
+        ResourceCategory category,
+        ResourceSubCategory subCategory)
     {
         var cacheName = product.Attributes.FirstOrDefault(a => a.Key == "instanceType")?.Value
                        ?? product.Attributes.FirstOrDefault(a => a.Key == "meterName")?.Value
@@ -420,9 +420,9 @@ public static class NormalizationMapper
     }
 
     public static NormalizedMonitoringDto MapToMonitoring(
-    CloudPricingProductDto product,
-    ResourceCategory category,
-    ResourceSubCategory subCategory)
+        CloudPricingProductDto product,
+        ResourceCategory category,
+        ResourceSubCategory subCategory)
     {
         var monitoringService = product.Attributes.FirstOrDefault(a => a.Key == "servicename")?.Value
                                ?? product.Attributes.FirstOrDefault(a => a.Key == "productName")?.Value
@@ -472,10 +472,208 @@ public static class NormalizationMapper
         };
     }
 
+    public static NormalizedIdentityManagementDto MapToIdentityManagement(
+        CloudPricingProductDto product,
+        ResourceCategory category,
+        ResourceSubCategory subCategory)
+    {
+        var serviceName = product.Attributes.FirstOrDefault(a => a.Key == "servicename")?.Value
+                         ?? product.Attributes.FirstOrDefault(a => a.Key == "productName")?.Value
+                         ?? product.Service
+                         ?? "Unknown";
+
+        var operationType = product.Attributes.FirstOrDefault(a => a.Key == "usagetype")?.Value
+                           ?? product.Attributes.FirstOrDefault(a => a.Key == "meterName")?.Value
+                           ?? product.Attributes.FirstOrDefault(a => a.Key == "resourceGroup")?.Value;
+
+        return new NormalizedIdentityManagementDto
+        {
+            Category = category,
+            SubCategory = subCategory,
+            Cloud = product.VendorName,
+            ServiceName = serviceName,
+            Region = product.Region,
+            OperationType = operationType,
+            PricePerUser = GetPricePerUser(product),
+            PricePerRequest = GetPricePerRequest(product),
+            PricePerAuthentication = GetPricePerAuthentication(product)
+        };
+    }
+
+    public static NormalizedWebApplicationFirewallDto MapToWebApplicationFirewall(
+        CloudPricingProductDto product,
+        ResourceCategory category,
+        ResourceSubCategory subCategory)
+    {
+        var firewallName = product.Attributes.FirstOrDefault(a => a.Key == "servicename")?.Value
+                          ?? product.Attributes.FirstOrDefault(a => a.Key == "productName")?.Value
+                          ?? product.Service
+                          ?? "Unknown";
+
+        var firewallType = product.Attributes.FirstOrDefault(a => a.Key == "subcategory")?.Value
+                          ?? product.Attributes.FirstOrDefault(a => a.Key == "resourceGroup")?.Value
+                          ?? product.Attributes.FirstOrDefault(a => a.Key == "description")?.Value;
+
+        var skuTier = product.Attributes.FirstOrDefault(a => a.Key == "skuName")?.Value
+                     ?? product.Attributes.FirstOrDefault(a => a.Key == "meterName")?.Value;
+
+        return new NormalizedWebApplicationFirewallDto
+        {
+            Category = category,
+            SubCategory = subCategory,
+            Cloud = product.VendorName,
+            FirewallName = firewallName,
+            Region = product.Region,
+            FirewallType = firewallType,
+            SkuTier = skuTier,
+            PricePerHour = GetPricePerHourForFirewall(product),
+            PricePerGb = GetPricePerGbForFirewall(product),
+            PricePerRule = GetPricePerRule(product)
+        };
+    }
+
     private static decimal? GetPricePerGbOut(CloudPricingProductDto product)
     {
         var price = product.Prices.FirstOrDefault();
-        if (price?.Unit?.Contains("GB", StringComparison.OrdinalIgnoreCase) == true)
+        if (price?.Unit?.Contains("GB", StringComparison.OrdinalIgnoreCase) == true &&
+            !price.Unit.Contains("request", StringComparison.OrdinalIgnoreCase))
+        {
+            return price.Usd;
+        }
+        return null;
+    }
+
+    private static decimal? GetPricePerUser(CloudPricingProductDto product)
+    {
+        var price = product.Prices.FirstOrDefault();
+        if (price?.Unit?.Contains("user", StringComparison.OrdinalIgnoreCase) == true ||
+            price?.Unit?.Contains("MAU", StringComparison.OrdinalIgnoreCase) == true)
+        {
+            return price.Usd;
+        }
+        return null;
+    }
+
+    private static decimal? GetPricePerAuthentication(CloudPricingProductDto product)
+    {
+        var price = product.Prices.FirstOrDefault();
+        var description = product.Attributes.FirstOrDefault(a => a.Key == "description")?.Value ?? string.Empty;
+
+        if (price?.Unit?.Contains("count", StringComparison.OrdinalIgnoreCase) == true &&
+            (description.Contains("authentication", StringComparison.OrdinalIgnoreCase) ||
+             description.Contains("verification", StringComparison.OrdinalIgnoreCase) ||
+             description.Contains("SMS", StringComparison.OrdinalIgnoreCase)))
+        {
+            return price.Usd;
+        }
+        return null;
+    }
+
+    private static decimal? GetPricePerHourForFirewall(CloudPricingProductDto product)
+    {
+        var price = product.Prices.FirstOrDefault();
+        if (price?.Unit?.Contains("hour", StringComparison.OrdinalIgnoreCase) == true ||
+            price?.Unit?.Contains("hourly", StringComparison.OrdinalIgnoreCase) == true)
+        {
+            return price.Usd;
+        }
+        return null;
+    }
+
+    private static decimal? GetPricePerGbForFirewall(CloudPricingProductDto product)
+    {
+        var price = product.Prices.FirstOrDefault();
+        if (price?.Unit?.Contains("gibibyte", StringComparison.OrdinalIgnoreCase) == true ||
+            (price?.Unit?.Contains("GB", StringComparison.OrdinalIgnoreCase) == true &&
+             !price.Unit.Contains("hour", StringComparison.OrdinalIgnoreCase)))
+        {
+            return price.Usd;
+        }
+        return null;
+    }
+
+    private static decimal? GetPricePerRule(CloudPricingProductDto product)
+    {
+        var price = product.Prices.FirstOrDefault();
+        var description = product.Attributes.FirstOrDefault(a => a.Key == "description")?.Value ?? string.Empty;
+
+        if (price?.Unit?.Contains("month", StringComparison.OrdinalIgnoreCase) == true &&
+            (description.Contains("rule", StringComparison.OrdinalIgnoreCase) ||
+             description.Contains("policy", StringComparison.OrdinalIgnoreCase)))
+        {
+            return price.Usd;
+        }
+        return null;
+    }
+
+    public static NormalizedBlockStorageDto MapToBlockStorage(
+        CloudPricingProductDto product,
+        ResourceCategory category,
+        ResourceSubCategory subCategory)
+    {
+        var name = product.Attributes.FirstOrDefault(a => a.Key == "volumeType")?.Value
+                  ?? product.Attributes.FirstOrDefault(a => a.Key == "skuName")?.Value
+                  ?? product.Attributes.FirstOrDefault(a => a.Key == "meterName")?.Value
+                  ?? product.Attributes.FirstOrDefault(a => a.Key == "description")?.Value
+                  ?? product.Service;
+
+        if (string.IsNullOrWhiteSpace(name))
+        {
+            name = "Unknown";
+        }
+
+        var volumeType = product.Attributes.FirstOrDefault(a => a.Key == "volumeType")?.Value
+                        ?? product.Attributes.FirstOrDefault(a => a.Key == "skuName")?.Value
+                        ?? product.Attributes.FirstOrDefault(a => a.Key == "resourceGroup")?.Value;
+
+        var storageMedia = product.Attributes.FirstOrDefault(a => a.Key == "storageMedia")?.Value
+                          ?? product.Attributes.FirstOrDefault(a => a.Key == "meterName")?.Value;
+
+        var maxIopsVolume = product.Attributes.FirstOrDefault(a => a.Key == "maxIopsvolume")?.Value
+                           ?? product.Attributes.FirstOrDefault(a => a.Key == "maxIops")?.Value;
+
+        var maxVolumeSize = product.Attributes.FirstOrDefault(a => a.Key == "maxVolumeSize")?.Value
+                           ?? product.Attributes.FirstOrDefault(a => a.Key == "volumeSize")?.Value;
+
+        var maxThroughputVolume = product.Attributes.FirstOrDefault(a => a.Key == "maxThroughputvolume")?.Value
+                                 ?? product.Attributes.FirstOrDefault(a => a.Key == "maxThroughput")?.Value;
+
+        return new NormalizedBlockStorageDto
+        {
+            Category = category,
+            SubCategory = subCategory,
+            Cloud = product.VendorName,
+            Name = name,
+            Region = product.Region,
+            VolumeType = volumeType,
+            StorageMedia = storageMedia,
+            MaxIopsVolume = maxIopsVolume,
+            MaxVolumeSize = maxVolumeSize,
+            MaxThroughputVolume = maxThroughputVolume,
+            PricePerGbMonth = GetPricePerGbMonth(product),
+            PricePerIops = GetPricePerIops(product),
+            PricePerSnapshot = GetPricePerSnapshot(product)
+        };
+    }
+
+    private static decimal? GetPricePerIops(CloudPricingProductDto product)
+    {
+        var price = product.Prices.FirstOrDefault();
+        if (price?.Unit?.Contains("IOPS", StringComparison.OrdinalIgnoreCase) == true)
+        {
+            return price.Usd;
+        }
+        return null;
+    }
+
+    private static decimal? GetPricePerSnapshot(CloudPricingProductDto product)
+    {
+        var price = product.Prices.FirstOrDefault();
+        var description = product.Attributes.FirstOrDefault(a => a.Key == "description")?.Value ?? string.Empty;
+
+        if (price?.Unit?.Contains("GB", StringComparison.OrdinalIgnoreCase) == true &&
+            (description.Contains("snapshot", StringComparison.OrdinalIgnoreCase) ||
+             description.Contains("backup", StringComparison.OrdinalIgnoreCase)))
         {
             return price.Usd;
         }

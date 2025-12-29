@@ -36,6 +36,7 @@ public enum StorageType
     None = 0,
     ObjectStorage = 300,
     BlobStorage = 301,
+    BlockStorage = 302,
     FileStorage = 303,
     Backup = 304,
 }
@@ -102,6 +103,7 @@ public enum ResourceSubCategory
     // Storage (300-399)
     ObjectStorage = StorageType.ObjectStorage,
     BlobStorage = StorageType.BlobStorage,
+    BlockStorage = StorageType.BlockStorage,
     FileStorage = StorageType.FileStorage,
     Backup = StorageType.Backup,
 

@@ -130,3 +130,38 @@ public class NormalizedCdnDto : NormalizedResource
     public decimal? PricePerGbOut { get; set; }
     public decimal? PricePerRequest { get; set; }
 }
+
+public class NormalizedIdentityManagementDto : NormalizedResource
+{
+    public required string ServiceName { get; set; }
+    public required string Region { get; set; }
+    public string? OperationType { get; set; }
+    public decimal? PricePerUser { get; set; }
+    public decimal? PricePerRequest { get; set; }
+    public decimal? PricePerAuthentication { get; set; }
+}
+
+public class NormalizedWebApplicationFirewallDto : NormalizedResource
+{
+    public required string FirewallName { get; set; }
+    public required string Region { get; set; }
+    public string? FirewallType { get; set; }
+    public string? SkuTier { get; set; }
+    public decimal? PricePerHour { get; set; }
+    public decimal? PricePerGb { get; set; }
+    public decimal? PricePerRule { get; set; }
+}
+
+public class NormalizedBlockStorageDto : NormalizedResource
+{
+    public required string Name { get; set; }
+    public required string Region { get; set; }
+    public string? VolumeType { get; set; }
+    public string? StorageMedia { get; set; }
+    public string? MaxIopsVolume { get; set; }
+    public string? MaxVolumeSize { get; set; }
+    public string? MaxThroughputVolume { get; set; }
+    public decimal? PricePerGbMonth { get; set; }
+    public decimal? PricePerIops { get; set; }
+    public decimal? PricePerSnapshot { get; set; }
+}

@@ -7,7 +7,7 @@
   CloudCosts: {
     small: [
       {
-        TotalMonthlyPrice: 38.2880,
+        TotalMonthlyPrice: 40.5880,
         CostDetails: [
           {
             Cost: 27.4480,
@@ -20,15 +20,15 @@
             ResourceDetails: {"Name":"ELB:Balancing","PricePerMonth":5.840,"Cloud":0,"Category":4,"SubCategory":401}
           },
           {
-            Cost: 5.0,
+            Cost: 7.30,
             ResourceSubCategory: Monitoring,
-            ResourceDetails: {"Name":"CloudWatch","PricePerMonth":5,"Cloud":0,"Category":7,"SubCategory":604}
+            ResourceDetails: {"MonitoringService":"AmazonCloudWatch","Region":"us-east-1","MetricType":"CW-InternetMonitor","PricePerMonth":7.30,"Cloud":0,"Category":7,"SubCategory":604}
           }
         ]
       },
       {
         CloudProvider: azure,
-        TotalMonthlyPrice: 51.260,
+        TotalMonthlyPrice: 104.6090,
         CostDetails: [
           {
             Cost: 45.260,
@@ -36,15 +36,15 @@
             ResourceDetails: {"InstanceName":"Standard_D2pls_v6","Region":"eastus","VCpu":2,"Memory":"4","PricePerHour":0.062,"Cloud":1,"Category":1,"SubCategory":100}
           },
           {
-            Cost: 6.0,
+            Cost: 59.3490,
             ResourceSubCategory: Monitoring,
-            ResourceDetails: {"Name":"Azure Monitor","PricePerMonth":6,"Cloud":1,"Category":7,"SubCategory":604}
+            ResourceDetails: {"MonitoringService":"Azure Monitor","Region":"eastus","MetricType":"SMS Country Code 234 Notifications","PricePerMonth":59.3490,"Cloud":1,"Category":7,"SubCategory":604}
           }
         ]
       },
       {
         CloudProvider: gcp,
-        TotalMonthlyPrice: 11.30,
+        TotalMonthlyPrice: 189.80,
         CostDetails: [
           {
             Cost: 7.30,
@@ -52,16 +52,16 @@
             ResourceDetails: {"Name":"Compute Engine","PricePerMonth":7.30,"Cloud":2,"Category":4,"SubCategory":401}
           },
           {
-            Cost: 4.0,
+            Cost: 182.50,
             ResourceSubCategory: Monitoring,
-            ResourceDetails: {"Name":"Cloud Ops","PricePerMonth":4,"Cloud":2,"Category":7,"SubCategory":604}
+            ResourceDetails: {"MonitoringService":"Cloud Logging","Region":"global","MetricType":"Logs","PricePerMonth":182.50,"Cloud":2,"Category":7,"SubCategory":604}
           }
         ]
       }
     ],
     medium: [
       {
-        TotalMonthlyPrice: 104.280,
+        TotalMonthlyPrice: 106.580,
         CostDetails: [
           {
             Cost: 93.440,
@@ -74,15 +74,15 @@
             ResourceDetails: {"Name":"ELB:Balancing","PricePerMonth":5.840,"Cloud":0,"Category":4,"SubCategory":401}
           },
           {
-            Cost: 5.0,
+            Cost: 7.30,
             ResourceSubCategory: Monitoring,
-            ResourceDetails: {"Name":"CloudWatch","PricePerMonth":5,"Cloud":0,"Category":7,"SubCategory":604}
+            ResourceDetails: {"MonitoringService":"AmazonCloudWatch","Region":"us-east-1","MetricType":"CW-InternetMonitor","PricePerMonth":7.30,"Cloud":0,"Category":7,"SubCategory":604}
           }
         ]
       },
       {
         CloudProvider: azure,
-        TotalMonthlyPrice: 117.690,
+        TotalMonthlyPrice: 171.0390,
         CostDetails: [
           {
             Cost: 111.690,
@@ -90,15 +90,15 @@
             ResourceDetails: {"InstanceName":"Standard_B4ps_v2","Region":"eastus","VCpu":4,"Memory":"16","PricePerHour":0.153,"Cloud":1,"Category":1,"SubCategory":100}
           },
           {
-            Cost: 6.0,
+            Cost: 59.3490,
             ResourceSubCategory: Monitoring,
-            ResourceDetails: {"Name":"Azure Monitor","PricePerMonth":6,"Cloud":1,"Category":7,"SubCategory":604}
+            ResourceDetails: {"MonitoringService":"Azure Monitor","Region":"eastus","MetricType":"SMS Country Code 234 Notifications","PricePerMonth":59.3490,"Cloud":1,"Category":7,"SubCategory":604}
           }
         ]
       },
       {
         CloudProvider: gcp,
-        TotalMonthlyPrice: 11.30,
+        TotalMonthlyPrice: 189.80,
         CostDetails: [
           {
             Cost: 7.30,
@@ -106,16 +106,16 @@
             ResourceDetails: {"Name":"Compute Engine","PricePerMonth":7.30,"Cloud":2,"Category":4,"SubCategory":401}
           },
           {
-            Cost: 4.0,
+            Cost: 182.50,
             ResourceSubCategory: Monitoring,
-            ResourceDetails: {"Name":"Cloud Ops","PricePerMonth":4,"Cloud":2,"Category":7,"SubCategory":604}
+            ResourceDetails: {"MonitoringService":"Cloud Logging","Region":"global","MetricType":"Logs","PricePerMonth":182.50,"Cloud":2,"Category":7,"SubCategory":604}
           }
         ]
       }
     ],
     large: [
       {
-        TotalMonthlyPrice: 205.020,
+        TotalMonthlyPrice: 207.320,
         CostDetails: [
           {
             Cost: 194.180,
@@ -128,15 +128,15 @@
             ResourceDetails: {"Name":"ELB:Balancing","PricePerMonth":5.840,"Cloud":0,"Category":4,"SubCategory":401}
           },
           {
-            Cost: 5.0,
+            Cost: 7.30,
             ResourceSubCategory: Monitoring,
-            ResourceDetails: {"Name":"CloudWatch","PricePerMonth":5,"Cloud":0,"Category":7,"SubCategory":604}
+            ResourceDetails: {"MonitoringService":"AmazonCloudWatch","Region":"us-east-1","MetricType":"CW-InternetMonitor","PricePerMonth":7.30,"Cloud":0,"Category":7,"SubCategory":604}
           }
         ]
       },
       {
         CloudProvider: azure,
-        TotalMonthlyPrice: 187.040,
+        TotalMonthlyPrice: 240.3890,
         CostDetails: [
           {
             Cost: 181.040,
@@ -144,15 +144,15 @@
             ResourceDetails: {"InstanceName":"Standard_D8pls_v6","Region":"eastus","VCpu":8,"Memory":"16","PricePerHour":0.248,"Cloud":1,"Category":1,"SubCategory":100}
           },
           {
-            Cost: 6.0,
+            Cost: 59.3490,
             ResourceSubCategory: Monitoring,
-            ResourceDetails: {"Name":"Azure Monitor","PricePerMonth":6,"Cloud":1,"Category":7,"SubCategory":604}
+            ResourceDetails: {"MonitoringService":"Azure Monitor","Region":"eastus","MetricType":"SMS Country Code 234 Notifications","PricePerMonth":59.3490,"Cloud":1,"Category":7,"SubCategory":604}
           }
         ]
       },
       {
         CloudProvider: gcp,
-        TotalMonthlyPrice: 11.30,
+        TotalMonthlyPrice: 189.80,
         CostDetails: [
           {
             Cost: 7.30,
@@ -160,16 +160,16 @@
             ResourceDetails: {"Name":"Compute Engine","PricePerMonth":7.30,"Cloud":2,"Category":4,"SubCategory":401}
           },
           {
-            Cost: 4.0,
+            Cost: 182.50,
             ResourceSubCategory: Monitoring,
-            ResourceDetails: {"Name":"Cloud Ops","PricePerMonth":4,"Cloud":2,"Category":7,"SubCategory":604}
+            ResourceDetails: {"MonitoringService":"Cloud Logging","Region":"global","MetricType":"Logs","PricePerMonth":182.50,"Cloud":2,"Category":7,"SubCategory":604}
           }
         ]
       }
     ],
     xlarge: [
       {
-        TotalMonthlyPrice: 304.300,
+        TotalMonthlyPrice: 306.600,
         CostDetails: [
           {
             Cost: 293.460,
@@ -182,15 +182,15 @@
             ResourceDetails: {"Name":"ELB:Balancing","PricePerMonth":5.840,"Cloud":0,"Category":4,"SubCategory":401}
           },
           {
-            Cost: 5.0,
+            Cost: 7.30,
             ResourceSubCategory: Monitoring,
-            ResourceDetails: {"Name":"CloudWatch","PricePerMonth":5,"Cloud":0,"Category":7,"SubCategory":604}
+            ResourceDetails: {"MonitoringService":"AmazonCloudWatch","Region":"us-east-1","MetricType":"CW-InternetMonitor","PricePerMonth":7.30,"Cloud":0,"Category":7,"SubCategory":604}
           }
         ]
       },
       {
         CloudProvider: azure,
-        TotalMonthlyPrice: 541.820,
+        TotalMonthlyPrice: 595.1690,
         CostDetails: [
           {
             Cost: 535.820,
@@ -198,15 +198,15 @@
             ResourceDetails: {"InstanceName":"Standard_D16pds_v6","Region":"eastus","VCpu":16,"Memory":"64","PricePerHour":0.734,"Cloud":1,"Category":1,"SubCategory":100}
           },
           {
-            Cost: 6.0,
+            Cost: 59.3490,
             ResourceSubCategory: Monitoring,
-            ResourceDetails: {"Name":"Azure Monitor","PricePerMonth":6,"Cloud":1,"Category":7,"SubCategory":604}
+            ResourceDetails: {"MonitoringService":"Azure Monitor","Region":"eastus","MetricType":"SMS Country Code 234 Notifications","PricePerMonth":59.3490,"Cloud":1,"Category":7,"SubCategory":604}
           }
         ]
       },
       {
         CloudProvider: gcp,
-        TotalMonthlyPrice: 11.30,
+        TotalMonthlyPrice: 189.80,
         CostDetails: [
           {
             Cost: 7.30,
@@ -214,9 +214,9 @@
             ResourceDetails: {"Name":"Compute Engine","PricePerMonth":7.30,"Cloud":2,"Category":4,"SubCategory":401}
           },
           {
-            Cost: 4.0,
+            Cost: 182.50,
             ResourceSubCategory: Monitoring,
-            ResourceDetails: {"Name":"Cloud Ops","PricePerMonth":4,"Cloud":2,"Category":7,"SubCategory":604}
+            ResourceDetails: {"MonitoringService":"Cloud Logging","Region":"global","MetricType":"Logs","PricePerMonth":182.50,"Cloud":2,"Category":7,"SubCategory":604}
           }
         ]
       }

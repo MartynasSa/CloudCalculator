@@ -32,14 +32,20 @@ public class ResourceNormalizationService(ICloudPricingRepositoryProvider cloudP
             
             // Storage
             { ("", "AmazonS3"), (ResourceCategory.Storage, ResourceSubCategory.BlobStorage) },
+            { ("Storage", "AmazonEC2"), (ResourceCategory.Storage, ResourceSubCategory.BlockStorage) },
+            
             // Analytics
             { ("", "AmazonRedshift"), (ResourceCategory.Analytics, ResourceSubCategory.DataWarehouse) },
+            
             // Messaging
             { ("", "AmazonSNS"), (ResourceCategory.Management, ResourceSubCategory.Messaging) },
             { ("", "AmazonSQS"), (ResourceCategory.Management, ResourceSubCategory.Messaging) },
-
             { ("API Request", "AWSQueueService"), (ResourceCategory.Management, ResourceSubCategory.Queueing) },
             { ("", "AmazonCloudWatch"), (ResourceCategory.Management, ResourceSubCategory.Monitoring) },
+            
+            // Security
+            { ("Amazon Bedrock", "AmazonCognito"), (ResourceCategory.Security, ResourceSubCategory.IdentityManagement) },
+            { ("AWS Firewall", "AWSNetworkFirewall"), (ResourceCategory.Security, ResourceSubCategory.WebApplicationFirewall) },
         };
 
     // Azure-specific mapping based on productFamily and service combination
@@ -60,18 +66,23 @@ public class ResourceNormalizationService(ICloudPricingRepositoryProvider cloudP
             { ("Networking", "Load Balancer"), (ResourceCategory.Networking, ResourceSubCategory.LoadBalancer) },
             { ("Networking", "Azure API Management"), (ResourceCategory.Networking, ResourceSubCategory.ApiGateway) },
             { ("Networking", "Azure CDN"), (ResourceCategory.Networking, ResourceSubCategory.CDN) },
+            { ("Networking", "Azure Firewall"), (ResourceCategory.Security, ResourceSubCategory.WebApplicationFirewall) },
             
             // Storage
             { ("Storage", "Azure Blob Storage"), (ResourceCategory.Storage, ResourceSubCategory.BlobStorage) },
+            { ("Storage", "Storage"), (ResourceCategory.Storage, ResourceSubCategory.BlockStorage) },
+            
             // Analytics
             { ("Analytics", "Azure Synapse Analytics"), (ResourceCategory.Analytics, ResourceSubCategory.DataWarehouse) },
 
             // Messaging
             { ("Integration", "Service Bus"), (ResourceCategory.Management, ResourceSubCategory.Messaging) },
             { ("Integration", "Event Hubs"), (ResourceCategory.Management, ResourceSubCategory.Messaging) },
-
             { ("Internet of Things", "Event Grid"), (ResourceCategory.Management, ResourceSubCategory.Queueing) },
             { ("Management and Governance", "Azure Monitor"), (ResourceCategory.Management, ResourceSubCategory.Monitoring) },
+            
+            // Security
+            { ("Security", "Azure Active Directory for External Identities"), (ResourceCategory.Security, ResourceSubCategory.IdentityManagement) },
         };
 
     // GCP-specific mapping based on productFamily and service combination
@@ -92,15 +103,20 @@ public class ResourceNormalizationService(ICloudPricingRepositoryProvider cloudP
             { ("Network", "Compute Engine"), (ResourceCategory.Networking, ResourceSubCategory.LoadBalancer) },
             { ("Network", "API Gateway"), (ResourceCategory.Networking, ResourceSubCategory.ApiGateway) },
             { ("Network", "Cloud CDN"), (ResourceCategory.Networking, ResourceSubCategory.CDN) },
+            { ("Network", "Networking"), (ResourceCategory.Security, ResourceSubCategory.WebApplicationFirewall) },
             
             // Storage
             { ("Storage", "Cloud Storage"), (ResourceCategory.Storage, ResourceSubCategory.BlobStorage) },
+            { ("Storage", "Compute Engine"), (ResourceCategory.Storage, ResourceSubCategory.BlockStorage) },
+            
             // Analytics
             { ("ApplicationServices", "BigQuery"), (ResourceCategory.Analytics, ResourceSubCategory.DataWarehouse) },
             { ("ApplicationServices", "Cloud Pub/Sub"), (ResourceCategory.Management, ResourceSubCategory.Messaging) },
             { ("ApplicationServices", "Cloud Tasks"), (ResourceCategory.Management, ResourceSubCategory.Queueing) },
-
             { ("ApplicationServices", "Cloud Logging"), (ResourceCategory.Management, ResourceSubCategory.Monitoring) },
+            
+            // Security
+            { ("ApplicationServices", "Identity Platform"), (ResourceCategory.Security, ResourceSubCategory.IdentityManagement) },
         };
 
     public async Task<CategorizedResourcesDto> GetResourcesAsync(CancellationToken cancellationToken = default)
@@ -154,6 +170,9 @@ public class ResourceNormalizationService(ICloudPricingRepositoryProvider cloudP
                 case (ResourceCategory.Storage, ResourceSubCategory.BlobStorage):
                     result.BlobStorage.Add(NormalizationMapper.MapToBlobStorage(product, category, subCategory));
                     break;
+                case (ResourceCategory.Storage, ResourceSubCategory.BlockStorage):
+                    result.BlockStorage.Add(NormalizationMapper.MapToBlockStorage(product, category, subCategory));
+                    break;
                 case (ResourceCategory.Analytics, ResourceSubCategory.DataWarehouse):
                     result.DataWarehouses.Add(NormalizationMapper.MapToDataWarehouse(product, category, subCategory));
                     break;
@@ -165,6 +184,12 @@ public class ResourceNormalizationService(ICloudPricingRepositoryProvider cloudP
                     break;
                 case (ResourceCategory.Management, ResourceSubCategory.Monitoring):
                     result.Monitoring.Add(NormalizationMapper.MapToMonitoring(product, category, subCategory));
+                    break;
+                case (ResourceCategory.Security, ResourceSubCategory.IdentityManagement):
+                    result.IdentityManagement.Add(NormalizationMapper.MapToIdentityManagement(product, category, subCategory));
+                    break;
+                case (ResourceCategory.Security, ResourceSubCategory.WebApplicationFirewall):
+                    result.WebApplicationFirewall.Add(NormalizationMapper.MapToWebApplicationFirewall(product, category, subCategory));
                     break;
                 default:
                     break;
