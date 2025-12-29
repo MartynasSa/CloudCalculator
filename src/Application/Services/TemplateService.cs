@@ -15,10 +15,10 @@ public class TemplateService : ITemplateService
     private readonly Dictionary<(TemplateType Template, UsageSize Size), List<ResourceSubCategory>> _templateResourceMappings = new()
     {
         // ========== SaaS Template ==========
-        // Small: CloudFunctions (stateless app), 1× Relational (standard), 1× small Caching
+        // Small: VirtualMachines (stateless app), 1× Relational (standard), 1× small Caching
         [(TemplateType.Saas, UsageSize.Small)] =
         [
-            ResourceSubCategory.CloudFunctions,
+            ResourceSubCategory.VirtualMachines,
             ResourceSubCategory.Relational,
             ResourceSubCategory.Caching,
             ResourceSubCategory.ObjectStorage,
@@ -32,10 +32,10 @@ public class TemplateService : ITemplateService
             ResourceSubCategory.WebApplicationFirewall
         ],
 
-        // Medium: Kubernetes (1 small cluster, autoscaling) or CloudFunctions; Relational (multi-AZ read replica 1×); Caching (1× medium)
+        // Medium: VirtualMachines (small cluster, autoscaling); Relational (multi-AZ read replica 1×); Caching (1× medium)
         [(TemplateType.Saas, UsageSize.Medium)] =
         [
-            ResourceSubCategory.Kubernetes,
+            ResourceSubCategory.VirtualMachines,
             ResourceSubCategory.Relational,
             ResourceSubCategory.Caching,
             ResourceSubCategory.ObjectStorage,
@@ -221,12 +221,13 @@ public class TemplateService : ITemplateService
         ],
 
         // ========== Static Site Template ==========
-        // Small: Object/Blob storage hosting + CDN
+        // Small: Object/Blob storage hosting + CDN + LoadBalancer
         [(TemplateType.StaticSite, UsageSize.Small)] =
         [
             ResourceSubCategory.ObjectStorage,
             ResourceSubCategory.Backup,
             ResourceSubCategory.CDN,
+            ResourceSubCategory.LoadBalancer,
             ResourceSubCategory.Monitoring
         ],
 
@@ -240,7 +241,7 @@ public class TemplateService : ITemplateService
             ResourceSubCategory.Monitoring
         ],
 
-        // Large: Multi-region CDN, image optimization at edge, can add Queueing for build/deploy pipeline orchestration
+        // Large: Multi-region CDN, image optimization at edge, can add Queueing for build/deploy pipeline orchestration, LoadBalancer
         [(TemplateType.StaticSite, UsageSize.Large)] =
         [
             ResourceSubCategory.ObjectStorage,
@@ -248,6 +249,7 @@ public class TemplateService : ITemplateService
             ResourceSubCategory.CDN,
             ResourceSubCategory.CloudFunctions,
             ResourceSubCategory.Queueing,
+            ResourceSubCategory.LoadBalancer,
             ResourceSubCategory.Monitoring
         ],
 
@@ -264,10 +266,10 @@ public class TemplateService : ITemplateService
         ],
 
         // ========== Ecommerce Template ==========
-        // Small: Kubernetes (small) or CloudFunctions; 1× Relational; small Caching; CDN
+        // Small: VirtualMachines; 1× Relational; small Caching; CDN
         [(TemplateType.Ecommerce, UsageSize.Small)] =
         [
-            ResourceSubCategory.Kubernetes,
+            ResourceSubCategory.VirtualMachines,
             ResourceSubCategory.Relational,
             ResourceSubCategory.Caching,
             ResourceSubCategory.ObjectStorage,
@@ -346,11 +348,11 @@ public class TemplateService : ITemplateService
         ],
 
         // ========== Mobile App Backend Template ==========
-        // Small: CloudFunctions; 1× NoSQL; CDN for app assets
+        // Small: VirtualMachines; 1× Relational; CDN for app assets
         [(TemplateType.MobileAppBackend, UsageSize.Small)] =
         [
-            ResourceSubCategory.CloudFunctions,
-            ResourceSubCategory.NoSQL,
+            ResourceSubCategory.VirtualMachines,
+            ResourceSubCategory.Relational,
             ResourceSubCategory.ObjectStorage,
             ResourceSubCategory.Backup,
             ResourceSubCategory.ApiGateway,
@@ -715,59 +717,24 @@ public class TemplateService : ITemplateService
         ],
 
         // ========== Blank Template ==========
-        // Small: 1× compute (CloudFunctions or small VM), 1× DB, ObjectStorage if needed
+        // Small: Empty template
         [(TemplateType.Blank, UsageSize.Small)] =
         [
-            ResourceSubCategory.CloudFunctions,
-            ResourceSubCategory.Relational,
-            ResourceSubCategory.ObjectStorage,
-            ResourceSubCategory.Secrets,
-            ResourceSubCategory.Monitoring
         ],
 
-        // Medium: Kubernetes (small) or expanded functions, DB replicas/partitioning, Caching
+        // Medium: Empty template
         [(TemplateType.Blank, UsageSize.Medium)] =
         [
-            ResourceSubCategory.Kubernetes,
-            ResourceSubCategory.Relational,
-            ResourceSubCategory.Caching,
-            ResourceSubCategory.ObjectStorage,
-            ResourceSubCategory.LoadBalancer,
-            ResourceSubCategory.Secrets,
-            ResourceSubCategory.Monitoring
         ],
 
-        // Large: Kubernetes (medium–large), full networking stack, Streaming for logs/events
+        // Large: Empty template
         [(TemplateType.Blank, UsageSize.Large)] =
         [
-            ResourceSubCategory.Kubernetes,
-            ResourceSubCategory.Relational,
-            ResourceSubCategory.Caching,
-            ResourceSubCategory.ObjectStorage,
-            ResourceSubCategory.LoadBalancer,
-            ResourceSubCategory.ApiGateway,
-            ResourceSubCategory.Streaming,
-            ResourceSubCategory.Secrets,
-            ResourceSubCategory.Monitoring
         ],
 
-        // XLarge: Multi-region deployment, global CDN, advanced analytics and security posture
+        // XLarge: Empty template
         [(TemplateType.Blank, UsageSize.ExtraLarge)] =
         [
-            ResourceSubCategory.Kubernetes,
-            ResourceSubCategory.Relational,
-            ResourceSubCategory.NoSQL,
-            ResourceSubCategory.Caching,
-            ResourceSubCategory.ObjectStorage,
-            ResourceSubCategory.LoadBalancer,
-            ResourceSubCategory.ApiGateway,
-            ResourceSubCategory.CDN,
-            ResourceSubCategory.Streaming,
-            ResourceSubCategory.DataWarehouse,
-            ResourceSubCategory.Secrets,
-            ResourceSubCategory.Monitoring,
-            ResourceSubCategory.Compliance,
-            ResourceSubCategory.WebApplicationFirewall
         ],
     };
 
