@@ -58,12 +58,6 @@
   {
     Name: AmazonS3,
     Region: us-east-1,
-    Category: Storage,
-    SubCategory: BlobStorage
-  },
-  {
-    Name: AmazonS3,
-    Region: us-east-1,
     PricePerGbMonth: 0.003,
     Category: Storage,
     SubCategory: BlobStorage
@@ -71,36 +65,7 @@
   {
     Name: AmazonS3,
     Region: us-east-1,
-    PricePerGbMonth: 0.0025,
-    Category: Storage,
-    SubCategory: BlobStorage
-  },
-  {
-    Name: AmazonS3,
-    Region: us-east-1,
-    PricePerRequest: 0.00003,
-    Category: Storage,
-    SubCategory: BlobStorage
-  },
-  {
-    Name: AmazonS3,
-    Region: us-east-1,
     PricePerGbMonth: 0.003,
-    Category: Storage,
-    SubCategory: BlobStorage
-  },
-  {
-    Name: Analytics,
-    Region: us-east-1,
-    StorageClass: Analytics,
-    PricePerGbMonth: 0.0265,
-    Category: Storage,
-    SubCategory: BlobStorage
-  },
-  {
-    Name: AmazonS3,
-    Region: us-east-1,
-    PricePerRequest: 0.000005,
     Category: Storage,
     SubCategory: BlobStorage
   },
@@ -114,35 +79,7 @@
   {
     Name: AmazonS3,
     Region: us-east-1,
-    PricePerRequest: 0.0000004,
-    Category: Storage,
-    SubCategory: BlobStorage
-  },
-  {
-    Name: AmazonS3,
-    Region: us-east-1,
-    PricePerRequest: 0.00003,
-    Category: Storage,
-    SubCategory: BlobStorage
-  },
-  {
-    Name: AmazonS3,
-    Region: us-east-1,
     PricePerRequest: 0.000005,
-    Category: Storage,
-    SubCategory: BlobStorage
-  },
-  {
-    Name: AmazonS3,
-    Region: us-east-1,
-    PricePerRequest: 0.00003,
-    Category: Storage,
-    SubCategory: BlobStorage
-  },
-  {
-    Name: AmazonS3,
-    Region: us-east-1,
-    PricePerGbMonth: 0.02,
     Category: Storage,
     SubCategory: BlobStorage
   },
@@ -156,13 +93,6 @@
   {
     Name: AmazonS3,
     Region: us-east-1,
-    PricePerRequest: 0.00003,
-    Category: Storage,
-    SubCategory: BlobStorage
-  },
-  {
-    Name: AmazonS3,
-    Region: us-east-1,
     PricePerGbMonth: 0.004,
     Category: Storage,
     SubCategory: BlobStorage
@@ -170,130 +100,6 @@
   {
     Name: AmazonS3,
     Region: us-east-1,
-    PricePerGbMonth: 0.004,
-    Category: Storage,
-    SubCategory: BlobStorage
-  },
-  {
-    Name: AmazonS3,
-    Region: us-east-1,
-    PricePerGbMonth: 0.023,
-    Category: Storage,
-    SubCategory: BlobStorage
-  },
-  {
-    Name: AmazonS3,
-    Region: us-east-1,
-    PricePerGbMonth: 0.004,
-    Category: Storage,
-    SubCategory: BlobStorage
-  },
-  {
-    Name: AmazonS3,
-    Region: us-east-1,
-    PricePerGbMonth: 0.004,
-    Category: Storage,
-    SubCategory: BlobStorage
-  },
-  {
-    Name: AmazonS3,
-    Region: us-east-1,
-    PricePerRequest: 0.000005,
-    Category: Storage,
-    SubCategory: BlobStorage
-  },
-  {
-    Name: AmazonS3,
-    Region: us-east-1,
-    PricePerGbMonth: 0.004,
-    Category: Storage,
-    SubCategory: BlobStorage
-  },
-  {
-    Name: AmazonS3,
-    Region: us-east-1,
-    Category: Storage,
-    SubCategory: BlobStorage
-  },
-  {
-    Name: AmazonS3,
-    Region: us-east-1,
-    PricePerGbMonth: 0.0,
-    Category: Storage,
-    SubCategory: BlobStorage
-  },
-  {
-    Name: AmazonS3,
-    Region: us-east-1,
-    PricePerGbMonth: 0.004,
-    Category: Storage,
-    SubCategory: BlobStorage
-  },
-  {
-    Name: AmazonS3,
-    Region: us-east-1,
-    PricePerRequest: 0.00001,
-    Category: Storage,
-    SubCategory: BlobStorage
-  },
-  {
-    Name: AmazonS3,
-    Region: us-east-1,
-    Category: Storage,
-    SubCategory: BlobStorage
-  },
-  {
-    Name: AmazonS3,
-    Region: us-east-1,
-    PricePerRequest: 0.000005,
-    Category: Storage,
-    SubCategory: BlobStorage
-  },
-  {
-    Name: AmazonS3,
-    Region: us-east-1,
-    PricePerRequest: 0.00003,
-    Category: Storage,
-    SubCategory: BlobStorage
-  },
-  {
-    Name: AmazonS3,
-    Region: us-east-1,
-    Category: Storage,
-    SubCategory: BlobStorage
-  },
-  {
-    Name: AmazonS3,
-    Region: us-east-1,
-    PricePerGbMonth: 0.000001953,
-    Category: Storage,
-    SubCategory: BlobStorage
-  },
-  {
-    Name: AmazonS3,
-    Region: us-east-1,
-    PricePerGbMonth: 0.004,
-    Category: Storage,
-    SubCategory: BlobStorage
-  },
-  {
-    Name: AmazonS3,
-    Region: us-east-1,
-    PricePerRequest: 0.00003,
-    Category: Storage,
-    SubCategory: BlobStorage
-  },
-  {
-    Name: AmazonS3,
-    Region: us-east-1,
-    PricePerGbMonth: 0.0,
-    Category: Storage,
-    SubCategory: BlobStorage
-  },
-  {
-    Name: AmazonS3,
-    Region: us-east-1,
-    PricePerGbMonth: 0.003,
     Category: Storage,
     SubCategory: BlobStorage
   },
@@ -301,28 +107,6 @@
     Name: AmazonS3,
     Region: us-east-1,
     PricePerRequest: 0.0000004,
-    Category: Storage,
-    SubCategory: BlobStorage
-  },
-  {
-    Name: AmazonS3,
-    Region: us-east-1,
-    PricePerGbMonth: 0.002,
-    Category: Storage,
-    SubCategory: BlobStorage
-  },
-  {
-    Name: Analytics,
-    Region: us-east-1,
-    StorageClass: Analytics,
-    PricePerGbMonth: 0.0144,
-    Category: Storage,
-    SubCategory: BlobStorage
-  },
-  {
-    Name: AmazonS3,
-    Region: us-east-1,
-    PricePerRequest: 0.00003,
     Category: Storage,
     SubCategory: BlobStorage
   },
@@ -343,40 +127,27 @@
   {
     Name: AmazonS3,
     Region: us-east-1,
-    PricePerGbMonth: 0.0007,
+    PricePerRequest: 0.0000004,
     Category: Storage,
     SubCategory: BlobStorage
   },
   {
     Name: AmazonS3,
     Region: us-east-1,
-    PricePerRequest: 0.0,
+    PricePerGbMonth: 0.004,
     Category: Storage,
     SubCategory: BlobStorage
   },
   {
     Name: AmazonS3,
     Region: us-east-1,
+    PricePerGbMonth: 0.004,
     Category: Storage,
     SubCategory: BlobStorage
   },
   {
     Name: AmazonS3,
     Region: us-east-1,
-    PricePerGbMonth: 0.005,
-    Category: Storage,
-    SubCategory: BlobStorage
-  },
-  {
-    Name: AmazonS3,
-    Region: us-east-1,
-    Category: Storage,
-    SubCategory: BlobStorage
-  },
-  {
-    Name: AmazonS3,
-    Region: us-east-1,
-    PricePerRequest: 0.00003,
     Category: Storage,
     SubCategory: BlobStorage
   },
@@ -461,21 +232,7 @@
   {
     Name: AmazonS3,
     Region: us-east-1,
-    PricePerRequest: 0.00003,
-    Category: Storage,
-    SubCategory: BlobStorage
-  },
-  {
-    Name: AmazonS3,
-    Region: us-east-1,
     PricePerRequest: 0.0000004,
-    Category: Storage,
-    SubCategory: BlobStorage
-  },
-  {
-    Name: AmazonS3,
-    Region: us-east-1,
-    PricePerRequest: 0.000055,
     Category: Storage,
     SubCategory: BlobStorage
   },
@@ -489,7 +246,20 @@
   {
     Name: AmazonS3,
     Region: us-east-1,
+    PricePerGbMonth: 0.003,
+    Category: Storage,
+    SubCategory: BlobStorage
+  },
+  {
+    Name: AmazonS3,
+    Region: us-east-1,
     PricePerRequest: 0.00003,
+    Category: Storage,
+    SubCategory: BlobStorage
+  },
+  {
+    Name: AmazonS3,
+    Region: us-east-1,
     Category: Storage,
     SubCategory: BlobStorage
   },
@@ -510,6 +280,14 @@
   {
     Name: AmazonS3,
     Region: us-east-1,
+    PricePerGbMonth: 0.000001953,
+    Category: Storage,
+    SubCategory: BlobStorage
+  },
+  {
+    Name: AmazonS3,
+    Region: us-east-1,
+    PricePerRequest: 0.00003,
     Category: Storage,
     SubCategory: BlobStorage
   },
@@ -521,10 +299,15 @@
     SubCategory: BlobStorage
   },
   {
-    Name: Analytics,
+    Name: AmazonS3,
     Region: us-east-1,
-    StorageClass: Analytics,
-    PricePerGbMonth: 0.0265,
+    PricePerGbMonth: 0.005,
+    Category: Storage,
+    SubCategory: BlobStorage
+  },
+  {
+    Name: AmazonS3,
+    Region: us-east-1,
     Category: Storage,
     SubCategory: BlobStorage
   },
@@ -532,6 +315,19 @@
     Name: AmazonS3,
     Region: us-east-1,
     PricePerRequest: 0.00003,
+    Category: Storage,
+    SubCategory: BlobStorage
+  },
+  {
+    Name: AmazonS3,
+    Region: us-east-1,
+    PricePerRequest: 0.00003,
+    Category: Storage,
+    SubCategory: BlobStorage
+  },
+  {
+    Name: AmazonS3,
+    Region: us-east-1,
     Category: Storage,
     SubCategory: BlobStorage
   },
@@ -566,6 +362,210 @@
     Name: AmazonS3,
     Region: us-east-1,
     PricePerRequest: 0.000005,
+    Category: Storage,
+    SubCategory: BlobStorage
+  },
+  {
+    Name: AmazonS3,
+    Region: us-east-1,
+    PricePerRequest: 0.00003,
+    Category: Storage,
+    SubCategory: BlobStorage
+  },
+  {
+    Name: AmazonS3,
+    Region: us-east-1,
+    PricePerGbMonth: 0.004,
+    Category: Storage,
+    SubCategory: BlobStorage
+  },
+  {
+    Name: Analytics,
+    Region: us-east-1,
+    StorageClass: Analytics,
+    PricePerGbMonth: 0.0144,
+    Category: Storage,
+    SubCategory: BlobStorage
+  },
+  {
+    Name: AmazonS3,
+    Region: us-east-1,
+    PricePerRequest: 0.00003,
+    Category: Storage,
+    SubCategory: BlobStorage
+  },
+  {
+    Name: Analytics,
+    Region: us-east-1,
+    StorageClass: Analytics,
+    PricePerGbMonth: 0.0265,
+    Category: Storage,
+    SubCategory: BlobStorage
+  },
+  {
+    Name: AmazonS3,
+    Region: us-east-1,
+    PricePerRequest: 0.00003,
+    Category: Storage,
+    SubCategory: BlobStorage
+  },
+  {
+    Name: AmazonS3,
+    Region: us-east-1,
+    PricePerGbMonth: 0.02,
+    Category: Storage,
+    SubCategory: BlobStorage
+  },
+  {
+    Name: AmazonS3,
+    Region: us-east-1,
+    PricePerRequest: 0.00003,
+    Category: Storage,
+    SubCategory: BlobStorage
+  },
+  {
+    Name: AmazonS3,
+    Region: us-east-1,
+    PricePerGbMonth: 0.0025,
+    Category: Storage,
+    SubCategory: BlobStorage
+  },
+  {
+    Name: AmazonS3,
+    Region: us-east-1,
+    PricePerGbMonth: 0.023,
+    Category: Storage,
+    SubCategory: BlobStorage
+  },
+  {
+    Name: AmazonS3,
+    Region: us-east-1,
+    PricePerGbMonth: 0.0007,
+    Category: Storage,
+    SubCategory: BlobStorage
+  },
+  {
+    Name: AmazonS3,
+    Region: us-east-1,
+    PricePerRequest: 0.0,
+    Category: Storage,
+    SubCategory: BlobStorage
+  },
+  {
+    Name: AmazonS3,
+    Region: us-east-1,
+    PricePerGbMonth: 0.004,
+    Category: Storage,
+    SubCategory: BlobStorage
+  },
+  {
+    Name: AmazonS3,
+    Region: us-east-1,
+    Category: Storage,
+    SubCategory: BlobStorage
+  },
+  {
+    Name: AmazonS3,
+    Region: us-east-1,
+    PricePerRequest: 0.00003,
+    Category: Storage,
+    SubCategory: BlobStorage
+  },
+  {
+    Name: AmazonS3,
+    Region: us-east-1,
+    PricePerRequest: 0.000005,
+    Category: Storage,
+    SubCategory: BlobStorage
+  },
+  {
+    Name: AmazonS3,
+    Region: us-east-1,
+    PricePerRequest: 0.00003,
+    Category: Storage,
+    SubCategory: BlobStorage
+  },
+  {
+    Name: AmazonS3,
+    Region: us-east-1,
+    PricePerGbMonth: 0.004,
+    Category: Storage,
+    SubCategory: BlobStorage
+  },
+  {
+    Name: AmazonS3,
+    Region: us-east-1,
+    Category: Storage,
+    SubCategory: BlobStorage
+  },
+  {
+    Name: AmazonS3,
+    Region: us-east-1,
+    PricePerGbMonth: 0.0,
+    Category: Storage,
+    SubCategory: BlobStorage
+  },
+  {
+    Name: AmazonS3,
+    Region: us-east-1,
+    PricePerGbMonth: 0.004,
+    Category: Storage,
+    SubCategory: BlobStorage
+  },
+  {
+    Name: AmazonS3,
+    Region: us-east-1,
+    PricePerRequest: 0.000055,
+    Category: Storage,
+    SubCategory: BlobStorage
+  },
+  {
+    Name: AmazonS3,
+    Region: us-east-1,
+    PricePerRequest: 0.00001,
+    Category: Storage,
+    SubCategory: BlobStorage
+  },
+  {
+    Name: AmazonS3,
+    Region: us-east-1,
+    PricePerGbMonth: 0.0,
+    Category: Storage,
+    SubCategory: BlobStorage
+  },
+  {
+    Name: AmazonS3,
+    Region: us-east-1,
+    PricePerRequest: 0.000005,
+    Category: Storage,
+    SubCategory: BlobStorage
+  },
+  {
+    Name: Analytics,
+    Region: us-east-1,
+    StorageClass: Analytics,
+    PricePerGbMonth: 0.0265,
+    Category: Storage,
+    SubCategory: BlobStorage
+  },
+  {
+    Name: AmazonS3,
+    Region: us-east-1,
+    PricePerRequest: 0.000005,
+    Category: Storage,
+    SubCategory: BlobStorage
+  },
+  {
+    Name: AmazonS3,
+    Region: us-east-1,
+    PricePerRequest: 0.00003,
+    Category: Storage,
+    SubCategory: BlobStorage
+  },
+  {
+    Name: AmazonS3,
+    Region: us-east-1,
+    PricePerGbMonth: 0.002,
     Category: Storage,
     SubCategory: BlobStorage
   },
@@ -789,167 +789,6 @@
     Name: AmazonS3,
     Region: us-east-1,
     PricePerRequest: 0.0,
-    Category: Storage,
-    SubCategory: BlobStorage
-  },
-  {
-    Name: Cloud Storage,
-    Region: us-east1,
-    Cloud: gcp,
-    Category: Storage,
-    SubCategory: BlobStorage
-  },
-  {
-    Name: Cloud Storage,
-    Region: us-east1,
-    Cloud: gcp,
-    Category: Storage,
-    SubCategory: BlobStorage
-  },
-  {
-    Name: Cloud Storage,
-    Region: us-east1,
-    Cloud: gcp,
-    Category: Storage,
-    SubCategory: BlobStorage
-  },
-  {
-    Name: Cloud Storage,
-    Region: us-east1,
-    Cloud: gcp,
-    Category: Storage,
-    SubCategory: BlobStorage
-  },
-  {
-    Name: Cloud Storage,
-    Region: us-east1,
-    Cloud: gcp,
-    Category: Storage,
-    SubCategory: BlobStorage
-  },
-  {
-    Name: Cloud Storage,
-    Region: us-east1,
-    Cloud: gcp,
-    Category: Storage,
-    SubCategory: BlobStorage
-  },
-  {
-    Name: Cloud Storage,
-    Region: us-east1,
-    Cloud: gcp,
-    Category: Storage,
-    SubCategory: BlobStorage
-  },
-  {
-    Name: Cloud Storage,
-    Region: us-east1,
-    Cloud: gcp,
-    Category: Storage,
-    SubCategory: BlobStorage
-  },
-  {
-    Name: Cloud Storage,
-    Region: us-east1,
-    Cloud: gcp,
-    Category: Storage,
-    SubCategory: BlobStorage
-  },
-  {
-    Name: Cloud Storage,
-    Region: us-east1,
-    Cloud: gcp,
-    Category: Storage,
-    SubCategory: BlobStorage
-  },
-  {
-    Name: Cloud Storage,
-    Region: us-east1,
-    Cloud: gcp,
-    Category: Storage,
-    SubCategory: BlobStorage
-  },
-  {
-    Name: Cloud Storage,
-    Region: us-east1,
-    Cloud: gcp,
-    Category: Storage,
-    SubCategory: BlobStorage
-  },
-  {
-    Name: Cloud Storage,
-    Region: us-east1,
-    Cloud: gcp,
-    Category: Storage,
-    SubCategory: BlobStorage
-  },
-  {
-    Name: Cloud Storage,
-    Region: us-east1,
-    Cloud: gcp,
-    Category: Storage,
-    SubCategory: BlobStorage
-  },
-  {
-    Name: Cloud Storage,
-    Region: us-east1,
-    Cloud: gcp,
-    Category: Storage,
-    SubCategory: BlobStorage
-  },
-  {
-    Name: Cloud Storage,
-    Region: us-east1,
-    Cloud: gcp,
-    Category: Storage,
-    SubCategory: BlobStorage
-  },
-  {
-    Name: Cloud Storage,
-    Region: us-east1,
-    Cloud: gcp,
-    Category: Storage,
-    SubCategory: BlobStorage
-  },
-  {
-    Name: Cloud Storage,
-    Region: us-east1,
-    Cloud: gcp,
-    Category: Storage,
-    SubCategory: BlobStorage
-  },
-  {
-    Name: Cloud Storage,
-    Region: us-east1,
-    Cloud: gcp,
-    Category: Storage,
-    SubCategory: BlobStorage
-  },
-  {
-    Name: Cloud Storage,
-    Region: us-east1,
-    Cloud: gcp,
-    Category: Storage,
-    SubCategory: BlobStorage
-  },
-  {
-    Name: Cloud Storage,
-    Region: us-east1,
-    Cloud: gcp,
-    Category: Storage,
-    SubCategory: BlobStorage
-  },
-  {
-    Name: Cloud Storage,
-    Region: us-east1,
-    Cloud: gcp,
-    Category: Storage,
-    SubCategory: BlobStorage
-  },
-  {
-    Name: Cloud Storage,
-    Region: us-east1,
-    Cloud: gcp,
     Category: Storage,
     SubCategory: BlobStorage
   },
