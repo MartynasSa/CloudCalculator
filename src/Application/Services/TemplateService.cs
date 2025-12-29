@@ -148,10 +148,10 @@ public class TemplateService : ITemplateService
         ],
 
         // ========== REST API Template ==========
-        // Small: CloudFunctions; 1× Relational or NoSQL; small Caching
+        // Small: VirtualMachines; 1× Relational or NoSQL; small Caching
         [(TemplateType.RestApi, UsageSize.Small)] =
         [
-            ResourceSubCategory.CloudFunctions,
+            ResourceSubCategory.VirtualMachines,
             ResourceSubCategory.Relational,
             ResourceSubCategory.Caching,
             ResourceSubCategory.ObjectStorage,
@@ -424,11 +424,11 @@ public class TemplateService : ITemplateService
         ],
 
         // ========== Headless Frontend API Template ==========
-        // Small: CloudFunctions; 1× DB; small Caching; CDN
+        // Small: VirtualMachines; 1× Relational; small Caching; CDN
         [(TemplateType.HeadlessFrontendApi, UsageSize.Small)] =
         [
-            ResourceSubCategory.CloudFunctions,
-            ResourceSubCategory.NoSQL,
+            ResourceSubCategory.VirtualMachines,
+            ResourceSubCategory.Relational,
             ResourceSubCategory.Caching,
             ResourceSubCategory.ObjectStorage,
             ResourceSubCategory.Backup,
@@ -501,13 +501,16 @@ public class TemplateService : ITemplateService
         ],
 
         // ========== Data Analytics Template ==========
-        // Small: ObjectStorage + single DataWarehouse instance; basic Streaming (ETL)
+        // Small: VirtualMachines + ObjectStorage + Relational + DataWarehouse instance; basic Streaming (ETL); LoadBalancer
         [(TemplateType.DataAnalytics, UsageSize.Small)] =
         [
+            ResourceSubCategory.VirtualMachines,
+            ResourceSubCategory.Relational,
             ResourceSubCategory.ObjectStorage,
             ResourceSubCategory.Backup,
             ResourceSubCategory.DataWarehouse,
             ResourceSubCategory.Streaming,
+            ResourceSubCategory.LoadBalancer,
             ResourceSubCategory.Queueing,
             ResourceSubCategory.Messaging,
             ResourceSubCategory.Secrets,
@@ -647,7 +650,7 @@ public class TemplateService : ITemplateService
         ],
 
         // ========== Serverless Event Driven Template ==========
-        // Small: CloudFunctions; 1× NoSQL; lightweight Queueing/Messaging
+        // Small: CloudFunctions; 1× NoSQL; lightweight Queueing/Messaging; LoadBalancer
         [(TemplateType.ServerlessEventDriven, UsageSize.Small)] =
         [
             ResourceSubCategory.CloudFunctions,
@@ -655,10 +658,10 @@ public class TemplateService : ITemplateService
             ResourceSubCategory.ObjectStorage,
             ResourceSubCategory.Backup,
             ResourceSubCategory.ApiGateway,
+            ResourceSubCategory.LoadBalancer,
             ResourceSubCategory.Queueing,
             ResourceSubCategory.Messaging,
             ResourceSubCategory.Secrets,
-            ResourceSubCategory.Monitoring,
             ResourceSubCategory.WebApplicationFirewall
         ],
 

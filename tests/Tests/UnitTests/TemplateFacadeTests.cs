@@ -260,6 +260,11 @@ public class TemplateFacadeTests(WebApplicationFactory<Program> factory) : TestB
             // Security (700-799)
             ResourceSubCategory.WebApplicationFirewall,
             ResourceSubCategory.IdentityManagement,
+
+            // AI/ML (800-899)
+            ResourceSubCategory.AIServices,
+            ResourceSubCategory.MLPlatforms,
+            ResourceSubCategory.IntelligentSearch,
         };
 
         var missingImplementations = allSubCategories
