@@ -252,19 +252,6 @@ public class PriceProvider : IPriceProvider
         return result;
     }
 
-    public Dictionary<UsageSize, List<NormalizedResourceDto>> GetDatabaseStorage(
-        List<NormalizedResourceDto> databaseStorage)
-    {
-        var result = new Dictionary<UsageSize, List<NormalizedResourceDto>>();
-
-        foreach (UsageSize usageSize in Enum.GetValues<UsageSize>())
-        {
-            result[usageSize] = GetGenericResource(databaseStorage, ResourceSubCategory.DatabaseStorage);
-        }
-
-        return result;
-    }
-
     public Dictionary<UsageSize, List<NormalizedResourceDto>> GetCaching(
         List<NormalizedResourceDto> caching)
     {

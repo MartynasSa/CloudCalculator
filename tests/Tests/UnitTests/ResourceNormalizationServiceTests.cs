@@ -398,7 +398,6 @@ public class ResourceNormalizationServiceTests(WebApplicationFactory<Program> fa
         var databaseSubCategories = new[]
         {
             ResourceSubCategory.Relational,
-            ResourceSubCategory.DatabaseStorage
         };
 
         var storageSubCategories = new[]

@@ -28,7 +28,6 @@ public enum DatabaseType
     None = 0,
     Relational = 200,
     NoSQL = 202,
-    DatabaseStorage = 203,
     Caching = 204,
 }
 
@@ -83,7 +82,6 @@ public enum ResourceSubCategory
     // Database (200-299)
     Relational = DatabaseType.Relational,
     NoSQL = DatabaseType.NoSQL,
-    DatabaseStorage = DatabaseType.DatabaseStorage,
     Caching = DatabaseType.Caching,
 
     // Storage (300-399)

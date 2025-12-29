@@ -230,7 +230,6 @@ public class TemplateFacadeTests(WebApplicationFactory<Program> factory) : TestB
             // Database (200-299)
             ResourceSubCategory.Relational,
             ResourceSubCategory.NoSQL,
-            ResourceSubCategory.DatabaseStorage,
             ResourceSubCategory.Caching,
 
             // Storage (300-399)
