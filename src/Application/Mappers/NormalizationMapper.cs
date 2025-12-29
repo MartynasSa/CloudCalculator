@@ -17,10 +17,10 @@ public static class NormalizationMapper
                           ?? product.Attributes.FirstOrDefault(a => a.Key == "machineType")?.Value
                           ?? product.Attributes.FirstOrDefault(a => a.Key == "meterName")?.Value;
 
-        // Fallback to "Unknown" if still empty
+        // Fallback to Service if instanceName is still empty
         if (string.IsNullOrWhiteSpace(instanceName))
         {
-            instanceName = "Unknown";
+            instanceName = !string.IsNullOrWhiteSpace(product.Service) ? product.Service : product.ProductFamily;
         }
 
         var vcpuStr = product.Attributes.FirstOrDefault(a => a.Key == "vcpu")?.Value
@@ -55,10 +55,10 @@ public static class NormalizationMapper
                           ?? product.Attributes.FirstOrDefault(a => a.Key == "machineType")?.Value
                           ?? product.Attributes.FirstOrDefault(a => a.Key == "meterName")?.Value;
 
-        // Fallback to "Unknown" if still empty
+        // Fallback to Service if instanceName is still empty
         if (string.IsNullOrWhiteSpace(instanceName))
         {
-            instanceName = "Unknown";
+            instanceName = !string.IsNullOrWhiteSpace(product.Service) ? product.Service : product.ProductFamily;
         }
 
         var vcpuStr = product.Attributes.FirstOrDefault(a => a.Key == "vcpu")?.Value
@@ -96,7 +96,7 @@ public static class NormalizationMapper
         var functionName = product.Attributes.FirstOrDefault(a => a.Key == "group")?.Value
                           ?? product.Attributes.FirstOrDefault(a => a.Key == "meterName")?.Value
                           ?? product.Attributes.FirstOrDefault(a => a.Key == "description")?.Value
-                          ?? "Unknown";
+                          ?? product.Service;
 
         return new NormalizedCloudFunctionDto
         {
@@ -115,10 +115,27 @@ public static class NormalizationMapper
         ResourceCategory category,
         ResourceSubCategory subCategory)
     {
-        var clusterName = product.Attributes.FirstOrDefault(a => a.Key == "usageType")?.Value
-                         ?? product.Attributes.FirstOrDefault(a => a.Key == "meterName")?.Value
-                         ?? product.Attributes.FirstOrDefault(a => a.Key == "description")?.Value
-                         ?? "Unknown";
+        // For AWS, use the service name (AmazonEKS)
+        // For Azure and GCP, use meterName or productName which contains the cluster tier/type
+        var clusterName = product.VendorName switch
+        {
+            CloudProvider.AWS => product.Service,
+            CloudProvider.Azure => product.Attributes.FirstOrDefault(a => a.Key == "meterName")?.Value
+                                    ?? product.Attributes.FirstOrDefault(a => a.Key == "productName")?.Value
+                                    ?? product.Service,
+            CloudProvider.GCP => product.Attributes.FirstOrDefault(a => a.Key == "description")?.Value
+                                 ?? product.Attributes.FirstOrDefault(a => a.Key == "machineType")?.Value
+                                 ?? product.Service,
+            _ => product.Attributes.FirstOrDefault(a => a.Key == "usageType")?.Value
+                ?? product.Attributes.FirstOrDefault(a => a.Key == "meterName")?.Value
+                ?? product.Service
+        };
+
+        // Fallback to service name if cluster name is still empty
+        if (string.IsNullOrWhiteSpace(clusterName))
+        {
+            clusterName = product.Service;
+        }
 
         var nodeType = product.Attributes.FirstOrDefault(a => a.Key == "instanceType")?.Value
                       ?? product.Attributes.FirstOrDefault(a => a.Key == "productName")?.Value
@@ -145,11 +162,6 @@ public static class NormalizationMapper
                   ?? product.Attributes.FirstOrDefault(a => a.Key == "meterName")?.Value
                   ?? product.Service;
 
-        if (string.IsNullOrWhiteSpace(name))
-        {
-            name = "Unknown";
-        }
-
         return new NormalizedApiGatewayDto
         {
             Category = category,
@@ -172,11 +184,6 @@ public static class NormalizationMapper
                   ?? product.Attributes.FirstOrDefault(a => a.Key == "group")?.Value
                   ?? product.Service;
 
-        if (string.IsNullOrWhiteSpace(name))
-        {
-            name = "Unknown";
-        }
-
         return new NormalizedLoadBalancerDto
         {
             Category = category,
@@ -195,11 +202,6 @@ public static class NormalizationMapper
         var name = product.Attributes.FirstOrDefault(a => a.Key == "storageClass")?.Value
                   ?? product.Attributes.FirstOrDefault(a => a.Key == "meterName")?.Value
                   ?? product.Service;
-
-        if (string.IsNullOrWhiteSpace(name))
-        {
-            name = "Unknown";
-        }
 
         var storageClass = product.Attributes.FirstOrDefault(a => a.Key == "storageClass")?.Value
                           ?? product.Attributes.FirstOrDefault(a => a.Key == "volumeType")?.Value
@@ -296,7 +298,7 @@ public static class NormalizationMapper
     {
         var containerName = product.Attributes.FirstOrDefault(a => a.Key == "usageType")?.Value
                            ?? product.Attributes.FirstOrDefault(a => a.Key == "productName")?.Value
-                           ?? "Unknown";
+                           ?? product.Service;
 
         return new NormalizedContainerInstanceDto
         {
@@ -317,7 +319,7 @@ public static class NormalizationMapper
         var warehouseName = product.Attributes.FirstOrDefault(a => a.Key == "servicename")?.Value
                            ?? product.Attributes.FirstOrDefault(a => a.Key == "meterName")?.Value
                            ?? product.Attributes.FirstOrDefault(a => a.Key == "resourceGroup")?.Value
-                           ?? "Unknown";
+                           ?? product.Service;
 
         var nodeType = product.Attributes.FirstOrDefault(a => a.Key == "instanceType")?.Value
                       ?? product.Attributes.FirstOrDefault(a => a.Key == "productName")?.Value
@@ -343,7 +345,7 @@ public static class NormalizationMapper
         var cacheName = product.Attributes.FirstOrDefault(a => a.Key == "instanceType")?.Value
                        ?? product.Attributes.FirstOrDefault(a => a.Key == "meterName")?.Value
                        ?? product.Attributes.FirstOrDefault(a => a.Key == "description")?.Value
-                       ?? "Unknown";
+                       ?? product.Service;
 
         var cacheEngine = "Redis";
 
@@ -372,8 +374,7 @@ public static class NormalizationMapper
     {
         var messagingService = product.Attributes.FirstOrDefault(a => a.Key == "servicename")?.Value
                               ?? product.Attributes.FirstOrDefault(a => a.Key == "productName")?.Value
-                              ?? product.Service
-                              ?? "Unknown";
+                              ?? product.Service;
 
         var messageType = product.Attributes.FirstOrDefault(a => a.Key == "group")?.Value
                          ?? product.Attributes.FirstOrDefault(a => a.Key == "description")?.Value
@@ -398,8 +399,7 @@ public static class NormalizationMapper
     {
         var queuingService = product.Attributes.FirstOrDefault(a => a.Key == "servicename")?.Value
                             ?? product.Attributes.FirstOrDefault(a => a.Key == "productName")?.Value
-                            ?? product.Service
-                            ?? "Unknown";
+                            ?? product.Service;
 
         var operationType = product.Attributes.FirstOrDefault(a => a.Key == "group")?.Value
                            ?? product.Attributes.FirstOrDefault(a => a.Key == "meterName")?.Value;
@@ -426,8 +426,7 @@ public static class NormalizationMapper
     {
         var monitoringService = product.Attributes.FirstOrDefault(a => a.Key == "servicename")?.Value
                                ?? product.Attributes.FirstOrDefault(a => a.Key == "productName")?.Value
-                               ?? product.Service
-                               ?? "Unknown";
+                               ?? product.Service;
 
         var metricType = product.Attributes.FirstOrDefault(a => a.Key == "group")?.Value
                         ?? product.Attributes.FirstOrDefault(a => a.Key == "resourceGroup")?.Value
@@ -453,8 +452,7 @@ public static class NormalizationMapper
         var cdnName = product.Attributes.FirstOrDefault(a => a.Key == "group")?.Value
                      ?? product.Attributes.FirstOrDefault(a => a.Key == "meterName")?.Value
                      ?? product.Attributes.FirstOrDefault(a => a.Key == "description")?.Value
-                     ?? product.Service
-                     ?? "Unknown";
+                     ?? product.Service;
 
         var edgeLocation = product.Attributes.FirstOrDefault(a => a.Key == "location")?.Value
                           ?? product.Attributes.FirstOrDefault(a => a.Key == "region")?.Value;
@@ -479,8 +477,7 @@ public static class NormalizationMapper
     {
         var serviceName = product.Attributes.FirstOrDefault(a => a.Key == "servicename")?.Value
                          ?? product.Attributes.FirstOrDefault(a => a.Key == "productName")?.Value
-                         ?? product.Service
-                         ?? "Unknown";
+                         ?? product.Service;
 
         var operationType = product.Attributes.FirstOrDefault(a => a.Key == "usagetype")?.Value
                            ?? product.Attributes.FirstOrDefault(a => a.Key == "meterName")?.Value
@@ -507,8 +504,7 @@ public static class NormalizationMapper
     {
         var firewallName = product.Attributes.FirstOrDefault(a => a.Key == "servicename")?.Value
                           ?? product.Attributes.FirstOrDefault(a => a.Key == "productName")?.Value
-                          ?? product.Service
-                          ?? "Unknown";
+                          ?? product.Service;
 
         var firewallType = product.Attributes.FirstOrDefault(a => a.Key == "subcategory")?.Value
                           ?? product.Attributes.FirstOrDefault(a => a.Key == "resourceGroup")?.Value
@@ -616,11 +612,6 @@ public static class NormalizationMapper
                   ?? product.Attributes.FirstOrDefault(a => a.Key == "meterName")?.Value
                   ?? product.Attributes.FirstOrDefault(a => a.Key == "description")?.Value
                   ?? product.Service;
-
-        if (string.IsNullOrWhiteSpace(name))
-        {
-            name = "Unknown";
-        }
 
         var volumeType = product.Attributes.FirstOrDefault(a => a.Key == "volumeType")?.Value
                         ?? product.Attributes.FirstOrDefault(a => a.Key == "skuName")?.Value

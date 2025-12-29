@@ -735,7 +735,7 @@
     SubCategory: VirtualMachines
   },
   {
-    InstanceName: Unknown,
+    InstanceName: Virtual Machines,
     Region: eastus,
     Cloud: azure,
     Category: Compute,
@@ -885,7 +885,7 @@
     SubCategory: VirtualMachines
   },
   {
-    InstanceName: Unknown,
+    InstanceName: Virtual Machines,
     Region: eastus,
     PricePerHour: 9.613,
     Cloud: azure,
@@ -2649,7 +2649,7 @@
     SubCategory: VirtualMachines
   },
   {
-    InstanceName: Unknown,
+    InstanceName: Virtual Machines,
     Region: eastus,
     Cloud: azure,
     Category: Compute,
@@ -4928,7 +4928,7 @@
     SubCategory: VirtualMachines
   },
   {
-    InstanceName: Unknown,
+    InstanceName: Virtual Machines,
     Region: eastus,
     Cloud: azure,
     Category: Compute,
@@ -5073,7 +5073,7 @@
     SubCategory: VirtualMachines
   },
   {
-    InstanceName: Unknown,
+    InstanceName: Virtual Machines,
     Region: eastus,
     PricePerHour: 19.226,
     Cloud: azure,
