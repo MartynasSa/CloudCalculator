@@ -1,0 +1,200 @@
+{
+  "data": {
+    "products": [
+      {
+        "attributes": [
+          {
+            "key": "group",
+            "value": "SQS-APIRequest-Tier1"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": ""
+          },
+          {
+            "key": "queueType",
+            "value": "Fair"
+          },
+          {
+            "key": "usagetype",
+            "value": "Requests-Fair-RBP"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "servicecode",
+            "value": "AWSQueueService"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon Simple Queue Service"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "groupDescription",
+            "value": "Amazon SQS Requests"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AWSQueueService",
+        "region": "us-east-1",
+        "productFamily": "API Request",
+        "prices": [
+          {
+            "USD": "1e-7",
+            "unit": "Requests"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "group",
+            "value": "SQS-APIRequest-Tier1"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": ""
+          },
+          {
+            "key": "queueType",
+            "value": "FIFO (first-in, first-out)"
+          },
+          {
+            "key": "usagetype",
+            "value": "Requests-FIFO-RBP"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "servicecode",
+            "value": "AWSQueueService"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon Simple Queue Service"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "groupDescription",
+            "value": "Amazon SQS Requests"
+          },
+          {
+            "key": "messageDeliveryOrder",
+            "value": "Guaranteed"
+          },
+          {
+            "key": "messageDeliveryFrequency",
+            "value": "Exactly Once"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AWSQueueService",
+        "region": "us-east-1",
+        "productFamily": "API Request",
+        "prices": [
+          {
+            "USD": "5e-7",
+            "unit": "Requests"
+          },
+          {
+            "USD": "4e-7",
+            "unit": "Requests"
+          },
+          {
+            "USD": "3.5e-7",
+            "unit": "Requests"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "group",
+            "value": "SQS-APIRequest-Tier1"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": ""
+          },
+          {
+            "key": "queueType",
+            "value": "Standard"
+          },
+          {
+            "key": "usagetype",
+            "value": "Requests-RBP"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "servicecode",
+            "value": "AWSQueueService"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon Simple Queue Service"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "groupDescription",
+            "value": "Amazon SQS Requests"
+          },
+          {
+            "key": "messageDeliveryOrder",
+            "value": "Not Guaranteed"
+          },
+          {
+            "key": "messageDeliveryFrequency",
+            "value": "At Least Once"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AWSQueueService",
+        "region": "us-east-1",
+        "productFamily": "API Request",
+        "prices": [
+          {
+            "USD": "4e-7",
+            "unit": "Requests"
+          },
+          {
+            "USD": "3e-7",
+            "unit": "Requests"
+          },
+          {
+            "USD": "2.4e-7",
+            "unit": "Requests"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,1900 @@
+{
+  "data": {
+    "products": [
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Message Transform Data Processing"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "Message"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Cloud Pub/Sub",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "40",
+            "unit": "tebibyte"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Subscriptions retained acknowledged messages"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "Message"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Cloud Pub/Sub",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.27",
+            "unit": "gibibyte month"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Message Delivery From Confluent Cloud"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "Message"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Cloud Pub/Sub",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "80",
+            "unit": "tebibyte"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Message Delivery to BigQuery"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "Message"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Cloud Pub/Sub",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "50",
+            "unit": "tebibyte"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Message Delivery From Azure Event Hubs"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "Message"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Cloud Pub/Sub",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "80",
+            "unit": "tebibyte"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Topics message backlog"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "Message"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Cloud Pub/Sub",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.27",
+            "unit": "gibibyte month"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Subscriptions message backlog"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "Subscription"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Cloud Pub/Sub",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.27",
+            "unit": "gibibyte month"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Message Delivery From AWS MSK"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "Message"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Cloud Pub/Sub",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "80",
+            "unit": "tebibyte"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Message Delivery From Google Cloud Storage"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "Message"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Cloud Pub/Sub",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "80",
+            "unit": "tebibyte"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Snapshots message backlog"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "Subscription"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Cloud Pub/Sub",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.27",
+            "unit": "gibibyte month"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Message Delivery to Google Cloud Storage"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "Message"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Cloud Pub/Sub",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "50",
+            "unit": "tebibyte"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Message Delivery Basic"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "Message"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Cloud Pub/Sub",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "40",
+            "unit": "tebibyte"
+          },
+          {
+            "USD": "0",
+            "unit": "tebibyte"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Message Delivery From Kinesis Data Streams"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "Message"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Cloud Pub/Sub",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "50",
+            "unit": "tebibyte"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Inter-region data delivery from North America to South America"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "InterregionEgress"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Cloud Pub/Sub",
+        "region": "global",
+        "productFamily": "Network",
+        "prices": [
+          {
+            "USD": "0.08",
+            "unit": "gibibyte"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Intra-region data delivery"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "InterzoneEgress"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Cloud Pub/Sub",
+        "region": "global",
+        "productFamily": "Network",
+        "prices": [
+          {
+            "USD": "0",
+            "unit": "gibibyte"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Inter-region data delivery from South America to Asia Pacific"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "InterregionEgress"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Cloud Pub/Sub",
+        "region": "global",
+        "productFamily": "Network",
+        "prices": [
+          {
+            "USD": "0.08",
+            "unit": "gibibyte"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Inter-region data delivery from South America to EMEA"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "InterregionEgress"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Cloud Pub/Sub",
+        "region": "global",
+        "productFamily": "Network",
+        "prices": [
+          {
+            "USD": "0.08",
+            "unit": "gibibyte"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Inter-region data delivery from Australia to Asia Pacific"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "InterregionEgress"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Cloud Pub/Sub",
+        "region": "global",
+        "productFamily": "Network",
+        "prices": [
+          {
+            "USD": "0.15",
+            "unit": "gibibyte"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Internet data delivery from EMEA to EMEA"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "PremiumInternetEgress"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Cloud Pub/Sub",
+        "region": "global",
+        "productFamily": "Network",
+        "prices": [
+          {
+            "USD": "0.08",
+            "unit": "gibibyte"
+          },
+          {
+            "USD": "0.06",
+            "unit": "gibibyte"
+          },
+          {
+            "USD": "0.105",
+            "unit": "gibibyte"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Internet data delivery from South America to North America"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "PremiumInternetEgress"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Cloud Pub/Sub",
+        "region": "global",
+        "productFamily": "Network",
+        "prices": [
+          {
+            "USD": "0.085",
+            "unit": "gibibyte"
+          },
+          {
+            "USD": "0.08",
+            "unit": "gibibyte"
+          },
+          {
+            "USD": "0.12",
+            "unit": "gibibyte"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Internet data delivery from Australia to North America"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "PremiumInternetEgress"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Cloud Pub/Sub",
+        "region": "global",
+        "productFamily": "Network",
+        "prices": [
+          {
+            "USD": "0.16",
+            "unit": "gibibyte"
+          },
+          {
+            "USD": "0.15",
+            "unit": "gibibyte"
+          },
+          {
+            "USD": "0.19",
+            "unit": "gibibyte"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Inter connect data delivery via peered network in Asia Pacific"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "PeeringOrInterconnectEgress"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Cloud Pub/Sub",
+        "region": "global",
+        "productFamily": "Network",
+        "prices": [
+          {
+            "USD": "0.042",
+            "unit": "gibibyte"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Internet data delivery from EMEA to Australia"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "PremiumInternetEgress"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Cloud Pub/Sub",
+        "region": "global",
+        "productFamily": "Network",
+        "prices": [
+          {
+            "USD": "0.16",
+            "unit": "gibibyte"
+          },
+          {
+            "USD": "0.15",
+            "unit": "gibibyte"
+          },
+          {
+            "USD": "0.19",
+            "unit": "gibibyte"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Inter-region data delivery from EMEA to Australia"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "InterregionEgress"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Cloud Pub/Sub",
+        "region": "global",
+        "productFamily": "Network",
+        "prices": [
+          {
+            "USD": "0.15",
+            "unit": "gibibyte"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Inter connect data delivery via peered network in South America"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "PeeringOrInterconnectEgress"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Cloud Pub/Sub",
+        "region": "global",
+        "productFamily": "Network",
+        "prices": [
+          {
+            "USD": "0.06",
+            "unit": "gibibyte"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Inter-region data delivery from EMEA to EMEA"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "InterregionEgress"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Cloud Pub/Sub",
+        "region": "global",
+        "productFamily": "Network",
+        "prices": [
+          {
+            "USD": "0.02",
+            "unit": "gibibyte"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Inter connect data delivery via peered network in EMEA"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "PeeringOrInterconnectEgress"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Cloud Pub/Sub",
+        "region": "global",
+        "productFamily": "Network",
+        "prices": [
+          {
+            "USD": "0.02",
+            "unit": "gibibyte"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Inter-region data delivery from Asia Pacific to Australia"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "InterregionEgress"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Cloud Pub/Sub",
+        "region": "global",
+        "productFamily": "Network",
+        "prices": [
+          {
+            "USD": "0.15",
+            "unit": "gibibyte"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Internet data delivery from Asia Pacific to North America"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "PremiumInternetEgress"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Cloud Pub/Sub",
+        "region": "global",
+        "productFamily": "Network",
+        "prices": [
+          {
+            "USD": "0.085",
+            "unit": "gibibyte"
+          },
+          {
+            "USD": "0.08",
+            "unit": "gibibyte"
+          },
+          {
+            "USD": "0.12",
+            "unit": "gibibyte"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Inter-region data delivery from Asia Pacific to EMEA"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "InterregionEgress"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Cloud Pub/Sub",
+        "region": "global",
+        "productFamily": "Network",
+        "prices": [
+          {
+            "USD": "0.08",
+            "unit": "gibibyte"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Inter-region data delivery from South America to Australia"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "InterregionEgress"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Cloud Pub/Sub",
+        "region": "global",
+        "productFamily": "Network",
+        "prices": [
+          {
+            "USD": "0.15",
+            "unit": "gibibyte"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Inter-region data delivery from Asia Pacific to South America"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "InterregionEgress"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Cloud Pub/Sub",
+        "region": "global",
+        "productFamily": "Network",
+        "prices": [
+          {
+            "USD": "0.08",
+            "unit": "gibibyte"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Inter-region data delivery from North America to Australia"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "InterregionEgress"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Cloud Pub/Sub",
+        "region": "global",
+        "productFamily": "Network",
+        "prices": [
+          {
+            "USD": "0.15",
+            "unit": "gibibyte"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Internet data delivery from North America to North America"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "PremiumInternetEgress"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Cloud Pub/Sub",
+        "region": "global",
+        "productFamily": "Network",
+        "prices": [
+          {
+            "USD": "0.08",
+            "unit": "gibibyte"
+          },
+          {
+            "USD": "0.06",
+            "unit": "gibibyte"
+          },
+          {
+            "USD": "0.105",
+            "unit": "gibibyte"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Internet data delivery from North America to Asia Pacific"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "PremiumInternetEgress"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Cloud Pub/Sub",
+        "region": "global",
+        "productFamily": "Network",
+        "prices": [
+          {
+            "USD": "0.085",
+            "unit": "gibibyte"
+          },
+          {
+            "USD": "0.08",
+            "unit": "gibibyte"
+          },
+          {
+            "USD": "0.12",
+            "unit": "gibibyte"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Internet data delivery from Australia to South America"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "PremiumInternetEgress"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Cloud Pub/Sub",
+        "region": "global",
+        "productFamily": "Network",
+        "prices": [
+          {
+            "USD": "0.16",
+            "unit": "gibibyte"
+          },
+          {
+            "USD": "0.15",
+            "unit": "gibibyte"
+          },
+          {
+            "USD": "0.19",
+            "unit": "gibibyte"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Inter-region data delivery from EMEA to North America"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "InterregionEgress"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Cloud Pub/Sub",
+        "region": "global",
+        "productFamily": "Network",
+        "prices": [
+          {
+            "USD": "0.08",
+            "unit": "gibibyte"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Internet data delivery from South America to China"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "PremiumInternetEgress"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Cloud Pub/Sub",
+        "region": "global",
+        "productFamily": "Network",
+        "prices": [
+          {
+            "USD": "0.16",
+            "unit": "gibibyte"
+          },
+          {
+            "USD": "0.15",
+            "unit": "gibibyte"
+          },
+          {
+            "USD": "0.19",
+            "unit": "gibibyte"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Internet data delivery from Asia Pacific to Asia Pacific"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "PremiumInternetEgress"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Cloud Pub/Sub",
+        "region": "global",
+        "productFamily": "Network",
+        "prices": [
+          {
+            "USD": "0.085",
+            "unit": "gibibyte"
+          },
+          {
+            "USD": "0.08",
+            "unit": "gibibyte"
+          },
+          {
+            "USD": "0.12",
+            "unit": "gibibyte"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Inter-region data delivery from North America to North America"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "InterregionEgress"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Cloud Pub/Sub",
+        "region": "global",
+        "productFamily": "Network",
+        "prices": [
+          {
+            "USD": "0.01",
+            "unit": "gibibyte"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Inter-region data delivery from Australia to EMEA"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "InterregionEgress"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Cloud Pub/Sub",
+        "region": "global",
+        "productFamily": "Network",
+        "prices": [
+          {
+            "USD": "0.15",
+            "unit": "gibibyte"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Internet data delivery from North America to EMEA"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "PremiumInternetEgress"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Cloud Pub/Sub",
+        "region": "global",
+        "productFamily": "Network",
+        "prices": [
+          {
+            "USD": "0.085",
+            "unit": "gibibyte"
+          },
+          {
+            "USD": "0.08",
+            "unit": "gibibyte"
+          },
+          {
+            "USD": "0.12",
+            "unit": "gibibyte"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Internet data delivery from Australia to China"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "PremiumInternetEgress"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Cloud Pub/Sub",
+        "region": "global",
+        "productFamily": "Network",
+        "prices": [
+          {
+            "USD": "0.16",
+            "unit": "gibibyte"
+          },
+          {
+            "USD": "0.15",
+            "unit": "gibibyte"
+          },
+          {
+            "USD": "0.19",
+            "unit": "gibibyte"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Inter-region data delivery from EMEA to Asia Pacific"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "InterregionEgress"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Cloud Pub/Sub",
+        "region": "global",
+        "productFamily": "Network",
+        "prices": [
+          {
+            "USD": "0.08",
+            "unit": "gibibyte"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Internet data delivery from South America to Australia"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "PremiumInternetEgress"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Cloud Pub/Sub",
+        "region": "global",
+        "productFamily": "Network",
+        "prices": [
+          {
+            "USD": "0.16",
+            "unit": "gibibyte"
+          },
+          {
+            "USD": "0.15",
+            "unit": "gibibyte"
+          },
+          {
+            "USD": "0.19",
+            "unit": "gibibyte"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Internet data delivery from EMEA to Asia Pacific"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "PremiumInternetEgress"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Cloud Pub/Sub",
+        "region": "global",
+        "productFamily": "Network",
+        "prices": [
+          {
+            "USD": "0.085",
+            "unit": "gibibyte"
+          },
+          {
+            "USD": "0.08",
+            "unit": "gibibyte"
+          },
+          {
+            "USD": "0.12",
+            "unit": "gibibyte"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Internet data delivery from South America to Asia Pacific"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "PremiumInternetEgress"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Cloud Pub/Sub",
+        "region": "global",
+        "productFamily": "Network",
+        "prices": [
+          {
+            "USD": "0.085",
+            "unit": "gibibyte"
+          },
+          {
+            "USD": "0.08",
+            "unit": "gibibyte"
+          },
+          {
+            "USD": "0.12",
+            "unit": "gibibyte"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Internet data delivery from Australia to EMEA"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "PremiumInternetEgress"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Cloud Pub/Sub",
+        "region": "global",
+        "productFamily": "Network",
+        "prices": [
+          {
+            "USD": "0.16",
+            "unit": "gibibyte"
+          },
+          {
+            "USD": "0.15",
+            "unit": "gibibyte"
+          },
+          {
+            "USD": "0.19",
+            "unit": "gibibyte"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Internet data delivery from Asia Pacific to South America"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "PremiumInternetEgress"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Cloud Pub/Sub",
+        "region": "global",
+        "productFamily": "Network",
+        "prices": [
+          {
+            "USD": "0.085",
+            "unit": "gibibyte"
+          },
+          {
+            "USD": "0.08",
+            "unit": "gibibyte"
+          },
+          {
+            "USD": "0.12",
+            "unit": "gibibyte"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Internet data delivery from Asia Pacific to EMEA"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "PremiumInternetEgress"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Cloud Pub/Sub",
+        "region": "global",
+        "productFamily": "Network",
+        "prices": [
+          {
+            "USD": "0.085",
+            "unit": "gibibyte"
+          },
+          {
+            "USD": "0.08",
+            "unit": "gibibyte"
+          },
+          {
+            "USD": "0.12",
+            "unit": "gibibyte"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Internet data delivery from North America to China"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "PremiumInternetEgress"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Cloud Pub/Sub",
+        "region": "global",
+        "productFamily": "Network",
+        "prices": [
+          {
+            "USD": "0.16",
+            "unit": "gibibyte"
+          },
+          {
+            "USD": "0.15",
+            "unit": "gibibyte"
+          },
+          {
+            "USD": "0.19",
+            "unit": "gibibyte"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Internet data delivery from North America to South America"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "PremiumInternetEgress"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Cloud Pub/Sub",
+        "region": "global",
+        "productFamily": "Network",
+        "prices": [
+          {
+            "USD": "0.085",
+            "unit": "gibibyte"
+          },
+          {
+            "USD": "0.08",
+            "unit": "gibibyte"
+          },
+          {
+            "USD": "0.12",
+            "unit": "gibibyte"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Inter-region data delivery from Australia to South America"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "InterregionEgress"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Cloud Pub/Sub",
+        "region": "global",
+        "productFamily": "Network",
+        "prices": [
+          {
+            "USD": "0.15",
+            "unit": "gibibyte"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Inter-region data delivery from Asia Pacific to Asia Pacific"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "InterregionEgress"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Cloud Pub/Sub",
+        "region": "global",
+        "productFamily": "Network",
+        "prices": [
+          {
+            "USD": "0.05",
+            "unit": "gibibyte"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Inter-region data delivery from North America to Asia Pacific"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "InterregionEgress"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Cloud Pub/Sub",
+        "region": "global",
+        "productFamily": "Network",
+        "prices": [
+          {
+            "USD": "0.08",
+            "unit": "gibibyte"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Inter-region data delivery from Australia to Australia"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "InterregionEgress"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Cloud Pub/Sub",
+        "region": "global",
+        "productFamily": "Network",
+        "prices": [
+          {
+            "USD": "0",
+            "unit": "gibibyte"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Inter-region data delivery from South America to South America"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "InterregionEgress"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Cloud Pub/Sub",
+        "region": "global",
+        "productFamily": "Network",
+        "prices": [
+          {
+            "USD": "0",
+            "unit": "gibibyte"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Internet data delivery from South America to South America"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "PremiumInternetEgress"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Cloud Pub/Sub",
+        "region": "global",
+        "productFamily": "Network",
+        "prices": [
+          {
+            "USD": "0.085",
+            "unit": "gibibyte"
+          },
+          {
+            "USD": "0.08",
+            "unit": "gibibyte"
+          },
+          {
+            "USD": "0.12",
+            "unit": "gibibyte"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Inter-region data delivery from North America to EMEA"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "InterregionEgress"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Cloud Pub/Sub",
+        "region": "global",
+        "productFamily": "Network",
+        "prices": [
+          {
+            "USD": "0.08",
+            "unit": "gibibyte"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Inter-region data delivery from South America to North America"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "InterregionEgress"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Cloud Pub/Sub",
+        "region": "global",
+        "productFamily": "Network",
+        "prices": [
+          {
+            "USD": "0.08",
+            "unit": "gibibyte"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Internet data delivery from EMEA to North America"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "PremiumInternetEgress"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Cloud Pub/Sub",
+        "region": "global",
+        "productFamily": "Network",
+        "prices": [
+          {
+            "USD": "0.085",
+            "unit": "gibibyte"
+          },
+          {
+            "USD": "0.08",
+            "unit": "gibibyte"
+          },
+          {
+            "USD": "0.12",
+            "unit": "gibibyte"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Internet data delivery from Australia to Australia"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "PremiumInternetEgress"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Cloud Pub/Sub",
+        "region": "global",
+        "productFamily": "Network",
+        "prices": [
+          {
+            "USD": "0.085",
+            "unit": "gibibyte"
+          },
+          {
+            "USD": "0.08",
+            "unit": "gibibyte"
+          },
+          {
+            "USD": "0.12",
+            "unit": "gibibyte"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Internet data delivery from EMEA to South America"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "PremiumInternetEgress"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Cloud Pub/Sub",
+        "region": "global",
+        "productFamily": "Network",
+        "prices": [
+          {
+            "USD": "0.085",
+            "unit": "gibibyte"
+          },
+          {
+            "USD": "0.08",
+            "unit": "gibibyte"
+          },
+          {
+            "USD": "0.12",
+            "unit": "gibibyte"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Internet data delivery from Asia Pacific to Australia"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "PremiumInternetEgress"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Cloud Pub/Sub",
+        "region": "global",
+        "productFamily": "Network",
+        "prices": [
+          {
+            "USD": "0.16",
+            "unit": "gibibyte"
+          },
+          {
+            "USD": "0.15",
+            "unit": "gibibyte"
+          },
+          {
+            "USD": "0.19",
+            "unit": "gibibyte"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Internet data delivery from Asia Pacific to China"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "PremiumInternetEgress"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Cloud Pub/Sub",
+        "region": "global",
+        "productFamily": "Network",
+        "prices": [
+          {
+            "USD": "0.16",
+            "unit": "gibibyte"
+          },
+          {
+            "USD": "0.15",
+            "unit": "gibibyte"
+          },
+          {
+            "USD": "0.19",
+            "unit": "gibibyte"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Internet data delivery from EMEA to China"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "PremiumInternetEgress"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Cloud Pub/Sub",
+        "region": "global",
+        "productFamily": "Network",
+        "prices": [
+          {
+            "USD": "0.16",
+            "unit": "gibibyte"
+          },
+          {
+            "USD": "0.15",
+            "unit": "gibibyte"
+          },
+          {
+            "USD": "0.19",
+            "unit": "gibibyte"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Internet data delivery from North America to Australia"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "PremiumInternetEgress"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Cloud Pub/Sub",
+        "region": "global",
+        "productFamily": "Network",
+        "prices": [
+          {
+            "USD": "0.16",
+            "unit": "gibibyte"
+          },
+          {
+            "USD": "0.15",
+            "unit": "gibibyte"
+          },
+          {
+            "USD": "0.19",
+            "unit": "gibibyte"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Internet data delivery from Australia to Asia Pacific"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "PremiumInternetEgress"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Cloud Pub/Sub",
+        "region": "global",
+        "productFamily": "Network",
+        "prices": [
+          {
+            "USD": "0.16",
+            "unit": "gibibyte"
+          },
+          {
+            "USD": "0.15",
+            "unit": "gibibyte"
+          },
+          {
+            "USD": "0.19",
+            "unit": "gibibyte"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Internet data delivery from South America to EMEA"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "PremiumInternetEgress"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Cloud Pub/Sub",
+        "region": "global",
+        "productFamily": "Network",
+        "prices": [
+          {
+            "USD": "0.085",
+            "unit": "gibibyte"
+          },
+          {
+            "USD": "0.08",
+            "unit": "gibibyte"
+          },
+          {
+            "USD": "0.12",
+            "unit": "gibibyte"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Data delivery to Google products"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "GoogleEgress"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Cloud Pub/Sub",
+        "region": "global",
+        "productFamily": "Network",
+        "prices": [
+          {
+            "USD": "0",
+            "unit": "gibibyte"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Inter connect data delivery via peered network in North America"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "PeeringOrInterconnectEgress"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Cloud Pub/Sub",
+        "region": "global",
+        "productFamily": "Network",
+        "prices": [
+          {
+            "USD": "0.02",
+            "unit": "gibibyte"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Inter-region data delivery from Asia Pacific to North America"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "InterregionEgress"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Cloud Pub/Sub",
+        "region": "global",
+        "productFamily": "Network",
+        "prices": [
+          {
+            "USD": "0.08",
+            "unit": "gibibyte"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Inter-region data delivery from EMEA to South America"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "InterregionEgress"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Cloud Pub/Sub",
+        "region": "global",
+        "productFamily": "Network",
+        "prices": [
+          {
+            "USD": "0.08",
+            "unit": "gibibyte"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Inter connect data delivery via peered network in Australia"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "PeeringOrInterconnectEgress"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Cloud Pub/Sub",
+        "region": "global",
+        "productFamily": "Network",
+        "prices": [
+          {
+            "USD": "0.042",
+            "unit": "gibibyte"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Inter-region data delivery from Australia to North America"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "InterregionEgress"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Cloud Pub/Sub",
+        "region": "global",
+        "productFamily": "Network",
+        "prices": [
+          {
+            "USD": "0.15",
+            "unit": "gibibyte"
+          }
+        ]
+      }
+    ]
+  }
+}

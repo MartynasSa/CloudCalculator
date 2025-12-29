@@ -91,7 +91,7 @@ public class CalculatorService(IResourceNormalizationService resourceNormalizati
         };
     }
 
-    public decimal CalculateVmCost(NormalizedComputeInstanceDto? vm, int usageHoursPerMonth)
+    private decimal CalculateVmCost(NormalizedComputeInstanceDto? vm, int usageHoursPerMonth)
     {
         if (vm?.PricePerHour is null || vm.PricePerHour <= 0)
         {
@@ -101,7 +101,7 @@ public class CalculatorService(IResourceNormalizationService resourceNormalizati
         return vm.PricePerHour.Value * usageHoursPerMonth;
     }
 
-    public decimal CalculateDatabaseCost(NormalizedDatabaseDto? database, int usageHoursPerMonth)
+    private decimal CalculateDatabaseCost(NormalizedDatabaseDto? database, int usageHoursPerMonth)
     {
         if (database?.PricePerHour is null || database.PricePerHour <= 0)
         {
@@ -111,7 +111,7 @@ public class CalculatorService(IResourceNormalizationService resourceNormalizati
         return database.PricePerHour.Value * usageHoursPerMonth;
     }
 
-    public decimal CalculateLoadBalancerCost(NormalizedLoadBalancerDto? loadBalancer)
+    private decimal CalculateLoadBalancerCost(NormalizedLoadBalancerDto? loadBalancer)
     {
         if (loadBalancer?.PricePerMonth is null || loadBalancer.PricePerMonth <= 0)
         {
@@ -121,7 +121,7 @@ public class CalculatorService(IResourceNormalizationService resourceNormalizati
         return loadBalancer.PricePerMonth.Value;
     }
 
-    public decimal CalculateMonitoringCost(NormalizedMonitoringDto? monitoring)
+    private decimal CalculateMonitoringCost(NormalizedMonitoringDto? monitoring)
     {
         if (monitoring?.PricePerMonth is null || monitoring.PricePerMonth <= 0)
         {

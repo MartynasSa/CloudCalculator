@@ -1,0 +1,44 @@
+{
+  "data": {
+    "products": [
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Standard Storage US Regional"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "RegionalStorage"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Cloud Storage",
+        "region": "us-east1",
+        "productFamily": "Storage",
+        "prices": [
+          {
+            "USD": "0",
+            "unit": "gibibyte month",
+            "startUsageAmount": "0",
+            "endUsageAmount": "5",
+            "purchaseOption": "OnDemand",
+            "termPurchaseOption": null,
+            "termLength": null,
+            "termOfferingClass": null
+          },
+          {
+            "USD": "0.02",
+            "unit": "gibibyte month",
+            "startUsageAmount": "5",
+            "endUsageAmount": null,
+            "purchaseOption": "OnDemand",
+            "termPurchaseOption": null,
+            "termLength": null,
+            "termOfferingClass": null
+          }
+        ]
+      }
+    ]
+  }
+}

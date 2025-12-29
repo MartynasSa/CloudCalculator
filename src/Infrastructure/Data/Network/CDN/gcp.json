@@ -1,0 +1,182 @@
+{
+  "data": {
+    "products": [
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Network CDN North America Intra-Region Cache Fill"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "CDNCacheFill"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Compute Engine",
+        "region": "us-east1",
+        "productFamily": "Network",
+        "prices": [
+          {
+            "USD": "0.01",
+            "unit": "gibibyte"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Network CDN Cache Fill from North America to Oceania"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "CDNCacheFill"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Compute Engine",
+        "region": "us-east1",
+        "productFamily": "Network",
+        "prices": [
+          {
+            "USD": "0.04",
+            "unit": "gibibyte"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Network CDN Cache Fill from North America to South America"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "CDNCacheFill"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Compute Engine",
+        "region": "us-east1",
+        "productFamily": "Network",
+        "prices": [
+          {
+            "USD": "0.04",
+            "unit": "gibibyte"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Network CDN Cache Fill from North America to Europe"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "CDNCacheFill"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Compute Engine",
+        "region": "us-east1",
+        "productFamily": "Network",
+        "prices": [
+          {
+            "USD": "0.04",
+            "unit": "gibibyte"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Network CDN Cache Fill from North America to Asia Pacific"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "CDNCacheFill"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Compute Engine",
+        "region": "us-east1",
+        "productFamily": "Network",
+        "prices": [
+          {
+            "USD": "0.04",
+            "unit": "gibibyte"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Network CDN Cache Fill from North America to China"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "CDNCacheFill"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Compute Engine",
+        "region": "us-east1",
+        "productFamily": "Network",
+        "prices": [
+          {
+            "USD": "0.04",
+            "unit": "gibibyte"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Network CDN Cache Fill from North America to Middle East"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "CDNCacheFill"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Compute Engine",
+        "region": "us-east1",
+        "productFamily": "Network",
+        "prices": [
+          {
+            "USD": "0.04",
+            "unit": "gibibyte"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Network CDN Cache Fill from North America to Other Destinations"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "CDNCacheFill"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Compute Engine",
+        "region": "us-east1",
+        "productFamily": "Network",
+        "prices": [
+          {
+            "USD": "0.04",
+            "unit": "gibibyte"
+          }
+        ]
+      }
+    ]
+  }
+}

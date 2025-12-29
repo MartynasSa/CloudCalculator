@@ -1,0 +1,218 @@
+{
+  "data": {
+    "products": [
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "a96eca0a-e6d7-599a-9eff-f3c62eed9602"
+          },
+          {
+            "key": "skuName",
+            "value": "Standard"
+          },
+          {
+            "key": "meterName",
+            "value": "Standard Event Operations"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0BQG3"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH315NX4WLD"
+          },
+          {
+            "key": "armSkuName",
+            "value": ""
+          },
+          {
+            "key": "productName",
+            "value": "Event Grid"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Internet of Things"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2023-09-01T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Event Grid",
+        "region": "eastus",
+        "productFamily": "Internet of Things",
+        "prices": [
+          {
+            "USD": "0",
+            "unit": "1M"
+          },
+          {
+            "USD": "0.6",
+            "unit": "1M"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "56b2e1ea-9d93-58b4-b9cb-e3dfc62c8dbf"
+          },
+          {
+            "key": "skuName",
+            "value": "Standard"
+          },
+          {
+            "key": "meterName",
+            "value": "Standard MQTT Operations"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0BQG3"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH315NX4WLD"
+          },
+          {
+            "key": "armSkuName",
+            "value": ""
+          },
+          {
+            "key": "productName",
+            "value": "Event Grid"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Internet of Things"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2023-09-01T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Event Grid",
+        "region": "eastus",
+        "productFamily": "Internet of Things",
+        "prices": [
+          {
+            "USD": "0",
+            "unit": "1M"
+          },
+          {
+            "USD": "1",
+            "unit": "1M"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "d207c4bb-d8a3-4f48-bc91-4b324a1399c2"
+          },
+          {
+            "key": "skuName",
+            "value": "Standard"
+          },
+          {
+            "key": "meterName",
+            "value": "Standard Operations"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0BQG3"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH315NX4WLD"
+          },
+          {
+            "key": "armSkuName",
+            "value": ""
+          },
+          {
+            "key": "productName",
+            "value": "Event Grid"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Internet of Things"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2018-04-01T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Event Grid",
+        "region": "eastus",
+        "productFamily": "Internet of Things",
+        "prices": [
+          {
+            "USD": "0",
+            "unit": "100K"
+          },
+          {
+            "USD": "0.06",
+            "unit": "100K"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "e25dfd03-6fc0-5da6-aab0-8e6dd4e0d8ad"
+          },
+          {
+            "key": "skuName",
+            "value": "Standard"
+          },
+          {
+            "key": "meterName",
+            "value": "Standard Throughput Unit"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0BQG3"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH315NX4WLD"
+          },
+          {
+            "key": "armSkuName",
+            "value": ""
+          },
+          {
+            "key": "productName",
+            "value": "Event Grid"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Internet of Things"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2023-09-01T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Event Grid",
+        "region": "eastus",
+        "productFamily": "Internet of Things",
+        "prices": [
+          {
+            "USD": "0.04",
+            "unit": "1 Hour"
+          }
+        ]
+      }
+    ]
+  }
+}

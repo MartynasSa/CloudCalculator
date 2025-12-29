@@ -1,0 +1,1814 @@
+{
+  "data": {
+    "products": [
+      {
+        "attributes": [
+          {
+            "key": "group",
+            "value": "SNS-Standard-Payload-MessageFiltering-Filter-Matched"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": ""
+          },
+          {
+            "key": "usagetype",
+            "value": "USE1-PL-Filter-Matched"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonSNS"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon Simple Notification Service"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "groupDescription",
+            "value": "Amazon SNS Standard Payload Scanned & Matched"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonSNS",
+        "region": "us-east-1",
+        "productFamily": "",
+        "prices": [
+          {
+            "USD": "0.09",
+            "unit": "GB"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "group",
+            "value": "SNS-Standard-Payload-MessageFiltering-Filtered-Out"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": ""
+          },
+          {
+            "key": "usagetype",
+            "value": "USE1-PL-Filtered-Out"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonSNS"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon Simple Notification Service"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "groupDescription",
+            "value": "Amazon SNS Standard Payload Scanned & Filtered"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonSNS",
+        "region": "us-east-1",
+        "productFamily": "",
+        "prices": [
+          {
+            "USD": "0.09",
+            "unit": "GB"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "group",
+            "value": "SNS-FIFO-Payload-MessageFiltering-Filtered-Out"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": ""
+          },
+          {
+            "key": "usagetype",
+            "value": "USE1-F-PL-Filtered-Out"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonSNS"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon Simple Notification Service"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "groupDescription",
+            "value": "Amazon SNS FIFO Payload Scanned & Filtered"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonSNS",
+        "region": "us-east-1",
+        "productFamily": "",
+        "prices": [
+          {
+            "USD": "0.09",
+            "unit": "GB"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "group",
+            "value": "SNS-FIFO-Payload-MessageFiltering-Filter-Matched"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": ""
+          },
+          {
+            "key": "usagetype",
+            "value": "USE1-F-PL-Filter-Matched"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonSNS"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon Simple Notification Service"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "groupDescription",
+            "value": "Amazon SNS FIFO Payload Scanned & Matched"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonSNS",
+        "region": "us-east-1",
+        "productFamily": "",
+        "prices": [
+          {
+            "USD": "0.09",
+            "unit": "GB"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "group",
+            "value": "SNS-FIFO-Payload-MessageFiltering-Filter-Matched"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": ""
+          },
+          {
+            "key": "usagetype",
+            "value": "F-PL-Filter-Matched"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonSNS"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon Simple Notification Service"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "groupDescription",
+            "value": "Amazon SNS FIFO Payload Scanned & Matched"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonSNS",
+        "region": "us-east-1",
+        "productFamily": "",
+        "prices": [
+          {
+            "USD": "0.09",
+            "unit": "GB"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "group",
+            "value": "SNS-FIFO-Payload-MessageFiltering-Filtered-Out"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": ""
+          },
+          {
+            "key": "usagetype",
+            "value": "F-PL-Filtered-Out"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonSNS"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon Simple Notification Service"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "groupDescription",
+            "value": "Amazon SNS FIFO Payload Scanned & Filtered"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonSNS",
+        "region": "us-east-1",
+        "productFamily": "",
+        "prices": [
+          {
+            "USD": "0.09",
+            "unit": "GB"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "group",
+            "value": "SNS-MDP-Scanning"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": ""
+          },
+          {
+            "key": "usagetype",
+            "value": "USE1-MDP-Scanning"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonSNS"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon Simple Notification Service"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "groupDescription",
+            "value": "Amazon SNS Message Scanning"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonSNS",
+        "region": "us-east-1",
+        "productFamily": "",
+        "prices": [
+          {
+            "USD": "0.08",
+            "unit": "GB"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "group",
+            "value": "SNS-FIFO-Subscription-Messages-Payload"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": ""
+          },
+          {
+            "key": "usagetype",
+            "value": "F-Egress-SQS"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonSNS"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon Simple Notification Service"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "groupDescription",
+            "value": "Amazon SNS FIFO Subscription Messages Payload"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonSNS",
+        "region": "us-east-1",
+        "productFamily": "",
+        "prices": [
+          {
+            "USD": "0.001",
+            "unit": "GB"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "group",
+            "value": "SNS-Standard-Payload-MessageFiltering-Filter-Matched"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": ""
+          },
+          {
+            "key": "usagetype",
+            "value": "PL-Filter-Matched"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonSNS"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon Simple Notification Service"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "groupDescription",
+            "value": "Amazon SNS Standard Payload Scanned & Matched"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonSNS",
+        "region": "us-east-1",
+        "productFamily": "",
+        "prices": [
+          {
+            "USD": "0.09",
+            "unit": "GB"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "group",
+            "value": "SNS-FIFO-ArchiveProcessing"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": ""
+          },
+          {
+            "key": "usagetype",
+            "value": "USE1-F-ArchiveProcessing"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonSNS"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon Simple Notification Service"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "groupDescription",
+            "value": "Amazon SNS FIFO Topics Archive Processing"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonSNS",
+        "region": "us-east-1",
+        "productFamily": "",
+        "prices": [
+          {
+            "USD": "0.1",
+            "unit": "GB"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "group",
+            "value": "SNS-FIFO-Requests"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": ""
+          },
+          {
+            "key": "usagetype",
+            "value": "F-Request-Tier1"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonSNS"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon Simple Notification Service"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "groupDescription",
+            "value": "Amazon SNS FIFO API Requests"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonSNS",
+        "region": "us-east-1",
+        "productFamily": "",
+        "prices": [
+          {
+            "USD": "3e-7",
+            "unit": "Requests"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "group",
+            "value": "SNS-Publish-Payload"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": ""
+          },
+          {
+            "key": "usagetype",
+            "value": "F-Ingress-Tier1"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonSNS"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon Simple Notification Service"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "groupDescription",
+            "value": "SNS FIFO Publish Payload"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonSNS",
+        "region": "us-east-1",
+        "productFamily": "",
+        "prices": [
+          {
+            "USD": "0.017",
+            "unit": "GB"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "group",
+            "value": "SNS-FIFO-Subscription-Messages"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": ""
+          },
+          {
+            "key": "usagetype",
+            "value": "F-DA-SQS"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonSNS"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon Simple Notification Service"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "groupDescription",
+            "value": "Amazon SNS FIFO Subscription Messages"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonSNS",
+        "region": "us-east-1",
+        "productFamily": "",
+        "prices": [
+          {
+            "USD": "1e-8",
+            "unit": "Messages"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "group",
+            "value": "SNS-MDP-AuditReporting"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": ""
+          },
+          {
+            "key": "usagetype",
+            "value": "USE1-MDP-AuditReporting"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonSNS"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon Simple Notification Service"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "groupDescription",
+            "value": "Amazon SNS Audit Reporting"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonSNS",
+        "region": "us-east-1",
+        "productFamily": "",
+        "prices": [
+          {
+            "USD": "0.2",
+            "unit": "GB"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "group",
+            "value": "SNS-Standard-Payload-MessageFiltering-Filtered-Out"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": ""
+          },
+          {
+            "key": "usagetype",
+            "value": "PL-Filtered-Out"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonSNS"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon Simple Notification Service"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "groupDescription",
+            "value": "Amazon SNS Standard Payload Scanned & Filtered"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonSNS",
+        "region": "us-east-1",
+        "productFamily": "",
+        "prices": [
+          {
+            "USD": "0.09",
+            "unit": "GB"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "group",
+            "value": "SNS-FIFO-Storage"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": ""
+          },
+          {
+            "key": "usagetype",
+            "value": "USE1-F-Storage"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonSNS"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon Simple Notification Service"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "groupDescription",
+            "value": "Amazon SNS FIFO Topics Storage"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonSNS",
+        "region": "us-east-1",
+        "productFamily": "",
+        "prices": [
+          {
+            "USD": "0.023",
+            "unit": "GB-month"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "group",
+            "value": "SNS-Requests-Tier1"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": ""
+          },
+          {
+            "key": "usagetype",
+            "value": "Requests-Tier1"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonSNS"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon Simple Notification Service"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "groupDescription",
+            "value": "Amazon SNS API Requests"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonSNS",
+        "region": "us-east-1",
+        "productFamily": "API Request",
+        "prices": [
+          {
+            "USD": "0",
+            "unit": "Requests"
+          },
+          {
+            "USD": "5e-7",
+            "unit": "Requests"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": ""
+          },
+          {
+            "key": "usagetype",
+            "value": "DeliveryAttempts-MACOS"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "description",
+            "value": "Charged for each 64KB chunk of published data"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonSNS"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon Simple Notification Service"
+          },
+          {
+            "key": "endpointType",
+            "value": "Apple Push Notification Service (APNS) - Mac OS"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonSNS",
+        "region": "us-east-1",
+        "productFamily": "Message Delivery",
+        "prices": [
+          {
+            "USD": "5e-7",
+            "unit": "Notifications"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": ""
+          },
+          {
+            "key": "usagetype",
+            "value": "DeliveryAttempts-MACOS_SB"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "description",
+            "value": "Charged for each 64KB chunk of published data"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonSNS"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon Simple Notification Service"
+          },
+          {
+            "key": "endpointType",
+            "value": "Apple Push Notification Service (APNS) Sandbox - Mac OS"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonSNS",
+        "region": "us-east-1",
+        "productFamily": "Message Delivery",
+        "prices": [
+          {
+            "USD": "5e-7",
+            "unit": "Notifications"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": ""
+          },
+          {
+            "key": "usagetype",
+            "value": "DeliveryAttempts-AP_PB"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "description",
+            "value": "Charged for each 64KB chunk of published data"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonSNS"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon Simple Notification Service"
+          },
+          {
+            "key": "endpointType",
+            "value": "Apple Passbook"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonSNS",
+        "region": "us-east-1",
+        "productFamily": "Message Delivery",
+        "prices": [
+          {
+            "USD": "5e-7",
+            "unit": "Notifications"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": ""
+          },
+          {
+            "key": "usagetype",
+            "value": "DeliveryAttempts-WNS"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "description",
+            "value": "Charged for each 64KB chunk of published data"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonSNS"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon Simple Notification Service"
+          },
+          {
+            "key": "endpointType",
+            "value": "Windows Push Notification Services (WNS)"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonSNS",
+        "region": "us-east-1",
+        "productFamily": "Message Delivery",
+        "prices": [
+          {
+            "USD": "5e-7",
+            "unit": "Notifications"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": ""
+          },
+          {
+            "key": "usagetype",
+            "value": "DeliveryAttempts-ADM"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "description",
+            "value": "Charged for each 64KB chunk of published data"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonSNS"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon Simple Notification Service"
+          },
+          {
+            "key": "endpointType",
+            "value": "Amazon Device Messaging (ADM)"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonSNS",
+        "region": "us-east-1",
+        "productFamily": "Message Delivery",
+        "prices": [
+          {
+            "USD": "5e-7",
+            "unit": "Notifications"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": ""
+          },
+          {
+            "key": "usagetype",
+            "value": "DeliveryAttempts-SMS"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "description",
+            "value": "Charged for each 64KB chunk of published data"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonSNS"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon Simple Notification Service"
+          },
+          {
+            "key": "endpointType",
+            "value": "SMS"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonSNS",
+        "region": "us-east-1",
+        "productFamily": "Message Delivery",
+        "prices": [
+          {
+            "USD": "0",
+            "unit": "Notifications"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": ""
+          },
+          {
+            "key": "usagetype",
+            "value": "DeliveryAttempts-APNS_SB"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "description",
+            "value": "Charged for each 64KB chunk of published data"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonSNS"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon Simple Notification Service"
+          },
+          {
+            "key": "endpointType",
+            "value": "Apple Push Notification Service (APNS) Sandbox - iOS"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonSNS",
+        "region": "us-east-1",
+        "productFamily": "Message Delivery",
+        "prices": [
+          {
+            "USD": "5e-7",
+            "unit": "Notifications"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": ""
+          },
+          {
+            "key": "usagetype",
+            "value": "DeliveryAttempts-SQS"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "description",
+            "value": "Charged for each 64KB chunk of published data"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonSNS"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon Simple Notification Service"
+          },
+          {
+            "key": "endpointType",
+            "value": "Amazon SQS"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonSNS",
+        "region": "us-east-1",
+        "productFamily": "Message Delivery",
+        "prices": [
+          {
+            "USD": "0",
+            "unit": "Notifications"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": ""
+          },
+          {
+            "key": "usagetype",
+            "value": "DeliveryAttempts-AP_PB_SB"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "description",
+            "value": "Charged for each 64KB chunk of published data"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonSNS"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon Simple Notification Service"
+          },
+          {
+            "key": "endpointType",
+            "value": "Apple Passbook Sandbox"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonSNS",
+        "region": "us-east-1",
+        "productFamily": "Message Delivery",
+        "prices": [
+          {
+            "USD": "5e-7",
+            "unit": "Notifications"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": ""
+          },
+          {
+            "key": "usagetype",
+            "value": "DeliveryAttempts-BAIDU"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "description",
+            "value": "Charged for each 64KB chunk of published data"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonSNS"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon Simple Notification Service"
+          },
+          {
+            "key": "endpointType",
+            "value": "Baidu Cloud Push (Baidu)"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonSNS",
+        "region": "us-east-1",
+        "productFamily": "Message Delivery",
+        "prices": [
+          {
+            "USD": "5e-7",
+            "unit": "Notifications"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": ""
+          },
+          {
+            "key": "usagetype",
+            "value": "DeliveryAttempts-MPNS"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "description",
+            "value": "Charged for each 64KB chunk of published data"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonSNS"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon Simple Notification Service"
+          },
+          {
+            "key": "endpointType",
+            "value": "Microsoft Push Notification Service for Windows Phone (MPNS)"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonSNS",
+        "region": "us-east-1",
+        "productFamily": "Message Delivery",
+        "prices": [
+          {
+            "USD": "5e-7",
+            "unit": "Notifications"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": ""
+          },
+          {
+            "key": "usagetype",
+            "value": "DeliveryAttempts-SMTP"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "description",
+            "value": "Charged for each 64KB chunk of published data"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonSNS"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon Simple Notification Service"
+          },
+          {
+            "key": "endpointType",
+            "value": "SMTP"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonSNS",
+        "region": "us-east-1",
+        "productFamily": "Message Delivery",
+        "prices": [
+          {
+            "USD": "0",
+            "unit": "Notifications"
+          },
+          {
+            "USD": "0.00002",
+            "unit": "Notifications"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": ""
+          },
+          {
+            "key": "usagetype",
+            "value": "DeliveryAttempts-APNS"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "description",
+            "value": "Charged for each 64KB chunk of published data"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonSNS"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon Simple Notification Service"
+          },
+          {
+            "key": "endpointType",
+            "value": "Apple Push Notification Service (APNS) - iOS"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonSNS",
+        "region": "us-east-1",
+        "productFamily": "Message Delivery",
+        "prices": [
+          {
+            "USD": "5e-7",
+            "unit": "Notifications"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": ""
+          },
+          {
+            "key": "usagetype",
+            "value": "DeliveryAttempts-GCM"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "description",
+            "value": "Charged for each 64KB chunk of published data"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonSNS"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon Simple Notification Service"
+          },
+          {
+            "key": "endpointType",
+            "value": "Google Cloud Messaging for Android (GCM)"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonSNS",
+        "region": "us-east-1",
+        "productFamily": "Message Delivery",
+        "prices": [
+          {
+            "USD": "5e-7",
+            "unit": "Notifications"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": ""
+          },
+          {
+            "key": "usagetype",
+            "value": "DeliveryAttempts-LAMBDA"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "description",
+            "value": "Charged for each 64KB chunk of published data"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonSNS"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon Simple Notification Service"
+          },
+          {
+            "key": "endpointType",
+            "value": "AWS Lambda"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonSNS",
+        "region": "us-east-1",
+        "productFamily": "Message Delivery",
+        "prices": [
+          {
+            "USD": "0",
+            "unit": "Notifications"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": ""
+          },
+          {
+            "key": "usagetype",
+            "value": "DeliveryAttempts-AP_V_SB"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "description",
+            "value": "Charged for each 64KB chunk of published data"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonSNS"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon Simple Notification Service"
+          },
+          {
+            "key": "endpointType",
+            "value": "Apple Push Notification Service (APNS) VOIP Sandbox"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonSNS",
+        "region": "us-east-1",
+        "productFamily": "Message Delivery",
+        "prices": [
+          {
+            "USD": "5e-7",
+            "unit": "Notifications"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": ""
+          },
+          {
+            "key": "usagetype",
+            "value": "DeliveryAttempts-HTTP"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "description",
+            "value": "Charged for each 64KB chunk of published data"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonSNS"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon Simple Notification Service"
+          },
+          {
+            "key": "endpointType",
+            "value": "HTTP"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonSNS",
+        "region": "us-east-1",
+        "productFamily": "Message Delivery",
+        "prices": [
+          {
+            "USD": "0",
+            "unit": "Notifications"
+          },
+          {
+            "USD": "6e-7",
+            "unit": "Notifications"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": ""
+          },
+          {
+            "key": "usagetype",
+            "value": "DeliveryAttempts-FIREHOSE"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonSNS"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon Simple Notification Service"
+          },
+          {
+            "key": "endpointType",
+            "value": "Amazon Kinesis Data Firehose"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonSNS",
+        "region": "us-east-1",
+        "productFamily": "Message Delivery",
+        "prices": [
+          {
+            "USD": "1.9e-7",
+            "unit": "Messages"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": ""
+          },
+          {
+            "key": "usagetype",
+            "value": "DeliveryAttempts-AP_V"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "description",
+            "value": "Charged for each 64KB chunk of published data"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonSNS"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon Simple Notification Service"
+          },
+          {
+            "key": "endpointType",
+            "value": "Apple Push Notification Service (APNS) VOIP"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonSNS",
+        "region": "us-east-1",
+        "productFamily": "Message Delivery",
+        "prices": [
+          {
+            "USD": "5e-7",
+            "unit": "Notifications"
+          }
+        ]
+      }
+    ]
+  }
+}

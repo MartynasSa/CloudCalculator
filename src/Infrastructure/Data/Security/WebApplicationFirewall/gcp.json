@@ -1,0 +1,72 @@
+{
+  "data": {
+    "products": [
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Cloud NGFW Standard Rules: Data Processing Fee"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "Cloud Firewall"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Networking",
+        "region": "global",
+        "productFamily": "Network",
+        "prices": [
+          {
+            "USD": "0.0193",
+            "unit": "gibibyte"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Firewall Policy coverage charge for large Firewall Policies (with more than 500 attributes)"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "Cloud Firewall"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Networking",
+        "region": "global",
+        "productFamily": "Network",
+        "prices": [
+          {
+            "USD": "1.5",
+            "unit": "month"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Firewall Policy coverage for regular Firewall Policies (with less or equal to 500 attributes)"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "Cloud Firewall"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Networking",
+        "region": "global",
+        "productFamily": "Network",
+        "prices": [
+          {
+            "USD": "1",
+            "unit": "month"
+          }
+        ]
+      }
+    ]
+  }
+}

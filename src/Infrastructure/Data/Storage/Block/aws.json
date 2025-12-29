@@ -1,0 +1,476 @@
+{
+  "data": {
+    "products": [
+      {
+        "attributes": [
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": ""
+          },
+          {
+            "key": "usagetype",
+            "value": "EBS:VolumeUsage.sc1"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "volumeType",
+            "value": "Cold HDD"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonEC2"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon Elastic Compute Cloud"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "storageMedia",
+            "value": "HDD-backed"
+          },
+          {
+            "key": "maxIopsvolume",
+            "value": "250 - based on 1 MiB I/O size"
+          },
+          {
+            "key": "maxVolumeSize",
+            "value": "16 TiB"
+          },
+          {
+            "key": "volumeApiName",
+            "value": "sc1"
+          },
+          {
+            "key": "maxThroughputvolume",
+            "value": "250 MiB/s"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonEC2",
+        "region": "us-east-1",
+        "productFamily": "Storage",
+        "prices": [
+          {
+            "USD": "0.015",
+            "unit": "GB-Mo"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": ""
+          },
+          {
+            "key": "usagetype",
+            "value": "EBS:VolumeUsage.st1"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "volumeType",
+            "value": "Throughput Optimized HDD"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonEC2"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon Elastic Compute Cloud"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "storageMedia",
+            "value": "HDD-backed"
+          },
+          {
+            "key": "maxIopsvolume",
+            "value": "500 - based on 1 MiB I/O size"
+          },
+          {
+            "key": "maxVolumeSize",
+            "value": "16 TiB"
+          },
+          {
+            "key": "volumeApiName",
+            "value": "st1"
+          },
+          {
+            "key": "maxThroughputvolume",
+            "value": "500 MiB/s"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonEC2",
+        "region": "us-east-1",
+        "productFamily": "Storage",
+        "prices": [
+          {
+            "USD": "0.045",
+            "unit": "GB-Mo"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": ""
+          },
+          {
+            "key": "usagetype",
+            "value": "EBS:VolumeUsage"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "volumeType",
+            "value": "Magnetic"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonEC2"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon Elastic Compute Cloud"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "storageMedia",
+            "value": "HDD-backed"
+          },
+          {
+            "key": "maxIopsvolume",
+            "value": "40 - 200"
+          },
+          {
+            "key": "maxVolumeSize",
+            "value": "1 TiB"
+          },
+          {
+            "key": "volumeApiName",
+            "value": "standard"
+          },
+          {
+            "key": "maxThroughputvolume",
+            "value": "40 - 90 MB/sec"
+          },
+          {
+            "key": "maxIopsBurstPerformance",
+            "value": "Hundreds"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonEC2",
+        "region": "us-east-1",
+        "productFamily": "Storage",
+        "prices": [
+          {
+            "USD": "0.05",
+            "unit": "GB-Mo"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": ""
+          },
+          {
+            "key": "usagetype",
+            "value": "EBS:VolumeUsage.io2"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "volumeType",
+            "value": "Provisioned IOPS"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonEC2"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon Elastic Compute Cloud"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "storageMedia",
+            "value": "SSD-backed"
+          },
+          {
+            "key": "maxIopsvolume",
+            "value": "256000"
+          },
+          {
+            "key": "maxVolumeSize",
+            "value": "64 TiB"
+          },
+          {
+            "key": "volumeApiName",
+            "value": "io2"
+          },
+          {
+            "key": "maxThroughputvolume",
+            "value": "4000 MiB/s"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonEC2",
+        "region": "us-east-1",
+        "productFamily": "Storage",
+        "prices": [
+          {
+            "USD": "0.125",
+            "unit": "GB-month"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": ""
+          },
+          {
+            "key": "usagetype",
+            "value": "EBS:VolumeUsage.gp2"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "volumeType",
+            "value": "General Purpose"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonEC2"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon Elastic Compute Cloud"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "storageMedia",
+            "value": "SSD-backed"
+          },
+          {
+            "key": "maxIopsvolume",
+            "value": "16000"
+          },
+          {
+            "key": "maxVolumeSize",
+            "value": "16 TiB"
+          },
+          {
+            "key": "volumeApiName",
+            "value": "gp2"
+          },
+          {
+            "key": "maxThroughputvolume",
+            "value": "250 MiB/s"
+          },
+          {
+            "key": "maxIopsBurstPerformance",
+            "value": "3000 for volumes <= 1 TiB"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonEC2",
+        "region": "us-east-1",
+        "productFamily": "Storage",
+        "prices": [
+          {
+            "USD": "0.1",
+            "unit": "GB-Mo"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": ""
+          },
+          {
+            "key": "usagetype",
+            "value": "EBS:VolumeUsage.piops"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "volumeType",
+            "value": "Provisioned IOPS"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonEC2"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon Elastic Compute Cloud"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "storageMedia",
+            "value": "SSD-backed"
+          },
+          {
+            "key": "maxIopsvolume",
+            "value": "64000"
+          },
+          {
+            "key": "maxVolumeSize",
+            "value": "16 TiB"
+          },
+          {
+            "key": "volumeApiName",
+            "value": "io1"
+          },
+          {
+            "key": "maxThroughputvolume",
+            "value": "1000 MiB/s"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonEC2",
+        "region": "us-east-1",
+        "productFamily": "Storage",
+        "prices": [
+          {
+            "USD": "0.125",
+            "unit": "GB-Mo"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": ""
+          },
+          {
+            "key": "usagetype",
+            "value": "EBS:VolumeUsage.gp3"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "volumeType",
+            "value": "General Purpose"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonEC2"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon Elastic Compute Cloud"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "storageMedia",
+            "value": "SSD-backed"
+          },
+          {
+            "key": "maxIopsvolume",
+            "value": "80000"
+          },
+          {
+            "key": "maxVolumeSize",
+            "value": "64 TiB"
+          },
+          {
+            "key": "volumeApiName",
+            "value": "gp3"
+          },
+          {
+            "key": "maxThroughputvolume",
+            "value": "2000 MiB/s"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonEC2",
+        "region": "us-east-1",
+        "productFamily": "Storage",
+        "prices": [
+          {
+            "USD": "0.08",
+            "unit": "GB-Mo"
+          }
+        ]
+      }
+    ]
+  }
+}

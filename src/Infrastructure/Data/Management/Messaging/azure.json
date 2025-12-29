@@ -1,0 +1,280 @@
+{
+  "data": {
+    "products": [
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "545ab9eb-bf46-5f63-99bb-25807fb72262"
+          },
+          {
+            "key": "skuName",
+            "value": "Standard"
+          },
+          {
+            "key": "meterName",
+            "value": "Standard Base Unit - Free"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0BQN0"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH3179N6FXW"
+          },
+          {
+            "key": "armSkuName",
+            "value": ""
+          },
+          {
+            "key": "productName",
+            "value": "Service Bus"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Integration"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2020-10-01T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Service Bus",
+        "region": "eastus",
+        "productFamily": "Integration",
+        "prices": [
+          {
+            "USD": "0",
+            "unit": "1 Hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "2a9992f8-e914-490b-a7a6-6d21ba55acda"
+          },
+          {
+            "key": "skuName",
+            "value": "Standard"
+          },
+          {
+            "key": "meterName",
+            "value": "Standard Messaging Operations"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0BQN0"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH3179N6FXW"
+          },
+          {
+            "key": "armSkuName",
+            "value": ""
+          },
+          {
+            "key": "productName",
+            "value": "Service Bus"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Integration"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2017-08-15T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Service Bus",
+        "region": "eastus",
+        "productFamily": "Integration",
+        "prices": [
+          {
+            "USD": "0.5",
+            "unit": "1M"
+          },
+          {
+            "USD": "0.8",
+            "unit": "1M"
+          },
+          {
+            "USD": "0.2",
+            "unit": "1M"
+          },
+          {
+            "USD": "0",
+            "unit": "1M"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "d5034e45-00c1-48c6-8c00-c866f788e033"
+          },
+          {
+            "key": "skuName",
+            "value": "Standard"
+          },
+          {
+            "key": "meterName",
+            "value": "Standard Base Unit"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0BQN0"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH3179N6FXW"
+          },
+          {
+            "key": "armSkuName",
+            "value": ""
+          },
+          {
+            "key": "productName",
+            "value": "Service Bus"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Integration"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2018-05-01T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Service Bus",
+        "region": "eastus",
+        "productFamily": "Integration",
+        "prices": [
+          {
+            "USD": "10",
+            "unit": "1/Month"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "85f84482-123e-44a9-a2d5-cb53f2abe0f8"
+          },
+          {
+            "key": "skuName",
+            "value": "Standard"
+          },
+          {
+            "key": "meterName",
+            "value": "Standard Brokered Connection"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0BQN0"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH3179N6FXW"
+          },
+          {
+            "key": "armSkuName",
+            "value": ""
+          },
+          {
+            "key": "productName",
+            "value": "Service Bus"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Integration"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2014-12-01T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Service Bus",
+        "region": "eastus",
+        "productFamily": "Integration",
+        "prices": [
+          {
+            "USD": "0.03",
+            "unit": "1"
+          },
+          {
+            "USD": "0.015",
+            "unit": "1"
+          },
+          {
+            "USD": "0.025",
+            "unit": "1"
+          },
+          {
+            "USD": "0",
+            "unit": "1"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "9d0c5c5c-f0ff-48c2-8c68-9ee7ffd306af"
+          },
+          {
+            "key": "skuName",
+            "value": "Standard"
+          },
+          {
+            "key": "meterName",
+            "value": "Standard Base Unit"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0BQN0"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH3179N6FXW"
+          },
+          {
+            "key": "armSkuName",
+            "value": ""
+          },
+          {
+            "key": "productName",
+            "value": "Service Bus"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Integration"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2018-05-01T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Service Bus",
+        "region": "eastus",
+        "productFamily": "Integration",
+        "prices": [
+          {
+            "USD": "0.013441",
+            "unit": "1/Hour"
+          }
+        ]
+      }
+    ]
+  }
+}

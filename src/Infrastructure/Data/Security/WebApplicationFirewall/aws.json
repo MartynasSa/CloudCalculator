@@ -1,0 +1,328 @@
+{
+  "data": {
+    "products": [
+      {
+        "attributes": [
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "Operation:Metering"
+          },
+          {
+            "key": "usagetype",
+            "value": "USE1-Endpoint-Hour"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "servicecode",
+            "value": "AWSNetworkFirewall"
+          },
+          {
+            "key": "servicename",
+            "value": "AWS Network Firewall"
+          },
+          {
+            "key": "subcategory",
+            "value": "Endpoint"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AWSNetworkFirewall",
+        "region": "us-east-1",
+        "productFamily": "AWS Firewall",
+        "prices": [
+          {
+            "USD": "0.395",
+            "unit": "Hourly"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "Operation:NormalUsage"
+          },
+          {
+            "key": "usagetype",
+            "value": "USE1-Advanced-Inspection-Traffic-GB-Processed"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "servicecode",
+            "value": "AWSNetworkFirewall"
+          },
+          {
+            "key": "servicename",
+            "value": "AWS Network Firewall"
+          },
+          {
+            "key": "subcategory",
+            "value": "Throughput-Advanced"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AWSNetworkFirewall",
+        "region": "us-east-1",
+        "productFamily": "AWS Firewall",
+        "prices": [
+          {
+            "USD": "0",
+            "unit": "GB"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "Operation:NormalUsage"
+          },
+          {
+            "key": "usagetype",
+            "value": "USE1-Traffic-Bytes-Processed-Transit-Gateway"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "servicecode",
+            "value": "AWSNetworkFirewall"
+          },
+          {
+            "key": "servicename",
+            "value": "AWS Network Firewall"
+          },
+          {
+            "key": "subcategory",
+            "value": "Throughput-TGW attached NFW"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AWSNetworkFirewall",
+        "region": "us-east-1",
+        "productFamily": "AWS Firewall",
+        "prices": [
+          {
+            "USD": "0.065",
+            "unit": "GB"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "Operation:Metering"
+          },
+          {
+            "key": "usagetype",
+            "value": "USE1-Advanced-Inspection-Endpoint-Hour"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "servicecode",
+            "value": "AWSNetworkFirewall"
+          },
+          {
+            "key": "servicename",
+            "value": "AWS Network Firewall"
+          },
+          {
+            "key": "subcategory",
+            "value": "Endpoint-Advanced"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AWSNetworkFirewall",
+        "region": "us-east-1",
+        "productFamily": "AWS Firewall",
+        "prices": [
+          {
+            "USD": "0.38",
+            "unit": "Hourly"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "Operation:Metering"
+          },
+          {
+            "key": "usagetype",
+            "value": "USE1-Secondary-Endpoint-Hour"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "servicecode",
+            "value": "AWSNetworkFirewall"
+          },
+          {
+            "key": "servicename",
+            "value": "AWS Network Firewall"
+          },
+          {
+            "key": "subcategory",
+            "value": "Endpoint-Secondary"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AWSNetworkFirewall",
+        "region": "us-east-1",
+        "productFamily": "AWS Firewall",
+        "prices": [
+          {
+            "USD": "0.158",
+            "unit": "Hourly"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "Operation:NormalUsage"
+          },
+          {
+            "key": "usagetype",
+            "value": "USE1-Traffic-GB-Processed"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "servicecode",
+            "value": "AWSNetworkFirewall"
+          },
+          {
+            "key": "servicename",
+            "value": "AWS Network Firewall"
+          },
+          {
+            "key": "subcategory",
+            "value": "Throughput"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AWSNetworkFirewall",
+        "region": "us-east-1",
+        "productFamily": "AWS Firewall",
+        "prices": [
+          {
+            "USD": "0.065",
+            "unit": "GB"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "Operation:NormalUsage"
+          },
+          {
+            "key": "usagetype",
+            "value": "USE1-Advanced-Threat-Protection-Traffic-GB-Processed"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "servicecode",
+            "value": "AWSNetworkFirewall"
+          },
+          {
+            "key": "servicename",
+            "value": "AWS Network Firewall"
+          },
+          {
+            "key": "subcategory",
+            "value": "Throughput-Advanced"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AWSNetworkFirewall",
+        "region": "us-east-1",
+        "productFamily": "AWS Firewall",
+        "prices": [
+          {
+            "USD": "0.005",
+            "unit": "GB"
+          }
+        ]
+      }
+    ]
+  }
+}

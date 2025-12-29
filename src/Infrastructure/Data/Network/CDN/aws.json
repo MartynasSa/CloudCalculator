@@ -1,0 +1,150 @@
+{
+  "data": {
+    "products": [
+      {
+        "attributes": [
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": ""
+          },
+          {
+            "key": "usagetype",
+            "value": "USE1-Requests-OriginShield"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "requestType",
+            "value": "CloudFront-Request-Origin-Shield"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonCloudFront"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon CloudFront"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "requestDescription",
+            "value": "Origin Shield Requests"
+          }
+        ],
+        "service": "AmazonCloudFront",
+        "productFamily": "Request",
+        "prices": [
+          {
+            "USD": "7.5e-7",
+            "unit": "Requests"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "group",
+            "value": "AWS-Lambda-Edge-Duration"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": ""
+          },
+          {
+            "key": "usagetype",
+            "value": "Lambda-Edge-GB-Second"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonCloudFront"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon CloudFront"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "groupDescription",
+            "value": "Invocation duration weighted by memory assigned to function, measured in GB-s"
+          }
+        ],
+        "service": "AmazonCloudFront",
+        "productFamily": "Serverless",
+        "prices": [
+          {
+            "USD": "0.00005001",
+            "unit": "Lambda-GB-Second"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "group",
+            "value": "AWS-Lambda-Edge-Requests"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": ""
+          },
+          {
+            "key": "usagetype",
+            "value": "Lambda-Edge-Request"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonCloudFront"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon CloudFront"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "groupDescription",
+            "value": "Invocation call for a Lambda function"
+          }
+        ],
+        "service": "AmazonCloudFront",
+        "productFamily": "Serverless",
+        "prices": [
+          {
+            "USD": "6e-7",
+            "unit": "Request"
+          }
+        ]
+      }
+    ]
+  }
+}

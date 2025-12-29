@@ -1,0 +1,446 @@
+{
+  "data": {
+    "products": [
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Redis Capacity Standard M4 Iowa/South Carolina/Oregon"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "Redis"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Cloud Memorystore for Redis",
+        "region": "us-east1",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.035",
+            "unit": "gibibyte hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Redis Capacity Standard M1 Iowa/South Carolina/Oregon"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "Redis"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Cloud Memorystore for Redis",
+        "region": "us-east1",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.064",
+            "unit": "gibibyte hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Memorystore for Redis Cluster: Backups in South Carolina"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "Redis"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Cloud Memorystore for Redis",
+        "region": "us-east1",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.00011111",
+            "unit": "gigabyte hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Redis Capacity Basic M4 Iowa/South Carolina/Oregon"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "Redis"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Cloud Memorystore for Redis",
+        "region": "us-east1",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.019",
+            "unit": "gibibyte hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Memorystore for Redis Cluster: AOF Storage South Carolina"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "Redis"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Cloud Memorystore for Redis",
+        "region": "us-east1",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.00061918",
+            "unit": "gigabyte hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Redis Standard Node Capacity M2 Carolina"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "Redis"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Cloud Memorystore for Redis",
+        "region": "us-east1",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.027",
+            "unit": "gibibyte hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Redis Capacity Basic M3 Iowa/South Carolina/Oregon"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "Redis"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Cloud Memorystore for Redis",
+        "region": "us-east1",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.023",
+            "unit": "gibibyte hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Redis Capacity Basic M2 Iowa/South Carolina/Oregon"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "Redis"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Cloud Memorystore for Redis",
+        "region": "us-east1",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.027",
+            "unit": "gibibyte hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Redis Cluster Node Highmem XLarge Carolina"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "Redis"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Cloud Memorystore for Redis",
+        "region": "us-east1",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.9697",
+            "unit": "hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Redis Cluster Node Default Carolina"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "Redis"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Cloud Memorystore for Redis",
+        "region": "us-east1",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.2173",
+            "unit": "hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Redis Capacity Standard M2 Iowa/South Carolina/Oregon"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "Redis"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Cloud Memorystore for Redis",
+        "region": "us-east1",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.054",
+            "unit": "gibibyte hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Redis Capacity Basic M1 Iowa/South Carolina/Oregon"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "Redis"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Cloud Memorystore for Redis",
+        "region": "us-east1",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.049",
+            "unit": "gibibyte hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Redis Standard Node Capacity M5 Carolina"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "Redis"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Cloud Memorystore for Redis",
+        "region": "us-east1",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.016",
+            "unit": "gibibyte hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Redis Cluster Node Shared Core Nano Carolina"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "Redis"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Cloud Memorystore for Redis",
+        "region": "us-east1",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.0359",
+            "unit": "hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Redis Standard Node Capacity M4 Carolina"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "Redis"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Cloud Memorystore for Redis",
+        "region": "us-east1",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.019",
+            "unit": "gibibyte hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Redis Capacity Standard M5 Iowa/South Carolina/Oregon"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "Redis"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Cloud Memorystore for Redis",
+        "region": "us-east1",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.03",
+            "unit": "gibibyte hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Redis Capacity Standard M3 Iowa/South Carolina/Oregon"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "Redis"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Cloud Memorystore for Redis",
+        "region": "us-east1",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.046",
+            "unit": "gibibyte hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Redis Cluster Node Standard Small Carolina"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "Redis"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Cloud Memorystore for Redis",
+        "region": "us-east1",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.161",
+            "unit": "hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Redis Standard Node Capacity M3 Carolina"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "Redis"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Cloud Memorystore for Redis",
+        "region": "us-east1",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.023",
+            "unit": "gibibyte hour"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Redis Capacity Basic M5 Iowa/South Carolina/Oregon"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "Redis"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Cloud Memorystore for Redis",
+        "region": "us-east1",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.016",
+            "unit": "gibibyte hour"
+          }
+        ]
+      }
+    ]
+  }
+}

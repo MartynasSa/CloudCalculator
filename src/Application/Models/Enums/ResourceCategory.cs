@@ -68,6 +68,13 @@ public enum ManagementType
     Monitoring = 604,
 }
 
+public enum SecurityType
+{
+    None = 0,
+    WebApplicationFirewall = 700,
+    IdentityManagement = 701,
+}
+
 public enum ResourceSubCategory
 {
     None = 0,
@@ -102,10 +109,14 @@ public enum ResourceSubCategory
     Streaming = AnalyticsType.Streaming,
     MachineLearning = AnalyticsType.MachineLearning,
 
-    // Management / Security (600-699)
+    // Management (600-699)
     Queueing = ManagementType.Queueing,
     Messaging = ManagementType.Messaging,
     Secrets = ManagementType.Secrets,
     Compliance = ManagementType.Compliance,
     Monitoring = ManagementType.Monitoring,
+
+    // Security (700-6=799)
+    WebApplicationFirewall = SecurityType.WebApplicationFirewall,
+    IdentityManagement = SecurityType.IdentityManagement,
 }

@@ -1,0 +1,7890 @@
+{
+  "data": {
+    "products": [
+      {
+        "attributes": [
+          {
+            "key": "vcpu",
+            "value": "2"
+          },
+          {
+            "key": "memory",
+            "value": "6.38 GiB"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "CreateCacheCluster:0002"
+          },
+          {
+            "key": "usagetype",
+            "value": "USE1-Outpost-NodeUsage:cache.m5.large"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "cacheEngine",
+            "value": "Redis"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonElastiCache"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon ElastiCache"
+          },
+          {
+            "key": "instanceType",
+            "value": "cache.m5.large"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Outposts"
+          },
+          {
+            "key": "instanceFamily",
+            "value": "Standard"
+          },
+          {
+            "key": "currentGeneration",
+            "value": "Yes"
+          },
+          {
+            "key": "networkPerformance",
+            "value": "Up to 10 Gigabit"
+          },
+          {
+            "key": "normalizationSizeFactor",
+            "value": "4"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonElastiCache",
+        "region": "us-east-1",
+        "productFamily": "Cache Instance",
+        "prices": [
+          {
+            "USD": "0.06",
+            "unit": "Hrs"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "ssd",
+            "value": "398.14 GiB"
+          },
+          {
+            "key": "vcpu",
+            "value": "16"
+          },
+          {
+            "key": "memory",
+            "value": "105.81 GiB"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "CreateCacheCluster:0002"
+          },
+          {
+            "key": "usagetype",
+            "value": "NodeUsage:cache.r6gd.4xlarge"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "cacheEngine",
+            "value": "Redis"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonElastiCache"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon ElastiCache"
+          },
+          {
+            "key": "instanceType",
+            "value": "cache.r6gd.4xlarge"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "instanceFamily",
+            "value": "Memory optimized"
+          },
+          {
+            "key": "currentGeneration",
+            "value": "Yes"
+          },
+          {
+            "key": "networkPerformance",
+            "value": "Up to 10 Gigabit"
+          },
+          {
+            "key": "normalizationSizeFactor",
+            "value": "32"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonElastiCache",
+        "region": "us-east-1",
+        "productFamily": "Cache Instance",
+        "prices": [
+          {
+            "USD": "3.12",
+            "unit": "Hrs"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "vcpu",
+            "value": "4"
+          },
+          {
+            "key": "memory",
+            "value": "33.8 GiB"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "CreateCacheCluster:0002"
+          },
+          {
+            "key": "usagetype",
+            "value": "NodeUsage:cache.m2.2xlarge"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "cacheEngine",
+            "value": "Redis"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonElastiCache"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon ElastiCache"
+          },
+          {
+            "key": "instanceType",
+            "value": "cache.m2.2xlarge"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "instanceFamily",
+            "value": "Memory optimized"
+          },
+          {
+            "key": "currentGeneration",
+            "value": "No"
+          },
+          {
+            "key": "networkPerformance",
+            "value": "Moderate"
+          },
+          {
+            "key": "normalizationSizeFactor",
+            "value": "16"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonElastiCache",
+        "region": "us-east-1",
+        "productFamily": "Cache Instance",
+        "prices": [
+          {
+            "USD": "0.604",
+            "unit": "Hrs"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "vcpu",
+            "value": "8"
+          },
+          {
+            "key": "memory",
+            "value": "52.82 GiB"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "CreateCacheCluster:0002"
+          },
+          {
+            "key": "usagetype",
+            "value": "NodeUsage:cache.r6g.2xlarge"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "cacheEngine",
+            "value": "Redis"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonElastiCache"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon ElastiCache"
+          },
+          {
+            "key": "instanceType",
+            "value": "cache.r6g.2xlarge"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "instanceFamily",
+            "value": "Memory optimized"
+          },
+          {
+            "key": "currentGeneration",
+            "value": "Yes"
+          },
+          {
+            "key": "networkPerformance",
+            "value": "Up to 10 Gigabit"
+          },
+          {
+            "key": "normalizationSizeFactor",
+            "value": "16"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonElastiCache",
+        "region": "us-east-1",
+        "productFamily": "Cache Instance",
+        "prices": [
+          {
+            "USD": "0.821",
+            "unit": "Hrs"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "vcpu",
+            "value": "64"
+          },
+          {
+            "key": "memory",
+            "value": "209.55 GiB"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "CreateCacheCluster:0002"
+          },
+          {
+            "key": "usagetype",
+            "value": "NodeUsage:cache.m6g.16xlarge"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "cacheEngine",
+            "value": "Redis"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonElastiCache"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon ElastiCache"
+          },
+          {
+            "key": "instanceType",
+            "value": "cache.m6g.16xlarge"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "instanceFamily",
+            "value": "Standard"
+          },
+          {
+            "key": "currentGeneration",
+            "value": "Yes"
+          },
+          {
+            "key": "networkPerformance",
+            "value": "25 Gigabit"
+          },
+          {
+            "key": "normalizationSizeFactor",
+            "value": "128"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonElastiCache",
+        "region": "us-east-1",
+        "productFamily": "Cache Instance",
+        "prices": [
+          {
+            "USD": "4.743",
+            "unit": "Hrs"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "vcpu",
+            "value": "96"
+          },
+          {
+            "key": "memory",
+            "value": "635.61 GiB"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "CreateCacheCluster:0002"
+          },
+          {
+            "key": "usagetype",
+            "value": "USE1-Outpost-NodeUsage:cache.r5.24xlarge"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "cacheEngine",
+            "value": "Redis"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonElastiCache"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon ElastiCache"
+          },
+          {
+            "key": "instanceType",
+            "value": "cache.r5.24xlarge"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Outposts"
+          },
+          {
+            "key": "instanceFamily",
+            "value": "Memory optimized"
+          },
+          {
+            "key": "currentGeneration",
+            "value": "Yes"
+          },
+          {
+            "key": "networkPerformance",
+            "value": "25 Gigabit"
+          },
+          {
+            "key": "normalizationSizeFactor",
+            "value": "192"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonElastiCache",
+        "region": "us-east-1",
+        "productFamily": "Cache Instance",
+        "prices": [
+          {
+            "USD": "4.32",
+            "unit": "Hrs"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "CreateServerlessCacheSnapshot"
+          },
+          {
+            "key": "usagetype",
+            "value": "USE1-BackupUsage:Redis"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "cacheEngine",
+            "value": "Redis"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonElastiCache"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon ElastiCache"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonElastiCache",
+        "region": "us-east-1",
+        "productFamily": "ElastiCache Serverless",
+        "prices": [
+          {
+            "USD": "0.085",
+            "unit": "GB-months"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "vcpu",
+            "value": "8"
+          },
+          {
+            "key": "memory",
+            "value": "50.47 GiB"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "CreateCacheCluster:0002"
+          },
+          {
+            "key": "usagetype",
+            "value": "NodeUsage:cache.r4.2xlarge"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "cacheEngine",
+            "value": "Redis"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonElastiCache"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon ElastiCache"
+          },
+          {
+            "key": "instanceType",
+            "value": "cache.r4.2xlarge"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "instanceFamily",
+            "value": "Memory optimized"
+          },
+          {
+            "key": "currentGeneration",
+            "value": "Yes"
+          },
+          {
+            "key": "networkPerformance",
+            "value": "Up to 10 Gigabit"
+          },
+          {
+            "key": "normalizationSizeFactor",
+            "value": "16"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonElastiCache",
+        "region": "us-east-1",
+        "productFamily": "Cache Instance",
+        "prices": [
+          {
+            "USD": "0.91",
+            "unit": "Hrs"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "vcpu",
+            "value": "64"
+          },
+          {
+            "key": "memory",
+            "value": "407 GiB"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "CreateCacheCluster:0002"
+          },
+          {
+            "key": "usagetype",
+            "value": "NodeUsage:cache.r4.16xlarge"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "cacheEngine",
+            "value": "Redis"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonElastiCache"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon ElastiCache"
+          },
+          {
+            "key": "instanceType",
+            "value": "cache.r4.16xlarge"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "instanceFamily",
+            "value": "Memory optimized"
+          },
+          {
+            "key": "currentGeneration",
+            "value": "Yes"
+          },
+          {
+            "key": "networkPerformance",
+            "value": "25 Gigabit"
+          },
+          {
+            "key": "normalizationSizeFactor",
+            "value": "128"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonElastiCache",
+        "region": "us-east-1",
+        "productFamily": "Cache Instance",
+        "prices": [
+          {
+            "USD": "7.28",
+            "unit": "Hrs"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "vcpu",
+            "value": "4"
+          },
+          {
+            "key": "memory",
+            "value": "26.32 GiB"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "CreateCacheCluster:0002"
+          },
+          {
+            "key": "usagetype",
+            "value": "USE1-Outpost-NodeUsage:cache.r5.xlarge"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "cacheEngine",
+            "value": "Redis"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonElastiCache"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon ElastiCache"
+          },
+          {
+            "key": "instanceType",
+            "value": "cache.r5.xlarge"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Outposts"
+          },
+          {
+            "key": "instanceFamily",
+            "value": "Memory optimized"
+          },
+          {
+            "key": "currentGeneration",
+            "value": "Yes"
+          },
+          {
+            "key": "networkPerformance",
+            "value": "Up to 10 Gigabit"
+          },
+          {
+            "key": "normalizationSizeFactor",
+            "value": "8"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonElastiCache",
+        "region": "us-east-1",
+        "productFamily": "Cache Instance",
+        "prices": [
+          {
+            "USD": "0.179",
+            "unit": "Hrs"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "CreateServerlessCache"
+          },
+          {
+            "key": "usagetype",
+            "value": "USE1-ElastiCacheProcessingUnits:Redis"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "cacheEngine",
+            "value": "Redis"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonElastiCache"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon ElastiCache"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonElastiCache",
+        "region": "us-east-1",
+        "productFamily": "ElastiCache Serverless",
+        "prices": [
+          {
+            "USD": "3.4e-9",
+            "unit": "ElastiCacheProcessingUnit"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "vcpu",
+            "value": "4"
+          },
+          {
+            "key": "memory",
+            "value": "14.6 GiB"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "CreateCacheCluster:0002"
+          },
+          {
+            "key": "usagetype",
+            "value": "NodeUsage:cache.m1.xlarge"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "cacheEngine",
+            "value": "Redis"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonElastiCache"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon ElastiCache"
+          },
+          {
+            "key": "instanceType",
+            "value": "cache.m1.xlarge"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "instanceFamily",
+            "value": "Standard"
+          },
+          {
+            "key": "currentGeneration",
+            "value": "No"
+          },
+          {
+            "key": "networkPerformance",
+            "value": "High"
+          },
+          {
+            "key": "normalizationSizeFactor",
+            "value": "8"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonElastiCache",
+        "region": "us-east-1",
+        "productFamily": "Cache Instance",
+        "prices": [
+          {
+            "USD": "0.453",
+            "unit": "Hrs"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "vcpu",
+            "value": "16"
+          },
+          {
+            "key": "memory",
+            "value": "52.26 GiB"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "CreateCacheCluster:0002"
+          },
+          {
+            "key": "usagetype",
+            "value": "NodeUsage:cache.m5.4xlarge"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "cacheEngine",
+            "value": "Redis"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonElastiCache"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon ElastiCache"
+          },
+          {
+            "key": "instanceType",
+            "value": "cache.m5.4xlarge"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "instanceFamily",
+            "value": "Standard"
+          },
+          {
+            "key": "currentGeneration",
+            "value": "Yes"
+          },
+          {
+            "key": "networkPerformance",
+            "value": "Up to 10 Gigabit"
+          },
+          {
+            "key": "normalizationSizeFactor",
+            "value": "32"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonElastiCache",
+        "region": "us-east-1",
+        "productFamily": "Cache Instance",
+        "prices": [
+          {
+            "USD": "1.245",
+            "unit": "Hrs"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "vcpu",
+            "value": "48"
+          },
+          {
+            "key": "memory",
+            "value": "78.56 GiB"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "CreateCacheCluster:0002"
+          },
+          {
+            "key": "usagetype",
+            "value": "NodeUsage:cache.c7gn.12xlarge"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "cacheEngine",
+            "value": "Redis"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonElastiCache"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon ElastiCache"
+          },
+          {
+            "key": "instanceType",
+            "value": "cache.c7gn.12xlarge"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "instanceFamily",
+            "value": "Network optimized"
+          },
+          {
+            "key": "currentGeneration",
+            "value": "Yes"
+          },
+          {
+            "key": "networkPerformance",
+            "value": "150 Gigabit"
+          },
+          {
+            "key": "normalizationSizeFactor",
+            "value": "96"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonElastiCache",
+        "region": "us-east-1",
+        "productFamily": "Cache Instance",
+        "prices": [
+          {
+            "USD": "6.11",
+            "unit": "Hrs"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "vcpu",
+            "value": "4"
+          },
+          {
+            "key": "memory",
+            "value": "6.38 GiB"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "CreateCacheCluster:0002"
+          },
+          {
+            "key": "usagetype",
+            "value": "NodeUsage:cache.c7gn.xlarge"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "cacheEngine",
+            "value": "Redis"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonElastiCache"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon ElastiCache"
+          },
+          {
+            "key": "instanceType",
+            "value": "cache.c7gn.xlarge"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "instanceFamily",
+            "value": "Network optimized"
+          },
+          {
+            "key": "currentGeneration",
+            "value": "Yes"
+          },
+          {
+            "key": "networkPerformance",
+            "value": "Up to 40 Gigabit"
+          },
+          {
+            "key": "normalizationSizeFactor",
+            "value": "8"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonElastiCache",
+        "region": "us-east-1",
+        "productFamily": "Cache Instance",
+        "prices": [
+          {
+            "USD": "0.509",
+            "unit": "Hrs"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "vcpu",
+            "value": "16"
+          },
+          {
+            "key": "memory",
+            "value": "105.81 GiB"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "CreateCacheCluster:0002"
+          },
+          {
+            "key": "usagetype",
+            "value": "NodeUsage:cache.r6g.4xlarge"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "cacheEngine",
+            "value": "Redis"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonElastiCache"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon ElastiCache"
+          },
+          {
+            "key": "instanceType",
+            "value": "cache.r6g.4xlarge"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "instanceFamily",
+            "value": "Memory optimized"
+          },
+          {
+            "key": "currentGeneration",
+            "value": "Yes"
+          },
+          {
+            "key": "networkPerformance",
+            "value": "Up to 10 Gigabit"
+          },
+          {
+            "key": "normalizationSizeFactor",
+            "value": "32"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonElastiCache",
+        "region": "us-east-1",
+        "productFamily": "Cache Instance",
+        "prices": [
+          {
+            "USD": "1.642",
+            "unit": "Hrs"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "vcpu",
+            "value": "8"
+          },
+          {
+            "key": "memory",
+            "value": "52.82 GiB"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "CreateCacheCluster:0002"
+          },
+          {
+            "key": "usagetype",
+            "value": "NodeUsage:cache.r7g.2xlarge"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "cacheEngine",
+            "value": "Redis"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonElastiCache"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon ElastiCache"
+          },
+          {
+            "key": "instanceType",
+            "value": "cache.r7g.2xlarge"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "instanceFamily",
+            "value": "Memory optimized"
+          },
+          {
+            "key": "currentGeneration",
+            "value": "Yes"
+          },
+          {
+            "key": "networkPerformance",
+            "value": "Up to 15 Gigabit"
+          },
+          {
+            "key": "normalizationSizeFactor",
+            "value": "16"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonElastiCache",
+        "region": "us-east-1",
+        "productFamily": "Cache Instance",
+        "prices": [
+          {
+            "USD": "0.873",
+            "unit": "Hrs"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "vcpu",
+            "value": "48"
+          },
+          {
+            "key": "memory",
+            "value": "317.77 GiB"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "CreateCacheCluster:0002"
+          },
+          {
+            "key": "usagetype",
+            "value": "NodeUsage:cache.r5.12xlarge"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "cacheEngine",
+            "value": "Redis"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonElastiCache"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon ElastiCache"
+          },
+          {
+            "key": "instanceType",
+            "value": "cache.r5.12xlarge"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "instanceFamily",
+            "value": "Memory optimized"
+          },
+          {
+            "key": "currentGeneration",
+            "value": "Yes"
+          },
+          {
+            "key": "networkPerformance",
+            "value": "10 Gigabit"
+          },
+          {
+            "key": "normalizationSizeFactor",
+            "value": "96"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonElastiCache",
+        "region": "us-east-1",
+        "productFamily": "Cache Instance",
+        "prices": [
+          {
+            "USD": "5.184",
+            "unit": "Hrs"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "vcpu",
+            "value": "16"
+          },
+          {
+            "key": "memory",
+            "value": "101.38 GiB"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "CreateCacheCluster:0002"
+          },
+          {
+            "key": "usagetype",
+            "value": "NodeUsage:cache.r4.4xlarge"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "cacheEngine",
+            "value": "Redis"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonElastiCache"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon ElastiCache"
+          },
+          {
+            "key": "instanceType",
+            "value": "cache.r4.4xlarge"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "instanceFamily",
+            "value": "Memory optimized"
+          },
+          {
+            "key": "currentGeneration",
+            "value": "Yes"
+          },
+          {
+            "key": "networkPerformance",
+            "value": "Up to 10 Gigabit"
+          },
+          {
+            "key": "normalizationSizeFactor",
+            "value": "32"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonElastiCache",
+        "region": "us-east-1",
+        "productFamily": "Cache Instance",
+        "prices": [
+          {
+            "USD": "1.82",
+            "unit": "Hrs"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "vcpu",
+            "value": "2"
+          },
+          {
+            "key": "memory",
+            "value": "3.09 GiB"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "CreateCacheCluster:0002"
+          },
+          {
+            "key": "usagetype",
+            "value": "NodeUsage:cache.c7gn.large"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "cacheEngine",
+            "value": "Redis"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonElastiCache"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon ElastiCache"
+          },
+          {
+            "key": "instanceType",
+            "value": "cache.c7gn.large"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "instanceFamily",
+            "value": "Network optimized"
+          },
+          {
+            "key": "currentGeneration",
+            "value": "Yes"
+          },
+          {
+            "key": "networkPerformance",
+            "value": "Up to 30 Gigabit"
+          },
+          {
+            "key": "normalizationSizeFactor",
+            "value": "4"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonElastiCache",
+        "region": "us-east-1",
+        "productFamily": "Cache Instance",
+        "prices": [
+          {
+            "USD": "0.255",
+            "unit": "Hrs"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "vcpu",
+            "value": "2"
+          },
+          {
+            "key": "memory",
+            "value": "3.09 GiB"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "CreateCacheCluster:0002"
+          },
+          {
+            "key": "usagetype",
+            "value": "NodeUsage:cache.t3.medium"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "cacheEngine",
+            "value": "Redis"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonElastiCache"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon ElastiCache"
+          },
+          {
+            "key": "instanceType",
+            "value": "cache.t3.medium"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "instanceFamily",
+            "value": "Standard"
+          },
+          {
+            "key": "currentGeneration",
+            "value": "Yes"
+          },
+          {
+            "key": "networkPerformance",
+            "value": "Up to 5 Gigabit"
+          },
+          {
+            "key": "normalizationSizeFactor",
+            "value": "2"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonElastiCache",
+        "region": "us-east-1",
+        "productFamily": "Cache Instance",
+        "prices": [
+          {
+            "USD": "0.068",
+            "unit": "Hrs"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "vcpu",
+            "value": "2"
+          },
+          {
+            "key": "memory",
+            "value": "13.07 GiB"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "CreateCacheCluster:0002"
+          },
+          {
+            "key": "usagetype",
+            "value": "NodeUsage:cache.r5.large"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "cacheEngine",
+            "value": "Redis"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonElastiCache"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon ElastiCache"
+          },
+          {
+            "key": "instanceType",
+            "value": "cache.r5.large"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "instanceFamily",
+            "value": "Memory optimized"
+          },
+          {
+            "key": "currentGeneration",
+            "value": "Yes"
+          },
+          {
+            "key": "networkPerformance",
+            "value": "Up to 10 Gigabit"
+          },
+          {
+            "key": "normalizationSizeFactor",
+            "value": "4"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonElastiCache",
+        "region": "us-east-1",
+        "productFamily": "Cache Instance",
+        "prices": [
+          {
+            "USD": "0.216",
+            "unit": "Hrs"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "vcpu",
+            "value": "2"
+          },
+          {
+            "key": "memory",
+            "value": "3.22 GiB"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "CreateCacheCluster:0002"
+          },
+          {
+            "key": "usagetype",
+            "value": "NodeUsage:cache.t2.medium"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "cacheEngine",
+            "value": "Redis"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonElastiCache"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon ElastiCache"
+          },
+          {
+            "key": "instanceType",
+            "value": "cache.t2.medium"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "instanceFamily",
+            "value": "Standard"
+          },
+          {
+            "key": "currentGeneration",
+            "value": "Yes"
+          },
+          {
+            "key": "networkPerformance",
+            "value": "Low to Moderate"
+          },
+          {
+            "key": "normalizationSizeFactor",
+            "value": "2"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonElastiCache",
+        "region": "us-east-1",
+        "productFamily": "Cache Instance",
+        "prices": [
+          {
+            "USD": "0.068",
+            "unit": "Hrs"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "vcpu",
+            "value": "1"
+          },
+          {
+            "key": "memory",
+            "value": "0.555 GiB"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "CreateCacheCluster:0002"
+          },
+          {
+            "key": "usagetype",
+            "value": "NodeUsage:cache.t2.micro"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "cacheEngine",
+            "value": "Redis"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonElastiCache"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon ElastiCache"
+          },
+          {
+            "key": "instanceType",
+            "value": "cache.t2.micro"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "instanceFamily",
+            "value": "Standard"
+          },
+          {
+            "key": "currentGeneration",
+            "value": "Yes"
+          },
+          {
+            "key": "networkPerformance",
+            "value": "Low to Moderate"
+          },
+          {
+            "key": "normalizationSizeFactor",
+            "value": "0.5"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonElastiCache",
+        "region": "us-east-1",
+        "productFamily": "Cache Instance",
+        "prices": [
+          {
+            "USD": "0.017",
+            "unit": "Hrs"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "vcpu",
+            "value": "16"
+          },
+          {
+            "key": "memory",
+            "value": "52.26 GiB"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "CreateCacheCluster:0002"
+          },
+          {
+            "key": "usagetype",
+            "value": "NodeUsage:cache.m7g.4xlarge"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "cacheEngine",
+            "value": "Redis"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonElastiCache"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon ElastiCache"
+          },
+          {
+            "key": "instanceType",
+            "value": "cache.m7g.4xlarge"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "instanceFamily",
+            "value": "Standard"
+          },
+          {
+            "key": "currentGeneration",
+            "value": "Yes"
+          },
+          {
+            "key": "networkPerformance",
+            "value": "Up to 15 Gigabit"
+          },
+          {
+            "key": "normalizationSizeFactor",
+            "value": "32"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonElastiCache",
+        "region": "us-east-1",
+        "productFamily": "Cache Instance",
+        "prices": [
+          {
+            "USD": "1.257",
+            "unit": "Hrs"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "vcpu",
+            "value": "2"
+          },
+          {
+            "key": "memory",
+            "value": "3.09 GiB"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "CreateCacheCluster:0002"
+          },
+          {
+            "key": "usagetype",
+            "value": "NodeUsage:cache.t4g.medium"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "cacheEngine",
+            "value": "Redis"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonElastiCache"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon ElastiCache"
+          },
+          {
+            "key": "instanceType",
+            "value": "cache.t4g.medium"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "instanceFamily",
+            "value": "Standard"
+          },
+          {
+            "key": "currentGeneration",
+            "value": "Yes"
+          },
+          {
+            "key": "networkPerformance",
+            "value": "Up to 5 Gigabit"
+          },
+          {
+            "key": "normalizationSizeFactor",
+            "value": "2"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonElastiCache",
+        "region": "us-east-1",
+        "productFamily": "Cache Instance",
+        "prices": [
+          {
+            "USD": "0.065",
+            "unit": "Hrs"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "vcpu",
+            "value": "96"
+          },
+          {
+            "key": "memory",
+            "value": "635.61 GiB"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "CreateCacheCluster:0002"
+          },
+          {
+            "key": "usagetype",
+            "value": "NodeUsage:cache.r5.24xlarge"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "cacheEngine",
+            "value": "Redis"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonElastiCache"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon ElastiCache"
+          },
+          {
+            "key": "instanceType",
+            "value": "cache.r5.24xlarge"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "instanceFamily",
+            "value": "Memory optimized"
+          },
+          {
+            "key": "currentGeneration",
+            "value": "Yes"
+          },
+          {
+            "key": "networkPerformance",
+            "value": "25 Gigabit"
+          },
+          {
+            "key": "normalizationSizeFactor",
+            "value": "192"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonElastiCache",
+        "region": "us-east-1",
+        "productFamily": "Cache Instance",
+        "prices": [
+          {
+            "USD": "10.368",
+            "unit": "Hrs"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "vcpu",
+            "value": "2"
+          },
+          {
+            "key": "memory",
+            "value": "13.07 GiB"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "CreateCacheCluster:0002"
+          },
+          {
+            "key": "usagetype",
+            "value": "NodeUsage:cache.r7g.large"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "cacheEngine",
+            "value": "Redis"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonElastiCache"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon ElastiCache"
+          },
+          {
+            "key": "instanceType",
+            "value": "cache.r7g.large"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "instanceFamily",
+            "value": "Memory optimized"
+          },
+          {
+            "key": "currentGeneration",
+            "value": "Yes"
+          },
+          {
+            "key": "networkPerformance",
+            "value": "Up to 12.5 Gigabit"
+          },
+          {
+            "key": "normalizationSizeFactor",
+            "value": "4"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonElastiCache",
+        "region": "us-east-1",
+        "productFamily": "Cache Instance",
+        "prices": [
+          {
+            "USD": "0.219",
+            "unit": "Hrs"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "vcpu",
+            "value": "96"
+          },
+          {
+            "key": "memory",
+            "value": "314.32 GiB"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "CreateCacheCluster:0002"
+          },
+          {
+            "key": "usagetype",
+            "value": "NodeUsage:cache.m5.24xlarge"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "cacheEngine",
+            "value": "Redis"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonElastiCache"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon ElastiCache"
+          },
+          {
+            "key": "instanceType",
+            "value": "cache.m5.24xlarge"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "instanceFamily",
+            "value": "Standard"
+          },
+          {
+            "key": "currentGeneration",
+            "value": "Yes"
+          },
+          {
+            "key": "networkPerformance",
+            "value": "25 Gigabit"
+          },
+          {
+            "key": "normalizationSizeFactor",
+            "value": "192"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonElastiCache",
+        "region": "us-east-1",
+        "productFamily": "Cache Instance",
+        "prices": [
+          {
+            "USD": "7.488",
+            "unit": "Hrs"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "ssd",
+            "value": "99.33 GiB"
+          },
+          {
+            "key": "vcpu",
+            "value": "4"
+          },
+          {
+            "key": "memory",
+            "value": "26.32 GiB"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "CreateCacheCluster:0002"
+          },
+          {
+            "key": "usagetype",
+            "value": "NodeUsage:cache.r6gd.xlarge"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "cacheEngine",
+            "value": "Redis"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonElastiCache"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon ElastiCache"
+          },
+          {
+            "key": "instanceType",
+            "value": "cache.r6gd.xlarge"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "instanceFamily",
+            "value": "Memory optimized"
+          },
+          {
+            "key": "currentGeneration",
+            "value": "Yes"
+          },
+          {
+            "key": "networkPerformance",
+            "value": "Up to 10 Gigabit"
+          },
+          {
+            "key": "normalizationSizeFactor",
+            "value": "8"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonElastiCache",
+        "region": "us-east-1",
+        "productFamily": "Cache Instance",
+        "prices": [
+          {
+            "USD": "0.781",
+            "unit": "Hrs"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "vcpu",
+            "value": "64"
+          },
+          {
+            "key": "memory",
+            "value": "419.09 GiB"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "CreateCacheCluster:0002"
+          },
+          {
+            "key": "usagetype",
+            "value": "NodeUsage:cache.r7g.16xlarge"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "cacheEngine",
+            "value": "Redis"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonElastiCache"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon ElastiCache"
+          },
+          {
+            "key": "instanceType",
+            "value": "cache.r7g.16xlarge"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "instanceFamily",
+            "value": "Memory optimized"
+          },
+          {
+            "key": "currentGeneration",
+            "value": "Yes"
+          },
+          {
+            "key": "networkPerformance",
+            "value": "30 Gigabit"
+          },
+          {
+            "key": "normalizationSizeFactor",
+            "value": "128"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonElastiCache",
+        "region": "us-east-1",
+        "productFamily": "Cache Instance",
+        "prices": [
+          {
+            "USD": "6.981",
+            "unit": "Hrs"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "vcpu",
+            "value": "2"
+          },
+          {
+            "key": "memory",
+            "value": "13.07 GiB"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "CreateCacheCluster:0002"
+          },
+          {
+            "key": "usagetype",
+            "value": "NodeUsage:cache.r6g.large"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "cacheEngine",
+            "value": "Redis"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonElastiCache"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon ElastiCache"
+          },
+          {
+            "key": "instanceType",
+            "value": "cache.r6g.large"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "instanceFamily",
+            "value": "Memory optimized"
+          },
+          {
+            "key": "currentGeneration",
+            "value": "Yes"
+          },
+          {
+            "key": "networkPerformance",
+            "value": "Up to 10 Gigabit"
+          },
+          {
+            "key": "normalizationSizeFactor",
+            "value": "4"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonElastiCache",
+        "region": "us-east-1",
+        "productFamily": "Cache Instance",
+        "prices": [
+          {
+            "USD": "0.206",
+            "unit": "Hrs"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "vcpu",
+            "value": "64"
+          },
+          {
+            "key": "memory",
+            "value": "105.81 GiB"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "CreateCacheCluster:0002"
+          },
+          {
+            "key": "usagetype",
+            "value": "NodeUsage:cache.c7gn.16xlarge"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "cacheEngine",
+            "value": "Redis"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonElastiCache"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon ElastiCache"
+          },
+          {
+            "key": "instanceType",
+            "value": "cache.c7gn.16xlarge"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "instanceFamily",
+            "value": "Network optimized"
+          },
+          {
+            "key": "currentGeneration",
+            "value": "Yes"
+          },
+          {
+            "key": "networkPerformance",
+            "value": "200 Gigabit"
+          },
+          {
+            "key": "normalizationSizeFactor",
+            "value": "128"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonElastiCache",
+        "region": "us-east-1",
+        "productFamily": "Cache Instance",
+        "prices": [
+          {
+            "USD": "8.147",
+            "unit": "Hrs"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "vcpu",
+            "value": "16"
+          },
+          {
+            "key": "memory",
+            "value": "26.05 GiB"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "CreateCacheCluster:0002"
+          },
+          {
+            "key": "usagetype",
+            "value": "NodeUsage:cache.c7gn.4xlarge"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "cacheEngine",
+            "value": "Redis"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonElastiCache"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon ElastiCache"
+          },
+          {
+            "key": "instanceType",
+            "value": "cache.c7gn.4xlarge"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "instanceFamily",
+            "value": "Network optimized"
+          },
+          {
+            "key": "currentGeneration",
+            "value": "Yes"
+          },
+          {
+            "key": "networkPerformance",
+            "value": "50 Gigabit"
+          },
+          {
+            "key": "normalizationSizeFactor",
+            "value": "32"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonElastiCache",
+        "region": "us-east-1",
+        "productFamily": "Cache Instance",
+        "prices": [
+          {
+            "USD": "2.037",
+            "unit": "Hrs"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "vcpu",
+            "value": "4"
+          },
+          {
+            "key": "memory",
+            "value": "28.4 GiB"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "CreateCacheCluster:0002"
+          },
+          {
+            "key": "usagetype",
+            "value": "NodeUsage:cache.r3.xlarge"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "cacheEngine",
+            "value": "Redis"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonElastiCache"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon ElastiCache"
+          },
+          {
+            "key": "instanceType",
+            "value": "cache.r3.xlarge"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "instanceFamily",
+            "value": "Memory optimized"
+          },
+          {
+            "key": "currentGeneration",
+            "value": "No"
+          },
+          {
+            "key": "networkPerformance",
+            "value": "Moderate"
+          },
+          {
+            "key": "normalizationSizeFactor",
+            "value": "8"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonElastiCache",
+        "region": "us-east-1",
+        "productFamily": "Cache Instance",
+        "prices": [
+          {
+            "USD": "0.455",
+            "unit": "Hrs"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "vcpu",
+            "value": "16"
+          },
+          {
+            "key": "memory",
+            "value": "105.81 GiB"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "CreateCacheCluster:0002"
+          },
+          {
+            "key": "usagetype",
+            "value": "USE1-Outpost-NodeUsage:cache.r5.4xlarge"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "cacheEngine",
+            "value": "Redis"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonElastiCache"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon ElastiCache"
+          },
+          {
+            "key": "instanceType",
+            "value": "cache.r5.4xlarge"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Outposts"
+          },
+          {
+            "key": "instanceFamily",
+            "value": "Memory optimized"
+          },
+          {
+            "key": "currentGeneration",
+            "value": "Yes"
+          },
+          {
+            "key": "networkPerformance",
+            "value": "Up to 10 Gigabit"
+          },
+          {
+            "key": "normalizationSizeFactor",
+            "value": "32"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonElastiCache",
+        "region": "us-east-1",
+        "productFamily": "Cache Instance",
+        "prices": [
+          {
+            "USD": "0.716",
+            "unit": "Hrs"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "vcpu",
+            "value": "16"
+          },
+          {
+            "key": "memory",
+            "value": "52.26 GiB"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "CreateCacheCluster:0002"
+          },
+          {
+            "key": "usagetype",
+            "value": "USE1-Outpost-NodeUsage:cache.m5.4xlarge"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "cacheEngine",
+            "value": "Redis"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonElastiCache"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon ElastiCache"
+          },
+          {
+            "key": "instanceType",
+            "value": "cache.m5.4xlarge"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Outposts"
+          },
+          {
+            "key": "instanceFamily",
+            "value": "Standard"
+          },
+          {
+            "key": "currentGeneration",
+            "value": "Yes"
+          },
+          {
+            "key": "networkPerformance",
+            "value": "Up to 10 Gigabit"
+          },
+          {
+            "key": "normalizationSizeFactor",
+            "value": "32"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonElastiCache",
+        "region": "us-east-1",
+        "productFamily": "Cache Instance",
+        "prices": [
+          {
+            "USD": "0.477",
+            "unit": "Hrs"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "vcpu",
+            "value": "8"
+          },
+          {
+            "key": "memory",
+            "value": "52.82 GiB"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "CreateCacheCluster:0002"
+          },
+          {
+            "key": "usagetype",
+            "value": "USE1-Outpost-NodeUsage:cache.r5.2xlarge"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "cacheEngine",
+            "value": "Redis"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonElastiCache"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon ElastiCache"
+          },
+          {
+            "key": "instanceType",
+            "value": "cache.r5.2xlarge"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Outposts"
+          },
+          {
+            "key": "instanceFamily",
+            "value": "Memory optimized"
+          },
+          {
+            "key": "currentGeneration",
+            "value": "Yes"
+          },
+          {
+            "key": "networkPerformance",
+            "value": "Up to 10 Gigabit"
+          },
+          {
+            "key": "normalizationSizeFactor",
+            "value": "16"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonElastiCache",
+        "region": "us-east-1",
+        "productFamily": "Cache Instance",
+        "prices": [
+          {
+            "USD": "0.358",
+            "unit": "Hrs"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "vcpu",
+            "value": "2"
+          },
+          {
+            "key": "memory",
+            "value": "0.5 GiB"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "CreateCacheCluster:0002"
+          },
+          {
+            "key": "usagetype",
+            "value": "NodeUsage:cache.t4g.micro"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "cacheEngine",
+            "value": "Redis"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonElastiCache"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon ElastiCache"
+          },
+          {
+            "key": "instanceType",
+            "value": "cache.t4g.micro"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "instanceFamily",
+            "value": "Standard"
+          },
+          {
+            "key": "currentGeneration",
+            "value": "Yes"
+          },
+          {
+            "key": "networkPerformance",
+            "value": "Up to 5 Gigabit"
+          },
+          {
+            "key": "normalizationSizeFactor",
+            "value": "0.5"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonElastiCache",
+        "region": "us-east-1",
+        "productFamily": "Cache Instance",
+        "prices": [
+          {
+            "USD": "0.016",
+            "unit": "Hrs"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "vcpu",
+            "value": "2"
+          },
+          {
+            "key": "memory",
+            "value": "0.5 GiB"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "CreateCacheCluster:0002"
+          },
+          {
+            "key": "usagetype",
+            "value": "NodeUsage:cache.t3.micro"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "cacheEngine",
+            "value": "Redis"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonElastiCache"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon ElastiCache"
+          },
+          {
+            "key": "instanceType",
+            "value": "cache.t3.micro"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "instanceFamily",
+            "value": "Standard"
+          },
+          {
+            "key": "currentGeneration",
+            "value": "Yes"
+          },
+          {
+            "key": "networkPerformance",
+            "value": "Up to 5 Gigabit"
+          },
+          {
+            "key": "normalizationSizeFactor",
+            "value": "0.5"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonElastiCache",
+        "region": "us-east-1",
+        "productFamily": "Cache Instance",
+        "prices": [
+          {
+            "USD": "0.017",
+            "unit": "Hrs"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "vcpu",
+            "value": "48"
+          },
+          {
+            "key": "memory",
+            "value": "317.77 GiB"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "CreateCacheCluster:0002"
+          },
+          {
+            "key": "usagetype",
+            "value": "NodeUsage:cache.r7g.12xlarge"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "cacheEngine",
+            "value": "Redis"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonElastiCache"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon ElastiCache"
+          },
+          {
+            "key": "instanceType",
+            "value": "cache.r7g.12xlarge"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "instanceFamily",
+            "value": "Memory optimized"
+          },
+          {
+            "key": "currentGeneration",
+            "value": "Yes"
+          },
+          {
+            "key": "networkPerformance",
+            "value": "22.5 Gigabit"
+          },
+          {
+            "key": "normalizationSizeFactor",
+            "value": "96"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonElastiCache",
+        "region": "us-east-1",
+        "productFamily": "Cache Instance",
+        "prices": [
+          {
+            "USD": "5.235",
+            "unit": "Hrs"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "vcpu",
+            "value": "32"
+          },
+          {
+            "key": "memory",
+            "value": "209.55 GiB"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "CreateCacheCluster:0002"
+          },
+          {
+            "key": "usagetype",
+            "value": "NodeUsage:cache.r7g.8xlarge"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "cacheEngine",
+            "value": "Redis"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonElastiCache"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon ElastiCache"
+          },
+          {
+            "key": "instanceType",
+            "value": "cache.r7g.8xlarge"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "instanceFamily",
+            "value": "Memory optimized"
+          },
+          {
+            "key": "currentGeneration",
+            "value": "Yes"
+          },
+          {
+            "key": "networkPerformance",
+            "value": "15 Gigabit"
+          },
+          {
+            "key": "normalizationSizeFactor",
+            "value": "64"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonElastiCache",
+        "region": "us-east-1",
+        "productFamily": "Cache Instance",
+        "prices": [
+          {
+            "USD": "3.491",
+            "unit": "Hrs"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "vcpu",
+            "value": "8"
+          },
+          {
+            "key": "memory",
+            "value": "26.04 GiB"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "CreateCacheCluster:0002"
+          },
+          {
+            "key": "usagetype",
+            "value": "NodeUsage:cache.m7g.2xlarge"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "cacheEngine",
+            "value": "Redis"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonElastiCache"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon ElastiCache"
+          },
+          {
+            "key": "instanceType",
+            "value": "cache.m7g.2xlarge"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "instanceFamily",
+            "value": "Standard"
+          },
+          {
+            "key": "currentGeneration",
+            "value": "Yes"
+          },
+          {
+            "key": "networkPerformance",
+            "value": "Up to 15 Gigabit"
+          },
+          {
+            "key": "normalizationSizeFactor",
+            "value": "16"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonElastiCache",
+        "region": "us-east-1",
+        "productFamily": "Cache Instance",
+        "prices": [
+          {
+            "USD": "0.629",
+            "unit": "Hrs"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "vcpu",
+            "value": "32"
+          },
+          {
+            "key": "memory",
+            "value": "103.68 GiB"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "CreateCacheCluster:0002"
+          },
+          {
+            "key": "usagetype",
+            "value": "NodeUsage:cache.m7g.8xlarge"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "cacheEngine",
+            "value": "Redis"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonElastiCache"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon ElastiCache"
+          },
+          {
+            "key": "instanceType",
+            "value": "cache.m7g.8xlarge"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "instanceFamily",
+            "value": "Standard"
+          },
+          {
+            "key": "currentGeneration",
+            "value": "Yes"
+          },
+          {
+            "key": "networkPerformance",
+            "value": "15 Gigabit"
+          },
+          {
+            "key": "normalizationSizeFactor",
+            "value": "64"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonElastiCache",
+        "region": "us-east-1",
+        "productFamily": "Cache Instance",
+        "prices": [
+          {
+            "USD": "2.514",
+            "unit": "Hrs"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "vcpu",
+            "value": "16"
+          },
+          {
+            "key": "memory",
+            "value": "52.26 GiB"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "CreateCacheCluster:0002"
+          },
+          {
+            "key": "usagetype",
+            "value": "NodeUsage:cache.m6g.4xlarge"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "cacheEngine",
+            "value": "Redis"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonElastiCache"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon ElastiCache"
+          },
+          {
+            "key": "instanceType",
+            "value": "cache.m6g.4xlarge"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "instanceFamily",
+            "value": "Standard"
+          },
+          {
+            "key": "currentGeneration",
+            "value": "Yes"
+          },
+          {
+            "key": "networkPerformance",
+            "value": "Up to 10 Gigabit"
+          },
+          {
+            "key": "normalizationSizeFactor",
+            "value": "32"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonElastiCache",
+        "region": "us-east-1",
+        "productFamily": "Cache Instance",
+        "prices": [
+          {
+            "USD": "1.186",
+            "unit": "Hrs"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "vcpu",
+            "value": "16"
+          },
+          {
+            "key": "memory",
+            "value": "105.81 GiB"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "CreateCacheCluster:0002"
+          },
+          {
+            "key": "usagetype",
+            "value": "NodeUsage:cache.r7g.4xlarge"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "cacheEngine",
+            "value": "Redis"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonElastiCache"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon ElastiCache"
+          },
+          {
+            "key": "instanceType",
+            "value": "cache.r7g.4xlarge"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "instanceFamily",
+            "value": "Memory optimized"
+          },
+          {
+            "key": "currentGeneration",
+            "value": "Yes"
+          },
+          {
+            "key": "networkPerformance",
+            "value": "Up to 15 Gigabit"
+          },
+          {
+            "key": "normalizationSizeFactor",
+            "value": "32"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonElastiCache",
+        "region": "us-east-1",
+        "productFamily": "Cache Instance",
+        "prices": [
+          {
+            "USD": "1.745",
+            "unit": "Hrs"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "vcpu",
+            "value": "4"
+          },
+          {
+            "key": "memory",
+            "value": "26.32 GiB"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "CreateCacheCluster:0002"
+          },
+          {
+            "key": "usagetype",
+            "value": "NodeUsage:cache.r6g.xlarge"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "cacheEngine",
+            "value": "Redis"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonElastiCache"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon ElastiCache"
+          },
+          {
+            "key": "instanceType",
+            "value": "cache.r6g.xlarge"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "instanceFamily",
+            "value": "Memory optimized"
+          },
+          {
+            "key": "currentGeneration",
+            "value": "Yes"
+          },
+          {
+            "key": "networkPerformance",
+            "value": "Up to 10 Gigabit"
+          },
+          {
+            "key": "normalizationSizeFactor",
+            "value": "8"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonElastiCache",
+        "region": "us-east-1",
+        "productFamily": "Cache Instance",
+        "prices": [
+          {
+            "USD": "0.411",
+            "unit": "Hrs"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "vcpu",
+            "value": "8"
+          },
+          {
+            "key": "memory",
+            "value": "26.04 GiB"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "CreateCacheCluster:0002"
+          },
+          {
+            "key": "usagetype",
+            "value": "NodeUsage:cache.m6g.2xlarge"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "cacheEngine",
+            "value": "Redis"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonElastiCache"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon ElastiCache"
+          },
+          {
+            "key": "instanceType",
+            "value": "cache.m6g.2xlarge"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "instanceFamily",
+            "value": "Standard"
+          },
+          {
+            "key": "currentGeneration",
+            "value": "Yes"
+          },
+          {
+            "key": "networkPerformance",
+            "value": "Up to 10 Gigabit"
+          },
+          {
+            "key": "normalizationSizeFactor",
+            "value": "16"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonElastiCache",
+        "region": "us-east-1",
+        "productFamily": "Cache Instance",
+        "prices": [
+          {
+            "USD": "0.593",
+            "unit": "Hrs"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "vcpu",
+            "value": "2"
+          },
+          {
+            "key": "memory",
+            "value": "1.37 GiB"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "CreateCacheCluster:0002"
+          },
+          {
+            "key": "usagetype",
+            "value": "NodeUsage:cache.t3.small"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "cacheEngine",
+            "value": "Redis"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonElastiCache"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon ElastiCache"
+          },
+          {
+            "key": "instanceType",
+            "value": "cache.t3.small"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "instanceFamily",
+            "value": "Standard"
+          },
+          {
+            "key": "currentGeneration",
+            "value": "Yes"
+          },
+          {
+            "key": "networkPerformance",
+            "value": "Up to 5 Gigabit"
+          },
+          {
+            "key": "normalizationSizeFactor",
+            "value": "1"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonElastiCache",
+        "region": "us-east-1",
+        "productFamily": "Cache Instance",
+        "prices": [
+          {
+            "USD": "0.034",
+            "unit": "Hrs"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "vcpu",
+            "value": "32"
+          },
+          {
+            "key": "memory",
+            "value": "209.55 GiB"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "CreateCacheCluster:0002"
+          },
+          {
+            "key": "usagetype",
+            "value": "NodeUsage:cache.r6g.8xlarge"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "cacheEngine",
+            "value": "Redis"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonElastiCache"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon ElastiCache"
+          },
+          {
+            "key": "instanceType",
+            "value": "cache.r6g.8xlarge"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "instanceFamily",
+            "value": "Memory optimized"
+          },
+          {
+            "key": "currentGeneration",
+            "value": "Yes"
+          },
+          {
+            "key": "networkPerformance",
+            "value": "12 Gigabit"
+          },
+          {
+            "key": "normalizationSizeFactor",
+            "value": "64"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonElastiCache",
+        "region": "us-east-1",
+        "productFamily": "Cache Instance",
+        "prices": [
+          {
+            "USD": "3.284",
+            "unit": "Hrs"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "vcpu",
+            "value": "32"
+          },
+          {
+            "key": "memory",
+            "value": "52.26 GiB"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "CreateCacheCluster:0002"
+          },
+          {
+            "key": "usagetype",
+            "value": "NodeUsage:cache.c7gn.8xlarge"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "cacheEngine",
+            "value": "Redis"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonElastiCache"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon ElastiCache"
+          },
+          {
+            "key": "instanceType",
+            "value": "cache.c7gn.8xlarge"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "instanceFamily",
+            "value": "Network optimized"
+          },
+          {
+            "key": "currentGeneration",
+            "value": "Yes"
+          },
+          {
+            "key": "networkPerformance",
+            "value": "100 Gigabit"
+          },
+          {
+            "key": "normalizationSizeFactor",
+            "value": "64"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonElastiCache",
+        "region": "us-east-1",
+        "productFamily": "Cache Instance",
+        "prices": [
+          {
+            "USD": "4.073",
+            "unit": "Hrs"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "vcpu",
+            "value": "4"
+          },
+          {
+            "key": "memory",
+            "value": "26.32 GiB"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "CreateCacheCluster:0002"
+          },
+          {
+            "key": "usagetype",
+            "value": "NodeUsage:cache.r5.xlarge"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "cacheEngine",
+            "value": "Redis"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonElastiCache"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon ElastiCache"
+          },
+          {
+            "key": "instanceType",
+            "value": "cache.r5.xlarge"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "instanceFamily",
+            "value": "Memory optimized"
+          },
+          {
+            "key": "currentGeneration",
+            "value": "Yes"
+          },
+          {
+            "key": "networkPerformance",
+            "value": "Up to 10 Gigabit"
+          },
+          {
+            "key": "normalizationSizeFactor",
+            "value": "8"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonElastiCache",
+        "region": "us-east-1",
+        "productFamily": "Cache Instance",
+        "prices": [
+          {
+            "USD": "0.431",
+            "unit": "Hrs"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "vcpu",
+            "value": "8"
+          },
+          {
+            "key": "memory",
+            "value": "26.04 GiB"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "CreateCacheCluster:0002"
+          },
+          {
+            "key": "usagetype",
+            "value": "USE1-Outpost-NodeUsage:cache.m5.2xlarge"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "cacheEngine",
+            "value": "Redis"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonElastiCache"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon ElastiCache"
+          },
+          {
+            "key": "instanceType",
+            "value": "cache.m5.2xlarge"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Outposts"
+          },
+          {
+            "key": "instanceFamily",
+            "value": "Standard"
+          },
+          {
+            "key": "currentGeneration",
+            "value": "Yes"
+          },
+          {
+            "key": "networkPerformance",
+            "value": "Up to 10 Gigabit"
+          },
+          {
+            "key": "normalizationSizeFactor",
+            "value": "16"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonElastiCache",
+        "region": "us-east-1",
+        "productFamily": "Cache Instance",
+        "prices": [
+          {
+            "USD": "0.239",
+            "unit": "Hrs"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "ssd",
+            "value": "1194.42 GiB"
+          },
+          {
+            "key": "vcpu",
+            "value": "48"
+          },
+          {
+            "key": "memory",
+            "value": "317.77 GiB"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "CreateCacheCluster:0002"
+          },
+          {
+            "key": "usagetype",
+            "value": "NodeUsage:cache.r6gd.12xlarge"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "cacheEngine",
+            "value": "Redis"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonElastiCache"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon ElastiCache"
+          },
+          {
+            "key": "instanceType",
+            "value": "cache.r6gd.12xlarge"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "instanceFamily",
+            "value": "Memory optimized"
+          },
+          {
+            "key": "currentGeneration",
+            "value": "Yes"
+          },
+          {
+            "key": "networkPerformance",
+            "value": "20 Gigabit"
+          },
+          {
+            "key": "normalizationSizeFactor",
+            "value": "96"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonElastiCache",
+        "region": "us-east-1",
+        "productFamily": "Cache Instance",
+        "prices": [
+          {
+            "USD": "9.358",
+            "unit": "Hrs"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "vcpu",
+            "value": "1"
+          },
+          {
+            "key": "memory",
+            "value": "2.78 GiB"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "CreateCacheCluster:0002"
+          },
+          {
+            "key": "usagetype",
+            "value": "NodeUsage:cache.m3.medium"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "cacheEngine",
+            "value": "Redis"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonElastiCache"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon ElastiCache"
+          },
+          {
+            "key": "instanceType",
+            "value": "cache.m3.medium"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "instanceFamily",
+            "value": "Standard"
+          },
+          {
+            "key": "currentGeneration",
+            "value": "No"
+          },
+          {
+            "key": "networkPerformance",
+            "value": "Moderate"
+          },
+          {
+            "key": "normalizationSizeFactor",
+            "value": "2"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonElastiCache",
+        "region": "us-east-1",
+        "productFamily": "Cache Instance",
+        "prices": [
+          {
+            "USD": "0.09",
+            "unit": "Hrs"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "vcpu",
+            "value": "2"
+          },
+          {
+            "key": "memory",
+            "value": "6.42 GiB"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "CreateCacheCluster:0002"
+          },
+          {
+            "key": "usagetype",
+            "value": "NodeUsage:cache.m4.large"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "cacheEngine",
+            "value": "Redis"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonElastiCache"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon ElastiCache"
+          },
+          {
+            "key": "instanceType",
+            "value": "cache.m4.large"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "instanceFamily",
+            "value": "Standard"
+          },
+          {
+            "key": "currentGeneration",
+            "value": "Yes"
+          },
+          {
+            "key": "networkPerformance",
+            "value": "Moderate"
+          },
+          {
+            "key": "normalizationSizeFactor",
+            "value": "4"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonElastiCache",
+        "region": "us-east-1",
+        "productFamily": "Cache Instance",
+        "prices": [
+          {
+            "USD": "0.156",
+            "unit": "Hrs"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "ssd",
+            "value": "796.28 GiB"
+          },
+          {
+            "key": "vcpu",
+            "value": "32"
+          },
+          {
+            "key": "memory",
+            "value": "209.55 GiB"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "CreateCacheCluster:0002"
+          },
+          {
+            "key": "usagetype",
+            "value": "NodeUsage:cache.r6gd.8xlarge"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "cacheEngine",
+            "value": "Redis"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonElastiCache"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon ElastiCache"
+          },
+          {
+            "key": "instanceType",
+            "value": "cache.r6gd.8xlarge"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "instanceFamily",
+            "value": "Memory optimized"
+          },
+          {
+            "key": "currentGeneration",
+            "value": "Yes"
+          },
+          {
+            "key": "networkPerformance",
+            "value": "12 Gigabit"
+          },
+          {
+            "key": "normalizationSizeFactor",
+            "value": "64"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonElastiCache",
+        "region": "us-east-1",
+        "productFamily": "Cache Instance",
+        "prices": [
+          {
+            "USD": "6.24",
+            "unit": "Hrs"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "vcpu",
+            "value": "8"
+          },
+          {
+            "key": "memory",
+            "value": "52.82 GiB"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "CreateCacheCluster:0002"
+          },
+          {
+            "key": "usagetype",
+            "value": "NodeUsage:cache.r5.2xlarge"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "cacheEngine",
+            "value": "Redis"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonElastiCache"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon ElastiCache"
+          },
+          {
+            "key": "instanceType",
+            "value": "cache.r5.2xlarge"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "instanceFamily",
+            "value": "Memory optimized"
+          },
+          {
+            "key": "currentGeneration",
+            "value": "Yes"
+          },
+          {
+            "key": "networkPerformance",
+            "value": "Up to 10 Gigabit"
+          },
+          {
+            "key": "normalizationSizeFactor",
+            "value": "16"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonElastiCache",
+        "region": "us-east-1",
+        "productFamily": "Cache Instance",
+        "prices": [
+          {
+            "USD": "0.862",
+            "unit": "Hrs"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "vcpu",
+            "value": "4"
+          },
+          {
+            "key": "memory",
+            "value": "12.93 GiB"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "CreateCacheCluster:0002"
+          },
+          {
+            "key": "usagetype",
+            "value": "NodeUsage:cache.m6g.xlarge"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "cacheEngine",
+            "value": "Redis"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonElastiCache"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon ElastiCache"
+          },
+          {
+            "key": "instanceType",
+            "value": "cache.m6g.xlarge"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "instanceFamily",
+            "value": "Standard"
+          },
+          {
+            "key": "currentGeneration",
+            "value": "Yes"
+          },
+          {
+            "key": "networkPerformance",
+            "value": "Up to 10 Gigabit"
+          },
+          {
+            "key": "normalizationSizeFactor",
+            "value": "8"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonElastiCache",
+        "region": "us-east-1",
+        "productFamily": "Cache Instance",
+        "prices": [
+          {
+            "USD": "0.297",
+            "unit": "Hrs"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "vcpu",
+            "value": "4"
+          },
+          {
+            "key": "memory",
+            "value": "26.32 GiB"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "CreateCacheCluster:0002"
+          },
+          {
+            "key": "usagetype",
+            "value": "NodeUsage:cache.r7g.xlarge"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "cacheEngine",
+            "value": "Redis"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonElastiCache"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon ElastiCache"
+          },
+          {
+            "key": "instanceType",
+            "value": "cache.r7g.xlarge"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "instanceFamily",
+            "value": "Memory optimized"
+          },
+          {
+            "key": "currentGeneration",
+            "value": "Yes"
+          },
+          {
+            "key": "networkPerformance",
+            "value": "Up to 12.5 Gigabit"
+          },
+          {
+            "key": "normalizationSizeFactor",
+            "value": "8"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonElastiCache",
+        "region": "us-east-1",
+        "productFamily": "Cache Instance",
+        "prices": [
+          {
+            "USD": "0.437",
+            "unit": "Hrs"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "vcpu",
+            "value": "4"
+          },
+          {
+            "key": "memory",
+            "value": "14.28 GiB"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "CreateCacheCluster:0002"
+          },
+          {
+            "key": "usagetype",
+            "value": "NodeUsage:cache.m4.xlarge"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "cacheEngine",
+            "value": "Redis"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonElastiCache"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon ElastiCache"
+          },
+          {
+            "key": "instanceType",
+            "value": "cache.m4.xlarge"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "instanceFamily",
+            "value": "Standard"
+          },
+          {
+            "key": "currentGeneration",
+            "value": "Yes"
+          },
+          {
+            "key": "networkPerformance",
+            "value": "High"
+          },
+          {
+            "key": "normalizationSizeFactor",
+            "value": "8"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonElastiCache",
+        "region": "us-east-1",
+        "productFamily": "Cache Instance",
+        "prices": [
+          {
+            "USD": "0.311",
+            "unit": "Hrs"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "ssd",
+            "value": "1592.56 GiB"
+          },
+          {
+            "key": "vcpu",
+            "value": "64"
+          },
+          {
+            "key": "memory",
+            "value": "419.09 GiB"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "CreateCacheCluster:0002"
+          },
+          {
+            "key": "usagetype",
+            "value": "NodeUsage:cache.r6gd.16xlarge"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "cacheEngine",
+            "value": "Redis"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonElastiCache"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon ElastiCache"
+          },
+          {
+            "key": "instanceType",
+            "value": "cache.r6gd.16xlarge"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "instanceFamily",
+            "value": "Memory optimized"
+          },
+          {
+            "key": "currentGeneration",
+            "value": "Yes"
+          },
+          {
+            "key": "networkPerformance",
+            "value": "25 Gigabit"
+          },
+          {
+            "key": "normalizationSizeFactor",
+            "value": "128"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonElastiCache",
+        "region": "us-east-1",
+        "productFamily": "Cache Instance",
+        "prices": [
+          {
+            "USD": "12.477",
+            "unit": "Hrs"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "vcpu",
+            "value": "48"
+          },
+          {
+            "key": "memory",
+            "value": "157.12 GiB"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "CreateCacheCluster:0002"
+          },
+          {
+            "key": "usagetype",
+            "value": "NodeUsage:cache.m7g.12xlarge"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "cacheEngine",
+            "value": "Redis"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonElastiCache"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon ElastiCache"
+          },
+          {
+            "key": "instanceType",
+            "value": "cache.m7g.12xlarge"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "instanceFamily",
+            "value": "Standard"
+          },
+          {
+            "key": "currentGeneration",
+            "value": "Yes"
+          },
+          {
+            "key": "networkPerformance",
+            "value": "22.5 Gigabit"
+          },
+          {
+            "key": "normalizationSizeFactor",
+            "value": "96"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonElastiCache",
+        "region": "us-east-1",
+        "productFamily": "Cache Instance",
+        "prices": [
+          {
+            "USD": "3.77",
+            "unit": "Hrs"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "vcpu",
+            "value": "4"
+          },
+          {
+            "key": "memory",
+            "value": "13.3 GiB"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "CreateCacheCluster:0002"
+          },
+          {
+            "key": "usagetype",
+            "value": "NodeUsage:cache.m3.xlarge"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "cacheEngine",
+            "value": "Redis"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonElastiCache"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon ElastiCache"
+          },
+          {
+            "key": "instanceType",
+            "value": "cache.m3.xlarge"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "instanceFamily",
+            "value": "Standard"
+          },
+          {
+            "key": "currentGeneration",
+            "value": "No"
+          },
+          {
+            "key": "networkPerformance",
+            "value": "High"
+          },
+          {
+            "key": "normalizationSizeFactor",
+            "value": "8"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonElastiCache",
+        "region": "us-east-1",
+        "productFamily": "Cache Instance",
+        "prices": [
+          {
+            "USD": "0.364",
+            "unit": "Hrs"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "vcpu",
+            "value": "8"
+          },
+          {
+            "key": "memory",
+            "value": "12.94 GiB"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "CreateCacheCluster:0002"
+          },
+          {
+            "key": "usagetype",
+            "value": "NodeUsage:cache.c7gn.2xlarge"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "cacheEngine",
+            "value": "Redis"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonElastiCache"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon ElastiCache"
+          },
+          {
+            "key": "instanceType",
+            "value": "cache.c7gn.2xlarge"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "instanceFamily",
+            "value": "Network optimized"
+          },
+          {
+            "key": "currentGeneration",
+            "value": "Yes"
+          },
+          {
+            "key": "networkPerformance",
+            "value": "Up to 50 Gigabit"
+          },
+          {
+            "key": "normalizationSizeFactor",
+            "value": "16"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonElastiCache",
+        "region": "us-east-1",
+        "productFamily": "Cache Instance",
+        "prices": [
+          {
+            "USD": "1.018",
+            "unit": "Hrs"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "vcpu",
+            "value": "2"
+          },
+          {
+            "key": "memory",
+            "value": "16.7 GiB"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "CreateCacheCluster:0002"
+          },
+          {
+            "key": "usagetype",
+            "value": "NodeUsage:cache.m2.xlarge"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "cacheEngine",
+            "value": "Redis"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonElastiCache"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon ElastiCache"
+          },
+          {
+            "key": "instanceType",
+            "value": "cache.m2.xlarge"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "instanceFamily",
+            "value": "Memory optimized"
+          },
+          {
+            "key": "currentGeneration",
+            "value": "No"
+          },
+          {
+            "key": "networkPerformance",
+            "value": "Moderate"
+          },
+          {
+            "key": "normalizationSizeFactor",
+            "value": "8"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonElastiCache",
+        "region": "us-east-1",
+        "productFamily": "Cache Instance",
+        "prices": [
+          {
+            "USD": "0.302",
+            "unit": "Hrs"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "vcpu",
+            "value": "8"
+          },
+          {
+            "key": "memory",
+            "value": "68 GiB"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "CreateCacheCluster:0002"
+          },
+          {
+            "key": "usagetype",
+            "value": "NodeUsage:cache.m2.4xlarge"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "cacheEngine",
+            "value": "Redis"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonElastiCache"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon ElastiCache"
+          },
+          {
+            "key": "instanceType",
+            "value": "cache.m2.4xlarge"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "instanceFamily",
+            "value": "Memory optimized"
+          },
+          {
+            "key": "currentGeneration",
+            "value": "No"
+          },
+          {
+            "key": "networkPerformance",
+            "value": "High"
+          },
+          {
+            "key": "normalizationSizeFactor",
+            "value": "32"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonElastiCache",
+        "region": "us-east-1",
+        "productFamily": "Cache Instance",
+        "prices": [
+          {
+            "USD": "1.207",
+            "unit": "Hrs"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "vcpu",
+            "value": "48"
+          },
+          {
+            "key": "memory",
+            "value": "157.12 GiB"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "CreateCacheCluster:0002"
+          },
+          {
+            "key": "usagetype",
+            "value": "NodeUsage:cache.m5.12xlarge"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "cacheEngine",
+            "value": "Redis"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonElastiCache"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon ElastiCache"
+          },
+          {
+            "key": "instanceType",
+            "value": "cache.m5.12xlarge"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "instanceFamily",
+            "value": "Standard"
+          },
+          {
+            "key": "currentGeneration",
+            "value": "Yes"
+          },
+          {
+            "key": "networkPerformance",
+            "value": "10 Gigabit"
+          },
+          {
+            "key": "normalizationSizeFactor",
+            "value": "96"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonElastiCache",
+        "region": "us-east-1",
+        "productFamily": "Cache Instance",
+        "prices": [
+          {
+            "USD": "3.744",
+            "unit": "Hrs"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "vcpu",
+            "value": "8"
+          },
+          {
+            "key": "memory",
+            "value": "27.9 GiB"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "CreateCacheCluster:0002"
+          },
+          {
+            "key": "usagetype",
+            "value": "NodeUsage:cache.m3.2xlarge"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "cacheEngine",
+            "value": "Redis"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonElastiCache"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon ElastiCache"
+          },
+          {
+            "key": "instanceType",
+            "value": "cache.m3.2xlarge"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "instanceFamily",
+            "value": "Standard"
+          },
+          {
+            "key": "currentGeneration",
+            "value": "No"
+          },
+          {
+            "key": "networkPerformance",
+            "value": "High"
+          },
+          {
+            "key": "normalizationSizeFactor",
+            "value": "16"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonElastiCache",
+        "region": "us-east-1",
+        "productFamily": "Cache Instance",
+        "prices": [
+          {
+            "USD": "0.728",
+            "unit": "Hrs"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "vcpu",
+            "value": "4"
+          },
+          {
+            "key": "memory",
+            "value": "12.93 GiB"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "CreateCacheCluster:0002"
+          },
+          {
+            "key": "usagetype",
+            "value": "USE1-Outpost-NodeUsage:cache.m5.xlarge"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "cacheEngine",
+            "value": "Redis"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonElastiCache"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon ElastiCache"
+          },
+          {
+            "key": "instanceType",
+            "value": "cache.m5.xlarge"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Outposts"
+          },
+          {
+            "key": "instanceFamily",
+            "value": "Standard"
+          },
+          {
+            "key": "currentGeneration",
+            "value": "Yes"
+          },
+          {
+            "key": "networkPerformance",
+            "value": "Up to 10 Gigabit"
+          },
+          {
+            "key": "normalizationSizeFactor",
+            "value": "8"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonElastiCache",
+        "region": "us-east-1",
+        "productFamily": "Cache Instance",
+        "prices": [
+          {
+            "USD": "0.119",
+            "unit": "Hrs"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "vcpu",
+            "value": "2"
+          },
+          {
+            "key": "memory",
+            "value": "7.1 GiB"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "CreateCacheCluster:0002"
+          },
+          {
+            "key": "usagetype",
+            "value": "NodeUsage:cache.m1.large"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "cacheEngine",
+            "value": "Redis"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonElastiCache"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon ElastiCache"
+          },
+          {
+            "key": "instanceType",
+            "value": "cache.m1.large"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "instanceFamily",
+            "value": "Standard"
+          },
+          {
+            "key": "currentGeneration",
+            "value": "No"
+          },
+          {
+            "key": "networkPerformance",
+            "value": "Moderate"
+          },
+          {
+            "key": "normalizationSizeFactor",
+            "value": "4"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonElastiCache",
+        "region": "us-east-1",
+        "productFamily": "Cache Instance",
+        "prices": [
+          {
+            "USD": "0.226",
+            "unit": "Hrs"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "vcpu",
+            "value": "1"
+          },
+          {
+            "key": "memory",
+            "value": "1.3 GiB"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "CreateCacheCluster:0002"
+          },
+          {
+            "key": "usagetype",
+            "value": "NodeUsage:cache.m1.small"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "cacheEngine",
+            "value": "Redis"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonElastiCache"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon ElastiCache"
+          },
+          {
+            "key": "instanceType",
+            "value": "cache.m1.small"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "instanceFamily",
+            "value": "Standard"
+          },
+          {
+            "key": "currentGeneration",
+            "value": "No"
+          },
+          {
+            "key": "networkPerformance",
+            "value": "Low"
+          },
+          {
+            "key": "normalizationSizeFactor",
+            "value": "1"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonElastiCache",
+        "region": "us-east-1",
+        "productFamily": "Cache Instance",
+        "prices": [
+          {
+            "USD": "0.055",
+            "unit": "Hrs"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "vcpu",
+            "value": "2"
+          },
+          {
+            "key": "memory",
+            "value": "6.38 GiB"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "CreateCacheCluster:0002"
+          },
+          {
+            "key": "usagetype",
+            "value": "NodeUsage:cache.m5.large"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "cacheEngine",
+            "value": "Redis"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonElastiCache"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon ElastiCache"
+          },
+          {
+            "key": "instanceType",
+            "value": "cache.m5.large"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "instanceFamily",
+            "value": "Standard"
+          },
+          {
+            "key": "currentGeneration",
+            "value": "Yes"
+          },
+          {
+            "key": "networkPerformance",
+            "value": "Up to 10 Gigabit"
+          },
+          {
+            "key": "normalizationSizeFactor",
+            "value": "4"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonElastiCache",
+        "region": "us-east-1",
+        "productFamily": "Cache Instance",
+        "prices": [
+          {
+            "USD": "0.156",
+            "unit": "Hrs"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "vcpu",
+            "value": "16"
+          },
+          {
+            "key": "memory",
+            "value": "60.78 GiB"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "CreateCacheCluster:0002"
+          },
+          {
+            "key": "usagetype",
+            "value": "NodeUsage:cache.m4.4xlarge"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "cacheEngine",
+            "value": "Redis"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonElastiCache"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon ElastiCache"
+          },
+          {
+            "key": "instanceType",
+            "value": "cache.m4.4xlarge"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "instanceFamily",
+            "value": "Standard"
+          },
+          {
+            "key": "currentGeneration",
+            "value": "Yes"
+          },
+          {
+            "key": "networkPerformance",
+            "value": "High"
+          },
+          {
+            "key": "normalizationSizeFactor",
+            "value": "32"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonElastiCache",
+        "region": "us-east-1",
+        "productFamily": "Cache Instance",
+        "prices": [
+          {
+            "USD": "1.245",
+            "unit": "Hrs"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "vcpu",
+            "value": "4"
+          },
+          {
+            "key": "memory",
+            "value": "12.93 GiB"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "CreateCacheCluster:0002"
+          },
+          {
+            "key": "usagetype",
+            "value": "NodeUsage:cache.m7g.xlarge"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "cacheEngine",
+            "value": "Redis"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonElastiCache"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon ElastiCache"
+          },
+          {
+            "key": "instanceType",
+            "value": "cache.m7g.xlarge"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "instanceFamily",
+            "value": "Standard"
+          },
+          {
+            "key": "currentGeneration",
+            "value": "Yes"
+          },
+          {
+            "key": "networkPerformance",
+            "value": "Up to 12.5 Gigabit"
+          },
+          {
+            "key": "normalizationSizeFactor",
+            "value": "8"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonElastiCache",
+        "region": "us-east-1",
+        "productFamily": "Cache Instance",
+        "prices": [
+          {
+            "USD": "0.315",
+            "unit": "Hrs"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "vcpu",
+            "value": "2"
+          },
+          {
+            "key": "memory",
+            "value": "6.38 GiB"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "CreateCacheCluster:0002"
+          },
+          {
+            "key": "usagetype",
+            "value": "NodeUsage:cache.m6g.large"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "cacheEngine",
+            "value": "Redis"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonElastiCache"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon ElastiCache"
+          },
+          {
+            "key": "instanceType",
+            "value": "cache.m6g.large"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "instanceFamily",
+            "value": "Standard"
+          },
+          {
+            "key": "currentGeneration",
+            "value": "Yes"
+          },
+          {
+            "key": "networkPerformance",
+            "value": "Up to 10 Gigabit"
+          },
+          {
+            "key": "normalizationSizeFactor",
+            "value": "4"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonElastiCache",
+        "region": "us-east-1",
+        "productFamily": "Cache Instance",
+        "prices": [
+          {
+            "USD": "0.149",
+            "unit": "Hrs"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "vcpu",
+            "value": "40"
+          },
+          {
+            "key": "memory",
+            "value": "154.64 GiB"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "CreateCacheCluster:0002"
+          },
+          {
+            "key": "usagetype",
+            "value": "NodeUsage:cache.m4.10xlarge"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "cacheEngine",
+            "value": "Redis"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonElastiCache"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon ElastiCache"
+          },
+          {
+            "key": "instanceType",
+            "value": "cache.m4.10xlarge"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "instanceFamily",
+            "value": "Standard"
+          },
+          {
+            "key": "currentGeneration",
+            "value": "Yes"
+          },
+          {
+            "key": "networkPerformance",
+            "value": "10 Gigabit"
+          },
+          {
+            "key": "normalizationSizeFactor",
+            "value": "80"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonElastiCache",
+        "region": "us-east-1",
+        "productFamily": "Cache Instance",
+        "prices": [
+          {
+            "USD": "3.112",
+            "unit": "Hrs"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "vcpu",
+            "value": "64"
+          },
+          {
+            "key": "memory",
+            "value": "209.55 GiB"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "CreateCacheCluster:0002"
+          },
+          {
+            "key": "usagetype",
+            "value": "NodeUsage:cache.m7g.16xlarge"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "cacheEngine",
+            "value": "Redis"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonElastiCache"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon ElastiCache"
+          },
+          {
+            "key": "instanceType",
+            "value": "cache.m7g.16xlarge"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "instanceFamily",
+            "value": "Standard"
+          },
+          {
+            "key": "currentGeneration",
+            "value": "Yes"
+          },
+          {
+            "key": "networkPerformance",
+            "value": "30 Gigabit"
+          },
+          {
+            "key": "normalizationSizeFactor",
+            "value": "128"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonElastiCache",
+        "region": "us-east-1",
+        "productFamily": "Cache Instance",
+        "prices": [
+          {
+            "USD": "5.028",
+            "unit": "Hrs"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "CreateCacheSnapshot"
+          },
+          {
+            "key": "usagetype",
+            "value": "ElastiCache:BackupUsage"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "cacheEngine",
+            "value": "Redis"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonElastiCache"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon ElastiCache"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "storageMedia",
+            "value": "Amazon S3"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonElastiCache",
+        "region": "us-east-1",
+        "productFamily": "Storage Snapshot",
+        "prices": [
+          {
+            "USD": "0.085",
+            "unit": "GB-Mo"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "vcpu",
+            "value": "48"
+          },
+          {
+            "key": "memory",
+            "value": "317.77 GiB"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "CreateCacheCluster:0002"
+          },
+          {
+            "key": "usagetype",
+            "value": "USE1-Outpost-NodeUsage:cache.r5.12xlarge"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "cacheEngine",
+            "value": "Redis"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonElastiCache"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon ElastiCache"
+          },
+          {
+            "key": "instanceType",
+            "value": "cache.r5.12xlarge"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Outposts"
+          },
+          {
+            "key": "instanceFamily",
+            "value": "Memory optimized"
+          },
+          {
+            "key": "currentGeneration",
+            "value": "Yes"
+          },
+          {
+            "key": "networkPerformance",
+            "value": "10 Gigabit"
+          },
+          {
+            "key": "normalizationSizeFactor",
+            "value": "96"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonElastiCache",
+        "region": "us-east-1",
+        "productFamily": "Cache Instance",
+        "prices": [
+          {
+            "USD": "2.16",
+            "unit": "Hrs"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "vcpu",
+            "value": "1"
+          },
+          {
+            "key": "memory",
+            "value": "0.213 GiB"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "CreateCacheCluster:0002"
+          },
+          {
+            "key": "usagetype",
+            "value": "NodeUsage:cache.t1.micro"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "cacheEngine",
+            "value": "Redis"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonElastiCache"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon ElastiCache"
+          },
+          {
+            "key": "instanceType",
+            "value": "cache.t1.micro"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "instanceFamily",
+            "value": "Micro"
+          },
+          {
+            "key": "currentGeneration",
+            "value": "No"
+          },
+          {
+            "key": "networkPerformance",
+            "value": "Very Low"
+          },
+          {
+            "key": "normalizationSizeFactor",
+            "value": "0.5"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonElastiCache",
+        "region": "us-east-1",
+        "productFamily": "Cache Instance",
+        "prices": [
+          {
+            "USD": "0.022",
+            "unit": "Hrs"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "vcpu",
+            "value": "64"
+          },
+          {
+            "key": "memory",
+            "value": "419.09 GiB"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "CreateCacheCluster:0002"
+          },
+          {
+            "key": "usagetype",
+            "value": "NodeUsage:cache.r6g.16xlarge"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "cacheEngine",
+            "value": "Redis"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonElastiCache"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon ElastiCache"
+          },
+          {
+            "key": "instanceType",
+            "value": "cache.r6g.16xlarge"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "instanceFamily",
+            "value": "Memory optimized"
+          },
+          {
+            "key": "currentGeneration",
+            "value": "Yes"
+          },
+          {
+            "key": "networkPerformance",
+            "value": "25 Gigabit"
+          },
+          {
+            "key": "normalizationSizeFactor",
+            "value": "128"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonElastiCache",
+        "region": "us-east-1",
+        "productFamily": "Cache Instance",
+        "prices": [
+          {
+            "USD": "6.567",
+            "unit": "Hrs"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "vcpu",
+            "value": "2"
+          },
+          {
+            "key": "memory",
+            "value": "13.07 GiB"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "CreateCacheCluster:0002"
+          },
+          {
+            "key": "usagetype",
+            "value": "USE1-Outpost-NodeUsage:cache.r5.large"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "cacheEngine",
+            "value": "Redis"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonElastiCache"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon ElastiCache"
+          },
+          {
+            "key": "instanceType",
+            "value": "cache.r5.large"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Outposts"
+          },
+          {
+            "key": "instanceFamily",
+            "value": "Memory optimized"
+          },
+          {
+            "key": "currentGeneration",
+            "value": "Yes"
+          },
+          {
+            "key": "networkPerformance",
+            "value": "Up to 10 Gigabit"
+          },
+          {
+            "key": "normalizationSizeFactor",
+            "value": "4"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonElastiCache",
+        "region": "us-east-1",
+        "productFamily": "Cache Instance",
+        "prices": [
+          {
+            "USD": "0.09",
+            "unit": "Hrs"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "vcpu",
+            "value": "96"
+          },
+          {
+            "key": "memory",
+            "value": "314.32 GiB"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "CreateCacheCluster:0002"
+          },
+          {
+            "key": "usagetype",
+            "value": "USE1-Outpost-NodeUsage:cache.m5.24xlarge"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "cacheEngine",
+            "value": "Redis"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonElastiCache"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon ElastiCache"
+          },
+          {
+            "key": "instanceType",
+            "value": "cache.m5.24xlarge"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Outposts"
+          },
+          {
+            "key": "instanceFamily",
+            "value": "Standard"
+          },
+          {
+            "key": "currentGeneration",
+            "value": "Yes"
+          },
+          {
+            "key": "networkPerformance",
+            "value": "25 Gigabit"
+          },
+          {
+            "key": "normalizationSizeFactor",
+            "value": "192"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonElastiCache",
+        "region": "us-east-1",
+        "productFamily": "Cache Instance",
+        "prices": [
+          {
+            "USD": "2.88",
+            "unit": "Hrs"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "vcpu",
+            "value": "1"
+          },
+          {
+            "key": "memory",
+            "value": "3.35 GiB"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "CreateCacheCluster:0002"
+          },
+          {
+            "key": "usagetype",
+            "value": "NodeUsage:cache.m1.medium"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "cacheEngine",
+            "value": "Redis"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonElastiCache"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon ElastiCache"
+          },
+          {
+            "key": "instanceType",
+            "value": "cache.m1.medium"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "instanceFamily",
+            "value": "Standard"
+          },
+          {
+            "key": "currentGeneration",
+            "value": "No"
+          },
+          {
+            "key": "networkPerformance",
+            "value": "Moderate"
+          },
+          {
+            "key": "normalizationSizeFactor",
+            "value": "2"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonElastiCache",
+        "region": "us-east-1",
+        "productFamily": "Cache Instance",
+        "prices": [
+          {
+            "USD": "0.112",
+            "unit": "Hrs"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "vcpu",
+            "value": "8"
+          },
+          {
+            "key": "memory",
+            "value": "6.6 GiB"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "CreateCacheCluster:0002"
+          },
+          {
+            "key": "usagetype",
+            "value": "NodeUsage:cache.c1.xlarge"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "cacheEngine",
+            "value": "Redis"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonElastiCache"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon ElastiCache"
+          },
+          {
+            "key": "instanceType",
+            "value": "cache.c1.xlarge"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "instanceFamily",
+            "value": "Compute optimized"
+          },
+          {
+            "key": "currentGeneration",
+            "value": "No"
+          },
+          {
+            "key": "networkPerformance",
+            "value": "High"
+          },
+          {
+            "key": "normalizationSizeFactor",
+            "value": "8"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonElastiCache",
+        "region": "us-east-1",
+        "productFamily": "Cache Instance",
+        "prices": [
+          {
+            "USD": "0.663",
+            "unit": "Hrs"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "vcpu",
+            "value": "2"
+          },
+          {
+            "key": "memory",
+            "value": "12.3 GiB"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "CreateCacheCluster:0002"
+          },
+          {
+            "key": "usagetype",
+            "value": "NodeUsage:cache.r4.large"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "cacheEngine",
+            "value": "Redis"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonElastiCache"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon ElastiCache"
+          },
+          {
+            "key": "instanceType",
+            "value": "cache.r4.large"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "instanceFamily",
+            "value": "Memory optimized"
+          },
+          {
+            "key": "currentGeneration",
+            "value": "Yes"
+          },
+          {
+            "key": "networkPerformance",
+            "value": "Up to 10 Gigabit"
+          },
+          {
+            "key": "normalizationSizeFactor",
+            "value": "4"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonElastiCache",
+        "region": "us-east-1",
+        "productFamily": "Cache Instance",
+        "prices": [
+          {
+            "USD": "0.228",
+            "unit": "Hrs"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "vcpu",
+            "value": "8"
+          },
+          {
+            "key": "memory",
+            "value": "26.04 GiB"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "CreateCacheCluster:0002"
+          },
+          {
+            "key": "usagetype",
+            "value": "NodeUsage:cache.m5.2xlarge"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "cacheEngine",
+            "value": "Redis"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonElastiCache"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon ElastiCache"
+          },
+          {
+            "key": "instanceType",
+            "value": "cache.m5.2xlarge"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "instanceFamily",
+            "value": "Standard"
+          },
+          {
+            "key": "currentGeneration",
+            "value": "Yes"
+          },
+          {
+            "key": "networkPerformance",
+            "value": "Up to 10 Gigabit"
+          },
+          {
+            "key": "normalizationSizeFactor",
+            "value": "16"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonElastiCache",
+        "region": "us-east-1",
+        "productFamily": "Cache Instance",
+        "prices": [
+          {
+            "USD": "0.623",
+            "unit": "Hrs"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "vcpu",
+            "value": "32"
+          },
+          {
+            "key": "memory",
+            "value": "237 GiB"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "CreateCacheCluster:0002"
+          },
+          {
+            "key": "usagetype",
+            "value": "NodeUsage:cache.r3.8xlarge"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "cacheEngine",
+            "value": "Redis"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonElastiCache"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon ElastiCache"
+          },
+          {
+            "key": "instanceType",
+            "value": "cache.r3.8xlarge"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "instanceFamily",
+            "value": "Memory optimized"
+          },
+          {
+            "key": "currentGeneration",
+            "value": "No"
+          },
+          {
+            "key": "networkPerformance",
+            "value": "10 Gigabit"
+          },
+          {
+            "key": "normalizationSizeFactor",
+            "value": "64"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonElastiCache",
+        "region": "us-east-1",
+        "productFamily": "Cache Instance",
+        "prices": [
+          {
+            "USD": "3.64",
+            "unit": "Hrs"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "vcpu",
+            "value": "48"
+          },
+          {
+            "key": "memory",
+            "value": "157.12 GiB"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "CreateCacheCluster:0002"
+          },
+          {
+            "key": "usagetype",
+            "value": "NodeUsage:cache.m6g.12xlarge"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "cacheEngine",
+            "value": "Redis"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonElastiCache"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon ElastiCache"
+          },
+          {
+            "key": "instanceType",
+            "value": "cache.m6g.12xlarge"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "instanceFamily",
+            "value": "Standard"
+          },
+          {
+            "key": "currentGeneration",
+            "value": "Yes"
+          },
+          {
+            "key": "networkPerformance",
+            "value": "20 Gigabit"
+          },
+          {
+            "key": "normalizationSizeFactor",
+            "value": "96"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonElastiCache",
+        "region": "us-east-1",
+        "productFamily": "Cache Instance",
+        "prices": [
+          {
+            "USD": "3.557",
+            "unit": "Hrs"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "vcpu",
+            "value": "48"
+          },
+          {
+            "key": "memory",
+            "value": "317.77 GiB"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "CreateCacheCluster:0002"
+          },
+          {
+            "key": "usagetype",
+            "value": "NodeUsage:cache.r6g.12xlarge"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "cacheEngine",
+            "value": "Redis"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonElastiCache"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon ElastiCache"
+          },
+          {
+            "key": "instanceType",
+            "value": "cache.r6g.12xlarge"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "instanceFamily",
+            "value": "Memory optimized"
+          },
+          {
+            "key": "currentGeneration",
+            "value": "Yes"
+          },
+          {
+            "key": "networkPerformance",
+            "value": "20 Gigabit"
+          },
+          {
+            "key": "normalizationSizeFactor",
+            "value": "96"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonElastiCache",
+        "region": "us-east-1",
+        "productFamily": "Cache Instance",
+        "prices": [
+          {
+            "USD": "4.925",
+            "unit": "Hrs"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "vcpu",
+            "value": "16"
+          },
+          {
+            "key": "memory",
+            "value": "118 GiB"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "CreateCacheCluster:0002"
+          },
+          {
+            "key": "usagetype",
+            "value": "NodeUsage:cache.r3.4xlarge"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "cacheEngine",
+            "value": "Redis"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonElastiCache"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon ElastiCache"
+          },
+          {
+            "key": "instanceType",
+            "value": "cache.r3.4xlarge"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "instanceFamily",
+            "value": "Memory optimized"
+          },
+          {
+            "key": "currentGeneration",
+            "value": "No"
+          },
+          {
+            "key": "networkPerformance",
+            "value": "High"
+          },
+          {
+            "key": "normalizationSizeFactor",
+            "value": "32"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonElastiCache",
+        "region": "us-east-1",
+        "productFamily": "Cache Instance",
+        "prices": [
+          {
+            "USD": "1.82",
+            "unit": "Hrs"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "GlobalDatastore:Redis"
+          },
+          {
+            "key": "usagetype",
+            "value": "USE1-ElastiCache-Out-Bytes"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "cacheEngine",
+            "value": "Redis"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonElastiCache"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon ElastiCache"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "transferType",
+            "value": "InterRegion Outbound"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonElastiCache",
+        "region": "us-east-1",
+        "productFamily": "Amazon ElastiCache Global Datastore",
+        "prices": [
+          {
+            "USD": "0.02",
+            "unit": "GigaBytes"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "vcpu",
+            "value": "2"
+          },
+          {
+            "key": "memory",
+            "value": "6.38 GiB"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "CreateCacheCluster:0002"
+          },
+          {
+            "key": "usagetype",
+            "value": "NodeUsage:cache.m7g.large"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "cacheEngine",
+            "value": "Redis"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonElastiCache"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon ElastiCache"
+          },
+          {
+            "key": "instanceType",
+            "value": "cache.m7g.large"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "instanceFamily",
+            "value": "Standard"
+          },
+          {
+            "key": "currentGeneration",
+            "value": "Yes"
+          },
+          {
+            "key": "networkPerformance",
+            "value": "Up to 12.5 Gigabit"
+          },
+          {
+            "key": "normalizationSizeFactor",
+            "value": "4"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonElastiCache",
+        "region": "us-east-1",
+        "productFamily": "Cache Instance",
+        "prices": [
+          {
+            "USD": "0.158",
+            "unit": "Hrs"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "ssd",
+            "value": "199.07 GiB"
+          },
+          {
+            "key": "vcpu",
+            "value": "8"
+          },
+          {
+            "key": "memory",
+            "value": "52.82 GiB"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "CreateCacheCluster:0002"
+          },
+          {
+            "key": "usagetype",
+            "value": "NodeUsage:cache.r6gd.2xlarge"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "cacheEngine",
+            "value": "Redis"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonElastiCache"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon ElastiCache"
+          },
+          {
+            "key": "instanceType",
+            "value": "cache.r6gd.2xlarge"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "instanceFamily",
+            "value": "Memory optimized"
+          },
+          {
+            "key": "currentGeneration",
+            "value": "Yes"
+          },
+          {
+            "key": "networkPerformance",
+            "value": "Up to 10 Gigabit"
+          },
+          {
+            "key": "normalizationSizeFactor",
+            "value": "16"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonElastiCache",
+        "region": "us-east-1",
+        "productFamily": "Cache Instance",
+        "prices": [
+          {
+            "USD": "1.56",
+            "unit": "Hrs"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "vcpu",
+            "value": "16"
+          },
+          {
+            "key": "memory",
+            "value": "105.81 GiB"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "CreateCacheCluster:0002"
+          },
+          {
+            "key": "usagetype",
+            "value": "NodeUsage:cache.r5.4xlarge"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "cacheEngine",
+            "value": "Redis"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonElastiCache"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon ElastiCache"
+          },
+          {
+            "key": "instanceType",
+            "value": "cache.r5.4xlarge"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "instanceFamily",
+            "value": "Memory optimized"
+          },
+          {
+            "key": "currentGeneration",
+            "value": "Yes"
+          },
+          {
+            "key": "networkPerformance",
+            "value": "Up to 10 Gigabit"
+          },
+          {
+            "key": "normalizationSizeFactor",
+            "value": "32"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonElastiCache",
+        "region": "us-east-1",
+        "productFamily": "Cache Instance",
+        "prices": [
+          {
+            "USD": "1.724",
+            "unit": "Hrs"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "vcpu",
+            "value": "2"
+          },
+          {
+            "key": "memory",
+            "value": "1.37 GiB"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "CreateCacheCluster:0002"
+          },
+          {
+            "key": "usagetype",
+            "value": "NodeUsage:cache.t4g.small"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "cacheEngine",
+            "value": "Redis"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonElastiCache"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon ElastiCache"
+          },
+          {
+            "key": "instanceType",
+            "value": "cache.t4g.small"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "instanceFamily",
+            "value": "Standard"
+          },
+          {
+            "key": "currentGeneration",
+            "value": "Yes"
+          },
+          {
+            "key": "networkPerformance",
+            "value": "Up to 5 Gigabit"
+          },
+          {
+            "key": "normalizationSizeFactor",
+            "value": "1"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonElastiCache",
+        "region": "us-east-1",
+        "productFamily": "Cache Instance",
+        "prices": [
+          {
+            "USD": "0.032",
+            "unit": "Hrs"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "vcpu",
+            "value": "4"
+          },
+          {
+            "key": "memory",
+            "value": "12.93 GiB"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "CreateCacheCluster:0002"
+          },
+          {
+            "key": "usagetype",
+            "value": "NodeUsage:cache.m5.xlarge"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "cacheEngine",
+            "value": "Redis"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonElastiCache"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon ElastiCache"
+          },
+          {
+            "key": "instanceType",
+            "value": "cache.m5.xlarge"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "instanceFamily",
+            "value": "Standard"
+          },
+          {
+            "key": "currentGeneration",
+            "value": "Yes"
+          },
+          {
+            "key": "networkPerformance",
+            "value": "Up to 10 Gigabit"
+          },
+          {
+            "key": "normalizationSizeFactor",
+            "value": "8"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonElastiCache",
+        "region": "us-east-1",
+        "productFamily": "Cache Instance",
+        "prices": [
+          {
+            "USD": "0.311",
+            "unit": "Hrs"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "vcpu",
+            "value": "1"
+          },
+          {
+            "key": "memory",
+            "value": "1.55 GiB"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "CreateCacheCluster:0002"
+          },
+          {
+            "key": "usagetype",
+            "value": "NodeUsage:cache.t2.small"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "cacheEngine",
+            "value": "Redis"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonElastiCache"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon ElastiCache"
+          },
+          {
+            "key": "instanceType",
+            "value": "cache.t2.small"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "instanceFamily",
+            "value": "Standard"
+          },
+          {
+            "key": "currentGeneration",
+            "value": "Yes"
+          },
+          {
+            "key": "networkPerformance",
+            "value": "Low to Moderate"
+          },
+          {
+            "key": "normalizationSizeFactor",
+            "value": "1"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonElastiCache",
+        "region": "us-east-1",
+        "productFamily": "Cache Instance",
+        "prices": [
+          {
+            "USD": "0.034",
+            "unit": "Hrs"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "vcpu",
+            "value": "4"
+          },
+          {
+            "key": "memory",
+            "value": "25.05 GiB"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "CreateCacheCluster:0002"
+          },
+          {
+            "key": "usagetype",
+            "value": "NodeUsage:cache.r4.xlarge"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "cacheEngine",
+            "value": "Redis"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonElastiCache"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon ElastiCache"
+          },
+          {
+            "key": "instanceType",
+            "value": "cache.r4.xlarge"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "instanceFamily",
+            "value": "Memory optimized"
+          },
+          {
+            "key": "currentGeneration",
+            "value": "Yes"
+          },
+          {
+            "key": "networkPerformance",
+            "value": "Up to 10 Gigabit"
+          },
+          {
+            "key": "normalizationSizeFactor",
+            "value": "8"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonElastiCache",
+        "region": "us-east-1",
+        "productFamily": "Cache Instance",
+        "prices": [
+          {
+            "USD": "0.455",
+            "unit": "Hrs"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "vcpu",
+            "value": "2"
+          },
+          {
+            "key": "memory",
+            "value": "13.5 GiB"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "CreateCacheCluster:0002"
+          },
+          {
+            "key": "usagetype",
+            "value": "NodeUsage:cache.r3.large"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "cacheEngine",
+            "value": "Redis"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonElastiCache"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon ElastiCache"
+          },
+          {
+            "key": "instanceType",
+            "value": "cache.r3.large"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "instanceFamily",
+            "value": "Memory optimized"
+          },
+          {
+            "key": "currentGeneration",
+            "value": "No"
+          },
+          {
+            "key": "networkPerformance",
+            "value": "Moderate"
+          },
+          {
+            "key": "normalizationSizeFactor",
+            "value": "4"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonElastiCache",
+        "region": "us-east-1",
+        "productFamily": "Cache Instance",
+        "prices": [
+          {
+            "USD": "0.228",
+            "unit": "Hrs"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "CreateServerlessCache"
+          },
+          {
+            "key": "usagetype",
+            "value": "USE1-CachedData:Redis"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "cacheEngine",
+            "value": "Redis"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonElastiCache"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon ElastiCache"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonElastiCache",
+        "region": "us-east-1",
+        "productFamily": "ElastiCache Serverless",
+        "prices": [
+          {
+            "USD": "0.125",
+            "unit": "GB-Hours"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "vcpu",
+            "value": "8"
+          },
+          {
+            "key": "memory",
+            "value": "29.7 GiB"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "CreateCacheCluster:0002"
+          },
+          {
+            "key": "usagetype",
+            "value": "NodeUsage:cache.m4.2xlarge"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "cacheEngine",
+            "value": "Redis"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonElastiCache"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon ElastiCache"
+          },
+          {
+            "key": "instanceType",
+            "value": "cache.m4.2xlarge"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "instanceFamily",
+            "value": "Standard"
+          },
+          {
+            "key": "currentGeneration",
+            "value": "Yes"
+          },
+          {
+            "key": "networkPerformance",
+            "value": "High"
+          },
+          {
+            "key": "normalizationSizeFactor",
+            "value": "16"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonElastiCache",
+        "region": "us-east-1",
+        "productFamily": "Cache Instance",
+        "prices": [
+          {
+            "USD": "0.623",
+            "unit": "Hrs"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "vcpu",
+            "value": "32"
+          },
+          {
+            "key": "memory",
+            "value": "103.68 GiB"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "CreateCacheCluster:0002"
+          },
+          {
+            "key": "usagetype",
+            "value": "NodeUsage:cache.m6g.8xlarge"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "cacheEngine",
+            "value": "Redis"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonElastiCache"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon ElastiCache"
+          },
+          {
+            "key": "instanceType",
+            "value": "cache.m6g.8xlarge"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "instanceFamily",
+            "value": "Standard"
+          },
+          {
+            "key": "currentGeneration",
+            "value": "Yes"
+          },
+          {
+            "key": "networkPerformance",
+            "value": "12 Gigabit"
+          },
+          {
+            "key": "normalizationSizeFactor",
+            "value": "64"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonElastiCache",
+        "region": "us-east-1",
+        "productFamily": "Cache Instance",
+        "prices": [
+          {
+            "USD": "2.372",
+            "unit": "Hrs"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "vcpu",
+            "value": "8"
+          },
+          {
+            "key": "memory",
+            "value": "58.2 GiB"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "CreateCacheCluster:0002"
+          },
+          {
+            "key": "usagetype",
+            "value": "NodeUsage:cache.r3.2xlarge"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "cacheEngine",
+            "value": "Redis"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonElastiCache"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon ElastiCache"
+          },
+          {
+            "key": "instanceType",
+            "value": "cache.r3.2xlarge"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "instanceFamily",
+            "value": "Memory optimized"
+          },
+          {
+            "key": "currentGeneration",
+            "value": "No"
+          },
+          {
+            "key": "networkPerformance",
+            "value": "High"
+          },
+          {
+            "key": "normalizationSizeFactor",
+            "value": "16"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonElastiCache",
+        "region": "us-east-1",
+        "productFamily": "Cache Instance",
+        "prices": [
+          {
+            "USD": "0.91",
+            "unit": "Hrs"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "vcpu",
+            "value": "32"
+          },
+          {
+            "key": "memory",
+            "value": "203.26 GiB"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "CreateCacheCluster:0002"
+          },
+          {
+            "key": "usagetype",
+            "value": "NodeUsage:cache.r4.8xlarge"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "cacheEngine",
+            "value": "Redis"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonElastiCache"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon ElastiCache"
+          },
+          {
+            "key": "instanceType",
+            "value": "cache.r4.8xlarge"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "instanceFamily",
+            "value": "Memory optimized"
+          },
+          {
+            "key": "currentGeneration",
+            "value": "Yes"
+          },
+          {
+            "key": "networkPerformance",
+            "value": "10 Gigabit"
+          },
+          {
+            "key": "normalizationSizeFactor",
+            "value": "64"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonElastiCache",
+        "region": "us-east-1",
+        "productFamily": "Cache Instance",
+        "prices": [
+          {
+            "USD": "3.64",
+            "unit": "Hrs"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "vcpu",
+            "value": "2"
+          },
+          {
+            "key": "memory",
+            "value": "6.05 GiB"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "CreateCacheCluster:0002"
+          },
+          {
+            "key": "usagetype",
+            "value": "NodeUsage:cache.m3.large"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "cacheEngine",
+            "value": "Redis"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonElastiCache"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon ElastiCache"
+          },
+          {
+            "key": "instanceType",
+            "value": "cache.m3.large"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "instanceFamily",
+            "value": "Standard"
+          },
+          {
+            "key": "currentGeneration",
+            "value": "No"
+          },
+          {
+            "key": "networkPerformance",
+            "value": "Moderate"
+          },
+          {
+            "key": "normalizationSizeFactor",
+            "value": "4"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonElastiCache",
+        "region": "us-east-1",
+        "productFamily": "Cache Instance",
+        "prices": [
+          {
+            "USD": "0.182",
+            "unit": "Hrs"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "vcpu",
+            "value": "48"
+          },
+          {
+            "key": "memory",
+            "value": "157.12 GiB"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "CreateCacheCluster:0002"
+          },
+          {
+            "key": "usagetype",
+            "value": "USE1-Outpost-NodeUsage:cache.m5.12xlarge"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "cacheEngine",
+            "value": "Redis"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonElastiCache"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon ElastiCache"
+          },
+          {
+            "key": "instanceType",
+            "value": "cache.m5.12xlarge"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Outposts"
+          },
+          {
+            "key": "instanceFamily",
+            "value": "Standard"
+          },
+          {
+            "key": "currentGeneration",
+            "value": "Yes"
+          },
+          {
+            "key": "networkPerformance",
+            "value": "10 Gigabit"
+          },
+          {
+            "key": "normalizationSizeFactor",
+            "value": "96"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonElastiCache",
+        "region": "us-east-1",
+        "productFamily": "Cache Instance",
+        "prices": [
+          {
+            "USD": "1.44",
+            "unit": "Hrs"
+          }
+        ]
+      }
+    ]
+  }
+}
