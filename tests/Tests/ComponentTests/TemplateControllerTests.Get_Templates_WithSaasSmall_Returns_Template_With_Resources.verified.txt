@@ -3,7 +3,15 @@
   Resources: [
     VirtualMachines,
     Relational,
+    Caching,
+    ObjectStorage,
+    Backup,
+    ApiGateway,
     LoadBalancer,
-    Monitoring
+    Queueing,
+    Messaging,
+    Secrets,
+    Monitoring,
+    WebApplicationFirewall
   ]
 }
