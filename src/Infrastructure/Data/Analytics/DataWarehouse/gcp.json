@@ -1,0 +1,44 @@
+{
+  "data": {
+    "products": [
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Analysis (us-central1)"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "OnDemandAnalysis"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "BigQuery",
+        "region": "us-central1",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0",
+            "unit": "tebibyte",
+            "startUsageAmount": "0",
+            "endUsageAmount": "1",
+            "purchaseOption": "OnDemand",
+            "termPurchaseOption": null,
+            "termLength": null,
+            "termOfferingClass": null
+          },
+          {
+            "USD": "6.25",
+            "unit": "tebibyte",
+            "startUsageAmount": "1",
+            "endUsageAmount": null,
+            "purchaseOption": "OnDemand",
+            "termPurchaseOption": null,
+            "termLength": null,
+            "termOfferingClass": null
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,4 +1,4 @@
-namespace Application.Services.Calculator;
+namespace Application.Extensions;
 
 public static class ResourceParsingUtils
 {

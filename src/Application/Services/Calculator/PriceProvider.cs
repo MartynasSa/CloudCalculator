@@ -1,4 +1,5 @@
-﻿using Application.Models.Dtos;
+﻿using Application.Extensions;
+using Application.Models.Dtos;
 using Application.Models.Enums;
 
 namespace Application.Services.Calculator;

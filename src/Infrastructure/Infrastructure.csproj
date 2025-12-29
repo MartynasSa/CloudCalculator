@@ -11,6 +11,15 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Update="Data\Analytics\DataWarehouse\aws.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Analytics\DataWarehouse\azure.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Analytics\DataWarehouse\gcp.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
     <None Update="Data\Compute\Containers\aws.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>

@@ -1,0 +1,2396 @@
+{
+  "data": {
+    "products": [
+      {
+        "attributes": [
+          {
+            "key": "io",
+            "value": "3.70 GB/s"
+          },
+          {
+            "key": "ecu",
+            "value": "104"
+          },
+          {
+            "key": "vcpu",
+            "value": "32"
+          },
+          {
+            "key": "memory",
+            "value": "244 GiB"
+          },
+          {
+            "key": "storage",
+            "value": "2.56TB SSD"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "RunComputeNode:0001"
+          },
+          {
+            "key": "usagetype",
+            "value": "Node:dw2.8xlarge"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonRedshift"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon Redshift"
+          },
+          {
+            "key": "usageFamily",
+            "value": "Dense Compute"
+          },
+          {
+            "key": "instanceType",
+            "value": "dc1.8xlarge"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "currentGeneration",
+            "value": "No"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonRedshift",
+        "region": "us-east-1",
+        "productFamily": "Compute Instance",
+        "prices": [
+          {
+            "USD": "4.8",
+            "unit": "Hrs"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "io",
+            "value": "0.20 GB/s"
+          },
+          {
+            "key": "ecu",
+            "value": "7"
+          },
+          {
+            "key": "vcpu",
+            "value": "2"
+          },
+          {
+            "key": "memory",
+            "value": "15 GiB"
+          },
+          {
+            "key": "storage",
+            "value": "0.16TB SSD"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "RunComputeNode:0001"
+          },
+          {
+            "key": "usagetype",
+            "value": "Node:dw2.large"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonRedshift"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon Redshift"
+          },
+          {
+            "key": "usageFamily",
+            "value": "Dense Compute"
+          },
+          {
+            "key": "instanceType",
+            "value": "dc1.large"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "currentGeneration",
+            "value": "No"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonRedshift",
+        "region": "us-east-1",
+        "productFamily": "Compute Instance",
+        "prices": [
+          {
+            "USD": "0.25",
+            "unit": "Hrs"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "io",
+            "value": "7.50 GB/s"
+          },
+          {
+            "key": "ecu",
+            "value": "99"
+          },
+          {
+            "key": "vcpu",
+            "value": "32"
+          },
+          {
+            "key": "memory",
+            "value": "244 GiB"
+          },
+          {
+            "key": "storage",
+            "value": "2.56TB SSD"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "RunComputeNode:0001"
+          },
+          {
+            "key": "usagetype",
+            "value": "Node:dc2.8xlarge"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonRedshift"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon Redshift"
+          },
+          {
+            "key": "usageFamily",
+            "value": "Dense Compute"
+          },
+          {
+            "key": "instanceType",
+            "value": "dc2.8xlarge"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "currentGeneration",
+            "value": "Yes"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonRedshift",
+        "region": "us-east-1",
+        "productFamily": "Compute Instance",
+        "prices": [
+          {
+            "USD": "4.8",
+            "unit": "Hrs"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "io",
+            "value": "0.60 GB/s"
+          },
+          {
+            "key": "ecu",
+            "value": "7"
+          },
+          {
+            "key": "vcpu",
+            "value": "2"
+          },
+          {
+            "key": "memory",
+            "value": "15 GiB"
+          },
+          {
+            "key": "storage",
+            "value": "0.16TB SSD"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "RunComputeNode:0001"
+          },
+          {
+            "key": "usagetype",
+            "value": "Node:dc2.large"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonRedshift"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon Redshift"
+          },
+          {
+            "key": "usageFamily",
+            "value": "Dense Compute"
+          },
+          {
+            "key": "instanceType",
+            "value": "dc2.large"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "currentGeneration",
+            "value": "Yes"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonRedshift",
+        "region": "us-east-1",
+        "productFamily": "Compute Instance",
+        "prices": [
+          {
+            "USD": "0.25",
+            "unit": "Hrs"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "io",
+            "value": "2.40 GB/s"
+          },
+          {
+            "key": "ecu",
+            "value": "35"
+          },
+          {
+            "key": "vcpu",
+            "value": "16"
+          },
+          {
+            "key": "memory",
+            "value": "120 GiB"
+          },
+          {
+            "key": "storage",
+            "value": "16TB HDD"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "RunComputeNode:0001"
+          },
+          {
+            "key": "usagetype",
+            "value": "Node:dw.hs1.8xlarge"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonRedshift"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon Redshift"
+          },
+          {
+            "key": "usageFamily",
+            "value": "Dense Storage"
+          },
+          {
+            "key": "instanceType",
+            "value": "ds1.8xlarge"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "currentGeneration",
+            "value": "No"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonRedshift",
+        "region": "us-east-1",
+        "productFamily": "Compute Instance",
+        "prices": [
+          {
+            "USD": "6.8",
+            "unit": "Hrs"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "io",
+            "value": "0.30 GB/s"
+          },
+          {
+            "key": "ecu",
+            "value": "4.4"
+          },
+          {
+            "key": "vcpu",
+            "value": "2"
+          },
+          {
+            "key": "memory",
+            "value": "15 GiB"
+          },
+          {
+            "key": "storage",
+            "value": "2TB HDD"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "RunComputeNode:0001"
+          },
+          {
+            "key": "usagetype",
+            "value": "Node:dw.hs1.xlarge"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonRedshift"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon Redshift"
+          },
+          {
+            "key": "usageFamily",
+            "value": "Dense Storage"
+          },
+          {
+            "key": "instanceType",
+            "value": "ds1.xlarge"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "currentGeneration",
+            "value": "No"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonRedshift",
+        "region": "us-east-1",
+        "productFamily": "Compute Instance",
+        "prices": [
+          {
+            "USD": "0.85",
+            "unit": "Hrs"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "io",
+            "value": "3.30 GB/s"
+          },
+          {
+            "key": "ecu",
+            "value": "116"
+          },
+          {
+            "key": "vcpu",
+            "value": "36"
+          },
+          {
+            "key": "memory",
+            "value": "244 GiB"
+          },
+          {
+            "key": "storage",
+            "value": "16TB HDD"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "RunComputeNode:0001"
+          },
+          {
+            "key": "usagetype",
+            "value": "Node:ds2.8xlarge"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonRedshift"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon Redshift"
+          },
+          {
+            "key": "usageFamily",
+            "value": "Dense Storage"
+          },
+          {
+            "key": "instanceType",
+            "value": "ds2.8xlarge"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "currentGeneration",
+            "value": "No"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonRedshift",
+        "region": "us-east-1",
+        "productFamily": "Compute Instance",
+        "prices": [
+          {
+            "USD": "6.8",
+            "unit": "Hrs"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "io",
+            "value": "0.40 GB/s"
+          },
+          {
+            "key": "ecu",
+            "value": "14"
+          },
+          {
+            "key": "vcpu",
+            "value": "4"
+          },
+          {
+            "key": "memory",
+            "value": "31 GiB"
+          },
+          {
+            "key": "storage",
+            "value": "2TB HDD"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "RunComputeNode:0001"
+          },
+          {
+            "key": "usagetype",
+            "value": "Node:ds2.xlarge"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonRedshift"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon Redshift"
+          },
+          {
+            "key": "usageFamily",
+            "value": "Dense Storage"
+          },
+          {
+            "key": "instanceType",
+            "value": "ds2.xlarge"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "currentGeneration",
+            "value": "No"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonRedshift",
+        "region": "us-east-1",
+        "productFamily": "Compute Instance",
+        "prices": [
+          {
+            "USD": "0.85",
+            "unit": "Hrs"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "io",
+            "value": "8.00 GB/s"
+          },
+          {
+            "key": "ecu",
+            "value": "148.5"
+          },
+          {
+            "key": "vcpu",
+            "value": "48"
+          },
+          {
+            "key": "memory",
+            "value": "384 GiB"
+          },
+          {
+            "key": "storage",
+            "value": "64TB RMS"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "RunComputeNode:0001"
+          },
+          {
+            "key": "usagetype",
+            "value": "Node:ra3.16xlarge"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonRedshift"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon Redshift"
+          },
+          {
+            "key": "usageFamily",
+            "value": "RA3"
+          },
+          {
+            "key": "instanceType",
+            "value": "ra3.16xlarge"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "currentGeneration",
+            "value": "Yes"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonRedshift",
+        "region": "us-east-1",
+        "productFamily": "Compute Instance",
+        "prices": [
+          {
+            "USD": "13.04",
+            "unit": "Hrs"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "io",
+            "value": "2.00 GB/s"
+          },
+          {
+            "key": "ecu",
+            "value": "37.125"
+          },
+          {
+            "key": "vcpu",
+            "value": "12"
+          },
+          {
+            "key": "memory",
+            "value": "96 GiB"
+          },
+          {
+            "key": "storage",
+            "value": "64TB RMS"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "RunComputeNode:0001"
+          },
+          {
+            "key": "usagetype",
+            "value": "Node:ra3.4xlarge"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonRedshift"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon Redshift"
+          },
+          {
+            "key": "usageFamily",
+            "value": "RA3"
+          },
+          {
+            "key": "instanceType",
+            "value": "ra3.4xlarge"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "currentGeneration",
+            "value": "Yes"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonRedshift",
+        "region": "us-east-1",
+        "productFamily": "Compute Instance",
+        "prices": [
+          {
+            "USD": "3.26",
+            "unit": "Hrs"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "io",
+            "value": "0.325 GB/s"
+          },
+          {
+            "key": "ecu",
+            "value": "6.1875"
+          },
+          {
+            "key": "vcpu",
+            "value": "2"
+          },
+          {
+            "key": "memory",
+            "value": "16 GiB"
+          },
+          {
+            "key": "storage",
+            "value": "8TB RMS"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "RunComputeNode:0001"
+          },
+          {
+            "key": "usagetype",
+            "value": "USE1-Node:ra3.large"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonRedshift"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon Redshift"
+          },
+          {
+            "key": "usageFamily",
+            "value": "RA3"
+          },
+          {
+            "key": "instanceType",
+            "value": "ra3.large"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "currentGeneration",
+            "value": "Yes"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonRedshift",
+        "region": "us-east-1",
+        "productFamily": "Compute Instance",
+        "prices": [
+          {
+            "USD": "0.543",
+            "unit": "Hrs"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "io",
+            "value": "0.325 GB/s"
+          },
+          {
+            "key": "ecu",
+            "value": "6.1875"
+          },
+          {
+            "key": "vcpu",
+            "value": "2"
+          },
+          {
+            "key": "memory",
+            "value": "16 GiB"
+          },
+          {
+            "key": "storage",
+            "value": "8TB RMS"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "RunComputeNode:0001"
+          },
+          {
+            "key": "usagetype",
+            "value": "Node:ra3.large"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonRedshift"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon Redshift"
+          },
+          {
+            "key": "usageFamily",
+            "value": "RA3"
+          },
+          {
+            "key": "instanceType",
+            "value": "ra3.large"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "currentGeneration",
+            "value": "Yes"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonRedshift",
+        "region": "us-east-1",
+        "productFamily": "Compute Instance",
+        "prices": [
+          {
+            "USD": "0.543",
+            "unit": "Hrs"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "io",
+            "value": "0.65 GB/s"
+          },
+          {
+            "key": "ecu",
+            "value": "12.375"
+          },
+          {
+            "key": "vcpu",
+            "value": "4"
+          },
+          {
+            "key": "memory",
+            "value": "32 GiB"
+          },
+          {
+            "key": "storage",
+            "value": "32TB RMS"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "RunComputeNode:0001"
+          },
+          {
+            "key": "usagetype",
+            "value": "Node:ra3.xlplus"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonRedshift"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon Redshift"
+          },
+          {
+            "key": "usageFamily",
+            "value": "RA3"
+          },
+          {
+            "key": "instanceType",
+            "value": "ra3.xlplus"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "currentGeneration",
+            "value": "Yes"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonRedshift",
+        "region": "us-east-1",
+        "productFamily": "Compute Instance",
+        "prices": [
+          {
+            "USD": "1.086",
+            "unit": "Hrs"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": ""
+          },
+          {
+            "key": "usagetype",
+            "value": "CSFreeUsage:dc2.8xlarge"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonRedshift"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon Redshift"
+          },
+          {
+            "key": "usageFamily",
+            "value": "Dense Compute"
+          },
+          {
+            "key": "instanceType",
+            "value": "dc2.8xlarge"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "currentGeneration",
+            "value": "Yes"
+          },
+          {
+            "key": "concurrencyscalingfreeusage",
+            "value": "Yes"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonRedshift",
+        "region": "us-east-1",
+        "productFamily": "Redshift Concurrency Scaling",
+        "prices": [
+          {
+            "USD": "0",
+            "unit": "seconds"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": ""
+          },
+          {
+            "key": "usagetype",
+            "value": "CS:dc2.8xlarge"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonRedshift"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon Redshift"
+          },
+          {
+            "key": "usageFamily",
+            "value": "Dense Compute"
+          },
+          {
+            "key": "instanceType",
+            "value": "dc2.8xlarge"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "currentGeneration",
+            "value": "Yes"
+          },
+          {
+            "key": "concurrencyscalingfreeusage",
+            "value": "No"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonRedshift",
+        "region": "us-east-1",
+        "productFamily": "Redshift Concurrency Scaling",
+        "prices": [
+          {
+            "USD": "0.00133",
+            "unit": "seconds"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": ""
+          },
+          {
+            "key": "usagetype",
+            "value": "CSFreeUsage:dc2.large"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonRedshift"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon Redshift"
+          },
+          {
+            "key": "usageFamily",
+            "value": "Dense Compute"
+          },
+          {
+            "key": "instanceType",
+            "value": "dc2.large"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "currentGeneration",
+            "value": "Yes"
+          },
+          {
+            "key": "concurrencyscalingfreeusage",
+            "value": "Yes"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonRedshift",
+        "region": "us-east-1",
+        "productFamily": "Redshift Concurrency Scaling",
+        "prices": [
+          {
+            "USD": "0",
+            "unit": "seconds"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": ""
+          },
+          {
+            "key": "usagetype",
+            "value": "CS:dc2.large"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonRedshift"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon Redshift"
+          },
+          {
+            "key": "usageFamily",
+            "value": "Dense Compute"
+          },
+          {
+            "key": "instanceType",
+            "value": "dc2.large"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "currentGeneration",
+            "value": "Yes"
+          },
+          {
+            "key": "concurrencyscalingfreeusage",
+            "value": "No"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonRedshift",
+        "region": "us-east-1",
+        "productFamily": "Redshift Concurrency Scaling",
+        "prices": [
+          {
+            "USD": "0.00007",
+            "unit": "seconds"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": ""
+          },
+          {
+            "key": "usagetype",
+            "value": "CSFreeUsage:ds2.8xlarge"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonRedshift"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon Redshift"
+          },
+          {
+            "key": "usageFamily",
+            "value": "Dense Storage"
+          },
+          {
+            "key": "instanceType",
+            "value": "ds2.8xlarge"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "currentGeneration",
+            "value": "Yes"
+          },
+          {
+            "key": "concurrencyscalingfreeusage",
+            "value": "Yes"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonRedshift",
+        "region": "us-east-1",
+        "productFamily": "Redshift Concurrency Scaling",
+        "prices": [
+          {
+            "USD": "0",
+            "unit": "seconds"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": ""
+          },
+          {
+            "key": "usagetype",
+            "value": "CS:ds2.8xlarge"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonRedshift"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon Redshift"
+          },
+          {
+            "key": "usageFamily",
+            "value": "Dense Storage"
+          },
+          {
+            "key": "instanceType",
+            "value": "ds2.8xlarge"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "currentGeneration",
+            "value": "Yes"
+          },
+          {
+            "key": "concurrencyscalingfreeusage",
+            "value": "No"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonRedshift",
+        "region": "us-east-1",
+        "productFamily": "Redshift Concurrency Scaling",
+        "prices": [
+          {
+            "USD": "0.00189",
+            "unit": "seconds"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": ""
+          },
+          {
+            "key": "usagetype",
+            "value": "CS:ds2.xlarge"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonRedshift"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon Redshift"
+          },
+          {
+            "key": "usageFamily",
+            "value": "Dense Storage"
+          },
+          {
+            "key": "instanceType",
+            "value": "ds2.xlarge"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "currentGeneration",
+            "value": "Yes"
+          },
+          {
+            "key": "concurrencyscalingfreeusage",
+            "value": "No"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonRedshift",
+        "region": "us-east-1",
+        "productFamily": "Redshift Concurrency Scaling",
+        "prices": [
+          {
+            "USD": "0.00024",
+            "unit": "seconds"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": ""
+          },
+          {
+            "key": "usagetype",
+            "value": "CSFreeUsage:ds2.xlarge"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonRedshift"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon Redshift"
+          },
+          {
+            "key": "usageFamily",
+            "value": "Dense Storage"
+          },
+          {
+            "key": "instanceType",
+            "value": "ds2.xlarge"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "currentGeneration",
+            "value": "Yes"
+          },
+          {
+            "key": "concurrencyscalingfreeusage",
+            "value": "Yes"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonRedshift",
+        "region": "us-east-1",
+        "productFamily": "Redshift Concurrency Scaling",
+        "prices": [
+          {
+            "USD": "0",
+            "unit": "seconds"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": ""
+          },
+          {
+            "key": "usagetype",
+            "value": "CSFreeUsage:ra3.16xlarge"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonRedshift"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon Redshift"
+          },
+          {
+            "key": "usageFamily",
+            "value": "RA3"
+          },
+          {
+            "key": "instanceType",
+            "value": "ra3.16xlarge"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "currentGeneration",
+            "value": "Yes"
+          },
+          {
+            "key": "concurrencyscalingfreeusage",
+            "value": "Yes"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonRedshift",
+        "region": "us-east-1",
+        "productFamily": "Redshift Concurrency Scaling",
+        "prices": [
+          {
+            "USD": "0",
+            "unit": "seconds"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": ""
+          },
+          {
+            "key": "usagetype",
+            "value": "CS:ra3.16xlarge"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonRedshift"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon Redshift"
+          },
+          {
+            "key": "usageFamily",
+            "value": "RA3"
+          },
+          {
+            "key": "instanceType",
+            "value": "ra3.16xlarge"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "currentGeneration",
+            "value": "Yes"
+          },
+          {
+            "key": "concurrencyscalingfreeusage",
+            "value": "No"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonRedshift",
+        "region": "us-east-1",
+        "productFamily": "Redshift Concurrency Scaling",
+        "prices": [
+          {
+            "USD": "0.00362",
+            "unit": "seconds"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": ""
+          },
+          {
+            "key": "usagetype",
+            "value": "CS:ra3.4xlarge"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonRedshift"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon Redshift"
+          },
+          {
+            "key": "usageFamily",
+            "value": "RA3"
+          },
+          {
+            "key": "instanceType",
+            "value": "ra3.4xlarge"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "currentGeneration",
+            "value": "Yes"
+          },
+          {
+            "key": "concurrencyscalingfreeusage",
+            "value": "No"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonRedshift",
+        "region": "us-east-1",
+        "productFamily": "Redshift Concurrency Scaling",
+        "prices": [
+          {
+            "USD": "0.0009",
+            "unit": "seconds"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": ""
+          },
+          {
+            "key": "usagetype",
+            "value": "CSFreeUsage:ra3.4xlarge"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonRedshift"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon Redshift"
+          },
+          {
+            "key": "usageFamily",
+            "value": "RA3"
+          },
+          {
+            "key": "instanceType",
+            "value": "ra3.4xlarge"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "currentGeneration",
+            "value": "Yes"
+          },
+          {
+            "key": "concurrencyscalingfreeusage",
+            "value": "Yes"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonRedshift",
+        "region": "us-east-1",
+        "productFamily": "Redshift Concurrency Scaling",
+        "prices": [
+          {
+            "USD": "0",
+            "unit": "seconds"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": ""
+          },
+          {
+            "key": "usagetype",
+            "value": "CS:ra3.xlplus"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonRedshift"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon Redshift"
+          },
+          {
+            "key": "usageFamily",
+            "value": "RA3"
+          },
+          {
+            "key": "instanceType",
+            "value": "ra3.xlplus"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "currentGeneration",
+            "value": "Yes"
+          },
+          {
+            "key": "concurrencyscalingfreeusage",
+            "value": "No"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonRedshift",
+        "region": "us-east-1",
+        "productFamily": "Redshift Concurrency Scaling",
+        "prices": [
+          {
+            "USD": "0.0003",
+            "unit": "seconds"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": ""
+          },
+          {
+            "key": "usagetype",
+            "value": "CSFreeUsage:ra3.xlplus"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonRedshift"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon Redshift"
+          },
+          {
+            "key": "usageFamily",
+            "value": "RA3"
+          },
+          {
+            "key": "instanceType",
+            "value": "ra3.xlplus"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "currentGeneration",
+            "value": "Yes"
+          },
+          {
+            "key": "concurrencyscalingfreeusage",
+            "value": "Yes"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonRedshift",
+        "region": "us-east-1",
+        "productFamily": "Redshift Concurrency Scaling",
+        "prices": [
+          {
+            "USD": "0",
+            "unit": "seconds"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": ""
+          },
+          {
+            "key": "usagetype",
+            "value": "USE1-DataScanned"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "description",
+            "value": "Data scanned per query for each successful or cancelled query"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonRedshift"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon Redshift"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonRedshift",
+        "region": "us-east-1",
+        "productFamily": "Redshift Data Scan",
+        "prices": [
+          {
+            "USD": "5",
+            "unit": "Terabytes"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": ""
+          },
+          {
+            "key": "usagetype",
+            "value": "USE1-Redshift:InterRegionSnapshotCopy"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "description",
+            "value": "Redshift Cross-Region Snapshot Copy Charges"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonRedshift"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon Redshift"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonRedshift",
+        "region": "us-east-1",
+        "productFamily": "Redshift Inter Region Data Transfer",
+        "prices": [
+          {
+            "USD": "0.02",
+            "unit": "GB"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": ""
+          },
+          {
+            "key": "usagetype",
+            "value": "USE1-Redshift:InterRegionDataSharing"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "description",
+            "value": "Redshift Cross-Region Data Sharing Charges"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonRedshift"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon Redshift"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonRedshift",
+        "region": "us-east-1",
+        "productFamily": "Redshift Inter Region Data Transfer",
+        "prices": [
+          {
+            "USD": "0.02",
+            "unit": "GB"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": ""
+          },
+          {
+            "key": "usagetype",
+            "value": "RMS:ra3.16xlarge"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "description",
+            "value": "Storage charges with Redshift managed storage"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonRedshift"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon Redshift"
+          },
+          {
+            "key": "usageFamily",
+            "value": "RA3"
+          },
+          {
+            "key": "instanceType",
+            "value": "ra3.16xlarge"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "currentGeneration",
+            "value": "Yes"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonRedshift",
+        "region": "us-east-1",
+        "productFamily": "Redshift Managed Storage",
+        "prices": [
+          {
+            "USD": "0.024",
+            "unit": "GB-Mo"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": ""
+          },
+          {
+            "key": "usagetype",
+            "value": "RMS:ra3.4xlarge"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "description",
+            "value": "Storage charges with Redshift managed storage"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonRedshift"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon Redshift"
+          },
+          {
+            "key": "usageFamily",
+            "value": "RA3"
+          },
+          {
+            "key": "instanceType",
+            "value": "ra3.4xlarge"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "currentGeneration",
+            "value": "Yes"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonRedshift",
+        "region": "us-east-1",
+        "productFamily": "Redshift Managed Storage",
+        "prices": [
+          {
+            "USD": "0.024",
+            "unit": "GB-Mo"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": ""
+          },
+          {
+            "key": "usagetype",
+            "value": "RMS:ra3.large"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "description",
+            "value": "Storage charges with Redshift managed storage"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonRedshift"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon Redshift"
+          },
+          {
+            "key": "usageFamily",
+            "value": "RA3"
+          },
+          {
+            "key": "instanceType",
+            "value": "ra3.large"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "currentGeneration",
+            "value": "Yes"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonRedshift",
+        "region": "us-east-1",
+        "productFamily": "Redshift Managed Storage",
+        "prices": [
+          {
+            "USD": "0.024",
+            "unit": "GB-Mo"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": ""
+          },
+          {
+            "key": "usagetype",
+            "value": "RMS:ra3.xlplus"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "description",
+            "value": "Storage charges with Redshift managed storage"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonRedshift"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon Redshift"
+          },
+          {
+            "key": "usageFamily",
+            "value": "RA3"
+          },
+          {
+            "key": "instanceType",
+            "value": "ra3.xlplus"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "currentGeneration",
+            "value": "Yes"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonRedshift",
+        "region": "us-east-1",
+        "productFamily": "Redshift Managed Storage",
+        "prices": [
+          {
+            "USD": "0.024",
+            "unit": "GB-Mo"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": ""
+          },
+          {
+            "key": "usagetype",
+            "value": "USE1-RMS:Serverless"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonRedshift"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon Redshift"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "storageMedia",
+            "value": "Amazon S3"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonRedshift",
+        "region": "us-east-1",
+        "productFamily": "Redshift Managed Storage",
+        "prices": [
+          {
+            "USD": "0.024",
+            "unit": "GB-Mo"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "term",
+            "value": "1 Year"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "RunServerlessCompute:001"
+          },
+          {
+            "key": "usagetype",
+            "value": "USE1-Redshift:ServerlessUsage-CR-1YR-NU"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonRedshift"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon Redshift"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "paymentOption",
+            "value": "No Upfront"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonRedshift",
+        "region": "us-east-1",
+        "productFamily": "Serverless",
+        "prices": [
+          {
+            "USD": "0.293",
+            "unit": "RPU-Hr"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "RunServerlessCompute:001"
+          },
+          {
+            "key": "usagetype",
+            "value": "USE1-Redshift:ServerlessUsage"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "description",
+            "value": "Redshift Serverless compute charges"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonRedshift"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon Redshift"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonRedshift",
+        "region": "us-east-1",
+        "productFamily": "Serverless",
+        "prices": [
+          {
+            "USD": "0.375",
+            "unit": "RPU-Hr"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "term",
+            "value": "1 Year"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "RunServerlessCompute:001"
+          },
+          {
+            "key": "usagetype",
+            "value": "USE1-Redshift:ServerlessUsage-CR-1YR-AU"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonRedshift"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon Redshift"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "paymentOption",
+            "value": "All Upfront"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonRedshift",
+        "region": "us-east-1",
+        "productFamily": "Serverless",
+        "prices": [
+          {
+            "USD": "2430",
+            "unit": "RPU-Hr"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": ""
+          },
+          {
+            "key": "usagetype",
+            "value": "Redshift:PaidSnapshots"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonRedshift"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon Redshift"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "storageMedia",
+            "value": "Amazon S3"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonRedshift",
+        "region": "us-east-1",
+        "productFamily": "Storage Snapshot",
+        "prices": [
+          {
+            "USD": "0.022",
+            "unit": "GB-Mo"
+          },
+          {
+            "USD": "0.021",
+            "unit": "GB-Mo"
+          },
+          {
+            "USD": "0.023",
+            "unit": "GB-Mo"
+          }
+        ]
+      }
+    ]
+  }
+}

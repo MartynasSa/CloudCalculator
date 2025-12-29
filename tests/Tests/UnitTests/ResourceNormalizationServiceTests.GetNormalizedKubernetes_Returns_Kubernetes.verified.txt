@@ -2,6 +2,13 @@
   {
     ClusterName: AmazonEKS,
     Region: us-east-1,
+    PricePerHour: 0.1,
+    Category: Compute,
+    SubCategory: Kubernetes
+  },
+  {
+    ClusterName: AmazonEKS,
+    Region: us-east-1,
     PricePerHour: 0.02828,
     Category: Compute,
     SubCategory: Kubernetes
