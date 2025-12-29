@@ -5,20 +5,12 @@
   CloudCosts: {
     small: [
       {
-        CloudProvider: aws,
         TotalMonthlyPrice: 5.840,
         CostDetails: [
           {
             Cost: 5.840,
             ResourceSubCategory: LoadBalancer,
-            ResourceDetails: {
-              name: {
-                ValueKind: String
-              },
-              pricePerMonth: {
-                ValueKind: Number
-              }
-            }
+            ResourceDetails: {"Name":"ELB:Balancing","PricePerMonth":5.840,"Cloud":0,"Category":4,"SubCategory":401}
           }
         ]
       },
@@ -32,34 +24,19 @@
           {
             Cost: 5.840,
             ResourceSubCategory: LoadBalancer,
-            ResourceDetails: {
-              name: {
-                ValueKind: String
-              },
-              pricePerMonth: {
-                ValueKind: Number
-              }
-            }
+            ResourceDetails: {"Name":"Compute Engine","PricePerMonth":5.840,"Cloud":2,"Category":4,"SubCategory":401}
           }
         ]
       }
     ],
     medium: [
       {
-        CloudProvider: aws,
         TotalMonthlyPrice: 5.840,
         CostDetails: [
           {
             Cost: 5.840,
             ResourceSubCategory: LoadBalancer,
-            ResourceDetails: {
-              name: {
-                ValueKind: String
-              },
-              pricePerMonth: {
-                ValueKind: Number
-              }
-            }
+            ResourceDetails: {"Name":"ELB:Balancing","PricePerMonth":5.840,"Cloud":0,"Category":4,"SubCategory":401}
           }
         ]
       },
@@ -73,34 +50,19 @@
           {
             Cost: 5.840,
             ResourceSubCategory: LoadBalancer,
-            ResourceDetails: {
-              name: {
-                ValueKind: String
-              },
-              pricePerMonth: {
-                ValueKind: Number
-              }
-            }
+            ResourceDetails: {"Name":"Compute Engine","PricePerMonth":5.840,"Cloud":2,"Category":4,"SubCategory":401}
           }
         ]
       }
     ],
     large: [
       {
-        CloudProvider: aws,
         TotalMonthlyPrice: 5.840,
         CostDetails: [
           {
             Cost: 5.840,
             ResourceSubCategory: LoadBalancer,
-            ResourceDetails: {
-              name: {
-                ValueKind: String
-              },
-              pricePerMonth: {
-                ValueKind: Number
-              }
-            }
+            ResourceDetails: {"Name":"ELB:Balancing","PricePerMonth":5.840,"Cloud":0,"Category":4,"SubCategory":401}
           }
         ]
       },
@@ -114,34 +76,19 @@
           {
             Cost: 5.840,
             ResourceSubCategory: LoadBalancer,
-            ResourceDetails: {
-              name: {
-                ValueKind: String
-              },
-              pricePerMonth: {
-                ValueKind: Number
-              }
-            }
+            ResourceDetails: {"Name":"Compute Engine","PricePerMonth":5.840,"Cloud":2,"Category":4,"SubCategory":401}
           }
         ]
       }
     ],
     xlarge: [
       {
-        CloudProvider: aws,
         TotalMonthlyPrice: 5.840,
         CostDetails: [
           {
             Cost: 5.840,
             ResourceSubCategory: LoadBalancer,
-            ResourceDetails: {
-              name: {
-                ValueKind: String
-              },
-              pricePerMonth: {
-                ValueKind: Number
-              }
-            }
+            ResourceDetails: {"Name":"ELB:Balancing","PricePerMonth":5.840,"Cloud":0,"Category":4,"SubCategory":401}
           }
         ]
       },
@@ -155,14 +102,7 @@
           {
             Cost: 5.840,
             ResourceSubCategory: LoadBalancer,
-            ResourceDetails: {
-              name: {
-                ValueKind: String
-              },
-              pricePerMonth: {
-                ValueKind: Number
-              }
-            }
+            ResourceDetails: {"Name":"Compute Engine","PricePerMonth":5.840,"Cloud":2,"Category":4,"SubCategory":401}
           }
         ]
       }

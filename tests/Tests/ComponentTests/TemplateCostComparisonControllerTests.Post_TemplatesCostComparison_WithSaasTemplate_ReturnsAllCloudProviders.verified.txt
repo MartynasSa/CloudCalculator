@@ -8,71 +8,27 @@
   CloudCosts: {
     small: [
       {
-        CloudProvider: aws,
         TotalMonthlyPrice: 38.2880730,
         CostDetails: [
           {
             Cost: 27.4480,
             ResourceSubCategory: VirtualMachines,
-            ResourceDetails: {
-              instanceName: {
-                ValueKind: String
-              },
-              memory: {
-                ValueKind: String
-              },
-              pricePerHour: {
-                ValueKind: Number
-              },
-              vCpu: {
-                ValueKind: Number
-              }
-            }
+            ResourceDetails: {"InstanceName":"t3a.medium","Region":"us-east-1","VCpu":2,"Memory":"4 GiB","PricePerHour":0.0376,"Cloud":0,"Category":1,"SubCategory":100}
           },
           {
             Cost: 0.0000730,
             ResourceSubCategory: Relational,
-            ResourceDetails: {
-              databaseEngine: {
-                ValueKind: String
-              },
-              instanceName: {
-                ValueKind: String
-              },
-              memory: {
-                ValueKind: String
-              },
-              pricePerHour: {
-                ValueKind: Number
-              },
-              vCpu: {
-                ValueKind: Number
-              }
-            }
+            ResourceDetails: {"InstanceName":"Unknown","Region":"us-east-1","DatabaseEngine":null,"VCpu":null,"Memory":null,"PricePerHour":0.0000001,"Cloud":0,"Category":3,"SubCategory":202}
           },
           {
             Cost: 5.840,
             ResourceSubCategory: LoadBalancer,
-            ResourceDetails: {
-              name: {
-                ValueKind: String
-              },
-              pricePerMonth: {
-                ValueKind: Number
-              }
-            }
+            ResourceDetails: {"Name":"ELB:Balancing","PricePerMonth":5.840,"Cloud":0,"Category":4,"SubCategory":401}
           },
           {
             Cost: 5.0,
             ResourceSubCategory: Monitoring,
-            ResourceDetails: {
-              name: {
-                ValueKind: String
-              },
-              pricePerMonth: {
-                ValueKind: Number
-              }
-            }
+            ResourceDetails: {"Name":"CloudWatch","PricePerMonth":5,"Cloud":0,"Category":7,"SubCategory":604}
           }
         ]
       },
@@ -83,53 +39,17 @@
           {
             Cost: 45.260,
             ResourceSubCategory: VirtualMachines,
-            ResourceDetails: {
-              instanceName: {
-                ValueKind: String
-              },
-              memory: {
-                ValueKind: String
-              },
-              pricePerHour: {
-                ValueKind: Number
-              },
-              vCpu: {
-                ValueKind: Number
-              }
-            }
+            ResourceDetails: {"InstanceName":"Standard_D2pls_v6","Region":"eastus","VCpu":2,"Memory":"4","PricePerHour":0.062,"Cloud":1,"Category":1,"SubCategory":100}
           },
           {
             Cost: 1.962240,
             ResourceSubCategory: Relational,
-            ResourceDetails: {
-              databaseEngine: {
-                ValueKind: String
-              },
-              instanceName: {
-                ValueKind: String
-              },
-              memory: {
-                ValueKind: String
-              },
-              pricePerHour: {
-                ValueKind: Number
-              },
-              vCpu: {
-                ValueKind: Number
-              }
-            }
+            ResourceDetails: {"InstanceName":"Unknown","Region":"eastus","DatabaseEngine":null,"VCpu":null,"Memory":null,"PricePerHour":0.002688,"Cloud":1,"Category":3,"SubCategory":202}
           },
           {
             Cost: 6.0,
             ResourceSubCategory: Monitoring,
-            ResourceDetails: {
-              name: {
-                ValueKind: String
-              },
-              pricePerMonth: {
-                ValueKind: Number
-              }
-            }
+            ResourceDetails: {"Name":"Azure Monitor","PricePerMonth":6,"Cloud":1,"Category":7,"SubCategory":604}
           }
         ]
       },
@@ -140,118 +60,44 @@
           {
             Cost: 3.5040,
             ResourceSubCategory: Relational,
-            ResourceDetails: {
-              databaseEngine: {
-                ValueKind: String
-              },
-              instanceName: {
-                ValueKind: String
-              },
-              memory: {
-                ValueKind: String
-              },
-              pricePerHour: {
-                ValueKind: Number
-              },
-              vCpu: {
-                ValueKind: Number
-              }
-            }
+            ResourceDetails: {"InstanceName":"Unknown","Region":"us-east1","DatabaseEngine":null,"VCpu":null,"Memory":null,"PricePerHour":0.0048,"Cloud":2,"Category":3,"SubCategory":200}
           },
           {
             Cost: 5.840,
             ResourceSubCategory: LoadBalancer,
-            ResourceDetails: {
-              name: {
-                ValueKind: String
-              },
-              pricePerMonth: {
-                ValueKind: Number
-              }
-            }
+            ResourceDetails: {"Name":"Compute Engine","PricePerMonth":5.840,"Cloud":2,"Category":4,"SubCategory":401}
           },
           {
             Cost: 4.0,
             ResourceSubCategory: Monitoring,
-            ResourceDetails: {
-              name: {
-                ValueKind: String
-              },
-              pricePerMonth: {
-                ValueKind: Number
-              }
-            }
+            ResourceDetails: {"Name":"Cloud Ops","PricePerMonth":4,"Cloud":2,"Category":7,"SubCategory":604}
           }
         ]
       }
     ],
     medium: [
       {
-        CloudProvider: aws,
         TotalMonthlyPrice: 104.2800730,
         CostDetails: [
           {
             Cost: 93.440,
             ResourceSubCategory: VirtualMachines,
-            ResourceDetails: {
-              instanceName: {
-                ValueKind: String
-              },
-              memory: {
-                ValueKind: String
-              },
-              pricePerHour: {
-                ValueKind: Number
-              },
-              vCpu: {
-                ValueKind: Number
-              }
-            }
+            ResourceDetails: {"InstanceName":"r4.xlarge","Region":"us-east-1","VCpu":4,"Memory":"30.5 GiB","PricePerHour":0.128,"Cloud":0,"Category":1,"SubCategory":100}
           },
           {
             Cost: 0.0000730,
             ResourceSubCategory: Relational,
-            ResourceDetails: {
-              databaseEngine: {
-                ValueKind: String
-              },
-              instanceName: {
-                ValueKind: String
-              },
-              memory: {
-                ValueKind: String
-              },
-              pricePerHour: {
-                ValueKind: Number
-              },
-              vCpu: {
-                ValueKind: Number
-              }
-            }
+            ResourceDetails: {"InstanceName":"Unknown","Region":"us-east-1","DatabaseEngine":null,"VCpu":null,"Memory":null,"PricePerHour":0.0000001,"Cloud":0,"Category":3,"SubCategory":202}
           },
           {
             Cost: 5.840,
             ResourceSubCategory: LoadBalancer,
-            ResourceDetails: {
-              name: {
-                ValueKind: String
-              },
-              pricePerMonth: {
-                ValueKind: Number
-              }
-            }
+            ResourceDetails: {"Name":"ELB:Balancing","PricePerMonth":5.840,"Cloud":0,"Category":4,"SubCategory":401}
           },
           {
             Cost: 5.0,
             ResourceSubCategory: Monitoring,
-            ResourceDetails: {
-              name: {
-                ValueKind: String
-              },
-              pricePerMonth: {
-                ValueKind: Number
-              }
-            }
+            ResourceDetails: {"Name":"CloudWatch","PricePerMonth":5,"Cloud":0,"Category":7,"SubCategory":604}
           }
         ]
       },
@@ -262,53 +108,17 @@
           {
             Cost: 111.690,
             ResourceSubCategory: VirtualMachines,
-            ResourceDetails: {
-              instanceName: {
-                ValueKind: String
-              },
-              memory: {
-                ValueKind: String
-              },
-              pricePerHour: {
-                ValueKind: Number
-              },
-              vCpu: {
-                ValueKind: Number
-              }
-            }
+            ResourceDetails: {"InstanceName":"Standard_B4ps_v2","Region":"eastus","VCpu":4,"Memory":"16","PricePerHour":0.153,"Cloud":1,"Category":1,"SubCategory":100}
           },
           {
             Cost: 1.962240,
             ResourceSubCategory: Relational,
-            ResourceDetails: {
-              databaseEngine: {
-                ValueKind: String
-              },
-              instanceName: {
-                ValueKind: String
-              },
-              memory: {
-                ValueKind: String
-              },
-              pricePerHour: {
-                ValueKind: Number
-              },
-              vCpu: {
-                ValueKind: Number
-              }
-            }
+            ResourceDetails: {"InstanceName":"Unknown","Region":"eastus","DatabaseEngine":null,"VCpu":null,"Memory":null,"PricePerHour":0.002688,"Cloud":1,"Category":3,"SubCategory":202}
           },
           {
             Cost: 6.0,
             ResourceSubCategory: Monitoring,
-            ResourceDetails: {
-              name: {
-                ValueKind: String
-              },
-              pricePerMonth: {
-                ValueKind: Number
-              }
-            }
+            ResourceDetails: {"Name":"Azure Monitor","PricePerMonth":6,"Cloud":1,"Category":7,"SubCategory":604}
           }
         ]
       },
@@ -319,118 +129,44 @@
           {
             Cost: 3.5040,
             ResourceSubCategory: Relational,
-            ResourceDetails: {
-              databaseEngine: {
-                ValueKind: String
-              },
-              instanceName: {
-                ValueKind: String
-              },
-              memory: {
-                ValueKind: String
-              },
-              pricePerHour: {
-                ValueKind: Number
-              },
-              vCpu: {
-                ValueKind: Number
-              }
-            }
+            ResourceDetails: {"InstanceName":"Unknown","Region":"us-east1","DatabaseEngine":null,"VCpu":null,"Memory":null,"PricePerHour":0.0048,"Cloud":2,"Category":3,"SubCategory":200}
           },
           {
             Cost: 5.840,
             ResourceSubCategory: LoadBalancer,
-            ResourceDetails: {
-              name: {
-                ValueKind: String
-              },
-              pricePerMonth: {
-                ValueKind: Number
-              }
-            }
+            ResourceDetails: {"Name":"Compute Engine","PricePerMonth":5.840,"Cloud":2,"Category":4,"SubCategory":401}
           },
           {
             Cost: 4.0,
             ResourceSubCategory: Monitoring,
-            ResourceDetails: {
-              name: {
-                ValueKind: String
-              },
-              pricePerMonth: {
-                ValueKind: Number
-              }
-            }
+            ResourceDetails: {"Name":"Cloud Ops","PricePerMonth":4,"Cloud":2,"Category":7,"SubCategory":604}
           }
         ]
       }
     ],
     large: [
       {
-        CloudProvider: aws,
         TotalMonthlyPrice: 205.0200730,
         CostDetails: [
           {
             Cost: 194.180,
             ResourceSubCategory: VirtualMachines,
-            ResourceDetails: {
-              instanceName: {
-                ValueKind: String
-              },
-              memory: {
-                ValueKind: String
-              },
-              pricePerHour: {
-                ValueKind: Number
-              },
-              vCpu: {
-                ValueKind: Number
-              }
-            }
+            ResourceDetails: {"InstanceName":"m5d.2xlarge","Region":"us-east-1","VCpu":8,"Memory":"32 GiB","PricePerHour":0.266,"Cloud":0,"Category":1,"SubCategory":100}
           },
           {
             Cost: 0.0000730,
             ResourceSubCategory: Relational,
-            ResourceDetails: {
-              databaseEngine: {
-                ValueKind: String
-              },
-              instanceName: {
-                ValueKind: String
-              },
-              memory: {
-                ValueKind: String
-              },
-              pricePerHour: {
-                ValueKind: Number
-              },
-              vCpu: {
-                ValueKind: Number
-              }
-            }
+            ResourceDetails: {"InstanceName":"Unknown","Region":"us-east-1","DatabaseEngine":null,"VCpu":null,"Memory":null,"PricePerHour":0.0000001,"Cloud":0,"Category":3,"SubCategory":202}
           },
           {
             Cost: 5.840,
             ResourceSubCategory: LoadBalancer,
-            ResourceDetails: {
-              name: {
-                ValueKind: String
-              },
-              pricePerMonth: {
-                ValueKind: Number
-              }
-            }
+            ResourceDetails: {"Name":"ELB:Balancing","PricePerMonth":5.840,"Cloud":0,"Category":4,"SubCategory":401}
           },
           {
             Cost: 5.0,
             ResourceSubCategory: Monitoring,
-            ResourceDetails: {
-              name: {
-                ValueKind: String
-              },
-              pricePerMonth: {
-                ValueKind: Number
-              }
-            }
+            ResourceDetails: {"Name":"CloudWatch","PricePerMonth":5,"Cloud":0,"Category":7,"SubCategory":604}
           }
         ]
       },
@@ -441,53 +177,17 @@
           {
             Cost: 181.040,
             ResourceSubCategory: VirtualMachines,
-            ResourceDetails: {
-              instanceName: {
-                ValueKind: String
-              },
-              memory: {
-                ValueKind: String
-              },
-              pricePerHour: {
-                ValueKind: Number
-              },
-              vCpu: {
-                ValueKind: Number
-              }
-            }
+            ResourceDetails: {"InstanceName":"Standard_D8pls_v6","Region":"eastus","VCpu":8,"Memory":"16","PricePerHour":0.248,"Cloud":1,"Category":1,"SubCategory":100}
           },
           {
             Cost: 1.962240,
             ResourceSubCategory: Relational,
-            ResourceDetails: {
-              databaseEngine: {
-                ValueKind: String
-              },
-              instanceName: {
-                ValueKind: String
-              },
-              memory: {
-                ValueKind: String
-              },
-              pricePerHour: {
-                ValueKind: Number
-              },
-              vCpu: {
-                ValueKind: Number
-              }
-            }
+            ResourceDetails: {"InstanceName":"Unknown","Region":"eastus","DatabaseEngine":null,"VCpu":null,"Memory":null,"PricePerHour":0.002688,"Cloud":1,"Category":3,"SubCategory":202}
           },
           {
             Cost: 6.0,
             ResourceSubCategory: Monitoring,
-            ResourceDetails: {
-              name: {
-                ValueKind: String
-              },
-              pricePerMonth: {
-                ValueKind: Number
-              }
-            }
+            ResourceDetails: {"Name":"Azure Monitor","PricePerMonth":6,"Cloud":1,"Category":7,"SubCategory":604}
           }
         ]
       },
@@ -498,118 +198,44 @@
           {
             Cost: 3.5040,
             ResourceSubCategory: Relational,
-            ResourceDetails: {
-              databaseEngine: {
-                ValueKind: String
-              },
-              instanceName: {
-                ValueKind: String
-              },
-              memory: {
-                ValueKind: String
-              },
-              pricePerHour: {
-                ValueKind: Number
-              },
-              vCpu: {
-                ValueKind: Number
-              }
-            }
+            ResourceDetails: {"InstanceName":"Unknown","Region":"us-east1","DatabaseEngine":null,"VCpu":null,"Memory":null,"PricePerHour":0.0048,"Cloud":2,"Category":3,"SubCategory":200}
           },
           {
             Cost: 5.840,
             ResourceSubCategory: LoadBalancer,
-            ResourceDetails: {
-              name: {
-                ValueKind: String
-              },
-              pricePerMonth: {
-                ValueKind: Number
-              }
-            }
+            ResourceDetails: {"Name":"Compute Engine","PricePerMonth":5.840,"Cloud":2,"Category":4,"SubCategory":401}
           },
           {
             Cost: 4.0,
             ResourceSubCategory: Monitoring,
-            ResourceDetails: {
-              name: {
-                ValueKind: String
-              },
-              pricePerMonth: {
-                ValueKind: Number
-              }
-            }
+            ResourceDetails: {"Name":"Cloud Ops","PricePerMonth":4,"Cloud":2,"Category":7,"SubCategory":604}
           }
         ]
       }
     ],
     xlarge: [
       {
-        CloudProvider: aws,
         TotalMonthlyPrice: 304.3000730,
         CostDetails: [
           {
             Cost: 293.460,
             ResourceSubCategory: VirtualMachines,
-            ResourceDetails: {
-              instanceName: {
-                ValueKind: String
-              },
-              memory: {
-                ValueKind: String
-              },
-              pricePerHour: {
-                ValueKind: Number
-              },
-              vCpu: {
-                ValueKind: Number
-              }
-            }
+            ResourceDetails: {"InstanceName":"r3.4xlarge","Region":"us-east-1","VCpu":16,"Memory":"122 GiB","PricePerHour":0.402,"Cloud":0,"Category":1,"SubCategory":100}
           },
           {
             Cost: 0.0000730,
             ResourceSubCategory: Relational,
-            ResourceDetails: {
-              databaseEngine: {
-                ValueKind: String
-              },
-              instanceName: {
-                ValueKind: String
-              },
-              memory: {
-                ValueKind: String
-              },
-              pricePerHour: {
-                ValueKind: Number
-              },
-              vCpu: {
-                ValueKind: Number
-              }
-            }
+            ResourceDetails: {"InstanceName":"Unknown","Region":"us-east-1","DatabaseEngine":null,"VCpu":null,"Memory":null,"PricePerHour":0.0000001,"Cloud":0,"Category":3,"SubCategory":202}
           },
           {
             Cost: 5.840,
             ResourceSubCategory: LoadBalancer,
-            ResourceDetails: {
-              name: {
-                ValueKind: String
-              },
-              pricePerMonth: {
-                ValueKind: Number
-              }
-            }
+            ResourceDetails: {"Name":"ELB:Balancing","PricePerMonth":5.840,"Cloud":0,"Category":4,"SubCategory":401}
           },
           {
             Cost: 5.0,
             ResourceSubCategory: Monitoring,
-            ResourceDetails: {
-              name: {
-                ValueKind: String
-              },
-              pricePerMonth: {
-                ValueKind: Number
-              }
-            }
+            ResourceDetails: {"Name":"CloudWatch","PricePerMonth":5,"Cloud":0,"Category":7,"SubCategory":604}
           }
         ]
       },
@@ -620,53 +246,17 @@
           {
             Cost: 535.820,
             ResourceSubCategory: VirtualMachines,
-            ResourceDetails: {
-              instanceName: {
-                ValueKind: String
-              },
-              memory: {
-                ValueKind: String
-              },
-              pricePerHour: {
-                ValueKind: Number
-              },
-              vCpu: {
-                ValueKind: Number
-              }
-            }
+            ResourceDetails: {"InstanceName":"Standard_D16pds_v6","Region":"eastus","VCpu":16,"Memory":"64","PricePerHour":0.734,"Cloud":1,"Category":1,"SubCategory":100}
           },
           {
             Cost: 1.962240,
             ResourceSubCategory: Relational,
-            ResourceDetails: {
-              databaseEngine: {
-                ValueKind: String
-              },
-              instanceName: {
-                ValueKind: String
-              },
-              memory: {
-                ValueKind: String
-              },
-              pricePerHour: {
-                ValueKind: Number
-              },
-              vCpu: {
-                ValueKind: Number
-              }
-            }
+            ResourceDetails: {"InstanceName":"Unknown","Region":"eastus","DatabaseEngine":null,"VCpu":null,"Memory":null,"PricePerHour":0.002688,"Cloud":1,"Category":3,"SubCategory":202}
           },
           {
             Cost: 6.0,
             ResourceSubCategory: Monitoring,
-            ResourceDetails: {
-              name: {
-                ValueKind: String
-              },
-              pricePerMonth: {
-                ValueKind: Number
-              }
-            }
+            ResourceDetails: {"Name":"Azure Monitor","PricePerMonth":6,"Cloud":1,"Category":7,"SubCategory":604}
           }
         ]
       },
@@ -677,47 +267,17 @@
           {
             Cost: 3.5040,
             ResourceSubCategory: Relational,
-            ResourceDetails: {
-              databaseEngine: {
-                ValueKind: String
-              },
-              instanceName: {
-                ValueKind: String
-              },
-              memory: {
-                ValueKind: String
-              },
-              pricePerHour: {
-                ValueKind: Number
-              },
-              vCpu: {
-                ValueKind: Number
-              }
-            }
+            ResourceDetails: {"InstanceName":"Unknown","Region":"us-east1","DatabaseEngine":null,"VCpu":null,"Memory":null,"PricePerHour":0.0048,"Cloud":2,"Category":3,"SubCategory":200}
           },
           {
             Cost: 5.840,
             ResourceSubCategory: LoadBalancer,
-            ResourceDetails: {
-              name: {
-                ValueKind: String
-              },
-              pricePerMonth: {
-                ValueKind: Number
-              }
-            }
+            ResourceDetails: {"Name":"Compute Engine","PricePerMonth":5.840,"Cloud":2,"Category":4,"SubCategory":401}
           },
           {
             Cost: 4.0,
             ResourceSubCategory: Monitoring,
-            ResourceDetails: {
-              name: {
-                ValueKind: String
-              },
-              pricePerMonth: {
-                ValueKind: Number
-              }
-            }
+            ResourceDetails: {"Name":"Cloud Ops","PricePerMonth":4,"Cloud":2,"Category":7,"SubCategory":604}
           }
         ]
       }

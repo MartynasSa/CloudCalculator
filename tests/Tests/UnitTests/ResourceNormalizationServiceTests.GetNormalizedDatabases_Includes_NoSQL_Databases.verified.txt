@@ -3,7 +3,6 @@
     InstanceName: Unknown,
     Region: us-east-1,
     PricePerHour: 0.0000001,
-    Cloud: aws,
     Category: Database,
     SubCategory: NoSQL
   },
@@ -11,7 +10,6 @@
     InstanceName: Unknown,
     Region: us-east-1,
     PricePerHour: 0.0000001,
-    Cloud: aws,
     Category: Database,
     SubCategory: NoSQL
   },

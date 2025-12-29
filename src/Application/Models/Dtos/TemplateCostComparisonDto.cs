@@ -20,5 +20,5 @@ public class TemplateCostResourceSubCategoryDetailsDto
 {
     public decimal Cost { get; set; }
     public ResourceSubCategory ResourceSubCategory { get; set; }
-    public object? ResourceDetails { get; set; }
+    public string? ResourceDetails { get; set; }
 }
