@@ -1,5 +1,19 @@
 ﻿[
   {
+    InstanceName: Unknown,
+    Region: us-east-1,
+    PricePerHour: 0.0000001,
+    Category: Database,
+    SubCategory: NoSQL
+  },
+  {
+    InstanceName: Unknown,
+    Region: us-east-1,
+    PricePerHour: 0.0000001,
+    Category: Database,
+    SubCategory: NoSQL
+  },
+  {
     InstanceName: Azure Cosmos DB Materialized Views Builder D8s,
     Region: eastus,
     PricePerHour: 0.76,
@@ -836,20 +850,6 @@
     Region: eastus,
     PricePerHour: 0.15,
     Cloud: azure,
-    Category: Database,
-    SubCategory: NoSQL
-  },
-  {
-    InstanceName: Unknown,
-    Region: us-east-1,
-    PricePerHour: 0.0000001,
-    Category: Database,
-    SubCategory: NoSQL
-  },
-  {
-    InstanceName: Unknown,
-    Region: us-east-1,
-    PricePerHour: 0.0000001,
     Category: Database,
     SubCategory: NoSQL
   },

@@ -55,7 +55,7 @@
       },
       {
         CloudProvider: gcp,
-        TotalMonthlyPrice: 13.3440,
+        TotalMonthlyPrice: 14.8040,
         CostDetails: [
           {
             Cost: 3.5040,
@@ -63,9 +63,9 @@
             ResourceDetails: {"InstanceName":"Unknown","Region":"us-east1","DatabaseEngine":null,"VCpu":null,"Memory":null,"PricePerHour":0.0048,"Cloud":2,"Category":3,"SubCategory":200}
           },
           {
-            Cost: 5.840,
+            Cost: 7.30,
             ResourceSubCategory: LoadBalancer,
-            ResourceDetails: {"Name":"Compute Engine","PricePerMonth":5.840,"Cloud":2,"Category":4,"SubCategory":401}
+            ResourceDetails: {"Name":"Compute Engine","PricePerMonth":7.30,"Cloud":2,"Category":4,"SubCategory":401}
           },
           {
             Cost: 4.0,
@@ -124,7 +124,7 @@
       },
       {
         CloudProvider: gcp,
-        TotalMonthlyPrice: 13.3440,
+        TotalMonthlyPrice: 14.8040,
         CostDetails: [
           {
             Cost: 3.5040,
@@ -132,9 +132,9 @@
             ResourceDetails: {"InstanceName":"Unknown","Region":"us-east1","DatabaseEngine":null,"VCpu":null,"Memory":null,"PricePerHour":0.0048,"Cloud":2,"Category":3,"SubCategory":200}
           },
           {
-            Cost: 5.840,
+            Cost: 7.30,
             ResourceSubCategory: LoadBalancer,
-            ResourceDetails: {"Name":"Compute Engine","PricePerMonth":5.840,"Cloud":2,"Category":4,"SubCategory":401}
+            ResourceDetails: {"Name":"Compute Engine","PricePerMonth":7.30,"Cloud":2,"Category":4,"SubCategory":401}
           },
           {
             Cost: 4.0,
@@ -193,7 +193,7 @@
       },
       {
         CloudProvider: gcp,
-        TotalMonthlyPrice: 13.3440,
+        TotalMonthlyPrice: 14.8040,
         CostDetails: [
           {
             Cost: 3.5040,
@@ -201,9 +201,9 @@
             ResourceDetails: {"InstanceName":"Unknown","Region":"us-east1","DatabaseEngine":null,"VCpu":null,"Memory":null,"PricePerHour":0.0048,"Cloud":2,"Category":3,"SubCategory":200}
           },
           {
-            Cost: 5.840,
+            Cost: 7.30,
             ResourceSubCategory: LoadBalancer,
-            ResourceDetails: {"Name":"Compute Engine","PricePerMonth":5.840,"Cloud":2,"Category":4,"SubCategory":401}
+            ResourceDetails: {"Name":"Compute Engine","PricePerMonth":7.30,"Cloud":2,"Category":4,"SubCategory":401}
           },
           {
             Cost: 4.0,
@@ -262,7 +262,7 @@
       },
       {
         CloudProvider: gcp,
-        TotalMonthlyPrice: 13.3440,
+        TotalMonthlyPrice: 14.8040,
         CostDetails: [
           {
             Cost: 3.5040,
@@ -270,9 +270,9 @@
             ResourceDetails: {"InstanceName":"Unknown","Region":"us-east1","DatabaseEngine":null,"VCpu":null,"Memory":null,"PricePerHour":0.0048,"Cloud":2,"Category":3,"SubCategory":200}
           },
           {
-            Cost: 5.840,
+            Cost: 7.30,
             ResourceSubCategory: LoadBalancer,
-            ResourceDetails: {"Name":"Compute Engine","PricePerMonth":5.840,"Cloud":2,"Category":4,"SubCategory":401}
+            ResourceDetails: {"Name":"Compute Engine","PricePerMonth":7.30,"Cloud":2,"Category":4,"SubCategory":401}
           },
           {
             Cost: 4.0,
