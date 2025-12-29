@@ -1,19 +1,5 @@
 ﻿[
   {
-    InstanceName: Unknown,
-    Region: us-east-1,
-    PricePerHour: 0.0000001,
-    Category: Database,
-    SubCategory: NoSQL
-  },
-  {
-    InstanceName: Unknown,
-    Region: us-east-1,
-    PricePerHour: 0.0000001,
-    Category: Database,
-    SubCategory: NoSQL
-  },
-  {
     InstanceName: Azure Cosmos DB Materialized Views Builder D8s,
     Region: eastus,
     PricePerHour: 0.76,
@@ -22,7 +8,7 @@
     SubCategory: NoSQL
   },
   {
-    InstanceName: Unknown,
+    InstanceName: Azure Cosmos DB,
     Region: eastus,
     PricePerHour: 0.0,
     Cloud: azure,
@@ -38,7 +24,7 @@
     SubCategory: NoSQL
   },
   {
-    InstanceName: Unknown,
+    InstanceName: Azure Cosmos DB,
     Region: eastus,
     PricePerHour: 0.759,
     Cloud: azure,
@@ -46,7 +32,7 @@
     SubCategory: NoSQL
   },
   {
-    InstanceName: Unknown,
+    InstanceName: Azure Cosmos DB,
     Region: eastus,
     PricePerHour: 0.0,
     Cloud: azure,
@@ -94,7 +80,7 @@
     SubCategory: NoSQL
   },
   {
-    InstanceName: Unknown,
+    InstanceName: Azure Cosmos DB,
     Region: eastus,
     PricePerHour: 0.012,
     Cloud: azure,
@@ -126,7 +112,7 @@
     SubCategory: NoSQL
   },
   {
-    InstanceName: Unknown,
+    InstanceName: Azure Cosmos DB,
     Region: eastus,
     PricePerHour: 1.0,
     Cloud: azure,
@@ -158,7 +144,7 @@
     SubCategory: NoSQL
   },
   {
-    InstanceName: Unknown,
+    InstanceName: Azure Cosmos DB,
     Region: eastus,
     PricePerHour: 2.81,
     Cloud: azure,
@@ -166,7 +152,7 @@
     SubCategory: NoSQL
   },
   {
-    InstanceName: Unknown,
+    InstanceName: Azure Cosmos DB,
     Region: eastus,
     PricePerHour: 6.07,
     Cloud: azure,
@@ -174,7 +160,7 @@
     SubCategory: NoSQL
   },
   {
-    InstanceName: Unknown,
+    InstanceName: Azure Cosmos DB,
     Region: eastus,
     PricePerHour: 0.032,
     Cloud: azure,
@@ -182,7 +168,7 @@
     SubCategory: NoSQL
   },
   {
-    InstanceName: Unknown,
+    InstanceName: Azure Cosmos DB,
     Region: eastus,
     PricePerHour: 0.16,
     Cloud: azure,
@@ -190,7 +176,7 @@
     SubCategory: NoSQL
   },
   {
-    InstanceName: Unknown,
+    InstanceName: Azure Cosmos DB,
     Region: eastus,
     PricePerHour: 1.4,
     Cloud: azure,
@@ -214,7 +200,7 @@
     SubCategory: NoSQL
   },
   {
-    InstanceName: Unknown,
+    InstanceName: Azure Cosmos DB,
     Region: eastus,
     PricePerHour: 0.25,
     Cloud: azure,
@@ -238,7 +224,7 @@
     SubCategory: NoSQL
   },
   {
-    InstanceName: Unknown,
+    InstanceName: Azure Cosmos DB,
     Region: eastus,
     PricePerHour: 5.62,
     Cloud: azure,
@@ -254,7 +240,7 @@
     SubCategory: NoSQL
   },
   {
-    InstanceName: Unknown,
+    InstanceName: Azure Cosmos DB,
     Region: eastus,
     PricePerHour: 2.01,
     Cloud: azure,
@@ -262,7 +248,7 @@
     SubCategory: NoSQL
   },
   {
-    InstanceName: Unknown,
+    InstanceName: Azure Cosmos DB,
     Region: eastus,
     PricePerHour: 0.034,
     Cloud: azure,
@@ -270,7 +256,7 @@
     SubCategory: NoSQL
   },
   {
-    InstanceName: Unknown,
+    InstanceName: Azure Cosmos DB,
     Region: eastus,
     PricePerHour: 0.251,
     Cloud: azure,
@@ -278,7 +264,7 @@
     SubCategory: NoSQL
   },
   {
-    InstanceName: Unknown,
+    InstanceName: Azure Cosmos DB,
     Region: eastus,
     PricePerHour: 2.81,
     Cloud: azure,
@@ -294,7 +280,7 @@
     SubCategory: NoSQL
   },
   {
-    InstanceName: Unknown,
+    InstanceName: Azure Cosmos DB,
     Region: eastus,
     PricePerHour: 0.38,
     Cloud: azure,
@@ -302,7 +288,7 @@
     SubCategory: NoSQL
   },
   {
-    InstanceName: Unknown,
+    InstanceName: Azure Cosmos DB,
     Region: eastus,
     PricePerHour: 0.012,
     Cloud: azure,
@@ -310,7 +296,7 @@
     SubCategory: NoSQL
   },
   {
-    InstanceName: Unknown,
+    InstanceName: Azure Cosmos DB,
     Region: eastus,
     PricePerHour: 7.63,
     Cloud: azure,
@@ -318,7 +304,7 @@
     SubCategory: NoSQL
   },
   {
-    InstanceName: Unknown,
+    InstanceName: Azure Cosmos DB,
     Region: eastus,
     PricePerHour: 0.002688,
     Cloud: azure,
@@ -326,7 +312,7 @@
     SubCategory: NoSQL
   },
   {
-    InstanceName: Unknown,
+    InstanceName: Azure Cosmos DB,
     Region: eastus,
     PricePerHour: 0.8,
     Cloud: azure,
@@ -334,7 +320,7 @@
     SubCategory: NoSQL
   },
   {
-    InstanceName: Unknown,
+    InstanceName: Azure Cosmos DB,
     Region: eastus,
     PricePerHour: 3.04,
     Cloud: azure,
@@ -350,7 +336,7 @@
     SubCategory: NoSQL
   },
   {
-    InstanceName: Unknown,
+    InstanceName: Azure Cosmos DB,
     Region: eastus,
     PricePerHour: 0.0,
     Cloud: azure,
@@ -358,7 +344,7 @@
     SubCategory: NoSQL
   },
   {
-    InstanceName: Unknown,
+    InstanceName: Azure Cosmos DB,
     Region: eastus,
     PricePerHour: 0.05,
     Cloud: azure,
@@ -366,7 +352,7 @@
     SubCategory: NoSQL
   },
   {
-    InstanceName: Unknown,
+    InstanceName: Azure Cosmos DB,
     Region: eastus,
     PricePerHour: 0.1,
     Cloud: azure,
@@ -374,7 +360,7 @@
     SubCategory: NoSQL
   },
   {
-    InstanceName: Unknown,
+    InstanceName: Azure Cosmos DB,
     Region: eastus,
     PricePerHour: 0.125,
     Cloud: azure,
@@ -382,7 +368,7 @@
     SubCategory: NoSQL
   },
   {
-    InstanceName: Unknown,
+    InstanceName: Azure Cosmos DB,
     Region: eastus,
     PricePerHour: 0.008,
     Cloud: azure,
@@ -390,7 +376,7 @@
     SubCategory: NoSQL
   },
   {
-    InstanceName: Unknown,
+    InstanceName: Azure Cosmos DB,
     Region: eastus,
     PricePerHour: 0.502,
     Cloud: azure,
@@ -406,7 +392,7 @@
     SubCategory: NoSQL
   },
   {
-    InstanceName: Unknown,
+    InstanceName: Azure Cosmos DB,
     Region: eastus,
     PricePerHour: 0.1,
     Cloud: azure,
@@ -414,7 +400,7 @@
     SubCategory: NoSQL
   },
   {
-    InstanceName: Unknown,
+    InstanceName: Azure Cosmos DB,
     Region: eastus,
     PricePerHour: 1.52,
     Cloud: azure,
@@ -430,7 +416,7 @@
     SubCategory: NoSQL
   },
   {
-    InstanceName: Unknown,
+    InstanceName: Azure Cosmos DB,
     Region: eastus,
     PricePerHour: 22.45,
     Cloud: azure,
@@ -438,7 +424,7 @@
     SubCategory: NoSQL
   },
   {
-    InstanceName: Unknown,
+    InstanceName: Azure Cosmos DB,
     Region: eastus,
     PricePerHour: 0.12,
     Cloud: azure,
@@ -454,7 +440,7 @@
     SubCategory: NoSQL
   },
   {
-    InstanceName: Unknown,
+    InstanceName: Azure Cosmos DB,
     Region: eastus,
     PricePerHour: 0.7,
     Cloud: azure,
@@ -470,7 +456,7 @@
     SubCategory: NoSQL
   },
   {
-    InstanceName: Unknown,
+    InstanceName: Azure Cosmos DB,
     Region: eastus,
     PricePerHour: 0.0,
     Cloud: azure,
@@ -494,7 +480,7 @@
     SubCategory: NoSQL
   },
   {
-    InstanceName: Unknown,
+    InstanceName: Azure Cosmos DB,
     Region: eastus,
     PricePerHour: 0.0,
     Cloud: azure,
@@ -510,7 +496,7 @@
     SubCategory: NoSQL
   },
   {
-    InstanceName: Unknown,
+    InstanceName: Azure Cosmos DB,
     Region: eastus,
     PricePerHour: 0.012,
     Cloud: azure,
@@ -526,7 +512,7 @@
     SubCategory: NoSQL
   },
   {
-    InstanceName: Unknown,
+    InstanceName: Azure Cosmos DB,
     Region: eastus,
     PricePerHour: 1.4,
     Cloud: azure,
@@ -550,7 +536,7 @@
     SubCategory: NoSQL
   },
   {
-    InstanceName: Unknown,
+    InstanceName: Azure Cosmos DB,
     Region: eastus,
     PricePerHour: 11.23,
     Cloud: azure,
@@ -566,7 +552,7 @@
     SubCategory: NoSQL
   },
   {
-    InstanceName: Unknown,
+    InstanceName: Azure Cosmos DB,
     Region: eastus,
     PricePerHour: 0.25,
     Cloud: azure,
@@ -582,7 +568,7 @@
     SubCategory: NoSQL
   },
   {
-    InstanceName: Unknown,
+    InstanceName: Azure Cosmos DB,
     Region: eastus,
     PricePerHour: 0.2,
     Cloud: azure,
@@ -590,7 +576,7 @@
     SubCategory: NoSQL
   },
   {
-    InstanceName: Unknown,
+    InstanceName: Azure Cosmos DB,
     Region: eastus,
     PricePerHour: 22.45,
     Cloud: azure,
@@ -598,7 +584,7 @@
     SubCategory: NoSQL
   },
   {
-    InstanceName: Unknown,
+    InstanceName: Azure Cosmos DB,
     Region: eastus,
     PricePerHour: 4.02,
     Cloud: azure,
@@ -606,7 +592,7 @@
     SubCategory: NoSQL
   },
   {
-    InstanceName: Unknown,
+    InstanceName: Azure Cosmos DB,
     Region: eastus,
     PricePerHour: 0.4,
     Cloud: azure,
@@ -614,7 +600,7 @@
     SubCategory: NoSQL
   },
   {
-    InstanceName: Unknown,
+    InstanceName: Azure Cosmos DB,
     Region: eastus,
     PricePerHour: 0.19,
     Cloud: azure,
@@ -622,7 +608,7 @@
     SubCategory: NoSQL
   },
   {
-    InstanceName: Unknown,
+    InstanceName: Azure Cosmos DB,
     Region: eastus,
     PricePerHour: 0.2,
     Cloud: azure,
@@ -646,7 +632,7 @@
     SubCategory: NoSQL
   },
   {
-    InstanceName: Unknown,
+    InstanceName: Azure Cosmos DB,
     Region: eastus,
     PricePerHour: 0.03,
     Cloud: azure,
@@ -654,7 +640,7 @@
     SubCategory: NoSQL
   },
   {
-    InstanceName: Unknown,
+    InstanceName: Azure Cosmos DB,
     Region: eastus,
     PricePerHour: 0.012,
     Cloud: azure,
@@ -670,7 +656,7 @@
     SubCategory: NoSQL
   },
   {
-    InstanceName: Unknown,
+    InstanceName: Azure Cosmos DB,
     Region: eastus,
     PricePerHour: 0.05,
     Cloud: azure,
@@ -678,7 +664,7 @@
     SubCategory: NoSQL
   },
   {
-    InstanceName: Unknown,
+    InstanceName: Azure Cosmos DB,
     Region: eastus,
     PricePerHour: 0.25,
     Cloud: azure,
@@ -694,7 +680,7 @@
     SubCategory: NoSQL
   },
   {
-    InstanceName: Unknown,
+    InstanceName: Azure Cosmos DB,
     Region: eastus,
     PricePerHour: 0.005,
     Cloud: azure,
@@ -718,7 +704,7 @@
     SubCategory: NoSQL
   },
   {
-    InstanceName: Unknown,
+    InstanceName: Azure Cosmos DB,
     Region: eastus,
     PricePerHour: 0.0,
     Cloud: azure,
@@ -726,7 +712,7 @@
     SubCategory: NoSQL
   },
   {
-    InstanceName: Unknown,
+    InstanceName: Azure Cosmos DB,
     Region: eastus,
     PricePerHour: 0.067,
     Cloud: azure,
@@ -758,7 +744,7 @@
     SubCategory: NoSQL
   },
   {
-    InstanceName: Unknown,
+    InstanceName: Azure Cosmos DB,
     Region: eastus,
     PricePerHour: 0.134,
     Cloud: azure,
@@ -782,7 +768,7 @@
     SubCategory: NoSQL
   },
   {
-    InstanceName: Unknown,
+    InstanceName: Azure Cosmos DB,
     Region: eastus,
     PricePerHour: 5.62,
     Cloud: azure,
@@ -790,7 +776,7 @@
     SubCategory: NoSQL
   },
   {
-    InstanceName: Unknown,
+    InstanceName: Azure Cosmos DB,
     Region: eastus,
     PricePerHour: 0.016,
     Cloud: azure,
@@ -806,7 +792,7 @@
     SubCategory: NoSQL
   },
   {
-    InstanceName: Unknown,
+    InstanceName: Azure Cosmos DB,
     Region: eastus,
     PricePerHour: 0.25,
     Cloud: azure,
@@ -822,7 +808,7 @@
     SubCategory: NoSQL
   },
   {
-    InstanceName: Unknown,
+    InstanceName: Azure Cosmos DB,
     Region: eastus,
     PricePerHour: 11.23,
     Cloud: azure,
@@ -838,7 +824,7 @@
     SubCategory: NoSQL
   },
   {
-    InstanceName: Unknown,
+    InstanceName: Azure Cosmos DB,
     Region: eastus,
     PricePerHour: 0.7,
     Cloud: azure,
@@ -846,7 +832,7 @@
     SubCategory: NoSQL
   },
   {
-    InstanceName: Unknown,
+    InstanceName: Azure Cosmos DB,
     Region: eastus,
     PricePerHour: 0.15,
     Cloud: azure,
@@ -854,7 +840,21 @@
     SubCategory: NoSQL
   },
   {
-    InstanceName: Unknown,
+    InstanceName: AmazonDynamoDB,
+    Region: us-east-1,
+    PricePerHour: 0.0000001,
+    Category: Database,
+    SubCategory: NoSQL
+  },
+  {
+    InstanceName: AmazonDynamoDB,
+    Region: us-east-1,
+    PricePerHour: 0.0000001,
+    Category: Database,
+    SubCategory: NoSQL
+  },
+  {
+    InstanceName: Firebase Realtime Database,
     Region: global,
     PricePerHour: 5.0,
     Cloud: gcp,

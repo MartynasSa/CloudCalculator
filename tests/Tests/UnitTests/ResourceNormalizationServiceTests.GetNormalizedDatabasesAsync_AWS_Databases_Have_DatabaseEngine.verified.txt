@@ -1,13 +1,13 @@
 ﻿[
   {
-    InstanceName: Unknown,
+    InstanceName: AmazonDynamoDB,
     Region: us-east-1,
     PricePerHour: 0.0000001,
     Category: Database,
     SubCategory: NoSQL
   },
   {
-    InstanceName: Unknown,
+    InstanceName: AmazonDynamoDB,
     Region: us-east-1,
     PricePerHour: 0.0000001,
     Category: Database,
