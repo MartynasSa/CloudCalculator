@@ -1,5 +1,85 @@
 ﻿[
   {
+    ClusterName: Automatic Compute Optimized,
+    Region: eastus,
+    PricePerHour: 0.012196,
+    Cloud: azure,
+    Category: Compute,
+    SubCategory: Kubernetes
+  },
+  {
+    ClusterName: Automatic Hosted Control Plane,
+    Region: eastus,
+    PricePerHour: 0.16,
+    Cloud: azure,
+    Category: Compute,
+    SubCategory: Kubernetes
+  },
+  {
+    ClusterName: Standard Long Term Support,
+    Region: eastus,
+    PricePerHour: 0.6,
+    Cloud: azure,
+    Category: Compute,
+    SubCategory: Kubernetes
+  },
+  {
+    ClusterName: Automatic Storage Optimized,
+    Region: eastus,
+    PricePerHour: 0.014487,
+    Cloud: azure,
+    Category: Compute,
+    SubCategory: Kubernetes
+  },
+  {
+    ClusterName: Automatic Memory Optimized,
+    Region: eastus,
+    PricePerHour: 0.012427,
+    Cloud: azure,
+    Category: Compute,
+    SubCategory: Kubernetes
+  },
+  {
+    ClusterName: Standard Uptime SLA,
+    Region: eastus,
+    PricePerHour: 0.1,
+    Cloud: azure,
+    Category: Compute,
+    SubCategory: Kubernetes
+  },
+  {
+    ClusterName: Automatic High Performance Compute,
+    Region: eastus,
+    PricePerHour: 0.007312,
+    Cloud: azure,
+    Category: Compute,
+    SubCategory: Kubernetes
+  },
+  {
+    ClusterName: Automatic GPU Accelerated,
+    Region: eastus,
+    PricePerHour: 0.035952,
+    Cloud: azure,
+    Category: Compute,
+    SubCategory: Kubernetes
+  },
+  {
+    ClusterName: Automatic General Purpose,
+    Region: eastus,
+    PricePerHour: 0.007841,
+    Cloud: azure,
+    Category: Compute,
+    SubCategory: Kubernetes
+  },
+  {
+    ClusterName: Automatic Confidential Compute,
+    Region: eastus,
+    PricePerHour: 0.012117,
+    Cloud: azure,
+    Category: Compute,
+    SubCategory: Kubernetes
+  },
+  {
     ClusterName: AmazonEKS,
     Region: us-east-1,
     PricePerHour: 0.02828,
@@ -6072,86 +6152,6 @@
     ClusterName: AmazonEKS,
     Region: us-east-1,
     PricePerHour: 0.04608,
-    Category: Compute,
-    SubCategory: Kubernetes
-  },
-  {
-    ClusterName: Automatic Compute Optimized,
-    Region: eastus,
-    PricePerHour: 0.012196,
-    Cloud: azure,
-    Category: Compute,
-    SubCategory: Kubernetes
-  },
-  {
-    ClusterName: Automatic Hosted Control Plane,
-    Region: eastus,
-    PricePerHour: 0.16,
-    Cloud: azure,
-    Category: Compute,
-    SubCategory: Kubernetes
-  },
-  {
-    ClusterName: Standard Long Term Support,
-    Region: eastus,
-    PricePerHour: 0.6,
-    Cloud: azure,
-    Category: Compute,
-    SubCategory: Kubernetes
-  },
-  {
-    ClusterName: Automatic Storage Optimized,
-    Region: eastus,
-    PricePerHour: 0.014487,
-    Cloud: azure,
-    Category: Compute,
-    SubCategory: Kubernetes
-  },
-  {
-    ClusterName: Automatic Memory Optimized,
-    Region: eastus,
-    PricePerHour: 0.012427,
-    Cloud: azure,
-    Category: Compute,
-    SubCategory: Kubernetes
-  },
-  {
-    ClusterName: Standard Uptime SLA,
-    Region: eastus,
-    PricePerHour: 0.1,
-    Cloud: azure,
-    Category: Compute,
-    SubCategory: Kubernetes
-  },
-  {
-    ClusterName: Automatic High Performance Compute,
-    Region: eastus,
-    PricePerHour: 0.007312,
-    Cloud: azure,
-    Category: Compute,
-    SubCategory: Kubernetes
-  },
-  {
-    ClusterName: Automatic GPU Accelerated,
-    Region: eastus,
-    PricePerHour: 0.035952,
-    Cloud: azure,
-    Category: Compute,
-    SubCategory: Kubernetes
-  },
-  {
-    ClusterName: Automatic General Purpose,
-    Region: eastus,
-    PricePerHour: 0.007841,
-    Cloud: azure,
-    Category: Compute,
-    SubCategory: Kubernetes
-  },
-  {
-    ClusterName: Automatic Confidential Compute,
-    Region: eastus,
-    PricePerHour: 0.012117,
-    Cloud: azure,
     Category: Compute,
     SubCategory: Kubernetes
   }

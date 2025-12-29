@@ -256,6 +256,10 @@ public class TemplateFacadeTests(WebApplicationFactory<Program> factory) : TestB
             ResourceSubCategory.Secrets,
             ResourceSubCategory.Compliance,
             ResourceSubCategory.Monitoring,
+
+            // Security (700-799)
+            ResourceSubCategory.WebApplicationFirewall,
+            ResourceSubCategory.IdentityManagement,
         };
 
         var missingImplementations = allSubCategories

@@ -44,12 +44,12 @@
       },
       {
         CloudProvider: gcp,
-        TotalMonthlyPrice: 11.30,
+        TotalMonthlyPrice: 9.840,
         CostDetails: [
           {
-            Cost: 7.30,
+            Cost: 5.840,
             ResourceSubCategory: LoadBalancer,
-            ResourceDetails: {"Name":"Compute Engine","PricePerMonth":7.30,"Cloud":2,"Category":4,"SubCategory":401}
+            ResourceDetails: {"Name":"Compute Engine","PricePerMonth":5.840,"Cloud":2,"Category":4,"SubCategory":401}
           },
           {
             Cost: 4.0,
@@ -98,12 +98,12 @@
       },
       {
         CloudProvider: gcp,
-        TotalMonthlyPrice: 11.30,
+        TotalMonthlyPrice: 9.840,
         CostDetails: [
           {
-            Cost: 7.30,
+            Cost: 5.840,
             ResourceSubCategory: LoadBalancer,
-            ResourceDetails: {"Name":"Compute Engine","PricePerMonth":7.30,"Cloud":2,"Category":4,"SubCategory":401}
+            ResourceDetails: {"Name":"Compute Engine","PricePerMonth":5.840,"Cloud":2,"Category":4,"SubCategory":401}
           },
           {
             Cost: 4.0,
@@ -152,12 +152,12 @@
       },
       {
         CloudProvider: gcp,
-        TotalMonthlyPrice: 11.30,
+        TotalMonthlyPrice: 9.840,
         CostDetails: [
           {
-            Cost: 7.30,
+            Cost: 5.840,
             ResourceSubCategory: LoadBalancer,
-            ResourceDetails: {"Name":"Compute Engine","PricePerMonth":7.30,"Cloud":2,"Category":4,"SubCategory":401}
+            ResourceDetails: {"Name":"Compute Engine","PricePerMonth":5.840,"Cloud":2,"Category":4,"SubCategory":401}
           },
           {
             Cost: 4.0,
@@ -206,12 +206,12 @@
       },
       {
         CloudProvider: gcp,
-        TotalMonthlyPrice: 11.30,
+        TotalMonthlyPrice: 9.840,
         CostDetails: [
           {
-            Cost: 7.30,
+            Cost: 5.840,
             ResourceSubCategory: LoadBalancer,
-            ResourceDetails: {"Name":"Compute Engine","PricePerMonth":7.30,"Cloud":2,"Category":4,"SubCategory":401}
+            ResourceDetails: {"Name":"Compute Engine","PricePerMonth":5.840,"Cloud":2,"Category":4,"SubCategory":401}
           },
           {
             Cost: 4.0,
