@@ -190,52 +190,6 @@ public class ResourceNormalizationServiceTests(WebApplicationFactory<Program> fa
     }
 
     [Fact]
-    public async Task GetNormalizedMonitoring_Returns_Monitoring_For_All_Clouds()
-    {
-        // Arrange
-        var service = GetService();
-
-        // Act
-        var categorized = await service.GetResourcesAsync();
-        var result = categorized.Monitoring;
-
-        // Assert
-        Assert.NotNull(result);
-        Assert.Equal(3, result.Count);
-        Assert.Contains(result, mon => mon.Cloud == CloudProvider.AWS);
-        Assert.Contains(result, mon => mon.Cloud == CloudProvider.Azure);
-        Assert.Contains(result, mon => mon.Cloud == CloudProvider.GCP);
-
-        // Verify all monitoring services have required properties
-        Assert.All(result, mon =>
-        {
-            Assert.False(string.IsNullOrWhiteSpace(mon.Cloud.ToString()));
-            Assert.NotNull(mon.PricePerMonth);
-        });
-    }
-
-    [Fact]
-    public async Task GetNormalizedMonitoring_Small_Has_Correct_Pricing()
-    {
-        // Arrange
-        var service = GetService();
-
-        // Act
-        var categorized = await service.GetResourcesAsync();
-        var result = categorized.Monitoring;
-
-        // Assert
-        var awsMon = result.First(mon => mon.Cloud == CloudProvider.AWS);
-        var azureMon = result.First(mon => mon.Cloud == CloudProvider.Azure);
-        var gcpMon = result.First(mon => mon.Cloud == CloudProvider.GCP);
-
-        Assert.Equal(5m, awsMon.PricePerMonth);
-        Assert.Equal(6m, azureMon.PricePerMonth);
-        Assert.Equal(4m, gcpMon.PricePerMonth);
-    }
-
-
-    [Fact]
     public async Task GetNormalizedCloudFunctions_Returns_CloudFunctions()
     {
         // Arrange

@@ -235,6 +235,7 @@ public class TemplateFacadeTests(WebApplicationFactory<Program> factory) : TestB
             // Storage (300-399)
             ResourceSubCategory.ObjectStorage,
             ResourceSubCategory.BlobStorage,
+            ResourceSubCategory.BlockStorage,
             ResourceSubCategory.FileStorage,
             ResourceSubCategory.Backup,
 
