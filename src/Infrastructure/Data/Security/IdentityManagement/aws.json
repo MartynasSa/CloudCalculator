@@ -1,0 +1,2406 @@
+{
+  "data": {
+    "products": [
+      {
+        "attributes": [
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": ""
+          },
+          {
+            "key": "usagetype",
+            "value": "USE1-Bedrock-Agent-Core:Auth-Request:API-Keys"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonCognito"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon Cognito"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonCognito",
+        "region": "us-east-1",
+        "productFamily": "Amazon Bedrock",
+        "prices": [
+          {
+            "USD": "0.00001",
+            "unit": "Requests",
+            "startUsageAmount": "0",
+            "endUsageAmount": "Inf",
+            "purchaseOption": "on_demand",
+            "termPurchaseOption": null,
+            "termLength": null,
+            "termOfferingClass": null
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": ""
+          },
+          {
+            "key": "usagetype",
+            "value": "USE1-Bedrock-Agent-Core:Auth-Request:Oauth2"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonCognito"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon Cognito"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonCognito",
+        "region": "us-east-1",
+        "productFamily": "Amazon Bedrock",
+        "prices": [
+          {
+            "USD": "0.00001",
+            "unit": "Requests",
+            "startUsageAmount": "0",
+            "endUsageAmount": "Inf",
+            "purchaseOption": "on_demand",
+            "termPurchaseOption": null,
+            "termLength": null,
+            "termOfferingClass": null
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "CognitoEssentialsOperation"
+          },
+          {
+            "key": "usagetype",
+            "value": "USE1-CognitoEssentialsMAU"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonCognito"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon Cognito"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonCognito",
+        "region": "us-east-1",
+        "productFamily": "Amazon Cognito - Essentials",
+        "prices": [
+          {
+            "USD": "0.015",
+            "unit": "CognitoUserPoolsMAU",
+            "startUsageAmount": "0",
+            "endUsageAmount": "Inf",
+            "purchaseOption": "on_demand",
+            "termPurchaseOption": null,
+            "termLength": null,
+            "termOfferingClass": null
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "CognitoLiteOperation"
+          },
+          {
+            "key": "usagetype",
+            "value": "USE1-CognitoLiteMAU"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonCognito"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon Cognito"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonCognito",
+        "region": "us-east-1",
+        "productFamily": "Amazon Cognito - Lite",
+        "prices": [
+          {
+            "USD": "0.0055",
+            "unit": "CognitoUserPoolsMAU",
+            "startUsageAmount": "0",
+            "endUsageAmount": "90000",
+            "purchaseOption": "on_demand",
+            "termPurchaseOption": null,
+            "termLength": null,
+            "termOfferingClass": null
+          },
+          {
+            "USD": "0.0046",
+            "unit": "CognitoUserPoolsMAU",
+            "startUsageAmount": "90000",
+            "endUsageAmount": "990000",
+            "purchaseOption": "on_demand",
+            "termPurchaseOption": null,
+            "termLength": null,
+            "termOfferingClass": null
+          },
+          {
+            "USD": "0.00325",
+            "unit": "CognitoUserPoolsMAU",
+            "startUsageAmount": "990000",
+            "endUsageAmount": "9990000",
+            "purchaseOption": "on_demand",
+            "termPurchaseOption": null,
+            "termLength": null,
+            "termOfferingClass": null
+          },
+          {
+            "USD": "0.0025",
+            "unit": "CognitoUserPoolsMAU",
+            "startUsageAmount": "9990000",
+            "endUsageAmount": "Inf",
+            "purchaseOption": "on_demand",
+            "termPurchaseOption": null,
+            "termLength": null,
+            "termOfferingClass": null
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "CognitoPlusOperation"
+          },
+          {
+            "key": "usagetype",
+            "value": "USE1-CognitoPlusMAU"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonCognito"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon Cognito"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonCognito",
+        "region": "us-east-1",
+        "productFamily": "Amazon Cognito - Plus",
+        "prices": [
+          {
+            "USD": "0.02",
+            "unit": "CognitoUserPoolsMAU",
+            "startUsageAmount": "0",
+            "endUsageAmount": "Inf",
+            "purchaseOption": "on_demand",
+            "termPurchaseOption": null,
+            "termLength": null,
+            "termOfferingClass": null
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "CognitoASFOperation"
+          },
+          {
+            "key": "usagetype",
+            "value": "USE1-CognitoASFMAU"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonCognito"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon Cognito"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonCognito",
+        "region": "us-east-1",
+        "productFamily": "User Pool ASF MAU",
+        "prices": [
+          {
+            "USD": "0.05",
+            "unit": "CognitoUserPoolsMAU",
+            "startUsageAmount": "0",
+            "endUsageAmount": "50000",
+            "purchaseOption": "on_demand",
+            "termPurchaseOption": null,
+            "termLength": null,
+            "termOfferingClass": null
+          },
+          {
+            "USD": "0.035",
+            "unit": "CognitoUserPoolsMAU",
+            "startUsageAmount": "50000",
+            "endUsageAmount": "100000",
+            "purchaseOption": "on_demand",
+            "termPurchaseOption": null,
+            "termLength": null,
+            "termOfferingClass": null
+          },
+          {
+            "USD": "0.02",
+            "unit": "CognitoUserPoolsMAU",
+            "startUsageAmount": "100000",
+            "endUsageAmount": "1000000",
+            "purchaseOption": "on_demand",
+            "termPurchaseOption": null,
+            "termLength": null,
+            "termOfferingClass": null
+          },
+          {
+            "USD": "0.015",
+            "unit": "CognitoUserPoolsMAU",
+            "startUsageAmount": "1000000",
+            "endUsageAmount": "10000000",
+            "purchaseOption": "on_demand",
+            "termPurchaseOption": null,
+            "termLength": null,
+            "termOfferingClass": null
+          },
+          {
+            "USD": "0.01",
+            "unit": "CognitoUserPoolsMAU",
+            "startUsageAmount": "10000000",
+            "endUsageAmount": "Inf",
+            "purchaseOption": "on_demand",
+            "termPurchaseOption": null,
+            "termLength": null,
+            "termOfferingClass": null
+          },
+          {
+            "USD": "0.02",
+            "unit": "Requests",
+            "startUsageAmount": "100000",
+            "endUsageAmount": "1000000",
+            "purchaseOption": "on_demand",
+            "termPurchaseOption": null,
+            "termLength": null,
+            "termOfferingClass": null
+          },
+          {
+            "USD": "0.05",
+            "unit": "Requests",
+            "startUsageAmount": "0",
+            "endUsageAmount": "50000",
+            "purchaseOption": "on_demand",
+            "termPurchaseOption": null,
+            "termLength": null,
+            "termOfferingClass": null
+          },
+          {
+            "USD": "0.015",
+            "unit": "Requests",
+            "startUsageAmount": "1000000",
+            "endUsageAmount": "10000000",
+            "purchaseOption": "on_demand",
+            "termPurchaseOption": null,
+            "termLength": null,
+            "termOfferingClass": null
+          },
+          {
+            "USD": "0.035",
+            "unit": "Requests",
+            "startUsageAmount": "50000",
+            "endUsageAmount": "100000",
+            "purchaseOption": "on_demand",
+            "termPurchaseOption": null,
+            "termLength": null,
+            "termOfferingClass": null
+          },
+          {
+            "USD": "0.01",
+            "unit": "Requests",
+            "startUsageAmount": "10000000",
+            "endUsageAmount": "Inf",
+            "purchaseOption": "on_demand",
+            "termPurchaseOption": null,
+            "termLength": null,
+            "termOfferingClass": null
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "CognitoEnterpriseOperation"
+          },
+          {
+            "key": "usagetype",
+            "value": "USE1-CognitoEnterpriseMAU"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonCognito"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon Cognito"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonCognito",
+        "region": "us-east-1",
+        "productFamily": "User Pool Enterprise MAU",
+        "prices": [
+          {
+            "USD": "0.015",
+            "unit": "CognitoUserPoolsMAU",
+            "startUsageAmount": "0",
+            "endUsageAmount": "Inf",
+            "purchaseOption": "on_demand",
+            "termPurchaseOption": null,
+            "termLength": null,
+            "termOfferingClass": null
+          },
+          {
+            "USD": "0.015",
+            "unit": "Requests",
+            "startUsageAmount": "0",
+            "endUsageAmount": "Inf",
+            "purchaseOption": "on_demand",
+            "termPurchaseOption": null,
+            "termLength": null,
+            "termOfferingClass": null
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "CognitoUserPoolsOperation"
+          },
+          {
+            "key": "usagetype",
+            "value": "USE1-CognitoUserPoolsMAU"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonCognito"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon Cognito"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonCognito",
+        "region": "us-east-1",
+        "productFamily": "User Pool MAU",
+        "prices": [
+          {
+            "USD": "0.0055",
+            "unit": "CognitoUserPoolsMAU",
+            "startUsageAmount": "0",
+            "endUsageAmount": "50000",
+            "purchaseOption": "on_demand",
+            "termPurchaseOption": null,
+            "termLength": null,
+            "termOfferingClass": null
+          },
+          {
+            "USD": "0.0046",
+            "unit": "CognitoUserPoolsMAU",
+            "startUsageAmount": "50000",
+            "endUsageAmount": "950000",
+            "purchaseOption": "on_demand",
+            "termPurchaseOption": null,
+            "termLength": null,
+            "termOfferingClass": null
+          },
+          {
+            "USD": "0.00325",
+            "unit": "CognitoUserPoolsMAU",
+            "startUsageAmount": "950000",
+            "endUsageAmount": "9950000",
+            "purchaseOption": "on_demand",
+            "termPurchaseOption": null,
+            "termLength": null,
+            "termOfferingClass": null
+          },
+          {
+            "USD": "0.0025",
+            "unit": "CognitoUserPoolsMAU",
+            "startUsageAmount": "9950000",
+            "endUsageAmount": "Inf",
+            "purchaseOption": "on_demand",
+            "termPurchaseOption": null,
+            "termLength": null,
+            "termOfferingClass": null
+          },
+          {
+            "USD": "0.0025",
+            "unit": "Requests",
+            "startUsageAmount": "9950000",
+            "endUsageAmount": "Inf",
+            "purchaseOption": "on_demand",
+            "termPurchaseOption": null,
+            "termLength": null,
+            "termOfferingClass": null
+          },
+          {
+            "USD": "0.0046",
+            "unit": "Requests",
+            "startUsageAmount": "50000",
+            "endUsageAmount": "950000",
+            "purchaseOption": "on_demand",
+            "termPurchaseOption": null,
+            "termLength": null,
+            "termOfferingClass": null
+          },
+          {
+            "USD": "0.00325",
+            "unit": "Requests",
+            "startUsageAmount": "950000",
+            "endUsageAmount": "9950000",
+            "purchaseOption": "on_demand",
+            "termPurchaseOption": null,
+            "termLength": null,
+            "termOfferingClass": null
+          },
+          {
+            "USD": "0.0055",
+            "unit": "Requests",
+            "startUsageAmount": "0",
+            "endUsageAmount": "50000",
+            "purchaseOption": "on_demand",
+            "termPurchaseOption": null,
+            "termLength": null,
+            "termOfferingClass": null
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "duration",
+            "value": "Partial"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "CognitoRPSOperation"
+          },
+          {
+            "key": "usagetype",
+            "value": "USE1-CognitoUserTokenRPSPartial"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "apiCategory",
+            "value": "UserToken"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonCognito"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon Cognito"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonCognito",
+        "region": "us-east-1",
+        "productFamily": "User Pool RPS",
+        "prices": [
+          {
+            "USD": "45",
+            "unit": "CognitoUserPoolsRPSMo",
+            "startUsageAmount": "0",
+            "endUsageAmount": "Inf",
+            "purchaseOption": "on_demand",
+            "termPurchaseOption": null,
+            "termLength": null,
+            "termOfferingClass": null
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "duration",
+            "value": "Full"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "CognitoRPSOperation"
+          },
+          {
+            "key": "usagetype",
+            "value": "USE1-CognitoUserAuthenticationRPSFull"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "apiCategory",
+            "value": "UserAuthentication"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonCognito"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon Cognito"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonCognito",
+        "region": "us-east-1",
+        "productFamily": "User Pool RPS",
+        "prices": [
+          {
+            "USD": "20",
+            "unit": "CognitoUserPoolsRPSMo",
+            "startUsageAmount": "0",
+            "endUsageAmount": "Inf",
+            "purchaseOption": "on_demand",
+            "termPurchaseOption": null,
+            "termLength": null,
+            "termOfferingClass": null
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "duration",
+            "value": "Free"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "CognitoRPSOperation"
+          },
+          {
+            "key": "usagetype",
+            "value": "USE1-CognitoUserResourceReadRPSFree"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "apiCategory",
+            "value": "UserResourceRead"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonCognito"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon Cognito"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonCognito",
+        "region": "us-east-1",
+        "productFamily": "User Pool RPS",
+        "prices": [
+          {
+            "USD": "0",
+            "unit": "CognitoUserPoolsRPSMo",
+            "startUsageAmount": "0",
+            "endUsageAmount": "Inf",
+            "purchaseOption": "on_demand",
+            "termPurchaseOption": null,
+            "termLength": null,
+            "termOfferingClass": null
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "duration",
+            "value": "Full"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "CognitoRPSOperation"
+          },
+          {
+            "key": "usagetype",
+            "value": "USE1-CognitoUserResourceUpdateRPSFull"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "apiCategory",
+            "value": "UserResourceUpdate"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonCognito"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon Cognito"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonCognito",
+        "region": "us-east-1",
+        "productFamily": "User Pool RPS",
+        "prices": [
+          {
+            "USD": "20",
+            "unit": "CognitoUserPoolsRPSMo",
+            "startUsageAmount": "0",
+            "endUsageAmount": "Inf",
+            "purchaseOption": "on_demand",
+            "termPurchaseOption": null,
+            "termLength": null,
+            "termOfferingClass": null
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "duration",
+            "value": "Full"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "CognitoRPSOperation"
+          },
+          {
+            "key": "usagetype",
+            "value": "USE1-CognitoUserReadRPSFull"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "apiCategory",
+            "value": "UserRead"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonCognito"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon Cognito"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonCognito",
+        "region": "us-east-1",
+        "productFamily": "User Pool RPS",
+        "prices": [
+          {
+            "USD": "20",
+            "unit": "CognitoUserPoolsRPSMo",
+            "startUsageAmount": "0",
+            "endUsageAmount": "Inf",
+            "purchaseOption": "on_demand",
+            "termPurchaseOption": null,
+            "termLength": null,
+            "termOfferingClass": null
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "duration",
+            "value": "Partial"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "CognitoRPSOperation"
+          },
+          {
+            "key": "usagetype",
+            "value": "USE1-CognitoUserUpdateRPSPartial"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "apiCategory",
+            "value": "UserUpdate"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonCognito"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon Cognito"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonCognito",
+        "region": "us-east-1",
+        "productFamily": "User Pool RPS",
+        "prices": [
+          {
+            "USD": "45",
+            "unit": "CognitoUserPoolsRPSMo",
+            "startUsageAmount": "0",
+            "endUsageAmount": "Inf",
+            "purchaseOption": "on_demand",
+            "termPurchaseOption": null,
+            "termLength": null,
+            "termOfferingClass": null
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "duration",
+            "value": "Partial"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "CognitoRPSOperation"
+          },
+          {
+            "key": "usagetype",
+            "value": "USE1-CognitoUserAccountRecoveryRPSPartial"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "apiCategory",
+            "value": "UserAccountRecovery"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonCognito"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon Cognito"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonCognito",
+        "region": "us-east-1",
+        "productFamily": "User Pool RPS",
+        "prices": [
+          {
+            "USD": "45",
+            "unit": "CognitoUserPoolsRPSMo",
+            "startUsageAmount": "0",
+            "endUsageAmount": "Inf",
+            "purchaseOption": "on_demand",
+            "termPurchaseOption": null,
+            "termLength": null,
+            "termOfferingClass": null
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "duration",
+            "value": "Full"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "CognitoRPSOperation"
+          },
+          {
+            "key": "usagetype",
+            "value": "USE1-CognitoUserResourceReadRPSFull"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "apiCategory",
+            "value": "UserResourceRead"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonCognito"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon Cognito"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonCognito",
+        "region": "us-east-1",
+        "productFamily": "User Pool RPS",
+        "prices": [
+          {
+            "USD": "20",
+            "unit": "CognitoUserPoolsRPSMo",
+            "startUsageAmount": "0",
+            "endUsageAmount": "Inf",
+            "purchaseOption": "on_demand",
+            "termPurchaseOption": null,
+            "termLength": null,
+            "termOfferingClass": null
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "duration",
+            "value": "Free"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "CognitoRPSOperation"
+          },
+          {
+            "key": "usagetype",
+            "value": "USE1-CognitoUserTokenRPSFree"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "apiCategory",
+            "value": "UserToken"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonCognito"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon Cognito"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonCognito",
+        "region": "us-east-1",
+        "productFamily": "User Pool RPS",
+        "prices": [
+          {
+            "USD": "0",
+            "unit": "CognitoUserPoolsRPSMo",
+            "startUsageAmount": "0",
+            "endUsageAmount": "Inf",
+            "purchaseOption": "on_demand",
+            "termPurchaseOption": null,
+            "termLength": null,
+            "termOfferingClass": null
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "duration",
+            "value": "Full"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "CognitoRPSOperation"
+          },
+          {
+            "key": "usagetype",
+            "value": "USE1-CognitoUserTokenRPSFull"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "apiCategory",
+            "value": "UserToken"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonCognito"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon Cognito"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonCognito",
+        "region": "us-east-1",
+        "productFamily": "User Pool RPS",
+        "prices": [
+          {
+            "USD": "20",
+            "unit": "CognitoUserPoolsRPSMo",
+            "startUsageAmount": "0",
+            "endUsageAmount": "Inf",
+            "purchaseOption": "on_demand",
+            "termPurchaseOption": null,
+            "termLength": null,
+            "termOfferingClass": null
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "duration",
+            "value": "Free"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "CognitoRPSOperation"
+          },
+          {
+            "key": "usagetype",
+            "value": "USE1-CognitoUserAuthenticationRPSFree"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "apiCategory",
+            "value": "UserAuthentication"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonCognito"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon Cognito"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonCognito",
+        "region": "us-east-1",
+        "productFamily": "User Pool RPS",
+        "prices": [
+          {
+            "USD": "0",
+            "unit": "CognitoUserPoolsRPSMo",
+            "startUsageAmount": "0",
+            "endUsageAmount": "Inf",
+            "purchaseOption": "on_demand",
+            "termPurchaseOption": null,
+            "termLength": null,
+            "termOfferingClass": null
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "duration",
+            "value": "Partial"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "CognitoRPSOperation"
+          },
+          {
+            "key": "usagetype",
+            "value": "USE1-CognitoUserResourceReadRPSPartial"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "apiCategory",
+            "value": "UserResourceRead"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonCognito"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon Cognito"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonCognito",
+        "region": "us-east-1",
+        "productFamily": "User Pool RPS",
+        "prices": [
+          {
+            "USD": "45",
+            "unit": "CognitoUserPoolsRPSMo",
+            "startUsageAmount": "0",
+            "endUsageAmount": "Inf",
+            "purchaseOption": "on_demand",
+            "termPurchaseOption": null,
+            "termLength": null,
+            "termOfferingClass": null
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "duration",
+            "value": "Full"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "CognitoRPSOperation"
+          },
+          {
+            "key": "usagetype",
+            "value": "USE1-CognitoUserCreationRPSFull"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "apiCategory",
+            "value": "UserCreation"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonCognito"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon Cognito"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonCognito",
+        "region": "us-east-1",
+        "productFamily": "User Pool RPS",
+        "prices": [
+          {
+            "USD": "20",
+            "unit": "CognitoUserPoolsRPSMo",
+            "startUsageAmount": "0",
+            "endUsageAmount": "Inf",
+            "purchaseOption": "on_demand",
+            "termPurchaseOption": null,
+            "termLength": null,
+            "termOfferingClass": null
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "duration",
+            "value": "Free"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "CognitoRPSOperation"
+          },
+          {
+            "key": "usagetype",
+            "value": "USE1-CognitoUserResourceUpdateRPSFree"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "apiCategory",
+            "value": "UserResourceUpdate"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonCognito"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon Cognito"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonCognito",
+        "region": "us-east-1",
+        "productFamily": "User Pool RPS",
+        "prices": [
+          {
+            "USD": "0",
+            "unit": "CognitoUserPoolsRPSMo",
+            "startUsageAmount": "0",
+            "endUsageAmount": "Inf",
+            "purchaseOption": "on_demand",
+            "termPurchaseOption": null,
+            "termLength": null,
+            "termOfferingClass": null
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "duration",
+            "value": "Partial"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "CognitoRPSOperation"
+          },
+          {
+            "key": "usagetype",
+            "value": "USE1-CognitoUserAuthenticationRPSPartial"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "apiCategory",
+            "value": "UserAuthentication"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonCognito"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon Cognito"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonCognito",
+        "region": "us-east-1",
+        "productFamily": "User Pool RPS",
+        "prices": [
+          {
+            "USD": "45",
+            "unit": "CognitoUserPoolsRPSMo",
+            "startUsageAmount": "0",
+            "endUsageAmount": "Inf",
+            "purchaseOption": "on_demand",
+            "termPurchaseOption": null,
+            "termLength": null,
+            "termOfferingClass": null
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "duration",
+            "value": "Partial"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "CognitoRPSOperation"
+          },
+          {
+            "key": "usagetype",
+            "value": "USE1-CognitoUserResourceUpdateRPSPartial"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "apiCategory",
+            "value": "UserResourceUpdate"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonCognito"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon Cognito"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonCognito",
+        "region": "us-east-1",
+        "productFamily": "User Pool RPS",
+        "prices": [
+          {
+            "USD": "45",
+            "unit": "CognitoUserPoolsRPSMo",
+            "startUsageAmount": "0",
+            "endUsageAmount": "Inf",
+            "purchaseOption": "on_demand",
+            "termPurchaseOption": null,
+            "termLength": null,
+            "termOfferingClass": null
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "duration",
+            "value": "Free"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "CognitoRPSOperation"
+          },
+          {
+            "key": "usagetype",
+            "value": "USE1-CognitoUserAccountRecoveryRPSFree"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "apiCategory",
+            "value": "UserAccountRecovery"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonCognito"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon Cognito"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonCognito",
+        "region": "us-east-1",
+        "productFamily": "User Pool RPS",
+        "prices": [
+          {
+            "USD": "0",
+            "unit": "CognitoUserPoolsRPSMo",
+            "startUsageAmount": "0",
+            "endUsageAmount": "Inf",
+            "purchaseOption": "on_demand",
+            "termPurchaseOption": null,
+            "termLength": null,
+            "termOfferingClass": null
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "duration",
+            "value": "Full"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "CognitoRPSOperation"
+          },
+          {
+            "key": "usagetype",
+            "value": "USE1-CognitoUserFederationRPSFull"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "apiCategory",
+            "value": "UserFederation"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonCognito"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon Cognito"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonCognito",
+        "region": "us-east-1",
+        "productFamily": "User Pool RPS",
+        "prices": [
+          {
+            "USD": "20",
+            "unit": "CognitoUserPoolsRPSMo",
+            "startUsageAmount": "0",
+            "endUsageAmount": "Inf",
+            "purchaseOption": "on_demand",
+            "termPurchaseOption": null,
+            "termLength": null,
+            "termOfferingClass": null
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "duration",
+            "value": "Full"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "CognitoRPSOperation"
+          },
+          {
+            "key": "usagetype",
+            "value": "USE1-CognitoUserUpdateRPSFull"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "apiCategory",
+            "value": "UserUpdate"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonCognito"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon Cognito"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonCognito",
+        "region": "us-east-1",
+        "productFamily": "User Pool RPS",
+        "prices": [
+          {
+            "USD": "20",
+            "unit": "CognitoUserPoolsRPSMo",
+            "startUsageAmount": "0",
+            "endUsageAmount": "Inf",
+            "purchaseOption": "on_demand",
+            "termPurchaseOption": null,
+            "termLength": null,
+            "termOfferingClass": null
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "duration",
+            "value": "Free"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "CognitoRPSOperation"
+          },
+          {
+            "key": "usagetype",
+            "value": "USE1-CognitoUserCreationRPSFree"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "apiCategory",
+            "value": "UserCreation"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonCognito"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon Cognito"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonCognito",
+        "region": "us-east-1",
+        "productFamily": "User Pool RPS",
+        "prices": [
+          {
+            "USD": "0",
+            "unit": "CognitoUserPoolsRPSMo",
+            "startUsageAmount": "0",
+            "endUsageAmount": "Inf",
+            "purchaseOption": "on_demand",
+            "termPurchaseOption": null,
+            "termLength": null,
+            "termOfferingClass": null
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "duration",
+            "value": "Full"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "CognitoRPSOperation"
+          },
+          {
+            "key": "usagetype",
+            "value": "USE1-CognitoUserAccountRecoveryRPSFull"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "apiCategory",
+            "value": "UserAccountRecovery"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonCognito"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon Cognito"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonCognito",
+        "region": "us-east-1",
+        "productFamily": "User Pool RPS",
+        "prices": [
+          {
+            "USD": "20",
+            "unit": "CognitoUserPoolsRPSMo",
+            "startUsageAmount": "0",
+            "endUsageAmount": "Inf",
+            "purchaseOption": "on_demand",
+            "termPurchaseOption": null,
+            "termLength": null,
+            "termOfferingClass": null
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "duration",
+            "value": "Free"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "CognitoRPSOperation"
+          },
+          {
+            "key": "usagetype",
+            "value": "USE1-CognitoUserFederationRPSFree"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "apiCategory",
+            "value": "UserFederation"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonCognito"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon Cognito"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonCognito",
+        "region": "us-east-1",
+        "productFamily": "User Pool RPS",
+        "prices": [
+          {
+            "USD": "0",
+            "unit": "CognitoUserPoolsRPSMo",
+            "startUsageAmount": "0",
+            "endUsageAmount": "Inf",
+            "purchaseOption": "on_demand",
+            "termPurchaseOption": null,
+            "termLength": null,
+            "termOfferingClass": null
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "duration",
+            "value": "Partial"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "CognitoRPSOperation"
+          },
+          {
+            "key": "usagetype",
+            "value": "USE1-CognitoUserCreationRPSPartial"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "apiCategory",
+            "value": "UserCreation"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonCognito"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon Cognito"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonCognito",
+        "region": "us-east-1",
+        "productFamily": "User Pool RPS",
+        "prices": [
+          {
+            "USD": "45",
+            "unit": "CognitoUserPoolsRPSMo",
+            "startUsageAmount": "0",
+            "endUsageAmount": "Inf",
+            "purchaseOption": "on_demand",
+            "termPurchaseOption": null,
+            "termLength": null,
+            "termOfferingClass": null
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "duration",
+            "value": "Free"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "CognitoRPSOperation"
+          },
+          {
+            "key": "usagetype",
+            "value": "USE1-CognitoUserReadRPSFree"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "apiCategory",
+            "value": "UserRead"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonCognito"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon Cognito"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonCognito",
+        "region": "us-east-1",
+        "productFamily": "User Pool RPS",
+        "prices": [
+          {
+            "USD": "0",
+            "unit": "CognitoUserPoolsRPSMo",
+            "startUsageAmount": "0",
+            "endUsageAmount": "Inf",
+            "purchaseOption": "on_demand",
+            "termPurchaseOption": null,
+            "termLength": null,
+            "termOfferingClass": null
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "duration",
+            "value": "Partial"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "CognitoRPSOperation"
+          },
+          {
+            "key": "usagetype",
+            "value": "USE1-CognitoUserReadRPSPartial"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "apiCategory",
+            "value": "UserRead"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonCognito"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon Cognito"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonCognito",
+        "region": "us-east-1",
+        "productFamily": "User Pool RPS",
+        "prices": [
+          {
+            "USD": "45",
+            "unit": "CognitoUserPoolsRPSMo",
+            "startUsageAmount": "0",
+            "endUsageAmount": "Inf",
+            "purchaseOption": "on_demand",
+            "termPurchaseOption": null,
+            "termLength": null,
+            "termOfferingClass": null
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "duration",
+            "value": "Partial"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "CognitoRPSOperation"
+          },
+          {
+            "key": "usagetype",
+            "value": "USE1-CognitoUserFederationRPSPartial"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "apiCategory",
+            "value": "UserFederation"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonCognito"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon Cognito"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonCognito",
+        "region": "us-east-1",
+        "productFamily": "User Pool RPS",
+        "prices": [
+          {
+            "USD": "45",
+            "unit": "CognitoUserPoolsRPSMo",
+            "startUsageAmount": "0",
+            "endUsageAmount": "Inf",
+            "purchaseOption": "on_demand",
+            "termPurchaseOption": null,
+            "termLength": null,
+            "termOfferingClass": null
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "duration",
+            "value": "Free"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "CognitoRPSOperation"
+          },
+          {
+            "key": "usagetype",
+            "value": "USE1-CognitoUserUpdateRPSFree"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "apiCategory",
+            "value": "UserUpdate"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonCognito"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon Cognito"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonCognito",
+        "region": "us-east-1",
+        "productFamily": "User Pool RPS",
+        "prices": [
+          {
+            "USD": "0",
+            "unit": "CognitoUserPoolsRPSMo",
+            "startUsageAmount": "0",
+            "endUsageAmount": "Inf",
+            "purchaseOption": "on_demand",
+            "termPurchaseOption": null,
+            "termLength": null,
+            "termOfferingClass": null
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "duration",
+            "value": "Free"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "CognitoUserPoolsM2MTokenOp"
+          },
+          {
+            "key": "usagetype",
+            "value": "USE1-CUPM2MTokenRequestsFree"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "m2mCategory",
+            "value": "Tokens"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonCognito"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon Cognito"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonCognito",
+        "region": "us-east-1",
+        "productFamily": "User Pools M2M",
+        "prices": [
+          {
+            "USD": "0",
+            "unit": "CognitoUserPools-M2MTokens",
+            "startUsageAmount": "0",
+            "endUsageAmount": "250000",
+            "purchaseOption": "on_demand",
+            "termPurchaseOption": null,
+            "termLength": null,
+            "termOfferingClass": null
+          },
+          {
+            "USD": "0",
+            "unit": "CognitoUserPools-M2MTokens",
+            "startUsageAmount": "250000",
+            "endUsageAmount": "5000000",
+            "purchaseOption": "on_demand",
+            "termPurchaseOption": null,
+            "termLength": null,
+            "termOfferingClass": null
+          },
+          {
+            "USD": "0",
+            "unit": "CognitoUserPools-M2MTokens",
+            "startUsageAmount": "5000000",
+            "endUsageAmount": "Inf",
+            "purchaseOption": "on_demand",
+            "termPurchaseOption": null,
+            "termLength": null,
+            "termOfferingClass": null
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "duration",
+            "value": "Free"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "CognitoUserPoolsM2MAppClientOp"
+          },
+          {
+            "key": "usagetype",
+            "value": "USE1-CUPM2MAppClientsFree"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "m2mCategory",
+            "value": "AppClients"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonCognito"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon Cognito"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonCognito",
+        "region": "us-east-1",
+        "productFamily": "User Pools M2M",
+        "prices": [
+          {
+            "USD": "0",
+            "unit": "CognitoUserPools-M2MAppClientMo",
+            "startUsageAmount": "0",
+            "endUsageAmount": "100",
+            "purchaseOption": "on_demand",
+            "termPurchaseOption": null,
+            "termLength": null,
+            "termOfferingClass": null
+          },
+          {
+            "USD": "0",
+            "unit": "CognitoUserPools-M2MAppClientMo",
+            "startUsageAmount": "100",
+            "endUsageAmount": "500",
+            "purchaseOption": "on_demand",
+            "termPurchaseOption": null,
+            "termLength": null,
+            "termOfferingClass": null
+          },
+          {
+            "USD": "0",
+            "unit": "CognitoUserPools-M2MAppClientMo",
+            "startUsageAmount": "500",
+            "endUsageAmount": "Inf",
+            "purchaseOption": "on_demand",
+            "termPurchaseOption": null,
+            "termLength": null,
+            "termOfferingClass": null
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "duration",
+            "value": "Full"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "CognitoUserPoolsM2MAppClientOp"
+          },
+          {
+            "key": "usagetype",
+            "value": "USE1-CUPM2MAppClientsFull"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "m2mCategory",
+            "value": "AppClients"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonCognito"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon Cognito"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonCognito",
+        "region": "us-east-1",
+        "productFamily": "User Pools M2M",
+        "prices": [
+          {
+            "USD": "0",
+            "unit": "CognitoUserPools-M2MAppClientMo",
+            "startUsageAmount": "0",
+            "endUsageAmount": "100",
+            "purchaseOption": "on_demand",
+            "termPurchaseOption": null,
+            "termLength": null,
+            "termOfferingClass": null
+          },
+          {
+            "USD": "0",
+            "unit": "CognitoUserPools-M2MAppClientMo",
+            "startUsageAmount": "100",
+            "endUsageAmount": "500",
+            "purchaseOption": "on_demand",
+            "termPurchaseOption": null,
+            "termLength": null,
+            "termOfferingClass": null
+          },
+          {
+            "USD": "0",
+            "unit": "CognitoUserPools-M2MAppClientMo",
+            "startUsageAmount": "500",
+            "endUsageAmount": "Inf",
+            "purchaseOption": "on_demand",
+            "termPurchaseOption": null,
+            "termLength": null,
+            "termOfferingClass": null
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "duration",
+            "value": "Full"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "CognitoUserPoolsM2MTokenOp"
+          },
+          {
+            "key": "usagetype",
+            "value": "USE1-CUPM2MTokenRequestsFull"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "m2mCategory",
+            "value": "Tokens"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonCognito"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon Cognito"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonCognito",
+        "region": "us-east-1",
+        "productFamily": "User Pools M2M",
+        "prices": [
+          {
+            "USD": "0.00225",
+            "unit": "CognitoUserPools-M2MTokens",
+            "startUsageAmount": "0",
+            "endUsageAmount": "250000",
+            "purchaseOption": "on_demand",
+            "termPurchaseOption": null,
+            "termLength": null,
+            "termOfferingClass": null
+          },
+          {
+            "USD": "0.0015",
+            "unit": "CognitoUserPools-M2MTokens",
+            "startUsageAmount": "250000",
+            "endUsageAmount": "5000000",
+            "purchaseOption": "on_demand",
+            "termPurchaseOption": null,
+            "termLength": null,
+            "termOfferingClass": null
+          },
+          {
+            "USD": "0.001125",
+            "unit": "CognitoUserPools-M2MTokens",
+            "startUsageAmount": "5000000",
+            "endUsageAmount": "Inf",
+            "purchaseOption": "on_demand",
+            "termPurchaseOption": null,
+            "termLength": null,
+            "termOfferingClass": null
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,5664 @@
+{
+  "data": {
+    "products": [
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region BH"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.04",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region CI"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.19",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region BM"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.2",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region GR"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.06",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region TT"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.21",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region IE"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.06",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region KG"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.3",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region KH"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.2",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region KW"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.2",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region TD"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.19",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region SA"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.17",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region LK"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.25",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region CD"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.17",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region AX"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.08",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region FO"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.01",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region PE"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.11",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region EE"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.05",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region EC"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.2",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region AT"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.03",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region CY"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.04",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region MF"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.07",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region GS"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.05",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region DJ"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.13",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region MU"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.14",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region BS"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.09",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region HU"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.06",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region KN"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.18",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region NF"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.02",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region QA"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.19",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region GA"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.19",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region TR"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.01",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region TM"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.27",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region CO"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.01",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region AW"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.17",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region AZ"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.29",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region VU"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.12",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region IT"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.05",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region DM"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.15",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region MG"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.41",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region MP"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.02",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region GU"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.02",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region AF"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.27",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region PR"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.01",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region GQ"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.24",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region TL"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.12",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region IO"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.01",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region TO"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.15",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region VA"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.33",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region DE"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.1",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region SZ"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.06",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region MM"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.27",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region GY"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.25",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region ST"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.07",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region NG"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.19",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region TV"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.04",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region BD"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.18",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region JM"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.25",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region HM"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.06",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region WF"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.03",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region BW"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.03",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region NP"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.14",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region BL"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.12",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region TK"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.03",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region TF"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.19",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region NA"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.02",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region AG"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.3",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region NO"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.06",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region BY"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.19",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region JE"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.07",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region SN"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.25",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region GH"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.17",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region ZM"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.21",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region RE"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.06",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region VN"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.16",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region KZ"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.22",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region BB"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.2",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region CU"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.05",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region FM"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.06",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region GI"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.07",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region MY"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.22",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region SD"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.11",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region PF"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.06",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region MX"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.02",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region MO"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.03",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region LS"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.05",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region GL"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.01",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region KR"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.01",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region SG"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.04",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region SH"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.01",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region AM"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.19",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region NL"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.09",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region ZA"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.1",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region YE"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.22",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region SM"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.01",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region TW"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.03",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region MR"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.14",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region DZ"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.19",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region CV"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.19",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region AO"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.11",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region AR"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.09",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region DK"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.05",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region VC"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.19",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region RU"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.31",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region BR"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.02",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region SV"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.09",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region BF"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.11",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region SX"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.14",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region BI"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.43",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region MT"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.06",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region SS"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.14",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region IR"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.23",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Successful SMS-based multi-factor verifications in US/Canada/India"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "Identity"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.01",
+            "unit": "count"
+          },
+          {
+            "USD": "0",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region MZ"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.2",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region MH"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.04",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region LI"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.03",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region RW"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.18",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Tier 1 Monthly Active Users"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "Identity"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.0055",
+            "unit": "count"
+          },
+          {
+            "USD": "0.0025",
+            "unit": "count"
+          },
+          {
+            "USD": "0",
+            "unit": "count"
+          },
+          {
+            "USD": "0.0046",
+            "unit": "count"
+          },
+          {
+            "USD": "0.0032",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region BN"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.05",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region BE"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.08",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region AL"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.11",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region SI"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.13",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region MC"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.07",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region HK"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.06",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region SO"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.1",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region ET"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.27",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region SR"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.33",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region PM"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.14",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region TN"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.24",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region AI"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.14",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region ZZ"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.43",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region PK"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.2",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region HR"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.1",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region ML"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.38",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region CA"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.01",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region BG"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.14",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region ES"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.04",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region SY"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.09",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region CL"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.03",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region CC"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.01",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region MD"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.11",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region XK"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.21",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region TJ"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.37",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region GT"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.07",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region LY"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.28",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region ME"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.13",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region CN"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.01",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region CR"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.05",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region BJ"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.22",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region UY"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.05",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region FR"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.06",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region UG"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.16",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region NR"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.13",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region PL"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.03",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region PA"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.12",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region VI"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.01",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region MQ"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.14",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region AU"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.02",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region EH"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.19",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region LB"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.23",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region HT"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.22",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region VG"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.2",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region TH"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.01",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region JO"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.23",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region KE"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.15",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region FK"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.01",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region IS"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.06",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region IL"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.22",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Tenant Tier 1 Monthly Active Users"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "Identity"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.0055",
+            "unit": "count"
+          },
+          {
+            "USD": "0.0025",
+            "unit": "count"
+          },
+          {
+            "USD": "0",
+            "unit": "count"
+          },
+          {
+            "USD": "0.0046",
+            "unit": "count"
+          },
+          {
+            "USD": "0.0032",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region NI"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.11",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region UM"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.16",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region CZ"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.06",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region AD"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.08",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region UZ"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.41",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region IN"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.07",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region SK"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.05",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region TZ"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.22",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region LR"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.19",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region KM"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.15",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region SC"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.24",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region UA"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.14",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Tier 2 Monthly Active Users"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "Identity"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.015",
+            "unit": "count"
+          },
+          {
+            "USD": "0",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Successful SMS-based multi-factor verifications in countries other than US/Canada/India"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "Identity"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.06",
+            "unit": "count"
+          },
+          {
+            "USD": "0",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region PG"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.21",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region CM"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.21",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region NE"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.19",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region RS"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.19",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region GE"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.13",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region BA"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.22",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region PY"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.08",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region SE"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.05",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region GG"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.12",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region CH"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.06",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region CG"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.21",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region GN"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.27",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region LT"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.04",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region IM"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.07",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region TC"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.23",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region YT"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.11",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region HN"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.15",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region FI"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.09",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region NZ"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.07",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region BT"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.35",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region BO"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.21",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region MV"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.3",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region CW"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.14",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region MA"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.19",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region GF"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.16",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region US"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.01",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region IQ"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.2",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region NU"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.04",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region PH"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.15",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region GM"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.17",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region FJ"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.16",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region OM"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.11",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region EG"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.15",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region MN"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.23",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region GW"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.22",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region NC"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.08",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region PS"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.29",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region RO"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.05",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region ID"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.33",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "Tenant Tier 2 Monthly Active Users"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "Identity"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.015",
+            "unit": "count"
+          },
+          {
+            "USD": "0",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region KI"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.02",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region JP"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.03",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region AS"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.08",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region TG"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.38",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region SL"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.21",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region GB"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.04",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region SJ"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.14",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region LC"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.18",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region CF"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.14",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region DO"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.06",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region BV"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.21",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region MK"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.09",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region CK"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.09",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region LV"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.04",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region CX"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.14",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region PW"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.08",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region AE"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.08",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region ZW"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.11",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region WS"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.15",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region GP"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.11",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region KY"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.18",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region MW"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.19",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region LA"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.25",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region BZ"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.18",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region VE"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.16",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region MS"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.13",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region PT"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.02",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region PN"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.1",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region BQ"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.19",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region SB"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.02",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region GD"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.26",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region ER"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.12",
+            "unit": "count"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "description",
+            "value": "SMS messages sent in Region LU"
+          },
+          {
+            "key": "resourceGroup",
+            "value": "SmsMessagesSent"
+          }
+        ],
+        "vendorName": "gcp",
+        "service": "Identity Platform",
+        "region": "global",
+        "productFamily": "ApplicationServices",
+        "prices": [
+          {
+            "USD": "0.06",
+            "unit": "count"
+          }
+        ]
+      }
+    ]
+  }
+}

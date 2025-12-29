@@ -8,7 +8,7 @@ public enum ResourceCategory
     Database,
     Networking,
     Analytics,
-    AI_ML,
+    AI,
     Management,
     Security,
     Other
@@ -75,6 +75,14 @@ public enum SecurityType
     IdentityManagement = 701,
 }
 
+public enum AIType
+{
+    None = 0,
+    AIServices = 801,
+    MLPlatforms = 802,
+    IntelligentSearch = 803,
+}
+
 public enum ResourceSubCategory
 {
     None = 0,
@@ -116,7 +124,12 @@ public enum ResourceSubCategory
     Compliance = ManagementType.Compliance,
     Monitoring = ManagementType.Monitoring,
 
-    // Security (700-6=799)
+    // Security (700-799)
     WebApplicationFirewall = SecurityType.WebApplicationFirewall,
     IdentityManagement = SecurityType.IdentityManagement,
+
+    // ML (880-899)
+    AIServices = AIType.AIServices,
+    MLPlatforms = AIType.MLPlatforms,
+    IntelligentSearch = AIType.IntelligentSearch,
 }

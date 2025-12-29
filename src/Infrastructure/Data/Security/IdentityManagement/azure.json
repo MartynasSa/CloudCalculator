@@ -1,0 +1,164 @@
+{
+  "data": {
+    "products": [
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "d577547f-b9d7-5803-b49d-671a3c83456f"
+          },
+          {
+            "key": "skuName",
+            "value": "Data Residency Add-on"
+          },
+          {
+            "key": "meterName",
+            "value": "Data Residency Add-on Monthly Active Users"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0D45P"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH318VB48FM"
+          },
+          {
+            "key": "armSkuName",
+            "value": ""
+          },
+          {
+            "key": "productName",
+            "value": "Azure Active Directory B2X"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Security"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2025-05-01T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Azure Active Directory for External Identities",
+        "region": "eastus",
+        "productFamily": "Security",
+        "prices": [
+          {
+            "USD": "0.02",
+            "unit": "1/Month"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "f65d5c04-ce6b-5fba-baa7-e5878803980d"
+          },
+          {
+            "key": "skuName",
+            "value": "P1"
+          },
+          {
+            "key": "meterName",
+            "value": "P1 Monthly Active Users"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0D45P"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH318VB48FM"
+          },
+          {
+            "key": "armSkuName",
+            "value": ""
+          },
+          {
+            "key": "productName",
+            "value": "Azure Active Directory B2X"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Security"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2025-05-01T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Azure Active Directory for External Identities",
+        "region": "eastus",
+        "productFamily": "Security",
+        "prices": [
+          {
+            "USD": "0.00325",
+            "unit": "1/Month"
+          },
+          {
+            "USD": "0",
+            "unit": "1/Month"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "meterId",
+            "value": "90398bcf-d868-5857-ba6f-ce57d3376450"
+          },
+          {
+            "key": "skuName",
+            "value": "P2"
+          },
+          {
+            "key": "meterName",
+            "value": "P2 Monthly Active Users"
+          },
+          {
+            "key": "productId",
+            "value": "DZH318Z0D45P"
+          },
+          {
+            "key": "serviceId",
+            "value": "DZH318VB48FM"
+          },
+          {
+            "key": "armSkuName",
+            "value": ""
+          },
+          {
+            "key": "productName",
+            "value": "Azure Active Directory B2X"
+          },
+          {
+            "key": "serviceFamily",
+            "value": "Security"
+          },
+          {
+            "key": "effectiveStartDate",
+            "value": "2025-05-01T00:00:00Z"
+          }
+        ],
+        "vendorName": "azure",
+        "service": "Azure Active Directory for External Identities",
+        "region": "eastus",
+        "productFamily": "Security",
+        "prices": [
+          {
+            "USD": "0.01625",
+            "unit": "1/Month"
+          },
+          {
+            "USD": "0",
+            "unit": "1/Month"
+          }
+        ]
+      }
+    ]
+  }
+}
