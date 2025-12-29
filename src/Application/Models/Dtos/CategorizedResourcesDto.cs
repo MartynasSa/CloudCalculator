@@ -13,6 +13,12 @@ public class CategorizedResourcesDto
     public List<NormalizedBlobStorageDto> BlobStorage { get; set; } = new();
     public List<NormalizedMonitoringDto> Monitoring { get; set; } = new();
     public List<NormalizedResourceDto> Networking { get; set; } = new();
+    public List<NormalizedContainerInstanceDto> ContainerInstances { get; set; } = new();
+    public List<NormalizedDataWarehouseDto> DataWarehouses { get; set; } = new();
+    public List<NormalizedCachingDto> Caching { get; set; } = new();
+    public List<NormalizedMessagingDto> Messaging { get; set; } = new();
+    public List<NormalizedQueuingDto> Queueing { get; set; } = new();
+    public List<NormalizedCdnDto> CDN { get; set; } = new();
 }
 
 public class FilteredResourcesDto
@@ -26,11 +32,16 @@ public class FilteredResourcesDto
     public Dictionary<(UsageSize UsageSize, CloudProvider CloudProvider), NormalizedBlobStorageDto> BlobStorage { get; set; } = new();
     public Dictionary<(UsageSize UsageSize, CloudProvider CloudProvider), NormalizedMonitoringDto> Monitoring { get; set; } = new();
     public Dictionary<(UsageSize UsageSize, CloudProvider CloudProvider), NormalizedResourceDto> Networking { get; set; } = new();
+    public Dictionary<(UsageSize UsageSize, CloudProvider CloudProvider), NormalizedDataWarehouseDto> DataWarehouses { get; set; } = new();
+    public Dictionary<(UsageSize UsageSize, CloudProvider CloudProvider), NormalizedCachingDto> Caching { get; set; } = new();
+    public Dictionary<(UsageSize UsageSize, CloudProvider CloudProvider), NormalizedMessagingDto> Messaging { get; set; } = new();
+    public Dictionary<(UsageSize UsageSize, CloudProvider CloudProvider), NormalizedQueuingDto> Queueing { get; set; } = new();
+    public Dictionary<(UsageSize UsageSize, CloudProvider CloudProvider), NormalizedCdnDto> CDN { get; set; } = new();
 }
 
 public class NormalizedResource
-{   
+{
     public required CloudProvider Cloud { get; set; }
     public required ResourceCategory Category { get; set; }
-    public required ResourceSubCategory SubCategory { get; set; }   
+    public required ResourceSubCategory SubCategory { get; set; }
 }

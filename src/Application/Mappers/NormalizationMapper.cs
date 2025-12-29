@@ -7,7 +7,7 @@ public static class NormalizationMapper
 {
     public static NormalizedComputeInstanceDto MapToComputeInstance(
         CloudPricingProductDto product,
-        ResourceCategory Category, 
+        ResourceCategory Category,
         ResourceSubCategory SubCategory)
     {
         var instanceName = product.Attributes.FirstOrDefault(a => a.Key == "instanceType")?.Value
@@ -95,19 +95,8 @@ public static class NormalizationMapper
     {
         var functionName = product.Attributes.FirstOrDefault(a => a.Key == "group")?.Value
                           ?? product.Attributes.FirstOrDefault(a => a.Key == "meterName")?.Value
-                          ?? product.Attributes.FirstOrDefault(a => a.Key == "usageType")?.Value
-                          ?? product.Service;
-
-        if (string.IsNullOrWhiteSpace(functionName))
-        {
-            functionName = "Unknown";
-        }
-
-        var runtime = product.Attributes.FirstOrDefault(a => a.Key == "runtime")?.Value
-                     ?? product.Attributes.FirstOrDefault(a => a.Key == "productDescription")?.Value;
-
-        var memory = product.Attributes.FirstOrDefault(a => a.Key == "memory")?.Value
-                    ?? product.Attributes.FirstOrDefault(a => a.Key == "memorySize")?.Value;
+                          ?? product.Attributes.FirstOrDefault(a => a.Key == "description")?.Value
+                          ?? "Unknown";
 
         return new NormalizedCloudFunctionDto
         {
@@ -116,8 +105,6 @@ public static class NormalizationMapper
             Cloud = product.VendorName,
             FunctionName = functionName,
             Region = product.Region,
-            Runtime = runtime,
-            Memory = memory,
             PricePerRequest = GetPricePerRequest(product),
             PricePerGbSecond = GetPricePerGbSecond(product)
         };
@@ -130,16 +117,12 @@ public static class NormalizationMapper
     {
         var clusterName = product.Attributes.FirstOrDefault(a => a.Key == "usageType")?.Value
                          ?? product.Attributes.FirstOrDefault(a => a.Key == "meterName")?.Value
-                         ?? product.Service;
-
-        if (string.IsNullOrWhiteSpace(clusterName))
-        {
-            clusterName = "Unknown";
-        }
+                         ?? product.Attributes.FirstOrDefault(a => a.Key == "description")?.Value
+                         ?? "Unknown";
 
         var nodeType = product.Attributes.FirstOrDefault(a => a.Key == "instanceType")?.Value
-                      ?? product.Attributes.FirstOrDefault(a => a.Key == "vmSize")?.Value
-                      ?? product.Attributes.FirstOrDefault(a => a.Key == "machineType")?.Value;
+                      ?? product.Attributes.FirstOrDefault(a => a.Key == "productName")?.Value
+                      ?? product.Attributes.FirstOrDefault(a => a.Key == "description")?.Value;
 
         return new NormalizedKubernetesDto
         {
@@ -297,6 +280,199 @@ public static class NormalizationMapper
     }
 
     private static decimal? GetPricePerGbMonth(CloudPricingProductDto product)
+    {
+        var price = product.Prices.FirstOrDefault();
+        if (price?.Unit?.Contains("GB", StringComparison.OrdinalIgnoreCase) == true)
+        {
+            return price.Usd;
+        }
+        return null;
+    }
+
+    public static NormalizedContainerInstanceDto MapToContainerInstance(
+        CloudPricingProductDto product,
+        ResourceCategory category,
+        ResourceSubCategory subCategory)
+    {
+        var containerName = product.Attributes.FirstOrDefault(a => a.Key == "usageType")?.Value
+                           ?? product.Attributes.FirstOrDefault(a => a.Key == "productName")?.Value
+                           ?? "Unknown";
+
+        return new NormalizedContainerInstanceDto
+        {
+            Category = category,
+            SubCategory = subCategory,
+            Cloud = product.VendorName,
+            ContainerName = containerName,
+            Region = product.Region,
+            PricePerHour = GetPricePerHour(product)
+        };
+    }
+
+    public static NormalizedDataWarehouseDto MapToDataWarehouse(
+        CloudPricingProductDto product,
+        ResourceCategory category,
+        ResourceSubCategory subCategory)
+    {
+        var warehouseName = product.Attributes.FirstOrDefault(a => a.Key == "servicename")?.Value
+                           ?? product.Attributes.FirstOrDefault(a => a.Key == "meterName")?.Value
+                           ?? product.Attributes.FirstOrDefault(a => a.Key == "resourceGroup")?.Value
+                           ?? "Unknown";
+
+        var nodeType = product.Attributes.FirstOrDefault(a => a.Key == "instanceType")?.Value
+                      ?? product.Attributes.FirstOrDefault(a => a.Key == "productName")?.Value
+                      ?? product.Attributes.FirstOrDefault(a => a.Key == "description")?.Value;
+
+        return new NormalizedDataWarehouseDto
+        {
+            Category = category,
+            SubCategory = subCategory,
+            Cloud = product.VendorName,
+            WarehouseName = warehouseName,
+            Region = product.Region,
+            NodeType = nodeType,
+            PricePerHour = GetPricePerHour(product)
+        };
+    }
+
+    public static NormalizedCachingDto MapToCaching(
+    CloudPricingProductDto product,
+    ResourceCategory category,
+    ResourceSubCategory subCategory)
+    {
+        var cacheName = product.Attributes.FirstOrDefault(a => a.Key == "instanceType")?.Value
+                       ?? product.Attributes.FirstOrDefault(a => a.Key == "meterName")?.Value
+                       ?? product.Attributes.FirstOrDefault(a => a.Key == "description")?.Value
+                       ?? "Unknown";
+
+        var cacheEngine = "Redis";
+
+        var vcpuStr = product.Attributes.FirstOrDefault(a => a.Key == "vcpu")?.Value;
+
+        var memory = product.Attributes.FirstOrDefault(a => a.Key == "memory")?.Value;
+
+        return new NormalizedCachingDto
+        {
+            Category = category,
+            SubCategory = subCategory,
+            Cloud = product.VendorName,
+            CacheName = cacheName,
+            Region = product.Region,
+            CacheEngine = cacheEngine,
+            VCpu = int.TryParse(vcpuStr, out var cpu) ? cpu : null,
+            Memory = !string.IsNullOrWhiteSpace(memory) ? memory : null,
+            PricePerHour = GetPricePerHour(product)
+        };
+    }
+
+    public static NormalizedMessagingDto MapToMessaging(
+        CloudPricingProductDto product,
+        ResourceCategory category,
+        ResourceSubCategory subCategory)
+    {
+        var messagingService = product.Attributes.FirstOrDefault(a => a.Key == "servicename")?.Value
+                              ?? product.Attributes.FirstOrDefault(a => a.Key == "productName")?.Value
+                              ?? product.Service
+                              ?? "Unknown";
+
+        var messageType = product.Attributes.FirstOrDefault(a => a.Key == "group")?.Value
+                         ?? product.Attributes.FirstOrDefault(a => a.Key == "description")?.Value
+                         ?? product.Attributes.FirstOrDefault(a => a.Key == "meterName")?.Value;
+
+        return new NormalizedMessagingDto
+        {
+            Category = category,
+            SubCategory = subCategory,
+            Cloud = product.VendorName,
+            MessagingService = messagingService,
+            Region = product.Region,
+            MessageType = messageType,
+            PricePerMonth = GetPricePerMonth(product)
+        };
+    }
+
+    public static NormalizedQueuingDto MapToQueueing(
+        CloudPricingProductDto product,
+        ResourceCategory category,
+        ResourceSubCategory subCategory)
+    {
+        var queuingService = product.Attributes.FirstOrDefault(a => a.Key == "servicename")?.Value
+                            ?? product.Attributes.FirstOrDefault(a => a.Key == "productName")?.Value
+                            ?? product.Service
+                            ?? "Unknown";
+
+        var operationType = product.Attributes.FirstOrDefault(a => a.Key == "group")?.Value
+                           ?? product.Attributes.FirstOrDefault(a => a.Key == "meterName")?.Value;
+
+        var queueType = product.Attributes.FirstOrDefault(a => a.Key == "queueType")?.Value;
+
+        return new NormalizedQueuingDto
+        {
+            Category = category,
+            SubCategory = subCategory,
+            Cloud = product.VendorName,
+            QueuingService = queuingService,
+            Region = product.Region,
+            OperationType = operationType,
+            QueueType = queueType,
+            PricePerMonth = GetPricePerMonth(product)
+        };
+    }
+
+    public static NormalizedMonitoringDto MapToMonitoring(
+    CloudPricingProductDto product,
+    ResourceCategory category,
+    ResourceSubCategory subCategory)
+    {
+        var monitoringService = product.Attributes.FirstOrDefault(a => a.Key == "servicename")?.Value
+                               ?? product.Attributes.FirstOrDefault(a => a.Key == "productName")?.Value
+                               ?? product.Service
+                               ?? "Unknown";
+
+        var metricType = product.Attributes.FirstOrDefault(a => a.Key == "group")?.Value
+                        ?? product.Attributes.FirstOrDefault(a => a.Key == "resourceGroup")?.Value
+                        ?? product.Attributes.FirstOrDefault(a => a.Key == "meterName")?.Value;
+
+        return new NormalizedMonitoringDto
+        {
+            Category = category,
+            SubCategory = subCategory,
+            Cloud = product.VendorName,
+            Region = product.Region,
+            MetricType = metricType,
+            PricePerMonth = GetPricePerMonth(product),
+            MonitoringService = monitoringService
+        };
+    }
+
+    public static NormalizedCdnDto MapToCdn(
+        CloudPricingProductDto product,
+        ResourceCategory category,
+        ResourceSubCategory subCategory)
+    {
+        var cdnName = product.Attributes.FirstOrDefault(a => a.Key == "group")?.Value
+                     ?? product.Attributes.FirstOrDefault(a => a.Key == "meterName")?.Value
+                     ?? product.Attributes.FirstOrDefault(a => a.Key == "description")?.Value
+                     ?? product.Service
+                     ?? "Unknown";
+
+        var edgeLocation = product.Attributes.FirstOrDefault(a => a.Key == "location")?.Value
+                          ?? product.Attributes.FirstOrDefault(a => a.Key == "region")?.Value;
+
+        return new NormalizedCdnDto
+        {
+            Category = category,
+            SubCategory = subCategory,
+            Cloud = product.VendorName,
+            CdnName = cdnName,
+            Region = product.Region,
+            EdgeLocation = edgeLocation,
+            PricePerGbOut = GetPricePerGbOut(product),
+            PricePerRequest = GetPricePerRequest(product)
+        };
+    }
+
+    private static decimal? GetPricePerGbOut(CloudPricingProductDto product)
     {
         var price = product.Prices.FirstOrDefault();
         if (price?.Unit?.Contains("GB", StringComparison.OrdinalIgnoreCase) == true)

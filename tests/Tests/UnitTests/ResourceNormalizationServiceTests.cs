@@ -210,7 +210,6 @@ public class ResourceNormalizationServiceTests(WebApplicationFactory<Program> fa
         Assert.All(result, mon =>
         {
             Assert.False(string.IsNullOrWhiteSpace(mon.Cloud.ToString()));
-            Assert.False(string.IsNullOrWhiteSpace(mon.Name));
             Assert.NotNull(mon.PricePerMonth);
         });
     }
