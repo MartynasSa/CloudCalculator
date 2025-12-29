@@ -261,7 +261,7 @@ public class TemplateFacadeTests(WebApplicationFactory<Program> factory) : TestB
             ResourceSubCategory.WebApplicationFirewall,
             ResourceSubCategory.IdentityManagement,
 
-            // AI/ML (800-899)
+            // AI/ML (801-803)
             ResourceSubCategory.AIServices,
             ResourceSubCategory.MLPlatforms,
             ResourceSubCategory.IntelligentSearch,
