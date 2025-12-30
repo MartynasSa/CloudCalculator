@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Mvc.Testing;
 
 namespace Tests.ComponentTests;
 
-public class TemplateCostComparisonControllerTests(WebApplicationFactory<Program> factory) : TestBase(factory)
+public class CostComparisonSimpleTests(WebApplicationFactory<Program> factory) : TestBase(factory)
 {
     private static readonly JsonSerializerOptions JsonOptions = new()
     {
