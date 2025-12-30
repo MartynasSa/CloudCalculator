@@ -13,6 +13,21 @@
         TotalMonthlyPrice: 13.140,
         CostDetails: [
           {
+            Cost: 0.0,
+            ResourceSubCategory: ObjectStorage,
+            ResourceDetails: null
+          },
+          {
+            Cost: 0.0,
+            ResourceSubCategory: Backup,
+            ResourceDetails: null
+          },
+          {
+            Cost: 0.0,
+            ResourceSubCategory: CDN,
+            ResourceDetails: null
+          },
+          {
             Cost: 5.840,
             ResourceSubCategory: LoadBalancer,
             ResourceDetails: {"Name":"ELB:Balancing","PricePerMonth":5.840,"Cloud":0,"Category":4,"SubCategory":401}
@@ -29,6 +44,26 @@
         TotalMonthlyPrice: 59.3490,
         CostDetails: [
           {
+            Cost: 0.0,
+            ResourceSubCategory: ObjectStorage,
+            ResourceDetails: null
+          },
+          {
+            Cost: 0.0,
+            ResourceSubCategory: Backup,
+            ResourceDetails: null
+          },
+          {
+            Cost: 0.0,
+            ResourceSubCategory: CDN,
+            ResourceDetails: null
+          },
+          {
+            Cost: 0.0,
+            ResourceSubCategory: LoadBalancer,
+            ResourceDetails: {"Name":"Load Balancer","PricePerMonth":0.0,"Cloud":1,"Category":4,"SubCategory":401}
+          },
+          {
             Cost: 59.3490,
             ResourceSubCategory: Monitoring,
             ResourceDetails: {"MonitoringService":"Azure Monitor","Region":"eastus","MetricType":"SMS Country Code 234 Notifications","PricePerMonth":59.3490,"Cloud":1,"Category":7,"SubCategory":604}
@@ -37,12 +72,27 @@
       },
       {
         CloudProvider: gcp,
-        TotalMonthlyPrice: 189.80,
+        TotalMonthlyPrice: 188.340,
         CostDetails: [
           {
-            Cost: 7.30,
+            Cost: 0.0,
+            ResourceSubCategory: ObjectStorage,
+            ResourceDetails: null
+          },
+          {
+            Cost: 0.0,
+            ResourceSubCategory: Backup,
+            ResourceDetails: null
+          },
+          {
+            Cost: 0.0,
+            ResourceSubCategory: CDN,
+            ResourceDetails: null
+          },
+          {
+            Cost: 5.840,
             ResourceSubCategory: LoadBalancer,
-            ResourceDetails: {"Name":"Compute Engine","PricePerMonth":7.30,"Cloud":2,"Category":4,"SubCategory":401}
+            ResourceDetails: {"Name":"Compute Engine","PricePerMonth":5.840,"Cloud":2,"Category":4,"SubCategory":401}
           },
           {
             Cost: 182.50,
@@ -58,6 +108,21 @@
         TotalMonthlyPrice: 13.140,
         CostDetails: [
           {
+            Cost: 0.0,
+            ResourceSubCategory: ObjectStorage,
+            ResourceDetails: null
+          },
+          {
+            Cost: 0.0,
+            ResourceSubCategory: Backup,
+            ResourceDetails: null
+          },
+          {
+            Cost: 0.0,
+            ResourceSubCategory: CDN,
+            ResourceDetails: null
+          },
+          {
             Cost: 5.840,
             ResourceSubCategory: LoadBalancer,
             ResourceDetails: {"Name":"ELB:Balancing","PricePerMonth":5.840,"Cloud":0,"Category":4,"SubCategory":401}
@@ -74,6 +139,26 @@
         TotalMonthlyPrice: 59.3490,
         CostDetails: [
           {
+            Cost: 0.0,
+            ResourceSubCategory: ObjectStorage,
+            ResourceDetails: null
+          },
+          {
+            Cost: 0.0,
+            ResourceSubCategory: Backup,
+            ResourceDetails: null
+          },
+          {
+            Cost: 0.0,
+            ResourceSubCategory: CDN,
+            ResourceDetails: null
+          },
+          {
+            Cost: 0.0,
+            ResourceSubCategory: LoadBalancer,
+            ResourceDetails: {"Name":"Load Balancer","PricePerMonth":0.0,"Cloud":1,"Category":4,"SubCategory":401}
+          },
+          {
             Cost: 59.3490,
             ResourceSubCategory: Monitoring,
             ResourceDetails: {"MonitoringService":"Azure Monitor","Region":"eastus","MetricType":"SMS Country Code 234 Notifications","PricePerMonth":59.3490,"Cloud":1,"Category":7,"SubCategory":604}
@@ -82,12 +167,27 @@
       },
       {
         CloudProvider: gcp,
-        TotalMonthlyPrice: 189.80,
+        TotalMonthlyPrice: 188.340,
         CostDetails: [
           {
-            Cost: 7.30,
+            Cost: 0.0,
+            ResourceSubCategory: ObjectStorage,
+            ResourceDetails: null
+          },
+          {
+            Cost: 0.0,
+            ResourceSubCategory: Backup,
+            ResourceDetails: null
+          },
+          {
+            Cost: 0.0,
+            ResourceSubCategory: CDN,
+            ResourceDetails: null
+          },
+          {
+            Cost: 5.840,
             ResourceSubCategory: LoadBalancer,
-            ResourceDetails: {"Name":"Compute Engine","PricePerMonth":7.30,"Cloud":2,"Category":4,"SubCategory":401}
+            ResourceDetails: {"Name":"Compute Engine","PricePerMonth":5.840,"Cloud":2,"Category":4,"SubCategory":401}
           },
           {
             Cost: 182.50,
@@ -103,6 +203,21 @@
         TotalMonthlyPrice: 13.140,
         CostDetails: [
           {
+            Cost: 0.0,
+            ResourceSubCategory: ObjectStorage,
+            ResourceDetails: null
+          },
+          {
+            Cost: 0.0,
+            ResourceSubCategory: Backup,
+            ResourceDetails: null
+          },
+          {
+            Cost: 0.0,
+            ResourceSubCategory: CDN,
+            ResourceDetails: null
+          },
+          {
             Cost: 5.840,
             ResourceSubCategory: LoadBalancer,
             ResourceDetails: {"Name":"ELB:Balancing","PricePerMonth":5.840,"Cloud":0,"Category":4,"SubCategory":401}
@@ -119,6 +234,26 @@
         TotalMonthlyPrice: 59.3490,
         CostDetails: [
           {
+            Cost: 0.0,
+            ResourceSubCategory: ObjectStorage,
+            ResourceDetails: null
+          },
+          {
+            Cost: 0.0,
+            ResourceSubCategory: Backup,
+            ResourceDetails: null
+          },
+          {
+            Cost: 0.0,
+            ResourceSubCategory: CDN,
+            ResourceDetails: null
+          },
+          {
+            Cost: 0.0,
+            ResourceSubCategory: LoadBalancer,
+            ResourceDetails: {"Name":"Load Balancer","PricePerMonth":0.0,"Cloud":1,"Category":4,"SubCategory":401}
+          },
+          {
             Cost: 59.3490,
             ResourceSubCategory: Monitoring,
             ResourceDetails: {"MonitoringService":"Azure Monitor","Region":"eastus","MetricType":"SMS Country Code 234 Notifications","PricePerMonth":59.3490,"Cloud":1,"Category":7,"SubCategory":604}
@@ -127,12 +262,27 @@
       },
       {
         CloudProvider: gcp,
-        TotalMonthlyPrice: 189.80,
+        TotalMonthlyPrice: 188.340,
         CostDetails: [
           {
-            Cost: 7.30,
+            Cost: 0.0,
+            ResourceSubCategory: ObjectStorage,
+            ResourceDetails: null
+          },
+          {
+            Cost: 0.0,
+            ResourceSubCategory: Backup,
+            ResourceDetails: null
+          },
+          {
+            Cost: 0.0,
+            ResourceSubCategory: CDN,
+            ResourceDetails: null
+          },
+          {
+            Cost: 5.840,
             ResourceSubCategory: LoadBalancer,
-            ResourceDetails: {"Name":"Compute Engine","PricePerMonth":7.30,"Cloud":2,"Category":4,"SubCategory":401}
+            ResourceDetails: {"Name":"Compute Engine","PricePerMonth":5.840,"Cloud":2,"Category":4,"SubCategory":401}
           },
           {
             Cost: 182.50,
@@ -148,6 +298,21 @@
         TotalMonthlyPrice: 13.140,
         CostDetails: [
           {
+            Cost: 0.0,
+            ResourceSubCategory: ObjectStorage,
+            ResourceDetails: null
+          },
+          {
+            Cost: 0.0,
+            ResourceSubCategory: Backup,
+            ResourceDetails: null
+          },
+          {
+            Cost: 0.0,
+            ResourceSubCategory: CDN,
+            ResourceDetails: null
+          },
+          {
             Cost: 5.840,
             ResourceSubCategory: LoadBalancer,
             ResourceDetails: {"Name":"ELB:Balancing","PricePerMonth":5.840,"Cloud":0,"Category":4,"SubCategory":401}
@@ -164,6 +329,26 @@
         TotalMonthlyPrice: 59.3490,
         CostDetails: [
           {
+            Cost: 0.0,
+            ResourceSubCategory: ObjectStorage,
+            ResourceDetails: null
+          },
+          {
+            Cost: 0.0,
+            ResourceSubCategory: Backup,
+            ResourceDetails: null
+          },
+          {
+            Cost: 0.0,
+            ResourceSubCategory: CDN,
+            ResourceDetails: null
+          },
+          {
+            Cost: 0.0,
+            ResourceSubCategory: LoadBalancer,
+            ResourceDetails: {"Name":"Load Balancer","PricePerMonth":0.0,"Cloud":1,"Category":4,"SubCategory":401}
+          },
+          {
             Cost: 59.3490,
             ResourceSubCategory: Monitoring,
             ResourceDetails: {"MonitoringService":"Azure Monitor","Region":"eastus","MetricType":"SMS Country Code 234 Notifications","PricePerMonth":59.3490,"Cloud":1,"Category":7,"SubCategory":604}
@@ -172,12 +357,27 @@
       },
       {
         CloudProvider: gcp,
-        TotalMonthlyPrice: 189.80,
+        TotalMonthlyPrice: 188.340,
         CostDetails: [
           {
-            Cost: 7.30,
+            Cost: 0.0,
+            ResourceSubCategory: ObjectStorage,
+            ResourceDetails: null
+          },
+          {
+            Cost: 0.0,
+            ResourceSubCategory: Backup,
+            ResourceDetails: null
+          },
+          {
+            Cost: 0.0,
+            ResourceSubCategory: CDN,
+            ResourceDetails: null
+          },
+          {
+            Cost: 5.840,
             ResourceSubCategory: LoadBalancer,
-            ResourceDetails: {"Name":"Compute Engine","PricePerMonth":7.30,"Cloud":2,"Category":4,"SubCategory":401}
+            ResourceDetails: {"Name":"Compute Engine","PricePerMonth":5.840,"Cloud":2,"Category":4,"SubCategory":401}
           },
           {
             Cost: 182.50,

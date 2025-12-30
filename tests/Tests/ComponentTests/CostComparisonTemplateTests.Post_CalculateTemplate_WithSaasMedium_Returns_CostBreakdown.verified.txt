@@ -30,14 +30,54 @@
             ResourceDetails: {"InstanceName":"AmazonDynamoDB","Region":"us-east-1","DatabaseEngine":null,"VCpu":null,"Memory":null,"PricePerHour":0.0000001,"Cloud":0,"Category":3,"SubCategory":202}
           },
           {
+            Cost: 0.0,
+            ResourceSubCategory: Caching,
+            ResourceDetails: null
+          },
+          {
+            Cost: 0.0,
+            ResourceSubCategory: ObjectStorage,
+            ResourceDetails: null
+          },
+          {
+            Cost: 0.0,
+            ResourceSubCategory: Backup,
+            ResourceDetails: null
+          },
+          {
+            Cost: 0.0,
+            ResourceSubCategory: ApiGateway,
+            ResourceDetails: null
+          },
+          {
             Cost: 5.840,
             ResourceSubCategory: LoadBalancer,
             ResourceDetails: {"Name":"ELB:Balancing","PricePerMonth":5.840,"Cloud":0,"Category":4,"SubCategory":401}
           },
           {
+            Cost: 0.0,
+            ResourceSubCategory: Queueing,
+            ResourceDetails: null
+          },
+          {
+            Cost: 0.0,
+            ResourceSubCategory: Messaging,
+            ResourceDetails: null
+          },
+          {
+            Cost: 0.0,
+            ResourceSubCategory: Secrets,
+            ResourceDetails: null
+          },
+          {
             Cost: 7.30,
             ResourceSubCategory: Monitoring,
             ResourceDetails: {"MonitoringService":"AmazonCloudWatch","Region":"us-east-1","MetricType":"CW-InternetMonitor","PricePerMonth":7.30,"Cloud":0,"Category":7,"SubCategory":604}
+          },
+          {
+            Cost: 0.0,
+            ResourceSubCategory: WebApplicationFirewall,
+            ResourceDetails: null
           }
         ]
       },
@@ -56,30 +96,120 @@
             ResourceDetails: {"InstanceName":"Azure Cosmos DB","Region":"eastus","DatabaseEngine":null,"VCpu":null,"Memory":null,"PricePerHour":0.002688,"Cloud":1,"Category":3,"SubCategory":202}
           },
           {
+            Cost: 0.0,
+            ResourceSubCategory: Caching,
+            ResourceDetails: null
+          },
+          {
+            Cost: 0.0,
+            ResourceSubCategory: ObjectStorage,
+            ResourceDetails: null
+          },
+          {
+            Cost: 0.0,
+            ResourceSubCategory: Backup,
+            ResourceDetails: null
+          },
+          {
+            Cost: 0.0,
+            ResourceSubCategory: ApiGateway,
+            ResourceDetails: null
+          },
+          {
+            Cost: 0.0,
+            ResourceSubCategory: LoadBalancer,
+            ResourceDetails: {"Name":"Load Balancer","PricePerMonth":0.0,"Cloud":1,"Category":4,"SubCategory":401}
+          },
+          {
+            Cost: 0.0,
+            ResourceSubCategory: Queueing,
+            ResourceDetails: null
+          },
+          {
+            Cost: 0.0,
+            ResourceSubCategory: Messaging,
+            ResourceDetails: null
+          },
+          {
+            Cost: 0.0,
+            ResourceSubCategory: Secrets,
+            ResourceDetails: null
+          },
+          {
             Cost: 59.3490,
             ResourceSubCategory: Monitoring,
             ResourceDetails: {"MonitoringService":"Azure Monitor","Region":"eastus","MetricType":"SMS Country Code 234 Notifications","PricePerMonth":59.3490,"Cloud":1,"Category":7,"SubCategory":604}
+          },
+          {
+            Cost: 0.0,
+            ResourceSubCategory: WebApplicationFirewall,
+            ResourceDetails: null
           }
         ]
       },
       {
         CloudProvider: gcp,
-        TotalMonthlyPrice: 193.3040,
+        TotalMonthlyPrice: 191.8440,
         CostDetails: [
+          {
+            Cost: 0.0,
+            ResourceSubCategory: VirtualMachines,
+            ResourceDetails: null
+          },
           {
             Cost: 3.5040,
             ResourceSubCategory: Relational,
             ResourceDetails: {"InstanceName":"Cloud SQL","Region":"us-east1","DatabaseEngine":null,"VCpu":null,"Memory":null,"PricePerHour":0.0048,"Cloud":2,"Category":3,"SubCategory":200}
           },
           {
-            Cost: 7.30,
+            Cost: 0.0,
+            ResourceSubCategory: Caching,
+            ResourceDetails: null
+          },
+          {
+            Cost: 0.0,
+            ResourceSubCategory: ObjectStorage,
+            ResourceDetails: null
+          },
+          {
+            Cost: 0.0,
+            ResourceSubCategory: Backup,
+            ResourceDetails: null
+          },
+          {
+            Cost: 0.0,
+            ResourceSubCategory: ApiGateway,
+            ResourceDetails: null
+          },
+          {
+            Cost: 5.840,
             ResourceSubCategory: LoadBalancer,
-            ResourceDetails: {"Name":"Compute Engine","PricePerMonth":7.30,"Cloud":2,"Category":4,"SubCategory":401}
+            ResourceDetails: {"Name":"Compute Engine","PricePerMonth":5.840,"Cloud":2,"Category":4,"SubCategory":401}
+          },
+          {
+            Cost: 0.0,
+            ResourceSubCategory: Queueing,
+            ResourceDetails: null
+          },
+          {
+            Cost: 0.0,
+            ResourceSubCategory: Messaging,
+            ResourceDetails: null
+          },
+          {
+            Cost: 0.0,
+            ResourceSubCategory: Secrets,
+            ResourceDetails: null
           },
           {
             Cost: 182.50,
             ResourceSubCategory: Monitoring,
             ResourceDetails: {"MonitoringService":"Cloud Logging","Region":"global","MetricType":"Logs","PricePerMonth":182.50,"Cloud":2,"Category":7,"SubCategory":604}
+          },
+          {
+            Cost: 0.0,
+            ResourceSubCategory: WebApplicationFirewall,
+            ResourceDetails: null
           }
         ]
       }
@@ -100,14 +230,54 @@
             ResourceDetails: {"InstanceName":"AmazonDynamoDB","Region":"us-east-1","DatabaseEngine":null,"VCpu":null,"Memory":null,"PricePerHour":0.0000001,"Cloud":0,"Category":3,"SubCategory":202}
           },
           {
+            Cost: 0.0,
+            ResourceSubCategory: Caching,
+            ResourceDetails: null
+          },
+          {
+            Cost: 0.0,
+            ResourceSubCategory: ObjectStorage,
+            ResourceDetails: null
+          },
+          {
+            Cost: 0.0,
+            ResourceSubCategory: Backup,
+            ResourceDetails: null
+          },
+          {
+            Cost: 0.0,
+            ResourceSubCategory: ApiGateway,
+            ResourceDetails: null
+          },
+          {
             Cost: 5.840,
             ResourceSubCategory: LoadBalancer,
             ResourceDetails: {"Name":"ELB:Balancing","PricePerMonth":5.840,"Cloud":0,"Category":4,"SubCategory":401}
           },
           {
+            Cost: 0.0,
+            ResourceSubCategory: Queueing,
+            ResourceDetails: null
+          },
+          {
+            Cost: 0.0,
+            ResourceSubCategory: Messaging,
+            ResourceDetails: null
+          },
+          {
+            Cost: 0.0,
+            ResourceSubCategory: Secrets,
+            ResourceDetails: null
+          },
+          {
             Cost: 7.30,
             ResourceSubCategory: Monitoring,
             ResourceDetails: {"MonitoringService":"AmazonCloudWatch","Region":"us-east-1","MetricType":"CW-InternetMonitor","PricePerMonth":7.30,"Cloud":0,"Category":7,"SubCategory":604}
+          },
+          {
+            Cost: 0.0,
+            ResourceSubCategory: WebApplicationFirewall,
+            ResourceDetails: null
           }
         ]
       },
@@ -126,30 +296,120 @@
             ResourceDetails: {"InstanceName":"Azure Cosmos DB","Region":"eastus","DatabaseEngine":null,"VCpu":null,"Memory":null,"PricePerHour":0.002688,"Cloud":1,"Category":3,"SubCategory":202}
           },
           {
+            Cost: 0.0,
+            ResourceSubCategory: Caching,
+            ResourceDetails: null
+          },
+          {
+            Cost: 0.0,
+            ResourceSubCategory: ObjectStorage,
+            ResourceDetails: null
+          },
+          {
+            Cost: 0.0,
+            ResourceSubCategory: Backup,
+            ResourceDetails: null
+          },
+          {
+            Cost: 0.0,
+            ResourceSubCategory: ApiGateway,
+            ResourceDetails: null
+          },
+          {
+            Cost: 0.0,
+            ResourceSubCategory: LoadBalancer,
+            ResourceDetails: {"Name":"Load Balancer","PricePerMonth":0.0,"Cloud":1,"Category":4,"SubCategory":401}
+          },
+          {
+            Cost: 0.0,
+            ResourceSubCategory: Queueing,
+            ResourceDetails: null
+          },
+          {
+            Cost: 0.0,
+            ResourceSubCategory: Messaging,
+            ResourceDetails: null
+          },
+          {
+            Cost: 0.0,
+            ResourceSubCategory: Secrets,
+            ResourceDetails: null
+          },
+          {
             Cost: 59.3490,
             ResourceSubCategory: Monitoring,
             ResourceDetails: {"MonitoringService":"Azure Monitor","Region":"eastus","MetricType":"SMS Country Code 234 Notifications","PricePerMonth":59.3490,"Cloud":1,"Category":7,"SubCategory":604}
+          },
+          {
+            Cost: 0.0,
+            ResourceSubCategory: WebApplicationFirewall,
+            ResourceDetails: null
           }
         ]
       },
       {
         CloudProvider: gcp,
-        TotalMonthlyPrice: 193.3040,
+        TotalMonthlyPrice: 191.8440,
         CostDetails: [
+          {
+            Cost: 0.0,
+            ResourceSubCategory: VirtualMachines,
+            ResourceDetails: null
+          },
           {
             Cost: 3.5040,
             ResourceSubCategory: Relational,
             ResourceDetails: {"InstanceName":"Cloud SQL","Region":"us-east1","DatabaseEngine":null,"VCpu":null,"Memory":null,"PricePerHour":0.0048,"Cloud":2,"Category":3,"SubCategory":200}
           },
           {
-            Cost: 7.30,
+            Cost: 0.0,
+            ResourceSubCategory: Caching,
+            ResourceDetails: null
+          },
+          {
+            Cost: 0.0,
+            ResourceSubCategory: ObjectStorage,
+            ResourceDetails: null
+          },
+          {
+            Cost: 0.0,
+            ResourceSubCategory: Backup,
+            ResourceDetails: null
+          },
+          {
+            Cost: 0.0,
+            ResourceSubCategory: ApiGateway,
+            ResourceDetails: null
+          },
+          {
+            Cost: 5.840,
             ResourceSubCategory: LoadBalancer,
-            ResourceDetails: {"Name":"Compute Engine","PricePerMonth":7.30,"Cloud":2,"Category":4,"SubCategory":401}
+            ResourceDetails: {"Name":"Compute Engine","PricePerMonth":5.840,"Cloud":2,"Category":4,"SubCategory":401}
+          },
+          {
+            Cost: 0.0,
+            ResourceSubCategory: Queueing,
+            ResourceDetails: null
+          },
+          {
+            Cost: 0.0,
+            ResourceSubCategory: Messaging,
+            ResourceDetails: null
+          },
+          {
+            Cost: 0.0,
+            ResourceSubCategory: Secrets,
+            ResourceDetails: null
           },
           {
             Cost: 182.50,
             ResourceSubCategory: Monitoring,
             ResourceDetails: {"MonitoringService":"Cloud Logging","Region":"global","MetricType":"Logs","PricePerMonth":182.50,"Cloud":2,"Category":7,"SubCategory":604}
+          },
+          {
+            Cost: 0.0,
+            ResourceSubCategory: WebApplicationFirewall,
+            ResourceDetails: null
           }
         ]
       }
@@ -170,14 +430,54 @@
             ResourceDetails: {"InstanceName":"AmazonDynamoDB","Region":"us-east-1","DatabaseEngine":null,"VCpu":null,"Memory":null,"PricePerHour":0.0000001,"Cloud":0,"Category":3,"SubCategory":202}
           },
           {
+            Cost: 0.0,
+            ResourceSubCategory: Caching,
+            ResourceDetails: null
+          },
+          {
+            Cost: 0.0,
+            ResourceSubCategory: ObjectStorage,
+            ResourceDetails: null
+          },
+          {
+            Cost: 0.0,
+            ResourceSubCategory: Backup,
+            ResourceDetails: null
+          },
+          {
+            Cost: 0.0,
+            ResourceSubCategory: ApiGateway,
+            ResourceDetails: null
+          },
+          {
             Cost: 5.840,
             ResourceSubCategory: LoadBalancer,
             ResourceDetails: {"Name":"ELB:Balancing","PricePerMonth":5.840,"Cloud":0,"Category":4,"SubCategory":401}
           },
           {
+            Cost: 0.0,
+            ResourceSubCategory: Queueing,
+            ResourceDetails: null
+          },
+          {
+            Cost: 0.0,
+            ResourceSubCategory: Messaging,
+            ResourceDetails: null
+          },
+          {
+            Cost: 0.0,
+            ResourceSubCategory: Secrets,
+            ResourceDetails: null
+          },
+          {
             Cost: 7.30,
             ResourceSubCategory: Monitoring,
             ResourceDetails: {"MonitoringService":"AmazonCloudWatch","Region":"us-east-1","MetricType":"CW-InternetMonitor","PricePerMonth":7.30,"Cloud":0,"Category":7,"SubCategory":604}
+          },
+          {
+            Cost: 0.0,
+            ResourceSubCategory: WebApplicationFirewall,
+            ResourceDetails: null
           }
         ]
       },
@@ -196,30 +496,120 @@
             ResourceDetails: {"InstanceName":"Azure Cosmos DB","Region":"eastus","DatabaseEngine":null,"VCpu":null,"Memory":null,"PricePerHour":0.002688,"Cloud":1,"Category":3,"SubCategory":202}
           },
           {
+            Cost: 0.0,
+            ResourceSubCategory: Caching,
+            ResourceDetails: null
+          },
+          {
+            Cost: 0.0,
+            ResourceSubCategory: ObjectStorage,
+            ResourceDetails: null
+          },
+          {
+            Cost: 0.0,
+            ResourceSubCategory: Backup,
+            ResourceDetails: null
+          },
+          {
+            Cost: 0.0,
+            ResourceSubCategory: ApiGateway,
+            ResourceDetails: null
+          },
+          {
+            Cost: 0.0,
+            ResourceSubCategory: LoadBalancer,
+            ResourceDetails: {"Name":"Load Balancer","PricePerMonth":0.0,"Cloud":1,"Category":4,"SubCategory":401}
+          },
+          {
+            Cost: 0.0,
+            ResourceSubCategory: Queueing,
+            ResourceDetails: null
+          },
+          {
+            Cost: 0.0,
+            ResourceSubCategory: Messaging,
+            ResourceDetails: null
+          },
+          {
+            Cost: 0.0,
+            ResourceSubCategory: Secrets,
+            ResourceDetails: null
+          },
+          {
             Cost: 59.3490,
             ResourceSubCategory: Monitoring,
             ResourceDetails: {"MonitoringService":"Azure Monitor","Region":"eastus","MetricType":"SMS Country Code 234 Notifications","PricePerMonth":59.3490,"Cloud":1,"Category":7,"SubCategory":604}
+          },
+          {
+            Cost: 0.0,
+            ResourceSubCategory: WebApplicationFirewall,
+            ResourceDetails: null
           }
         ]
       },
       {
         CloudProvider: gcp,
-        TotalMonthlyPrice: 193.3040,
+        TotalMonthlyPrice: 191.8440,
         CostDetails: [
+          {
+            Cost: 0.0,
+            ResourceSubCategory: VirtualMachines,
+            ResourceDetails: null
+          },
           {
             Cost: 3.5040,
             ResourceSubCategory: Relational,
             ResourceDetails: {"InstanceName":"Cloud SQL","Region":"us-east1","DatabaseEngine":null,"VCpu":null,"Memory":null,"PricePerHour":0.0048,"Cloud":2,"Category":3,"SubCategory":200}
           },
           {
-            Cost: 7.30,
+            Cost: 0.0,
+            ResourceSubCategory: Caching,
+            ResourceDetails: null
+          },
+          {
+            Cost: 0.0,
+            ResourceSubCategory: ObjectStorage,
+            ResourceDetails: null
+          },
+          {
+            Cost: 0.0,
+            ResourceSubCategory: Backup,
+            ResourceDetails: null
+          },
+          {
+            Cost: 0.0,
+            ResourceSubCategory: ApiGateway,
+            ResourceDetails: null
+          },
+          {
+            Cost: 5.840,
             ResourceSubCategory: LoadBalancer,
-            ResourceDetails: {"Name":"Compute Engine","PricePerMonth":7.30,"Cloud":2,"Category":4,"SubCategory":401}
+            ResourceDetails: {"Name":"Compute Engine","PricePerMonth":5.840,"Cloud":2,"Category":4,"SubCategory":401}
+          },
+          {
+            Cost: 0.0,
+            ResourceSubCategory: Queueing,
+            ResourceDetails: null
+          },
+          {
+            Cost: 0.0,
+            ResourceSubCategory: Messaging,
+            ResourceDetails: null
+          },
+          {
+            Cost: 0.0,
+            ResourceSubCategory: Secrets,
+            ResourceDetails: null
           },
           {
             Cost: 182.50,
             ResourceSubCategory: Monitoring,
             ResourceDetails: {"MonitoringService":"Cloud Logging","Region":"global","MetricType":"Logs","PricePerMonth":182.50,"Cloud":2,"Category":7,"SubCategory":604}
+          },
+          {
+            Cost: 0.0,
+            ResourceSubCategory: WebApplicationFirewall,
+            ResourceDetails: null
           }
         ]
       }
@@ -240,14 +630,54 @@
             ResourceDetails: {"InstanceName":"AmazonDynamoDB","Region":"us-east-1","DatabaseEngine":null,"VCpu":null,"Memory":null,"PricePerHour":0.0000001,"Cloud":0,"Category":3,"SubCategory":202}
           },
           {
+            Cost: 0.0,
+            ResourceSubCategory: Caching,
+            ResourceDetails: null
+          },
+          {
+            Cost: 0.0,
+            ResourceSubCategory: ObjectStorage,
+            ResourceDetails: null
+          },
+          {
+            Cost: 0.0,
+            ResourceSubCategory: Backup,
+            ResourceDetails: null
+          },
+          {
+            Cost: 0.0,
+            ResourceSubCategory: ApiGateway,
+            ResourceDetails: null
+          },
+          {
             Cost: 5.840,
             ResourceSubCategory: LoadBalancer,
             ResourceDetails: {"Name":"ELB:Balancing","PricePerMonth":5.840,"Cloud":0,"Category":4,"SubCategory":401}
           },
           {
+            Cost: 0.0,
+            ResourceSubCategory: Queueing,
+            ResourceDetails: null
+          },
+          {
+            Cost: 0.0,
+            ResourceSubCategory: Messaging,
+            ResourceDetails: null
+          },
+          {
+            Cost: 0.0,
+            ResourceSubCategory: Secrets,
+            ResourceDetails: null
+          },
+          {
             Cost: 7.30,
             ResourceSubCategory: Monitoring,
             ResourceDetails: {"MonitoringService":"AmazonCloudWatch","Region":"us-east-1","MetricType":"CW-InternetMonitor","PricePerMonth":7.30,"Cloud":0,"Category":7,"SubCategory":604}
+          },
+          {
+            Cost: 0.0,
+            ResourceSubCategory: WebApplicationFirewall,
+            ResourceDetails: null
           }
         ]
       },
@@ -266,30 +696,120 @@
             ResourceDetails: {"InstanceName":"Azure Cosmos DB","Region":"eastus","DatabaseEngine":null,"VCpu":null,"Memory":null,"PricePerHour":0.002688,"Cloud":1,"Category":3,"SubCategory":202}
           },
           {
+            Cost: 0.0,
+            ResourceSubCategory: Caching,
+            ResourceDetails: null
+          },
+          {
+            Cost: 0.0,
+            ResourceSubCategory: ObjectStorage,
+            ResourceDetails: null
+          },
+          {
+            Cost: 0.0,
+            ResourceSubCategory: Backup,
+            ResourceDetails: null
+          },
+          {
+            Cost: 0.0,
+            ResourceSubCategory: ApiGateway,
+            ResourceDetails: null
+          },
+          {
+            Cost: 0.0,
+            ResourceSubCategory: LoadBalancer,
+            ResourceDetails: {"Name":"Load Balancer","PricePerMonth":0.0,"Cloud":1,"Category":4,"SubCategory":401}
+          },
+          {
+            Cost: 0.0,
+            ResourceSubCategory: Queueing,
+            ResourceDetails: null
+          },
+          {
+            Cost: 0.0,
+            ResourceSubCategory: Messaging,
+            ResourceDetails: null
+          },
+          {
+            Cost: 0.0,
+            ResourceSubCategory: Secrets,
+            ResourceDetails: null
+          },
+          {
             Cost: 59.3490,
             ResourceSubCategory: Monitoring,
             ResourceDetails: {"MonitoringService":"Azure Monitor","Region":"eastus","MetricType":"SMS Country Code 234 Notifications","PricePerMonth":59.3490,"Cloud":1,"Category":7,"SubCategory":604}
+          },
+          {
+            Cost: 0.0,
+            ResourceSubCategory: WebApplicationFirewall,
+            ResourceDetails: null
           }
         ]
       },
       {
         CloudProvider: gcp,
-        TotalMonthlyPrice: 193.3040,
+        TotalMonthlyPrice: 191.8440,
         CostDetails: [
+          {
+            Cost: 0.0,
+            ResourceSubCategory: VirtualMachines,
+            ResourceDetails: null
+          },
           {
             Cost: 3.5040,
             ResourceSubCategory: Relational,
             ResourceDetails: {"InstanceName":"Cloud SQL","Region":"us-east1","DatabaseEngine":null,"VCpu":null,"Memory":null,"PricePerHour":0.0048,"Cloud":2,"Category":3,"SubCategory":200}
           },
           {
-            Cost: 7.30,
+            Cost: 0.0,
+            ResourceSubCategory: Caching,
+            ResourceDetails: null
+          },
+          {
+            Cost: 0.0,
+            ResourceSubCategory: ObjectStorage,
+            ResourceDetails: null
+          },
+          {
+            Cost: 0.0,
+            ResourceSubCategory: Backup,
+            ResourceDetails: null
+          },
+          {
+            Cost: 0.0,
+            ResourceSubCategory: ApiGateway,
+            ResourceDetails: null
+          },
+          {
+            Cost: 5.840,
             ResourceSubCategory: LoadBalancer,
-            ResourceDetails: {"Name":"Compute Engine","PricePerMonth":7.30,"Cloud":2,"Category":4,"SubCategory":401}
+            ResourceDetails: {"Name":"Compute Engine","PricePerMonth":5.840,"Cloud":2,"Category":4,"SubCategory":401}
+          },
+          {
+            Cost: 0.0,
+            ResourceSubCategory: Queueing,
+            ResourceDetails: null
+          },
+          {
+            Cost: 0.0,
+            ResourceSubCategory: Messaging,
+            ResourceDetails: null
+          },
+          {
+            Cost: 0.0,
+            ResourceSubCategory: Secrets,
+            ResourceDetails: null
           },
           {
             Cost: 182.50,
             ResourceSubCategory: Monitoring,
             ResourceDetails: {"MonitoringService":"Cloud Logging","Region":"global","MetricType":"Logs","PricePerMonth":182.50,"Cloud":2,"Category":7,"SubCategory":604}
+          },
+          {
+            Cost: 0.0,
+            ResourceSubCategory: WebApplicationFirewall,
+            ResourceDetails: null
           }
         ]
       }
