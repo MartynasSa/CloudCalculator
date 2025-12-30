@@ -53,16 +53,6 @@
     Name: AmazonS3,
     Region: us-east-1,
     StorageClass: null,
-    PricePerGbMonth: null,
-    PricePerRequest: 0.0000004,
-    Cloud: aws,
-    Category: Storage,
-    SubCategory: BlobStorage
-  },
-  {
-    Name: AmazonS3,
-    Region: us-east-1,
-    StorageClass: null,
     PricePerGbMonth: 0.003,
     PricePerRequest: null,
     Cloud: aws,
@@ -103,26 +93,6 @@
     Name: AmazonS3,
     Region: us-east-1,
     StorageClass: null,
-    PricePerGbMonth: 0.004,
-    PricePerRequest: null,
-    Cloud: aws,
-    Category: Storage,
-    SubCategory: BlobStorage
-  },
-  {
-    Name: AmazonS3,
-    Region: us-east-1,
-    StorageClass: null,
-    PricePerGbMonth: null,
-    PricePerRequest: 0.000005,
-    Cloud: aws,
-    Category: Storage,
-    SubCategory: BlobStorage
-  },
-  {
-    Name: AmazonS3,
-    Region: us-east-1,
-    StorageClass: null,
     PricePerGbMonth: null,
     PricePerRequest: 0.00005,
     Cloud: aws,
@@ -145,6 +115,136 @@
     StorageClass: null,
     PricePerGbMonth: null,
     PricePerRequest: null,
+    Cloud: aws,
+    Category: Storage,
+    SubCategory: BlobStorage
+  },
+  {
+    Name: AmazonS3,
+    Region: us-east-1,
+    StorageClass: null,
+    PricePerGbMonth: null,
+    PricePerRequest: 0.00003,
+    Cloud: aws,
+    Category: Storage,
+    SubCategory: BlobStorage
+  },
+  {
+    Name: AmazonS3,
+    Region: us-east-1,
+    StorageClass: null,
+    PricePerGbMonth: null,
+    PricePerRequest: 0.00003,
+    Cloud: aws,
+    Category: Storage,
+    SubCategory: BlobStorage
+  },
+  {
+    Name: AmazonS3,
+    Region: us-east-1,
+    StorageClass: null,
+    PricePerGbMonth: 0.004,
+    PricePerRequest: null,
+    Cloud: aws,
+    Category: Storage,
+    SubCategory: BlobStorage
+  },
+  {
+    Name: AmazonS3,
+    Region: us-east-1,
+    StorageClass: null,
+    PricePerGbMonth: 0.0,
+    PricePerRequest: null,
+    Cloud: aws,
+    Category: Storage,
+    SubCategory: BlobStorage
+  },
+  {
+    Name: AmazonS3,
+    Region: us-east-1,
+    StorageClass: null,
+    PricePerGbMonth: null,
+    PricePerRequest: 0.000005,
+    Cloud: aws,
+    Category: Storage,
+    SubCategory: BlobStorage
+  },
+  {
+    Name: AmazonS3,
+    Region: us-east-1,
+    StorageClass: null,
+    PricePerGbMonth: 0.0,
+    PricePerRequest: null,
+    Cloud: aws,
+    Category: Storage,
+    SubCategory: BlobStorage
+  },
+  {
+    Name: AmazonS3,
+    Region: us-east-1,
+    StorageClass: null,
+    PricePerGbMonth: 0.0025,
+    PricePerRequest: null,
+    Cloud: aws,
+    Category: Storage,
+    SubCategory: BlobStorage
+  },
+  {
+    Name: AmazonS3,
+    Region: us-east-1,
+    StorageClass: null,
+    PricePerGbMonth: 0.0007,
+    PricePerRequest: null,
+    Cloud: aws,
+    Category: Storage,
+    SubCategory: BlobStorage
+  },
+  {
+    Name: AmazonS3,
+    Region: us-east-1,
+    StorageClass: null,
+    PricePerGbMonth: 0.004,
+    PricePerRequest: null,
+    Cloud: aws,
+    Category: Storage,
+    SubCategory: BlobStorage
+  },
+  {
+    Name: AmazonS3,
+    Region: us-east-1,
+    StorageClass: null,
+    PricePerGbMonth: 0.004,
+    PricePerRequest: null,
+    Cloud: aws,
+    Category: Storage,
+    SubCategory: BlobStorage
+  },
+  {
+    Name: AmazonS3,
+    Region: us-east-1,
+    StorageClass: null,
+    PricePerGbMonth: null,
+    PricePerRequest: 0.0000004,
+    Cloud: aws,
+    Category: Storage,
+    SubCategory: BlobStorage
+  },
+  {
+    Name: AmazonS3,
+    Region: us-east-1,
+    StorageClass: null,
+    PricePerGbMonth: null,
+    PricePerRequest: 0.00002,
+    Cloud: aws,
+    Category: Storage,
+    SubCategory: BlobStorage
+  },
+  {
+    Name: AmazonS3,
+    Region: us-east-1,
+    StorageClass: null,
+    PricePerGbMonth: null,
+    PricePerRequest: 0.00003,
     Cloud: aws,
     Category: Storage,
     SubCategory: BlobStorage
@@ -364,16 +464,6 @@
     Region: us-east-1,
     StorageClass: null,
     PricePerGbMonth: null,
-    PricePerRequest: 0.00003,
-    Cloud: aws,
-    Category: Storage,
-    SubCategory: BlobStorage
-  },
-  {
-    Name: AmazonS3,
-    Region: us-east-1,
-    StorageClass: null,
-    PricePerGbMonth: null,
     PricePerRequest: null,
     Cloud: aws,
     Category: Storage,
@@ -415,16 +505,6 @@
     StorageClass: null,
     PricePerGbMonth: null,
     PricePerRequest: 0.00003,
-    Cloud: aws,
-    Category: Storage,
-    SubCategory: BlobStorage
-  },
-  {
-    Name: AmazonS3,
-    Region: us-east-1,
-    StorageClass: null,
-    PricePerGbMonth: 0.004,
-    PricePerRequest: null,
     Cloud: aws,
     Category: Storage,
     SubCategory: BlobStorage
@@ -613,27 +693,7 @@
     Name: AmazonS3,
     Region: us-east-1,
     StorageClass: null,
-    PricePerGbMonth: 0.0025,
-    PricePerRequest: null,
-    Cloud: aws,
-    Category: Storage,
-    SubCategory: BlobStorage
-  },
-  {
-    Name: AmazonS3,
-    Region: us-east-1,
-    StorageClass: null,
     PricePerGbMonth: 0.023,
-    PricePerRequest: null,
-    Cloud: aws,
-    Category: Storage,
-    SubCategory: BlobStorage
-  },
-  {
-    Name: AmazonS3,
-    Region: us-east-1,
-    StorageClass: null,
-    PricePerGbMonth: 0.0007,
     PricePerRequest: null,
     Cloud: aws,
     Category: Storage,
@@ -645,16 +705,6 @@
     StorageClass: null,
     PricePerGbMonth: null,
     PricePerRequest: 0.0,
-    Cloud: aws,
-    Category: Storage,
-    SubCategory: BlobStorage
-  },
-  {
-    Name: AmazonS3,
-    Region: us-east-1,
-    StorageClass: null,
-    PricePerGbMonth: 0.004,
-    PricePerRequest: null,
     Cloud: aws,
     Category: Storage,
     SubCategory: BlobStorage
@@ -803,16 +853,6 @@
     Name: AmazonS3,
     Region: us-east-1,
     StorageClass: null,
-    PricePerGbMonth: null,
-    PricePerRequest: 0.00003,
-    Cloud: aws,
-    Category: Storage,
-    SubCategory: BlobStorage
-  },
-  {
-    Name: AmazonS3,
-    Region: us-east-1,
-    StorageClass: null,
     PricePerGbMonth: 0.002,
     PricePerRequest: null,
     Cloud: aws,
@@ -853,16 +893,6 @@
     Name: AmazonS3,
     Region: us-east-1,
     StorageClass: null,
-    PricePerGbMonth: 0.0,
-    PricePerRequest: null,
-    Cloud: aws,
-    Category: Storage,
-    SubCategory: BlobStorage
-  },
-  {
-    Name: AmazonS3,
-    Region: us-east-1,
-    StorageClass: null,
     PricePerGbMonth: null,
     PricePerRequest: 0.0,
     Cloud: aws,
@@ -875,16 +905,6 @@
     StorageClass: null,
     PricePerGbMonth: null,
     PricePerRequest: 0.01,
-    Cloud: aws,
-    Category: Storage,
-    SubCategory: BlobStorage
-  },
-  {
-    Name: AmazonS3,
-    Region: us-east-1,
-    StorageClass: null,
-    PricePerGbMonth: 0.0,
-    PricePerRequest: null,
     Cloud: aws,
     Category: Storage,
     SubCategory: BlobStorage
@@ -935,16 +955,6 @@
     StorageClass: null,
     PricePerGbMonth: null,
     PricePerRequest: 0.000005,
-    Cloud: aws,
-    Category: Storage,
-    SubCategory: BlobStorage
-  },
-  {
-    Name: AmazonS3,
-    Region: us-east-1,
-    StorageClass: null,
-    PricePerGbMonth: null,
-    PricePerRequest: 0.00003,
     Cloud: aws,
     Category: Storage,
     SubCategory: BlobStorage
@@ -1055,16 +1065,6 @@
     StorageClass: Analytics,
     PricePerGbMonth: 0.0046,
     PricePerRequest: null,
-    Cloud: aws,
-    Category: Storage,
-    SubCategory: BlobStorage
-  },
-  {
-    Name: AmazonS3,
-    Region: us-east-1,
-    StorageClass: null,
-    PricePerGbMonth: null,
-    PricePerRequest: 0.00002,
     Cloud: aws,
     Category: Storage,
     SubCategory: BlobStorage

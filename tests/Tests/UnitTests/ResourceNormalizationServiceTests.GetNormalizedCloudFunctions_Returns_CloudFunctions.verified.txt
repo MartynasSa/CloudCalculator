@@ -99,6 +99,141 @@
     SubCategory: CloudFunctions
   },
   {
+    FunctionName: AWS-Lambda-Processed-Bytes,
+    Region: us-east-1,
+    PricePerRequest: null,
+    PricePerGbSecond: null,
+    Cloud: aws,
+    Category: Compute,
+    SubCategory: CloudFunctions
+  },
+  {
+    FunctionName: AWSLambda,
+    Region: us-east-1,
+    PricePerRequest: null,
+    PricePerGbSecond: null,
+    Cloud: aws,
+    Category: Compute,
+    SubCategory: CloudFunctions
+  },
+  {
+    FunctionName: AWSLambda,
+    Region: us-east-1,
+    PricePerRequest: null,
+    PricePerGbSecond: null,
+    Cloud: aws,
+    Category: Compute,
+    SubCategory: CloudFunctions
+  },
+  {
+    FunctionName: AWSLambda,
+    Region: us-east-1,
+    PricePerRequest: null,
+    PricePerGbSecond: null,
+    Cloud: aws,
+    Category: Compute,
+    SubCategory: CloudFunctions
+  },
+  {
+    FunctionName: AWSLambda,
+    Region: us-east-1,
+    PricePerRequest: null,
+    PricePerGbSecond: null,
+    Cloud: aws,
+    Category: Compute,
+    SubCategory: CloudFunctions
+  },
+  {
+    FunctionName: AWSLambda,
+    Region: us-east-1,
+    PricePerRequest: null,
+    PricePerGbSecond: null,
+    Cloud: aws,
+    Category: Compute,
+    SubCategory: CloudFunctions
+  },
+  {
+    FunctionName: AWSLambda,
+    Region: us-east-1,
+    PricePerRequest: null,
+    PricePerGbSecond: null,
+    Cloud: aws,
+    Category: Compute,
+    SubCategory: CloudFunctions
+  },
+  {
+    FunctionName: AWSLambda,
+    Region: us-east-1,
+    PricePerRequest: null,
+    PricePerGbSecond: null,
+    Cloud: aws,
+    Category: Compute,
+    SubCategory: CloudFunctions
+  },
+  {
+    FunctionName: AWSLambda,
+    Region: us-east-1,
+    PricePerRequest: null,
+    PricePerGbSecond: null,
+    Cloud: aws,
+    Category: Compute,
+    SubCategory: CloudFunctions
+  },
+  {
+    FunctionName: AWSLambda,
+    Region: us-east-1,
+    PricePerRequest: null,
+    PricePerGbSecond: null,
+    Cloud: aws,
+    Category: Compute,
+    SubCategory: CloudFunctions
+  },
+  {
+    FunctionName: AWSLambda,
+    Region: us-east-1,
+    PricePerRequest: null,
+    PricePerGbSecond: null,
+    Cloud: aws,
+    Category: Compute,
+    SubCategory: CloudFunctions
+  },
+  {
+    FunctionName: AWSLambda,
+    Region: us-east-1,
+    PricePerRequest: null,
+    PricePerGbSecond: null,
+    Cloud: aws,
+    Category: Compute,
+    SubCategory: CloudFunctions
+  },
+  {
+    FunctionName: AWSLambda,
+    Region: us-east-1,
+    PricePerRequest: null,
+    PricePerGbSecond: null,
+    Cloud: aws,
+    Category: Compute,
+    SubCategory: CloudFunctions
+  },
+  {
+    FunctionName: AWSLambda,
+    Region: us-east-1,
+    PricePerRequest: null,
+    PricePerGbSecond: null,
+    Cloud: aws,
+    Category: Compute,
+    SubCategory: CloudFunctions
+  },
+  {
+    FunctionName: AWSLambda,
+    Region: us-east-1,
+    PricePerRequest: null,
+    PricePerGbSecond: null,
+    Cloud: aws,
+    Category: Compute,
+    SubCategory: CloudFunctions
+  },
+  {
     FunctionName: AWSLambda,
     Region: us-east-1,
     PricePerRequest: null,
@@ -252,847 +387,10 @@
     SubCategory: CloudFunctions
   },
   {
-    FunctionName: AWSLambda,
+    FunctionName: AWS-Lambda-Duration-Provisioned-ARM,
     Region: us-east-1,
     PricePerRequest: null,
-    PricePerGbSecond: null,
-    Cloud: aws,
-    Category: Compute,
-    SubCategory: CloudFunctions
-  },
-  {
-    FunctionName: AWSLambda,
-    Region: us-east-1,
-    PricePerRequest: null,
-    PricePerGbSecond: null,
-    Cloud: aws,
-    Category: Compute,
-    SubCategory: CloudFunctions
-  },
-  {
-    FunctionName: AWSLambda,
-    Region: us-east-1,
-    PricePerRequest: null,
-    PricePerGbSecond: null,
-    Cloud: aws,
-    Category: Compute,
-    SubCategory: CloudFunctions
-  },
-  {
-    FunctionName: AWSLambda,
-    Region: us-east-1,
-    PricePerRequest: null,
-    PricePerGbSecond: null,
-    Cloud: aws,
-    Category: Compute,
-    SubCategory: CloudFunctions
-  },
-  {
-    FunctionName: AWSLambda,
-    Region: us-east-1,
-    PricePerRequest: null,
-    PricePerGbSecond: null,
-    Cloud: aws,
-    Category: Compute,
-    SubCategory: CloudFunctions
-  },
-  {
-    FunctionName: AWSLambda,
-    Region: us-east-1,
-    PricePerRequest: null,
-    PricePerGbSecond: null,
-    Cloud: aws,
-    Category: Compute,
-    SubCategory: CloudFunctions
-  },
-  {
-    FunctionName: AWSLambda,
-    Region: us-east-1,
-    PricePerRequest: null,
-    PricePerGbSecond: null,
-    Cloud: aws,
-    Category: Compute,
-    SubCategory: CloudFunctions
-  },
-  {
-    FunctionName: AWSLambda,
-    Region: us-east-1,
-    PricePerRequest: null,
-    PricePerGbSecond: null,
-    Cloud: aws,
-    Category: Compute,
-    SubCategory: CloudFunctions
-  },
-  {
-    FunctionName: AWSLambda,
-    Region: us-east-1,
-    PricePerRequest: null,
-    PricePerGbSecond: null,
-    Cloud: aws,
-    Category: Compute,
-    SubCategory: CloudFunctions
-  },
-  {
-    FunctionName: AWSLambda,
-    Region: us-east-1,
-    PricePerRequest: null,
-    PricePerGbSecond: null,
-    Cloud: aws,
-    Category: Compute,
-    SubCategory: CloudFunctions
-  },
-  {
-    FunctionName: AWS-Lambda-Processed-Bytes,
-    Region: us-east-1,
-    PricePerRequest: null,
-    PricePerGbSecond: null,
-    Cloud: aws,
-    Category: Compute,
-    SubCategory: CloudFunctions
-  },
-  {
-    FunctionName: AWSLambda,
-    Region: us-east-1,
-    PricePerRequest: null,
-    PricePerGbSecond: null,
-    Cloud: aws,
-    Category: Compute,
-    SubCategory: CloudFunctions
-  },
-  {
-    FunctionName: AWSLambda,
-    Region: us-east-1,
-    PricePerRequest: null,
-    PricePerGbSecond: null,
-    Cloud: aws,
-    Category: Compute,
-    SubCategory: CloudFunctions
-  },
-  {
-    FunctionName: AWS-Lambda-Durable-Execution-TimedStorage-ByteHrs,
-    Region: us-east-1,
-    PricePerRequest: null,
-    PricePerGbSecond: null,
-    Cloud: aws,
-    Category: Compute,
-    SubCategory: CloudFunctions
-  },
-  {
-    FunctionName: AWSLambda,
-    Region: us-east-1,
-    PricePerRequest: null,
-    PricePerGbSecond: null,
-    Cloud: aws,
-    Category: Compute,
-    SubCategory: CloudFunctions
-  },
-  {
-    FunctionName: AWSLambda,
-    Region: us-east-1,
-    PricePerRequest: null,
-    PricePerGbSecond: null,
-    Cloud: aws,
-    Category: Compute,
-    SubCategory: CloudFunctions
-  },
-  {
-    FunctionName: AWSLambda,
-    Region: us-east-1,
-    PricePerRequest: null,
-    PricePerGbSecond: null,
-    Cloud: aws,
-    Category: Compute,
-    SubCategory: CloudFunctions
-  },
-  {
-    FunctionName: AWSLambda,
-    Region: us-east-1,
-    PricePerRequest: null,
-    PricePerGbSecond: null,
-    Cloud: aws,
-    Category: Compute,
-    SubCategory: CloudFunctions
-  },
-  {
-    FunctionName: AWSLambda,
-    Region: us-east-1,
-    PricePerRequest: null,
-    PricePerGbSecond: null,
-    Cloud: aws,
-    Category: Compute,
-    SubCategory: CloudFunctions
-  },
-  {
-    FunctionName: AWSLambda,
-    Region: us-east-1,
-    PricePerRequest: null,
-    PricePerGbSecond: null,
-    Cloud: aws,
-    Category: Compute,
-    SubCategory: CloudFunctions
-  },
-  {
-    FunctionName: AWSLambda,
-    Region: us-east-1,
-    PricePerRequest: null,
-    PricePerGbSecond: null,
-    Cloud: aws,
-    Category: Compute,
-    SubCategory: CloudFunctions
-  },
-  {
-    FunctionName: AWSLambda,
-    Region: us-east-1,
-    PricePerRequest: null,
-    PricePerGbSecond: null,
-    Cloud: aws,
-    Category: Compute,
-    SubCategory: CloudFunctions
-  },
-  {
-    FunctionName: AWSLambda,
-    Region: us-east-1,
-    PricePerRequest: null,
-    PricePerGbSecond: null,
-    Cloud: aws,
-    Category: Compute,
-    SubCategory: CloudFunctions
-  },
-  {
-    FunctionName: AWSLambda,
-    Region: us-east-1,
-    PricePerRequest: null,
-    PricePerGbSecond: null,
-    Cloud: aws,
-    Category: Compute,
-    SubCategory: CloudFunctions
-  },
-  {
-    FunctionName: AWSLambda,
-    Region: us-east-1,
-    PricePerRequest: null,
-    PricePerGbSecond: null,
-    Cloud: aws,
-    Category: Compute,
-    SubCategory: CloudFunctions
-  },
-  {
-    FunctionName: AWSLambda,
-    Region: us-east-1,
-    PricePerRequest: null,
-    PricePerGbSecond: null,
-    Cloud: aws,
-    Category: Compute,
-    SubCategory: CloudFunctions
-  },
-  {
-    FunctionName: AWSLambda,
-    Region: us-east-1,
-    PricePerRequest: null,
-    PricePerGbSecond: null,
-    Cloud: aws,
-    Category: Compute,
-    SubCategory: CloudFunctions
-  },
-  {
-    FunctionName: AWSLambda,
-    Region: us-east-1,
-    PricePerRequest: null,
-    PricePerGbSecond: null,
-    Cloud: aws,
-    Category: Compute,
-    SubCategory: CloudFunctions
-  },
-  {
-    FunctionName: AWSLambda,
-    Region: us-east-1,
-    PricePerRequest: null,
-    PricePerGbSecond: null,
-    Cloud: aws,
-    Category: Compute,
-    SubCategory: CloudFunctions
-  },
-  {
-    FunctionName: AWS-Lambda-Tenant-Isolated-Environment-Memory-GB,
-    Region: us-east-1,
-    PricePerRequest: null,
-    PricePerGbSecond: null,
-    Cloud: aws,
-    Category: Compute,
-    SubCategory: CloudFunctions
-  },
-  {
-    FunctionName: AWSLambda,
-    Region: us-east-1,
-    PricePerRequest: null,
-    PricePerGbSecond: null,
-    Cloud: aws,
-    Category: Compute,
-    SubCategory: CloudFunctions
-  },
-  {
-    FunctionName: AWSLambda,
-    Region: us-east-1,
-    PricePerRequest: null,
-    PricePerGbSecond: null,
-    Cloud: aws,
-    Category: Compute,
-    SubCategory: CloudFunctions
-  },
-  {
-    FunctionName: AWSLambda,
-    Region: us-east-1,
-    PricePerRequest: null,
-    PricePerGbSecond: null,
-    Cloud: aws,
-    Category: Compute,
-    SubCategory: CloudFunctions
-  },
-  {
-    FunctionName: AWSLambda,
-    Region: us-east-1,
-    PricePerRequest: null,
-    PricePerGbSecond: null,
-    Cloud: aws,
-    Category: Compute,
-    SubCategory: CloudFunctions
-  },
-  {
-    FunctionName: AWSLambda,
-    Region: us-east-1,
-    PricePerRequest: null,
-    PricePerGbSecond: null,
-    Cloud: aws,
-    Category: Compute,
-    SubCategory: CloudFunctions
-  },
-  {
-    FunctionName: AWSLambda,
-    Region: us-east-1,
-    PricePerRequest: null,
-    PricePerGbSecond: null,
-    Cloud: aws,
-    Category: Compute,
-    SubCategory: CloudFunctions
-  },
-  {
-    FunctionName: AWSLambda,
-    Region: us-east-1,
-    PricePerRequest: null,
-    PricePerGbSecond: null,
-    Cloud: aws,
-    Category: Compute,
-    SubCategory: CloudFunctions
-  },
-  {
-    FunctionName: AWSLambda,
-    Region: us-east-1,
-    PricePerRequest: null,
-    PricePerGbSecond: null,
-    Cloud: aws,
-    Category: Compute,
-    SubCategory: CloudFunctions
-  },
-  {
-    FunctionName: AWSLambda,
-    Region: us-east-1,
-    PricePerRequest: null,
-    PricePerGbSecond: null,
-    Cloud: aws,
-    Category: Compute,
-    SubCategory: CloudFunctions
-  },
-  {
-    FunctionName: AWSLambda,
-    Region: us-east-1,
-    PricePerRequest: null,
-    PricePerGbSecond: null,
-    Cloud: aws,
-    Category: Compute,
-    SubCategory: CloudFunctions
-  },
-  {
-    FunctionName: AWSLambda,
-    Region: us-east-1,
-    PricePerRequest: null,
-    PricePerGbSecond: null,
-    Cloud: aws,
-    Category: Compute,
-    SubCategory: CloudFunctions
-  },
-  {
-    FunctionName: AWSLambda,
-    Region: us-east-1,
-    PricePerRequest: null,
-    PricePerGbSecond: null,
-    Cloud: aws,
-    Category: Compute,
-    SubCategory: CloudFunctions
-  },
-  {
-    FunctionName: AWSLambda,
-    Region: us-east-1,
-    PricePerRequest: null,
-    PricePerGbSecond: null,
-    Cloud: aws,
-    Category: Compute,
-    SubCategory: CloudFunctions
-  },
-  {
-    FunctionName: AWS-Lambda-Duration,
-    Region: us-east-1,
-    PricePerRequest: null,
-    PricePerGbSecond: null,
-    Cloud: aws,
-    Category: Compute,
-    SubCategory: CloudFunctions
-  },
-  {
-    FunctionName: AWSLambda,
-    Region: us-east-1,
-    PricePerRequest: null,
-    PricePerGbSecond: null,
-    Cloud: aws,
-    Category: Compute,
-    SubCategory: CloudFunctions
-  },
-  {
-    FunctionName: AWSLambda,
-    Region: us-east-1,
-    PricePerRequest: null,
-    PricePerGbSecond: null,
-    Cloud: aws,
-    Category: Compute,
-    SubCategory: CloudFunctions
-  },
-  {
-    FunctionName: AWSLambda,
-    Region: us-east-1,
-    PricePerRequest: null,
-    PricePerGbSecond: null,
-    Cloud: aws,
-    Category: Compute,
-    SubCategory: CloudFunctions
-  },
-  {
-    FunctionName: AWSLambda,
-    Region: us-east-1,
-    PricePerRequest: null,
-    PricePerGbSecond: null,
-    Cloud: aws,
-    Category: Compute,
-    SubCategory: CloudFunctions
-  },
-  {
-    FunctionName: AWSLambda,
-    Region: us-east-1,
-    PricePerRequest: null,
-    PricePerGbSecond: null,
-    Cloud: aws,
-    Category: Compute,
-    SubCategory: CloudFunctions
-  },
-  {
-    FunctionName: AWSLambda,
-    Region: us-east-1,
-    PricePerRequest: null,
-    PricePerGbSecond: null,
-    Cloud: aws,
-    Category: Compute,
-    SubCategory: CloudFunctions
-  },
-  {
-    FunctionName: AWSLambda,
-    Region: us-east-1,
-    PricePerRequest: null,
-    PricePerGbSecond: null,
-    Cloud: aws,
-    Category: Compute,
-    SubCategory: CloudFunctions
-  },
-  {
-    FunctionName: AWSLambda,
-    Region: us-east-1,
-    PricePerRequest: null,
-    PricePerGbSecond: null,
-    Cloud: aws,
-    Category: Compute,
-    SubCategory: CloudFunctions
-  },
-  {
-    FunctionName: AWSLambda,
-    Region: us-east-1,
-    PricePerRequest: null,
-    PricePerGbSecond: null,
-    Cloud: aws,
-    Category: Compute,
-    SubCategory: CloudFunctions
-  },
-  {
-    FunctionName: AWSLambda,
-    Region: us-east-1,
-    PricePerRequest: null,
-    PricePerGbSecond: null,
-    Cloud: aws,
-    Category: Compute,
-    SubCategory: CloudFunctions
-  },
-  {
-    FunctionName: AWSLambda,
-    Region: us-east-1,
-    PricePerRequest: null,
-    PricePerGbSecond: null,
-    Cloud: aws,
-    Category: Compute,
-    SubCategory: CloudFunctions
-  },
-  {
-    FunctionName: AWSLambda,
-    Region: us-east-1,
-    PricePerRequest: null,
-    PricePerGbSecond: null,
-    Cloud: aws,
-    Category: Compute,
-    SubCategory: CloudFunctions
-  },
-  {
-    FunctionName: AWSLambda,
-    Region: us-east-1,
-    PricePerRequest: null,
-    PricePerGbSecond: null,
-    Cloud: aws,
-    Category: Compute,
-    SubCategory: CloudFunctions
-  },
-  {
-    FunctionName: AWSLambda,
-    Region: us-east-1,
-    PricePerRequest: null,
-    PricePerGbSecond: null,
-    Cloud: aws,
-    Category: Compute,
-    SubCategory: CloudFunctions
-  },
-  {
-    FunctionName: AWSLambda,
-    Region: us-east-1,
-    PricePerRequest: null,
-    PricePerGbSecond: null,
-    Cloud: aws,
-    Category: Compute,
-    SubCategory: CloudFunctions
-  },
-  {
-    FunctionName: AWSLambda,
-    Region: us-east-1,
-    PricePerRequest: null,
-    PricePerGbSecond: null,
-    Cloud: aws,
-    Category: Compute,
-    SubCategory: CloudFunctions
-  },
-  {
-    FunctionName: AWSLambda,
-    Region: us-east-1,
-    PricePerRequest: null,
-    PricePerGbSecond: null,
-    Cloud: aws,
-    Category: Compute,
-    SubCategory: CloudFunctions
-  },
-  {
-    FunctionName: AWSLambda,
-    Region: us-east-1,
-    PricePerRequest: null,
-    PricePerGbSecond: null,
-    Cloud: aws,
-    Category: Compute,
-    SubCategory: CloudFunctions
-  },
-  {
-    FunctionName: AWSLambda,
-    Region: us-east-1,
-    PricePerRequest: null,
-    PricePerGbSecond: null,
-    Cloud: aws,
-    Category: Compute,
-    SubCategory: CloudFunctions
-  },
-  {
-    FunctionName: AWSLambda,
-    Region: us-east-1,
-    PricePerRequest: null,
-    PricePerGbSecond: null,
-    Cloud: aws,
-    Category: Compute,
-    SubCategory: CloudFunctions
-  },
-  {
-    FunctionName: AWSLambda,
-    Region: us-east-1,
-    PricePerRequest: null,
-    PricePerGbSecond: null,
-    Cloud: aws,
-    Category: Compute,
-    SubCategory: CloudFunctions
-  },
-  {
-    FunctionName: AWSLambda,
-    Region: us-east-1,
-    PricePerRequest: null,
-    PricePerGbSecond: null,
-    Cloud: aws,
-    Category: Compute,
-    SubCategory: CloudFunctions
-  },
-  {
-    FunctionName: AWSLambda,
-    Region: us-east-1,
-    PricePerRequest: null,
-    PricePerGbSecond: null,
-    Cloud: aws,
-    Category: Compute,
-    SubCategory: CloudFunctions
-  },
-  {
-    FunctionName: AWSLambda,
-    Region: us-east-1,
-    PricePerRequest: null,
-    PricePerGbSecond: null,
-    Cloud: aws,
-    Category: Compute,
-    SubCategory: CloudFunctions
-  },
-  {
-    FunctionName: AWSLambda,
-    Region: us-east-1,
-    PricePerRequest: null,
-    PricePerGbSecond: null,
-    Cloud: aws,
-    Category: Compute,
-    SubCategory: CloudFunctions
-  },
-  {
-    FunctionName: AWSLambda,
-    Region: us-east-1,
-    PricePerRequest: null,
-    PricePerGbSecond: null,
-    Cloud: aws,
-    Category: Compute,
-    SubCategory: CloudFunctions
-  },
-  {
-    FunctionName: AWSLambda,
-    Region: us-east-1,
-    PricePerRequest: null,
-    PricePerGbSecond: null,
-    Cloud: aws,
-    Category: Compute,
-    SubCategory: CloudFunctions
-  },
-  {
-    FunctionName: AWSLambda,
-    Region: us-east-1,
-    PricePerRequest: null,
-    PricePerGbSecond: null,
-    Cloud: aws,
-    Category: Compute,
-    SubCategory: CloudFunctions
-  },
-  {
-    FunctionName: AWSLambda,
-    Region: us-east-1,
-    PricePerRequest: null,
-    PricePerGbSecond: null,
-    Cloud: aws,
-    Category: Compute,
-    SubCategory: CloudFunctions
-  },
-  {
-    FunctionName: AWSLambda,
-    Region: us-east-1,
-    PricePerRequest: null,
-    PricePerGbSecond: null,
-    Cloud: aws,
-    Category: Compute,
-    SubCategory: CloudFunctions
-  },
-  {
-    FunctionName: AWSLambda,
-    Region: us-east-1,
-    PricePerRequest: null,
-    PricePerGbSecond: null,
-    Cloud: aws,
-    Category: Compute,
-    SubCategory: CloudFunctions
-  },
-  {
-    FunctionName: AWSLambda,
-    Region: us-east-1,
-    PricePerRequest: null,
-    PricePerGbSecond: null,
-    Cloud: aws,
-    Category: Compute,
-    SubCategory: CloudFunctions
-  },
-  {
-    FunctionName: AWSLambda,
-    Region: us-east-1,
-    PricePerRequest: null,
-    PricePerGbSecond: null,
-    Cloud: aws,
-    Category: Compute,
-    SubCategory: CloudFunctions
-  },
-  {
-    FunctionName: AWSLambda,
-    Region: us-east-1,
-    PricePerRequest: null,
-    PricePerGbSecond: null,
-    Cloud: aws,
-    Category: Compute,
-    SubCategory: CloudFunctions
-  },
-  {
-    FunctionName: AWSLambda,
-    Region: us-east-1,
-    PricePerRequest: null,
-    PricePerGbSecond: null,
-    Cloud: aws,
-    Category: Compute,
-    SubCategory: CloudFunctions
-  },
-  {
-    FunctionName: AWSLambda,
-    Region: us-east-1,
-    PricePerRequest: null,
-    PricePerGbSecond: null,
-    Cloud: aws,
-    Category: Compute,
-    SubCategory: CloudFunctions
-  },
-  {
-    FunctionName: AWS-Lambda-Tenant-Isolated-Environment-Memory-GB-ARM,
-    Region: us-east-1,
-    PricePerRequest: null,
-    PricePerGbSecond: null,
-    Cloud: aws,
-    Category: Compute,
-    SubCategory: CloudFunctions
-  },
-  {
-    FunctionName: AWSLambda,
-    Region: us-east-1,
-    PricePerRequest: null,
-    PricePerGbSecond: null,
-    Cloud: aws,
-    Category: Compute,
-    SubCategory: CloudFunctions
-  },
-  {
-    FunctionName: AWS-Lambda-Processed-Bytes-ARM,
-    Region: us-east-1,
-    PricePerRequest: null,
-    PricePerGbSecond: null,
-    Cloud: aws,
-    Category: Compute,
-    SubCategory: CloudFunctions
-  },
-  {
-    FunctionName: AWSLambda,
-    Region: us-east-1,
-    PricePerRequest: null,
-    PricePerGbSecond: null,
-    Cloud: aws,
-    Category: Compute,
-    SubCategory: CloudFunctions
-  },
-  {
-    FunctionName: AWSLambda,
-    Region: us-east-1,
-    PricePerRequest: null,
-    PricePerGbSecond: null,
-    Cloud: aws,
-    Category: Compute,
-    SubCategory: CloudFunctions
-  },
-  {
-    FunctionName: AWSLambda,
-    Region: us-east-1,
-    PricePerRequest: null,
-    PricePerGbSecond: null,
-    Cloud: aws,
-    Category: Compute,
-    SubCategory: CloudFunctions
-  },
-  {
-    FunctionName: AWSLambda,
-    Region: us-east-1,
-    PricePerRequest: null,
-    PricePerGbSecond: null,
-    Cloud: aws,
-    Category: Compute,
-    SubCategory: CloudFunctions
-  },
-  {
-    FunctionName: AWSLambda,
-    Region: us-east-1,
-    PricePerRequest: null,
-    PricePerGbSecond: null,
-    Cloud: aws,
-    Category: Compute,
-    SubCategory: CloudFunctions
-  },
-  {
-    FunctionName: AWSLambda,
-    Region: us-east-1,
-    PricePerRequest: null,
-    PricePerGbSecond: null,
-    Cloud: aws,
-    Category: Compute,
-    SubCategory: CloudFunctions
-  },
-  {
-    FunctionName: AWSLambda,
-    Region: us-east-1,
-    PricePerRequest: null,
-    PricePerGbSecond: null,
-    Cloud: aws,
-    Category: Compute,
-    SubCategory: CloudFunctions
-  },
-  {
-    FunctionName: AWSLambda,
-    Region: us-east-1,
-    PricePerRequest: null,
-    PricePerGbSecond: null,
-    Cloud: aws,
-    Category: Compute,
-    SubCategory: CloudFunctions
-  },
-  {
-    FunctionName: AWSLambda,
-    Region: us-east-1,
-    PricePerRequest: null,
-    PricePerGbSecond: null,
-    Cloud: aws,
-    Category: Compute,
-    SubCategory: CloudFunctions
-  },
-  {
-    FunctionName: AWSLambda,
-    Region: us-east-1,
-    PricePerRequest: null,
-    PricePerGbSecond: null,
-    Cloud: aws,
-    Category: Compute,
-    SubCategory: CloudFunctions
-  },
-  {
-    FunctionName: AWSLambda,
-    Region: us-east-1,
-    PricePerRequest: null,
-    PricePerGbSecond: null,
+    PricePerGbSecond: 0.0000077778,
     Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
@@ -1234,60 +532,6 @@
   },
   {
     FunctionName: AWS-Lambda-Durable-Execution-Operations,
-    Region: us-east-1,
-    PricePerRequest: null,
-    PricePerGbSecond: null,
-    Cloud: aws,
-    Category: Compute,
-    SubCategory: CloudFunctions
-  },
-  {
-    FunctionName: AWSLambda,
-    Region: us-east-1,
-    PricePerRequest: null,
-    PricePerGbSecond: null,
-    Cloud: aws,
-    Category: Compute,
-    SubCategory: CloudFunctions
-  },
-  {
-    FunctionName: AWSLambda,
-    Region: us-east-1,
-    PricePerRequest: null,
-    PricePerGbSecond: null,
-    Cloud: aws,
-    Category: Compute,
-    SubCategory: CloudFunctions
-  },
-  {
-    FunctionName: AWSLambda,
-    Region: us-east-1,
-    PricePerRequest: null,
-    PricePerGbSecond: null,
-    Cloud: aws,
-    Category: Compute,
-    SubCategory: CloudFunctions
-  },
-  {
-    FunctionName: AWSLambda,
-    Region: us-east-1,
-    PricePerRequest: null,
-    PricePerGbSecond: null,
-    Cloud: aws,
-    Category: Compute,
-    SubCategory: CloudFunctions
-  },
-  {
-    FunctionName: AWS-Lambda-Event-Poller-Unit-Duration,
-    Region: us-east-1,
-    PricePerRequest: null,
-    PricePerGbSecond: null,
-    Cloud: aws,
-    Category: Compute,
-    SubCategory: CloudFunctions
-  },
-  {
-    FunctionName: AWSLambda,
     Region: us-east-1,
     PricePerRequest: null,
     PricePerGbSecond: null,
@@ -1557,7 +801,115 @@
     SubCategory: CloudFunctions
   },
   {
-    FunctionName: AWS-Lambda-Durable-Execution-Written-Bytes,
+    FunctionName: AWSLambda,
+    Region: us-east-1,
+    PricePerRequest: null,
+    PricePerGbSecond: null,
+    Cloud: aws,
+    Category: Compute,
+    SubCategory: CloudFunctions
+  },
+  {
+    FunctionName: AWSLambda,
+    Region: us-east-1,
+    PricePerRequest: null,
+    PricePerGbSecond: null,
+    Cloud: aws,
+    Category: Compute,
+    SubCategory: CloudFunctions
+  },
+  {
+    FunctionName: AWSLambda,
+    Region: us-east-1,
+    PricePerRequest: null,
+    PricePerGbSecond: null,
+    Cloud: aws,
+    Category: Compute,
+    SubCategory: CloudFunctions
+  },
+  {
+    FunctionName: AWSLambda,
+    Region: us-east-1,
+    PricePerRequest: null,
+    PricePerGbSecond: null,
+    Cloud: aws,
+    Category: Compute,
+    SubCategory: CloudFunctions
+  },
+  {
+    FunctionName: AWSLambda,
+    Region: us-east-1,
+    PricePerRequest: null,
+    PricePerGbSecond: null,
+    Cloud: aws,
+    Category: Compute,
+    SubCategory: CloudFunctions
+  },
+  {
+    FunctionName: AWSLambda,
+    Region: us-east-1,
+    PricePerRequest: null,
+    PricePerGbSecond: null,
+    Cloud: aws,
+    Category: Compute,
+    SubCategory: CloudFunctions
+  },
+  {
+    FunctionName: AWSLambda,
+    Region: us-east-1,
+    PricePerRequest: null,
+    PricePerGbSecond: null,
+    Cloud: aws,
+    Category: Compute,
+    SubCategory: CloudFunctions
+  },
+  {
+    FunctionName: AWSLambda,
+    Region: us-east-1,
+    PricePerRequest: null,
+    PricePerGbSecond: null,
+    Cloud: aws,
+    Category: Compute,
+    SubCategory: CloudFunctions
+  },
+  {
+    FunctionName: AWSLambda,
+    Region: us-east-1,
+    PricePerRequest: null,
+    PricePerGbSecond: null,
+    Cloud: aws,
+    Category: Compute,
+    SubCategory: CloudFunctions
+  },
+  {
+    FunctionName: AWSLambda,
+    Region: us-east-1,
+    PricePerRequest: null,
+    PricePerGbSecond: null,
+    Cloud: aws,
+    Category: Compute,
+    SubCategory: CloudFunctions
+  },
+  {
+    FunctionName: AWSLambda,
+    Region: us-east-1,
+    PricePerRequest: null,
+    PricePerGbSecond: null,
+    Cloud: aws,
+    Category: Compute,
+    SubCategory: CloudFunctions
+  },
+  {
+    FunctionName: AWSLambda,
+    Region: us-east-1,
+    PricePerRequest: null,
+    PricePerGbSecond: null,
+    Cloud: aws,
+    Category: Compute,
+    SubCategory: CloudFunctions
+  },
+  {
+    FunctionName: AWS-Lambda-Processed-Bytes-ARM,
     Region: us-east-1,
     PricePerRequest: null,
     PricePerGbSecond: null,
@@ -1678,132 +1030,6 @@
     Region: us-east-1,
     PricePerRequest: null,
     PricePerGbSecond: null,
-    Cloud: aws,
-    Category: Compute,
-    SubCategory: CloudFunctions
-  },
-  {
-    FunctionName: AWSLambda,
-    Region: us-east-1,
-    PricePerRequest: null,
-    PricePerGbSecond: null,
-    Cloud: aws,
-    Category: Compute,
-    SubCategory: CloudFunctions
-  },
-  {
-    FunctionName: AWSLambda,
-    Region: us-east-1,
-    PricePerRequest: null,
-    PricePerGbSecond: null,
-    Cloud: aws,
-    Category: Compute,
-    SubCategory: CloudFunctions
-  },
-  {
-    FunctionName: AWSLambda,
-    Region: us-east-1,
-    PricePerRequest: null,
-    PricePerGbSecond: null,
-    Cloud: aws,
-    Category: Compute,
-    SubCategory: CloudFunctions
-  },
-  {
-    FunctionName: AWSLambda,
-    Region: us-east-1,
-    PricePerRequest: null,
-    PricePerGbSecond: null,
-    Cloud: aws,
-    Category: Compute,
-    SubCategory: CloudFunctions
-  },
-  {
-    FunctionName: AWSLambda,
-    Region: us-east-1,
-    PricePerRequest: null,
-    PricePerGbSecond: null,
-    Cloud: aws,
-    Category: Compute,
-    SubCategory: CloudFunctions
-  },
-  {
-    FunctionName: AWSLambda,
-    Region: us-east-1,
-    PricePerRequest: null,
-    PricePerGbSecond: null,
-    Cloud: aws,
-    Category: Compute,
-    SubCategory: CloudFunctions
-  },
-  {
-    FunctionName: AWSLambda,
-    Region: us-east-1,
-    PricePerRequest: null,
-    PricePerGbSecond: null,
-    Cloud: aws,
-    Category: Compute,
-    SubCategory: CloudFunctions
-  },
-  {
-    FunctionName: AWSLambda,
-    Region: us-east-1,
-    PricePerRequest: null,
-    PricePerGbSecond: null,
-    Cloud: aws,
-    Category: Compute,
-    SubCategory: CloudFunctions
-  },
-  {
-    FunctionName: AWSLambda,
-    Region: us-east-1,
-    PricePerRequest: null,
-    PricePerGbSecond: null,
-    Cloud: aws,
-    Category: Compute,
-    SubCategory: CloudFunctions
-  },
-  {
-    FunctionName: AWSLambda,
-    Region: us-east-1,
-    PricePerRequest: null,
-    PricePerGbSecond: null,
-    Cloud: aws,
-    Category: Compute,
-    SubCategory: CloudFunctions
-  },
-  {
-    FunctionName: AWSLambda,
-    Region: us-east-1,
-    PricePerRequest: null,
-    PricePerGbSecond: null,
-    Cloud: aws,
-    Category: Compute,
-    SubCategory: CloudFunctions
-  },
-  {
-    FunctionName: AWSLambda,
-    Region: us-east-1,
-    PricePerRequest: null,
-    PricePerGbSecond: null,
-    Cloud: aws,
-    Category: Compute,
-    SubCategory: CloudFunctions
-  },
-  {
-    FunctionName: AWSLambda,
-    Region: us-east-1,
-    PricePerRequest: null,
-    PricePerGbSecond: null,
-    Cloud: aws,
-    Category: Compute,
-    SubCategory: CloudFunctions
-  },
-  {
-    FunctionName: AWS-Lambda-Duration-Provisioned-ARM,
-    Region: us-east-1,
-    PricePerRequest: null,
-    PricePerGbSecond: 0.0000077778,
     Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
@@ -1899,82 +1125,262 @@
     SubCategory: CloudFunctions
   },
   {
-    FunctionName: AWSLambda,
-    Region: us-east-1,
-    PricePerRequest: null,
-    PricePerGbSecond: null,
-    Cloud: aws,
-    Category: Compute,
-    SubCategory: CloudFunctions
-  },
-  {
-    FunctionName: AWSLambda,
-    Region: us-east-1,
-    PricePerRequest: null,
-    PricePerGbSecond: null,
-    Cloud: aws,
-    Category: Compute,
-    SubCategory: CloudFunctions
-  },
-  {
-    FunctionName: AWSLambda,
-    Region: us-east-1,
-    PricePerRequest: null,
-    PricePerGbSecond: null,
-    Cloud: aws,
-    Category: Compute,
-    SubCategory: CloudFunctions
-  },
-  {
-    FunctionName: AWSLambda,
-    Region: us-east-1,
-    PricePerRequest: null,
-    PricePerGbSecond: null,
-    Cloud: aws,
-    Category: Compute,
-    SubCategory: CloudFunctions
-  },
-  {
-    FunctionName: AWSLambda,
-    Region: us-east-1,
-    PricePerRequest: null,
-    PricePerGbSecond: null,
-    Cloud: aws,
-    Category: Compute,
-    SubCategory: CloudFunctions
-  },
-  {
-    FunctionName: AWSLambda,
-    Region: us-east-1,
-    PricePerRequest: null,
-    PricePerGbSecond: null,
-    Cloud: aws,
-    Category: Compute,
-    SubCategory: CloudFunctions
-  },
-  {
-    FunctionName: AWSLambda,
-    Region: us-east-1,
-    PricePerRequest: null,
-    PricePerGbSecond: null,
-    Cloud: aws,
-    Category: Compute,
-    SubCategory: CloudFunctions
-  },
-  {
-    FunctionName: AWSLambda,
-    Region: us-east-1,
-    PricePerRequest: null,
-    PricePerGbSecond: null,
-    Cloud: aws,
-    Category: Compute,
-    SubCategory: CloudFunctions
-  },
-  {
     FunctionName: AWS-Lambda-Edge-Duration,
     Region: us-east-1,
     PricePerRequest: null,
     PricePerGbSecond: 0.00005001,
+    Cloud: aws,
+    Category: Compute,
+    SubCategory: CloudFunctions
+  },
+  {
+    FunctionName: AWSLambda,
+    Region: us-east-1,
+    PricePerRequest: null,
+    PricePerGbSecond: null,
+    Cloud: aws,
+    Category: Compute,
+    SubCategory: CloudFunctions
+  },
+  {
+    FunctionName: AWSLambda,
+    Region: us-east-1,
+    PricePerRequest: null,
+    PricePerGbSecond: null,
+    Cloud: aws,
+    Category: Compute,
+    SubCategory: CloudFunctions
+  },
+  {
+    FunctionName: AWSLambda,
+    Region: us-east-1,
+    PricePerRequest: null,
+    PricePerGbSecond: null,
+    Cloud: aws,
+    Category: Compute,
+    SubCategory: CloudFunctions
+  },
+  {
+    FunctionName: AWSLambda,
+    Region: us-east-1,
+    PricePerRequest: null,
+    PricePerGbSecond: null,
+    Cloud: aws,
+    Category: Compute,
+    SubCategory: CloudFunctions
+  },
+  {
+    FunctionName: AWSLambda,
+    Region: us-east-1,
+    PricePerRequest: null,
+    PricePerGbSecond: null,
+    Cloud: aws,
+    Category: Compute,
+    SubCategory: CloudFunctions
+  },
+  {
+    FunctionName: AWSLambda,
+    Region: us-east-1,
+    PricePerRequest: null,
+    PricePerGbSecond: null,
+    Cloud: aws,
+    Category: Compute,
+    SubCategory: CloudFunctions
+  },
+  {
+    FunctionName: AWSLambda,
+    Region: us-east-1,
+    PricePerRequest: null,
+    PricePerGbSecond: null,
+    Cloud: aws,
+    Category: Compute,
+    SubCategory: CloudFunctions
+  },
+  {
+    FunctionName: AWSLambda,
+    Region: us-east-1,
+    PricePerRequest: null,
+    PricePerGbSecond: null,
+    Cloud: aws,
+    Category: Compute,
+    SubCategory: CloudFunctions
+  },
+  {
+    FunctionName: AWSLambda,
+    Region: us-east-1,
+    PricePerRequest: null,
+    PricePerGbSecond: null,
+    Cloud: aws,
+    Category: Compute,
+    SubCategory: CloudFunctions
+  },
+  {
+    FunctionName: AWSLambda,
+    Region: us-east-1,
+    PricePerRequest: null,
+    PricePerGbSecond: null,
+    Cloud: aws,
+    Category: Compute,
+    SubCategory: CloudFunctions
+  },
+  {
+    FunctionName: AWSLambda,
+    Region: us-east-1,
+    PricePerRequest: null,
+    PricePerGbSecond: null,
+    Cloud: aws,
+    Category: Compute,
+    SubCategory: CloudFunctions
+  },
+  {
+    FunctionName: AWSLambda,
+    Region: us-east-1,
+    PricePerRequest: null,
+    PricePerGbSecond: null,
+    Cloud: aws,
+    Category: Compute,
+    SubCategory: CloudFunctions
+  },
+  {
+    FunctionName: AWSLambda,
+    Region: us-east-1,
+    PricePerRequest: null,
+    PricePerGbSecond: null,
+    Cloud: aws,
+    Category: Compute,
+    SubCategory: CloudFunctions
+  },
+  {
+    FunctionName: AWSLambda,
+    Region: us-east-1,
+    PricePerRequest: null,
+    PricePerGbSecond: null,
+    Cloud: aws,
+    Category: Compute,
+    SubCategory: CloudFunctions
+  },
+  {
+    FunctionName: AWSLambda,
+    Region: us-east-1,
+    PricePerRequest: null,
+    PricePerGbSecond: null,
+    Cloud: aws,
+    Category: Compute,
+    SubCategory: CloudFunctions
+  },
+  {
+    FunctionName: AWSLambda,
+    Region: us-east-1,
+    PricePerRequest: null,
+    PricePerGbSecond: null,
+    Cloud: aws,
+    Category: Compute,
+    SubCategory: CloudFunctions
+  },
+  {
+    FunctionName: AWSLambda,
+    Region: us-east-1,
+    PricePerRequest: null,
+    PricePerGbSecond: null,
+    Cloud: aws,
+    Category: Compute,
+    SubCategory: CloudFunctions
+  },
+  {
+    FunctionName: AWS-Lambda-Durable-Execution-Written-Bytes,
+    Region: us-east-1,
+    PricePerRequest: null,
+    PricePerGbSecond: null,
+    Cloud: aws,
+    Category: Compute,
+    SubCategory: CloudFunctions
+  },
+  {
+    FunctionName: AWSLambda,
+    Region: us-east-1,
+    PricePerRequest: null,
+    PricePerGbSecond: null,
+    Cloud: aws,
+    Category: Compute,
+    SubCategory: CloudFunctions
+  },
+  {
+    FunctionName: AWSLambda,
+    Region: us-east-1,
+    PricePerRequest: null,
+    PricePerGbSecond: null,
+    Cloud: aws,
+    Category: Compute,
+    SubCategory: CloudFunctions
+  },
+  {
+    FunctionName: AWSLambda,
+    Region: us-east-1,
+    PricePerRequest: null,
+    PricePerGbSecond: null,
+    Cloud: aws,
+    Category: Compute,
+    SubCategory: CloudFunctions
+  },
+  {
+    FunctionName: AWSLambda,
+    Region: us-east-1,
+    PricePerRequest: null,
+    PricePerGbSecond: null,
+    Cloud: aws,
+    Category: Compute,
+    SubCategory: CloudFunctions
+  },
+  {
+    FunctionName: AWSLambda,
+    Region: us-east-1,
+    PricePerRequest: null,
+    PricePerGbSecond: null,
+    Cloud: aws,
+    Category: Compute,
+    SubCategory: CloudFunctions
+  },
+  {
+    FunctionName: AWSLambda,
+    Region: us-east-1,
+    PricePerRequest: null,
+    PricePerGbSecond: null,
+    Cloud: aws,
+    Category: Compute,
+    SubCategory: CloudFunctions
+  },
+  {
+    FunctionName: AWSLambda,
+    Region: us-east-1,
+    PricePerRequest: null,
+    PricePerGbSecond: null,
+    Cloud: aws,
+    Category: Compute,
+    SubCategory: CloudFunctions
+  },
+  {
+    FunctionName: AWSLambda,
+    Region: us-east-1,
+    PricePerRequest: null,
+    PricePerGbSecond: null,
+    Cloud: aws,
+    Category: Compute,
+    SubCategory: CloudFunctions
+  },
+  {
+    FunctionName: AWSLambda,
+    Region: us-east-1,
+    PricePerRequest: null,
+    PricePerGbSecond: null,
+    Cloud: aws,
+    Category: Compute,
+    SubCategory: CloudFunctions
+  },
+  {
+    FunctionName: AWS-Lambda-Event-Poller-Unit-Duration,
+    Region: us-east-1,
+    PricePerRequest: null,
+    PricePerGbSecond: null,
     Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions
@@ -2279,385 +1685,7 @@
   {
     FunctionName: AWSLambda,
     Region: us-east-1,
-    PricePerRequest: null,
-    PricePerGbSecond: null,
-    Cloud: aws,
-    Category: Compute,
-    SubCategory: CloudFunctions
-  },
-  {
-    FunctionName: AWSLambda,
-    Region: us-east-1,
-    PricePerRequest: null,
-    PricePerGbSecond: null,
-    Cloud: aws,
-    Category: Compute,
-    SubCategory: CloudFunctions
-  },
-  {
-    FunctionName: AWSLambda,
-    Region: us-east-1,
-    PricePerRequest: null,
-    PricePerGbSecond: null,
-    Cloud: aws,
-    Category: Compute,
-    SubCategory: CloudFunctions
-  },
-  {
-    FunctionName: AWSLambda,
-    Region: us-east-1,
-    PricePerRequest: null,
-    PricePerGbSecond: null,
-    Cloud: aws,
-    Category: Compute,
-    SubCategory: CloudFunctions
-  },
-  {
-    FunctionName: AWS-Lambda-Provisioned-Concurrency,
-    Region: us-east-1,
-    PricePerRequest: null,
-    PricePerGbSecond: 0.0000041667,
-    Cloud: aws,
-    Category: Compute,
-    SubCategory: CloudFunctions
-  },
-  {
-    FunctionName: AWSLambda,
-    Region: us-east-1,
-    PricePerRequest: null,
-    PricePerGbSecond: null,
-    Cloud: aws,
-    Category: Compute,
-    SubCategory: CloudFunctions
-  },
-  {
-    FunctionName: AWSLambda,
-    Region: us-east-1,
-    PricePerRequest: null,
-    PricePerGbSecond: null,
-    Cloud: aws,
-    Category: Compute,
-    SubCategory: CloudFunctions
-  },
-  {
-    FunctionName: AWSLambda,
-    Region: us-east-1,
-    PricePerRequest: null,
-    PricePerGbSecond: null,
-    Cloud: aws,
-    Category: Compute,
-    SubCategory: CloudFunctions
-  },
-  {
-    FunctionName: AWSLambda,
-    Region: us-east-1,
-    PricePerRequest: null,
-    PricePerGbSecond: null,
-    Cloud: aws,
-    Category: Compute,
-    SubCategory: CloudFunctions
-  },
-  {
-    FunctionName: AWSLambda,
-    Region: us-east-1,
-    PricePerRequest: null,
-    PricePerGbSecond: null,
-    Cloud: aws,
-    Category: Compute,
-    SubCategory: CloudFunctions
-  },
-  {
-    FunctionName: AWSLambda,
-    Region: us-east-1,
-    PricePerRequest: null,
-    PricePerGbSecond: null,
-    Cloud: aws,
-    Category: Compute,
-    SubCategory: CloudFunctions
-  },
-  {
-    FunctionName: AWSLambda,
-    Region: us-east-1,
     PricePerRequest: 0.0000002,
-    PricePerGbSecond: null,
-    Cloud: aws,
-    Category: Compute,
-    SubCategory: CloudFunctions
-  },
-  {
-    FunctionName: AWSLambda,
-    Region: us-east-1,
-    PricePerRequest: null,
-    PricePerGbSecond: null,
-    Cloud: aws,
-    Category: Compute,
-    SubCategory: CloudFunctions
-  },
-  {
-    FunctionName: AWSLambda,
-    Region: us-east-1,
-    PricePerRequest: null,
-    PricePerGbSecond: null,
-    Cloud: aws,
-    Category: Compute,
-    SubCategory: CloudFunctions
-  },
-  {
-    FunctionName: AWSLambda,
-    Region: us-east-1,
-    PricePerRequest: null,
-    PricePerGbSecond: null,
-    Cloud: aws,
-    Category: Compute,
-    SubCategory: CloudFunctions
-  },
-  {
-    FunctionName: AWSLambda,
-    Region: us-east-1,
-    PricePerRequest: null,
-    PricePerGbSecond: null,
-    Cloud: aws,
-    Category: Compute,
-    SubCategory: CloudFunctions
-  },
-  {
-    FunctionName: AWSLambda,
-    Region: us-east-1,
-    PricePerRequest: null,
-    PricePerGbSecond: null,
-    Cloud: aws,
-    Category: Compute,
-    SubCategory: CloudFunctions
-  },
-  {
-    FunctionName: AWSLambda,
-    Region: us-east-1,
-    PricePerRequest: null,
-    PricePerGbSecond: null,
-    Cloud: aws,
-    Category: Compute,
-    SubCategory: CloudFunctions
-  },
-  {
-    FunctionName: AWSLambda,
-    Region: us-east-1,
-    PricePerRequest: null,
-    PricePerGbSecond: null,
-    Cloud: aws,
-    Category: Compute,
-    SubCategory: CloudFunctions
-  },
-  {
-    FunctionName: AWSLambda,
-    Region: us-east-1,
-    PricePerRequest: null,
-    PricePerGbSecond: null,
-    Cloud: aws,
-    Category: Compute,
-    SubCategory: CloudFunctions
-  },
-  {
-    FunctionName: AWSLambda,
-    Region: us-east-1,
-    PricePerRequest: null,
-    PricePerGbSecond: null,
-    Cloud: aws,
-    Category: Compute,
-    SubCategory: CloudFunctions
-  },
-  {
-    FunctionName: AWSLambda,
-    Region: us-east-1,
-    PricePerRequest: null,
-    PricePerGbSecond: null,
-    Cloud: aws,
-    Category: Compute,
-    SubCategory: CloudFunctions
-  },
-  {
-    FunctionName: AWSLambda,
-    Region: us-east-1,
-    PricePerRequest: null,
-    PricePerGbSecond: null,
-    Cloud: aws,
-    Category: Compute,
-    SubCategory: CloudFunctions
-  },
-  {
-    FunctionName: AWSLambda,
-    Region: us-east-1,
-    PricePerRequest: null,
-    PricePerGbSecond: null,
-    Cloud: aws,
-    Category: Compute,
-    SubCategory: CloudFunctions
-  },
-  {
-    FunctionName: AWSLambda,
-    Region: us-east-1,
-    PricePerRequest: null,
-    PricePerGbSecond: null,
-    Cloud: aws,
-    Category: Compute,
-    SubCategory: CloudFunctions
-  },
-  {
-    FunctionName: AWSLambda,
-    Region: us-east-1,
-    PricePerRequest: 0.0000002,
-    PricePerGbSecond: null,
-    Cloud: aws,
-    Category: Compute,
-    SubCategory: CloudFunctions
-  },
-  {
-    FunctionName: AWSLambda,
-    Region: us-east-1,
-    PricePerRequest: null,
-    PricePerGbSecond: null,
-    Cloud: aws,
-    Category: Compute,
-    SubCategory: CloudFunctions
-  },
-  {
-    FunctionName: AWSLambda,
-    Region: us-east-1,
-    PricePerRequest: null,
-    PricePerGbSecond: null,
-    Cloud: aws,
-    Category: Compute,
-    SubCategory: CloudFunctions
-  },
-  {
-    FunctionName: AWSLambda,
-    Region: us-east-1,
-    PricePerRequest: null,
-    PricePerGbSecond: null,
-    Cloud: aws,
-    Category: Compute,
-    SubCategory: CloudFunctions
-  },
-  {
-    FunctionName: AWSLambda,
-    Region: us-east-1,
-    PricePerRequest: null,
-    PricePerGbSecond: null,
-    Cloud: aws,
-    Category: Compute,
-    SubCategory: CloudFunctions
-  },
-  {
-    FunctionName: AWSLambda,
-    Region: us-east-1,
-    PricePerRequest: null,
-    PricePerGbSecond: null,
-    Cloud: aws,
-    Category: Compute,
-    SubCategory: CloudFunctions
-  },
-  {
-    FunctionName: AWSLambda,
-    Region: us-east-1,
-    PricePerRequest: null,
-    PricePerGbSecond: null,
-    Cloud: aws,
-    Category: Compute,
-    SubCategory: CloudFunctions
-  },
-  {
-    FunctionName: AWSLambda,
-    Region: us-east-1,
-    PricePerRequest: null,
-    PricePerGbSecond: null,
-    Cloud: aws,
-    Category: Compute,
-    SubCategory: CloudFunctions
-  },
-  {
-    FunctionName: AWSLambda,
-    Region: us-east-1,
-    PricePerRequest: null,
-    PricePerGbSecond: null,
-    Cloud: aws,
-    Category: Compute,
-    SubCategory: CloudFunctions
-  },
-  {
-    FunctionName: AWSLambda,
-    Region: us-east-1,
-    PricePerRequest: null,
-    PricePerGbSecond: null,
-    Cloud: aws,
-    Category: Compute,
-    SubCategory: CloudFunctions
-  },
-  {
-    FunctionName: AWSLambda,
-    Region: us-east-1,
-    PricePerRequest: null,
-    PricePerGbSecond: null,
-    Cloud: aws,
-    Category: Compute,
-    SubCategory: CloudFunctions
-  },
-  {
-    FunctionName: AWSLambda,
-    Region: us-east-1,
-    PricePerRequest: null,
-    PricePerGbSecond: null,
-    Cloud: aws,
-    Category: Compute,
-    SubCategory: CloudFunctions
-  },
-  {
-    FunctionName: AWS-Lambda-Requests-ARM,
-    Region: us-east-1,
-    PricePerRequest: 0.0000002,
-    PricePerGbSecond: null,
-    Cloud: aws,
-    Category: Compute,
-    SubCategory: CloudFunctions
-  },
-  {
-    FunctionName: AWSLambda,
-    Region: us-east-1,
-    PricePerRequest: null,
-    PricePerGbSecond: null,
-    Cloud: aws,
-    Category: Compute,
-    SubCategory: CloudFunctions
-  },
-  {
-    FunctionName: AWSLambda,
-    Region: us-east-1,
-    PricePerRequest: null,
-    PricePerGbSecond: null,
-    Cloud: aws,
-    Category: Compute,
-    SubCategory: CloudFunctions
-  },
-  {
-    FunctionName: AWSLambda,
-    Region: us-east-1,
-    PricePerRequest: null,
-    PricePerGbSecond: null,
-    Cloud: aws,
-    Category: Compute,
-    SubCategory: CloudFunctions
-  },
-  {
-    FunctionName: AWSLambda,
-    Region: us-east-1,
-    PricePerRequest: null,
-    PricePerGbSecond: null,
-    Cloud: aws,
-    Category: Compute,
-    SubCategory: CloudFunctions
-  },
-  {
-    FunctionName: AWSLambda,
-    Region: us-east-1,
-    PricePerRequest: null,
     PricePerGbSecond: null,
     Cloud: aws,
     Category: Compute,
@@ -3645,249 +2673,6 @@
     SubCategory: CloudFunctions
   },
   {
-    FunctionName: AWSLambda,
-    Region: us-east-1,
-    PricePerRequest: null,
-    PricePerGbSecond: null,
-    Cloud: aws,
-    Category: Compute,
-    SubCategory: CloudFunctions
-  },
-  {
-    FunctionName: AWSLambda,
-    Region: us-east-1,
-    PricePerRequest: null,
-    PricePerGbSecond: null,
-    Cloud: aws,
-    Category: Compute,
-    SubCategory: CloudFunctions
-  },
-  {
-    FunctionName: AWSLambda,
-    Region: us-east-1,
-    PricePerRequest: null,
-    PricePerGbSecond: null,
-    Cloud: aws,
-    Category: Compute,
-    SubCategory: CloudFunctions
-  },
-  {
-    FunctionName: AWSLambda,
-    Region: us-east-1,
-    PricePerRequest: null,
-    PricePerGbSecond: null,
-    Cloud: aws,
-    Category: Compute,
-    SubCategory: CloudFunctions
-  },
-  {
-    FunctionName: AWSLambda,
-    Region: us-east-1,
-    PricePerRequest: null,
-    PricePerGbSecond: null,
-    Cloud: aws,
-    Category: Compute,
-    SubCategory: CloudFunctions
-  },
-  {
-    FunctionName: AWSLambda,
-    Region: us-east-1,
-    PricePerRequest: null,
-    PricePerGbSecond: null,
-    Cloud: aws,
-    Category: Compute,
-    SubCategory: CloudFunctions
-  },
-  {
-    FunctionName: AWSLambda,
-    Region: us-east-1,
-    PricePerRequest: null,
-    PricePerGbSecond: null,
-    Cloud: aws,
-    Category: Compute,
-    SubCategory: CloudFunctions
-  },
-  {
-    FunctionName: AWSLambda,
-    Region: us-east-1,
-    PricePerRequest: null,
-    PricePerGbSecond: null,
-    Cloud: aws,
-    Category: Compute,
-    SubCategory: CloudFunctions
-  },
-  {
-    FunctionName: AWSLambda,
-    Region: us-east-1,
-    PricePerRequest: null,
-    PricePerGbSecond: null,
-    Cloud: aws,
-    Category: Compute,
-    SubCategory: CloudFunctions
-  },
-  {
-    FunctionName: AWSLambda,
-    Region: us-east-1,
-    PricePerRequest: null,
-    PricePerGbSecond: null,
-    Cloud: aws,
-    Category: Compute,
-    SubCategory: CloudFunctions
-  },
-  {
-    FunctionName: AWSLambda,
-    Region: us-east-1,
-    PricePerRequest: null,
-    PricePerGbSecond: null,
-    Cloud: aws,
-    Category: Compute,
-    SubCategory: CloudFunctions
-  },
-  {
-    FunctionName: AWSLambda,
-    Region: us-east-1,
-    PricePerRequest: null,
-    PricePerGbSecond: null,
-    Cloud: aws,
-    Category: Compute,
-    SubCategory: CloudFunctions
-  },
-  {
-    FunctionName: AWSLambda,
-    Region: us-east-1,
-    PricePerRequest: null,
-    PricePerGbSecond: null,
-    Cloud: aws,
-    Category: Compute,
-    SubCategory: CloudFunctions
-  },
-  {
-    FunctionName: AWSLambda,
-    Region: us-east-1,
-    PricePerRequest: null,
-    PricePerGbSecond: null,
-    Cloud: aws,
-    Category: Compute,
-    SubCategory: CloudFunctions
-  },
-  {
-    FunctionName: AWSLambda,
-    Region: us-east-1,
-    PricePerRequest: null,
-    PricePerGbSecond: null,
-    Cloud: aws,
-    Category: Compute,
-    SubCategory: CloudFunctions
-  },
-  {
-    FunctionName: AWSLambda,
-    Region: us-east-1,
-    PricePerRequest: null,
-    PricePerGbSecond: null,
-    Cloud: aws,
-    Category: Compute,
-    SubCategory: CloudFunctions
-  },
-  {
-    FunctionName: AWSLambda,
-    Region: us-east-1,
-    PricePerRequest: null,
-    PricePerGbSecond: null,
-    Cloud: aws,
-    Category: Compute,
-    SubCategory: CloudFunctions
-  },
-  {
-    FunctionName: AWSLambda,
-    Region: us-east-1,
-    PricePerRequest: null,
-    PricePerGbSecond: null,
-    Cloud: aws,
-    Category: Compute,
-    SubCategory: CloudFunctions
-  },
-  {
-    FunctionName: AWSLambda,
-    Region: us-east-1,
-    PricePerRequest: null,
-    PricePerGbSecond: null,
-    Cloud: aws,
-    Category: Compute,
-    SubCategory: CloudFunctions
-  },
-  {
-    FunctionName: AWSLambda,
-    Region: us-east-1,
-    PricePerRequest: null,
-    PricePerGbSecond: null,
-    Cloud: aws,
-    Category: Compute,
-    SubCategory: CloudFunctions
-  },
-  {
-    FunctionName: AWSLambda,
-    Region: us-east-1,
-    PricePerRequest: null,
-    PricePerGbSecond: null,
-    Cloud: aws,
-    Category: Compute,
-    SubCategory: CloudFunctions
-  },
-  {
-    FunctionName: AWSLambda,
-    Region: us-east-1,
-    PricePerRequest: null,
-    PricePerGbSecond: null,
-    Cloud: aws,
-    Category: Compute,
-    SubCategory: CloudFunctions
-  },
-  {
-    FunctionName: AWSLambda,
-    Region: us-east-1,
-    PricePerRequest: null,
-    PricePerGbSecond: null,
-    Cloud: aws,
-    Category: Compute,
-    SubCategory: CloudFunctions
-  },
-  {
-    FunctionName: AWSLambda,
-    Region: us-east-1,
-    PricePerRequest: null,
-    PricePerGbSecond: null,
-    Cloud: aws,
-    Category: Compute,
-    SubCategory: CloudFunctions
-  },
-  {
-    FunctionName: AWSLambda,
-    Region: us-east-1,
-    PricePerRequest: null,
-    PricePerGbSecond: null,
-    Cloud: aws,
-    Category: Compute,
-    SubCategory: CloudFunctions
-  },
-  {
-    FunctionName: AWSLambda,
-    Region: us-east-1,
-    PricePerRequest: null,
-    PricePerGbSecond: null,
-    Cloud: aws,
-    Category: Compute,
-    SubCategory: CloudFunctions
-  },
-  {
-    FunctionName: AWSLambda,
-    Region: us-east-1,
-    PricePerRequest: null,
-    PricePerGbSecond: null,
-    Cloud: aws,
-    Category: Compute,
-    SubCategory: CloudFunctions
-  },
-  {
     FunctionName: AWS-Lambda-Storage-Duration-ARM,
     Region: us-east-1,
     PricePerRequest: null,
@@ -4144,6 +2929,1221 @@
     Region: us-east-1,
     PricePerRequest: null,
     PricePerGbSecond: null,
+    Cloud: aws,
+    Category: Compute,
+    SubCategory: CloudFunctions
+  },
+  {
+    FunctionName: AWSLambda,
+    Region: us-east-1,
+    PricePerRequest: null,
+    PricePerGbSecond: null,
+    Cloud: aws,
+    Category: Compute,
+    SubCategory: CloudFunctions
+  },
+  {
+    FunctionName: AWSLambda,
+    Region: us-east-1,
+    PricePerRequest: null,
+    PricePerGbSecond: null,
+    Cloud: aws,
+    Category: Compute,
+    SubCategory: CloudFunctions
+  },
+  {
+    FunctionName: AWSLambda,
+    Region: us-east-1,
+    PricePerRequest: null,
+    PricePerGbSecond: null,
+    Cloud: aws,
+    Category: Compute,
+    SubCategory: CloudFunctions
+  },
+  {
+    FunctionName: AWS-Lambda-Durable-Execution-TimedStorage-ByteHrs,
+    Region: us-east-1,
+    PricePerRequest: null,
+    PricePerGbSecond: null,
+    Cloud: aws,
+    Category: Compute,
+    SubCategory: CloudFunctions
+  },
+  {
+    FunctionName: AWSLambda,
+    Region: us-east-1,
+    PricePerRequest: null,
+    PricePerGbSecond: null,
+    Cloud: aws,
+    Category: Compute,
+    SubCategory: CloudFunctions
+  },
+  {
+    FunctionName: AWSLambda,
+    Region: us-east-1,
+    PricePerRequest: null,
+    PricePerGbSecond: null,
+    Cloud: aws,
+    Category: Compute,
+    SubCategory: CloudFunctions
+  },
+  {
+    FunctionName: AWSLambda,
+    Region: us-east-1,
+    PricePerRequest: null,
+    PricePerGbSecond: null,
+    Cloud: aws,
+    Category: Compute,
+    SubCategory: CloudFunctions
+  },
+  {
+    FunctionName: AWSLambda,
+    Region: us-east-1,
+    PricePerRequest: null,
+    PricePerGbSecond: null,
+    Cloud: aws,
+    Category: Compute,
+    SubCategory: CloudFunctions
+  },
+  {
+    FunctionName: AWSLambda,
+    Region: us-east-1,
+    PricePerRequest: null,
+    PricePerGbSecond: null,
+    Cloud: aws,
+    Category: Compute,
+    SubCategory: CloudFunctions
+  },
+  {
+    FunctionName: AWSLambda,
+    Region: us-east-1,
+    PricePerRequest: null,
+    PricePerGbSecond: null,
+    Cloud: aws,
+    Category: Compute,
+    SubCategory: CloudFunctions
+  },
+  {
+    FunctionName: AWS-Lambda-Tenant-Isolated-Environment-Memory-GB,
+    Region: us-east-1,
+    PricePerRequest: null,
+    PricePerGbSecond: null,
+    Cloud: aws,
+    Category: Compute,
+    SubCategory: CloudFunctions
+  },
+  {
+    FunctionName: AWSLambda,
+    Region: us-east-1,
+    PricePerRequest: null,
+    PricePerGbSecond: null,
+    Cloud: aws,
+    Category: Compute,
+    SubCategory: CloudFunctions
+  },
+  {
+    FunctionName: AWSLambda,
+    Region: us-east-1,
+    PricePerRequest: null,
+    PricePerGbSecond: null,
+    Cloud: aws,
+    Category: Compute,
+    SubCategory: CloudFunctions
+  },
+  {
+    FunctionName: AWSLambda,
+    Region: us-east-1,
+    PricePerRequest: null,
+    PricePerGbSecond: null,
+    Cloud: aws,
+    Category: Compute,
+    SubCategory: CloudFunctions
+  },
+  {
+    FunctionName: AWSLambda,
+    Region: us-east-1,
+    PricePerRequest: null,
+    PricePerGbSecond: null,
+    Cloud: aws,
+    Category: Compute,
+    SubCategory: CloudFunctions
+  },
+  {
+    FunctionName: AWSLambda,
+    Region: us-east-1,
+    PricePerRequest: null,
+    PricePerGbSecond: null,
+    Cloud: aws,
+    Category: Compute,
+    SubCategory: CloudFunctions
+  },
+  {
+    FunctionName: AWSLambda,
+    Region: us-east-1,
+    PricePerRequest: null,
+    PricePerGbSecond: null,
+    Cloud: aws,
+    Category: Compute,
+    SubCategory: CloudFunctions
+  },
+  {
+    FunctionName: AWS-Lambda-Duration,
+    Region: us-east-1,
+    PricePerRequest: null,
+    PricePerGbSecond: null,
+    Cloud: aws,
+    Category: Compute,
+    SubCategory: CloudFunctions
+  },
+  {
+    FunctionName: AWSLambda,
+    Region: us-east-1,
+    PricePerRequest: null,
+    PricePerGbSecond: null,
+    Cloud: aws,
+    Category: Compute,
+    SubCategory: CloudFunctions
+  },
+  {
+    FunctionName: AWSLambda,
+    Region: us-east-1,
+    PricePerRequest: null,
+    PricePerGbSecond: null,
+    Cloud: aws,
+    Category: Compute,
+    SubCategory: CloudFunctions
+  },
+  {
+    FunctionName: AWSLambda,
+    Region: us-east-1,
+    PricePerRequest: null,
+    PricePerGbSecond: null,
+    Cloud: aws,
+    Category: Compute,
+    SubCategory: CloudFunctions
+  },
+  {
+    FunctionName: AWSLambda,
+    Region: us-east-1,
+    PricePerRequest: null,
+    PricePerGbSecond: null,
+    Cloud: aws,
+    Category: Compute,
+    SubCategory: CloudFunctions
+  },
+  {
+    FunctionName: AWSLambda,
+    Region: us-east-1,
+    PricePerRequest: null,
+    PricePerGbSecond: null,
+    Cloud: aws,
+    Category: Compute,
+    SubCategory: CloudFunctions
+  },
+  {
+    FunctionName: AWSLambda,
+    Region: us-east-1,
+    PricePerRequest: null,
+    PricePerGbSecond: null,
+    Cloud: aws,
+    Category: Compute,
+    SubCategory: CloudFunctions
+  },
+  {
+    FunctionName: AWSLambda,
+    Region: us-east-1,
+    PricePerRequest: null,
+    PricePerGbSecond: null,
+    Cloud: aws,
+    Category: Compute,
+    SubCategory: CloudFunctions
+  },
+  {
+    FunctionName: AWS-Lambda-Requests-ARM,
+    Region: us-east-1,
+    PricePerRequest: 0.0000002,
+    PricePerGbSecond: null,
+    Cloud: aws,
+    Category: Compute,
+    SubCategory: CloudFunctions
+  },
+  {
+    FunctionName: AWSLambda,
+    Region: us-east-1,
+    PricePerRequest: null,
+    PricePerGbSecond: null,
+    Cloud: aws,
+    Category: Compute,
+    SubCategory: CloudFunctions
+  },
+  {
+    FunctionName: AWSLambda,
+    Region: us-east-1,
+    PricePerRequest: null,
+    PricePerGbSecond: null,
+    Cloud: aws,
+    Category: Compute,
+    SubCategory: CloudFunctions
+  },
+  {
+    FunctionName: AWSLambda,
+    Region: us-east-1,
+    PricePerRequest: null,
+    PricePerGbSecond: null,
+    Cloud: aws,
+    Category: Compute,
+    SubCategory: CloudFunctions
+  },
+  {
+    FunctionName: AWSLambda,
+    Region: us-east-1,
+    PricePerRequest: null,
+    PricePerGbSecond: null,
+    Cloud: aws,
+    Category: Compute,
+    SubCategory: CloudFunctions
+  },
+  {
+    FunctionName: AWSLambda,
+    Region: us-east-1,
+    PricePerRequest: null,
+    PricePerGbSecond: null,
+    Cloud: aws,
+    Category: Compute,
+    SubCategory: CloudFunctions
+  },
+  {
+    FunctionName: AWSLambda,
+    Region: us-east-1,
+    PricePerRequest: null,
+    PricePerGbSecond: null,
+    Cloud: aws,
+    Category: Compute,
+    SubCategory: CloudFunctions
+  },
+  {
+    FunctionName: AWSLambda,
+    Region: us-east-1,
+    PricePerRequest: null,
+    PricePerGbSecond: null,
+    Cloud: aws,
+    Category: Compute,
+    SubCategory: CloudFunctions
+  },
+  {
+    FunctionName: AWSLambda,
+    Region: us-east-1,
+    PricePerRequest: null,
+    PricePerGbSecond: null,
+    Cloud: aws,
+    Category: Compute,
+    SubCategory: CloudFunctions
+  },
+  {
+    FunctionName: AWSLambda,
+    Region: us-east-1,
+    PricePerRequest: null,
+    PricePerGbSecond: null,
+    Cloud: aws,
+    Category: Compute,
+    SubCategory: CloudFunctions
+  },
+  {
+    FunctionName: AWSLambda,
+    Region: us-east-1,
+    PricePerRequest: null,
+    PricePerGbSecond: null,
+    Cloud: aws,
+    Category: Compute,
+    SubCategory: CloudFunctions
+  },
+  {
+    FunctionName: AWSLambda,
+    Region: us-east-1,
+    PricePerRequest: null,
+    PricePerGbSecond: null,
+    Cloud: aws,
+    Category: Compute,
+    SubCategory: CloudFunctions
+  },
+  {
+    FunctionName: AWSLambda,
+    Region: us-east-1,
+    PricePerRequest: null,
+    PricePerGbSecond: null,
+    Cloud: aws,
+    Category: Compute,
+    SubCategory: CloudFunctions
+  },
+  {
+    FunctionName: AWSLambda,
+    Region: us-east-1,
+    PricePerRequest: null,
+    PricePerGbSecond: null,
+    Cloud: aws,
+    Category: Compute,
+    SubCategory: CloudFunctions
+  },
+  {
+    FunctionName: AWSLambda,
+    Region: us-east-1,
+    PricePerRequest: null,
+    PricePerGbSecond: null,
+    Cloud: aws,
+    Category: Compute,
+    SubCategory: CloudFunctions
+  },
+  {
+    FunctionName: AWSLambda,
+    Region: us-east-1,
+    PricePerRequest: null,
+    PricePerGbSecond: null,
+    Cloud: aws,
+    Category: Compute,
+    SubCategory: CloudFunctions
+  },
+  {
+    FunctionName: AWSLambda,
+    Region: us-east-1,
+    PricePerRequest: null,
+    PricePerGbSecond: null,
+    Cloud: aws,
+    Category: Compute,
+    SubCategory: CloudFunctions
+  },
+  {
+    FunctionName: AWSLambda,
+    Region: us-east-1,
+    PricePerRequest: null,
+    PricePerGbSecond: null,
+    Cloud: aws,
+    Category: Compute,
+    SubCategory: CloudFunctions
+  },
+  {
+    FunctionName: AWSLambda,
+    Region: us-east-1,
+    PricePerRequest: null,
+    PricePerGbSecond: null,
+    Cloud: aws,
+    Category: Compute,
+    SubCategory: CloudFunctions
+  },
+  {
+    FunctionName: AWSLambda,
+    Region: us-east-1,
+    PricePerRequest: null,
+    PricePerGbSecond: null,
+    Cloud: aws,
+    Category: Compute,
+    SubCategory: CloudFunctions
+  },
+  {
+    FunctionName: AWSLambda,
+    Region: us-east-1,
+    PricePerRequest: null,
+    PricePerGbSecond: null,
+    Cloud: aws,
+    Category: Compute,
+    SubCategory: CloudFunctions
+  },
+  {
+    FunctionName: AWSLambda,
+    Region: us-east-1,
+    PricePerRequest: null,
+    PricePerGbSecond: null,
+    Cloud: aws,
+    Category: Compute,
+    SubCategory: CloudFunctions
+  },
+  {
+    FunctionName: AWSLambda,
+    Region: us-east-1,
+    PricePerRequest: null,
+    PricePerGbSecond: null,
+    Cloud: aws,
+    Category: Compute,
+    SubCategory: CloudFunctions
+  },
+  {
+    FunctionName: AWSLambda,
+    Region: us-east-1,
+    PricePerRequest: null,
+    PricePerGbSecond: null,
+    Cloud: aws,
+    Category: Compute,
+    SubCategory: CloudFunctions
+  },
+  {
+    FunctionName: AWSLambda,
+    Region: us-east-1,
+    PricePerRequest: null,
+    PricePerGbSecond: null,
+    Cloud: aws,
+    Category: Compute,
+    SubCategory: CloudFunctions
+  },
+  {
+    FunctionName: AWSLambda,
+    Region: us-east-1,
+    PricePerRequest: null,
+    PricePerGbSecond: null,
+    Cloud: aws,
+    Category: Compute,
+    SubCategory: CloudFunctions
+  },
+  {
+    FunctionName: AWSLambda,
+    Region: us-east-1,
+    PricePerRequest: null,
+    PricePerGbSecond: null,
+    Cloud: aws,
+    Category: Compute,
+    SubCategory: CloudFunctions
+  },
+  {
+    FunctionName: AWSLambda,
+    Region: us-east-1,
+    PricePerRequest: null,
+    PricePerGbSecond: null,
+    Cloud: aws,
+    Category: Compute,
+    SubCategory: CloudFunctions
+  },
+  {
+    FunctionName: AWSLambda,
+    Region: us-east-1,
+    PricePerRequest: null,
+    PricePerGbSecond: null,
+    Cloud: aws,
+    Category: Compute,
+    SubCategory: CloudFunctions
+  },
+  {
+    FunctionName: AWSLambda,
+    Region: us-east-1,
+    PricePerRequest: null,
+    PricePerGbSecond: null,
+    Cloud: aws,
+    Category: Compute,
+    SubCategory: CloudFunctions
+  },
+  {
+    FunctionName: AWSLambda,
+    Region: us-east-1,
+    PricePerRequest: null,
+    PricePerGbSecond: null,
+    Cloud: aws,
+    Category: Compute,
+    SubCategory: CloudFunctions
+  },
+  {
+    FunctionName: AWSLambda,
+    Region: us-east-1,
+    PricePerRequest: null,
+    PricePerGbSecond: null,
+    Cloud: aws,
+    Category: Compute,
+    SubCategory: CloudFunctions
+  },
+  {
+    FunctionName: AWSLambda,
+    Region: us-east-1,
+    PricePerRequest: null,
+    PricePerGbSecond: null,
+    Cloud: aws,
+    Category: Compute,
+    SubCategory: CloudFunctions
+  },
+  {
+    FunctionName: AWSLambda,
+    Region: us-east-1,
+    PricePerRequest: null,
+    PricePerGbSecond: null,
+    Cloud: aws,
+    Category: Compute,
+    SubCategory: CloudFunctions
+  },
+  {
+    FunctionName: AWSLambda,
+    Region: us-east-1,
+    PricePerRequest: null,
+    PricePerGbSecond: null,
+    Cloud: aws,
+    Category: Compute,
+    SubCategory: CloudFunctions
+  },
+  {
+    FunctionName: AWSLambda,
+    Region: us-east-1,
+    PricePerRequest: null,
+    PricePerGbSecond: null,
+    Cloud: aws,
+    Category: Compute,
+    SubCategory: CloudFunctions
+  },
+  {
+    FunctionName: AWSLambda,
+    Region: us-east-1,
+    PricePerRequest: null,
+    PricePerGbSecond: null,
+    Cloud: aws,
+    Category: Compute,
+    SubCategory: CloudFunctions
+  },
+  {
+    FunctionName: AWSLambda,
+    Region: us-east-1,
+    PricePerRequest: null,
+    PricePerGbSecond: null,
+    Cloud: aws,
+    Category: Compute,
+    SubCategory: CloudFunctions
+  },
+  {
+    FunctionName: AWSLambda,
+    Region: us-east-1,
+    PricePerRequest: null,
+    PricePerGbSecond: null,
+    Cloud: aws,
+    Category: Compute,
+    SubCategory: CloudFunctions
+  },
+  {
+    FunctionName: AWSLambda,
+    Region: us-east-1,
+    PricePerRequest: null,
+    PricePerGbSecond: null,
+    Cloud: aws,
+    Category: Compute,
+    SubCategory: CloudFunctions
+  },
+  {
+    FunctionName: AWSLambda,
+    Region: us-east-1,
+    PricePerRequest: null,
+    PricePerGbSecond: null,
+    Cloud: aws,
+    Category: Compute,
+    SubCategory: CloudFunctions
+  },
+  {
+    FunctionName: AWSLambda,
+    Region: us-east-1,
+    PricePerRequest: null,
+    PricePerGbSecond: null,
+    Cloud: aws,
+    Category: Compute,
+    SubCategory: CloudFunctions
+  },
+  {
+    FunctionName: AWSLambda,
+    Region: us-east-1,
+    PricePerRequest: null,
+    PricePerGbSecond: null,
+    Cloud: aws,
+    Category: Compute,
+    SubCategory: CloudFunctions
+  },
+  {
+    FunctionName: AWSLambda,
+    Region: us-east-1,
+    PricePerRequest: null,
+    PricePerGbSecond: null,
+    Cloud: aws,
+    Category: Compute,
+    SubCategory: CloudFunctions
+  },
+  {
+    FunctionName: AWSLambda,
+    Region: us-east-1,
+    PricePerRequest: null,
+    PricePerGbSecond: null,
+    Cloud: aws,
+    Category: Compute,
+    SubCategory: CloudFunctions
+  },
+  {
+    FunctionName: AWSLambda,
+    Region: us-east-1,
+    PricePerRequest: null,
+    PricePerGbSecond: null,
+    Cloud: aws,
+    Category: Compute,
+    SubCategory: CloudFunctions
+  },
+  {
+    FunctionName: AWSLambda,
+    Region: us-east-1,
+    PricePerRequest: null,
+    PricePerGbSecond: null,
+    Cloud: aws,
+    Category: Compute,
+    SubCategory: CloudFunctions
+  },
+  {
+    FunctionName: AWSLambda,
+    Region: us-east-1,
+    PricePerRequest: null,
+    PricePerGbSecond: null,
+    Cloud: aws,
+    Category: Compute,
+    SubCategory: CloudFunctions
+  },
+  {
+    FunctionName: AWSLambda,
+    Region: us-east-1,
+    PricePerRequest: null,
+    PricePerGbSecond: null,
+    Cloud: aws,
+    Category: Compute,
+    SubCategory: CloudFunctions
+  },
+  {
+    FunctionName: AWSLambda,
+    Region: us-east-1,
+    PricePerRequest: null,
+    PricePerGbSecond: null,
+    Cloud: aws,
+    Category: Compute,
+    SubCategory: CloudFunctions
+  },
+  {
+    FunctionName: AWSLambda,
+    Region: us-east-1,
+    PricePerRequest: null,
+    PricePerGbSecond: null,
+    Cloud: aws,
+    Category: Compute,
+    SubCategory: CloudFunctions
+  },
+  {
+    FunctionName: AWSLambda,
+    Region: us-east-1,
+    PricePerRequest: null,
+    PricePerGbSecond: null,
+    Cloud: aws,
+    Category: Compute,
+    SubCategory: CloudFunctions
+  },
+  {
+    FunctionName: AWSLambda,
+    Region: us-east-1,
+    PricePerRequest: null,
+    PricePerGbSecond: null,
+    Cloud: aws,
+    Category: Compute,
+    SubCategory: CloudFunctions
+  },
+  {
+    FunctionName: AWSLambda,
+    Region: us-east-1,
+    PricePerRequest: null,
+    PricePerGbSecond: null,
+    Cloud: aws,
+    Category: Compute,
+    SubCategory: CloudFunctions
+  },
+  {
+    FunctionName: AWSLambda,
+    Region: us-east-1,
+    PricePerRequest: null,
+    PricePerGbSecond: null,
+    Cloud: aws,
+    Category: Compute,
+    SubCategory: CloudFunctions
+  },
+  {
+    FunctionName: AWSLambda,
+    Region: us-east-1,
+    PricePerRequest: null,
+    PricePerGbSecond: null,
+    Cloud: aws,
+    Category: Compute,
+    SubCategory: CloudFunctions
+  },
+  {
+    FunctionName: AWSLambda,
+    Region: us-east-1,
+    PricePerRequest: null,
+    PricePerGbSecond: null,
+    Cloud: aws,
+    Category: Compute,
+    SubCategory: CloudFunctions
+  },
+  {
+    FunctionName: AWSLambda,
+    Region: us-east-1,
+    PricePerRequest: null,
+    PricePerGbSecond: null,
+    Cloud: aws,
+    Category: Compute,
+    SubCategory: CloudFunctions
+  },
+  {
+    FunctionName: AWSLambda,
+    Region: us-east-1,
+    PricePerRequest: null,
+    PricePerGbSecond: null,
+    Cloud: aws,
+    Category: Compute,
+    SubCategory: CloudFunctions
+  },
+  {
+    FunctionName: AWSLambda,
+    Region: us-east-1,
+    PricePerRequest: null,
+    PricePerGbSecond: null,
+    Cloud: aws,
+    Category: Compute,
+    SubCategory: CloudFunctions
+  },
+  {
+    FunctionName: AWSLambda,
+    Region: us-east-1,
+    PricePerRequest: null,
+    PricePerGbSecond: null,
+    Cloud: aws,
+    Category: Compute,
+    SubCategory: CloudFunctions
+  },
+  {
+    FunctionName: AWSLambda,
+    Region: us-east-1,
+    PricePerRequest: null,
+    PricePerGbSecond: null,
+    Cloud: aws,
+    Category: Compute,
+    SubCategory: CloudFunctions
+  },
+  {
+    FunctionName: AWSLambda,
+    Region: us-east-1,
+    PricePerRequest: null,
+    PricePerGbSecond: null,
+    Cloud: aws,
+    Category: Compute,
+    SubCategory: CloudFunctions
+  },
+  {
+    FunctionName: AWSLambda,
+    Region: us-east-1,
+    PricePerRequest: null,
+    PricePerGbSecond: null,
+    Cloud: aws,
+    Category: Compute,
+    SubCategory: CloudFunctions
+  },
+  {
+    FunctionName: AWSLambda,
+    Region: us-east-1,
+    PricePerRequest: null,
+    PricePerGbSecond: null,
+    Cloud: aws,
+    Category: Compute,
+    SubCategory: CloudFunctions
+  },
+  {
+    FunctionName: AWS-Lambda-Tenant-Isolated-Environment-Memory-GB-ARM,
+    Region: us-east-1,
+    PricePerRequest: null,
+    PricePerGbSecond: null,
+    Cloud: aws,
+    Category: Compute,
+    SubCategory: CloudFunctions
+  },
+  {
+    FunctionName: AWSLambda,
+    Region: us-east-1,
+    PricePerRequest: null,
+    PricePerGbSecond: null,
+    Cloud: aws,
+    Category: Compute,
+    SubCategory: CloudFunctions
+  },
+  {
+    FunctionName: AWSLambda,
+    Region: us-east-1,
+    PricePerRequest: null,
+    PricePerGbSecond: null,
+    Cloud: aws,
+    Category: Compute,
+    SubCategory: CloudFunctions
+  },
+  {
+    FunctionName: AWSLambda,
+    Region: us-east-1,
+    PricePerRequest: null,
+    PricePerGbSecond: null,
+    Cloud: aws,
+    Category: Compute,
+    SubCategory: CloudFunctions
+  },
+  {
+    FunctionName: AWSLambda,
+    Region: us-east-1,
+    PricePerRequest: null,
+    PricePerGbSecond: null,
+    Cloud: aws,
+    Category: Compute,
+    SubCategory: CloudFunctions
+  },
+  {
+    FunctionName: AWSLambda,
+    Region: us-east-1,
+    PricePerRequest: null,
+    PricePerGbSecond: null,
+    Cloud: aws,
+    Category: Compute,
+    SubCategory: CloudFunctions
+  },
+  {
+    FunctionName: AWSLambda,
+    Region: us-east-1,
+    PricePerRequest: null,
+    PricePerGbSecond: null,
+    Cloud: aws,
+    Category: Compute,
+    SubCategory: CloudFunctions
+  },
+  {
+    FunctionName: AWSLambda,
+    Region: us-east-1,
+    PricePerRequest: null,
+    PricePerGbSecond: null,
+    Cloud: aws,
+    Category: Compute,
+    SubCategory: CloudFunctions
+  },
+  {
+    FunctionName: AWSLambda,
+    Region: us-east-1,
+    PricePerRequest: null,
+    PricePerGbSecond: null,
+    Cloud: aws,
+    Category: Compute,
+    SubCategory: CloudFunctions
+  },
+  {
+    FunctionName: AWSLambda,
+    Region: us-east-1,
+    PricePerRequest: null,
+    PricePerGbSecond: null,
+    Cloud: aws,
+    Category: Compute,
+    SubCategory: CloudFunctions
+  },
+  {
+    FunctionName: AWSLambda,
+    Region: us-east-1,
+    PricePerRequest: null,
+    PricePerGbSecond: null,
+    Cloud: aws,
+    Category: Compute,
+    SubCategory: CloudFunctions
+  },
+  {
+    FunctionName: AWSLambda,
+    Region: us-east-1,
+    PricePerRequest: null,
+    PricePerGbSecond: null,
+    Cloud: aws,
+    Category: Compute,
+    SubCategory: CloudFunctions
+  },
+  {
+    FunctionName: AWSLambda,
+    Region: us-east-1,
+    PricePerRequest: null,
+    PricePerGbSecond: null,
+    Cloud: aws,
+    Category: Compute,
+    SubCategory: CloudFunctions
+  },
+  {
+    FunctionName: AWSLambda,
+    Region: us-east-1,
+    PricePerRequest: null,
+    PricePerGbSecond: null,
+    Cloud: aws,
+    Category: Compute,
+    SubCategory: CloudFunctions
+  },
+  {
+    FunctionName: AWSLambda,
+    Region: us-east-1,
+    PricePerRequest: null,
+    PricePerGbSecond: null,
+    Cloud: aws,
+    Category: Compute,
+    SubCategory: CloudFunctions
+  },
+  {
+    FunctionName: AWSLambda,
+    Region: us-east-1,
+    PricePerRequest: null,
+    PricePerGbSecond: null,
+    Cloud: aws,
+    Category: Compute,
+    SubCategory: CloudFunctions
+  },
+  {
+    FunctionName: AWSLambda,
+    Region: us-east-1,
+    PricePerRequest: null,
+    PricePerGbSecond: null,
+    Cloud: aws,
+    Category: Compute,
+    SubCategory: CloudFunctions
+  },
+  {
+    FunctionName: AWSLambda,
+    Region: us-east-1,
+    PricePerRequest: null,
+    PricePerGbSecond: null,
+    Cloud: aws,
+    Category: Compute,
+    SubCategory: CloudFunctions
+  },
+  {
+    FunctionName: AWSLambda,
+    Region: us-east-1,
+    PricePerRequest: null,
+    PricePerGbSecond: null,
+    Cloud: aws,
+    Category: Compute,
+    SubCategory: CloudFunctions
+  },
+  {
+    FunctionName: AWSLambda,
+    Region: us-east-1,
+    PricePerRequest: null,
+    PricePerGbSecond: null,
+    Cloud: aws,
+    Category: Compute,
+    SubCategory: CloudFunctions
+  },
+  {
+    FunctionName: AWSLambda,
+    Region: us-east-1,
+    PricePerRequest: null,
+    PricePerGbSecond: null,
+    Cloud: aws,
+    Category: Compute,
+    SubCategory: CloudFunctions
+  },
+  {
+    FunctionName: AWSLambda,
+    Region: us-east-1,
+    PricePerRequest: null,
+    PricePerGbSecond: null,
+    Cloud: aws,
+    Category: Compute,
+    SubCategory: CloudFunctions
+  },
+  {
+    FunctionName: AWSLambda,
+    Region: us-east-1,
+    PricePerRequest: null,
+    PricePerGbSecond: null,
+    Cloud: aws,
+    Category: Compute,
+    SubCategory: CloudFunctions
+  },
+  {
+    FunctionName: AWSLambda,
+    Region: us-east-1,
+    PricePerRequest: null,
+    PricePerGbSecond: null,
+    Cloud: aws,
+    Category: Compute,
+    SubCategory: CloudFunctions
+  },
+  {
+    FunctionName: AWSLambda,
+    Region: us-east-1,
+    PricePerRequest: null,
+    PricePerGbSecond: null,
+    Cloud: aws,
+    Category: Compute,
+    SubCategory: CloudFunctions
+  },
+  {
+    FunctionName: AWSLambda,
+    Region: us-east-1,
+    PricePerRequest: null,
+    PricePerGbSecond: null,
+    Cloud: aws,
+    Category: Compute,
+    SubCategory: CloudFunctions
+  },
+  {
+    FunctionName: AWSLambda,
+    Region: us-east-1,
+    PricePerRequest: null,
+    PricePerGbSecond: null,
+    Cloud: aws,
+    Category: Compute,
+    SubCategory: CloudFunctions
+  },
+  {
+    FunctionName: AWSLambda,
+    Region: us-east-1,
+    PricePerRequest: null,
+    PricePerGbSecond: null,
+    Cloud: aws,
+    Category: Compute,
+    SubCategory: CloudFunctions
+  },
+  {
+    FunctionName: AWSLambda,
+    Region: us-east-1,
+    PricePerRequest: null,
+    PricePerGbSecond: null,
+    Cloud: aws,
+    Category: Compute,
+    SubCategory: CloudFunctions
+  },
+  {
+    FunctionName: AWSLambda,
+    Region: us-east-1,
+    PricePerRequest: null,
+    PricePerGbSecond: null,
+    Cloud: aws,
+    Category: Compute,
+    SubCategory: CloudFunctions
+  },
+  {
+    FunctionName: AWSLambda,
+    Region: us-east-1,
+    PricePerRequest: null,
+    PricePerGbSecond: null,
+    Cloud: aws,
+    Category: Compute,
+    SubCategory: CloudFunctions
+  },
+  {
+    FunctionName: AWSLambda,
+    Region: us-east-1,
+    PricePerRequest: null,
+    PricePerGbSecond: null,
+    Cloud: aws,
+    Category: Compute,
+    SubCategory: CloudFunctions
+  },
+  {
+    FunctionName: AWSLambda,
+    Region: us-east-1,
+    PricePerRequest: null,
+    PricePerGbSecond: null,
+    Cloud: aws,
+    Category: Compute,
+    SubCategory: CloudFunctions
+  },
+  {
+    FunctionName: AWSLambda,
+    Region: us-east-1,
+    PricePerRequest: null,
+    PricePerGbSecond: null,
+    Cloud: aws,
+    Category: Compute,
+    SubCategory: CloudFunctions
+  },
+  {
+    FunctionName: AWSLambda,
+    Region: us-east-1,
+    PricePerRequest: null,
+    PricePerGbSecond: null,
+    Cloud: aws,
+    Category: Compute,
+    SubCategory: CloudFunctions
+  },
+  {
+    FunctionName: AWSLambda,
+    Region: us-east-1,
+    PricePerRequest: null,
+    PricePerGbSecond: null,
+    Cloud: aws,
+    Category: Compute,
+    SubCategory: CloudFunctions
+  },
+  {
+    FunctionName: AWSLambda,
+    Region: us-east-1,
+    PricePerRequest: null,
+    PricePerGbSecond: null,
+    Cloud: aws,
+    Category: Compute,
+    SubCategory: CloudFunctions
+  },
+  {
+    FunctionName: AWSLambda,
+    Region: us-east-1,
+    PricePerRequest: null,
+    PricePerGbSecond: null,
+    Cloud: aws,
+    Category: Compute,
+    SubCategory: CloudFunctions
+  },
+  {
+    FunctionName: AWSLambda,
+    Region: us-east-1,
+    PricePerRequest: null,
+    PricePerGbSecond: null,
+    Cloud: aws,
+    Category: Compute,
+    SubCategory: CloudFunctions
+  },
+  {
+    FunctionName: AWSLambda,
+    Region: us-east-1,
+    PricePerRequest: 0.0000002,
+    PricePerGbSecond: null,
+    Cloud: aws,
+    Category: Compute,
+    SubCategory: CloudFunctions
+  },
+  {
+    FunctionName: AWSLambda,
+    Region: us-east-1,
+    PricePerRequest: null,
+    PricePerGbSecond: null,
+    Cloud: aws,
+    Category: Compute,
+    SubCategory: CloudFunctions
+  },
+  {
+    FunctionName: AWSLambda,
+    Region: us-east-1,
+    PricePerRequest: null,
+    PricePerGbSecond: null,
+    Cloud: aws,
+    Category: Compute,
+    SubCategory: CloudFunctions
+  },
+  {
+    FunctionName: AWSLambda,
+    Region: us-east-1,
+    PricePerRequest: null,
+    PricePerGbSecond: null,
+    Cloud: aws,
+    Category: Compute,
+    SubCategory: CloudFunctions
+  },
+  {
+    FunctionName: AWSLambda,
+    Region: us-east-1,
+    PricePerRequest: null,
+    PricePerGbSecond: null,
+    Cloud: aws,
+    Category: Compute,
+    SubCategory: CloudFunctions
+  },
+  {
+    FunctionName: AWS-Lambda-Provisioned-Concurrency,
+    Region: us-east-1,
+    PricePerRequest: null,
+    PricePerGbSecond: 0.0000041667,
     Cloud: aws,
     Category: Compute,
     SubCategory: CloudFunctions

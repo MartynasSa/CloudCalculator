@@ -14,4 +14,11 @@ public class CalculatorController(ICalculatorFacade calculatorFacade) : Controll
         var result = await calculatorFacade.CalculateCostComparisonsAsync(templateDto, ct);
         return Ok(result);
     }
+
+    [HttpPost("calculator/calculate-template")]
+    public async Task<IActionResult> GetTemplateCostComparison([FromBody] CalculateTemplateRequest templateDto, CancellationToken ct)
+    {
+        var result = await calculatorFacade.CalculateCostComparisonsAsync(templateDto, ct);
+        return Ok(result);
+    }
 }

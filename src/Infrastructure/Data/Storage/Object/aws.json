@@ -40,7 +40,9 @@
             "value": "Lifecycle Transition Requests into Intelligent-Tiering"
           }
         ],
+        "vendorName": "aws",
         "service": "AmazonS3",
+        "region": "us-east-1",
         "productFamily": "",
         "prices": [
           {
@@ -88,7 +90,9 @@
             "value": "Lifecycle Transition Requests into One Zone-Infrequent Access"
           }
         ],
+        "vendorName": "aws",
         "service": "AmazonS3",
+        "region": "us-east-1",
         "productFamily": "",
         "prices": [
           {
@@ -136,7 +140,9 @@
             "value": "Expedited INT Restore Requests"
           }
         ],
+        "vendorName": "aws",
         "service": "AmazonS3",
+        "region": "us-east-1",
         "productFamily": "",
         "prices": [
           {
@@ -184,7 +190,9 @@
             "value": "Lifecycle Transition Requests into Standard - Infrequent Access or One Zone - Infrequent Access or Intelligent-Tiering"
           }
         ],
+        "vendorName": "aws",
         "service": "AmazonS3",
+        "region": "us-east-1",
         "productFamily": "API Request",
         "prices": [
           {
@@ -232,7 +240,9 @@
             "value": "Restore Object"
           }
         ],
+        "vendorName": "aws",
         "service": "AmazonS3",
+        "region": "us-east-1",
         "productFamily": "",
         "prices": [
           {
@@ -280,59 +290,13 @@
             "value": "Get Vectors API Requests"
           }
         ],
+        "vendorName": "aws",
         "service": "AmazonS3",
+        "region": "us-east-1",
         "productFamily": "",
         "prices": [
           {
             "USD": "0.000055",
-            "unit": "Requests"
-          }
-        ]
-      },
-      {
-        "attributes": [
-          {
-            "key": "group",
-            "value": "S3-API-GDA-Tier2"
-          },
-          {
-            "key": "location",
-            "value": "US East (N. Virginia)"
-          },
-          {
-            "key": "operation",
-            "value": ""
-          },
-          {
-            "key": "usagetype",
-            "value": "Requests-GDA-Tier2"
-          },
-          {
-            "key": "regionCode",
-            "value": "us-east-1"
-          },
-          {
-            "key": "servicecode",
-            "value": "AmazonS3"
-          },
-          {
-            "key": "servicename",
-            "value": "Amazon Simple Storage Service"
-          },
-          {
-            "key": "locationType",
-            "value": "AWS Region"
-          },
-          {
-            "key": "groupDescription",
-            "value": "GET and all other requests to GDA"
-          }
-        ],
-        "service": "AmazonS3",
-        "productFamily": "",
-        "prices": [
-          {
-            "USD": "4e-7",
             "unit": "Requests"
           }
         ]
@@ -376,7 +340,9 @@
             "value": "Bytes Encrypted using Dual-Layer Server-Side Encryption"
           }
         ],
+        "vendorName": "aws",
         "service": "AmazonS3",
+        "region": "us-east-1",
         "productFamily": "",
         "prices": [
           {
@@ -424,7 +390,9 @@
             "value": "Lifecycle Transition Requests into Standard-Infrequent Access"
           }
         ],
+        "vendorName": "aws",
         "service": "AmazonS3",
+        "region": "us-east-1",
         "productFamily": "",
         "prices": [
           {
@@ -480,7 +448,9 @@
             "value": "Intelligent-Tiering"
           }
         ],
+        "vendorName": "aws",
         "service": "AmazonS3",
+        "region": "us-east-1",
         "productFamily": "Storage",
         "prices": [
           {
@@ -536,7 +506,9 @@
             "value": "Intelligent-Tiering"
           }
         ],
+        "vendorName": "aws",
         "service": "AmazonS3",
+        "region": "us-east-1",
         "productFamily": "Storage",
         "prices": [
           {
@@ -592,7 +564,9 @@
             "value": "Intelligent-Tiering"
           }
         ],
+        "vendorName": "aws",
         "service": "AmazonS3",
+        "region": "us-east-1",
         "productFamily": "Storage",
         "prices": [
           {
@@ -640,7 +614,9 @@
             "value": "Incorrect Product Group"
           }
         ],
+        "vendorName": "aws",
         "service": "AmazonS3",
+        "region": "us-east-1",
         "productFamily": "",
         "prices": [
           {
@@ -688,7 +664,9 @@
             "value": "Incorrect Product Group Description"
           }
         ],
+        "vendorName": "aws",
         "service": "AmazonS3",
+        "region": "us-east-1",
         "productFamily": "",
         "prices": [
           {
@@ -736,59 +714,13 @@
             "value": "Object Retrieval in One Zone-Infrequent Access"
           }
         ],
+        "vendorName": "aws",
         "service": "AmazonS3",
+        "region": "us-east-1",
         "productFamily": "API Request",
         "prices": [
           {
             "USD": "0.01",
-            "unit": "GB"
-          }
-        ]
-      },
-      {
-        "attributes": [
-          {
-            "key": "feeCode",
-            "value": "S3-Compute-Checksum-Processed-Bytes"
-          },
-          {
-            "key": "location",
-            "value": "US East (N. Virginia)"
-          },
-          {
-            "key": "operation",
-            "value": ""
-          },
-          {
-            "key": "usagetype",
-            "value": "Compute-Checksum-Processed-Bytes"
-          },
-          {
-            "key": "regionCode",
-            "value": "us-east-1"
-          },
-          {
-            "key": "servicecode",
-            "value": "AmazonS3"
-          },
-          {
-            "key": "servicename",
-            "value": "Amazon Simple Storage Service"
-          },
-          {
-            "key": "locationType",
-            "value": "AWS Region"
-          },
-          {
-            "key": "feeDescription",
-            "value": "Fee for bytes processed to compute checksum in Standard"
-          }
-        ],
-        "service": "AmazonS3",
-        "productFamily": "",
-        "prices": [
-          {
-            "USD": "0.004",
             "unit": "GB"
           }
         ]
@@ -832,59 +764,13 @@
             "value": "Expedited Glacier Restore Requests"
           }
         ],
+        "vendorName": "aws",
         "service": "AmazonS3",
+        "region": "us-east-1",
         "productFamily": "API Request",
         "prices": [
           {
             "USD": "0.01",
-            "unit": "Requests"
-          }
-        ]
-      },
-      {
-        "attributes": [
-          {
-            "key": "group",
-            "value": "S3-API-Tables-Tier1"
-          },
-          {
-            "key": "location",
-            "value": "US East (N. Virginia)"
-          },
-          {
-            "key": "operation",
-            "value": ""
-          },
-          {
-            "key": "usagetype",
-            "value": "Tables-Requests-Tier1"
-          },
-          {
-            "key": "regionCode",
-            "value": "us-east-1"
-          },
-          {
-            "key": "servicecode",
-            "value": "AmazonS3"
-          },
-          {
-            "key": "servicename",
-            "value": "Amazon Simple Storage Service"
-          },
-          {
-            "key": "locationType",
-            "value": "AWS Region"
-          },
-          {
-            "key": "groupDescription",
-            "value": "PUT/COPY/POST or LIST requests to S3 Table Buckets"
-          }
-        ],
-        "service": "AmazonS3",
-        "productFamily": "",
-        "prices": [
-          {
-            "USD": "0.000005",
             "unit": "Requests"
           }
         ]
@@ -928,7 +814,9 @@
             "value": "Fee for Select Data Scanned using Bulk tier"
           }
         ],
+        "vendorName": "aws",
         "service": "AmazonS3",
+        "region": "us-east-1",
         "productFamily": "Fee",
         "prices": [
           {
@@ -976,7 +864,9 @@
             "value": "Bulk Glacier Restore Requests"
           }
         ],
+        "vendorName": "aws",
         "service": "AmazonS3",
+        "region": "us-east-1",
         "productFamily": "API Request",
         "prices": [
           {
@@ -1024,7 +914,9 @@
             "value": "Lifecycle Transition Requests into Glacier Deep Archive"
           }
         ],
+        "vendorName": "aws",
         "service": "AmazonS3",
+        "region": "us-east-1",
         "productFamily": "",
         "prices": [
           {
@@ -1072,7 +964,9 @@
             "value": "GET and all other requests to Glacier Instant Retrieval"
           }
         ],
+        "vendorName": "aws",
         "service": "AmazonS3",
+        "region": "us-east-1",
         "productFamily": "API Request",
         "prices": [
           {
@@ -1120,7 +1014,9 @@
             "value": "Fee for bytes processed to compute checksum in Standard-Infrequent Access"
           }
         ],
+        "vendorName": "aws",
         "service": "AmazonS3",
+        "region": "us-east-1",
         "productFamily": "",
         "prices": [
           {
@@ -1176,7 +1072,9 @@
             "value": "Intelligent-Tiering"
           }
         ],
+        "vendorName": "aws",
         "service": "AmazonS3",
+        "region": "us-east-1",
         "productFamily": "Storage",
         "prices": [
           {
@@ -1224,7 +1122,9 @@
             "value": "Fee for objects compacted in S3 Table Buckets"
           }
         ],
+        "vendorName": "aws",
         "service": "AmazonS3",
+        "region": "us-east-1",
         "productFamily": "",
         "prices": [
           {
@@ -1237,7 +1137,7 @@
         "attributes": [
           {
             "key": "group",
-            "value": "S3-API-GLACIER-Tier2"
+            "value": "S3-API-Tier8"
           },
           {
             "key": "location",
@@ -1245,11 +1145,11 @@
           },
           {
             "key": "operation",
-            "value": ""
+            "value": "CreateAGInstancePolicy"
           },
           {
             "key": "usagetype",
-            "value": "Requests-GLACIER-Tier2"
+            "value": "Requests-Tier8"
           },
           {
             "key": "regionCode",
@@ -1269,14 +1169,16 @@
           },
           {
             "key": "groupDescription",
-            "value": "GET and all other requests to GLACIER"
+            "value": "Access Grants Requests-CreateAGInstancePolicy"
           }
         ],
+        "vendorName": "aws",
         "service": "AmazonS3",
+        "region": "us-east-1",
         "productFamily": "",
         "prices": [
           {
-            "USD": "4e-7",
+            "USD": "0.00003",
             "unit": "Requests"
           }
         ]
@@ -1285,7 +1187,7 @@
         "attributes": [
           {
             "key": "group",
-            "value": "S3-API-Tier4"
+            "value": "S3-API-GLACIER-Tier1"
           },
           {
             "key": "location",
@@ -1293,11 +1195,11 @@
           },
           {
             "key": "operation",
-            "value": "S3-INTTransition"
+            "value": "CompleteMultipartUpload"
           },
           {
             "key": "usagetype",
-            "value": "Requests-Tier4"
+            "value": "Requests-GLACIER-Tier1"
           },
           {
             "key": "regionCode",
@@ -1317,207 +1219,17 @@
           },
           {
             "key": "groupDescription",
-            "value": "Lifecycle Transition Requests into Intelligent-Tiering"
+            "value": "CompleteMultipartUpload to Glacier"
           }
         ],
+        "vendorName": "aws",
         "service": "AmazonS3",
+        "region": "us-east-1",
         "productFamily": "",
         "prices": [
           {
-            "USD": "0.00001",
+            "USD": "0.00003",
             "unit": "Requests"
-          }
-        ]
-      },
-      {
-        "attributes": [
-          {
-            "key": "feeCode",
-            "value": "S3-Tables-Sort-ProcessedBytes"
-          },
-          {
-            "key": "location",
-            "value": "US East (N. Virginia)"
-          },
-          {
-            "key": "operation",
-            "value": ""
-          },
-          {
-            "key": "usagetype",
-            "value": "Tables-SortProcessedBytes"
-          },
-          {
-            "key": "regionCode",
-            "value": "us-east-1"
-          },
-          {
-            "key": "servicecode",
-            "value": "AmazonS3"
-          },
-          {
-            "key": "servicename",
-            "value": "Amazon Simple Storage Service"
-          },
-          {
-            "key": "locationType",
-            "value": "AWS Region"
-          },
-          {
-            "key": "feeDescription",
-            "value": "Fee for bytes processed for sort or Z-order compaction in S3 Table Buckets"
-          }
-        ],
-        "service": "AmazonS3",
-        "productFamily": "",
-        "prices": [
-          {
-            "USD": "0.01",
-            "unit": "GB"
-          }
-        ]
-      },
-      {
-        "attributes": [
-          {
-            "key": "feeCode",
-            "value": "S3-Expedited-Retrieval"
-          },
-          {
-            "key": "location",
-            "value": "US East (N. Virginia)"
-          },
-          {
-            "key": "operation",
-            "value": ""
-          },
-          {
-            "key": "usagetype",
-            "value": "Expedited-Retrieval-Bytes"
-          },
-          {
-            "key": "regionCode",
-            "value": "us-east-1"
-          },
-          {
-            "key": "servicecode",
-            "value": "AmazonS3"
-          },
-          {
-            "key": "servicename",
-            "value": "Amazon Simple Storage Service"
-          },
-          {
-            "key": "locationType",
-            "value": "AWS Region"
-          },
-          {
-            "key": "feeDescription",
-            "value": "Fee for Expedited Retrieval of data stored"
-          }
-        ],
-        "service": "AmazonS3",
-        "productFamily": "Fee",
-        "prices": [
-          {
-            "USD": "0.03",
-            "unit": "GB"
-          }
-        ]
-      },
-      {
-        "attributes": [
-          {
-            "key": "group",
-            "value": "S3-API-Tables-Tier2"
-          },
-          {
-            "key": "location",
-            "value": "US East (N. Virginia)"
-          },
-          {
-            "key": "operation",
-            "value": ""
-          },
-          {
-            "key": "usagetype",
-            "value": "Tables-Requests-Tier2"
-          },
-          {
-            "key": "regionCode",
-            "value": "us-east-1"
-          },
-          {
-            "key": "servicecode",
-            "value": "AmazonS3"
-          },
-          {
-            "key": "servicename",
-            "value": "Amazon Simple Storage Service"
-          },
-          {
-            "key": "locationType",
-            "value": "AWS Region"
-          },
-          {
-            "key": "groupDescription",
-            "value": "GET and all other requests to S3 Table Buckets"
-          }
-        ],
-        "service": "AmazonS3",
-        "productFamily": "",
-        "prices": [
-          {
-            "USD": "4e-7",
-            "unit": "Requests"
-          }
-        ]
-      },
-      {
-        "attributes": [
-          {
-            "key": "feeCode",
-            "value": "S3-Storage-GIR-SmObject"
-          },
-          {
-            "key": "location",
-            "value": "US East (N. Virginia)"
-          },
-          {
-            "key": "operation",
-            "value": ""
-          },
-          {
-            "key": "usagetype",
-            "value": "TimedStorage-GIR-SmObjects"
-          },
-          {
-            "key": "regionCode",
-            "value": "us-east-1"
-          },
-          {
-            "key": "servicecode",
-            "value": "AmazonS3"
-          },
-          {
-            "key": "servicename",
-            "value": "Amazon Simple Storage Service"
-          },
-          {
-            "key": "locationType",
-            "value": "AWS Region"
-          },
-          {
-            "key": "feeDescription",
-            "value": "Fee for storing small objects (<128KB) in GIR Storage"
-          }
-        ],
-        "service": "AmazonS3",
-        "productFamily": "",
-        "prices": [
-          {
-            "USD": "0.004",
-            "unit": "GB-Mo"
           }
         ]
       },
@@ -1537,7 +1249,7 @@
           },
           {
             "key": "usagetype",
-            "value": "Compute-Checksum-Processed-GDA-Bytes"
+            "value": "Compute-Checksum-Processed-Bytes"
           },
           {
             "key": "regionCode",
@@ -1557,14 +1269,386 @@
           },
           {
             "key": "feeDescription",
-            "value": "Fee for bytes processed to compute checksum in Glacier Deep Archive"
+            "value": "Fee for bytes processed to compute checksum in Standard"
           }
         ],
+        "vendorName": "aws",
         "service": "AmazonS3",
+        "region": "us-east-1",
         "productFamily": "",
         "prices": [
           {
             "USD": "0.004",
+            "unit": "GB"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "group",
+            "value": "INT-DAA-RestoreObject"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "IntDAARestoreObject"
+          },
+          {
+            "key": "usagetype",
+            "value": "USE1-Standard-Retrieval-Bytes"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonS3"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon Simple Storage Service"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "groupDescription",
+            "value": "Standard INT Retrieval"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonS3",
+        "region": "us-east-1",
+        "productFamily": "",
+        "prices": [
+          {
+            "USD": "0",
+            "unit": "GB"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "group",
+            "value": "S3-API-Tables-Tier1"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": ""
+          },
+          {
+            "key": "usagetype",
+            "value": "Tables-Requests-Tier1"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonS3"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon Simple Storage Service"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "groupDescription",
+            "value": "PUT/COPY/POST or LIST requests to S3 Table Buckets"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonS3",
+        "region": "us-east-1",
+        "productFamily": "",
+        "prices": [
+          {
+            "USD": "0.000005",
+            "unit": "Requests"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": ""
+          },
+          {
+            "key": "usagetype",
+            "value": "TimedStorage-ZIA-ByteHrs"
+          },
+          {
+            "key": "durability",
+            "value": "99.999999999%"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "volumeType",
+            "value": "One Zone - Infrequent Access"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonS3"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon Simple Storage Service"
+          },
+          {
+            "key": "availability",
+            "value": "99.5%"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "storageClass",
+            "value": "Infrequent Access"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonS3",
+        "region": "us-east-1",
+        "productFamily": "Storage",
+        "prices": [
+          {
+            "USD": "0.01",
+            "unit": "GB-Mo"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "group",
+            "value": "INT-AA-RestoreObject"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "IntAARestoreObject"
+          },
+          {
+            "key": "usagetype",
+            "value": "USE1-Bulk-Retrieval-Bytes"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonS3"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon Simple Storage Service"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "groupDescription",
+            "value": "Bulk INT Retrieval"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonS3",
+        "region": "us-east-1",
+        "productFamily": "",
+        "prices": [
+          {
+            "USD": "0",
+            "unit": "GB"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "feeCode",
+            "value": "S3-Bulk-Retrieval"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "DeepArchiveRestoreObject"
+          },
+          {
+            "key": "usagetype",
+            "value": "Bulk-Retrieval-Bytes"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonS3"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon Simple Storage Service"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "feeDescription",
+            "value": "Fee for Bulk Retrieval of data stored from Glacier Deep Archive"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonS3",
+        "region": "us-east-1",
+        "productFamily": "",
+        "prices": [
+          {
+            "USD": "0.0025",
+            "unit": "GB"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "overhead",
+            "value": "Staging Storage 1"
+          },
+          {
+            "key": "operation",
+            "value": ""
+          },
+          {
+            "key": "usagetype",
+            "value": "TimedStorage-GlacierByteHrs"
+          },
+          {
+            "key": "durability",
+            "value": "99.999999999%"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "volumeType",
+            "value": "Amazon Glacier"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonS3"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon Simple Storage Service"
+          },
+          {
+            "key": "availability",
+            "value": "N/A"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "storageClass",
+            "value": "Archive"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonS3",
+        "region": "us-east-1",
+        "productFamily": "Storage",
+        "prices": [
+          {
+            "USD": "0.0036",
+            "unit": "GB-Mo"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "group",
+            "value": "S3-API-INT-Select-Returned"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": ""
+          },
+          {
+            "key": "usagetype",
+            "value": "Select-Returned-INT-Bytes"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonS3"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon Simple Storage Service"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "groupDescription",
+            "value": "Data Returned by S3 Select in Intelligent-Tiering"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonS3",
+        "region": "us-east-1",
+        "productFamily": "",
+        "prices": [
+          {
+            "USD": "0.0007",
             "unit": "GB"
           }
         ]
@@ -1616,7 +1700,9 @@
             "value": "Intelligent-Tiering"
           }
         ],
+        "vendorName": "aws",
         "service": "AmazonS3",
+        "region": "us-east-1",
         "productFamily": "Storage",
         "prices": [
           {
@@ -1630,6 +1716,768 @@
           {
             "USD": "0.021",
             "unit": "GB-Mo"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "feeCode",
+            "value": "S3-Compute-Checksum-Processed-Bytes"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": ""
+          },
+          {
+            "key": "usagetype",
+            "value": "Compute-Checksum-Processed-GIR-Bytes"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonS3"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon Simple Storage Service"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "feeDescription",
+            "value": "Fee for bytes processed to compute checksum in Glacier Instant Retrieval"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonS3",
+        "region": "us-east-1",
+        "productFamily": "",
+        "prices": [
+          {
+            "USD": "0.004",
+            "unit": "GB"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "feeCode",
+            "value": "S3:EarlyDelete-SIA"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": ""
+          },
+          {
+            "key": "usagetype",
+            "value": "EarlyDelete-SIA"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonS3"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon Simple Storage Service"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "feeDescription",
+            "value": "Pro-rated fee for objects deleted before 30 days in Standard-Infrequent Access volume"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonS3",
+        "region": "us-east-1",
+        "productFamily": "Fee",
+        "prices": [
+          {
+            "USD": "0.0125",
+            "unit": "GB-Mo"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "overhead",
+            "value": "Staging Storage"
+          },
+          {
+            "key": "operation",
+            "value": ""
+          },
+          {
+            "key": "usagetype",
+            "value": "TimedStorage-GlacierStaging"
+          },
+          {
+            "key": "durability",
+            "value": "99.999999999%"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "volumeType",
+            "value": "Amazon Glacier Staging"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonS3"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon Simple Storage Service"
+          },
+          {
+            "key": "availability",
+            "value": "N/A"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "storageClass",
+            "value": "Archive"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonS3",
+        "region": "us-east-1",
+        "productFamily": "Storage",
+        "prices": [
+          {
+            "USD": "0.021",
+            "unit": "GB-Mo"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "feeCode",
+            "value": "S3:EarlyDelete-GIR-SmallObjects"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": ""
+          },
+          {
+            "key": "usagetype",
+            "value": "EarlyDelete-GIR-SmObjects"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonS3"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon Simple Storage Service"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "feeDescription",
+            "value": "Pro-rated fee for small objects deleted before 90 days in Glacier Instant Retrieval volume"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonS3",
+        "region": "us-east-1",
+        "productFamily": "",
+        "prices": [
+          {
+            "USD": "0.004",
+            "unit": "GB-Mo"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "group",
+            "value": "S3-API-GDA-Tier2"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": ""
+          },
+          {
+            "key": "usagetype",
+            "value": "Requests-GDA-Tier2"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonS3"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon Simple Storage Service"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "groupDescription",
+            "value": "GET and all other requests to GDA"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonS3",
+        "region": "us-east-1",
+        "productFamily": "",
+        "prices": [
+          {
+            "USD": "4e-7",
+            "unit": "Requests"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "group",
+            "value": "S3-API-Tier4"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "S3-GIRTransition"
+          },
+          {
+            "key": "usagetype",
+            "value": "Requests-Tier4"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonS3"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon Simple Storage Service"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "groupDescription",
+            "value": "Lifecycle Transition Requests into Glacier Instant Retrieval"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonS3",
+        "region": "us-east-1",
+        "productFamily": "",
+        "prices": [
+          {
+            "USD": "0.00002",
+            "unit": "Requests"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "group",
+            "value": "S3-API-Tier8"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "CreateAGLocation"
+          },
+          {
+            "key": "usagetype",
+            "value": "Requests-Tier8"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonS3"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon Simple Storage Service"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "groupDescription",
+            "value": "Access Grants Requests-CreateAGLocation"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonS3",
+        "region": "us-east-1",
+        "productFamily": "",
+        "prices": [
+          {
+            "USD": "0.00003",
+            "unit": "Requests"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "group",
+            "value": "S3-API-SIA-Tier1"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": ""
+          },
+          {
+            "key": "usagetype",
+            "value": "Requests-SIA-Tier1"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonS3"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon Simple Storage Service"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "groupDescription",
+            "value": "PUT/COPY/POST or LIST requests to Standard-Infrequent Access"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonS3",
+        "region": "us-east-1",
+        "productFamily": "API Request",
+        "prices": [
+          {
+            "USD": "0.00001",
+            "unit": "Requests"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "group",
+            "value": "S3-API-GLACIER-Tier2"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": ""
+          },
+          {
+            "key": "usagetype",
+            "value": "Requests-GLACIER-Tier2"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonS3"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon Simple Storage Service"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "groupDescription",
+            "value": "GET and all other requests to GLACIER"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonS3",
+        "region": "us-east-1",
+        "productFamily": "",
+        "prices": [
+          {
+            "USD": "4e-7",
+            "unit": "Requests"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "group",
+            "value": "S3-API-Tier4"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": "S3-INTTransition"
+          },
+          {
+            "key": "usagetype",
+            "value": "Requests-Tier4"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonS3"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon Simple Storage Service"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "groupDescription",
+            "value": "Lifecycle Transition Requests into Intelligent-Tiering"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonS3",
+        "region": "us-east-1",
+        "productFamily": "",
+        "prices": [
+          {
+            "USD": "0.00001",
+            "unit": "Requests"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "feeCode",
+            "value": "S3-Tables-Sort-ProcessedBytes"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": ""
+          },
+          {
+            "key": "usagetype",
+            "value": "Tables-SortProcessedBytes"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonS3"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon Simple Storage Service"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "feeDescription",
+            "value": "Fee for bytes processed for sort or Z-order compaction in S3 Table Buckets"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonS3",
+        "region": "us-east-1",
+        "productFamily": "",
+        "prices": [
+          {
+            "USD": "0.01",
+            "unit": "GB"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "feeCode",
+            "value": "S3-Expedited-Retrieval"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": ""
+          },
+          {
+            "key": "usagetype",
+            "value": "Expedited-Retrieval-Bytes"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonS3"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon Simple Storage Service"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "feeDescription",
+            "value": "Fee for Expedited Retrieval of data stored"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonS3",
+        "region": "us-east-1",
+        "productFamily": "Fee",
+        "prices": [
+          {
+            "USD": "0.03",
+            "unit": "GB"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "group",
+            "value": "S3-API-Tables-Tier2"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": ""
+          },
+          {
+            "key": "usagetype",
+            "value": "Tables-Requests-Tier2"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonS3"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon Simple Storage Service"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "groupDescription",
+            "value": "GET and all other requests to S3 Table Buckets"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonS3",
+        "region": "us-east-1",
+        "productFamily": "",
+        "prices": [
+          {
+            "USD": "4e-7",
+            "unit": "Requests"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "feeCode",
+            "value": "S3-Storage-GIR-SmObject"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": ""
+          },
+          {
+            "key": "usagetype",
+            "value": "TimedStorage-GIR-SmObjects"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonS3"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon Simple Storage Service"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "feeDescription",
+            "value": "Fee for storing small objects (<128KB) in GIR Storage"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonS3",
+        "region": "us-east-1",
+        "productFamily": "",
+        "prices": [
+          {
+            "USD": "0.004",
+            "unit": "GB-Mo"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "key": "feeCode",
+            "value": "S3-Compute-Checksum-Processed-Bytes"
+          },
+          {
+            "key": "location",
+            "value": "US East (N. Virginia)"
+          },
+          {
+            "key": "operation",
+            "value": ""
+          },
+          {
+            "key": "usagetype",
+            "value": "Compute-Checksum-Processed-GDA-Bytes"
+          },
+          {
+            "key": "regionCode",
+            "value": "us-east-1"
+          },
+          {
+            "key": "servicecode",
+            "value": "AmazonS3"
+          },
+          {
+            "key": "servicename",
+            "value": "Amazon Simple Storage Service"
+          },
+          {
+            "key": "locationType",
+            "value": "AWS Region"
+          },
+          {
+            "key": "feeDescription",
+            "value": "Fee for bytes processed to compute checksum in Glacier Deep Archive"
+          }
+        ],
+        "vendorName": "aws",
+        "service": "AmazonS3",
+        "region": "us-east-1",
+        "productFamily": "",
+        "prices": [
+          {
+            "USD": "0.004",
+            "unit": "GB"
           }
         ]
       },
@@ -1672,7 +2520,9 @@
             "value": "GET and all other requests  to Standard-Infrequent Access"
           }
         ],
+        "vendorName": "aws",
         "service": "AmazonS3",
+        "region": "us-east-1",
         "productFamily": "API Request",
         "prices": [
           {
@@ -1720,7 +2570,9 @@
             "value": "Per job fee for Batch Operations jobs"
           }
         ],
+        "vendorName": "aws",
         "service": "AmazonS3",
+        "region": "us-east-1",
         "productFamily": "",
         "prices": [
           {
@@ -1776,7 +2628,9 @@
             "value": "Intelligent-Tiering"
           }
         ],
+        "vendorName": "aws",
         "service": "AmazonS3",
+        "region": "us-east-1",
         "productFamily": "Storage",
         "prices": [
           {
@@ -1824,7 +2678,9 @@
             "value": "Bytes Returned by OL APs"
           }
         ],
+        "vendorName": "aws",
         "service": "AmazonS3",
+        "region": "us-east-1",
         "productFamily": "",
         "prices": [
           {
@@ -1872,7 +2728,9 @@
             "value": "Fee for bytes processed by S3 Vectors Query"
           }
         ],
+        "vendorName": "aws",
         "service": "AmazonS3",
+        "region": "us-east-1",
         "productFamily": "",
         "prices": [
           {
@@ -1920,7 +2778,9 @@
             "value": "InitiateMultipartUpload to Glacier"
           }
         ],
+        "vendorName": "aws",
         "service": "AmazonS3",
+        "region": "us-east-1",
         "productFamily": "",
         "prices": [
           {
@@ -1968,7 +2828,9 @@
             "value": "Fee for bytes processed to compute checksum in Intelligent-Tiering"
           }
         ],
+        "vendorName": "aws",
         "service": "AmazonS3",
+        "region": "us-east-1",
         "productFamily": "",
         "prices": [
           {
@@ -2016,7 +2878,9 @@
             "value": "GET and all other requests to Tables INT"
           }
         ],
+        "vendorName": "aws",
         "service": "AmazonS3",
+        "region": "us-east-1",
         "productFamily": "",
         "prices": [
           {
@@ -2072,7 +2936,9 @@
             "value": "General Purpose"
           }
         ],
+        "vendorName": "aws",
         "service": "AmazonS3",
+        "region": "us-east-1",
         "productFamily": "Storage",
         "prices": [
           {
@@ -2128,7 +2994,9 @@
             "value": "POST requests to Glacier"
           }
         ],
+        "vendorName": "aws",
         "service": "AmazonS3",
+        "region": "us-east-1",
         "productFamily": "",
         "prices": [
           {
@@ -2176,7 +3044,9 @@
             "value": "Vectors"
           }
         ],
+        "vendorName": "aws",
         "service": "AmazonS3",
+        "region": "us-east-1",
         "productFamily": "",
         "prices": [
           {
@@ -2224,7 +3094,9 @@
             "value": "Standard INT Restore Requests"
           }
         ],
+        "vendorName": "aws",
         "service": "AmazonS3",
+        "region": "us-east-1",
         "productFamily": "",
         "prices": [
           {
@@ -2272,7 +3144,9 @@
             "value": "Pro-rated fee for objects deleted before 30 days in One Zone-Infrequent Access volume"
           }
         ],
+        "vendorName": "aws",
         "service": "AmazonS3",
+        "region": "us-east-1",
         "productFamily": "Fee",
         "prices": [
           {
@@ -2320,7 +3194,9 @@
             "value": "Fee for bytes put to S3 Vectors"
           }
         ],
+        "vendorName": "aws",
         "service": "AmazonS3",
+        "region": "us-east-1",
         "productFamily": "",
         "prices": [
           {
@@ -2368,7 +3244,9 @@
             "value": "COPY requests to Glacier"
           }
         ],
+        "vendorName": "aws",
         "service": "AmazonS3",
+        "region": "us-east-1",
         "productFamily": "",
         "prices": [
           {
@@ -2416,7 +3294,9 @@
             "value": "Access Grants Requests-ListAGCallerGrants"
           }
         ],
+        "vendorName": "aws",
         "service": "AmazonS3",
+        "region": "us-east-1",
         "productFamily": "",
         "prices": [
           {
@@ -2472,7 +3352,9 @@
             "value": "Intelligent-Tiering"
           }
         ],
+        "vendorName": "aws",
         "service": "AmazonS3",
+        "region": "us-east-1",
         "productFamily": "Storage",
         "prices": [
           {
@@ -2520,7 +3402,9 @@
             "value": "Per object fee for objects listed in an Inventory"
           }
         ],
+        "vendorName": "aws",
         "service": "AmazonS3",
+        "region": "us-east-1",
         "productFamily": "Fee",
         "prices": [
           {
@@ -2568,7 +3452,9 @@
             "value": "GET and all other requests to Intelligent-Tiering"
           }
         ],
+        "vendorName": "aws",
         "service": "AmazonS3",
+        "region": "us-east-1",
         "productFamily": "",
         "prices": [
           {
@@ -2616,7 +3502,9 @@
             "value": "UploadPart to Glacier"
           }
         ],
+        "vendorName": "aws",
         "service": "AmazonS3",
+        "region": "us-east-1",
         "productFamily": "",
         "prices": [
           {
@@ -2664,60 +3552,14 @@
             "value": "Bytes Decrypted using Dual-Layer Server-Side Decryption"
           }
         ],
+        "vendorName": "aws",
         "service": "AmazonS3",
+        "region": "us-east-1",
         "productFamily": "",
         "prices": [
           {
             "USD": "0.003",
             "unit": "GB"
-          }
-        ]
-      },
-      {
-        "attributes": [
-          {
-            "key": "group",
-            "value": "S3-API-Tier8"
-          },
-          {
-            "key": "location",
-            "value": "US East (N. Virginia)"
-          },
-          {
-            "key": "operation",
-            "value": "CreateAGInstancePolicy"
-          },
-          {
-            "key": "usagetype",
-            "value": "Requests-Tier8"
-          },
-          {
-            "key": "regionCode",
-            "value": "us-east-1"
-          },
-          {
-            "key": "servicecode",
-            "value": "AmazonS3"
-          },
-          {
-            "key": "servicename",
-            "value": "Amazon Simple Storage Service"
-          },
-          {
-            "key": "locationType",
-            "value": "AWS Region"
-          },
-          {
-            "key": "groupDescription",
-            "value": "Access Grants Requests-CreateAGInstancePolicy"
-          }
-        ],
-        "service": "AmazonS3",
-        "productFamily": "",
-        "prices": [
-          {
-            "USD": "0.00003",
-            "unit": "Requests"
           }
         ]
       },
@@ -2760,7 +3602,9 @@
             "value": "Data Returned by S3 Select in One Zone-Infrequent Access"
           }
         ],
+        "vendorName": "aws",
         "service": "AmazonS3",
+        "region": "us-east-1",
         "productFamily": "API Request",
         "prices": [
           {
@@ -2808,7 +3652,9 @@
             "value": "Fee for objects compacted with sort or Z-order in S3 Table Buckets"
           }
         ],
+        "vendorName": "aws",
         "service": "AmazonS3",
+        "region": "us-east-1",
         "productFamily": "",
         "prices": [
           {
@@ -2856,7 +3702,9 @@
             "value": "Pro-rated fee for retrieving greater than 5% of data stored"
           }
         ],
+        "vendorName": "aws",
         "service": "AmazonS3",
+        "region": "us-east-1",
         "productFamily": "Fee",
         "prices": [
           {
@@ -2904,7 +3752,9 @@
             "value": "Access Grants Requests-CreateAGGrant"
           }
         ],
+        "vendorName": "aws",
         "service": "AmazonS3",
+        "region": "us-east-1",
         "productFamily": "",
         "prices": [
           {
@@ -2952,7 +3802,9 @@
             "value": "Access Grants Requests-GetAGInstancePolicy"
           }
         ],
+        "vendorName": "aws",
         "service": "AmazonS3",
+        "region": "us-east-1",
         "productFamily": "",
         "prices": [
           {
@@ -3000,7 +3852,9 @@
             "value": "Fee for bytes processed by S3 Vectors Query Tier 2"
           }
         ],
+        "vendorName": "aws",
         "service": "AmazonS3",
+        "region": "us-east-1",
         "productFamily": "",
         "prices": [
           {
@@ -3048,108 +3902,14 @@
             "value": "PUT requests to Glacier"
           }
         ],
+        "vendorName": "aws",
         "service": "AmazonS3",
+        "region": "us-east-1",
         "productFamily": "",
         "prices": [
           {
             "USD": "0.00003",
             "unit": "Requests"
-          }
-        ]
-      },
-      {
-        "attributes": [
-          {
-            "key": "feeCode",
-            "value": "S3:EarlyDelete-SIA"
-          },
-          {
-            "key": "location",
-            "value": "US East (N. Virginia)"
-          },
-          {
-            "key": "operation",
-            "value": ""
-          },
-          {
-            "key": "usagetype",
-            "value": "EarlyDelete-SIA"
-          },
-          {
-            "key": "regionCode",
-            "value": "us-east-1"
-          },
-          {
-            "key": "servicecode",
-            "value": "AmazonS3"
-          },
-          {
-            "key": "servicename",
-            "value": "Amazon Simple Storage Service"
-          },
-          {
-            "key": "locationType",
-            "value": "AWS Region"
-          },
-          {
-            "key": "feeDescription",
-            "value": "Pro-rated fee for objects deleted before 30 days in Standard-Infrequent Access volume"
-          }
-        ],
-        "service": "AmazonS3",
-        "productFamily": "Fee",
-        "prices": [
-          {
-            "USD": "0.0125",
-            "unit": "GB-Mo"
-          }
-        ]
-      },
-      {
-        "attributes": [
-          {
-            "key": "feeCode",
-            "value": "S3:EarlyDelete-GIR-SmallObjects"
-          },
-          {
-            "key": "location",
-            "value": "US East (N. Virginia)"
-          },
-          {
-            "key": "operation",
-            "value": ""
-          },
-          {
-            "key": "usagetype",
-            "value": "EarlyDelete-GIR-SmObjects"
-          },
-          {
-            "key": "regionCode",
-            "value": "us-east-1"
-          },
-          {
-            "key": "servicecode",
-            "value": "AmazonS3"
-          },
-          {
-            "key": "servicename",
-            "value": "Amazon Simple Storage Service"
-          },
-          {
-            "key": "locationType",
-            "value": "AWS Region"
-          },
-          {
-            "key": "feeDescription",
-            "value": "Pro-rated fee for small objects deleted before 90 days in Glacier Instant Retrieval volume"
-          }
-        ],
-        "service": "AmazonS3",
-        "productFamily": "",
-        "prices": [
-          {
-            "USD": "0.004",
-            "unit": "GB-Mo"
           }
         ]
       },
@@ -3192,7 +3952,9 @@
             "value": "Fee for bytes processed for compaction in S3 Table Buckets"
           }
         ],
+        "vendorName": "aws",
         "service": "AmazonS3",
+        "region": "us-east-1",
         "productFamily": "",
         "prices": [
           {
@@ -3240,7 +4002,9 @@
             "value": "Per object fee to generate Batch Operations Manifest"
           }
         ],
+        "vendorName": "aws",
         "service": "AmazonS3",
+        "region": "us-east-1",
         "productFamily": "",
         "prices": [
           {
@@ -3288,60 +4052,14 @@
             "value": "Fee for Select Data Returned using Expedited tier"
           }
         ],
+        "vendorName": "aws",
         "service": "AmazonS3",
+        "region": "us-east-1",
         "productFamily": "Fee",
         "prices": [
           {
             "USD": "0.03",
             "unit": "GB"
-          }
-        ]
-      },
-      {
-        "attributes": [
-          {
-            "key": "group",
-            "value": "S3-API-SIA-Tier1"
-          },
-          {
-            "key": "location",
-            "value": "US East (N. Virginia)"
-          },
-          {
-            "key": "operation",
-            "value": ""
-          },
-          {
-            "key": "usagetype",
-            "value": "Requests-SIA-Tier1"
-          },
-          {
-            "key": "regionCode",
-            "value": "us-east-1"
-          },
-          {
-            "key": "servicecode",
-            "value": "AmazonS3"
-          },
-          {
-            "key": "servicename",
-            "value": "Amazon Simple Storage Service"
-          },
-          {
-            "key": "locationType",
-            "value": "AWS Region"
-          },
-          {
-            "key": "groupDescription",
-            "value": "PUT/COPY/POST or LIST requests to Standard-Infrequent Access"
-          }
-        ],
-        "service": "AmazonS3",
-        "productFamily": "API Request",
-        "prices": [
-          {
-            "USD": "0.00001",
-            "unit": "Requests"
           }
         ]
       },
@@ -3384,7 +4102,9 @@
             "value": "Access Grants Requests-GetAGLocation"
           }
         ],
+        "vendorName": "aws",
         "service": "AmazonS3",
+        "region": "us-east-1",
         "productFamily": "",
         "prices": [
           {
@@ -3432,7 +4152,9 @@
             "value": "Access Grants Requests-ListAGGrants"
           }
         ],
+        "vendorName": "aws",
         "service": "AmazonS3",
+        "region": "us-east-1",
         "productFamily": "",
         "prices": [
           {
@@ -3480,7 +4202,9 @@
             "value": "Per object per month fee for S3 Metadata for buckets with greater than 1B objects"
           }
         ],
+        "vendorName": "aws",
         "service": "AmazonS3",
+        "region": "us-east-1",
         "productFamily": "",
         "prices": [
           {
@@ -3528,7 +4252,9 @@
             "value": "GET and all other requests to FSx for ONTAP"
           }
         ],
+        "vendorName": "aws",
         "service": "AmazonS3",
+        "region": "us-east-1",
         "productFamily": "API Request",
         "prices": [
           {
@@ -3576,7 +4302,9 @@
             "value": "Fee for Standard Retrieval of data stored"
           }
         ],
+        "vendorName": "aws",
         "service": "AmazonS3",
+        "region": "us-east-1",
         "productFamily": "",
         "prices": [
           {
@@ -3624,7 +4352,9 @@
             "value": "GET and all other requests to Express One Zone"
           }
         ],
+        "vendorName": "aws",
         "service": "AmazonS3",
+        "region": "us-east-1",
         "productFamily": "API Request",
         "prices": [
           {
@@ -3672,7 +4402,9 @@
             "value": "Object Retrieval in Express One Zone"
           }
         ],
+        "vendorName": "aws",
         "service": "AmazonS3",
+        "region": "us-east-1",
         "productFamily": "API Request",
         "prices": [
           {
@@ -3720,7 +4452,9 @@
             "value": "Access Grants Requests-DeleteAGGrant"
           }
         ],
+        "vendorName": "aws",
         "service": "AmazonS3",
+        "region": "us-east-1",
         "productFamily": "",
         "prices": [
           {
@@ -3768,7 +4502,9 @@
             "value": "Access Grants Requests-DeleteAGInstancePolicy"
           }
         ],
+        "vendorName": "aws",
         "service": "AmazonS3",
+        "region": "us-east-1",
         "productFamily": "",
         "prices": [
           {
@@ -3816,7 +4552,9 @@
             "value": "Per object per month monitoring fee for objects in S3 Table Buckets"
           }
         ],
+        "vendorName": "aws",
         "service": "AmazonS3",
+        "region": "us-east-1",
         "productFamily": "",
         "prices": [
           {
@@ -3864,7 +4602,9 @@
             "value": "Fee for Select Data Scanned using Standard tier"
           }
         ],
+        "vendorName": "aws",
         "service": "AmazonS3",
+        "region": "us-east-1",
         "productFamily": "Fee",
         "prices": [
           {
@@ -3912,7 +4652,9 @@
             "value": "CopyPart to Glacier"
           }
         ],
+        "vendorName": "aws",
         "service": "AmazonS3",
+        "region": "us-east-1",
         "productFamily": "",
         "prices": [
           {
@@ -3968,7 +4710,9 @@
             "value": "Tags"
           }
         ],
+        "vendorName": "aws",
         "service": "AmazonS3",
+        "region": "us-east-1",
         "productFamily": "Storage",
         "prices": [
           {
@@ -4016,7 +4760,9 @@
             "value": "Object Retrieval in Glacier Instant Retrieval"
           }
         ],
+        "vendorName": "aws",
         "service": "AmazonS3",
+        "region": "us-east-1",
         "productFamily": "API Request",
         "prices": [
           {
@@ -4064,7 +4810,9 @@
             "value": "PUT/COPY/POST or LIST requests to One Zone-Infrequent Access"
           }
         ],
+        "vendorName": "aws",
         "service": "AmazonS3",
+        "region": "us-east-1",
         "productFamily": "API Request",
         "prices": [
           {
@@ -4112,7 +4860,9 @@
             "value": "Access Grants Requests-GetAGDataAccess"
           }
         ],
+        "vendorName": "aws",
         "service": "AmazonS3",
+        "region": "us-east-1",
         "productFamily": "",
         "prices": [
           {
@@ -4160,7 +4910,9 @@
             "value": "Data Scanned by S3 Select in One Zone-Infrequent Access"
           }
         ],
+        "vendorName": "aws",
         "service": "AmazonS3",
+        "region": "us-east-1",
         "productFamily": "API Request",
         "prices": [
           {
@@ -4208,7 +4960,9 @@
             "value": "Fee for bytes processed to compute checksum in Glacier Flexible Retrieval"
           }
         ],
+        "vendorName": "aws",
         "service": "AmazonS3",
+        "region": "us-east-1",
         "productFamily": "",
         "prices": [
           {
@@ -4256,7 +5010,9 @@
             "value": "Analytics"
           }
         ],
+        "vendorName": "aws",
         "service": "AmazonS3",
+        "region": "us-east-1",
         "productFamily": "",
         "prices": [
           {
@@ -4304,7 +5060,9 @@
             "value": "Access Grants Requests-ListAGs"
           }
         ],
+        "vendorName": "aws",
         "service": "AmazonS3",
+        "region": "us-east-1",
         "productFamily": "",
         "prices": [
           {
@@ -4352,7 +5110,9 @@
             "value": "Per object fee for objects included in Storage Lens"
           }
         ],
+        "vendorName": "aws",
         "service": "AmazonS3",
+        "region": "us-east-1",
         "productFamily": "Fee",
         "prices": [
           {
@@ -4408,7 +5168,9 @@
             "value": "Per object fee for objects included in Analytics"
           }
         ],
+        "vendorName": "aws",
         "service": "AmazonS3",
+        "region": "us-east-1",
         "productFamily": "Fee",
         "prices": [
           {
@@ -4456,7 +5218,9 @@
             "value": "Analytics"
           }
         ],
+        "vendorName": "aws",
         "service": "AmazonS3",
+        "region": "us-east-1",
         "productFamily": "",
         "prices": [
           {
@@ -4512,7 +5276,9 @@
             "value": "Access Grants Requests-GetAGInstanceForPrefix"
           }
         ],
+        "vendorName": "aws",
         "service": "AmazonS3",
+        "region": "us-east-1",
         "productFamily": "",
         "prices": [
           {
@@ -4560,7 +5326,9 @@
             "value": "Fee for Select Data Scanned using Expedited tier"
           }
         ],
+        "vendorName": "aws",
         "service": "AmazonS3",
+        "region": "us-east-1",
         "productFamily": "Fee",
         "prices": [
           {
@@ -4608,7 +5376,9 @@
             "value": "Fee for Standard Retrieval of data stored from Glacier Deep Archive"
           }
         ],
+        "vendorName": "aws",
         "service": "AmazonS3",
+        "region": "us-east-1",
         "productFamily": "",
         "prices": [
           {
@@ -4664,7 +5434,9 @@
             "value": "Archive Instant Retrieval"
           }
         ],
+        "vendorName": "aws",
         "service": "AmazonS3",
+        "region": "us-east-1",
         "productFamily": "Storage",
         "prices": [
           {
@@ -4720,7 +5492,9 @@
             "value": "High Performance"
           }
         ],
+        "vendorName": "aws",
         "service": "AmazonS3",
+        "region": "us-east-1",
         "productFamily": "Storage",
         "prices": [
           {
@@ -4768,60 +5542,14 @@
             "value": "CompleteMultipartUpload for Replication Time Control to Glacier"
           }
         ],
+        "vendorName": "aws",
         "service": "AmazonS3",
+        "region": "us-east-1",
         "productFamily": "",
         "prices": [
           {
             "USD": "0.00003",
             "unit": "Requests"
-          }
-        ]
-      },
-      {
-        "attributes": [
-          {
-            "key": "feeCode",
-            "value": "S3-Bulk-Retrieval"
-          },
-          {
-            "key": "location",
-            "value": "US East (N. Virginia)"
-          },
-          {
-            "key": "operation",
-            "value": "DeepArchiveRestoreObject"
-          },
-          {
-            "key": "usagetype",
-            "value": "Bulk-Retrieval-Bytes"
-          },
-          {
-            "key": "regionCode",
-            "value": "us-east-1"
-          },
-          {
-            "key": "servicecode",
-            "value": "AmazonS3"
-          },
-          {
-            "key": "servicename",
-            "value": "Amazon Simple Storage Service"
-          },
-          {
-            "key": "locationType",
-            "value": "AWS Region"
-          },
-          {
-            "key": "feeDescription",
-            "value": "Fee for Bulk Retrieval of data stored from Glacier Deep Archive"
-          }
-        ],
-        "service": "AmazonS3",
-        "productFamily": "",
-        "prices": [
-          {
-            "USD": "0.0025",
-            "unit": "GB"
           }
         ]
       },
@@ -4872,7 +5600,9 @@
             "value": "Non-Critical Data"
           }
         ],
+        "vendorName": "aws",
         "service": "AmazonS3",
+        "region": "us-east-1",
         "productFamily": "Storage",
         "prices": [
           {
@@ -4940,7 +5670,9 @@
             "value": "PUT/COPY/POST or LIST requests to Express One Zone"
           }
         ],
+        "vendorName": "aws",
         "service": "AmazonS3",
+        "region": "us-east-1",
         "productFamily": "API Request",
         "prices": [
           {
@@ -4988,7 +5720,9 @@
             "value": "GET and all other requests to One Zone-Infrequent Access"
           }
         ],
+        "vendorName": "aws",
         "service": "AmazonS3",
+        "region": "us-east-1",
         "productFamily": "API Request",
         "prices": [
           {
@@ -5044,7 +5778,9 @@
             "value": "Infrequent Access"
           }
         ],
+        "vendorName": "aws",
         "service": "AmazonS3",
+        "region": "us-east-1",
         "productFamily": "Storage",
         "prices": [
           {
@@ -5092,7 +5828,9 @@
             "value": "Pro-rated fee for objects deleted before 30 days in Intelligent-Tiering volume"
           }
         ],
+        "vendorName": "aws",
         "service": "AmazonS3",
+        "region": "us-east-1",
         "productFamily": "",
         "prices": [
           {
@@ -5106,54 +5844,6 @@
           {
             "USD": "0.021",
             "unit": "GB-Mo"
-          }
-        ]
-      },
-      {
-        "attributes": [
-          {
-            "key": "group",
-            "value": "S3-API-INT-Select-Returned"
-          },
-          {
-            "key": "location",
-            "value": "US East (N. Virginia)"
-          },
-          {
-            "key": "operation",
-            "value": ""
-          },
-          {
-            "key": "usagetype",
-            "value": "Select-Returned-INT-Bytes"
-          },
-          {
-            "key": "regionCode",
-            "value": "us-east-1"
-          },
-          {
-            "key": "servicecode",
-            "value": "AmazonS3"
-          },
-          {
-            "key": "servicename",
-            "value": "Amazon Simple Storage Service"
-          },
-          {
-            "key": "locationType",
-            "value": "AWS Region"
-          },
-          {
-            "key": "groupDescription",
-            "value": "Data Returned by S3 Select in Intelligent-Tiering"
-          }
-        ],
-        "service": "AmazonS3",
-        "productFamily": "",
-        "prices": [
-          {
-            "USD": "0.0007",
-            "unit": "GB"
           }
         ]
       },
@@ -5196,7 +5886,9 @@
             "value": "Standard INT Restore Requests"
           }
         ],
+        "vendorName": "aws",
         "service": "AmazonS3",
+        "region": "us-east-1",
         "productFamily": "",
         "prices": [
           {
@@ -5244,59 +5936,13 @@
             "value": "Object Upload in Express One Zone"
           }
         ],
+        "vendorName": "aws",
         "service": "AmazonS3",
+        "region": "us-east-1",
         "productFamily": "API Request",
         "prices": [
           {
             "USD": "0.0032",
-            "unit": "GB"
-          }
-        ]
-      },
-      {
-        "attributes": [
-          {
-            "key": "feeCode",
-            "value": "S3-Compute-Checksum-Processed-Bytes"
-          },
-          {
-            "key": "location",
-            "value": "US East (N. Virginia)"
-          },
-          {
-            "key": "operation",
-            "value": ""
-          },
-          {
-            "key": "usagetype",
-            "value": "Compute-Checksum-Processed-GIR-Bytes"
-          },
-          {
-            "key": "regionCode",
-            "value": "us-east-1"
-          },
-          {
-            "key": "servicecode",
-            "value": "AmazonS3"
-          },
-          {
-            "key": "servicename",
-            "value": "Amazon Simple Storage Service"
-          },
-          {
-            "key": "locationType",
-            "value": "AWS Region"
-          },
-          {
-            "key": "feeDescription",
-            "value": "Fee for bytes processed to compute checksum in Glacier Instant Retrieval"
-          }
-        ],
-        "service": "AmazonS3",
-        "productFamily": "",
-        "prices": [
-          {
-            "USD": "0.004",
             "unit": "GB"
           }
         ]
@@ -5340,7 +5986,9 @@
             "value": "Pro-rated fee for small objects deleted before 30 days in One Zone-Infrequent Access volume"
           }
         ],
+        "vendorName": "aws",
         "service": "AmazonS3",
+        "region": "us-east-1",
         "productFamily": "Fee",
         "prices": [
           {
@@ -5388,7 +6036,9 @@
             "value": "Data Returned by S3 Select in Standard"
           }
         ],
+        "vendorName": "aws",
         "service": "AmazonS3",
+        "region": "us-east-1",
         "productFamily": "API Request",
         "prices": [
           {
@@ -5436,72 +6086,14 @@
             "value": "Per object per month monitoring and automation fee for objects in Intelligent-Tiering"
           }
         ],
+        "vendorName": "aws",
         "service": "AmazonS3",
+        "region": "us-east-1",
         "productFamily": "",
         "prices": [
           {
             "USD": "0.0000025",
             "unit": "Objects"
-          }
-        ]
-      },
-      {
-        "attributes": [
-          {
-            "key": "location",
-            "value": "US East (N. Virginia)"
-          },
-          {
-            "key": "overhead",
-            "value": "Staging Storage"
-          },
-          {
-            "key": "operation",
-            "value": ""
-          },
-          {
-            "key": "usagetype",
-            "value": "TimedStorage-GlacierStaging"
-          },
-          {
-            "key": "durability",
-            "value": "99.999999999%"
-          },
-          {
-            "key": "regionCode",
-            "value": "us-east-1"
-          },
-          {
-            "key": "volumeType",
-            "value": "Amazon Glacier Staging"
-          },
-          {
-            "key": "servicecode",
-            "value": "AmazonS3"
-          },
-          {
-            "key": "servicename",
-            "value": "Amazon Simple Storage Service"
-          },
-          {
-            "key": "availability",
-            "value": "N/A"
-          },
-          {
-            "key": "locationType",
-            "value": "AWS Region"
-          },
-          {
-            "key": "storageClass",
-            "value": "Archive"
-          }
-        ],
-        "service": "AmazonS3",
-        "productFamily": "Storage",
-        "prices": [
-          {
-            "USD": "0.021",
-            "unit": "GB-Mo"
           }
         ]
       },
@@ -5544,7 +6136,9 @@
             "value": "GET and all other requests to FSx for OpenZFS"
           }
         ],
+        "vendorName": "aws",
         "service": "AmazonS3",
+        "region": "us-east-1",
         "productFamily": "API Request",
         "prices": [
           {
@@ -5592,7 +6186,9 @@
             "value": "Access Grants Requests-GetAG"
           }
         ],
+        "vendorName": "aws",
         "service": "AmazonS3",
+        "region": "us-east-1",
         "productFamily": "",
         "prices": [
           {
@@ -5640,7 +6236,9 @@
             "value": "UploadPart for Replication to Glacier"
           }
         ],
+        "vendorName": "aws",
         "service": "AmazonS3",
+        "region": "us-east-1",
         "productFamily": "",
         "prices": [
           {
@@ -5688,7 +6286,9 @@
             "value": "PUT for Replication to Glacier"
           }
         ],
+        "vendorName": "aws",
         "service": "AmazonS3",
+        "region": "us-east-1",
         "productFamily": "",
         "prices": [
           {
@@ -5736,7 +6336,9 @@
             "value": "Fee for bytes processed to compute checksum in One Zone-Infrequent Access"
           }
         ],
+        "vendorName": "aws",
         "service": "AmazonS3",
+        "region": "us-east-1",
         "productFamily": "",
         "prices": [
           {
@@ -5784,7 +6386,9 @@
             "value": "Per update fee for updates processed in S3 Metadata"
           }
         ],
+        "vendorName": "aws",
         "service": "AmazonS3",
+        "region": "us-east-1",
         "productFamily": "",
         "prices": [
           {
@@ -5832,7 +6436,9 @@
             "value": "Fee for Bulk Retrieval of data stored"
           }
         ],
+        "vendorName": "aws",
         "service": "AmazonS3",
+        "region": "us-east-1",
         "productFamily": "",
         "prices": [
           {
@@ -5880,7 +6486,9 @@
             "value": "Pro-rated fee for objects deleted before 90 days in Glacier Instant Retrieval volume"
           }
         ],
+        "vendorName": "aws",
         "service": "AmazonS3",
+        "region": "us-east-1",
         "productFamily": "",
         "prices": [
           {
@@ -5928,7 +6536,9 @@
             "value": "Tier1 Vectors API Requests"
           }
         ],
+        "vendorName": "aws",
         "service": "AmazonS3",
+        "region": "us-east-1",
         "productFamily": "",
         "prices": [
           {
@@ -5976,7 +6586,9 @@
             "value": "Data Returned by S3 Select in Standard-Infrequent Access"
           }
         ],
+        "vendorName": "aws",
         "service": "AmazonS3",
+        "region": "us-east-1",
         "productFamily": "API Request",
         "prices": [
           {
@@ -6024,7 +6636,9 @@
             "value": "Lifecycle Transition Requests into Standard-Infrequent Access"
           }
         ],
+        "vendorName": "aws",
         "service": "AmazonS3",
+        "region": "us-east-1",
         "productFamily": "",
         "prices": [
           {
@@ -6072,7 +6686,9 @@
             "value": "Standard INT Retrieval"
           }
         ],
+        "vendorName": "aws",
         "service": "AmazonS3",
+        "region": "us-east-1",
         "productFamily": "",
         "prices": [
           {
@@ -6120,7 +6736,9 @@
             "value": "PUT/COPY/POST or LIST requests"
           }
         ],
+        "vendorName": "aws",
         "service": "AmazonS3",
+        "region": "us-east-1",
         "productFamily": "API Request",
         "prices": [
           {
@@ -6168,7 +6786,9 @@
             "value": "Pro-rated fee for small objects deleted before 30 days in Standard-Infrequent Access volume"
           }
         ],
+        "vendorName": "aws",
         "service": "AmazonS3",
+        "region": "us-east-1",
         "productFamily": "Fee",
         "prices": [
           {
@@ -6216,7 +6836,9 @@
             "value": "PUT/COPY/POST requests to Tables INT"
           }
         ],
+        "vendorName": "aws",
         "service": "AmazonS3",
+        "region": "us-east-1",
         "productFamily": "",
         "prices": [
           {
@@ -6264,7 +6886,9 @@
             "value": "Analytics"
           }
         ],
+        "vendorName": "aws",
         "service": "AmazonS3",
+        "region": "us-east-1",
         "productFamily": "",
         "prices": [
           {
@@ -6328,7 +6952,9 @@
             "value": "Archive"
           }
         ],
+        "vendorName": "aws",
         "service": "AmazonS3",
+        "region": "us-east-1",
         "productFamily": "Storage",
         "prices": [
           {
@@ -6376,7 +7002,9 @@
             "value": "InitiateMultipartUpload for Replication Time Control to Glacier"
           }
         ],
+        "vendorName": "aws",
         "service": "AmazonS3",
+        "region": "us-east-1",
         "productFamily": "",
         "prices": [
           {
@@ -6424,60 +7052,14 @@
             "value": "Fee for storing small objects (<128KB) in ZIA Storage"
           }
         ],
+        "vendorName": "aws",
         "service": "AmazonS3",
+        "region": "us-east-1",
         "productFamily": "Fee",
         "prices": [
           {
             "USD": "0.01",
             "unit": "GB-Mo"
-          }
-        ]
-      },
-      {
-        "attributes": [
-          {
-            "key": "group",
-            "value": "S3-API-GLACIER-Tier1"
-          },
-          {
-            "key": "location",
-            "value": "US East (N. Virginia)"
-          },
-          {
-            "key": "operation",
-            "value": "CompleteMultipartUpload"
-          },
-          {
-            "key": "usagetype",
-            "value": "Requests-GLACIER-Tier1"
-          },
-          {
-            "key": "regionCode",
-            "value": "us-east-1"
-          },
-          {
-            "key": "servicecode",
-            "value": "AmazonS3"
-          },
-          {
-            "key": "servicename",
-            "value": "Amazon Simple Storage Service"
-          },
-          {
-            "key": "locationType",
-            "value": "AWS Region"
-          },
-          {
-            "key": "groupDescription",
-            "value": "CompleteMultipartUpload to Glacier"
-          }
-        ],
-        "service": "AmazonS3",
-        "productFamily": "",
-        "prices": [
-          {
-            "USD": "0.00003",
-            "unit": "Requests"
           }
         ]
       },
@@ -6520,7 +7102,9 @@
             "value": "Data Scanned by S3 Select in Intelligent-Tiering"
           }
         ],
+        "vendorName": "aws",
         "service": "AmazonS3",
+        "region": "us-east-1",
         "productFamily": "",
         "prices": [
           {
@@ -6568,7 +7152,9 @@
             "value": "PUT/COPY/POST or LIST requests to Glacier Instant Retrieval"
           }
         ],
+        "vendorName": "aws",
         "service": "AmazonS3",
+        "region": "us-east-1",
         "productFamily": "API Request",
         "prices": [
           {
@@ -6616,7 +7202,9 @@
             "value": "Pro-rated fee for deleting items prior to 90 days"
           }
         ],
+        "vendorName": "aws",
         "service": "AmazonS3",
+        "region": "us-east-1",
         "productFamily": "Fee",
         "prices": [
           {
@@ -6664,7 +7252,9 @@
             "value": "Lifecycle Transition Requests into Glacier"
           }
         ],
+        "vendorName": "aws",
         "service": "AmazonS3",
+        "region": "us-east-1",
         "productFamily": "",
         "prices": [
           {
@@ -6712,7 +7302,9 @@
             "value": "List Vectors API Requests"
           }
         ],
+        "vendorName": "aws",
         "service": "AmazonS3",
+        "region": "us-east-1",
         "productFamily": "",
         "prices": [
           {
@@ -6760,7 +7352,9 @@
             "value": "Object Retrieval in Standard-Infrequent Access"
           }
         ],
+        "vendorName": "aws",
         "service": "AmazonS3",
+        "region": "us-east-1",
         "productFamily": "API Request",
         "prices": [
           {
@@ -6808,60 +7402,14 @@
             "value": "Bulk INT Restore Requests"
           }
         ],
+        "vendorName": "aws",
         "service": "AmazonS3",
+        "region": "us-east-1",
         "productFamily": "",
         "prices": [
           {
             "USD": "0",
             "unit": "API Requests"
-          }
-        ]
-      },
-      {
-        "attributes": [
-          {
-            "key": "group",
-            "value": "INT-AA-RestoreObject"
-          },
-          {
-            "key": "location",
-            "value": "US East (N. Virginia)"
-          },
-          {
-            "key": "operation",
-            "value": "IntAARestoreObject"
-          },
-          {
-            "key": "usagetype",
-            "value": "USE1-Bulk-Retrieval-Bytes"
-          },
-          {
-            "key": "regionCode",
-            "value": "us-east-1"
-          },
-          {
-            "key": "servicecode",
-            "value": "AmazonS3"
-          },
-          {
-            "key": "servicename",
-            "value": "Amazon Simple Storage Service"
-          },
-          {
-            "key": "locationType",
-            "value": "AWS Region"
-          },
-          {
-            "key": "groupDescription",
-            "value": "Bulk INT Retrieval"
-          }
-        ],
-        "service": "AmazonS3",
-        "productFamily": "",
-        "prices": [
-          {
-            "USD": "0",
-            "unit": "GB"
           }
         ]
       },
@@ -6904,7 +7452,9 @@
             "value": "Access Grants Requests-DeleteAG"
           }
         ],
+        "vendorName": "aws",
         "service": "AmazonS3",
+        "region": "us-east-1",
         "productFamily": "",
         "prices": [
           {
@@ -6952,60 +7502,14 @@
             "value": "Expedited INT Restore Requests"
           }
         ],
+        "vendorName": "aws",
         "service": "AmazonS3",
+        "region": "us-east-1",
         "productFamily": "",
         "prices": [
           {
             "USD": "0.01",
             "unit": "Requests"
-          }
-        ]
-      },
-      {
-        "attributes": [
-          {
-            "key": "group",
-            "value": "INT-DAA-RestoreObject"
-          },
-          {
-            "key": "location",
-            "value": "US East (N. Virginia)"
-          },
-          {
-            "key": "operation",
-            "value": "IntDAARestoreObject"
-          },
-          {
-            "key": "usagetype",
-            "value": "USE1-Standard-Retrieval-Bytes"
-          },
-          {
-            "key": "regionCode",
-            "value": "us-east-1"
-          },
-          {
-            "key": "servicecode",
-            "value": "AmazonS3"
-          },
-          {
-            "key": "servicename",
-            "value": "Amazon Simple Storage Service"
-          },
-          {
-            "key": "locationType",
-            "value": "AWS Region"
-          },
-          {
-            "key": "groupDescription",
-            "value": "Standard INT Retrieval"
-          }
-        ],
-        "service": "AmazonS3",
-        "productFamily": "",
-        "prices": [
-          {
-            "USD": "0",
-            "unit": "GB"
           }
         ]
       },
@@ -7048,7 +7552,9 @@
             "value": "Fee for Select Data Returned using Bulk tier"
           }
         ],
+        "vendorName": "aws",
         "service": "AmazonS3",
+        "region": "us-east-1",
         "productFamily": "Fee",
         "prices": [
           {
@@ -7096,7 +7602,9 @@
             "value": "Restore Object"
           }
         ],
+        "vendorName": "aws",
         "service": "AmazonS3",
+        "region": "us-east-1",
         "productFamily": "",
         "prices": [
           {
@@ -7144,7 +7652,9 @@
             "value": "Lifecycle Transition Requests into One Zone-Infrequent Access"
           }
         ],
+        "vendorName": "aws",
         "service": "AmazonS3",
+        "region": "us-east-1",
         "productFamily": "",
         "prices": [
           {
@@ -7192,7 +7702,9 @@
             "value": "Fee for storing small objects (<128KB) in SIA Storage"
           }
         ],
+        "vendorName": "aws",
         "service": "AmazonS3",
+        "region": "us-east-1",
         "productFamily": "Fee",
         "prices": [
           {
@@ -7240,7 +7752,9 @@
             "value": "Restore Object"
           }
         ],
+        "vendorName": "aws",
         "service": "AmazonS3",
+        "region": "us-east-1",
         "productFamily": "",
         "prices": [
           {
@@ -7288,7 +7802,9 @@
             "value": "Bulk INT Retrieval"
           }
         ],
+        "vendorName": "aws",
         "service": "AmazonS3",
+        "region": "us-east-1",
         "productFamily": "",
         "prices": [
           {
@@ -7336,59 +7852,13 @@
             "value": "InitiateMultipartUpload for Replication to Glacier"
           }
         ],
+        "vendorName": "aws",
         "service": "AmazonS3",
+        "region": "us-east-1",
         "productFamily": "",
         "prices": [
           {
             "USD": "0.000005",
-            "unit": "Requests"
-          }
-        ]
-      },
-      {
-        "attributes": [
-          {
-            "key": "group",
-            "value": "S3-API-Tier8"
-          },
-          {
-            "key": "location",
-            "value": "US East (N. Virginia)"
-          },
-          {
-            "key": "operation",
-            "value": "CreateAGLocation"
-          },
-          {
-            "key": "usagetype",
-            "value": "Requests-Tier8"
-          },
-          {
-            "key": "regionCode",
-            "value": "us-east-1"
-          },
-          {
-            "key": "servicecode",
-            "value": "AmazonS3"
-          },
-          {
-            "key": "servicename",
-            "value": "Amazon Simple Storage Service"
-          },
-          {
-            "key": "locationType",
-            "value": "AWS Region"
-          },
-          {
-            "key": "groupDescription",
-            "value": "Access Grants Requests-CreateAGLocation"
-          }
-        ],
-        "service": "AmazonS3",
-        "productFamily": "",
-        "prices": [
-          {
-            "USD": "0.00003",
             "unit": "Requests"
           }
         ]
@@ -7432,7 +7902,9 @@
             "value": "Access Grants Requests-CreateAGIdC"
           }
         ],
+        "vendorName": "aws",
         "service": "AmazonS3",
+        "region": "us-east-1",
         "productFamily": "",
         "prices": [
           {
@@ -7480,7 +7952,9 @@
             "value": "No charge for Free Tier Storage Lens"
           }
         ],
+        "vendorName": "aws",
         "service": "AmazonS3",
+        "region": "us-east-1",
         "productFamily": "Fee",
         "prices": [
           {
@@ -7528,7 +8002,9 @@
             "value": "PUT/COPY/POST or LIST requests to FSx for OpenZFS"
           }
         ],
+        "vendorName": "aws",
         "service": "AmazonS3",
+        "region": "us-east-1",
         "productFamily": "API Request",
         "prices": [
           {
@@ -7576,7 +8052,9 @@
             "value": "Per object fee for object operations performed by Batch Operations"
           }
         ],
+        "vendorName": "aws",
         "service": "AmazonS3",
+        "region": "us-east-1",
         "productFamily": "",
         "prices": [
           {
@@ -7624,7 +8102,9 @@
             "value": "Access Grants Requests-GetAGGrant"
           }
         ],
+        "vendorName": "aws",
         "service": "AmazonS3",
+        "region": "us-east-1",
         "productFamily": "",
         "prices": [
           {
@@ -7672,7 +8152,9 @@
             "value": "Data Scanned by S3 Select in Glacier Instant Retrieval"
           }
         ],
+        "vendorName": "aws",
         "service": "AmazonS3",
+        "region": "us-east-1",
         "productFamily": "API Request",
         "prices": [
           {
@@ -7720,68 +8202,14 @@
             "value": "UploadPart for Replication Time Control to Glacier"
           }
         ],
+        "vendorName": "aws",
         "service": "AmazonS3",
+        "region": "us-east-1",
         "productFamily": "",
         "prices": [
           {
             "USD": "0.000005",
             "unit": "Requests"
-          }
-        ]
-      },
-      {
-        "attributes": [
-          {
-            "key": "location",
-            "value": "US East (N. Virginia)"
-          },
-          {
-            "key": "operation",
-            "value": ""
-          },
-          {
-            "key": "usagetype",
-            "value": "TimedStorage-ZIA-ByteHrs"
-          },
-          {
-            "key": "durability",
-            "value": "99.999999999%"
-          },
-          {
-            "key": "regionCode",
-            "value": "us-east-1"
-          },
-          {
-            "key": "volumeType",
-            "value": "One Zone - Infrequent Access"
-          },
-          {
-            "key": "servicecode",
-            "value": "AmazonS3"
-          },
-          {
-            "key": "servicename",
-            "value": "Amazon Simple Storage Service"
-          },
-          {
-            "key": "availability",
-            "value": "99.5%"
-          },
-          {
-            "key": "locationType",
-            "value": "AWS Region"
-          },
-          {
-            "key": "storageClass",
-            "value": "Infrequent Access"
-          }
-        ],
-        "service": "AmazonS3",
-        "productFamily": "Storage",
-        "prices": [
-          {
-            "USD": "0.01",
-            "unit": "GB-Mo"
           }
         ]
       },
@@ -7824,7 +8252,9 @@
             "value": "Access Grants Requests-CreateAGInstance"
           }
         ],
+        "vendorName": "aws",
         "service": "AmazonS3",
+        "region": "us-east-1",
         "productFamily": "",
         "prices": [
           {
@@ -7872,7 +8302,9 @@
             "value": "Expedited INT Retrieval"
           }
         ],
+        "vendorName": "aws",
         "service": "AmazonS3",
+        "region": "us-east-1",
         "productFamily": "",
         "prices": [
           {
@@ -7920,7 +8352,9 @@
             "value": "Access Grants Requests-DeleteAGIdC"
           }
         ],
+        "vendorName": "aws",
         "service": "AmazonS3",
+        "region": "us-east-1",
         "productFamily": "",
         "prices": [
           {
@@ -7968,72 +8402,14 @@
             "value": "Per table update fee for tables replicated in S3 table buckets"
           }
         ],
+        "vendorName": "aws",
         "service": "AmazonS3",
+        "region": "us-east-1",
         "productFamily": "",
         "prices": [
           {
             "USD": "0.00001",
             "unit": "Updates"
-          }
-        ]
-      },
-      {
-        "attributes": [
-          {
-            "key": "location",
-            "value": "US East (N. Virginia)"
-          },
-          {
-            "key": "overhead",
-            "value": "Staging Storage 1"
-          },
-          {
-            "key": "operation",
-            "value": ""
-          },
-          {
-            "key": "usagetype",
-            "value": "TimedStorage-GlacierByteHrs"
-          },
-          {
-            "key": "durability",
-            "value": "99.999999999%"
-          },
-          {
-            "key": "regionCode",
-            "value": "us-east-1"
-          },
-          {
-            "key": "volumeType",
-            "value": "Amazon Glacier"
-          },
-          {
-            "key": "servicecode",
-            "value": "AmazonS3"
-          },
-          {
-            "key": "servicename",
-            "value": "Amazon Simple Storage Service"
-          },
-          {
-            "key": "availability",
-            "value": "N/A"
-          },
-          {
-            "key": "locationType",
-            "value": "AWS Region"
-          },
-          {
-            "key": "storageClass",
-            "value": "Archive"
-          }
-        ],
-        "service": "AmazonS3",
-        "productFamily": "Storage",
-        "prices": [
-          {
-            "USD": "0.0036",
-            "unit": "GB-Mo"
           }
         ]
       },
@@ -8084,7 +8460,9 @@
             "value": "Intelligent-Tiering"
           }
         ],
+        "vendorName": "aws",
         "service": "AmazonS3",
+        "region": "us-east-1",
         "productFamily": "Storage",
         "prices": [
           {
@@ -8132,7 +8510,9 @@
             "value": "Query Vectors API Requests"
           }
         ],
+        "vendorName": "aws",
         "service": "AmazonS3",
+        "region": "us-east-1",
         "productFamily": "",
         "prices": [
           {
@@ -8180,7 +8560,9 @@
             "value": "Access Grants Requests-UpdateAGLocation"
           }
         ],
+        "vendorName": "aws",
         "service": "AmazonS3",
+        "region": "us-east-1",
         "productFamily": "",
         "prices": [
           {
@@ -8228,7 +8610,9 @@
             "value": "Data Returned by S3 Select in Glacier Instant Retrieval"
           }
         ],
+        "vendorName": "aws",
         "service": "AmazonS3",
+        "region": "us-east-1",
         "productFamily": "API Request",
         "prices": [
           {
@@ -8276,60 +8660,14 @@
             "value": "Analytics"
           }
         ],
+        "vendorName": "aws",
         "service": "AmazonS3",
+        "region": "us-east-1",
         "productFamily": "",
         "prices": [
           {
             "USD": "0.0046",
             "unit": "GB-Mo"
-          }
-        ]
-      },
-      {
-        "attributes": [
-          {
-            "key": "group",
-            "value": "S3-API-Tier4"
-          },
-          {
-            "key": "location",
-            "value": "US East (N. Virginia)"
-          },
-          {
-            "key": "operation",
-            "value": "S3-GIRTransition"
-          },
-          {
-            "key": "usagetype",
-            "value": "Requests-Tier4"
-          },
-          {
-            "key": "regionCode",
-            "value": "us-east-1"
-          },
-          {
-            "key": "servicecode",
-            "value": "AmazonS3"
-          },
-          {
-            "key": "servicename",
-            "value": "Amazon Simple Storage Service"
-          },
-          {
-            "key": "locationType",
-            "value": "AWS Region"
-          },
-          {
-            "key": "groupDescription",
-            "value": "Lifecycle Transition Requests into Glacier Instant Retrieval"
-          }
-        ],
-        "service": "AmazonS3",
-        "productFamily": "",
-        "prices": [
-          {
-            "USD": "0.00002",
-            "unit": "Requests"
           }
         ]
       },
@@ -8372,7 +8710,9 @@
             "value": "Access Grants Requests-ListAGLocations"
           }
         ],
+        "vendorName": "aws",
         "service": "AmazonS3",
+        "region": "us-east-1",
         "productFamily": "",
         "prices": [
           {
@@ -8420,7 +8760,9 @@
             "value": "PUT/COPY/POST or LIST requests to FSx for ONTAP"
           }
         ],
+        "vendorName": "aws",
         "service": "AmazonS3",
+        "region": "us-east-1",
         "productFamily": "API Request",
         "prices": [
           {
@@ -8468,7 +8810,9 @@
             "value": "GET and all other requests"
           }
         ],
+        "vendorName": "aws",
         "service": "AmazonS3",
+        "region": "us-east-1",
         "productFamily": "API Request",
         "prices": [
           {
@@ -8516,7 +8860,9 @@
             "value": "CompleteMultipartUpload for Replication to Glacier"
           }
         ],
+        "vendorName": "aws",
         "service": "AmazonS3",
+        "region": "us-east-1",
         "productFamily": "",
         "prices": [
           {
@@ -8564,7 +8910,9 @@
             "value": "PUT/COPY/POST or LIST requests to Intelligent-Tiering"
           }
         ],
+        "vendorName": "aws",
         "service": "AmazonS3",
+        "region": "us-east-1",
         "productFamily": "",
         "prices": [
           {
@@ -8612,7 +8960,9 @@
             "value": "Data Scanned by S3 Select in Standard"
           }
         ],
+        "vendorName": "aws",
         "service": "AmazonS3",
+        "region": "us-east-1",
         "productFamily": "API Request",
         "prices": [
           {
@@ -8668,7 +9018,9 @@
             "value": "Intelligent-Tiering"
           }
         ],
+        "vendorName": "aws",
         "service": "AmazonS3",
+        "region": "us-east-1",
         "productFamily": "Storage",
         "prices": [
           {
@@ -8716,7 +9068,9 @@
             "value": "Fee for Select Data Returned using Standard tier"
           }
         ],
+        "vendorName": "aws",
         "service": "AmazonS3",
+        "region": "us-east-1",
         "productFamily": "Fee",
         "prices": [
           {
@@ -8764,7 +9118,9 @@
             "value": "Access Grants Requests-DeleteAGLocation"
           }
         ],
+        "vendorName": "aws",
         "service": "AmazonS3",
+        "region": "us-east-1",
         "productFamily": "",
         "prices": [
           {
@@ -8812,7 +9168,9 @@
             "value": "PUT for Replication Time Control to Glacier"
           }
         ],
+        "vendorName": "aws",
         "service": "AmazonS3",
+        "region": "us-east-1",
         "productFamily": "",
         "prices": [
           {
@@ -8860,7 +9218,9 @@
             "value": "Tier2 Vectors API Requests"
           }
         ],
+        "vendorName": "aws",
         "service": "AmazonS3",
+        "region": "us-east-1",
         "productFamily": "",
         "prices": [
           {
@@ -8908,7 +9268,9 @@
             "value": "Data Scanned by S3 Select in Standard-Infrequent Access"
           }
         ],
+        "vendorName": "aws",
         "service": "AmazonS3",
+        "region": "us-east-1",
         "productFamily": "API Request",
         "prices": [
           {
@@ -8956,7 +9318,9 @@
             "value": "Bulk INT Restore Requests"
           }
         ],
+        "vendorName": "aws",
         "service": "AmazonS3",
+        "region": "us-east-1",
         "productFamily": "",
         "prices": [
           {

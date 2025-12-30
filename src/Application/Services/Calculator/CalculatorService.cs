@@ -8,12 +8,21 @@ namespace Application.Services.Calculator;
 public interface ICalculatorService
 {
     Task<TemplateCostComparisonResultDto> CalculateCostComparisonsAsync(CalculationRequest templateDto, CancellationToken ct = default);
+
+    Task<TemplateCostComparisonResultDto> CalculateCostComparisonsAsync(CalculateTemplateRequest templateDto, CancellationToken ct = default);
 }
 
 public class CalculatorService(IResourceNormalizationService resourceNormalizationService,
-    IPriceProvider priceProvider) : ICalculatorService
+    IPriceProvider priceProvider, ITemplateService templateService) : ICalculatorService
 {
     public const int HoursPerMonth = 730;
+
+
+    public Task<TemplateCostComparisonResultDto> CalculateCostComparisonsAsync(CalculateTemplateRequest templateDto, CancellationToken ct = default)
+    {
+        var template = templateService.GetTemplate(templateDto.Template, templateDto.Usage);
+        return CalculateCostComparisonsAsync(new CalculationRequest() { Resources = template.Resources}, ct);
+    }
 
     public async Task<TemplateCostComparisonResultDto> CalculateCostComparisonsAsync(CalculationRequest template, CancellationToken ct = default)
     {

@@ -1,6 +1,8 @@
 ﻿{
   Resources: [
-    VirtualMachines,
+    ObjectStorage,
+    Backup,
+    CDN,
     LoadBalancer,
     Monitoring
   ],
@@ -8,13 +10,8 @@
     small: [
       {
         CloudProvider: aws,
-        TotalMonthlyPrice: 40.5880,
+        TotalMonthlyPrice: 13.140,
         CostDetails: [
-          {
-            Cost: 27.4480,
-            ResourceSubCategory: VirtualMachines,
-            ResourceDetails: {"InstanceName":"t3a.medium","Region":"us-east-1","VCpu":2,"Memory":"4 GiB","PricePerHour":0.0376,"Cloud":0,"Category":1,"SubCategory":100}
-          },
           {
             Cost: 5.840,
             ResourceSubCategory: LoadBalancer,
@@ -29,13 +26,8 @@
       },
       {
         CloudProvider: azure,
-        TotalMonthlyPrice: 104.6090,
+        TotalMonthlyPrice: 59.3490,
         CostDetails: [
-          {
-            Cost: 45.260,
-            ResourceSubCategory: VirtualMachines,
-            ResourceDetails: {"InstanceName":"Standard_D2pls_v6","Region":"eastus","VCpu":2,"Memory":"4","PricePerHour":0.062,"Cloud":1,"Category":1,"SubCategory":100}
-          },
           {
             Cost: 59.3490,
             ResourceSubCategory: Monitoring,
@@ -63,13 +55,8 @@
     medium: [
       {
         CloudProvider: aws,
-        TotalMonthlyPrice: 106.580,
+        TotalMonthlyPrice: 13.140,
         CostDetails: [
-          {
-            Cost: 93.440,
-            ResourceSubCategory: VirtualMachines,
-            ResourceDetails: {"InstanceName":"r4.xlarge","Region":"us-east-1","VCpu":4,"Memory":"30.5 GiB","PricePerHour":0.128,"Cloud":0,"Category":1,"SubCategory":100}
-          },
           {
             Cost: 5.840,
             ResourceSubCategory: LoadBalancer,
@@ -84,13 +71,8 @@
       },
       {
         CloudProvider: azure,
-        TotalMonthlyPrice: 171.0390,
+        TotalMonthlyPrice: 59.3490,
         CostDetails: [
-          {
-            Cost: 111.690,
-            ResourceSubCategory: VirtualMachines,
-            ResourceDetails: {"InstanceName":"Standard_B4ps_v2","Region":"eastus","VCpu":4,"Memory":"16","PricePerHour":0.153,"Cloud":1,"Category":1,"SubCategory":100}
-          },
           {
             Cost: 59.3490,
             ResourceSubCategory: Monitoring,
@@ -118,13 +100,8 @@
     large: [
       {
         CloudProvider: aws,
-        TotalMonthlyPrice: 207.320,
+        TotalMonthlyPrice: 13.140,
         CostDetails: [
-          {
-            Cost: 194.180,
-            ResourceSubCategory: VirtualMachines,
-            ResourceDetails: {"InstanceName":"m5d.2xlarge","Region":"us-east-1","VCpu":8,"Memory":"32 GiB","PricePerHour":0.266,"Cloud":0,"Category":1,"SubCategory":100}
-          },
           {
             Cost: 5.840,
             ResourceSubCategory: LoadBalancer,
@@ -139,13 +116,8 @@
       },
       {
         CloudProvider: azure,
-        TotalMonthlyPrice: 240.3890,
+        TotalMonthlyPrice: 59.3490,
         CostDetails: [
-          {
-            Cost: 181.040,
-            ResourceSubCategory: VirtualMachines,
-            ResourceDetails: {"InstanceName":"Standard_D8pls_v6","Region":"eastus","VCpu":8,"Memory":"16","PricePerHour":0.248,"Cloud":1,"Category":1,"SubCategory":100}
-          },
           {
             Cost: 59.3490,
             ResourceSubCategory: Monitoring,
@@ -173,13 +145,8 @@
     xlarge: [
       {
         CloudProvider: aws,
-        TotalMonthlyPrice: 306.600,
+        TotalMonthlyPrice: 13.140,
         CostDetails: [
-          {
-            Cost: 293.460,
-            ResourceSubCategory: VirtualMachines,
-            ResourceDetails: {"InstanceName":"r3.4xlarge","Region":"us-east-1","VCpu":16,"Memory":"122 GiB","PricePerHour":0.402,"Cloud":0,"Category":1,"SubCategory":100}
-          },
           {
             Cost: 5.840,
             ResourceSubCategory: LoadBalancer,
@@ -194,13 +161,8 @@
       },
       {
         CloudProvider: azure,
-        TotalMonthlyPrice: 595.1690,
+        TotalMonthlyPrice: 59.3490,
         CostDetails: [
-          {
-            Cost: 535.820,
-            ResourceSubCategory: VirtualMachines,
-            ResourceDetails: {"InstanceName":"Standard_D16pds_v6","Region":"eastus","VCpu":16,"Memory":"64","PricePerHour":0.734,"Cloud":1,"Category":1,"SubCategory":100}
-          },
           {
             Cost: 59.3490,
             ResourceSubCategory: Monitoring,

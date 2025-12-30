@@ -13,6 +13,12 @@ public class CalculationRequest
     public List<ResourceSubCategory> Resources { get; set; } = new();
 }
 
+public class CalculateTemplateRequest
+{
+    public TemplateType Template { get; set; }
+    public UsageSize Usage { get; set; }
+}
+
 public class TemplateVirtualMachineDto : TemplateResourceDtoBase
 {
     public required string InstanceName { get; set; }

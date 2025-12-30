@@ -1,0 +1,73 @@
+﻿{
+  Resources: null,
+  CloudCosts: {
+    small: [
+      {
+        CloudProvider: aws,
+        TotalMonthlyPrice: 0.0,
+        CostDetails: null
+      },
+      {
+        CloudProvider: azure,
+        TotalMonthlyPrice: 0.0,
+        CostDetails: null
+      },
+      {
+        CloudProvider: gcp,
+        TotalMonthlyPrice: 0.0,
+        CostDetails: null
+      }
+    ],
+    medium: [
+      {
+        CloudProvider: aws,
+        TotalMonthlyPrice: 0.0,
+        CostDetails: null
+      },
+      {
+        CloudProvider: azure,
+        TotalMonthlyPrice: 0.0,
+        CostDetails: null
+      },
+      {
+        CloudProvider: gcp,
+        TotalMonthlyPrice: 0.0,
+        CostDetails: null
+      }
+    ],
+    large: [
+      {
+        CloudProvider: aws,
+        TotalMonthlyPrice: 0.0,
+        CostDetails: null
+      },
+      {
+        CloudProvider: azure,
+        TotalMonthlyPrice: 0.0,
+        CostDetails: null
+      },
+      {
+        CloudProvider: gcp,
+        TotalMonthlyPrice: 0.0,
+        CostDetails: null
+      }
+    ],
+    xlarge: [
+      {
+        CloudProvider: aws,
+        TotalMonthlyPrice: 0.0,
+        CostDetails: null
+      },
+      {
+        CloudProvider: azure,
+        TotalMonthlyPrice: 0.0,
+        CostDetails: null
+      },
+      {
+        CloudProvider: gcp,
+        TotalMonthlyPrice: 0.0,
+        CostDetails: null
+      }
+    ]
+  }
+}
