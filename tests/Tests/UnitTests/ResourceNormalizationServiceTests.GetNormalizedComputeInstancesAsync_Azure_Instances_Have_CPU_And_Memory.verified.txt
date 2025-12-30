@@ -2,6 +2,9 @@
   {
     InstanceName: Standard_E96iads v5,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -11,6 +14,7 @@
     Region: eastus,
     VCpu: 32,
     Memory: 256,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -18,6 +22,8 @@
   {
     InstanceName: Standard_D64ps_v6,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
     PricePerHour: 5.19,
     Cloud: azure,
     Category: Compute,
@@ -26,6 +32,9 @@
   {
     InstanceName: Standard_E32-16ads v5,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -35,6 +44,7 @@
     Region: eastus,
     VCpu: 16,
     Memory: 64,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -42,6 +52,8 @@
   {
     InstanceName: Standard_E8ads v5,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
     PricePerHour: 0.892,
     Cloud: azure,
     Category: Compute,
@@ -52,6 +64,7 @@
     Region: eastus,
     VCpu: 16,
     Memory: 128,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -61,6 +74,7 @@
     Region: eastus,
     VCpu: 4,
     Memory: 8,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -70,6 +84,7 @@
     Region: eastus,
     VCpu: 128,
     Memory: 2794,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -87,6 +102,9 @@
   {
     InstanceName: Standard_E32-16ads v5,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -96,6 +114,7 @@
     Region: eastus,
     VCpu: 8,
     Memory: 32,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -103,6 +122,8 @@
   {
     InstanceName: Standard_E8-4ads v5,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
     PricePerHour: 0.892,
     Cloud: azure,
     Category: Compute,
@@ -111,6 +132,9 @@
   {
     InstanceName: Standard_F16ads_v7,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -120,6 +144,7 @@
     Region: eastus,
     VCpu: 8,
     Memory: 64,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -127,6 +152,9 @@
   {
     InstanceName: Standard_E20ads v5,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -134,6 +162,8 @@
   {
     InstanceName: Standard_M16s,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
     PricePerHour: 3.123,
     Cloud: azure,
     Category: Compute,
@@ -154,6 +184,7 @@
     Region: eastus,
     VCpu: 64,
     Memory: 1344,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -161,6 +192,9 @@
   {
     InstanceName: Standard_E64ads v5,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -168,6 +202,9 @@
   {
     InstanceName: Standard_NV24,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -177,6 +214,7 @@
     Region: eastus,
     VCpu: 8,
     Memory: 168,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -186,6 +224,7 @@
     Region: eastus,
     VCpu: 32,
     Memory: 256,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -195,6 +234,7 @@
     Region: eastus,
     VCpu: 16,
     Memory: 336,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -202,6 +242,9 @@
   {
     InstanceName: Standard_E64-32ads v5,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -209,6 +252,9 @@
   {
     InstanceName: Standard_E32-8as v5,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -238,6 +284,7 @@
     Region: eastus,
     VCpu: 64,
     Memory: 1397,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -245,6 +292,9 @@
   {
     InstanceName: Standard_E2as v5,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -252,6 +302,8 @@
   {
     InstanceName: Standard_E8-2as_v6,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
     PricePerHour: 0.845,
     Cloud: azure,
     Category: Compute,
@@ -270,6 +322,8 @@
   {
     InstanceName: Standard D8ns v6,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
     PricePerHour: 0.953,
     Cloud: azure,
     Category: Compute,
@@ -278,6 +332,8 @@
   {
     InstanceName: Standard_F4als_v7,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
     PricePerHour: 0.426,
     Cloud: azure,
     Category: Compute,
@@ -286,6 +342,9 @@
   {
     InstanceName: Standard_F8alds_v6,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -293,6 +352,9 @@
   {
     InstanceName: Standard_E32-8as v5,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -300,6 +362,8 @@
   {
     InstanceName: Standard_E96-24as v5,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
     PricePerHour: 9.84,
     Cloud: azure,
     Category: Compute,
@@ -308,6 +372,9 @@
   {
     InstanceName: Standard_E4-2ads v5,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -317,6 +384,7 @@
     Region: eastus,
     VCpu: 16,
     Memory: 128,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -336,6 +404,7 @@
     Region: eastus,
     VCpu: 64,
     Memory: 512,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -343,6 +412,8 @@
   {
     InstanceName: Standard_D32ps_v6,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
     PricePerHour: 2.595,
     Cloud: azure,
     Category: Compute,
@@ -351,6 +422,9 @@
   {
     InstanceName: Standard_E112ias v5,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -358,6 +432,9 @@
   {
     InstanceName: Standard_D48plds_v6,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -365,6 +442,9 @@
   {
     InstanceName: Standard_E8ads v5,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -374,6 +454,7 @@
     Region: eastus,
     VCpu: 176,
     Memory: 1408,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -383,6 +464,7 @@
     Region: eastus,
     VCpu: 176,
     Memory: 768,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -410,6 +492,9 @@
   {
     InstanceName: Standard_M96s-48_2_v3,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -417,6 +502,9 @@
   {
     InstanceName: Standard_E96-24ads v5,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -426,6 +514,7 @@
     Region: eastus,
     VCpu: 96,
     Memory: 1832,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -435,6 +524,7 @@
     Region: eastus,
     VCpu: 4,
     Memory: 8,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -454,6 +544,7 @@
     Region: eastus,
     VCpu: 48,
     Memory: 384,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -461,6 +552,9 @@
   {
     InstanceName: Standard_E20ads v5,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -470,6 +564,7 @@
     Region: eastus,
     VCpu: 16,
     Memory: 128,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -479,6 +574,7 @@
     Region: eastus,
     VCpu: 8,
     Memory: 32,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -488,6 +584,7 @@
     Region: eastus,
     VCpu: 32,
     Memory: 128,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -497,6 +594,7 @@
     Region: eastus,
     VCpu: 12,
     Memory: 252,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -506,6 +604,7 @@
     Region: eastus,
     VCpu: 2,
     Memory: 16,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -513,6 +612,9 @@
   {
     InstanceName: Standard_E4ads v5,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -520,6 +622,8 @@
   {
     InstanceName: Standard_E32ps_v6,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
     PricePerHour: 0.0,
     Cloud: azure,
     Category: Compute,
@@ -538,6 +642,9 @@
   {
     InstanceName: Standard_E48as v5,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -545,6 +652,8 @@
   {
     InstanceName: Standard_E48as v5,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
     PricePerHour: 4.92,
     Cloud: azure,
     Category: Compute,
@@ -563,6 +672,8 @@
   {
     InstanceName: Standard_PB24s,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
     PricePerHour: 4.424,
     Cloud: azure,
     Category: Compute,
@@ -571,6 +682,8 @@
   {
     InstanceName: Standard_E8-2as v5,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
     PricePerHour: 0.452,
     Cloud: azure,
     Category: Compute,
@@ -579,6 +692,8 @@
   {
     InstanceName: Standard_E32ads v5,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
     PricePerHour: 3.568,
     Cloud: azure,
     Category: Compute,
@@ -587,6 +702,9 @@
   {
     InstanceName: Standard_E96-48ads v5,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -594,6 +712,9 @@
   {
     InstanceName: Standard_D64ads_v7,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -601,6 +722,8 @@
   {
     InstanceName: Standard_D32pds_v6,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
     PricePerHour: 2.941,
     Cloud: azure,
     Category: Compute,
@@ -609,6 +732,9 @@
   {
     InstanceName: Standard_F72alds_v6,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -616,6 +742,9 @@
   {
     InstanceName: Standard_D16nlds_v6,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -643,6 +772,9 @@
   {
     InstanceName: Standard_E32ads v5,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -650,6 +782,8 @@
   {
     InstanceName: Standard_E2as v5,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
     PricePerHour: 0.205,
     Cloud: azure,
     Category: Compute,
@@ -658,6 +792,8 @@
   {
     InstanceName: Standard_F72iamds_v6,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
     PricePerHour: 12.27,
     Cloud: azure,
     Category: Compute,
@@ -668,6 +804,7 @@
     Region: eastus,
     VCpu: 2,
     Memory: 16,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -677,6 +814,7 @@
     Region: eastus,
     VCpu: 32,
     Memory: 64,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -696,6 +834,7 @@
     Region: eastus,
     VCpu: 64,
     Memory: 512,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -703,6 +842,8 @@
   {
     InstanceName: Standard_E16-8ads v5,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
     PricePerHour: 1.784,
     Cloud: azure,
     Category: Compute,
@@ -713,6 +854,7 @@
     Region: eastus,
     VCpu: 176,
     Memory: 1408,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -720,6 +862,9 @@
   {
     InstanceName: Standard_NC6s_v2,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -737,6 +882,9 @@
   {
     InstanceName: Virtual Machines,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -744,6 +892,8 @@
   {
     InstanceName: Standard_E32-8as_v6,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
     PricePerHour: 1.907,
     Cloud: azure,
     Category: Compute,
@@ -754,6 +904,7 @@
     Region: eastus,
     VCpu: 192,
     Memory: 2048,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -763,6 +914,7 @@
     Region: eastus,
     VCpu: 24,
     Memory: 448,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -770,6 +922,9 @@
   {
     InstanceName: Standard_E48ps_v6,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -777,6 +932,9 @@
   {
     InstanceName: Standard_F48amds_v6,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -784,6 +942,9 @@
   {
     InstanceName: Standard_E96-48ads v5,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -791,6 +952,8 @@
   {
     InstanceName: Standard_DC96es_v6,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
     PricePerHour: 4.838,
     Cloud: azure,
     Category: Compute,
@@ -799,6 +962,8 @@
   {
     InstanceName: Standard_D2pls_v6,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
     PricePerHour: 0.154,
     Cloud: azure,
     Category: Compute,
@@ -807,6 +972,9 @@
   {
     InstanceName: Standard_E64ads v5,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -814,6 +982,9 @@
   {
     InstanceName: Standard_E48pds_v6,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -831,6 +1002,9 @@
   {
     InstanceName: Standard_E2nds_v6,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -838,6 +1012,8 @@
   {
     InstanceName: Standard_D4plds_v6,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
     PricePerHour: 0.34,
     Cloud: azure,
     Category: Compute,
@@ -846,6 +1022,8 @@
   {
     InstanceName: Standard_D96plds_v6,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
     PricePerHour: 8.16,
     Cloud: azure,
     Category: Compute,
@@ -854,6 +1032,9 @@
   {
     InstanceName: M416s_10_v2,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -863,6 +1044,7 @@
     Region: eastus,
     VCpu: 32,
     Memory: 128,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -880,6 +1062,9 @@
   {
     InstanceName: Standard_A2,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -887,6 +1072,8 @@
   {
     InstanceName: Virtual Machines,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
     PricePerHour: 9.613,
     Cloud: azure,
     Category: Compute,
@@ -895,6 +1082,9 @@
   {
     InstanceName: Standard_D96ps_v6,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -902,6 +1092,9 @@
   {
     InstanceName: Standard_E96ias v5,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -911,6 +1104,7 @@
     Region: eastus,
     VCpu: 32,
     Memory: 64,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -918,6 +1112,8 @@
   {
     InstanceName: Standard_M416s-208_6_v3,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
     PricePerHour: 61.446,
     Cloud: azure,
     Category: Compute,
@@ -928,6 +1124,7 @@
     Region: eastus,
     VCpu: 4,
     Memory: 32,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -937,6 +1134,7 @@
     Region: eastus,
     VCpu: 16,
     Memory: 128,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -956,6 +1154,7 @@
     Region: eastus,
     VCpu: 8,
     Memory: 32,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -963,6 +1162,8 @@
   {
     InstanceName: Standard D8ns v6,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
     PricePerHour: 0.585,
     Cloud: azure,
     Category: Compute,
@@ -971,6 +1172,8 @@
   {
     InstanceName: Standard_E4-2as v5,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
     PricePerHour: 0.41,
     Cloud: azure,
     Category: Compute,
@@ -981,6 +1184,7 @@
     Region: eastus,
     VCpu: 32,
     Memory: 256,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -998,6 +1202,9 @@
   {
     InstanceName: Standard_ND24s,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -1035,6 +1242,8 @@
   {
     InstanceName: Standard_E160ads_v7,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
     PricePerHour: 11.616,
     Cloud: azure,
     Category: Compute,
@@ -1055,6 +1264,7 @@
     Region: eastus,
     VCpu: 48,
     Memory: 384,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -1062,6 +1272,8 @@
   {
     InstanceName: Standard_E48nds_v6,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
     PricePerHour: 7.349,
     Cloud: azure,
     Category: Compute,
@@ -1070,6 +1282,8 @@
   {
     InstanceName: Standard_F4alds_v7,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
     PricePerHour: 0.47,
     Cloud: azure,
     Category: Compute,
@@ -1080,6 +1294,7 @@
     Region: eastus,
     VCpu: 4,
     Memory: 28,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -1089,6 +1304,7 @@
     Region: eastus,
     VCpu: 4,
     Memory: 16,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -1096,6 +1312,9 @@
   {
     InstanceName: Standard_F48ads_v6,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -1105,6 +1324,7 @@
     Region: eastus,
     VCpu: 64,
     Memory: 1344,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -1112,6 +1332,9 @@
   {
     InstanceName: Standard_E4-2ads v5,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -1121,6 +1344,7 @@
     Region: eastus,
     VCpu: 4,
     Memory: 16,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -1130,6 +1354,7 @@
     Region: eastus,
     VCpu: 12,
     Memory: 240,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -1139,6 +1364,7 @@
     Region: eastus,
     VCpu: 96,
     Memory: 672,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -1148,6 +1374,7 @@
     Region: eastus,
     VCpu: 32,
     Memory: 256,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -1177,6 +1404,7 @@
     Region: eastus,
     VCpu: 4,
     Memory: 8,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -1206,6 +1434,7 @@
     Region: eastus,
     VCpu: 2,
     Memory: 16,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -1213,6 +1442,9 @@
   {
     InstanceName: Standard_E8ads v5,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -1220,6 +1452,9 @@
   {
     InstanceName: Standard_D32ns_v6,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -1237,6 +1472,9 @@
   {
     InstanceName: Standard_E8-4ads v5,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -1246,6 +1484,7 @@
     Region: eastus,
     VCpu: 20,
     Memory: 160,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -1263,6 +1502,9 @@
   {
     InstanceName: Standard_F16alds_v7,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -1270,6 +1512,8 @@
   {
     InstanceName: Standard_F72iamds_v6,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
     PricePerHour: 8.958,
     Cloud: azure,
     Category: Compute,
@@ -1280,6 +1524,7 @@
     Region: eastus,
     VCpu: 8,
     Memory: 64,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -1287,6 +1532,9 @@
   {
     InstanceName: Standard_E16-8as v5,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -1294,6 +1542,9 @@
   {
     InstanceName: Standard_F1ads_v6,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -1301,6 +1552,8 @@
   {
     InstanceName: Standard_E4as v5,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
     PricePerHour: 0.41,
     Cloud: azure,
     Category: Compute,
@@ -1319,6 +1572,9 @@
   {
     InstanceName: Standard_E8-2as v5,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -1328,6 +1584,7 @@
     Region: eastus,
     VCpu: 64,
     Memory: 504,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -1335,6 +1592,9 @@
   {
     InstanceName: Standard_M416ds-208_6_v3,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -1364,6 +1624,7 @@
     Region: eastus,
     VCpu: 64,
     Memory: 128,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -1371,6 +1632,8 @@
   {
     InstanceName: Standard_E16-8ads_v6,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
     PricePerHour: 1.898,
     Cloud: azure,
     Category: Compute,
@@ -1379,6 +1642,8 @@
   {
     InstanceName: Standard_E8-4ads_v7,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
     PricePerHour: 0.581,
     Cloud: azure,
     Category: Compute,
@@ -1397,6 +1662,9 @@
   {
     InstanceName: Standard_D8ns_v6,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -1406,6 +1674,7 @@
     Region: eastus,
     VCpu: 64,
     Memory: 512,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -1415,6 +1684,7 @@
     Region: eastus,
     VCpu: 16,
     Memory: 128,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -1422,6 +1692,8 @@
   {
     InstanceName: Standard_E16-4as v5,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
     PricePerHour: 1.64,
     Cloud: azure,
     Category: Compute,
@@ -1430,6 +1702,9 @@
   {
     InstanceName: Standard_M96ds-48_2_v3,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -1439,6 +1714,7 @@
     Region: eastus,
     VCpu: 4,
     Memory: 32,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -1448,6 +1724,7 @@
     Region: eastus,
     VCpu: 176,
     Memory: 1408,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -1457,6 +1734,7 @@
     Region: eastus,
     VCpu: 16,
     Memory: 128,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -1464,6 +1742,8 @@
   {
     InstanceName: Standard_E112iads v5,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
     PricePerHour: 13.222,
     Cloud: azure,
     Category: Compute,
@@ -1482,6 +1762,9 @@
   {
     InstanceName: Standard_E48ads v5,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -1491,6 +1774,7 @@
     Region: eastus,
     VCpu: 8,
     Memory: 28,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -1520,6 +1804,7 @@
     Region: eastus,
     VCpu: 32,
     Memory: 256,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -1529,6 +1814,7 @@
     Region: eastus,
     VCpu: 64,
     Memory: 1344,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -1536,6 +1822,8 @@
   {
     InstanceName: Standard_E96as v5,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
     PricePerHour: 5.424,
     Cloud: azure,
     Category: Compute,
@@ -1546,6 +1834,7 @@
     Region: eastus,
     VCpu: 24,
     Memory: 504,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -1553,6 +1842,8 @@
   {
     InstanceName: Standard_H16,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
     PricePerHour: 3.508,
     Cloud: azure,
     Category: Compute,
@@ -1563,6 +1854,7 @@
     Region: eastus,
     VCpu: 48,
     Memory: 192,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -1602,6 +1894,7 @@
     Region: eastus,
     VCpu: 8,
     Memory: 32,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -1621,6 +1914,7 @@
     Region: eastus,
     VCpu: 2,
     Memory: 8,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -1628,6 +1922,9 @@
   {
     InstanceName: Standard_E64-16ads v5,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -1637,6 +1934,7 @@
     Region: eastus,
     VCpu: 2,
     Memory: 8,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -1644,6 +1942,8 @@
   {
     InstanceName: Standard_E16as v5,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
     PricePerHour: 0.904,
     Cloud: azure,
     Category: Compute,
@@ -1652,6 +1952,9 @@
   {
     InstanceName: Standard_E32-8ads v5,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -1661,6 +1964,7 @@
     Region: eastus,
     VCpu: 64,
     Memory: 128,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -1678,6 +1982,9 @@
   {
     InstanceName: Standard_D8plds_v6,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -1685,6 +1992,9 @@
   {
     InstanceName: Standard_E2ads v5,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -1692,6 +2002,9 @@
   {
     InstanceName: Standard_F48ads_v7,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -1711,6 +2024,7 @@
     Region: eastus,
     VCpu: 120,
     Memory: 456,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -1718,6 +2032,8 @@
   {
     InstanceName: Standard_D2nds_v6,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
     PricePerHour: 0.273,
     Cloud: azure,
     Category: Compute,
@@ -1728,6 +2044,7 @@
     Region: eastus,
     VCpu: 16,
     Memory: 128,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -1735,6 +2052,8 @@
   {
     InstanceName: Standard_E96-24ads v5,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
     PricePerHour: 10.704,
     Cloud: azure,
     Category: Compute,
@@ -1743,6 +2062,9 @@
   {
     InstanceName: Standard_E4-2ads_v6,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -1762,6 +2084,7 @@
     Region: eastus,
     VCpu: 96,
     Memory: 384,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -1779,6 +2102,8 @@
   {
     InstanceName: Standard_E16-4ads v5,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
     PricePerHour: 1.048,
     Cloud: azure,
     Category: Compute,
@@ -1789,6 +2114,7 @@
     Region: eastus,
     VCpu: 4,
     Memory: 32,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -1798,6 +2124,7 @@
     Region: eastus,
     VCpu: 16,
     Memory: 336,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -1807,6 +2134,7 @@
     Region: eastus,
     VCpu: 48,
     Memory: 384,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -1814,6 +2142,8 @@
   {
     InstanceName: Standard_D48ps_v6,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
     PricePerHour: 3.893,
     Cloud: azure,
     Category: Compute,
@@ -1822,6 +2152,9 @@
   {
     InstanceName: Standard_E64-16as v5,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -1841,6 +2174,7 @@
     Region: eastus,
     VCpu: 96,
     Memory: 672,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -1848,6 +2182,9 @@
   {
     InstanceName: Standard_M416ds-104_6_v3,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -1887,6 +2224,7 @@
     Region: eastus,
     VCpu: 192,
     Memory: 4096,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -1896,6 +2234,7 @@
     Region: eastus,
     VCpu: 48,
     Memory: 974,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -1905,6 +2244,7 @@
     Region: eastus,
     VCpu: 8,
     Memory: 64,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -1922,6 +2262,9 @@
   {
     InstanceName: Standard_M832ds-208_12_v3,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -1939,6 +2282,8 @@
   {
     InstanceName: Standard_F2-1ams_v7,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
     PricePerHour: 0.271,
     Cloud: azure,
     Category: Compute,
@@ -1957,6 +2302,8 @@
   {
     InstanceName: Standard_D15i_v2,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
     PricePerHour: 2.38,
     Cloud: azure,
     Category: Compute,
@@ -1967,6 +2314,7 @@
     Region: eastus,
     VCpu: 8,
     Memory: 16,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -1974,6 +2322,9 @@
   {
     InstanceName: Standard_E112ias v5,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -1983,6 +2334,7 @@
     Region: eastus,
     VCpu: 16,
     Memory: 112,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -2010,6 +2362,8 @@
   {
     InstanceName: Standard_E64-16ads_v6,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
     PricePerHour: 7.59,
     Cloud: azure,
     Category: Compute,
@@ -2030,6 +2384,7 @@
     Region: eastus,
     VCpu: 128,
     Memory: 3892,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -2039,6 +2394,7 @@
     Region: eastus,
     VCpu: 128,
     Memory: 2048,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -2046,6 +2402,8 @@
   {
     InstanceName: Standard_F8alds_v6,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
     PricePerHour: 0.935,
     Cloud: azure,
     Category: Compute,
@@ -2054,6 +2412,9 @@
   {
     InstanceName: Standard_E96iads v5,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -2063,6 +2424,7 @@
     Region: eastus,
     VCpu: 16,
     Memory: 128,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -2072,6 +2434,7 @@
     Region: eastus,
     VCpu: 32,
     Memory: 128,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -2079,6 +2442,9 @@
   {
     InstanceName: Standard_F80ams_v7,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -2098,6 +2464,7 @@
     Region: eastus,
     VCpu: 96,
     Memory: 1946,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -2105,6 +2472,8 @@
   {
     InstanceName: Standard_E8ads v5,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
     PricePerHour: 0.524,
     Cloud: azure,
     Category: Compute,
@@ -2123,6 +2492,8 @@
   {
     InstanceName: Standard_E48bds_v6,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
     PricePerHour: 4.69,
     Cloud: azure,
     Category: Compute,
@@ -2131,6 +2502,8 @@
   {
     InstanceName: Standard_E64ads v5,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
     PricePerHour: 7.136,
     Cloud: azure,
     Category: Compute,
@@ -2149,6 +2522,9 @@
   {
     InstanceName: Standard D2ns v6,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -2156,6 +2532,9 @@
   {
     InstanceName: Standard_E2ns_v6,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -2173,6 +2552,9 @@
   {
     InstanceName: Standard_D8pds_v6,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -2182,6 +2564,7 @@
     Region: eastus,
     VCpu: 2,
     Memory: 14,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -2199,6 +2582,9 @@
   {
     InstanceName: Standard_M96ds-24_1_v3,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -2208,6 +2594,7 @@
     Region: eastus,
     VCpu: 96,
     Memory: 672,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -2215,6 +2602,9 @@
   {
     InstanceName: Standard_E20as v5,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -2224,6 +2614,7 @@
     Region: eastus,
     VCpu: 96,
     Memory: 384,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -2231,6 +2622,8 @@
   {
     InstanceName: Standard_D16nlds_v6,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
     PricePerHour: 1.892,
     Cloud: azure,
     Category: Compute,
@@ -2251,6 +2644,7 @@
     Region: eastus,
     VCpu: 4,
     Memory: 16,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -2260,6 +2654,7 @@
     Region: eastus,
     VCpu: 2,
     Memory: 8,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -2269,6 +2664,7 @@
     Region: eastus,
     VCpu: 4,
     Memory: 16,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -2278,6 +2674,7 @@
     Region: eastus,
     VCpu: 2,
     Memory: 4,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -2285,6 +2682,8 @@
   {
     InstanceName: Standard_E64-16as v5,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
     PricePerHour: 3.616,
     Cloud: azure,
     Category: Compute,
@@ -2295,6 +2694,7 @@
     Region: eastus,
     VCpu: 2,
     Memory: 8,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -2312,6 +2712,9 @@
   {
     InstanceName: Standard_E64-16as v5,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -2319,6 +2722,8 @@
   {
     InstanceName: Standard_E96ads v5,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
     PricePerHour: 10.704,
     Cloud: azure,
     Category: Compute,
@@ -2327,6 +2732,8 @@
   {
     InstanceName: Standard_E64-32ads_v6,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
     PricePerHour: 7.59,
     Cloud: azure,
     Category: Compute,
@@ -2335,6 +2742,9 @@
   {
     InstanceName: Standard_F64alds_v6,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -2354,6 +2764,7 @@
     Region: eastus,
     VCpu: 4,
     Memory: 32,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -2361,6 +2772,9 @@
   {
     InstanceName: Standard_F1alds_v6,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -2378,6 +2792,8 @@
   {
     InstanceName: Standard_E8nds_v6,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
     PricePerHour: 1.225,
     Cloud: azure,
     Category: Compute,
@@ -2388,6 +2804,7 @@
     Region: eastus,
     VCpu: 48,
     Memory: 384,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -2395,6 +2812,8 @@
   {
     InstanceName: Standard_E64pds_v6,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
     PricePerHour: 6.688,
     Cloud: azure,
     Category: Compute,
@@ -2405,6 +2824,7 @@
     Region: eastus,
     VCpu: 8,
     Memory: 64,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -2412,6 +2832,9 @@
   {
     InstanceName: Standard_M208-52ms_v2,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -2421,6 +2844,7 @@
     Region: eastus,
     VCpu: 48,
     Memory: 192,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -2430,6 +2854,7 @@
     Region: eastus,
     VCpu: 128,
     Memory: 2048,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -2437,6 +2862,9 @@
   {
     InstanceName: Standard_E96-48as_v7,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -2446,6 +2874,7 @@
     Region: eastus,
     VCpu: 2,
     Memory: 16,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -2455,6 +2884,7 @@
     Region: eastus,
     VCpu: 6,
     Memory: 112,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -2464,6 +2894,7 @@
     Region: eastus,
     VCpu: 32,
     Memory: 256,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -2481,6 +2912,9 @@
   {
     InstanceName: Standard_E16-8ads v5,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -2490,6 +2924,7 @@
     Region: eastus,
     VCpu: 20,
     Memory: 160,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -2499,6 +2934,7 @@
     Region: eastus,
     VCpu: 64,
     Memory: 504,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -2508,6 +2944,7 @@
     Region: eastus,
     VCpu: 4,
     Memory: 32,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -2517,6 +2954,7 @@
     Region: eastus,
     VCpu: 48,
     Memory: 192,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -2526,6 +2964,7 @@
     Region: eastus,
     VCpu: 64,
     Memory: 512,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -2535,6 +2974,7 @@
     Region: eastus,
     VCpu: 2,
     Memory: 8,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -2552,6 +2992,9 @@
   {
     InstanceName: Standard_E20ads v5,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -2569,6 +3012,8 @@
   {
     InstanceName: Standard_E64-32as v5,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
     PricePerHour: 6.56,
     Cloud: azure,
     Category: Compute,
@@ -2577,6 +3022,9 @@
   {
     InstanceName: Standard_E32-8as v5,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -2594,6 +3042,9 @@
   {
     InstanceName: Standard_M832is-208_16_v3,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -2603,6 +3054,7 @@
     Region: eastus,
     VCpu: 96,
     Memory: 384,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -2610,6 +3062,9 @@
   {
     InstanceName: Standard_E64-32as v5,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -2619,6 +3074,7 @@
     Region: eastus,
     VCpu: 112,
     Memory: 672,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -2628,6 +3084,7 @@
     Region: eastus,
     VCpu: 2,
     Memory: 1,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -2637,6 +3094,7 @@
     Region: eastus,
     VCpu: 16,
     Memory: 128,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -2644,6 +3102,9 @@
   {
     InstanceName: Standard_E32-16as v5,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -2651,6 +3112,9 @@
   {
     InstanceName: Virtual Machines,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -2668,6 +3132,8 @@
   {
     InstanceName: Standard_E16-8as_v7,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
     PricePerHour: 0.954,
     Cloud: azure,
     Category: Compute,
@@ -2688,6 +3154,7 @@
     Region: eastus,
     VCpu: 32,
     Memory: 256,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -2697,6 +3164,7 @@
     Region: eastus,
     VCpu: 72,
     Memory: 144,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -2704,6 +3172,8 @@
   {
     InstanceName: Standard_F8as_v7,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
     PricePerHour: 0.914,
     Cloud: azure,
     Category: Compute,
@@ -2722,6 +3192,9 @@
   {
     InstanceName: Standard_E64-32ads v5,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -2739,6 +3212,8 @@
   {
     InstanceName: Standard_EC48eds_v6,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
     PricePerHour: 6.132,
     Cloud: azure,
     Category: Compute,
@@ -2749,6 +3224,7 @@
     Region: eastus,
     VCpu: 4,
     Memory: 16,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -2756,6 +3232,9 @@
   {
     InstanceName: Standard_E32ads_v7,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -2765,6 +3244,7 @@
     Region: eastus,
     VCpu: 2,
     Memory: 16,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -2772,6 +3252,9 @@
   {
     InstanceName: Basic_A3,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -2779,6 +3262,8 @@
   {
     InstanceName: Standard_M176ds-44_4_v3,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
     PricePerHour: 28.494,
     Cloud: azure,
     Category: Compute,
@@ -2807,6 +3292,9 @@
   {
     InstanceName: Standard_E64ads_v7,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -2814,6 +3302,9 @@
   {
     InstanceName: Standard_E32as v5,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -2821,6 +3312,9 @@
   {
     InstanceName: Standard_DC8es_v6,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -2830,6 +3324,7 @@
     Region: eastus,
     VCpu: 16,
     Memory: 64,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -2837,6 +3332,9 @@
   {
     InstanceName: Standard_E16-8ads v5,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -2844,6 +3342,9 @@
   {
     InstanceName: Standard_M208-104s_v2,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -2851,6 +3352,9 @@
   {
     InstanceName: Standard_ND12s,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -2858,6 +3362,8 @@
   {
     InstanceName: Standard_E8ps_v6,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
     PricePerHour: 0.737,
     Cloud: azure,
     Category: Compute,
@@ -2868,6 +3374,7 @@
     Region: eastus,
     VCpu: 16,
     Memory: 128,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -2895,6 +3402,9 @@
   {
     InstanceName: Standard_DC4s,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -2902,6 +3412,9 @@
   {
     InstanceName: Standard D16ns v6,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -2909,6 +3422,9 @@
   {
     InstanceName: Standard_E8-2ads_v6,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -2926,6 +3442,8 @@
   {
     InstanceName: Standard_E8-2ads_v7,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
     PricePerHour: 0.581,
     Cloud: azure,
     Category: Compute,
@@ -2936,6 +3454,7 @@
     Region: eastus,
     VCpu: 24,
     Memory: 448,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -2943,6 +3462,8 @@
   {
     InstanceName: Standard_M416is_v2,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
     PricePerHour: 49.58,
     Cloud: azure,
     Category: Compute,
@@ -2953,6 +3474,7 @@
     Region: eastus,
     VCpu: 32,
     Memory: 128,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -2960,6 +3482,9 @@
   {
     InstanceName: Standard_E4ads v5,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -2967,6 +3492,8 @@
   {
     InstanceName: Standard D4ns v6,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
     PricePerHour: 0.292,
     Cloud: azure,
     Category: Compute,
@@ -2977,6 +3504,7 @@
     Region: eastus,
     VCpu: 4,
     Memory: 84,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -2984,6 +3512,9 @@
   {
     InstanceName: Standard_E4nds_v6,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -2993,6 +3524,7 @@
     Region: eastus,
     VCpu: 8,
     Memory: 64,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -3000,6 +3532,9 @@
   {
     InstanceName: Standard_E16ads v5,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -3019,6 +3554,7 @@
     Region: eastus,
     VCpu: 10,
     Memory: 168,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -3028,6 +3564,7 @@
     Region: eastus,
     VCpu: 64,
     Memory: 512,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -3037,6 +3574,7 @@
     Region: eastus,
     VCpu: 2,
     Memory: 8,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -3044,6 +3582,8 @@
   {
     InstanceName: Standard_E20as v5,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
     PricePerHour: 2.05,
     Cloud: azure,
     Category: Compute,
@@ -3052,6 +3592,9 @@
   {
     InstanceName: Basic_A1,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -3071,6 +3614,7 @@
     Region: eastus,
     VCpu: 4,
     Memory: 32,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -3078,6 +3622,8 @@
   {
     InstanceName: Standard_M416ds-208_6_v3,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
     PricePerHour: 83.6543,
     Cloud: azure,
     Category: Compute,
@@ -3086,6 +3632,8 @@
   {
     InstanceName: Standard_F48als_v7,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
     PricePerHour: 2.904,
     Cloud: azure,
     Category: Compute,
@@ -3094,6 +3642,9 @@
   {
     InstanceName: Standard_E64-32as v5,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -3103,6 +3654,7 @@
     Region: eastus,
     VCpu: 16,
     Memory: 64,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -3110,6 +3662,9 @@
   {
     InstanceName: Standard_HB60-45rs,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -3117,6 +3672,9 @@
   {
     InstanceName: Standard_M48s-24_1_v3,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -3126,6 +3684,7 @@
     Region: eastus,
     VCpu: 2,
     Memory: 8,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -3133,6 +3692,8 @@
   {
     InstanceName: Standard_D96als_v7,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
     PricePerHour: 8.275,
     Cloud: azure,
     Category: Compute,
@@ -3143,6 +3704,7 @@
     Region: eastus,
     VCpu: 8,
     Memory: 16,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -3152,6 +3714,7 @@
     Region: eastus,
     VCpu: 96,
     Memory: 768,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -3159,6 +3722,9 @@
   {
     InstanceName: Standard_E96-24as v5,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -3166,6 +3732,9 @@
   {
     InstanceName: Standard_E16as v5,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -3183,6 +3752,9 @@
   {
     InstanceName: Standard_D8nlds_v6,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -3190,6 +3762,9 @@
   {
     InstanceName: Standard_F16ads_v6,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -3197,6 +3772,9 @@
   {
     InstanceName: Standard_E32ads v5,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -3206,6 +3784,7 @@
     Region: eastus,
     VCpu: 48,
     Memory: 192,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -3225,6 +3804,7 @@
     Region: eastus,
     VCpu: 8,
     Memory: 64,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -3232,6 +3812,8 @@
   {
     InstanceName: Standard_E128ads_v7,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
     PricePerHour: 15.181,
     Cloud: azure,
     Category: Compute,
@@ -3242,6 +3824,7 @@
     Region: eastus,
     VCpu: 48,
     Memory: 448,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -3249,6 +3832,9 @@
   {
     InstanceName: Standard_E8nds_v6,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -3268,6 +3854,7 @@
     Region: eastus,
     VCpu: 4,
     Memory: 32,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -3275,6 +3862,9 @@
   {
     InstanceName: Standard_E20as v5,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -3294,6 +3884,7 @@
     Region: eastus,
     VCpu: 4,
     Memory: 32,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -3301,6 +3892,9 @@
   {
     InstanceName: Standard D48ns v6,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -3310,6 +3904,7 @@
     Region: eastus,
     VCpu: 64,
     Memory: 1792,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -3327,6 +3922,9 @@
   {
     InstanceName: Standard_E16-4as v5,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -3334,6 +3932,9 @@
   {
     InstanceName: Standard_E96-24as v5,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -3353,6 +3954,7 @@
     Region: eastus,
     VCpu: 64,
     Memory: 208,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -3372,6 +3974,7 @@
     Region: eastus,
     VCpu: 8,
     Memory: 32,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -3379,6 +3982,8 @@
   {
     InstanceName: Standard_F2alds_v6,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
     PricePerHour: 0.142,
     Cloud: azure,
     Category: Compute,
@@ -3397,6 +4002,9 @@
   {
     InstanceName: Standard_F48amds_v6,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -3404,6 +4012,9 @@
   {
     InstanceName: Standard_F64amds_v6,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -3411,6 +4022,8 @@
   {
     InstanceName: Standard_EC16eds_v6,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
     PricePerHour: 1.308,
     Cloud: azure,
     Category: Compute,
@@ -3421,6 +4034,7 @@
     Region: eastus,
     VCpu: 16,
     Memory: 32,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -3428,6 +4042,8 @@
   {
     InstanceName: Standard_E64-32as_v6,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
     PricePerHour: 3.814,
     Cloud: azure,
     Category: Compute,
@@ -3448,6 +4064,7 @@
     Region: eastus,
     VCpu: 96,
     Memory: 768,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -3467,6 +4084,7 @@
     Region: eastus,
     VCpu: 4,
     Memory: 8,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -3476,6 +4094,7 @@
     Region: eastus,
     VCpu: 8,
     Memory: 168,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -3483,6 +4102,8 @@
   {
     InstanceName: Standard_E64-16as v5,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
     PricePerHour: 6.56,
     Cloud: azure,
     Category: Compute,
@@ -3503,6 +4124,7 @@
     Region: eastus,
     VCpu: 32,
     Memory: 64,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -3510,6 +4132,9 @@
   {
     InstanceName: Standard_E8as v5,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -3517,6 +4142,8 @@
   {
     InstanceName: Standard_E64-32as_v6,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
     PricePerHour: 6.758,
     Cloud: azure,
     Category: Compute,
@@ -3527,6 +4154,7 @@
     Region: eastus,
     VCpu: 4,
     Memory: 8,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -3534,6 +4162,9 @@
   {
     InstanceName: Standard_E48ads v5,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -3543,6 +4174,7 @@
     Region: eastus,
     VCpu: 16,
     Memory: 336,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -3550,6 +4182,9 @@
   {
     InstanceName: Standard_E64-16as v5,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -3577,6 +4212,9 @@
   {
     InstanceName: Standard_D32nds_v6,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -3586,6 +4224,7 @@
     Region: eastus,
     VCpu: 20,
     Memory: 160,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -3603,6 +4242,9 @@
   {
     InstanceName: Standard_E32as v5,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -3612,6 +4254,7 @@
     Region: eastus,
     VCpu: 32,
     Memory: 128,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -3619,6 +4262,9 @@
   {
     InstanceName: Standard_E4-2ads v5,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -3628,6 +4274,7 @@
     Region: eastus,
     VCpu: 96,
     Memory: 768,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -3637,6 +4284,7 @@
     Region: eastus,
     VCpu: 64,
     Memory: 512,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -3644,6 +4292,9 @@
   {
     InstanceName: Standard_E2as_v7,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -3651,6 +4302,9 @@
   {
     InstanceName: Standard_H16m,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -3660,6 +4314,7 @@
     Region: eastus,
     VCpu: 2,
     Memory: 7,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -3667,6 +4322,9 @@
   {
     InstanceName: Standard_E32as v5,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -3676,6 +4334,7 @@
     Region: eastus,
     VCpu: 32,
     Memory: 64,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -3703,6 +4362,8 @@
   {
     InstanceName: Standard_E96ias v5,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
     PricePerHour: 10.382,
     Cloud: azure,
     Category: Compute,
@@ -3711,6 +4372,9 @@
   {
     InstanceName: Standard_E2ads v5,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -3718,6 +4382,9 @@
   {
     InstanceName: Standard_E64-32ads v5,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -3727,6 +4394,7 @@
     Region: eastus,
     VCpu: 48,
     Memory: 192,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -3744,6 +4412,8 @@
   {
     InstanceName: Standard_D96ps_v6,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
     PricePerHour: 7.786,
     Cloud: azure,
     Category: Compute,
@@ -3752,6 +4422,9 @@
   {
     InstanceName: Standard_E8-4as v5,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -3759,6 +4432,9 @@
   {
     InstanceName: Standard_M176ds-88_4_v3,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -3768,6 +4444,7 @@
     Region: eastus,
     VCpu: 64,
     Memory: 512,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -3775,6 +4452,9 @@
   {
     InstanceName: Standard_F16alds_v6,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -3784,6 +4464,7 @@
     Region: eastus,
     VCpu: 2,
     Memory: 8,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -3793,6 +4474,7 @@
     Region: eastus,
     VCpu: 4,
     Memory: 14,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -3800,6 +4482,8 @@
   {
     InstanceName: Standard_E64-16ads v5,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
     PricePerHour: 7.136,
     Cloud: azure,
     Category: Compute,
@@ -3810,6 +4494,7 @@
     Region: eastus,
     VCpu: 8,
     Memory: 64,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -3819,6 +4504,7 @@
     Region: eastus,
     VCpu: 2,
     Memory: 8,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -3828,6 +4514,7 @@
     Region: eastus,
     VCpu: 2,
     Memory: 8,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -3835,6 +4522,8 @@
   {
     InstanceName: Standard_D128nds_v6,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
     PricePerHour: 11.561,
     Cloud: azure,
     Category: Compute,
@@ -3843,6 +4532,8 @@
   {
     InstanceName: Standard_E32-16as v5,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
     PricePerHour: 3.28,
     Cloud: azure,
     Category: Compute,
@@ -3851,6 +4542,8 @@
   {
     InstanceName: Standard_E32ads v5,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
     PricePerHour: 2.096,
     Cloud: azure,
     Category: Compute,
@@ -3859,6 +4552,8 @@
   {
     InstanceName: Standard_F48ams_v7,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
     PricePerHour: 6.504,
     Cloud: azure,
     Category: Compute,
@@ -3869,6 +4564,7 @@
     Region: eastus,
     VCpu: 96,
     Memory: 974,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -3876,6 +4572,8 @@
   {
     InstanceName: Standard_D15i_v2,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
     PricePerHour: 1.853,
     Cloud: azure,
     Category: Compute,
@@ -3884,6 +4582,8 @@
   {
     InstanceName: Standard_D64alds_v7,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
     PricePerHour: 3.046,
     Cloud: azure,
     Category: Compute,
@@ -3892,6 +4592,8 @@
   {
     InstanceName: Standard_D128nls_v6,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
     PricePerHour: 13.372,
     Cloud: azure,
     Category: Compute,
@@ -3900,6 +4602,8 @@
   {
     InstanceName: Standard_E32-16ads_v7,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
     PricePerHour: 2.323,
     Cloud: azure,
     Category: Compute,
@@ -3908,6 +4612,9 @@
   {
     InstanceName: Standard_F16amds_v6,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -3915,6 +4622,8 @@
   {
     InstanceName: Standard_D4nds_v6,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
     PricePerHour: 0.361,
     Cloud: azure,
     Category: Compute,
@@ -3933,6 +4642,9 @@
   {
     InstanceName: Standard_E96-24as_v6,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -3942,6 +4654,7 @@
     Region: eastus,
     VCpu: 176,
     Memory: 3892,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -3969,6 +4682,9 @@
   {
     InstanceName: Standard_E32ads v5,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -3978,6 +4694,7 @@
     Region: eastus,
     VCpu: 16,
     Memory: 64,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -3987,6 +4704,7 @@
     Region: eastus,
     VCpu: 8,
     Memory: 32,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -4006,6 +4724,7 @@
     Region: eastus,
     VCpu: 16,
     Memory: 128,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -4015,6 +4734,7 @@
     Region: eastus,
     VCpu: 96,
     Memory: 672,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -4022,6 +4742,9 @@
   {
     InstanceName: Standard_E96iads v5,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -4029,6 +4752,9 @@
   {
     InstanceName: Standard_E48as v5,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -4036,6 +4762,9 @@
   {
     InstanceName: Standard_F1amds_v6,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -4045,6 +4774,7 @@
     Region: eastus,
     VCpu: 416,
     Memory: 7600,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -4052,6 +4782,8 @@
   {
     InstanceName: Standard_E64ps_v6,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
     PricePerHour: 5.894,
     Cloud: azure,
     Category: Compute,
@@ -4062,6 +4794,7 @@
     Region: eastus,
     VCpu: 8,
     Memory: 64,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -4071,6 +4804,7 @@
     Region: eastus,
     VCpu: 8,
     Memory: 32,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -4078,6 +4812,9 @@
   {
     InstanceName: Standard_E32-16as v5,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -4085,6 +4822,9 @@
   {
     InstanceName: Standard_E20as v5,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -4104,6 +4844,7 @@
     Region: eastus,
     VCpu: 2,
     Memory: 16,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -4111,6 +4852,9 @@
   {
     InstanceName: Standard_E16-4ads v5,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -4118,6 +4862,9 @@
   {
     InstanceName: Standard_A5,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -4125,6 +4872,9 @@
   {
     InstanceName: Standard_ND96ams_A100_v4,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -4144,6 +4894,7 @@
     Region: eastus,
     VCpu: 32,
     Memory: 192,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -4151,6 +4902,8 @@
   {
     InstanceName: Standard_E96-24ads v5,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
     PricePerHour: 6.288,
     Cloud: azure,
     Category: Compute,
@@ -4159,6 +4912,9 @@
   {
     InstanceName: Standard_E64-16ads_v7,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -4168,6 +4924,7 @@
     Region: eastus,
     VCpu: 2,
     Memory: 16,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -4177,6 +4934,7 @@
     Region: eastus,
     VCpu: 8,
     Memory: 64,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -4184,6 +4942,8 @@
   {
     InstanceName: Standard_E32-8as_v6,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
     PricePerHour: 3.379,
     Cloud: azure,
     Category: Compute,
@@ -4192,6 +4952,8 @@
   {
     InstanceName: Esv3_Type1,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
     PricePerHour: 3.881,
     Cloud: azure,
     Category: Compute,
@@ -4210,6 +4972,8 @@
   {
     InstanceName: Standard_D48nds_v6,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
     PricePerHour: 4.335,
     Cloud: azure,
     Category: Compute,
@@ -4218,6 +4982,9 @@
   {
     InstanceName: Standard_E16-4as v5,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -4225,6 +4992,9 @@
   {
     InstanceName: Standard_D16nds_v6,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -4244,6 +5014,7 @@
     Region: eastus,
     VCpu: 6,
     Memory: 55,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -4253,6 +5024,7 @@
     Region: eastus,
     VCpu: 2,
     Memory: 7,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -4270,6 +5042,8 @@
   {
     InstanceName: Standard_D8alds_v7,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
     PricePerHour: 0.381,
     Cloud: azure,
     Category: Compute,
@@ -4278,6 +5052,9 @@
   {
     InstanceName: Standard_M48s-12_1_v3,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -4285,6 +5062,8 @@
   {
     InstanceName: Standard_M832is-208_16_v3,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
     PricePerHour: 163.856,
     Cloud: azure,
     Category: Compute,
@@ -4305,6 +5084,7 @@
     Region: eastus,
     VCpu: 8,
     Memory: 64,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -4314,6 +5094,7 @@
     Region: eastus,
     VCpu: 8,
     Memory: 64,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -4321,6 +5102,9 @@
   {
     InstanceName: Standard_DC96es_v6,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -4330,6 +5114,7 @@
     Region: eastus,
     VCpu: 4,
     Memory: 32,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -4347,6 +5132,8 @@
   {
     InstanceName: Standard_F1als_v6,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
     PricePerHour: 0.107,
     Cloud: azure,
     Category: Compute,
@@ -4355,6 +5142,8 @@
   {
     InstanceName: Standard_E64-32ads v5,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
     PricePerHour: 7.136,
     Cloud: azure,
     Category: Compute,
@@ -4375,6 +5164,7 @@
     Region: eastus,
     VCpu: 96,
     Memory: 768,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -4384,6 +5174,7 @@
     Region: eastus,
     VCpu: 32,
     Memory: 256,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -4393,6 +5184,7 @@
     Region: eastus,
     VCpu: 32,
     Memory: 256,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -4400,6 +5192,8 @@
   {
     InstanceName: Dsv5_Type1,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
     PricePerHour: 5.28,
     Cloud: azure,
     Category: Compute,
@@ -4410,6 +5204,7 @@
     Region: eastus,
     VCpu: 48,
     Memory: 96,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -4419,6 +5214,7 @@
     Region: eastus,
     VCpu: 48,
     Memory: 384,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -4426,6 +5222,8 @@
   {
     InstanceName: Standard_E48ads v5,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
     PricePerHour: 5.352,
     Cloud: azure,
     Category: Compute,
@@ -4436,6 +5234,7 @@
     Region: eastus,
     VCpu: 48,
     Memory: 384,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -4445,6 +5244,7 @@
     Region: eastus,
     VCpu: 2,
     Memory: 8,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -4462,6 +5262,9 @@
   {
     InstanceName: Standard_M208-52s_v2,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -4469,6 +5272,8 @@
   {
     InstanceName: Standard_E4as_v7,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
     PricePerHour: 0.238,
     Cloud: azure,
     Category: Compute,
@@ -4477,6 +5282,8 @@
   {
     InstanceName: Standard_E32-8ads v5,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
     PricePerHour: 3.568,
     Cloud: azure,
     Category: Compute,
@@ -4487,6 +5294,7 @@
     Region: eastus,
     VCpu: 16,
     Memory: 64,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -4496,6 +5304,7 @@
     Region: eastus,
     VCpu: 32,
     Memory: 192,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -4505,6 +5314,7 @@
     Region: eastus,
     VCpu: 64,
     Memory: 432,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -4524,6 +5334,7 @@
     Region: eastus,
     VCpu: 64,
     Memory: 512,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -4531,6 +5342,9 @@
   {
     InstanceName: Standard_E4ns_v6,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -4540,6 +5354,7 @@
     Region: eastus,
     VCpu: 20,
     Memory: 160,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -4547,6 +5362,9 @@
   {
     InstanceName: Standard_E96-24as v5,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -4566,6 +5384,7 @@
     Region: eastus,
     VCpu: 1,
     Memory: 8,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -4573,6 +5392,8 @@
   {
     InstanceName: Standard_E20ads v5,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
     PricePerHour: 1.31,
     Cloud: azure,
     Category: Compute,
@@ -4593,6 +5414,7 @@
     Region: eastus,
     VCpu: 32,
     Memory: 192,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -4600,6 +5422,9 @@
   {
     InstanceName: Standard_E2as v5,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -4609,6 +5434,7 @@
     Region: eastus,
     VCpu: 16,
     Memory: 128,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -4618,6 +5444,7 @@
     Region: eastus,
     VCpu: 16,
     Memory: 437.5,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -4625,6 +5452,9 @@
   {
     InstanceName: Standard_NV24,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -4634,6 +5464,7 @@
     Region: eastus,
     VCpu: 16,
     Memory: 128,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -4643,6 +5474,7 @@
     Region: eastus,
     VCpu: 32,
     Memory: 128,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -4650,6 +5482,9 @@
   {
     InstanceName: Standard_E4ads v5,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -4659,6 +5494,7 @@
     Region: eastus,
     VCpu: 32,
     Memory: 256,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -4666,6 +5502,8 @@
   {
     InstanceName: Standard_E112ias v5,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
     PricePerHour: 6.961,
     Cloud: azure,
     Category: Compute,
@@ -4674,6 +5512,9 @@
   {
     InstanceName: Standard D96ns v6,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -4683,6 +5524,7 @@
     Region: eastus,
     VCpu: 64,
     Memory: 256,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -4690,6 +5532,9 @@
   {
     InstanceName: Standard_E16-4as v5,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -4697,6 +5542,8 @@
   {
     InstanceName: Standard_F4ads_v7,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
     PricePerHour: 0.343,
     Cloud: azure,
     Category: Compute,
@@ -4705,6 +5552,9 @@
   {
     InstanceName: Standard_E2bds_v6,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -4714,6 +5564,7 @@
     Region: eastus,
     VCpu: 64,
     Memory: 1792,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -4721,6 +5572,9 @@
   {
     InstanceName: Standard_E32-16as_v7,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -4730,6 +5584,7 @@
     Region: eastus,
     VCpu: 4,
     Memory: 32,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -4739,6 +5594,7 @@
     Region: eastus,
     VCpu: 4,
     Memory: 14,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -4748,6 +5604,7 @@
     Region: eastus,
     VCpu: 20,
     Memory: 160,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -4755,6 +5612,8 @@
   {
     InstanceName: Standard_E192ibds_v6,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
     PricePerHour: 18.758,
     Cloud: azure,
     Category: Compute,
@@ -4765,6 +5624,7 @@
     Region: eastus,
     VCpu: 4,
     Memory: 16,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -4774,6 +5634,7 @@
     Region: eastus,
     VCpu: 48,
     Memory: 384,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -4783,6 +5644,7 @@
     Region: eastus,
     VCpu: 8,
     Memory: 16,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -4792,6 +5654,7 @@
     Region: eastus,
     VCpu: 16,
     Memory: 112,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -4801,6 +5664,7 @@
     Region: eastus,
     VCpu: 16,
     Memory: 64,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -4808,6 +5672,9 @@
   {
     InstanceName: Standard_D4pls_v6,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -4815,6 +5682,9 @@
   {
     InstanceName: Standard_E4-2ads v5,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -4824,6 +5694,7 @@
     Region: eastus,
     VCpu: 2,
     Memory: 16,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -4831,6 +5702,8 @@
   {
     InstanceName: Esv3_Type4,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
     PricePerHour: 5.822,
     Cloud: azure,
     Category: Compute,
@@ -4841,6 +5714,7 @@
     Region: eastus,
     VCpu: 8,
     Memory: 32,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -4848,6 +5722,9 @@
   {
     InstanceName: Standard_E96-48ads v5,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -4855,6 +5732,8 @@
   {
     InstanceName: Standard_E4-2ads v5,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
     PricePerHour: 0.446,
     Cloud: azure,
     Category: Compute,
@@ -4863,6 +5742,8 @@
   {
     InstanceName: Standard_A7,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
     PricePerHour: 1.32,
     Cloud: azure,
     Category: Compute,
@@ -4873,6 +5754,7 @@
     Region: eastus,
     VCpu: 4,
     Memory: 32,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -4880,6 +5762,8 @@
   {
     InstanceName: Standard_NV12,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
     PricePerHour: 2.28,
     Cloud: azure,
     Category: Compute,
@@ -4888,6 +5772,8 @@
   {
     InstanceName: Standard_E16ads v5,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
     PricePerHour: 1.784,
     Cloud: azure,
     Category: Compute,
@@ -4896,6 +5782,8 @@
   {
     InstanceName: Standard_H8_Promo,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
     PricePerHour: 0.911,
     Cloud: azure,
     Category: Compute,
@@ -4904,6 +5792,9 @@
   {
     InstanceName: Standard_F4-1amds_v7,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -4913,6 +5804,7 @@
     Region: eastus,
     VCpu: 2,
     Memory: 16,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -4930,6 +5822,9 @@
   {
     InstanceName: Virtual Machines,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -4939,6 +5834,7 @@
     Region: eastus,
     VCpu: 20,
     Memory: 160,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -4966,6 +5862,8 @@
   {
     InstanceName: Standard_E96-48ads v5,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
     PricePerHour: 10.704,
     Cloud: azure,
     Category: Compute,
@@ -4974,6 +5872,9 @@
   {
     InstanceName: Standard_E8ns_v6,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -4981,6 +5882,8 @@
   {
     InstanceName: Standard_D48pds_v6,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
     PricePerHour: 4.411,
     Cloud: azure,
     Category: Compute,
@@ -4991,6 +5894,7 @@
     Region: eastus,
     VCpu: 48,
     Memory: 192,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -4998,6 +5902,8 @@
   {
     InstanceName: DCadsv6_Type1,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
     PricePerHour: 9.029,
     Cloud: azure,
     Category: Compute,
@@ -5008,6 +5914,7 @@
     Region: eastus,
     VCpu: 8,
     Memory: 64,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -5017,6 +5924,7 @@
     Region: eastus,
     VCpu: 64,
     Memory: 256,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -5026,6 +5934,7 @@
     Region: eastus,
     VCpu: 2,
     Memory: 16,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -5033,6 +5942,9 @@
   {
     InstanceName: Standard_F64ads_v6,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -5040,6 +5952,8 @@
   {
     InstanceName: Standard_E32-8as v5,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
     PricePerHour: 3.28,
     Cloud: azure,
     Category: Compute,
@@ -5048,6 +5962,8 @@
   {
     InstanceName: Standard_E64ads v5,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
     PricePerHour: 4.192,
     Cloud: azure,
     Category: Compute,
@@ -5068,6 +5984,7 @@
     Region: eastus,
     VCpu: 24,
     Memory: 220,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -5075,6 +5992,8 @@
   {
     InstanceName: Virtual Machines,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
     PricePerHour: 19.226,
     Cloud: azure,
     Category: Compute,
@@ -5083,6 +6002,9 @@
   {
     InstanceName: Standard_F72ads_v6,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -5090,6 +6012,8 @@
   {
     InstanceName: Standard_ND128isr_NDR_GB200_v6,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
     PricePerHour: 108.16,
     Cloud: azure,
     Category: Compute,
@@ -5098,6 +6022,8 @@
   {
     InstanceName: Standard_ND128isr_NDR_GB200_v6,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
     PricePerHour: 114.048,
     Cloud: azure,
     Category: Compute,
@@ -5108,6 +6034,7 @@
     Region: eastus,
     VCpu: 16,
     Memory: 128,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -5115,6 +6042,9 @@
   {
     InstanceName: Standard_F80ams_v7,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -5132,6 +6062,8 @@
   {
     InstanceName: Standard_F64alds_v6,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
     PricePerHour: 7.482,
     Cloud: azure,
     Category: Compute,
@@ -5142,6 +6074,7 @@
     Region: eastus,
     VCpu: 8,
     Memory: 64,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -5151,6 +6084,7 @@
     Region: eastus,
     VCpu: 8,
     Memory: 64,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -5158,6 +6092,9 @@
   {
     InstanceName: Standard_D96nls_v6,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -5165,6 +6102,9 @@
   {
     InstanceName: Standard_D8als_v7,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -5174,6 +6114,7 @@
     Region: eastus,
     VCpu: 96,
     Memory: 384,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -5181,6 +6122,8 @@
   {
     InstanceName: Standard_F8-4amds_v7,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
     PricePerHour: 0.872,
     Cloud: azure,
     Category: Compute,
@@ -5199,6 +6142,9 @@
   {
     InstanceName: Standard_E128ns_v6,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -5208,6 +6154,7 @@
     Region: eastus,
     VCpu: 4,
     Memory: 8,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -5217,6 +6164,7 @@
     Region: eastus,
     VCpu: 16,
     Memory: 128,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -5224,6 +6172,9 @@
   {
     InstanceName: Standard_E8ads v5,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -5231,6 +6182,9 @@
   {
     InstanceName: Standard_E16-8as v5,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -5238,6 +6192,8 @@
   {
     InstanceName: Standard_DS2_v2_Promo,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
     PricePerHour: 0.146,
     Cloud: azure,
     Category: Compute,
@@ -5248,6 +6204,7 @@
     Region: eastus,
     VCpu: 8,
     Memory: 56,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -5257,6 +6214,7 @@
     Region: eastus,
     VCpu: 96,
     Memory: 672,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -5264,6 +6222,9 @@
   {
     InstanceName: Standard_E96as v5,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -5271,6 +6232,9 @@
   {
     InstanceName: Standard_D96plds_v6,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -5280,6 +6244,7 @@
     Region: eastus,
     VCpu: 16,
     Memory: 128,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -5309,6 +6274,7 @@
     Region: eastus,
     VCpu: 8,
     Memory: 168,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -5316,6 +6282,8 @@
   {
     InstanceName: Standard_NC6_Promo,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
     PricePerHour: 0.672,
     Cloud: azure,
     Category: Compute,
@@ -5326,6 +6294,7 @@
     Region: eastus,
     VCpu: 48,
     Memory: 96,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -5333,6 +6302,8 @@
   {
     InstanceName: Standard_E48ps_v6,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
     PricePerHour: 4.421,
     Cloud: azure,
     Category: Compute,
@@ -5341,6 +6312,8 @@
   {
     InstanceName: Standard_E8as v5,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
     PricePerHour: 0.452,
     Cloud: azure,
     Category: Compute,
@@ -5349,6 +6322,8 @@
   {
     InstanceName: Standard_E4-2as v5,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
     PricePerHour: 0.226,
     Cloud: azure,
     Category: Compute,
@@ -5367,6 +6342,8 @@
   {
     InstanceName: Standard_E4ads v5,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
     PricePerHour: 0.262,
     Cloud: azure,
     Category: Compute,
@@ -5375,6 +6352,9 @@
   {
     InstanceName: Standard_D96alds_v7,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -5382,6 +6362,9 @@
   {
     InstanceName: Standard_M896ixds_32_v3,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -5389,6 +6372,9 @@
   {
     InstanceName: Standard_D2pls_v6,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -5398,6 +6384,7 @@
     Region: eastus,
     VCpu: 104,
     Memory: 672,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -5435,6 +6422,8 @@
   {
     InstanceName: Standard_F72alds_v6,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
     PricePerHour: 8.417,
     Cloud: azure,
     Category: Compute,
@@ -5443,6 +6432,9 @@
   {
     InstanceName: Standard D128ns v6,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -5452,6 +6444,7 @@
     Region: eastus,
     VCpu: 16,
     Memory: 128,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -5459,6 +6452,8 @@
   {
     InstanceName: Standard_ND96is_noIB_H100_v5,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
     PricePerHour: 92.904,
     Cloud: azure,
     Category: Compute,
@@ -5467,6 +6462,9 @@
   {
     InstanceName: Standard_E8ps_v6,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -5474,6 +6472,9 @@
   {
     InstanceName: Standard_E32-8as_v7,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -5481,6 +6482,9 @@
   {
     InstanceName: Standard_DC48es_v6,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -5490,6 +6494,7 @@
     Region: eastus,
     VCpu: 48,
     Memory: 384,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -5497,6 +6502,8 @@
   {
     InstanceName: Standard D96ns v6,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
     PricePerHour: 11.432,
     Cloud: azure,
     Category: Compute,
@@ -5517,6 +6524,7 @@
     Region: eastus,
     VCpu: 32,
     Memory: 256,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -5524,6 +6532,8 @@
   {
     InstanceName: Standard_E32-8as v5,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
     PricePerHour: 1.808,
     Cloud: azure,
     Category: Compute,
@@ -5542,6 +6552,9 @@
   {
     InstanceName: Standard_E16pds_v6,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -5549,6 +6562,8 @@
   {
     InstanceName: Standard_E64-16ads_v7,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
     PricePerHour: 7.59,
     Cloud: azure,
     Category: Compute,
@@ -5559,6 +6574,7 @@
     Region: eastus,
     VCpu: 32,
     Memory: 128,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -5578,6 +6594,7 @@
     Region: eastus,
     VCpu: 1,
     Memory: 4,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -5587,6 +6604,7 @@
     Region: eastus,
     VCpu: 16,
     Memory: 128,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -5596,6 +6614,7 @@
     Region: eastus,
     VCpu: 16,
     Memory: 336,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -5603,6 +6622,9 @@
   {
     InstanceName: Standard_E16ads v5,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -5610,6 +6632,9 @@
   {
     InstanceName: Standard_E32-8ads v5,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -5619,6 +6644,7 @@
     Region: eastus,
     VCpu: 48,
     Memory: 1008,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -5628,6 +6654,7 @@
     Region: eastus,
     VCpu: 64,
     Memory: 256,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -5637,6 +6664,7 @@
     Region: eastus,
     VCpu: 16,
     Memory: 437.5,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -5644,6 +6672,9 @@
   {
     InstanceName: Standard D8ns v6,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -5661,6 +6692,9 @@
   {
     InstanceName: Standard_F4-2amds_v7,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -5678,6 +6712,9 @@
   {
     InstanceName: Standard_E64as v5,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -5685,6 +6722,9 @@
   {
     InstanceName: Standard_DC16es_v6,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -5694,6 +6734,7 @@
     Region: eastus,
     VCpu: 32,
     Memory: 875,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -5701,6 +6742,9 @@
   {
     InstanceName: Standard_F32amds_v6,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -5710,6 +6754,7 @@
     Region: eastus,
     VCpu: 64,
     Memory: 256,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -5719,6 +6764,7 @@
     Region: eastus,
     VCpu: 8,
     Memory: 32,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -5726,6 +6772,9 @@
   {
     InstanceName: Standard_E64as v5,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -5735,6 +6784,7 @@
     Region: eastus,
     VCpu: 128,
     Memory: 2048,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -5744,6 +6794,7 @@
     Region: eastus,
     VCpu: 16,
     Memory: 128,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -5753,6 +6804,7 @@
     Region: eastus,
     VCpu: 32,
     Memory: 128,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -5760,6 +6812,9 @@
   {
     InstanceName: Standard_F16-4ams_v7,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -5769,6 +6824,7 @@
     Region: eastus,
     VCpu: 176,
     Memory: 768,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -5776,6 +6832,9 @@
   {
     InstanceName: Standard_D128nlds_v6,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -5783,6 +6842,8 @@
   {
     InstanceName: Standard_D32ads_v7,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
     PricePerHour: 1.824,
     Cloud: azure,
     Category: Compute,
@@ -5811,6 +6872,8 @@
   {
     InstanceName: Standard_E16-8as v5,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
     PricePerHour: 0.904,
     Cloud: azure,
     Category: Compute,
@@ -5831,6 +6894,7 @@
     Region: eastus,
     VCpu: 96,
     Memory: 192,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -5860,6 +6924,7 @@
     Region: eastus,
     VCpu: 48,
     Memory: 192,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -5869,6 +6934,7 @@
     Region: eastus,
     VCpu: 64,
     Memory: 512,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -5876,6 +6942,9 @@
   {
     InstanceName: Standard_F1ads_v7,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -5883,6 +6952,9 @@
   {
     InstanceName: Standard_F2amds_v6,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -5890,6 +6962,9 @@
   {
     InstanceName: Standard_E48as v5,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -5909,6 +6984,7 @@
     Region: eastus,
     VCpu: 16,
     Memory: 128,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -5916,6 +6992,8 @@
   {
     InstanceName: Standard_E96-48as v5,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
     PricePerHour: 5.424,
     Cloud: azure,
     Category: Compute,
@@ -5924,6 +7002,9 @@
   {
     InstanceName: Standard_E64-32as v5,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -5931,6 +7012,9 @@
   {
     InstanceName: Standard_E96ias_v5,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -5940,6 +7024,7 @@
     Region: eastus,
     VCpu: 32,
     Memory: 256,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -5947,6 +7032,8 @@
   {
     InstanceName: Dsv3_Type2,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
     PricePerHour: 3.802,
     Cloud: azure,
     Category: Compute,
@@ -5957,6 +7044,7 @@
     Region: eastus,
     VCpu: 32,
     Memory: 128,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -5966,6 +7054,7 @@
     Region: eastus,
     VCpu: 64,
     Memory: 512,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -5975,6 +7064,7 @@
     Region: eastus,
     VCpu: 624,
     Memory: 11400,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -5982,6 +7072,9 @@
   {
     InstanceName: Standard_D64plds_v6,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -5991,6 +7084,7 @@
     Region: eastus,
     VCpu: 4,
     Memory: 8,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -6008,6 +7102,9 @@
   {
     InstanceName: Standard_D48alds_v7,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -6017,6 +7114,7 @@
     Region: eastus,
     VCpu: 96,
     Memory: 672,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -6024,6 +7122,9 @@
   {
     InstanceName: Standard_E16-4ads v5,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -6033,6 +7134,7 @@
     Region: eastus,
     VCpu: 64,
     Memory: 512,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -6040,6 +7142,8 @@
   {
     InstanceName: Standard_M176s-44_4_v3,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
     PricePerHour: 24.91,
     Cloud: azure,
     Category: Compute,
@@ -6058,6 +7162,9 @@
   {
     InstanceName: Standard_M416-104ms_v2,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -6077,6 +7184,7 @@
     Region: eastus,
     VCpu: 32,
     Memory: 128,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -6084,6 +7192,9 @@
   {
     InstanceName: Standard_E64as v5,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -6103,6 +7214,7 @@
     Region: eastus,
     VCpu: 8,
     Memory: 64,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -6112,6 +7224,7 @@
     Region: eastus,
     VCpu: 176,
     Memory: 3892,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -6119,6 +7232,9 @@
   {
     InstanceName: Standard_F16amds_v6,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -6128,6 +7244,7 @@
     Region: eastus,
     VCpu: 32,
     Memory: 128,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -6147,6 +7264,7 @@
     Region: eastus,
     VCpu: 8,
     Memory: 64,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -6156,6 +7274,7 @@
     Region: eastus,
     VCpu: 96,
     Memory: 672,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -6163,6 +7282,9 @@
   {
     InstanceName: Standard_F4ams_v7,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -6182,6 +7304,7 @@
     Region: eastus,
     VCpu: 128,
     Memory: 2048,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -6189,6 +7312,8 @@
   {
     InstanceName: Standard_E32-16ads v5,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
     PricePerHour: 2.096,
     Cloud: azure,
     Category: Compute,
@@ -6197,6 +7322,8 @@
   {
     InstanceName: Standard_E32as v5,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
     PricePerHour: 1.808,
     Cloud: azure,
     Category: Compute,
@@ -6205,6 +7332,9 @@
   {
     InstanceName: Standard_E8-4as v5,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -6212,6 +7342,8 @@
   {
     InstanceName: Standard_D2pds_v6,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
     PricePerHour: 0.184,
     Cloud: azure,
     Category: Compute,
@@ -6220,6 +7352,8 @@
   {
     InstanceName: Standard_F2as_v7,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
     PricePerHour: 0.137,
     Cloud: azure,
     Category: Compute,
@@ -6228,6 +7362,9 @@
   {
     InstanceName: Standard_ND96ams_A100_v4,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -6247,6 +7384,7 @@
     Region: eastus,
     VCpu: 64,
     Memory: 256,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -6254,6 +7392,9 @@
   {
     InstanceName: Standard D128ns v6,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -6271,6 +7412,8 @@
   {
     InstanceName: Standard_E96-48as_v7,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
     PricePerHour: 5.722,
     Cloud: azure,
     Category: Compute,
@@ -6279,6 +7422,8 @@
   {
     InstanceName: Standard_NV24,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
     PricePerHour: 4.56,
     Cloud: azure,
     Category: Compute,
@@ -6289,6 +7434,7 @@
     Region: eastus,
     VCpu: 20,
     Memory: 160,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -6296,6 +7442,9 @@
   {
     InstanceName: Standard_E128as_v7,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -6313,6 +7462,9 @@
   {
     InstanceName: Standard_E16ads v5,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -6322,6 +7474,7 @@
     Region: eastus,
     VCpu: 44,
     Memory: 352,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -6331,6 +7484,7 @@
     Region: eastus,
     VCpu: 96,
     Memory: 384,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -6350,6 +7504,7 @@
     Region: eastus,
     VCpu: 1,
     Memory: 8,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -6367,6 +7522,9 @@
   {
     InstanceName: Standard_M176s-44_4_v3,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -6374,6 +7532,8 @@
   {
     InstanceName: Standard_D2ads_v7,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
     PricePerHour: 0.114,
     Cloud: azure,
     Category: Compute,
@@ -6384,6 +7544,7 @@
     Region: eastus,
     VCpu: 96,
     Memory: 384,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -6391,6 +7552,9 @@
   {
     InstanceName: Standard_EC32es_v6,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -6398,6 +7562,8 @@
   {
     InstanceName: Standard_F64amds_v6,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
     PricePerHour: 9.837,
     Cloud: azure,
     Category: Compute,
@@ -6406,6 +7572,9 @@
   {
     InstanceName: Standard_M832s-208_12_v3,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -6413,6 +7582,9 @@
   {
     InstanceName: Standard_D8nls_v6,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -6420,6 +7592,8 @@
   {
     InstanceName: Standard_M624s-156_12_v3,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
     PricePerHour: 151.596,
     Cloud: azure,
     Category: Compute,
@@ -6430,6 +7604,7 @@
     Region: eastus,
     VCpu: 4,
     Memory: 16,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -6437,6 +7612,8 @@
   {
     InstanceName: Standard_D64pds_v6,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
     PricePerHour: 5.882,
     Cloud: azure,
     Category: Compute,
@@ -6445,6 +7622,8 @@
   {
     InstanceName: Standard_E96-24as v5,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
     PricePerHour: 5.424,
     Cloud: azure,
     Category: Compute,
@@ -6453,6 +7632,8 @@
   {
     InstanceName: Standard_E4ns_v6,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
     PricePerHour: 0.347,
     Cloud: azure,
     Category: Compute,
@@ -6463,6 +7644,7 @@
     Region: eastus,
     VCpu: 8,
     Memory: 56,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -6472,6 +7654,7 @@
     Region: eastus,
     VCpu: 64,
     Memory: 504,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -6481,6 +7664,7 @@
     Region: eastus,
     VCpu: 2,
     Memory: 14,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -6488,6 +7672,8 @@
   {
     InstanceName: Standard_F64als_v7,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
     PricePerHour: 6.816,
     Cloud: azure,
     Category: Compute,
@@ -6498,6 +7684,7 @@
     Region: eastus,
     VCpu: 44,
     Memory: 352,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -6505,6 +7692,8 @@
   {
     InstanceName: Standard_M96s-24_2_v3,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
     PricePerHour: 13.554,
     Cloud: azure,
     Category: Compute,
@@ -6515,6 +7704,7 @@
     Region: eastus,
     VCpu: 32,
     Memory: 256,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -6532,6 +7722,8 @@
   {
     InstanceName: Standard_M416s-208_8_v3,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
     PricePerHour: 81.928,
     Cloud: azure,
     Category: Compute,
@@ -6542,6 +7734,7 @@
     Region: eastus,
     VCpu: 4,
     Memory: 16,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -6549,6 +7742,9 @@
   {
     InstanceName: Standard_E8as v5,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -6558,6 +7754,7 @@
     Region: eastus,
     VCpu: 32,
     Memory: 256,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -6567,6 +7764,7 @@
     Region: eastus,
     VCpu: 64,
     Memory: 1792,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -6574,6 +7772,9 @@
   {
     InstanceName: Standard_E96-24ads v5,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -6581,6 +7782,9 @@
   {
     InstanceName: Standard_E96ias v5,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -6588,6 +7792,9 @@
   {
     InstanceName: Standard_E96nds_v6,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -6597,6 +7804,7 @@
     Region: eastus,
     VCpu: 64,
     Memory: 128,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -6636,6 +7844,7 @@
     Region: eastus,
     VCpu: 16,
     Memory: 56,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -6643,6 +7852,9 @@
   {
     InstanceName: Standard_E96ads v5,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -6652,6 +7864,7 @@
     Region: eastus,
     VCpu: 16,
     Memory: 128,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -6659,6 +7872,9 @@
   {
     InstanceName: Standard_H16,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -6668,6 +7884,7 @@
     Region: eastus,
     VCpu: 96,
     Memory: 672,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -6675,6 +7892,9 @@
   {
     InstanceName: Standard_E2as v5,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -6682,6 +7902,9 @@
   {
     InstanceName: Standard_F32alds_v6,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -6701,6 +7924,7 @@
     Region: eastus,
     VCpu: 16,
     Memory: 64,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -6708,6 +7932,9 @@
   {
     InstanceName: Standard_E112iads v5,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -6717,6 +7944,7 @@
     Region: eastus,
     VCpu: 16,
     Memory: 128,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -6726,6 +7954,7 @@
     Region: eastus,
     VCpu: 4,
     Memory: 16,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -6735,6 +7964,7 @@
     Region: eastus,
     VCpu: 8,
     Memory: 32,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -6744,6 +7974,7 @@
     Region: eastus,
     VCpu: 96,
     Memory: 672,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -6751,6 +7982,9 @@
   {
     InstanceName: Standard_D96als_v7,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -6780,6 +8014,7 @@
     Region: eastus,
     VCpu: 48,
     Memory: 384,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -6787,6 +8022,8 @@
   {
     InstanceName: Standard_DS5_v2_Promo,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
     PricePerHour: 1.17,
     Cloud: azure,
     Category: Compute,
@@ -6797,6 +8034,7 @@
     Region: eastus,
     VCpu: 64,
     Memory: 512,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -6806,6 +8044,7 @@
     Region: eastus,
     VCpu: 8,
     Memory: 168,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -6813,6 +8052,9 @@
   {
     InstanceName: Standard_NC12,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -6822,6 +8064,7 @@
     Region: eastus,
     VCpu: 48,
     Memory: 192,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -6831,6 +8074,7 @@
     Region: eastus,
     VCpu: 32,
     Memory: 64,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -6840,6 +8084,7 @@
     Region: eastus,
     VCpu: 8,
     Memory: 64,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -6849,6 +8094,7 @@
     Region: eastus,
     VCpu: 4,
     Memory: 14,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -6858,6 +8104,7 @@
     Region: eastus,
     VCpu: 128,
     Memory: 1024,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -6865,6 +8112,9 @@
   {
     InstanceName: Standard_E64as v5,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -6882,6 +8132,8 @@
   {
     InstanceName: Standard_F8alds_v7,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
     PricePerHour: 0.94,
     Cloud: azure,
     Category: Compute,
@@ -6892,6 +8144,7 @@
     Region: eastus,
     VCpu: 16,
     Memory: 128,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -6901,6 +8154,7 @@
     Region: eastus,
     VCpu: 96,
     Memory: 672,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -6910,6 +8164,7 @@
     Region: eastus,
     VCpu: 16,
     Memory: 128,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -6917,6 +8172,9 @@
   {
     InstanceName: Standard_E8-4as v5,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -6924,6 +8182,9 @@
   {
     InstanceName: Standard D16ns v6,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -6933,6 +8194,7 @@
     Region: eastus,
     VCpu: 1,
     Memory: 4,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -6942,6 +8204,7 @@
     Region: eastus,
     VCpu: 192,
     Memory: 768,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -6949,6 +8212,9 @@
   {
     InstanceName: Basic_A2,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -6956,6 +8222,9 @@
   {
     InstanceName: Standard_L96s_v2,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -6963,6 +8232,9 @@
   {
     InstanceName: Standard_E128nds_v6,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -6970,6 +8242,9 @@
   {
     InstanceName: Standard_E16-4ads v5,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -6977,6 +8252,9 @@
   {
     InstanceName: Standard_E112ias v5,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -6994,6 +8272,9 @@
   {
     InstanceName: Standard_E16-8as_v6,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -7001,6 +8282,9 @@
   {
     InstanceName: Standard_E96ads v5,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -7010,6 +8294,7 @@
     Region: eastus,
     VCpu: 44,
     Memory: 352,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -7017,6 +8302,9 @@
   {
     InstanceName: Standard_F1as_v7,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -7026,6 +8314,7 @@
     Region: eastus,
     VCpu: 12,
     Memory: 64,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -7043,6 +8332,9 @@
   {
     InstanceName: Standard_E16as v5,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -7062,6 +8354,7 @@
     Region: eastus,
     VCpu: 8,
     Memory: 64,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -7071,6 +8364,7 @@
     Region: eastus,
     VCpu: 64,
     Memory: 512,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -7088,6 +8382,9 @@
   {
     InstanceName: Basic_A1,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -7097,6 +8394,7 @@
     Region: eastus,
     VCpu: 2,
     Memory: 14,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -7116,6 +8414,7 @@
     Region: eastus,
     VCpu: 16,
     Memory: 32,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -7135,6 +8434,7 @@
     Region: eastus,
     VCpu: 16,
     Memory: 437.5,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -7164,6 +8464,7 @@
     Region: eastus,
     VCpu: 2,
     Memory: 4,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -7183,6 +8484,7 @@
     Region: eastus,
     VCpu: 20,
     Memory: 160,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -7202,6 +8504,7 @@
     Region: eastus,
     VCpu: 96,
     Memory: 672,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -7211,6 +8514,7 @@
     Region: eastus,
     VCpu: 64,
     Memory: 256,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -7228,6 +8532,9 @@
   {
     InstanceName: Standard_E96ias v5,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -7237,6 +8544,7 @@
     Region: eastus,
     VCpu: 48,
     Memory: 192,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -7244,6 +8552,8 @@
   {
     InstanceName: Standard_E16ads v5,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
     PricePerHour: 1.048,
     Cloud: azure,
     Category: Compute,
@@ -7262,6 +8572,8 @@
   {
     InstanceName: Standard_E8-2ads v5,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
     PricePerHour: 0.892,
     Cloud: azure,
     Category: Compute,
@@ -7270,6 +8582,9 @@
   {
     InstanceName: Standard_D8ps_v6,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -7279,6 +8594,7 @@
     Region: eastus,
     VCpu: 96,
     Memory: 672,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -7286,6 +8602,8 @@
   {
     InstanceName: Standard_E96as v5,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
     PricePerHour: 9.84,
     Cloud: azure,
     Category: Compute,
@@ -7294,6 +8612,9 @@
   {
     InstanceName: Standard_EC32eds_v6,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -7301,6 +8622,9 @@
   {
     InstanceName: Standard_M176ds-44_4_v3,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -7308,6 +8632,9 @@
   {
     InstanceName: Standard_E2ads v5,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -7317,6 +8644,7 @@
     Region: eastus,
     VCpu: 8,
     Memory: 32,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -7326,6 +8654,7 @@
     Region: eastus,
     VCpu: 8,
     Memory: 32,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -7335,6 +8664,7 @@
     Region: eastus,
     VCpu: 8,
     Memory: 32,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -7354,6 +8684,7 @@
     Region: eastus,
     VCpu: 8,
     Memory: 64,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -7363,6 +8694,7 @@
     Region: eastus,
     VCpu: 2,
     Memory: 8,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -7372,6 +8704,7 @@
     Region: eastus,
     VCpu: 40,
     Memory: 672,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -7379,6 +8712,8 @@
   {
     InstanceName: Standard_E32as v5,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
     PricePerHour: 3.28,
     Cloud: azure,
     Category: Compute,
@@ -7387,6 +8722,9 @@
   {
     InstanceName: Standard_E2pds_v6,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -7396,6 +8734,7 @@
     Region: eastus,
     VCpu: 8,
     Memory: 64,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -7403,6 +8742,9 @@
   {
     InstanceName: Standard_E8-2ads v5,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -7420,6 +8762,9 @@
   {
     InstanceName: Standard_E2ads v5,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -7439,6 +8784,7 @@
     Region: eastus,
     VCpu: 32,
     Memory: 256,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -7446,6 +8792,8 @@
   {
     InstanceName: Standard_F4ads_v6,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
     PricePerHour: 0.34,
     Cloud: azure,
     Category: Compute,
@@ -7454,6 +8802,8 @@
   {
     InstanceName: Standard_E128-64ads_v7,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
     PricePerHour: 9.293,
     Cloud: azure,
     Category: Compute,
@@ -7482,6 +8832,8 @@
   {
     InstanceName: Standard_F4ams_v7,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
     PricePerHour: 0.542,
     Cloud: azure,
     Category: Compute,
@@ -7492,6 +8844,7 @@
     Region: eastus,
     VCpu: 2,
     Memory: 4,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -7499,6 +8852,8 @@
   {
     InstanceName: Standard_E32-16as v5,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
     PricePerHour: 1.808,
     Cloud: azure,
     Category: Compute,
@@ -7507,6 +8862,9 @@
   {
     InstanceName: Standard_D128ns_v6,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -7516,6 +8874,7 @@
     Region: eastus,
     VCpu: 96,
     Memory: 384,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -7533,6 +8892,8 @@
   {
     InstanceName: Standard_E4-2ads v5,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
     PricePerHour: 0.262,
     Cloud: azure,
     Category: Compute,
@@ -7541,6 +8902,8 @@
   {
     InstanceName: Standard_E8-4ads v5,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
     PricePerHour: 0.524,
     Cloud: azure,
     Category: Compute,
@@ -7551,6 +8914,7 @@
     Region: eastus,
     VCpu: 16,
     Memory: 64,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -7560,6 +8924,7 @@
     Region: eastus,
     VCpu: 96,
     Memory: 384,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -7567,6 +8932,9 @@
   {
     InstanceName: Standard_F72ads_v6,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -7596,6 +8964,7 @@
     Region: eastus,
     VCpu: 20,
     Memory: 160,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -7615,6 +8984,7 @@
     Region: eastus,
     VCpu: 32,
     Memory: 256,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -7622,6 +8992,8 @@
   {
     InstanceName: Standard_EC16eds_v6,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
     PricePerHour: 2.044,
     Cloud: azure,
     Category: Compute,
@@ -7630,6 +9002,9 @@
   {
     InstanceName: Standard_E32-16as v5,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -7647,6 +9022,8 @@
   {
     InstanceName: Standard_H8m_Promo,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
     PricePerHour: 1.095,
     Cloud: azure,
     Category: Compute,
@@ -7657,6 +9034,7 @@
     Region: eastus,
     VCpu: 32,
     Memory: 256,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -7666,6 +9044,7 @@
     Region: eastus,
     VCpu: 2,
     Memory: 8,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -7675,6 +9054,7 @@
     Region: eastus,
     VCpu: 96,
     Memory: 192,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -7682,6 +9062,9 @@
   {
     InstanceName: Standard_E96-48as v5,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -7689,6 +9072,9 @@
   {
     InstanceName: Standard_E8pds_v6,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -7698,6 +9084,7 @@
     Region: eastus,
     VCpu: 4,
     Memory: 56,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -7707,6 +9094,7 @@
     Region: eastus,
     VCpu: 32,
     Memory: 208,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -7716,6 +9104,7 @@
     Region: eastus,
     VCpu: 16,
     Memory: 128,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -7725,6 +9114,7 @@
     Region: eastus,
     VCpu: 8,
     Memory: 64,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -7732,6 +9122,8 @@
   {
     InstanceName: Standard_D160als_v7,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
     PricePerHour: 6.432,
     Cloud: azure,
     Category: Compute,
@@ -7742,6 +9134,7 @@
     Region: eastus,
     VCpu: 8,
     Memory: 64,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -7751,6 +9144,7 @@
     Region: eastus,
     VCpu: 4,
     Memory: 84,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -7760,6 +9154,7 @@
     Region: eastus,
     VCpu: 16,
     Memory: 128,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -7779,6 +9174,7 @@
     Region: eastus,
     VCpu: 4,
     Memory: 32,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -7786,6 +9182,8 @@
   {
     InstanceName: Standard_D32alds_v7,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
     PricePerHour: 1.523,
     Cloud: azure,
     Category: Compute,
@@ -7796,6 +9194,7 @@
     Region: eastus,
     VCpu: 2,
     Memory: 42,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -7815,6 +9214,7 @@
     Region: eastus,
     VCpu: 64,
     Memory: 256,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -7832,6 +9232,8 @@
   {
     InstanceName: Standard_H16mr_Promo,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
     PricePerHour: 1.599,
     Cloud: azure,
     Category: Compute,
@@ -7842,6 +9244,7 @@
     Region: eastus,
     VCpu: 24,
     Memory: 504,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -7849,6 +9252,8 @@
   {
     InstanceName: Standard_F1amds_v6,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
     PricePerHour: 0.108,
     Cloud: azure,
     Category: Compute,
@@ -7857,6 +9262,9 @@
   {
     InstanceName: Standard_E96ias v5,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -7866,6 +9274,7 @@
     Region: eastus,
     VCpu: 72,
     Memory: 144,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -7873,6 +9282,9 @@
   {
     InstanceName: Standard_E8-2as_v6,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -7900,6 +9312,9 @@
   {
     InstanceName: Standard_E16as_v7,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -7909,6 +9324,7 @@
     Region: eastus,
     VCpu: 8,
     Memory: 32,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -7928,6 +9344,7 @@
     Region: eastus,
     VCpu: 16,
     Memory: 128,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -7937,6 +9354,7 @@
     Region: eastus,
     VCpu: 128,
     Memory: 3892,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -7946,6 +9364,7 @@
     Region: eastus,
     VCpu: 32,
     Memory: 256,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -7955,6 +9374,7 @@
     Region: eastus,
     VCpu: 416,
     Memory: 11400,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -7972,6 +9392,8 @@
   {
     InstanceName: Standard_F16-4ams_v7,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
     PricePerHour: 2.168,
     Cloud: azure,
     Category: Compute,
@@ -7982,6 +9404,7 @@
     Region: eastus,
     VCpu: 32,
     Memory: 256,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -7989,6 +9412,9 @@
   {
     InstanceName: Standard_E96-48as v5,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -7996,6 +9422,9 @@
   {
     InstanceName: Standard_F48als_v7,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -8005,6 +9434,7 @@
     Region: eastus,
     VCpu: 64,
     Memory: 1344,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -8012,6 +9442,9 @@
   {
     InstanceName: Standard_E16as v5,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -8031,6 +9464,7 @@
     Region: eastus,
     VCpu: 4,
     Memory: 32,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -8038,6 +9472,9 @@
   {
     InstanceName: Standard_D32alds_v7,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -8047,6 +9484,7 @@
     Region: eastus,
     VCpu: 2,
     Memory: 14,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -8056,6 +9494,7 @@
     Region: eastus,
     VCpu: 2,
     Memory: 14,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -8065,6 +9504,7 @@
     Region: eastus,
     VCpu: 4,
     Memory: 28,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -8074,6 +9514,7 @@
     Region: eastus,
     VCpu: 2,
     Memory: 4,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -8081,6 +9522,8 @@
   {
     InstanceName: Standard_E64-32as v5,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
     PricePerHour: 3.616,
     Cloud: azure,
     Category: Compute,
@@ -8091,6 +9534,7 @@
     Region: eastus,
     VCpu: 32,
     Memory: 256,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -8098,6 +9542,8 @@
   {
     InstanceName: Standard_D4als_v7,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
     PricePerHour: 0.345,
     Cloud: azure,
     Category: Compute,
@@ -8106,6 +9552,8 @@
   {
     InstanceName: Standard_NC6s_v2,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
     PricePerHour: 2.493,
     Cloud: azure,
     Category: Compute,
@@ -8116,6 +9564,7 @@
     Region: eastus,
     VCpu: 8,
     Memory: 64,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -8123,6 +9572,9 @@
   {
     InstanceName: Standard_E32as v5,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -8130,6 +9582,8 @@
   {
     InstanceName: Standard_M416ds-104_8_v3,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
     PricePerHour: 86.0244,
     Cloud: azure,
     Category: Compute,
@@ -8140,6 +9594,7 @@
     Region: eastus,
     VCpu: 4,
     Memory: 28,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -8149,6 +9604,7 @@
     Region: eastus,
     VCpu: 64,
     Memory: 256,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -8156,6 +9612,9 @@
   {
     InstanceName: Standard_D16nls_v6,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -8173,6 +9632,9 @@
   {
     InstanceName: Standard_E4-2as v5,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -8180,6 +9642,8 @@
   {
     InstanceName: Standard_E48as v5,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
     PricePerHour: 2.712,
     Cloud: azure,
     Category: Compute,
@@ -8198,6 +9662,8 @@
   {
     InstanceName: Standard_A11,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
     PricePerHour: 1.56,
     Cloud: azure,
     Category: Compute,
@@ -8216,6 +9682,8 @@
   {
     InstanceName: Standard_F8ams_v7,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
     PricePerHour: 0.716,
     Cloud: azure,
     Category: Compute,
@@ -8234,6 +9702,9 @@
   {
     InstanceName: Standard_E32-8as v5,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -8263,6 +9734,7 @@
     Region: eastus,
     VCpu: 64,
     Memory: 1024,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -8280,6 +9752,8 @@
   {
     InstanceName: Ms_Type1,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
     PricePerHour: 14.669,
     Cloud: azure,
     Category: Compute,
@@ -8288,6 +9762,9 @@
   {
     InstanceName: Standard_E4-2as v5,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -8297,6 +9774,7 @@
     Region: eastus,
     VCpu: 20,
     Memory: 160,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -8306,6 +9784,7 @@
     Region: eastus,
     VCpu: 16,
     Memory: 64,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -8313,6 +9792,9 @@
   {
     InstanceName: Standard_NC24rs_v2,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -8320,6 +9802,9 @@
   {
     InstanceName: Standard_E96-48as_v7,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -8329,6 +9814,7 @@
     Region: eastus,
     VCpu: 96,
     Memory: 672,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -8346,6 +9832,8 @@
   {
     InstanceName: Standard_F80as_v7,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
     PricePerHour: 9.144,
     Cloud: azure,
     Category: Compute,
@@ -8356,6 +9844,7 @@
     Region: eastus,
     VCpu: 32,
     Memory: 256,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -8365,6 +9854,7 @@
     Region: eastus,
     VCpu: 16,
     Memory: 128,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -8372,6 +9862,9 @@
   {
     InstanceName: Standard_E96iads_v5,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -8379,6 +9872,9 @@
   {
     InstanceName: Standard_F1als_v7,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -8388,6 +9884,7 @@
     Region: eastus,
     VCpu: 64,
     Memory: 1024,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -8417,6 +9914,7 @@
     Region: eastus,
     VCpu: 64,
     Memory: 256,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -8426,6 +9924,7 @@
     Region: eastus,
     VCpu: 120,
     Memory: 456,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -8443,6 +9942,9 @@
   {
     InstanceName: Standard_E8-4ads v5,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -8450,6 +9952,8 @@
   {
     InstanceName: Standard_M176s-44_4_v3,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
     PricePerHour: 26.934,
     Cloud: azure,
     Category: Compute,
@@ -8458,6 +9962,9 @@
   {
     InstanceName: Standard_E16ns_v6,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -8467,6 +9974,7 @@
     Region: eastus,
     VCpu: 128,
     Memory: 3892,
+    PricePerHour: null,
     Cloud: azure,
     Category: Compute,
     SubCategory: VirtualMachines
@@ -8474,6 +9982,8 @@
   {
     InstanceName: Standard_E96ps_v6,
     Region: eastus,
+    VCpu: null,
+    Memory: null,
     PricePerHour: 8.842,
     Cloud: azure,
     Category: Compute,

@@ -2,62 +2,79 @@
   {
     Name: AmazonApiGateway,
     Region: us-east-1,
+    PricePerRequest: null,
     PricePerMonth: 730.0,
+    Cloud: aws,
     Category: Networking,
     SubCategory: ApiGateway
   },
   {
     Name: AmazonApiGateway,
     Region: us-east-1,
+    PricePerRequest: null,
     PricePerMonth: 365.0,
+    Cloud: aws,
     Category: Networking,
     SubCategory: ApiGateway
   },
   {
     Name: AmazonApiGateway,
     Region: us-east-1,
+    PricePerRequest: null,
     PricePerMonth: 146.0,
+    Cloud: aws,
     Category: Networking,
     SubCategory: ApiGateway
   },
   {
     Name: AmazonApiGateway,
     Region: us-east-1,
+    PricePerRequest: null,
     PricePerMonth: 182.50,
+    Cloud: aws,
     Category: Networking,
     SubCategory: ApiGateway
   },
   {
     Name: AmazonApiGateway,
     Region: us-east-1,
+    PricePerRequest: null,
     PricePerMonth: 1387.0,
+    Cloud: aws,
     Category: Networking,
     SubCategory: ApiGateway
   },
   {
     Name: AmazonApiGateway,
     Region: us-east-1,
+    PricePerRequest: null,
     PricePerMonth: 27.740,
+    Cloud: aws,
     Category: Networking,
     SubCategory: ApiGateway
   },
   {
     Name: AmazonApiGateway,
     Region: us-east-1,
+    PricePerRequest: null,
     PricePerMonth: 2774.0,
+    Cloud: aws,
     Category: Networking,
     SubCategory: ApiGateway
   },
   {
     Name: AmazonApiGateway,
     Region: us-east-1,
+    PricePerRequest: null,
     PricePerMonth: 14.60,
+    Cloud: aws,
     Category: Networking,
     SubCategory: ApiGateway
   },
   {
     Name: API Gateway,
     Region: us-east1,
+    PricePerRequest: null,
     PricePerMonth: 7.30,
     Cloud: gcp,
     Category: Networking,
@@ -66,6 +83,7 @@
   {
     Name: API Gateway,
     Region: us-east1,
+    PricePerRequest: null,
     PricePerMonth: 14.60,
     Cloud: gcp,
     Category: Networking,
@@ -74,6 +92,7 @@
   {
     Name: API Gateway,
     Region: us-east1,
+    PricePerRequest: null,
     PricePerMonth: 43.80,
     Cloud: gcp,
     Category: Networking,

@@ -2,14 +2,22 @@
   {
     InstanceName: AmazonDynamoDB,
     Region: us-east-1,
+    DatabaseEngine: null,
+    VCpu: null,
+    Memory: null,
     PricePerHour: 0.0000001,
+    Cloud: aws,
     Category: Database,
     SubCategory: NoSQL
   },
   {
     InstanceName: AmazonDynamoDB,
     Region: us-east-1,
+    DatabaseEngine: null,
+    VCpu: null,
+    Memory: null,
     PricePerHour: 0.0000001,
+    Cloud: aws,
     Category: Database,
     SubCategory: NoSQL
   },
@@ -20,6 +28,7 @@
     VCpu: 48,
     Memory: 96 GiB,
     PricePerHour: 11.448,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -30,6 +39,7 @@
     VCpu: 48,
     Memory: 96 GiB,
     PricePerHour: 11.448,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -40,6 +50,7 @@
     VCpu: 64,
     Memory: 128 GiB,
     PricePerHour: 15.264,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -50,6 +61,7 @@
     VCpu: 64,
     Memory: 128 GiB,
     PricePerHour: 15.264,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -60,6 +72,7 @@
     VCpu: 8,
     Memory: 16 GiB,
     PricePerHour: 1.908,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -70,6 +83,7 @@
     VCpu: 8,
     Memory: 16 GiB,
     PricePerHour: 1.908,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -80,6 +94,7 @@
     VCpu: 16,
     Memory: 32 GiB,
     PricePerHour: 3.816,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -90,6 +105,7 @@
     VCpu: 16,
     Memory: 32 GiB,
     PricePerHour: 3.816,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -100,6 +116,7 @@
     VCpu: 32,
     Memory: 64 GiB,
     PricePerHour: 7.632,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -110,6 +127,7 @@
     VCpu: 32,
     Memory: 64 GiB,
     PricePerHour: 7.632,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -120,6 +138,7 @@
     VCpu: 2,
     Memory: 4 GiB,
     PricePerHour: 0.477,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -130,6 +149,7 @@
     VCpu: 2,
     Memory: 4 GiB,
     PricePerHour: 0.477,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -140,6 +160,7 @@
     VCpu: 1,
     Memory: 2 GiB,
     PricePerHour: 0.2385,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -150,6 +171,7 @@
     VCpu: 1,
     Memory: 2 GiB,
     PricePerHour: 0.2385,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -160,6 +182,7 @@
     VCpu: 4,
     Memory: 8 GiB,
     PricePerHour: 0.954,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -170,6 +193,7 @@
     VCpu: 4,
     Memory: 8 GiB,
     PricePerHour: 0.954,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -180,6 +204,7 @@
     VCpu: 72,
     Memory: 144 GiB,
     PricePerHour: 6.336,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -190,6 +215,7 @@
     VCpu: 72,
     Memory: 144 GiB,
     PricePerHour: 6.048,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -200,6 +226,7 @@
     VCpu: 72,
     Memory: 144 GiB,
     PricePerHour: 9.135,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -210,6 +237,7 @@
     VCpu: 8,
     Memory: 16 GiB,
     PricePerHour: 0.704,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -220,6 +248,7 @@
     VCpu: 8,
     Memory: 16 GiB,
     PricePerHour: 0.672,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -230,6 +259,7 @@
     VCpu: 8,
     Memory: 16 GiB,
     PricePerHour: 1.015,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -240,6 +270,7 @@
     VCpu: 16,
     Memory: 32 GiB,
     PricePerHour: 1.344,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -250,6 +281,7 @@
     VCpu: 16,
     Memory: 32 GiB,
     PricePerHour: 1.408,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -260,6 +292,7 @@
     VCpu: 16,
     Memory: 32 GiB,
     PricePerHour: 2.03,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -270,6 +303,7 @@
     VCpu: 36,
     Memory: 72 GiB,
     PricePerHour: 3.168,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -280,6 +314,7 @@
     VCpu: 36,
     Memory: 72 GiB,
     PricePerHour: 3.024,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -290,6 +325,7 @@
     VCpu: 36,
     Memory: 72 GiB,
     PricePerHour: 4.568,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -300,6 +336,7 @@
     VCpu: 2,
     Memory: 4 GiB,
     PricePerHour: 0.176,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -310,6 +347,7 @@
     VCpu: 2,
     Memory: 4 GiB,
     PricePerHour: 0.168,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -320,6 +358,7 @@
     VCpu: 2,
     Memory: 4 GiB,
     PricePerHour: 0.254,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -330,6 +369,7 @@
     VCpu: 1,
     Memory: 2 GiB,
     PricePerHour: 0.127,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -340,6 +380,7 @@
     VCpu: 1,
     Memory: 2 GiB,
     PricePerHour: 0.088,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -350,6 +391,7 @@
     VCpu: 1,
     Memory: 2 GiB,
     PricePerHour: 0.084,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -360,6 +402,7 @@
     VCpu: 1,
     Memory: 1 GiB,
     PricePerHour: 0.127,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -370,6 +413,7 @@
     VCpu: 1,
     Memory: 1 GiB,
     PricePerHour: 0.088,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -380,6 +424,7 @@
     VCpu: 1,
     Memory: 1 GiB,
     PricePerHour: 0.084,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -390,6 +435,7 @@
     VCpu: 4,
     Memory: 8 GiB,
     PricePerHour: 0.352,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -400,6 +446,7 @@
     VCpu: 4,
     Memory: 8 GiB,
     PricePerHour: 0.336,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -410,6 +457,7 @@
     VCpu: 4,
     Memory: 8 GiB,
     PricePerHour: 0.508,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -420,6 +468,7 @@
     VCpu: 2,
     Memory: 7.5 GiB,
     PricePerHour: 0.23,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -430,6 +479,7 @@
     VCpu: 2,
     Memory: 7.5 GiB,
     PricePerHour: 0.49,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -440,6 +490,7 @@
     VCpu: 2,
     Memory: 7.5 GiB,
     PricePerHour: 0.46,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -450,6 +501,7 @@
     VCpu: 2,
     Memory: 7.5 GiB,
     PricePerHour: 0.245,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -460,6 +512,7 @@
     VCpu: 1,
     Memory: 3.75 GiB,
     PricePerHour: 0.12,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -470,6 +523,7 @@
     VCpu: 1,
     Memory: 3.75 GiB,
     PricePerHour: 0.115,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -480,6 +534,7 @@
     VCpu: 1,
     Memory: 3.75 GiB,
     PricePerHour: 0.24,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -490,6 +545,7 @@
     VCpu: 1,
     Memory: 3.75 GiB,
     PricePerHour: 0.23,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -500,6 +556,7 @@
     VCpu: 1,
     Memory: 1.7 GiB,
     PricePerHour: 0.12,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -510,6 +567,7 @@
     VCpu: 1,
     Memory: 1.7 GiB,
     PricePerHour: 0.055,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -520,6 +578,7 @@
     VCpu: 1,
     Memory: 1.7 GiB,
     PricePerHour: 0.11,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -530,6 +589,7 @@
     VCpu: 1,
     Memory: 1.7 GiB,
     PricePerHour: 0.06,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -540,6 +600,7 @@
     VCpu: 4,
     Memory: 15 GiB,
     PricePerHour: 0.93,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -550,6 +611,7 @@
     VCpu: 4,
     Memory: 15 GiB,
     PricePerHour: 0.98,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -560,6 +622,7 @@
     VCpu: 4,
     Memory: 15 GiB,
     PricePerHour: 0.49,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -570,6 +633,7 @@
     VCpu: 4,
     Memory: 15 GiB,
     PricePerHour: 0.465,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -580,6 +644,7 @@
     VCpu: 4,
     Memory: 34.2 GiB,
     PricePerHour: 0.69,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -590,6 +655,7 @@
     VCpu: 4,
     Memory: 34.2 GiB,
     PricePerHour: 1.38,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -600,6 +666,7 @@
     VCpu: 4,
     Memory: 34.2 GiB,
     PricePerHour: 1.32,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -610,6 +677,7 @@
     VCpu: 4,
     Memory: 34.2 GiB,
     PricePerHour: 0.66,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -620,6 +688,7 @@
     VCpu: 8,
     Memory: 68.4 GiB,
     PricePerHour: 1.32,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -630,6 +699,7 @@
     VCpu: 8,
     Memory: 68.4 GiB,
     PricePerHour: 1.39,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -640,6 +710,7 @@
     VCpu: 8,
     Memory: 68.4 GiB,
     PricePerHour: 2.64,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -650,6 +721,7 @@
     VCpu: 8,
     Memory: 68.4 GiB,
     PricePerHour: 2.78,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -660,6 +732,7 @@
     VCpu: 2,
     Memory: 17.1 GiB,
     PricePerHour: 0.66,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -670,6 +743,7 @@
     VCpu: 2,
     Memory: 17.1 GiB,
     PricePerHour: 0.345,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -680,6 +754,7 @@
     VCpu: 2,
     Memory: 17.1 GiB,
     PricePerHour: 0.33,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -690,6 +765,7 @@
     VCpu: 2,
     Memory: 17.1 GiB,
     PricePerHour: 0.69,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -700,6 +776,7 @@
     VCpu: 8,
     Memory: 30 GiB,
     PricePerHour: 0.74,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -710,6 +787,7 @@
     VCpu: 8,
     Memory: 30 GiB,
     PricePerHour: 2.685,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -720,6 +798,7 @@
     VCpu: 8,
     Memory: 30 GiB,
     PricePerHour: 1.68,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -730,6 +809,7 @@
     VCpu: 8,
     Memory: 30 GiB,
     PricePerHour: 1.48,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -740,6 +820,7 @@
     VCpu: 8,
     Memory: 30 GiB,
     PricePerHour: 1.48,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -750,6 +831,7 @@
     VCpu: 8,
     Memory: 30 GiB,
     PricePerHour: 1.68,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -760,6 +842,7 @@
     VCpu: 8,
     Memory: 30 GiB,
     PricePerHour: 0.74,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -770,6 +853,7 @@
     VCpu: 8,
     Memory: 30 GiB,
     PricePerHour: 1.48,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -780,6 +864,7 @@
     VCpu: 8,
     Memory: 30 GiB,
     PricePerHour: 3.612,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -790,6 +875,7 @@
     VCpu: 8,
     Memory: 30 GiB,
     PricePerHour: 0.74,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -800,6 +886,7 @@
     VCpu: 8,
     Memory: 30 GiB,
     PricePerHour: 3.36,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -810,6 +897,7 @@
     VCpu: 8,
     Memory: 30 GiB,
     PricePerHour: 0.74,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -820,6 +908,7 @@
     VCpu: 8,
     Memory: 30 GiB,
     PricePerHour: 1.806,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -830,6 +919,7 @@
     VCpu: 8,
     Memory: 30 GiB,
     PricePerHour: 5.37,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -840,6 +930,7 @@
     VCpu: 8,
     Memory: 30 GiB,
     PricePerHour: 1.55,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -850,6 +941,7 @@
     VCpu: 8,
     Memory: 30 GiB,
     PricePerHour: 0.775,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -860,6 +952,7 @@
     VCpu: 8,
     Memory: 30 GiB,
     PricePerHour: 1.48,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -870,6 +963,7 @@
     VCpu: 8,
     Memory: 30 GiB,
     PricePerHour: 0.74,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -880,6 +974,7 @@
     VCpu: 8,
     Memory: 30 GiB,
     PricePerHour: 0.74,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -890,6 +985,7 @@
     VCpu: 8,
     Memory: 30 GiB,
     PricePerHour: 1.48,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -900,6 +996,7 @@
     VCpu: 8,
     Memory: 30 GiB,
     PricePerHour: 1.48,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -910,6 +1007,7 @@
     VCpu: 2,
     Memory: 7.5 GiB,
     PricePerHour: 0.42,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -920,6 +1018,7 @@
     VCpu: 2,
     Memory: 7.5 GiB,
     PricePerHour: 0.185,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -930,6 +1029,7 @@
     VCpu: 2,
     Memory: 7.5 GiB,
     PricePerHour: 0.185,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -940,6 +1040,7 @@
     VCpu: 2,
     Memory: 7.5 GiB,
     PricePerHour: 0.815,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -950,6 +1051,7 @@
     VCpu: 2,
     Memory: 7.5 GiB,
     PricePerHour: 1.63,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -960,6 +1062,7 @@
     VCpu: 2,
     Memory: 7.5 GiB,
     PricePerHour: 0.37,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -970,6 +1073,7 @@
     VCpu: 2,
     Memory: 7.5 GiB,
     PricePerHour: 0.84,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -980,6 +1084,7 @@
     VCpu: 2,
     Memory: 7.5 GiB,
     PricePerHour: 0.37,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -990,6 +1095,7 @@
     VCpu: 2,
     Memory: 7.5 GiB,
     PricePerHour: 0.42,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -1000,6 +1106,7 @@
     VCpu: 2,
     Memory: 7.5 GiB,
     PricePerHour: 0.37,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -1010,6 +1117,7 @@
     VCpu: 2,
     Memory: 7.5 GiB,
     PricePerHour: 0.37,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -1020,6 +1128,7 @@
     VCpu: 2,
     Memory: 7.5 GiB,
     PricePerHour: 0.903,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -1030,6 +1139,7 @@
     VCpu: 2,
     Memory: 7.5 GiB,
     PricePerHour: 0.452,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -1040,6 +1150,7 @@
     VCpu: 2,
     Memory: 7.5 GiB,
     PricePerHour: 0.37,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -1050,6 +1161,7 @@
     VCpu: 2,
     Memory: 7.5 GiB,
     PricePerHour: 0.185,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -1060,6 +1172,7 @@
     VCpu: 2,
     Memory: 7.5 GiB,
     PricePerHour: 0.195,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -1070,6 +1183,7 @@
     VCpu: 2,
     Memory: 7.5 GiB,
     PricePerHour: 0.185,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -1080,6 +1194,7 @@
     VCpu: 2,
     Memory: 7.5 GiB,
     PricePerHour: 0.185,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -1090,6 +1205,7 @@
     VCpu: 2,
     Memory: 7.5 GiB,
     PricePerHour: 0.185,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -1100,6 +1216,7 @@
     VCpu: 2,
     Memory: 7.5 GiB,
     PricePerHour: 0.37,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -1110,6 +1227,7 @@
     VCpu: 2,
     Memory: 7.5 GiB,
     PricePerHour: 0.39,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -1120,6 +1238,7 @@
     VCpu: 1,
     Memory: 3.75 GiB,
     PricePerHour: 0.09,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -1130,6 +1249,7 @@
     VCpu: 1,
     Memory: 3.75 GiB,
     PricePerHour: 0.18,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -1140,6 +1260,7 @@
     VCpu: 1,
     Memory: 3.75 GiB,
     PricePerHour: 0.21,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -1150,6 +1271,7 @@
     VCpu: 1,
     Memory: 3.75 GiB,
     PricePerHour: 0.21,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -1160,6 +1282,7 @@
     VCpu: 1,
     Memory: 3.75 GiB,
     PricePerHour: 1.31,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -1170,6 +1293,7 @@
     VCpu: 1,
     Memory: 3.75 GiB,
     PricePerHour: 0.655,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -1180,6 +1304,7 @@
     VCpu: 1,
     Memory: 3.75 GiB,
     PricePerHour: 0.09,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -1190,6 +1315,7 @@
     VCpu: 1,
     Memory: 3.75 GiB,
     PricePerHour: 0.18,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -1200,6 +1326,7 @@
     VCpu: 1,
     Memory: 3.75 GiB,
     PricePerHour: 0.09,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -1210,6 +1337,7 @@
     VCpu: 1,
     Memory: 3.75 GiB,
     PricePerHour: 0.095,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -1220,6 +1348,7 @@
     VCpu: 1,
     Memory: 3.75 GiB,
     PricePerHour: 0.09,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -1230,6 +1359,7 @@
     VCpu: 1,
     Memory: 3.75 GiB,
     PricePerHour: 0.09,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -1240,6 +1370,7 @@
     VCpu: 1,
     Memory: 3.75 GiB,
     PricePerHour: 0.42,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -1250,6 +1381,7 @@
     VCpu: 1,
     Memory: 3.75 GiB,
     PricePerHour: 0.226,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -1260,6 +1392,7 @@
     VCpu: 1,
     Memory: 3.75 GiB,
     PricePerHour: 0.19,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -1270,6 +1403,7 @@
     VCpu: 1,
     Memory: 3.75 GiB,
     PricePerHour: 0.18,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -1280,6 +1414,7 @@
     VCpu: 1,
     Memory: 3.75 GiB,
     PricePerHour: 0.09,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -1290,6 +1425,7 @@
     VCpu: 1,
     Memory: 3.75 GiB,
     PricePerHour: 0.18,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -1300,6 +1436,7 @@
     VCpu: 1,
     Memory: 3.75 GiB,
     PricePerHour: 0.452,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -1310,6 +1447,7 @@
     VCpu: 1,
     Memory: 3.75 GiB,
     PricePerHour: 0.18,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -1320,6 +1458,7 @@
     VCpu: 1,
     Memory: 3.75 GiB,
     PricePerHour: 0.18,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -1330,6 +1469,7 @@
     VCpu: 4,
     Memory: 15 GiB,
     PricePerHour: 1.68,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -1340,6 +1480,7 @@
     VCpu: 4,
     Memory: 15 GiB,
     PricePerHour: 0.74,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -1350,6 +1491,7 @@
     VCpu: 4,
     Memory: 15 GiB,
     PricePerHour: 0.74,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -1360,6 +1502,7 @@
     VCpu: 4,
     Memory: 15 GiB,
     PricePerHour: 0.37,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -1370,6 +1513,7 @@
     VCpu: 4,
     Memory: 15 GiB,
     PricePerHour: 0.84,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -1380,6 +1524,7 @@
     VCpu: 4,
     Memory: 15 GiB,
     PricePerHour: 0.84,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -1390,6 +1535,7 @@
     VCpu: 4,
     Memory: 15 GiB,
     PricePerHour: 1.345,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -1400,6 +1546,7 @@
     VCpu: 4,
     Memory: 15 GiB,
     PricePerHour: 0.74,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -1410,6 +1557,7 @@
     VCpu: 4,
     Memory: 15 GiB,
     PricePerHour: 2.69,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -1420,6 +1568,7 @@
     VCpu: 4,
     Memory: 15 GiB,
     PricePerHour: 0.74,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -1430,6 +1579,7 @@
     VCpu: 4,
     Memory: 15 GiB,
     PricePerHour: 0.37,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -1440,6 +1590,7 @@
     VCpu: 4,
     Memory: 15 GiB,
     PricePerHour: 0.903,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -1450,6 +1601,7 @@
     VCpu: 4,
     Memory: 15 GiB,
     PricePerHour: 0.37,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -1460,6 +1612,7 @@
     VCpu: 4,
     Memory: 15 GiB,
     PricePerHour: 0.37,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -1470,6 +1623,7 @@
     VCpu: 4,
     Memory: 15 GiB,
     PricePerHour: 0.37,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -1480,6 +1634,7 @@
     VCpu: 4,
     Memory: 15 GiB,
     PricePerHour: 1.806,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -1490,6 +1645,7 @@
     VCpu: 4,
     Memory: 15 GiB,
     PricePerHour: 0.74,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -1500,6 +1656,7 @@
     VCpu: 4,
     Memory: 15 GiB,
     PricePerHour: 0.39,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -1510,6 +1667,7 @@
     VCpu: 4,
     Memory: 15 GiB,
     PricePerHour: 0.37,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -1520,6 +1678,7 @@
     VCpu: 4,
     Memory: 15 GiB,
     PricePerHour: 0.78,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -1530,6 +1689,7 @@
     VCpu: 4,
     Memory: 15 GiB,
     PricePerHour: 0.74,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -1540,6 +1700,7 @@
     VCpu: 40,
     Memory: 160 GiB,
     PricePerHour: 24.48,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -1550,6 +1711,7 @@
     VCpu: 40,
     Memory: 160 GiB,
     PricePerHour: 7.004,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -1560,6 +1722,7 @@
     VCpu: 40,
     Memory: 160 GiB,
     PricePerHour: 12.24,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -1570,6 +1733,7 @@
     VCpu: 40,
     Memory: 160 GiB,
     PricePerHour: 23.362,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -1580,6 +1744,7 @@
     VCpu: 40,
     Memory: 160 GiB,
     PricePerHour: 7.308,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -1590,6 +1755,7 @@
     VCpu: 40,
     Memory: 160 GiB,
     PricePerHour: 46.724,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -1600,6 +1766,7 @@
     VCpu: 40,
     Memory: 160 GiB,
     PricePerHour: 7.004,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -1610,6 +1777,7 @@
     VCpu: 40,
     Memory: 160 GiB,
     PricePerHour: 7.004,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -1620,6 +1788,7 @@
     VCpu: 40,
     Memory: 160 GiB,
     PricePerHour: 3.502,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -1630,6 +1799,7 @@
     VCpu: 40,
     Memory: 160 GiB,
     PricePerHour: 3.502,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -1640,6 +1810,7 @@
     VCpu: 40,
     Memory: 160 GiB,
     PricePerHour: 3.502,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -1650,6 +1821,7 @@
     VCpu: 40,
     Memory: 160 GiB,
     PricePerHour: 3.654,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -1660,6 +1832,7 @@
     VCpu: 64,
     Memory: 256 GiB,
     PricePerHour: 11.688,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -1670,6 +1843,7 @@
     VCpu: 64,
     Memory: 256 GiB,
     PricePerHour: 5.6,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -1680,6 +1854,7 @@
     VCpu: 64,
     Memory: 256 GiB,
     PricePerHour: 19.584,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -1690,6 +1865,7 @@
     VCpu: 64,
     Memory: 256 GiB,
     PricePerHour: 37.376,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -1700,6 +1876,7 @@
     VCpu: 64,
     Memory: 256 GiB,
     PricePerHour: 74.752,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -1710,6 +1887,7 @@
     VCpu: 64,
     Memory: 256 GiB,
     PricePerHour: 11.2,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -1720,6 +1898,7 @@
     VCpu: 64,
     Memory: 256 GiB,
     PricePerHour: 39.168,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -1730,6 +1909,7 @@
     VCpu: 64,
     Memory: 256 GiB,
     PricePerHour: 5.844,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -1740,6 +1920,7 @@
     VCpu: 64,
     Memory: 256 GiB,
     PricePerHour: 5.6064,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -1750,6 +1931,7 @@
     VCpu: 64,
     Memory: 256 GiB,
     PricePerHour: 11.2,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -1760,6 +1942,7 @@
     VCpu: 64,
     Memory: 256 GiB,
     PricePerHour: 5.6,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -1770,6 +1953,7 @@
     VCpu: 64,
     Memory: 256 GiB,
     PricePerHour: 11.2128,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -1780,6 +1964,7 @@
     VCpu: 8,
     Memory: 32 GiB,
     PricePerHour: 3.29,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -1790,6 +1975,7 @@
     VCpu: 8,
     Memory: 32 GiB,
     PricePerHour: 4.672,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -1800,6 +1986,7 @@
     VCpu: 8,
     Memory: 32 GiB,
     PricePerHour: 2.548,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -1810,6 +1997,7 @@
     VCpu: 8,
     Memory: 32 GiB,
     PricePerHour: 1.645,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -1820,6 +2008,7 @@
     VCpu: 8,
     Memory: 32 GiB,
     PricePerHour: 1.4,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -1830,6 +2019,7 @@
     VCpu: 8,
     Memory: 32 GiB,
     PricePerHour: 1.46,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -1840,6 +2030,7 @@
     VCpu: 8,
     Memory: 32 GiB,
     PricePerHour: 1.102,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -1850,6 +2041,7 @@
     VCpu: 8,
     Memory: 32 GiB,
     PricePerHour: 5.095,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -1860,6 +2052,7 @@
     VCpu: 8,
     Memory: 32 GiB,
     PricePerHour: 0.7,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -1870,6 +2063,7 @@
     VCpu: 8,
     Memory: 32 GiB,
     PricePerHour: 0.73,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -1880,6 +2074,7 @@
     VCpu: 8,
     Memory: 32 GiB,
     PricePerHour: 1.4,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -1890,6 +2085,7 @@
     VCpu: 8,
     Memory: 32 GiB,
     PricePerHour: 0.7,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -1900,6 +2096,7 @@
     VCpu: 8,
     Memory: 32 GiB,
     PricePerHour: 1.4,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -1910,6 +2107,7 @@
     VCpu: 8,
     Memory: 32 GiB,
     PricePerHour: 0.7,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -1920,6 +2118,7 @@
     VCpu: 8,
     Memory: 32 GiB,
     PricePerHour: 0.7,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -1930,6 +2129,7 @@
     VCpu: 8,
     Memory: 32 GiB,
     PricePerHour: 3.537,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -1940,6 +2140,7 @@
     VCpu: 8,
     Memory: 32 GiB,
     PricePerHour: 0.7,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -1950,6 +2151,7 @@
     VCpu: 8,
     Memory: 32 GiB,
     PricePerHour: 1.4,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -1960,6 +2162,7 @@
     VCpu: 8,
     Memory: 32 GiB,
     PricePerHour: 9.344,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -1970,6 +2173,7 @@
     VCpu: 8,
     Memory: 32 GiB,
     PricePerHour: 1.4,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -1980,6 +2184,7 @@
     VCpu: 8,
     Memory: 32 GiB,
     PricePerHour: 1.4,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -1990,6 +2195,7 @@
     VCpu: 8,
     Memory: 32 GiB,
     PricePerHour: 1.768,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -2000,6 +2206,7 @@
     VCpu: 8,
     Memory: 32 GiB,
     PricePerHour: 0.7,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -2010,6 +2217,7 @@
     VCpu: 16,
     Memory: 64 GiB,
     PricePerHour: 1.401,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -2020,6 +2228,7 @@
     VCpu: 16,
     Memory: 64 GiB,
     PricePerHour: 6.58,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -2030,6 +2239,7 @@
     VCpu: 16,
     Memory: 64 GiB,
     PricePerHour: 2.802,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -2040,6 +2250,7 @@
     VCpu: 16,
     Memory: 64 GiB,
     PricePerHour: 1.401,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -2050,6 +2261,7 @@
     VCpu: 16,
     Memory: 64 GiB,
     PricePerHour: 7.074,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -2060,6 +2272,7 @@
     VCpu: 16,
     Memory: 64 GiB,
     PricePerHour: 2.247,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -2070,6 +2283,7 @@
     VCpu: 16,
     Memory: 64 GiB,
     PricePerHour: 5.047,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -2080,6 +2294,7 @@
     VCpu: 16,
     Memory: 64 GiB,
     PricePerHour: 2.802,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -2090,6 +2305,7 @@
     VCpu: 16,
     Memory: 64 GiB,
     PricePerHour: 10.094,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -2100,6 +2316,7 @@
     VCpu: 16,
     Memory: 64 GiB,
     PricePerHour: 3.29,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -2110,6 +2327,7 @@
     VCpu: 16,
     Memory: 64 GiB,
     PricePerHour: 1.401,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -2120,6 +2338,7 @@
     VCpu: 16,
     Memory: 64 GiB,
     PricePerHour: 2.802,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -2130,6 +2349,7 @@
     VCpu: 16,
     Memory: 64 GiB,
     PricePerHour: 9.345,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -2140,6 +2360,7 @@
     VCpu: 16,
     Memory: 64 GiB,
     PricePerHour: 2.802,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -2150,6 +2371,7 @@
     VCpu: 16,
     Memory: 64 GiB,
     PricePerHour: 1.401,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -2160,6 +2382,7 @@
     VCpu: 16,
     Memory: 64 GiB,
     PricePerHour: 2.802,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -2170,6 +2393,7 @@
     VCpu: 16,
     Memory: 64 GiB,
     PricePerHour: 1.401,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -2180,6 +2404,7 @@
     VCpu: 16,
     Memory: 64 GiB,
     PricePerHour: 2.922,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -2190,6 +2415,7 @@
     VCpu: 16,
     Memory: 64 GiB,
     PricePerHour: 1.461,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -2200,6 +2426,7 @@
     VCpu: 16,
     Memory: 64 GiB,
     PricePerHour: 18.69,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -2210,6 +2437,7 @@
     VCpu: 16,
     Memory: 64 GiB,
     PricePerHour: 2.802,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -2220,6 +2448,7 @@
     VCpu: 16,
     Memory: 64 GiB,
     PricePerHour: 3.537,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -2230,6 +2459,7 @@
     VCpu: 16,
     Memory: 64 GiB,
     PricePerHour: 1.401,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -2240,6 +2470,7 @@
     VCpu: 2,
     Memory: 8 GiB,
     PricePerHour: 0.411,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -2250,6 +2481,7 @@
     VCpu: 2,
     Memory: 8 GiB,
     PricePerHour: 0.35,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -2260,6 +2492,7 @@
     VCpu: 2,
     Memory: 8 GiB,
     PricePerHour: 0.35,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -2270,6 +2503,7 @@
     VCpu: 2,
     Memory: 8 GiB,
     PricePerHour: 0.175,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -2280,6 +2514,7 @@
     VCpu: 2,
     Memory: 8 GiB,
     PricePerHour: 0.175,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -2290,6 +2525,7 @@
     VCpu: 2,
     Memory: 8 GiB,
     PricePerHour: 0.364,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -2300,6 +2536,7 @@
     VCpu: 2,
     Memory: 8 GiB,
     PricePerHour: 0.977,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -2310,6 +2547,7 @@
     VCpu: 2,
     Memory: 8 GiB,
     PricePerHour: 1.955,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -2320,6 +2558,7 @@
     VCpu: 2,
     Memory: 8 GiB,
     PricePerHour: 0.822,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -2330,6 +2569,7 @@
     VCpu: 2,
     Memory: 8 GiB,
     PricePerHour: 0.35,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -2340,6 +2580,7 @@
     VCpu: 2,
     Memory: 8 GiB,
     PricePerHour: 0.175,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -2350,6 +2591,7 @@
     VCpu: 2,
     Memory: 8 GiB,
     PricePerHour: 0.175,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -2360,6 +2602,7 @@
     VCpu: 2,
     Memory: 8 GiB,
     PricePerHour: 0.884,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -2370,6 +2613,7 @@
     VCpu: 2,
     Memory: 8 GiB,
     PricePerHour: 0.442,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -2380,6 +2624,7 @@
     VCpu: 2,
     Memory: 8 GiB,
     PricePerHour: 0.182,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -2390,6 +2635,7 @@
     VCpu: 2,
     Memory: 8 GiB,
     PricePerHour: 0.35,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -2400,6 +2646,7 @@
     VCpu: 2,
     Memory: 8 GiB,
     PricePerHour: 0.35,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -2410,6 +2657,7 @@
     VCpu: 2,
     Memory: 8 GiB,
     PricePerHour: 0.175,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -2420,6 +2668,7 @@
     VCpu: 2,
     Memory: 8 GiB,
     PricePerHour: 0.311,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -2430,6 +2679,7 @@
     VCpu: 2,
     Memory: 8 GiB,
     PricePerHour: 0.175,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -2440,6 +2690,7 @@
     VCpu: 2,
     Memory: 8 GiB,
     PricePerHour: 0.35,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -2450,6 +2701,7 @@
     VCpu: 4,
     Memory: 16 GiB,
     PricePerHour: 1.645,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -2460,6 +2712,7 @@
     VCpu: 4,
     Memory: 16 GiB,
     PricePerHour: 0.823,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -2470,6 +2723,7 @@
     VCpu: 4,
     Memory: 16 GiB,
     PricePerHour: 0.35,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -2480,6 +2734,7 @@
     VCpu: 4,
     Memory: 16 GiB,
     PricePerHour: 0.7,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -2490,6 +2745,7 @@
     VCpu: 4,
     Memory: 16 GiB,
     PricePerHour: 0.35,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -2500,6 +2756,7 @@
     VCpu: 4,
     Memory: 16 GiB,
     PricePerHour: 2.448,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -2510,6 +2767,7 @@
     VCpu: 4,
     Memory: 16 GiB,
     PricePerHour: 2.336,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -2520,6 +2778,7 @@
     VCpu: 4,
     Memory: 16 GiB,
     PricePerHour: 4.672,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -2530,6 +2789,7 @@
     VCpu: 4,
     Memory: 16 GiB,
     PricePerHour: 0.73,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -2540,6 +2800,7 @@
     VCpu: 4,
     Memory: 16 GiB,
     PricePerHour: 0.54,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -2550,6 +2811,7 @@
     VCpu: 4,
     Memory: 16 GiB,
     PricePerHour: 0.7,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -2560,6 +2822,7 @@
     VCpu: 4,
     Memory: 16 GiB,
     PricePerHour: 0.7,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -2570,6 +2833,7 @@
     VCpu: 4,
     Memory: 16 GiB,
     PricePerHour: 0.7,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -2580,6 +2844,7 @@
     VCpu: 4,
     Memory: 16 GiB,
     PricePerHour: 0.35,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -2590,6 +2855,7 @@
     VCpu: 4,
     Memory: 16 GiB,
     PricePerHour: 0.35,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -2600,6 +2866,7 @@
     VCpu: 4,
     Memory: 16 GiB,
     PricePerHour: 0.885,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -2610,6 +2877,7 @@
     VCpu: 4,
     Memory: 16 GiB,
     PricePerHour: 0.365,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -2620,6 +2888,7 @@
     VCpu: 4,
     Memory: 16 GiB,
     PricePerHour: 0.7,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -2630,6 +2899,7 @@
     VCpu: 4,
     Memory: 16 GiB,
     PricePerHour: 0.35,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -2640,6 +2910,7 @@
     VCpu: 4,
     Memory: 16 GiB,
     PricePerHour: 0.35,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -2650,6 +2921,7 @@
     VCpu: 4,
     Memory: 16 GiB,
     PricePerHour: 0.7,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -2660,6 +2932,7 @@
     VCpu: 4,
     Memory: 16 GiB,
     PricePerHour: 1.768,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -2670,6 +2943,7 @@
     VCpu: 4,
     Memory: 16 GiB,
     PricePerHour: 1.224,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -2680,6 +2954,7 @@
     VCpu: 48,
     Memory: 192 GiB,
     PricePerHour: 39.941,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -2690,6 +2965,7 @@
     VCpu: 48,
     Memory: 192 GiB,
     PricePerHour: 14.4,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -2700,6 +2976,7 @@
     VCpu: 48,
     Memory: 192 GiB,
     PricePerHour: 14.688,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -2710,6 +2987,7 @@
     VCpu: 48,
     Memory: 192 GiB,
     PricePerHour: 36.9408,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -2720,6 +2998,7 @@
     VCpu: 48,
     Memory: 192 GiB,
     PricePerHour: 3.936,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -2730,6 +3009,7 @@
     VCpu: 48,
     Memory: 192 GiB,
     PricePerHour: 1.968,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -2740,6 +3020,7 @@
     VCpu: 48,
     Memory: 192 GiB,
     PricePerHour: 8.208,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -2750,6 +3031,7 @@
     VCpu: 48,
     Memory: 192 GiB,
     PricePerHour: 34.4256,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -2760,6 +3042,7 @@
     VCpu: 48,
     Memory: 192 GiB,
     PricePerHour: 28.032,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -2770,6 +3053,7 @@
     VCpu: 48,
     Memory: 192 GiB,
     PricePerHour: 8.544,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -2780,6 +3064,7 @@
     VCpu: 48,
     Memory: 192 GiB,
     PricePerHour: 29.376,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -2790,6 +3075,7 @@
     VCpu: 48,
     Memory: 192 GiB,
     PricePerHour: 25.728,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -2800,6 +3086,7 @@
     VCpu: 48,
     Memory: 192 GiB,
     PricePerHour: 14.4,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -2810,6 +3097,7 @@
     VCpu: 48,
     Memory: 192 GiB,
     PricePerHour: 7.2,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -2820,6 +3108,7 @@
     VCpu: 48,
     Memory: 192 GiB,
     PricePerHour: 12.384,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -2830,6 +3119,7 @@
     VCpu: 48,
     Memory: 192 GiB,
     PricePerHour: 4.925,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -2840,6 +3130,7 @@
     VCpu: 48,
     Memory: 192 GiB,
     PricePerHour: 14.4,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -2850,6 +3141,7 @@
     VCpu: 48,
     Memory: 192 GiB,
     PricePerHour: 17.2128,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -2860,6 +3152,7 @@
     VCpu: 48,
     Memory: 192 GiB,
     PricePerHour: 8.208,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -2870,6 +3163,7 @@
     VCpu: 48,
     Memory: 192 GiB,
     PricePerHour: 1.8,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -2880,6 +3174,7 @@
     VCpu: 48,
     Memory: 192 GiB,
     PricePerHour: 4.104,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -2890,6 +3185,7 @@
     VCpu: 48,
     Memory: 192 GiB,
     PricePerHour: 4.272,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -2900,6 +3196,7 @@
     VCpu: 48,
     Memory: 192 GiB,
     PricePerHour: 4.104,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -2910,6 +3207,7 @@
     VCpu: 48,
     Memory: 192 GiB,
     PricePerHour: 7.2,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -2920,6 +3218,7 @@
     VCpu: 48,
     Memory: 192 GiB,
     PricePerHour: 8.208,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -2930,6 +3229,7 @@
     VCpu: 48,
     Memory: 192 GiB,
     PricePerHour: 3.6,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -2940,6 +3240,7 @@
     VCpu: 48,
     Memory: 192 GiB,
     PricePerHour: 52.635,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -2950,6 +3251,7 @@
     VCpu: 48,
     Memory: 192 GiB,
     PricePerHour: 7.2,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -2960,6 +3262,7 @@
     VCpu: 48,
     Memory: 192 GiB,
     PricePerHour: 9.85,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -2970,6 +3273,7 @@
     VCpu: 48,
     Memory: 192 GiB,
     PricePerHour: 4.104,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -2980,6 +3284,7 @@
     VCpu: 64,
     Memory: 256 GiB,
     PricePerHour: 19.2,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -2990,6 +3295,7 @@
     VCpu: 64,
     Memory: 256 GiB,
     PricePerHour: 37.376,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -3000,6 +3306,7 @@
     VCpu: 64,
     Memory: 256 GiB,
     PricePerHour: 5.47,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -3010,6 +3317,7 @@
     VCpu: 64,
     Memory: 256 GiB,
     PricePerHour: 5.472,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -3020,6 +3328,7 @@
     VCpu: 64,
     Memory: 256 GiB,
     PricePerHour: 5.47,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -3030,6 +3339,7 @@
     VCpu: 64,
     Memory: 256 GiB,
     PricePerHour: 53.254,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -3040,6 +3350,7 @@
     VCpu: 64,
     Memory: 256 GiB,
     PricePerHour: 17.116,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -3050,6 +3361,7 @@
     VCpu: 64,
     Memory: 256 GiB,
     PricePerHour: 10.94,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -3060,6 +3372,7 @@
     VCpu: 64,
     Memory: 256 GiB,
     PricePerHour: 22.9504,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -3070,6 +3383,7 @@
     VCpu: 64,
     Memory: 256 GiB,
     PricePerHour: 49.2544,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -3080,6 +3394,7 @@
     VCpu: 64,
     Memory: 256 GiB,
     PricePerHour: 45.9008,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -3090,6 +3405,7 @@
     VCpu: 64,
     Memory: 256 GiB,
     PricePerHour: 2.4,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -3100,6 +3416,7 @@
     VCpu: 64,
     Memory: 256 GiB,
     PricePerHour: 19.584,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -3110,6 +3427,7 @@
     VCpu: 64,
     Memory: 256 GiB,
     PricePerHour: 34.308,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -3120,6 +3438,7 @@
     VCpu: 64,
     Memory: 256 GiB,
     PricePerHour: 10.94,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -3130,6 +3449,7 @@
     VCpu: 64,
     Memory: 256 GiB,
     PricePerHour: 2.624,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -3140,6 +3460,7 @@
     VCpu: 64,
     Memory: 256 GiB,
     PricePerHour: 19.2,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -3150,6 +3471,7 @@
     VCpu: 64,
     Memory: 256 GiB,
     PricePerHour: 9.6,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -3160,6 +3482,7 @@
     VCpu: 64,
     Memory: 256 GiB,
     PricePerHour: 5.248,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -3170,6 +3493,7 @@
     VCpu: 64,
     Memory: 256 GiB,
     PricePerHour: 19.2,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -3180,6 +3504,7 @@
     VCpu: 64,
     Memory: 256 GiB,
     PricePerHour: 6.566,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -3190,6 +3515,7 @@
     VCpu: 64,
     Memory: 256 GiB,
     PricePerHour: 10.944,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -3200,6 +3526,7 @@
     VCpu: 64,
     Memory: 256 GiB,
     PricePerHour: 13.133,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -3210,6 +3537,7 @@
     VCpu: 64,
     Memory: 256 GiB,
     PricePerHour: 9.6,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -3220,6 +3548,7 @@
     VCpu: 64,
     Memory: 256 GiB,
     PricePerHour: 70.179,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -3230,6 +3559,7 @@
     VCpu: 64,
     Memory: 256 GiB,
     PricePerHour: 9.6,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -3240,6 +3570,7 @@
     VCpu: 64,
     Memory: 256 GiB,
     PricePerHour: 39.168,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -3250,6 +3581,7 @@
     VCpu: 64,
     Memory: 256 GiB,
     PricePerHour: 4.8,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -3260,6 +3592,7 @@
     VCpu: 64,
     Memory: 256 GiB,
     PricePerHour: 5.696,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -3270,6 +3603,7 @@
     VCpu: 64,
     Memory: 256 GiB,
     PricePerHour: 11.392,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -3280,6 +3614,7 @@
     VCpu: 96,
     Memory: 384 GiB,
     PricePerHour: 29.376,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -3290,6 +3625,7 @@
     VCpu: 96,
     Memory: 384 GiB,
     PricePerHour: 34.4256,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -3300,6 +3636,7 @@
     VCpu: 96,
     Memory: 384 GiB,
     PricePerHour: 79.882,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -3310,6 +3647,7 @@
     VCpu: 96,
     Memory: 384 GiB,
     PricePerHour: 28.8,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -3320,6 +3658,7 @@
     VCpu: 96,
     Memory: 384 GiB,
     PricePerHour: 8.208,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -3330,6 +3669,7 @@
     VCpu: 96,
     Memory: 384 GiB,
     PricePerHour: 3.6,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -3340,6 +3680,7 @@
     VCpu: 96,
     Memory: 384 GiB,
     PricePerHour: 56.064,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -3350,6 +3691,7 @@
     VCpu: 96,
     Memory: 384 GiB,
     PricePerHour: 28.8,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -3360,6 +3702,7 @@
     VCpu: 96,
     Memory: 384 GiB,
     PricePerHour: 24.768,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -3370,6 +3713,7 @@
     VCpu: 96,
     Memory: 384 GiB,
     PricePerHour: 16.416,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -3380,6 +3724,7 @@
     VCpu: 96,
     Memory: 384 GiB,
     PricePerHour: 17.088,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -3390,6 +3735,7 @@
     VCpu: 96,
     Memory: 384 GiB,
     PricePerHour: 14.4,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -3400,6 +3746,7 @@
     VCpu: 96,
     Memory: 384 GiB,
     PricePerHour: 7.2,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -3410,6 +3757,7 @@
     VCpu: 96,
     Memory: 384 GiB,
     PricePerHour: 8.544,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -3420,6 +3768,7 @@
     VCpu: 96,
     Memory: 384 GiB,
     PricePerHour: 3.936,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -3430,6 +3779,7 @@
     VCpu: 96,
     Memory: 384 GiB,
     PricePerHour: 16.416,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -3440,6 +3790,7 @@
     VCpu: 96,
     Memory: 384 GiB,
     PricePerHour: 16.416,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -3450,6 +3801,7 @@
     VCpu: 96,
     Memory: 384 GiB,
     PricePerHour: 19.699,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -3460,6 +3812,7 @@
     VCpu: 96,
     Memory: 384 GiB,
     PricePerHour: 105.269,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -3470,6 +3823,7 @@
     VCpu: 96,
     Memory: 384 GiB,
     PricePerHour: 68.8512,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -3480,6 +3834,7 @@
     VCpu: 96,
     Memory: 384 GiB,
     PricePerHour: 73.8816,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -3490,6 +3845,7 @@
     VCpu: 96,
     Memory: 384 GiB,
     PricePerHour: 28.8,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -3500,6 +3856,7 @@
     VCpu: 96,
     Memory: 384 GiB,
     PricePerHour: 51.456,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -3510,6 +3867,7 @@
     VCpu: 96,
     Memory: 384 GiB,
     PricePerHour: 8.208,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -3520,6 +3878,7 @@
     VCpu: 96,
     Memory: 384 GiB,
     PricePerHour: 14.4,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -3530,6 +3889,7 @@
     VCpu: 96,
     Memory: 384 GiB,
     PricePerHour: 8.208,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -3540,6 +3900,7 @@
     VCpu: 96,
     Memory: 384 GiB,
     PricePerHour: 14.4,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -3550,6 +3911,7 @@
     VCpu: 96,
     Memory: 384 GiB,
     PricePerHour: 7.872,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -3560,6 +3922,7 @@
     VCpu: 96,
     Memory: 384 GiB,
     PricePerHour: 9.85,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -3570,6 +3933,7 @@
     VCpu: 96,
     Memory: 384 GiB,
     PricePerHour: 58.752,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -3580,6 +3944,7 @@
     VCpu: 8,
     Memory: 32 GiB,
     PricePerHour: 1.368,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -3590,6 +3955,7 @@
     VCpu: 8,
     Memory: 32 GiB,
     PricePerHour: 0.684,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -3600,6 +3966,7 @@
     VCpu: 8,
     Memory: 32 GiB,
     PricePerHour: 1.628,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -3610,6 +3977,7 @@
     VCpu: 8,
     Memory: 32 GiB,
     PricePerHour: 3.256,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -3620,6 +3988,7 @@
     VCpu: 8,
     Memory: 32 GiB,
     PricePerHour: 0.684,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -3630,6 +3999,7 @@
     VCpu: 8,
     Memory: 32 GiB,
     PricePerHour: 5.7376,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -3640,6 +4010,7 @@
     VCpu: 8,
     Memory: 32 GiB,
     PricePerHour: 1.368,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -3650,6 +4021,7 @@
     VCpu: 8,
     Memory: 32 GiB,
     PricePerHour: 1.102,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -3660,6 +4032,7 @@
     VCpu: 8,
     Memory: 32 GiB,
     PricePerHour: 2.4,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -3670,6 +4043,7 @@
     VCpu: 8,
     Memory: 32 GiB,
     PricePerHour: 1.2,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -3680,6 +4054,7 @@
     VCpu: 8,
     Memory: 32 GiB,
     PricePerHour: 5.096,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -3690,6 +4065,7 @@
     VCpu: 8,
     Memory: 32 GiB,
     PricePerHour: 2.8688,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -3700,6 +4076,7 @@
     VCpu: 8,
     Memory: 32 GiB,
     PricePerHour: 2.8896,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -3710,6 +4087,7 @@
     VCpu: 8,
     Memory: 32 GiB,
     PricePerHour: 0.684,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -3720,6 +4098,7 @@
     VCpu: 8,
     Memory: 32 GiB,
     PricePerHour: 6.1568,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -3730,6 +4109,7 @@
     VCpu: 8,
     Memory: 32 GiB,
     PricePerHour: 0.656,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -3740,6 +4120,7 @@
     VCpu: 8,
     Memory: 32 GiB,
     PricePerHour: 6.657,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -3750,6 +4131,7 @@
     VCpu: 8,
     Memory: 32 GiB,
     PricePerHour: 1.368,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -3760,6 +4142,7 @@
     VCpu: 8,
     Memory: 32 GiB,
     PricePerHour: 1.368,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -3770,6 +4153,7 @@
     VCpu: 8,
     Memory: 32 GiB,
     PricePerHour: 0.684,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -3780,6 +4164,7 @@
     VCpu: 8,
     Memory: 32 GiB,
     PricePerHour: 2.0688,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -3790,6 +4175,7 @@
     VCpu: 8,
     Memory: 32 GiB,
     PricePerHour: 0.3,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -3800,6 +4186,7 @@
     VCpu: 8,
     Memory: 32 GiB,
     PricePerHour: 2.164,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -3810,6 +4197,7 @@
     VCpu: 8,
     Memory: 32 GiB,
     PricePerHour: 2.4,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -3820,6 +4208,7 @@
     VCpu: 8,
     Memory: 32 GiB,
     PricePerHour: 1.2,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -3830,6 +4219,7 @@
     VCpu: 8,
     Memory: 32 GiB,
     PricePerHour: 1.424,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -3840,6 +4230,7 @@
     VCpu: 8,
     Memory: 32 GiB,
     PricePerHour: 8.773,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -3850,6 +4241,7 @@
     VCpu: 8,
     Memory: 32 GiB,
     PricePerHour: 2.4,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -3860,6 +4252,7 @@
     VCpu: 8,
     Memory: 32 GiB,
     PricePerHour: 0.684,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -3870,6 +4263,7 @@
     VCpu: 8,
     Memory: 32 GiB,
     PricePerHour: 0.684,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -3880,6 +4274,7 @@
     VCpu: 8,
     Memory: 32 GiB,
     PricePerHour: 0.718,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -3890,6 +4285,7 @@
     VCpu: 8,
     Memory: 32 GiB,
     PricePerHour: 0.328,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -3900,6 +4296,7 @@
     VCpu: 8,
     Memory: 32 GiB,
     PricePerHour: 2.548,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -3910,6 +4307,7 @@
     VCpu: 8,
     Memory: 32 GiB,
     PricePerHour: 1.368,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -3920,6 +4318,7 @@
     VCpu: 8,
     Memory: 32 GiB,
     PricePerHour: 0.821,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -3930,6 +4329,7 @@
     VCpu: 8,
     Memory: 32 GiB,
     PricePerHour: 1.2,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -3940,6 +4340,7 @@
     VCpu: 8,
     Memory: 32 GiB,
     PricePerHour: 1.368,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -3950,6 +4351,7 @@
     VCpu: 8,
     Memory: 32 GiB,
     PricePerHour: 1.752,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -3960,6 +4362,7 @@
     VCpu: 8,
     Memory: 32 GiB,
     PricePerHour: 1.4448,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -3970,6 +4373,7 @@
     VCpu: 8,
     Memory: 32 GiB,
     PricePerHour: 1.642,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -3980,6 +4384,7 @@
     VCpu: 8,
     Memory: 32 GiB,
     PricePerHour: 3.504,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -3990,6 +4395,7 @@
     VCpu: 8,
     Memory: 32 GiB,
     PricePerHour: 0.6,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -4000,6 +4406,7 @@
     VCpu: 8,
     Memory: 32 GiB,
     PricePerHour: 4.672,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -4010,6 +4417,7 @@
     VCpu: 8,
     Memory: 32 GiB,
     PricePerHour: 0.712,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -4020,6 +4428,7 @@
     VCpu: 8,
     Memory: 32 GiB,
     PricePerHour: 4.288,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -4030,6 +4439,7 @@
     VCpu: 16,
     Memory: 64 GiB,
     PricePerHour: 3.256,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -4040,6 +4450,7 @@
     VCpu: 16,
     Memory: 64 GiB,
     PricePerHour: 1.368,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -4050,6 +4461,7 @@
     VCpu: 16,
     Memory: 64 GiB,
     PricePerHour: 6.512,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -4060,6 +4472,7 @@
     VCpu: 16,
     Memory: 64 GiB,
     PricePerHour: 2.736,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -4070,6 +4483,7 @@
     VCpu: 16,
     Memory: 64 GiB,
     PricePerHour: 10.094,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -4080,6 +4494,7 @@
     VCpu: 16,
     Memory: 64 GiB,
     PricePerHour: 1.368,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -4090,6 +4505,7 @@
     VCpu: 16,
     Memory: 64 GiB,
     PricePerHour: 2.848,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -4100,6 +4516,7 @@
     VCpu: 16,
     Memory: 64 GiB,
     PricePerHour: 4.2236,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -4110,6 +4527,7 @@
     VCpu: 16,
     Memory: 64 GiB,
     PricePerHour: 2.247,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -4120,6 +4538,7 @@
     VCpu: 16,
     Memory: 64 GiB,
     PricePerHour: 1.368,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -4130,6 +4549,7 @@
     VCpu: 16,
     Memory: 64 GiB,
     PricePerHour: 5.7376,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -4140,6 +4560,7 @@
     VCpu: 16,
     Memory: 64 GiB,
     PricePerHour: 2.736,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -4150,6 +4571,7 @@
     VCpu: 16,
     Memory: 64 GiB,
     PricePerHour: 1.312,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -4160,6 +4582,7 @@
     VCpu: 16,
     Memory: 64 GiB,
     PricePerHour: 2.736,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -4170,6 +4593,7 @@
     VCpu: 16,
     Memory: 64 GiB,
     PricePerHour: 5.047,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -4180,6 +4604,7 @@
     VCpu: 16,
     Memory: 64 GiB,
     PricePerHour: 2.4,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -4190,6 +4615,7 @@
     VCpu: 16,
     Memory: 64 GiB,
     PricePerHour: 2.4,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -4200,6 +4626,7 @@
     VCpu: 16,
     Memory: 64 GiB,
     PricePerHour: 1.2,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -4210,6 +4637,7 @@
     VCpu: 16,
     Memory: 64 GiB,
     PricePerHour: 12.3136,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -4220,6 +4648,7 @@
     VCpu: 16,
     Memory: 64 GiB,
     PricePerHour: 8.577,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -4230,6 +4659,7 @@
     VCpu: 16,
     Memory: 64 GiB,
     PricePerHour: 2.8896,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -4240,6 +4670,7 @@
     VCpu: 16,
     Memory: 64 GiB,
     PricePerHour: 1.368,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -4250,6 +4681,7 @@
     VCpu: 16,
     Memory: 64 GiB,
     PricePerHour: 17.543,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -4260,6 +4692,7 @@
     VCpu: 16,
     Memory: 64 GiB,
     PricePerHour: 1.642,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -4270,6 +4703,7 @@
     VCpu: 16,
     Memory: 64 GiB,
     PricePerHour: 1.368,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -4280,6 +4714,7 @@
     VCpu: 16,
     Memory: 64 GiB,
     PricePerHour: 4.8,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -4290,6 +4725,7 @@
     VCpu: 16,
     Memory: 64 GiB,
     PricePerHour: 0.656,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -4300,6 +4736,7 @@
     VCpu: 16,
     Memory: 64 GiB,
     PricePerHour: 3.283,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -4310,6 +4747,7 @@
     VCpu: 16,
     Memory: 64 GiB,
     PricePerHour: 7.008,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -4320,6 +4758,7 @@
     VCpu: 16,
     Memory: 64 GiB,
     PricePerHour: 0.6,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -4330,6 +4769,7 @@
     VCpu: 16,
     Memory: 64 GiB,
     PricePerHour: 11.4752,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -4340,6 +4780,7 @@
     VCpu: 16,
     Memory: 64 GiB,
     PricePerHour: 3.504,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -4350,6 +4791,7 @@
     VCpu: 16,
     Memory: 64 GiB,
     PricePerHour: 2.736,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -4360,6 +4802,7 @@
     VCpu: 16,
     Memory: 64 GiB,
     PricePerHour: 4.8,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -4370,6 +4813,7 @@
     VCpu: 16,
     Memory: 64 GiB,
     PricePerHour: 5.7792,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -4380,6 +4824,7 @@
     VCpu: 16,
     Memory: 64 GiB,
     PricePerHour: 4.8,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -4390,6 +4835,7 @@
     VCpu: 16,
     Memory: 64 GiB,
     PricePerHour: 13.314,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -4400,6 +4846,7 @@
     VCpu: 16,
     Memory: 64 GiB,
     PricePerHour: 9.345,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -4410,6 +4857,7 @@
     VCpu: 16,
     Memory: 64 GiB,
     PricePerHour: 2.736,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -4420,6 +4868,7 @@
     VCpu: 16,
     Memory: 64 GiB,
     PricePerHour: 1.368,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -4430,6 +4879,7 @@
     VCpu: 16,
     Memory: 64 GiB,
     PricePerHour: 1.479,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -4440,6 +4890,7 @@
     VCpu: 16,
     Memory: 64 GiB,
     PricePerHour: 2.736,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -4450,6 +4901,7 @@
     VCpu: 16,
     Memory: 64 GiB,
     PricePerHour: 2.4,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -4460,6 +4912,7 @@
     VCpu: 16,
     Memory: 64 GiB,
     PricePerHour: 4.279,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -4470,6 +4923,7 @@
     VCpu: 16,
     Memory: 64 GiB,
     PricePerHour: 1.424,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -4480,6 +4934,7 @@
     VCpu: 32,
     Memory: 128 GiB,
     PricePerHour: 5.472,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -4490,6 +4945,7 @@
     VCpu: 32,
     Memory: 128 GiB,
     PricePerHour: 2.74,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -4500,6 +4956,7 @@
     VCpu: 32,
     Memory: 128 GiB,
     PricePerHour: 2.74,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -4510,6 +4967,7 @@
     VCpu: 32,
     Memory: 128 GiB,
     PricePerHour: 2.736,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -4520,6 +4978,7 @@
     VCpu: 32,
     Memory: 128 GiB,
     PricePerHour: 5.696,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -4530,6 +4989,7 @@
     VCpu: 32,
     Memory: 128 GiB,
     PricePerHour: 5.472,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -4540,6 +5000,7 @@
     VCpu: 32,
     Memory: 128 GiB,
     PricePerHour: 17.154,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -4550,6 +5011,7 @@
     VCpu: 32,
     Memory: 128 GiB,
     PricePerHour: 26.627,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -4560,6 +5022,7 @@
     VCpu: 32,
     Memory: 128 GiB,
     PricePerHour: 3.283,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -4570,6 +5033,7 @@
     VCpu: 32,
     Memory: 128 GiB,
     PricePerHour: 9.6,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -4580,6 +5044,7 @@
     VCpu: 32,
     Memory: 128 GiB,
     PricePerHour: 11.4752,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -4590,6 +5055,7 @@
     VCpu: 32,
     Memory: 128 GiB,
     PricePerHour: 24.6272,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -4600,6 +5066,7 @@
     VCpu: 32,
     Memory: 128 GiB,
     PricePerHour: 9.6,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -4610,6 +5077,7 @@
     VCpu: 32,
     Memory: 128 GiB,
     PricePerHour: 1.312,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -4620,6 +5088,7 @@
     VCpu: 32,
     Memory: 128 GiB,
     PricePerHour: 9.6,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -4630,6 +5099,7 @@
     VCpu: 32,
     Memory: 128 GiB,
     PricePerHour: 19.584,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -4640,6 +5110,7 @@
     VCpu: 32,
     Memory: 128 GiB,
     PricePerHour: 6.566,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -4650,6 +5121,7 @@
     VCpu: 32,
     Memory: 128 GiB,
     PricePerHour: 2.848,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -4660,6 +5132,7 @@
     VCpu: 32,
     Memory: 128 GiB,
     PricePerHour: 8.558,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -4670,6 +5143,7 @@
     VCpu: 32,
     Memory: 128 GiB,
     PricePerHour: 18.688,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -4680,6 +5154,7 @@
     VCpu: 32,
     Memory: 128 GiB,
     PricePerHour: 2.4,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -4690,6 +5165,7 @@
     VCpu: 32,
     Memory: 128 GiB,
     PricePerHour: 4.8,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -4700,6 +5176,7 @@
     VCpu: 32,
     Memory: 128 GiB,
     PricePerHour: 5.47,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -4710,6 +5187,7 @@
     VCpu: 32,
     Memory: 128 GiB,
     PricePerHour: 22.9504,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -4720,6 +5198,7 @@
     VCpu: 32,
     Memory: 128 GiB,
     PricePerHour: 4.8,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -4730,6 +5209,7 @@
     VCpu: 32,
     Memory: 128 GiB,
     PricePerHour: 1.2,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -4740,6 +5220,7 @@
     VCpu: 32,
     Memory: 128 GiB,
     PricePerHour: 9.792,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -4750,6 +5231,7 @@
     VCpu: 32,
     Memory: 128 GiB,
     PricePerHour: 5.47,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -4760,6 +5242,7 @@
     VCpu: 32,
     Memory: 128 GiB,
     PricePerHour: 2.736,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -4770,6 +5253,7 @@
     VCpu: 32,
     Memory: 128 GiB,
     PricePerHour: 4.8,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -4780,6 +5264,7 @@
     VCpu: 32,
     Memory: 128 GiB,
     PricePerHour: 2.624,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -4790,6 +5275,7 @@
     VCpu: 32,
     Memory: 128 GiB,
     PricePerHour: 35.089,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -4800,6 +5286,7 @@
     VCpu: 48,
     Memory: 192 GiB,
     PricePerHour: 14.04,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -4810,6 +5297,7 @@
     VCpu: 48,
     Memory: 192 GiB,
     PricePerHour: 10.057,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -4820,6 +5308,7 @@
     VCpu: 48,
     Memory: 192 GiB,
     PricePerHour: 28.65,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -4830,6 +5319,7 @@
     VCpu: 48,
     Memory: 192 GiB,
     PricePerHour: 5.028,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -4840,6 +5330,7 @@
     VCpu: 48,
     Memory: 192 GiB,
     PricePerHour: 5.028,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -4850,6 +5341,7 @@
     VCpu: 48,
     Memory: 192 GiB,
     PricePerHour: 9.661,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -4860,6 +5352,7 @@
     VCpu: 48,
     Memory: 192 GiB,
     PricePerHour: 10.057,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -4870,6 +5363,7 @@
     VCpu: 48,
     Memory: 192 GiB,
     PricePerHour: 30.972,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -4880,6 +5374,7 @@
     VCpu: 48,
     Memory: 192 GiB,
     PricePerHour: 4.83,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -4890,6 +5385,7 @@
     VCpu: 48,
     Memory: 192 GiB,
     PricePerHour: 14.04,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -4900,6 +5396,7 @@
     VCpu: 48,
     Memory: 192 GiB,
     PricePerHour: 15.486,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -4910,6 +5407,7 @@
     VCpu: 48,
     Memory: 192 GiB,
     PricePerHour: 14.04,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -4920,6 +5418,7 @@
     VCpu: 48,
     Memory: 192 GiB,
     PricePerHour: 10.057,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -4930,6 +5429,7 @@
     VCpu: 48,
     Memory: 192 GiB,
     PricePerHour: 43.691,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -4940,6 +5440,7 @@
     VCpu: 48,
     Memory: 192 GiB,
     PricePerHour: 5.028,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -4950,6 +5451,7 @@
     VCpu: 64,
     Memory: 256 GiB,
     PricePerHour: 13.409,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -4960,6 +5462,7 @@
     VCpu: 64,
     Memory: 256 GiB,
     PricePerHour: 18.72,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -4970,6 +5473,7 @@
     VCpu: 64,
     Memory: 256 GiB,
     PricePerHour: 6.705,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -4980,6 +5484,7 @@
     VCpu: 64,
     Memory: 256 GiB,
     PricePerHour: 6.441,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -4990,6 +5495,7 @@
     VCpu: 64,
     Memory: 256 GiB,
     PricePerHour: 20.648,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -5000,6 +5506,7 @@
     VCpu: 64,
     Memory: 256 GiB,
     PricePerHour: 18.72,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -5010,6 +5517,7 @@
     VCpu: 64,
     Memory: 256 GiB,
     PricePerHour: 6.705,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -5020,6 +5528,7 @@
     VCpu: 64,
     Memory: 256 GiB,
     PricePerHour: 13.409,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -5030,6 +5539,7 @@
     VCpu: 64,
     Memory: 256 GiB,
     PricePerHour: 38.2,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -5040,6 +5550,7 @@
     VCpu: 64,
     Memory: 256 GiB,
     PricePerHour: 18.72,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -5050,6 +5561,7 @@
     VCpu: 64,
     Memory: 256 GiB,
     PricePerHour: 58.255,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -5060,6 +5572,7 @@
     VCpu: 64,
     Memory: 256 GiB,
     PricePerHour: 12.881,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -5070,6 +5583,7 @@
     VCpu: 64,
     Memory: 256 GiB,
     PricePerHour: 13.409,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -5080,6 +5594,7 @@
     VCpu: 64,
     Memory: 256 GiB,
     PricePerHour: 41.296,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -5090,6 +5605,7 @@
     VCpu: 64,
     Memory: 256 GiB,
     PricePerHour: 6.705,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -5100,6 +5616,7 @@
     VCpu: 96,
     Memory: 384 GiB,
     PricePerHour: 10.057,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -5110,6 +5627,7 @@
     VCpu: 96,
     Memory: 384 GiB,
     PricePerHour: 28.08,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -5120,6 +5638,7 @@
     VCpu: 96,
     Memory: 384 GiB,
     PricePerHour: 20.114,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -5130,6 +5649,7 @@
     VCpu: 96,
     Memory: 384 GiB,
     PricePerHour: 30.972,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -5140,6 +5660,7 @@
     VCpu: 96,
     Memory: 384 GiB,
     PricePerHour: 28.08,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -5150,6 +5671,7 @@
     VCpu: 96,
     Memory: 384 GiB,
     PricePerHour: 61.944,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -5160,6 +5682,7 @@
     VCpu: 96,
     Memory: 384 GiB,
     PricePerHour: 87.383,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -5170,6 +5693,7 @@
     VCpu: 96,
     Memory: 384 GiB,
     PricePerHour: 10.057,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -5180,6 +5704,7 @@
     VCpu: 96,
     Memory: 384 GiB,
     PricePerHour: 20.114,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -5190,6 +5715,7 @@
     VCpu: 96,
     Memory: 384 GiB,
     PricePerHour: 19.322,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -5200,6 +5726,7 @@
     VCpu: 96,
     Memory: 384 GiB,
     PricePerHour: 20.114,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -5210,6 +5737,7 @@
     VCpu: 96,
     Memory: 384 GiB,
     PricePerHour: 10.057,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -5220,6 +5748,7 @@
     VCpu: 96,
     Memory: 384 GiB,
     PricePerHour: 9.661,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -5230,6 +5759,7 @@
     VCpu: 96,
     Memory: 384 GiB,
     PricePerHour: 28.08,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -5240,6 +5770,7 @@
     VCpu: 96,
     Memory: 384 GiB,
     PricePerHour: 57.3,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -5250,6 +5781,7 @@
     VCpu: 8,
     Memory: 32 GiB,
     PricePerHour: 7.282,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -5260,6 +5792,7 @@
     VCpu: 8,
     Memory: 32 GiB,
     PricePerHour: 1.676,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -5270,6 +5803,7 @@
     VCpu: 8,
     Memory: 32 GiB,
     PricePerHour: 2.34,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -5280,6 +5814,7 @@
     VCpu: 8,
     Memory: 32 GiB,
     PricePerHour: 0.838,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -5290,6 +5825,7 @@
     VCpu: 8,
     Memory: 32 GiB,
     PricePerHour: 0.838,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -5300,6 +5836,7 @@
     VCpu: 8,
     Memory: 32 GiB,
     PricePerHour: 0.805,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -5310,6 +5847,7 @@
     VCpu: 8,
     Memory: 32 GiB,
     PricePerHour: 2.2528,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -5320,6 +5858,7 @@
     VCpu: 8,
     Memory: 32 GiB,
     PricePerHour: 4.775,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -5330,6 +5869,7 @@
     VCpu: 8,
     Memory: 32 GiB,
     PricePerHour: 2.34,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -5340,6 +5880,7 @@
     VCpu: 8,
     Memory: 32 GiB,
     PricePerHour: 2.581,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -5350,6 +5891,7 @@
     VCpu: 8,
     Memory: 32 GiB,
     PricePerHour: 5.162,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -5360,6 +5902,7 @@
     VCpu: 8,
     Memory: 32 GiB,
     PricePerHour: 1.676,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -5370,6 +5913,7 @@
     VCpu: 8,
     Memory: 32 GiB,
     PricePerHour: 1.194,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -5380,6 +5924,7 @@
     VCpu: 8,
     Memory: 32 GiB,
     PricePerHour: 1.61,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -5390,6 +5935,7 @@
     VCpu: 8,
     Memory: 32 GiB,
     PricePerHour: 0.838,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -5400,6 +5946,7 @@
     VCpu: 8,
     Memory: 32 GiB,
     PricePerHour: 2.34,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -5410,6 +5957,7 @@
     VCpu: 8,
     Memory: 32 GiB,
     PricePerHour: 1.676,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -5420,6 +5968,7 @@
     VCpu: 8,
     Memory: 32 GiB,
     PricePerHour: 1.61,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -5430,6 +5979,7 @@
     VCpu: 8,
     Memory: 32 GiB,
     PricePerHour: 0.805,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -5440,6 +5990,7 @@
     VCpu: 16,
     Memory: 64 GiB,
     PricePerHour: 4.68,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -5450,6 +6001,7 @@
     VCpu: 16,
     Memory: 64 GiB,
     PricePerHour: 3.352,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -5460,6 +6012,7 @@
     VCpu: 16,
     Memory: 64 GiB,
     PricePerHour: 3.22,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -5470,6 +6023,7 @@
     VCpu: 16,
     Memory: 64 GiB,
     PricePerHour: 4.5056,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -5480,6 +6034,7 @@
     VCpu: 16,
     Memory: 64 GiB,
     PricePerHour: 4.68,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -5490,6 +6045,7 @@
     VCpu: 16,
     Memory: 64 GiB,
     PricePerHour: 2.388,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -5500,6 +6056,7 @@
     VCpu: 16,
     Memory: 64 GiB,
     PricePerHour: 1.676,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -5510,6 +6067,7 @@
     VCpu: 16,
     Memory: 64 GiB,
     PricePerHour: 1.676,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -5520,6 +6078,7 @@
     VCpu: 16,
     Memory: 64 GiB,
     PricePerHour: 3.352,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -5530,6 +6089,7 @@
     VCpu: 16,
     Memory: 64 GiB,
     PricePerHour: 3.352,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -5540,6 +6100,7 @@
     VCpu: 16,
     Memory: 64 GiB,
     PricePerHour: 14.564,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -5550,6 +6111,7 @@
     VCpu: 16,
     Memory: 64 GiB,
     PricePerHour: 3.22,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -5560,6 +6122,7 @@
     VCpu: 16,
     Memory: 64 GiB,
     PricePerHour: 9.55,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -5570,6 +6133,7 @@
     VCpu: 16,
     Memory: 64 GiB,
     PricePerHour: 5.162,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -5580,6 +6144,7 @@
     VCpu: 16,
     Memory: 64 GiB,
     PricePerHour: 10.324,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -5590,6 +6155,7 @@
     VCpu: 16,
     Memory: 64 GiB,
     PricePerHour: 1.61,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -5600,6 +6166,7 @@
     VCpu: 16,
     Memory: 64 GiB,
     PricePerHour: 1.61,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -5610,6 +6177,7 @@
     VCpu: 16,
     Memory: 64 GiB,
     PricePerHour: 4.68,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -5620,6 +6188,7 @@
     VCpu: 16,
     Memory: 64 GiB,
     PricePerHour: 1.676,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -5630,6 +6199,7 @@
     VCpu: 32,
     Memory: 128 GiB,
     PricePerHour: 9.36,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -5640,6 +6210,7 @@
     VCpu: 32,
     Memory: 128 GiB,
     PricePerHour: 6.705,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -5650,6 +6221,7 @@
     VCpu: 32,
     Memory: 128 GiB,
     PricePerHour: 6.705,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -5660,6 +6232,7 @@
     VCpu: 32,
     Memory: 128 GiB,
     PricePerHour: 6.705,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -5670,6 +6243,7 @@
     VCpu: 32,
     Memory: 128 GiB,
     PricePerHour: 9.36,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -5680,6 +6254,7 @@
     VCpu: 32,
     Memory: 128 GiB,
     PricePerHour: 10.324,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -5690,6 +6265,7 @@
     VCpu: 32,
     Memory: 128 GiB,
     PricePerHour: 3.22,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -5700,6 +6276,7 @@
     VCpu: 32,
     Memory: 128 GiB,
     PricePerHour: 3.352,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -5710,6 +6287,7 @@
     VCpu: 32,
     Memory: 128 GiB,
     PricePerHour: 19.1,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -5720,6 +6298,7 @@
     VCpu: 32,
     Memory: 128 GiB,
     PricePerHour: 9.36,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -5730,6 +6309,7 @@
     VCpu: 32,
     Memory: 128 GiB,
     PricePerHour: 20.648,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -5740,6 +6320,7 @@
     VCpu: 32,
     Memory: 128 GiB,
     PricePerHour: 3.352,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -5750,6 +6331,7 @@
     VCpu: 32,
     Memory: 128 GiB,
     PricePerHour: 3.352,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -5760,6 +6342,7 @@
     VCpu: 32,
     Memory: 128 GiB,
     PricePerHour: 6.441,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -5770,6 +6353,7 @@
     VCpu: 32,
     Memory: 128 GiB,
     PricePerHour: 29.128,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -5780,6 +6364,7 @@
     VCpu: 2,
     Memory: 8 GiB,
     PricePerHour: 0.21,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -5790,6 +6375,7 @@
     VCpu: 2,
     Memory: 8 GiB,
     PricePerHour: 0.585,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -5800,6 +6386,7 @@
     VCpu: 2,
     Memory: 8 GiB,
     PricePerHour: 0.201,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -5810,6 +6397,7 @@
     VCpu: 2,
     Memory: 8 GiB,
     PricePerHour: 0.201,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -5820,6 +6408,7 @@
     VCpu: 2,
     Memory: 8 GiB,
     PricePerHour: 0.341,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -5830,6 +6419,7 @@
     VCpu: 2,
     Memory: 8 GiB,
     PricePerHour: 0.21,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -5840,6 +6430,7 @@
     VCpu: 2,
     Memory: 8 GiB,
     PricePerHour: 0.993,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -5850,6 +6441,7 @@
     VCpu: 2,
     Memory: 8 GiB,
     PricePerHour: 1.987,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -5860,6 +6452,7 @@
     VCpu: 2,
     Memory: 8 GiB,
     PricePerHour: 0.419,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -5870,6 +6463,7 @@
     VCpu: 2,
     Memory: 8 GiB,
     PricePerHour: 0.21,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -5880,6 +6474,7 @@
     VCpu: 2,
     Memory: 8 GiB,
     PricePerHour: 0.419,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -5890,6 +6485,7 @@
     VCpu: 2,
     Memory: 8 GiB,
     PricePerHour: 0.6144,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -5900,6 +6496,7 @@
     VCpu: 2,
     Memory: 8 GiB,
     PricePerHour: 0.585,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -5910,6 +6507,7 @@
     VCpu: 2,
     Memory: 8 GiB,
     PricePerHour: 0.403,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -5920,6 +6518,7 @@
     VCpu: 2,
     Memory: 8 GiB,
     PricePerHour: 0.403,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -5930,6 +6529,7 @@
     VCpu: 2,
     Memory: 8 GiB,
     PricePerHour: 0.585,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -5940,6 +6540,7 @@
     VCpu: 2,
     Memory: 8 GiB,
     PricePerHour: 0.419,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -5950,6 +6551,7 @@
     VCpu: 4,
     Memory: 16 GiB,
     PricePerHour: 1.17,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -5960,6 +6562,7 @@
     VCpu: 4,
     Memory: 16 GiB,
     PricePerHour: 0.805,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -5970,6 +6573,7 @@
     VCpu: 4,
     Memory: 16 GiB,
     PricePerHour: 0.838,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -5980,6 +6584,7 @@
     VCpu: 4,
     Memory: 16 GiB,
     PricePerHour: 0.419,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -5990,6 +6595,7 @@
     VCpu: 4,
     Memory: 16 GiB,
     PricePerHour: 0.419,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -6000,6 +6606,7 @@
     VCpu: 4,
     Memory: 16 GiB,
     PricePerHour: 2.388,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -6010,6 +6617,7 @@
     VCpu: 4,
     Memory: 16 GiB,
     PricePerHour: 3.641,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -6020,6 +6628,7 @@
     VCpu: 4,
     Memory: 16 GiB,
     PricePerHour: 0.838,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -6030,6 +6639,7 @@
     VCpu: 4,
     Memory: 16 GiB,
     PricePerHour: 2.581,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -6040,6 +6650,7 @@
     VCpu: 4,
     Memory: 16 GiB,
     PricePerHour: 0.419,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -6050,6 +6661,7 @@
     VCpu: 4,
     Memory: 16 GiB,
     PricePerHour: 0.598,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -6060,6 +6672,7 @@
     VCpu: 4,
     Memory: 16 GiB,
     PricePerHour: 0.403,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -6070,6 +6683,7 @@
     VCpu: 4,
     Memory: 16 GiB,
     PricePerHour: 1.291,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -6080,6 +6694,7 @@
     VCpu: 4,
     Memory: 16 GiB,
     PricePerHour: 0.805,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -6090,6 +6705,7 @@
     VCpu: 4,
     Memory: 16 GiB,
     PricePerHour: 0.403,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -6100,6 +6716,7 @@
     VCpu: 4,
     Memory: 16 GiB,
     PricePerHour: 0.838,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -6110,6 +6727,7 @@
     VCpu: 4,
     Memory: 16 GiB,
     PricePerHour: 1.1284,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -6120,6 +6738,7 @@
     VCpu: 4,
     Memory: 16 GiB,
     PricePerHour: 1.17,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -6130,6 +6749,7 @@
     VCpu: 4,
     Memory: 16 GiB,
     PricePerHour: 1.17,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -6140,6 +6760,7 @@
     VCpu: 2,
     Memory: 8 GiB,
     PricePerHour: 0.171,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -6150,6 +6771,7 @@
     VCpu: 2,
     Memory: 8 GiB,
     PricePerHour: 0.814,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -6160,6 +6782,7 @@
     VCpu: 2,
     Memory: 8 GiB,
     PricePerHour: 0.171,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -6170,6 +6793,7 @@
     VCpu: 2,
     Memory: 8 GiB,
     PricePerHour: 0.407,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -6180,6 +6804,7 @@
     VCpu: 2,
     Memory: 8 GiB,
     PricePerHour: 0.342,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -6190,6 +6815,7 @@
     VCpu: 2,
     Memory: 8 GiB,
     PricePerHour: 0.342,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -6200,6 +6826,7 @@
     VCpu: 2,
     Memory: 8 GiB,
     PricePerHour: 2.4584,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -6210,6 +6837,7 @@
     VCpu: 2,
     Memory: 8 GiB,
     PricePerHour: 1.2292,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -6220,6 +6848,7 @@
     VCpu: 2,
     Memory: 8 GiB,
     PricePerHour: 0.15,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -6230,6 +6859,7 @@
     VCpu: 2,
     Memory: 8 GiB,
     PricePerHour: 0.311,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -6240,6 +6870,7 @@
     VCpu: 2,
     Memory: 8 GiB,
     PricePerHour: 0.6,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -6250,6 +6881,7 @@
     VCpu: 2,
     Memory: 8 GiB,
     PricePerHour: 0.215,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -6260,6 +6892,7 @@
     VCpu: 2,
     Memory: 8 GiB,
     PricePerHour: 0.977,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -6270,6 +6903,7 @@
     VCpu: 2,
     Memory: 8 GiB,
     PricePerHour: 0.342,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -6280,6 +6914,7 @@
     VCpu: 2,
     Memory: 8 GiB,
     PricePerHour: 1.0344,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -6290,6 +6925,7 @@
     VCpu: 2,
     Memory: 8 GiB,
     PricePerHour: 0.876,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -6300,6 +6936,7 @@
     VCpu: 2,
     Memory: 8 GiB,
     PricePerHour: 0.881,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -6310,6 +6947,7 @@
     VCpu: 2,
     Memory: 8 GiB,
     PricePerHour: 0.342,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -6320,6 +6958,7 @@
     VCpu: 2,
     Memory: 8 GiB,
     PricePerHour: 0.5172,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -6330,6 +6969,7 @@
     VCpu: 2,
     Memory: 8 GiB,
     PricePerHour: 0.41,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -6340,6 +6980,7 @@
     VCpu: 2,
     Memory: 8 GiB,
     PricePerHour: 0.171,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -6350,6 +6991,7 @@
     VCpu: 2,
     Memory: 8 GiB,
     PricePerHour: 0.6,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -6360,6 +7002,7 @@
     VCpu: 2,
     Memory: 8 GiB,
     PricePerHour: 0.3,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -6370,6 +7013,7 @@
     VCpu: 2,
     Memory: 8 GiB,
     PricePerHour: 0.438,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -6380,6 +7024,7 @@
     VCpu: 2,
     Memory: 8 GiB,
     PricePerHour: 0.3,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -6390,6 +7035,7 @@
     VCpu: 2,
     Memory: 8 GiB,
     PricePerHour: 0.171,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -6400,6 +7046,7 @@
     VCpu: 2,
     Memory: 8 GiB,
     PricePerHour: 0.178,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -6410,6 +7057,7 @@
     VCpu: 2,
     Memory: 8 GiB,
     PricePerHour: 0.164,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -6420,6 +7068,7 @@
     VCpu: 2,
     Memory: 8 GiB,
     PricePerHour: 0.075,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -6430,6 +7079,7 @@
     VCpu: 2,
     Memory: 8 GiB,
     PricePerHour: 0.205,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -6440,6 +7090,7 @@
     VCpu: 2,
     Memory: 8 GiB,
     PricePerHour: 0.171,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -6450,6 +7101,7 @@
     VCpu: 2,
     Memory: 8 GiB,
     PricePerHour: 0.3,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -6460,6 +7112,7 @@
     VCpu: 2,
     Memory: 8 GiB,
     PricePerHour: 0.5544,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -6470,6 +7123,7 @@
     VCpu: 2,
     Memory: 8 GiB,
     PricePerHour: 0.6,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -6480,6 +7134,7 @@
     VCpu: 2,
     Memory: 8 GiB,
     PricePerHour: 0.342,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -6490,6 +7145,7 @@
     VCpu: 2,
     Memory: 8 GiB,
     PricePerHour: 0.356,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -6500,6 +7156,7 @@
     VCpu: 2,
     Memory: 8 GiB,
     PricePerHour: 0.082,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -6510,6 +7167,7 @@
     VCpu: 2,
     Memory: 8 GiB,
     PricePerHour: 0.342,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -6520,6 +7178,7 @@
     VCpu: 2,
     Memory: 8 GiB,
     PricePerHour: 1.954,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -6530,6 +7189,7 @@
     VCpu: 2,
     Memory: 8 GiB,
     PricePerHour: 0.171,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -6540,6 +7200,7 @@
     VCpu: 4,
     Memory: 16 GiB,
     PricePerHour: 0.342,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -6550,6 +7211,7 @@
     VCpu: 4,
     Memory: 16 GiB,
     PricePerHour: 0.342,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -6560,6 +7222,7 @@
     VCpu: 4,
     Memory: 16 GiB,
     PricePerHour: 0.684,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -6570,6 +7233,7 @@
     VCpu: 4,
     Memory: 16 GiB,
     PricePerHour: 1.628,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -6580,6 +7244,7 @@
     VCpu: 4,
     Memory: 16 GiB,
     PricePerHour: 0.814,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -6590,6 +7255,7 @@
     VCpu: 4,
     Memory: 16 GiB,
     PricePerHour: 0.684,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -6600,6 +7266,7 @@
     VCpu: 4,
     Memory: 16 GiB,
     PricePerHour: 3.328,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -6610,6 +7277,7 @@
     VCpu: 4,
     Memory: 16 GiB,
     PricePerHour: 2.448,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -6620,6 +7288,7 @@
     VCpu: 4,
     Memory: 16 GiB,
     PricePerHour: 0.54,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -6630,6 +7299,7 @@
     VCpu: 4,
     Memory: 16 GiB,
     PricePerHour: 0.3,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -6640,6 +7310,7 @@
     VCpu: 4,
     Memory: 16 GiB,
     PricePerHour: 0.7224,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -6650,6 +7321,7 @@
     VCpu: 4,
     Memory: 16 GiB,
     PricePerHour: 1.224,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -6660,6 +7332,7 @@
     VCpu: 4,
     Memory: 16 GiB,
     PricePerHour: 2.336,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -6670,6 +7343,7 @@
     VCpu: 4,
     Memory: 16 GiB,
     PricePerHour: 0.821,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -6680,6 +7354,7 @@
     VCpu: 4,
     Memory: 16 GiB,
     PricePerHour: 0.356,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -6690,6 +7365,7 @@
     VCpu: 4,
     Memory: 16 GiB,
     PricePerHour: 0.684,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -6700,6 +7376,7 @@
     VCpu: 4,
     Memory: 16 GiB,
     PricePerHour: 0.712,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -6710,6 +7387,7 @@
     VCpu: 4,
     Memory: 16 GiB,
     PricePerHour: 2.144,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -6720,6 +7398,7 @@
     VCpu: 4,
     Memory: 16 GiB,
     PricePerHour: 0.342,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -6730,6 +7409,7 @@
     VCpu: 4,
     Memory: 16 GiB,
     PricePerHour: 0.342,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -6740,6 +7420,7 @@
     VCpu: 4,
     Memory: 16 GiB,
     PricePerHour: 0.6,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -6750,6 +7431,7 @@
     VCpu: 4,
     Memory: 16 GiB,
     PricePerHour: 0.164,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -6760,6 +7442,7 @@
     VCpu: 4,
     Memory: 16 GiB,
     PricePerHour: 0.342,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -6770,6 +7453,7 @@
     VCpu: 4,
     Memory: 16 GiB,
     PricePerHour: 0.684,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -6780,6 +7464,7 @@
     VCpu: 4,
     Memory: 16 GiB,
     PricePerHour: 1.0124,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -6790,6 +7475,7 @@
     VCpu: 4,
     Memory: 16 GiB,
     PricePerHour: 0.684,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -6800,6 +7486,7 @@
     VCpu: 4,
     Memory: 16 GiB,
     PricePerHour: 0.15,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -6810,6 +7497,7 @@
     VCpu: 4,
     Memory: 16 GiB,
     PricePerHour: 0.41,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -6820,6 +7508,7 @@
     VCpu: 4,
     Memory: 16 GiB,
     PricePerHour: 4.386,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -6830,6 +7519,7 @@
     VCpu: 4,
     Memory: 16 GiB,
     PricePerHour: 2.8688,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -6840,6 +7530,7 @@
     VCpu: 4,
     Memory: 16 GiB,
     PricePerHour: 1.4448,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -6850,6 +7541,7 @@
     VCpu: 4,
     Memory: 16 GiB,
     PricePerHour: 0.684,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -6860,6 +7552,7 @@
     VCpu: 4,
     Memory: 16 GiB,
     PricePerHour: 0.6,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -6870,6 +7563,7 @@
     VCpu: 4,
     Memory: 16 GiB,
     PricePerHour: 0.328,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -6880,6 +7574,7 @@
     VCpu: 4,
     Memory: 16 GiB,
     PricePerHour: 1.2,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -6890,6 +7585,7 @@
     VCpu: 4,
     Memory: 16 GiB,
     PricePerHour: 3.0784,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -6900,6 +7596,7 @@
     VCpu: 4,
     Memory: 16 GiB,
     PricePerHour: 1.752,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -6910,6 +7607,7 @@
     VCpu: 4,
     Memory: 16 GiB,
     PricePerHour: 0.348,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -6920,6 +7618,7 @@
     VCpu: 4,
     Memory: 16 GiB,
     PricePerHour: 1.2,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -6930,6 +7629,7 @@
     VCpu: 4,
     Memory: 16 GiB,
     PricePerHour: 1.4344,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -6940,6 +7640,7 @@
     VCpu: 4,
     Memory: 16 GiB,
     PricePerHour: 1.032,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -6950,6 +7651,7 @@
     VCpu: 4,
     Memory: 16 GiB,
     PricePerHour: 1.2,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -6960,6 +7662,7 @@
     VCpu: 4,
     Memory: 16 GiB,
     PricePerHour: 0.342,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -6970,6 +7673,7 @@
     VCpu: 4,
     Memory: 16 GiB,
     PricePerHour: 0.6,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -6980,6 +7684,7 @@
     VCpu: 4,
     Memory: 16 GiB,
     PricePerHour: 0.876,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -6990,6 +7695,7 @@
     VCpu: 48,
     Memory: 192 GiB,
     PricePerHour: 3.648,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -7000,6 +7706,7 @@
     VCpu: 48,
     Memory: 192 GiB,
     PricePerHour: 7.632,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -7010,6 +7717,7 @@
     VCpu: 48,
     Memory: 192 GiB,
     PricePerHour: 7.296,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -7020,6 +7728,7 @@
     VCpu: 48,
     Memory: 192 GiB,
     PricePerHour: 3.816,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -7030,6 +7739,7 @@
     VCpu: 48,
     Memory: 192 GiB,
     PricePerHour: 7.296,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -7040,6 +7750,7 @@
     VCpu: 48,
     Memory: 192 GiB,
     PricePerHour: 3.648,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -7050,6 +7761,7 @@
     VCpu: 64,
     Memory: 256 GiB,
     PricePerHour: 10.176,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -7060,6 +7772,7 @@
     VCpu: 64,
     Memory: 256 GiB,
     PricePerHour: 5.088,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -7070,6 +7783,7 @@
     VCpu: 64,
     Memory: 256 GiB,
     PricePerHour: 9.728,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -7080,6 +7794,7 @@
     VCpu: 64,
     Memory: 256 GiB,
     PricePerHour: 4.864,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -7090,6 +7805,7 @@
     VCpu: 64,
     Memory: 256 GiB,
     PricePerHour: 9.728,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -7100,6 +7816,7 @@
     VCpu: 64,
     Memory: 256 GiB,
     PricePerHour: 4.864,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -7110,6 +7827,7 @@
     VCpu: 8,
     Memory: 32 GiB,
     PricePerHour: 0.608,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -7120,6 +7838,7 @@
     VCpu: 8,
     Memory: 32 GiB,
     PricePerHour: 0.636,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -7130,6 +7849,7 @@
     VCpu: 8,
     Memory: 32 GiB,
     PricePerHour: 0.608,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -7140,6 +7860,7 @@
     VCpu: 8,
     Memory: 32 GiB,
     PricePerHour: 1.216,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -7150,6 +7871,7 @@
     VCpu: 8,
     Memory: 32 GiB,
     PricePerHour: 1.216,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -7160,6 +7882,7 @@
     VCpu: 8,
     Memory: 32 GiB,
     PricePerHour: 1.272,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -7170,6 +7893,7 @@
     VCpu: 16,
     Memory: 64 GiB,
     PricePerHour: 2.544,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -7180,6 +7904,7 @@
     VCpu: 16,
     Memory: 64 GiB,
     PricePerHour: 1.216,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -7190,6 +7915,7 @@
     VCpu: 16,
     Memory: 64 GiB,
     PricePerHour: 1.272,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -7200,6 +7926,7 @@
     VCpu: 16,
     Memory: 64 GiB,
     PricePerHour: 1.216,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -7210,6 +7937,7 @@
     VCpu: 16,
     Memory: 64 GiB,
     PricePerHour: 2.432,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -7220,6 +7948,7 @@
     VCpu: 16,
     Memory: 64 GiB,
     PricePerHour: 2.432,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -7230,6 +7959,7 @@
     VCpu: 32,
     Memory: 128 GiB,
     PricePerHour: 4.864,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -7240,6 +7970,7 @@
     VCpu: 32,
     Memory: 128 GiB,
     PricePerHour: 5.088,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -7250,6 +7981,7 @@
     VCpu: 32,
     Memory: 128 GiB,
     PricePerHour: 2.432,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -7260,6 +7992,7 @@
     VCpu: 32,
     Memory: 128 GiB,
     PricePerHour: 2.432,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -7270,6 +8003,7 @@
     VCpu: 32,
     Memory: 128 GiB,
     PricePerHour: 4.864,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -7280,6 +8014,7 @@
     VCpu: 32,
     Memory: 128 GiB,
     PricePerHour: 2.544,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -7290,6 +8025,7 @@
     VCpu: 48,
     Memory: 192 GiB,
     PricePerHour: 4.48,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -7300,6 +8036,7 @@
     VCpu: 48,
     Memory: 192 GiB,
     PricePerHour: 8.96,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -7310,6 +8047,7 @@
     VCpu: 48,
     Memory: 192 GiB,
     PricePerHour: 12.528,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -7320,6 +8058,7 @@
     VCpu: 48,
     Memory: 192 GiB,
     PricePerHour: 8.96,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -7330,6 +8069,7 @@
     VCpu: 48,
     Memory: 192 GiB,
     PricePerHour: 4.48,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -7340,6 +8080,7 @@
     VCpu: 48,
     Memory: 192 GiB,
     PricePerHour: 4.48,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -7350,6 +8091,7 @@
     VCpu: 48,
     Memory: 192 GiB,
     PricePerHour: 12.528,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -7360,6 +8102,7 @@
     VCpu: 48,
     Memory: 192 GiB,
     PricePerHour: 8.96,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -7370,6 +8113,7 @@
     VCpu: 64,
     Memory: 256 GiB,
     PricePerHour: 11.947,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -7380,6 +8124,7 @@
     VCpu: 64,
     Memory: 256 GiB,
     PricePerHour: 11.947,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -7390,6 +8135,7 @@
     VCpu: 64,
     Memory: 256 GiB,
     PricePerHour: 5.973,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -7400,6 +8146,7 @@
     VCpu: 64,
     Memory: 256 GiB,
     PricePerHour: 16.704,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -7410,6 +8157,7 @@
     VCpu: 64,
     Memory: 256 GiB,
     PricePerHour: 5.973,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -7420,6 +8168,7 @@
     VCpu: 64,
     Memory: 256 GiB,
     PricePerHour: 16.704,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -7430,6 +8179,7 @@
     VCpu: 64,
     Memory: 256 GiB,
     PricePerHour: 5.973,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -7440,6 +8190,7 @@
     VCpu: 64,
     Memory: 256 GiB,
     PricePerHour: 11.947,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -7450,6 +8201,7 @@
     VCpu: 8,
     Memory: 32 GiB,
     PricePerHour: 0.747,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -7460,6 +8212,7 @@
     VCpu: 8,
     Memory: 32 GiB,
     PricePerHour: 0.747,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -7470,6 +8223,7 @@
     VCpu: 8,
     Memory: 32 GiB,
     PricePerHour: 2.088,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -7480,6 +8234,7 @@
     VCpu: 8,
     Memory: 32 GiB,
     PricePerHour: 2.088,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -7490,6 +8245,7 @@
     VCpu: 8,
     Memory: 32 GiB,
     PricePerHour: 0.747,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -7500,6 +8256,7 @@
     VCpu: 8,
     Memory: 32 GiB,
     PricePerHour: 1.493,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -7510,6 +8267,7 @@
     VCpu: 8,
     Memory: 32 GiB,
     PricePerHour: 1.493,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -7520,6 +8278,7 @@
     VCpu: 8,
     Memory: 32 GiB,
     PricePerHour: 1.493,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -7530,6 +8289,7 @@
     VCpu: 16,
     Memory: 64 GiB,
     PricePerHour: 2.987,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -7540,6 +8300,7 @@
     VCpu: 16,
     Memory: 64 GiB,
     PricePerHour: 1.493,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -7550,6 +8311,7 @@
     VCpu: 16,
     Memory: 64 GiB,
     PricePerHour: 2.987,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -7560,6 +8322,7 @@
     VCpu: 16,
     Memory: 64 GiB,
     PricePerHour: 1.493,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -7570,6 +8333,7 @@
     VCpu: 16,
     Memory: 64 GiB,
     PricePerHour: 1.493,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -7580,6 +8344,7 @@
     VCpu: 16,
     Memory: 64 GiB,
     PricePerHour: 4.176,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -7590,6 +8355,7 @@
     VCpu: 16,
     Memory: 64 GiB,
     PricePerHour: 4.176,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -7600,6 +8366,7 @@
     VCpu: 16,
     Memory: 64 GiB,
     PricePerHour: 2.987,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -7610,6 +8377,7 @@
     VCpu: 32,
     Memory: 128 GiB,
     PricePerHour: 2.987,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -7620,6 +8388,7 @@
     VCpu: 32,
     Memory: 128 GiB,
     PricePerHour: 8.352,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -7630,6 +8399,7 @@
     VCpu: 32,
     Memory: 128 GiB,
     PricePerHour: 5.973,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -7640,6 +8410,7 @@
     VCpu: 32,
     Memory: 128 GiB,
     PricePerHour: 2.987,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -7650,6 +8421,7 @@
     VCpu: 32,
     Memory: 128 GiB,
     PricePerHour: 2.987,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -7660,6 +8432,7 @@
     VCpu: 32,
     Memory: 128 GiB,
     PricePerHour: 5.973,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -7670,6 +8443,7 @@
     VCpu: 32,
     Memory: 128 GiB,
     PricePerHour: 8.352,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -7680,6 +8454,7 @@
     VCpu: 32,
     Memory: 128 GiB,
     PricePerHour: 5.973,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -7690,6 +8465,7 @@
     VCpu: 2,
     Memory: 8 GiB,
     PricePerHour: 0.373,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -7700,6 +8476,7 @@
     VCpu: 2,
     Memory: 8 GiB,
     PricePerHour: 0.187,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -7710,6 +8487,7 @@
     VCpu: 2,
     Memory: 8 GiB,
     PricePerHour: 0.373,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -7720,6 +8498,7 @@
     VCpu: 2,
     Memory: 8 GiB,
     PricePerHour: 0.373,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -7730,6 +8509,7 @@
     VCpu: 2,
     Memory: 8 GiB,
     PricePerHour: 0.522,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -7740,6 +8520,7 @@
     VCpu: 2,
     Memory: 8 GiB,
     PricePerHour: 0.522,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -7750,6 +8531,7 @@
     VCpu: 2,
     Memory: 8 GiB,
     PricePerHour: 0.187,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -7760,6 +8542,7 @@
     VCpu: 2,
     Memory: 8 GiB,
     PricePerHour: 0.187,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -7770,6 +8553,7 @@
     VCpu: 4,
     Memory: 16 GiB,
     PricePerHour: 0.747,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -7780,6 +8564,7 @@
     VCpu: 4,
     Memory: 16 GiB,
     PricePerHour: 1.044,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -7790,6 +8575,7 @@
     VCpu: 4,
     Memory: 16 GiB,
     PricePerHour: 0.373,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -7800,6 +8586,7 @@
     VCpu: 4,
     Memory: 16 GiB,
     PricePerHour: 0.373,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -7810,6 +8597,7 @@
     VCpu: 4,
     Memory: 16 GiB,
     PricePerHour: 0.373,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -7820,6 +8608,7 @@
     VCpu: 4,
     Memory: 16 GiB,
     PricePerHour: 1.044,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -7830,6 +8619,7 @@
     VCpu: 4,
     Memory: 16 GiB,
     PricePerHour: 0.747,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -7840,6 +8630,7 @@
     VCpu: 4,
     Memory: 16 GiB,
     PricePerHour: 0.747,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -7850,6 +8641,7 @@
     VCpu: 2,
     Memory: 8 GiB,
     PricePerHour: 0.152,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -7860,6 +8652,7 @@
     VCpu: 2,
     Memory: 8 GiB,
     PricePerHour: 0.304,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -7870,6 +8663,7 @@
     VCpu: 2,
     Memory: 8 GiB,
     PricePerHour: 0.318,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -7880,6 +8674,7 @@
     VCpu: 2,
     Memory: 8 GiB,
     PricePerHour: 0.304,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -7890,6 +8685,7 @@
     VCpu: 2,
     Memory: 8 GiB,
     PricePerHour: 0.152,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -7900,6 +8696,7 @@
     VCpu: 2,
     Memory: 8 GiB,
     PricePerHour: 0.159,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -7910,6 +8707,7 @@
     VCpu: 4,
     Memory: 16 GiB,
     PricePerHour: 0.636,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -7920,6 +8718,7 @@
     VCpu: 4,
     Memory: 16 GiB,
     PricePerHour: 0.304,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -7930,6 +8729,7 @@
     VCpu: 4,
     Memory: 16 GiB,
     PricePerHour: 0.318,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -7940,6 +8740,7 @@
     VCpu: 4,
     Memory: 16 GiB,
     PricePerHour: 0.608,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -7950,6 +8751,7 @@
     VCpu: 4,
     Memory: 16 GiB,
     PricePerHour: 0.608,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -7960,6 +8762,7 @@
     VCpu: 4,
     Memory: 16 GiB,
     PricePerHour: 0.304,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -7970,6 +8773,7 @@
     VCpu: 48,
     Memory: 192 GiB,
     PricePerHour: 7.2,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -7980,6 +8784,7 @@
     VCpu: 48,
     Memory: 192 GiB,
     PricePerHour: 4.104,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -7990,6 +8795,7 @@
     VCpu: 48,
     Memory: 192 GiB,
     PricePerHour: 8.208,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -8000,6 +8806,7 @@
     VCpu: 48,
     Memory: 192 GiB,
     PricePerHour: 39.941,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -8010,6 +8817,7 @@
     VCpu: 48,
     Memory: 192 GiB,
     PricePerHour: 8.208,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -8020,6 +8828,7 @@
     VCpu: 48,
     Memory: 192 GiB,
     PricePerHour: 4.272,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -8030,6 +8839,7 @@
     VCpu: 48,
     Memory: 192 GiB,
     PricePerHour: 7.2,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -8040,6 +8850,7 @@
     VCpu: 48,
     Memory: 192 GiB,
     PricePerHour: 39.941,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -8050,6 +8861,7 @@
     VCpu: 48,
     Memory: 192 GiB,
     PricePerHour: 4.272,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -8060,6 +8872,7 @@
     VCpu: 48,
     Memory: 192 GiB,
     PricePerHour: 28.032,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -8070,6 +8883,7 @@
     VCpu: 48,
     Memory: 192 GiB,
     PricePerHour: 14.4,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -8080,6 +8894,7 @@
     VCpu: 48,
     Memory: 192 GiB,
     PricePerHour: 4.104,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -8090,6 +8905,7 @@
     VCpu: 48,
     Memory: 192 GiB,
     PricePerHour: 4.272,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -8100,6 +8916,7 @@
     VCpu: 48,
     Memory: 192 GiB,
     PricePerHour: 4.104,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -8110,6 +8927,7 @@
     VCpu: 48,
     Memory: 192 GiB,
     PricePerHour: 7.2,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -8120,6 +8938,7 @@
     VCpu: 48,
     Memory: 192 GiB,
     PricePerHour: 14.4,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -8130,6 +8949,7 @@
     VCpu: 48,
     Memory: 192 GiB,
     PricePerHour: 14.4,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -8140,6 +8960,7 @@
     VCpu: 48,
     Memory: 192 GiB,
     PricePerHour: 8.544,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -8150,6 +8971,7 @@
     VCpu: 48,
     Memory: 192 GiB,
     PricePerHour: 28.032,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -8160,6 +8982,7 @@
     VCpu: 48,
     Memory: 192 GiB,
     PricePerHour: 8.208,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -8170,6 +8993,7 @@
     VCpu: 48,
     Memory: 192 GiB,
     PricePerHour: 4.104,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -8180,6 +9004,7 @@
     VCpu: 48,
     Memory: 192 GiB,
     PricePerHour: 8.544,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -8190,6 +9015,7 @@
     VCpu: 48,
     Memory: 192 GiB,
     PricePerHour: 8.208,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -8200,6 +9026,7 @@
     VCpu: 48,
     Memory: 192 GiB,
     PricePerHour: 7.2,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -8210,6 +9037,7 @@
     VCpu: 48,
     Memory: 192 GiB,
     PricePerHour: 8.544,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -8220,6 +9048,7 @@
     VCpu: 64,
     Memory: 256 GiB,
     PricePerHour: 5.696,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -8230,6 +9059,7 @@
     VCpu: 64,
     Memory: 256 GiB,
     PricePerHour: 10.944,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -8240,6 +9070,7 @@
     VCpu: 64,
     Memory: 256 GiB,
     PricePerHour: 5.696,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -8250,6 +9081,7 @@
     VCpu: 64,
     Memory: 256 GiB,
     PricePerHour: 53.254,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -8260,6 +9092,7 @@
     VCpu: 64,
     Memory: 256 GiB,
     PricePerHour: 37.376,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -8270,6 +9103,7 @@
     VCpu: 64,
     Memory: 256 GiB,
     PricePerHour: 10.944,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -8280,6 +9114,7 @@
     VCpu: 64,
     Memory: 256 GiB,
     PricePerHour: 53.254,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -8290,6 +9125,7 @@
     VCpu: 64,
     Memory: 256 GiB,
     PricePerHour: 5.472,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -8300,6 +9136,7 @@
     VCpu: 64,
     Memory: 256 GiB,
     PricePerHour: 19.2,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -8310,6 +9147,7 @@
     VCpu: 64,
     Memory: 256 GiB,
     PricePerHour: 5.472,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -8320,6 +9158,7 @@
     VCpu: 64,
     Memory: 256 GiB,
     PricePerHour: 19.2,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -8330,6 +9169,7 @@
     VCpu: 64,
     Memory: 256 GiB,
     PricePerHour: 9.6,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -8340,6 +9180,7 @@
     VCpu: 64,
     Memory: 256 GiB,
     PricePerHour: 10.944,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -8350,6 +9191,7 @@
     VCpu: 64,
     Memory: 256 GiB,
     PricePerHour: 11.392,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -8360,6 +9202,7 @@
     VCpu: 64,
     Memory: 256 GiB,
     PricePerHour: 5.472,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -8370,6 +9213,7 @@
     VCpu: 64,
     Memory: 256 GiB,
     PricePerHour: 37.376,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -8380,6 +9224,7 @@
     VCpu: 64,
     Memory: 256 GiB,
     PricePerHour: 9.6,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -8390,6 +9235,7 @@
     VCpu: 64,
     Memory: 256 GiB,
     PricePerHour: 10.944,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -8400,6 +9246,7 @@
     VCpu: 64,
     Memory: 256 GiB,
     PricePerHour: 11.392,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -8410,6 +9257,7 @@
     VCpu: 64,
     Memory: 256 GiB,
     PricePerHour: 19.2,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -8420,6 +9268,7 @@
     VCpu: 64,
     Memory: 256 GiB,
     PricePerHour: 5.696,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -8430,6 +9279,7 @@
     VCpu: 64,
     Memory: 256 GiB,
     PricePerHour: 9.6,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -8440,6 +9290,7 @@
     VCpu: 64,
     Memory: 256 GiB,
     PricePerHour: 9.6,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -8450,6 +9301,7 @@
     VCpu: 64,
     Memory: 256 GiB,
     PricePerHour: 5.472,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -8460,6 +9312,7 @@
     VCpu: 64,
     Memory: 256 GiB,
     PricePerHour: 11.392,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -8470,6 +9323,7 @@
     VCpu: 96,
     Memory: 384 GiB,
     PricePerHour: 16.416,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -8480,6 +9334,7 @@
     VCpu: 96,
     Memory: 384 GiB,
     PricePerHour: 56.064,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -8490,6 +9345,7 @@
     VCpu: 96,
     Memory: 384 GiB,
     PricePerHour: 16.416,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -8500,6 +9356,7 @@
     VCpu: 96,
     Memory: 384 GiB,
     PricePerHour: 28.8,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -8510,6 +9367,7 @@
     VCpu: 96,
     Memory: 384 GiB,
     PricePerHour: 8.208,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -8520,6 +9378,7 @@
     VCpu: 96,
     Memory: 384 GiB,
     PricePerHour: 56.064,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -8530,6 +9389,7 @@
     VCpu: 96,
     Memory: 384 GiB,
     PricePerHour: 14.4,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -8540,6 +9400,7 @@
     VCpu: 96,
     Memory: 384 GiB,
     PricePerHour: 8.208,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -8550,6 +9411,7 @@
     VCpu: 96,
     Memory: 384 GiB,
     PricePerHour: 17.088,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -8560,6 +9422,7 @@
     VCpu: 96,
     Memory: 384 GiB,
     PricePerHour: 16.416,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -8570,6 +9433,7 @@
     VCpu: 96,
     Memory: 384 GiB,
     PricePerHour: 14.4,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -8580,6 +9444,7 @@
     VCpu: 96,
     Memory: 384 GiB,
     PricePerHour: 16.416,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -8590,6 +9455,7 @@
     VCpu: 96,
     Memory: 384 GiB,
     PricePerHour: 17.088,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -8600,6 +9466,7 @@
     VCpu: 96,
     Memory: 384 GiB,
     PricePerHour: 14.4,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -8610,6 +9477,7 @@
     VCpu: 96,
     Memory: 384 GiB,
     PricePerHour: 28.8,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -8620,6 +9488,7 @@
     VCpu: 96,
     Memory: 384 GiB,
     PricePerHour: 17.088,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -8630,6 +9499,7 @@
     VCpu: 96,
     Memory: 384 GiB,
     PricePerHour: 8.544,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -8640,6 +9510,7 @@
     VCpu: 96,
     Memory: 384 GiB,
     PricePerHour: 8.544,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -8650,6 +9521,7 @@
     VCpu: 96,
     Memory: 384 GiB,
     PricePerHour: 8.544,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -8660,6 +9532,7 @@
     VCpu: 96,
     Memory: 384 GiB,
     PricePerHour: 28.8,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -8670,6 +9543,7 @@
     VCpu: 96,
     Memory: 384 GiB,
     PricePerHour: 79.882,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -8680,6 +9554,7 @@
     VCpu: 96,
     Memory: 384 GiB,
     PricePerHour: 14.4,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -8690,6 +9565,7 @@
     VCpu: 96,
     Memory: 384 GiB,
     PricePerHour: 8.208,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -8700,6 +9576,7 @@
     VCpu: 96,
     Memory: 384 GiB,
     PricePerHour: 8.208,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -8710,6 +9587,7 @@
     VCpu: 96,
     Memory: 384 GiB,
     PricePerHour: 79.882,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -8720,6 +9598,7 @@
     VCpu: 8,
     Memory: 32 GiB,
     PricePerHour: 2.548,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -8730,6 +9609,7 @@
     VCpu: 8,
     Memory: 32 GiB,
     PricePerHour: 0.712,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -8740,6 +9620,7 @@
     VCpu: 8,
     Memory: 32 GiB,
     PricePerHour: 1.424,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -8750,6 +9631,7 @@
     VCpu: 8,
     Memory: 32 GiB,
     PricePerHour: 4.672,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -8760,6 +9642,7 @@
     VCpu: 8,
     Memory: 32 GiB,
     PricePerHour: 1.102,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -8770,6 +9653,7 @@
     VCpu: 8,
     Memory: 32 GiB,
     PricePerHour: 0.684,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -8780,6 +9664,7 @@
     VCpu: 8,
     Memory: 32 GiB,
     PricePerHour: 2.4,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -8790,6 +9675,7 @@
     VCpu: 8,
     Memory: 32 GiB,
     PricePerHour: 2.204,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -8800,6 +9686,7 @@
     VCpu: 8,
     Memory: 32 GiB,
     PricePerHour: 1.424,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -8810,6 +9697,7 @@
     VCpu: 8,
     Memory: 32 GiB,
     PricePerHour: 1.2,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -8820,6 +9708,7 @@
     VCpu: 8,
     Memory: 32 GiB,
     PricePerHour: 5.096,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -8830,6 +9719,7 @@
     VCpu: 8,
     Memory: 32 GiB,
     PricePerHour: 0.684,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -8840,6 +9730,7 @@
     VCpu: 8,
     Memory: 32 GiB,
     PricePerHour: 1.368,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -8850,6 +9741,7 @@
     VCpu: 8,
     Memory: 32 GiB,
     PricePerHour: 1.368,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -8860,6 +9752,7 @@
     VCpu: 8,
     Memory: 32 GiB,
     PricePerHour: 2.548,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -8870,6 +9763,7 @@
     VCpu: 8,
     Memory: 32 GiB,
     PricePerHour: 0.684,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -8880,6 +9774,7 @@
     VCpu: 8,
     Memory: 32 GiB,
     PricePerHour: 1.368,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -8890,6 +9785,7 @@
     VCpu: 8,
     Memory: 32 GiB,
     PricePerHour: 0.684,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -8900,6 +9796,7 @@
     VCpu: 8,
     Memory: 32 GiB,
     PricePerHour: 2.0688,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -8910,6 +9807,7 @@
     VCpu: 8,
     Memory: 32 GiB,
     PricePerHour: 1.368,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -8920,6 +9818,7 @@
     VCpu: 8,
     Memory: 32 GiB,
     PricePerHour: 1.424,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -8930,6 +9829,7 @@
     VCpu: 8,
     Memory: 32 GiB,
     PricePerHour: 2.4,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -8940,6 +9840,7 @@
     VCpu: 8,
     Memory: 32 GiB,
     PricePerHour: 1.2,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -8950,6 +9851,7 @@
     VCpu: 8,
     Memory: 32 GiB,
     PricePerHour: 0.712,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -8960,6 +9862,7 @@
     VCpu: 8,
     Memory: 32 GiB,
     PricePerHour: 1.2,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -8970,6 +9873,7 @@
     VCpu: 8,
     Memory: 32 GiB,
     PricePerHour: 2.4,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -8980,6 +9884,7 @@
     VCpu: 8,
     Memory: 32 GiB,
     PricePerHour: 0.712,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -8990,6 +9895,7 @@
     VCpu: 8,
     Memory: 32 GiB,
     PricePerHour: 0.684,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -9000,6 +9906,7 @@
     VCpu: 8,
     Memory: 32 GiB,
     PricePerHour: 0.684,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -9010,6 +9917,7 @@
     VCpu: 8,
     Memory: 32 GiB,
     PricePerHour: 1.424,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -9020,6 +9928,7 @@
     VCpu: 8,
     Memory: 32 GiB,
     PricePerHour: 0.712,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -9030,6 +9939,7 @@
     VCpu: 8,
     Memory: 32 GiB,
     PricePerHour: 1.102,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -9040,6 +9950,7 @@
     VCpu: 8,
     Memory: 32 GiB,
     PricePerHour: 1.424,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -9050,6 +9961,7 @@
     VCpu: 8,
     Memory: 32 GiB,
     PricePerHour: 4.672,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -9060,6 +9972,7 @@
     VCpu: 8,
     Memory: 32 GiB,
     PricePerHour: 1.368,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -9070,6 +9983,7 @@
     VCpu: 8,
     Memory: 32 GiB,
     PricePerHour: 6.657,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -9080,6 +9994,7 @@
     VCpu: 8,
     Memory: 32 GiB,
     PricePerHour: 6.657,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -9090,6 +10005,7 @@
     VCpu: 8,
     Memory: 32 GiB,
     PricePerHour: 1.368,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -9100,6 +10016,7 @@
     VCpu: 8,
     Memory: 32 GiB,
     PricePerHour: 5.096,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -9110,6 +10027,7 @@
     VCpu: 8,
     Memory: 32 GiB,
     PricePerHour: 1.2,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -9120,6 +10038,7 @@
     VCpu: 8,
     Memory: 32 GiB,
     PricePerHour: 0.712,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -9130,6 +10049,7 @@
     VCpu: 128,
     Memory: 512 GiB,
     PricePerHour: 19.2,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -9140,6 +10060,7 @@
     VCpu: 128,
     Memory: 512 GiB,
     PricePerHour: 19.2,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -9150,6 +10071,7 @@
     VCpu: 128,
     Memory: 512 GiB,
     PricePerHour: 10.944,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -9160,6 +10082,7 @@
     VCpu: 128,
     Memory: 512 GiB,
     PricePerHour: 10.944,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -9170,6 +10093,7 @@
     VCpu: 128,
     Memory: 512 GiB,
     PricePerHour: 19.2,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -9180,6 +10104,7 @@
     VCpu: 128,
     Memory: 512 GiB,
     PricePerHour: 74.752,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -9190,6 +10115,7 @@
     VCpu: 128,
     Memory: 512 GiB,
     PricePerHour: 21.888,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -9200,6 +10126,7 @@
     VCpu: 128,
     Memory: 512 GiB,
     PricePerHour: 74.752,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -9210,6 +10137,7 @@
     VCpu: 128,
     Memory: 512 GiB,
     PricePerHour: 106.51,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -9220,6 +10148,7 @@
     VCpu: 128,
     Memory: 512 GiB,
     PricePerHour: 38.4,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -9230,6 +10159,7 @@
     VCpu: 128,
     Memory: 512 GiB,
     PricePerHour: 38.4,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -9240,6 +10170,7 @@
     VCpu: 128,
     Memory: 512 GiB,
     PricePerHour: 10.944,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -9250,6 +10181,7 @@
     VCpu: 128,
     Memory: 512 GiB,
     PricePerHour: 21.888,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -9260,6 +10192,7 @@
     VCpu: 128,
     Memory: 512 GiB,
     PricePerHour: 11.392,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -9270,6 +10203,7 @@
     VCpu: 128,
     Memory: 512 GiB,
     PricePerHour: 10.944,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -9280,6 +10214,7 @@
     VCpu: 128,
     Memory: 512 GiB,
     PricePerHour: 21.888,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -9290,6 +10225,7 @@
     VCpu: 128,
     Memory: 512 GiB,
     PricePerHour: 106.51,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -9300,6 +10236,7 @@
     VCpu: 128,
     Memory: 512 GiB,
     PricePerHour: 21.888,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -9310,6 +10247,7 @@
     VCpu: 128,
     Memory: 512 GiB,
     PricePerHour: 11.392,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -9320,6 +10258,7 @@
     VCpu: 128,
     Memory: 512 GiB,
     PricePerHour: 19.2,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -9330,6 +10269,7 @@
     VCpu: 128,
     Memory: 512 GiB,
     PricePerHour: 22.784,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -9340,6 +10280,7 @@
     VCpu: 128,
     Memory: 512 GiB,
     PricePerHour: 22.784,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -9350,6 +10291,7 @@
     VCpu: 128,
     Memory: 512 GiB,
     PricePerHour: 11.392,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -9360,6 +10302,7 @@
     VCpu: 128,
     Memory: 512 GiB,
     PricePerHour: 38.4,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -9370,6 +10313,7 @@
     VCpu: 128,
     Memory: 512 GiB,
     PricePerHour: 22.784,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -9380,6 +10324,7 @@
     VCpu: 128,
     Memory: 512 GiB,
     PricePerHour: 10.944,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -9390,6 +10335,7 @@
     VCpu: 128,
     Memory: 512 GiB,
     PricePerHour: 21.888,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -9400,6 +10346,7 @@
     VCpu: 16,
     Memory: 64 GiB,
     PricePerHour: 1.368,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -9410,6 +10357,7 @@
     VCpu: 16,
     Memory: 64 GiB,
     PricePerHour: 1.368,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -9420,6 +10368,7 @@
     VCpu: 16,
     Memory: 64 GiB,
     PricePerHour: 13.314,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -9430,6 +10379,7 @@
     VCpu: 16,
     Memory: 64 GiB,
     PricePerHour: 1.368,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -9440,6 +10390,7 @@
     VCpu: 16,
     Memory: 64 GiB,
     PricePerHour: 2.736,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -9450,6 +10401,7 @@
     VCpu: 16,
     Memory: 64 GiB,
     PricePerHour: 4.8,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -9460,6 +10412,7 @@
     VCpu: 16,
     Memory: 64 GiB,
     PricePerHour: 2.4,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -9470,6 +10423,7 @@
     VCpu: 16,
     Memory: 64 GiB,
     PricePerHour: 2.4,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -9480,6 +10434,7 @@
     VCpu: 16,
     Memory: 64 GiB,
     PricePerHour: 2.848,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -9490,6 +10445,7 @@
     VCpu: 16,
     Memory: 64 GiB,
     PricePerHour: 2.247,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -9500,6 +10456,7 @@
     VCpu: 16,
     Memory: 64 GiB,
     PricePerHour: 5.047,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -9510,6 +10467,7 @@
     VCpu: 16,
     Memory: 64 GiB,
     PricePerHour: 4.494,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -9520,6 +10478,7 @@
     VCpu: 16,
     Memory: 64 GiB,
     PricePerHour: 1.368,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -9530,6 +10489,7 @@
     VCpu: 16,
     Memory: 64 GiB,
     PricePerHour: 13.314,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -9540,6 +10500,7 @@
     VCpu: 16,
     Memory: 64 GiB,
     PricePerHour: 4.2236,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -9550,6 +10511,7 @@
     VCpu: 16,
     Memory: 64 GiB,
     PricePerHour: 1.424,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -9560,6 +10522,7 @@
     VCpu: 16,
     Memory: 64 GiB,
     PricePerHour: 9.345,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -9570,6 +10533,7 @@
     VCpu: 16,
     Memory: 64 GiB,
     PricePerHour: 2.4,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -9580,6 +10544,7 @@
     VCpu: 16,
     Memory: 64 GiB,
     PricePerHour: 4.8,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -9590,6 +10555,7 @@
     VCpu: 16,
     Memory: 64 GiB,
     PricePerHour: 2.247,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -9600,6 +10566,7 @@
     VCpu: 16,
     Memory: 64 GiB,
     PricePerHour: 2.848,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -9610,6 +10577,7 @@
     VCpu: 16,
     Memory: 64 GiB,
     PricePerHour: 10.094,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -9620,6 +10588,7 @@
     VCpu: 16,
     Memory: 64 GiB,
     PricePerHour: 10.094,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -9630,6 +10599,7 @@
     VCpu: 16,
     Memory: 64 GiB,
     PricePerHour: 1.368,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -9640,6 +10610,7 @@
     VCpu: 16,
     Memory: 64 GiB,
     PricePerHour: 2.736,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -9650,6 +10621,7 @@
     VCpu: 16,
     Memory: 64 GiB,
     PricePerHour: 1.424,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -9660,6 +10632,7 @@
     VCpu: 16,
     Memory: 64 GiB,
     PricePerHour: 2.736,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -9670,6 +10643,7 @@
     VCpu: 16,
     Memory: 64 GiB,
     PricePerHour: 2.848,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -9680,6 +10654,7 @@
     VCpu: 16,
     Memory: 64 GiB,
     PricePerHour: 5.047,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -9690,6 +10665,7 @@
     VCpu: 16,
     Memory: 64 GiB,
     PricePerHour: 1.424,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -9700,6 +10676,7 @@
     VCpu: 16,
     Memory: 64 GiB,
     PricePerHour: 1.424,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -9710,6 +10687,7 @@
     VCpu: 16,
     Memory: 64 GiB,
     PricePerHour: 1.424,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -9720,6 +10698,7 @@
     VCpu: 16,
     Memory: 64 GiB,
     PricePerHour: 1.368,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -9730,6 +10709,7 @@
     VCpu: 16,
     Memory: 64 GiB,
     PricePerHour: 4.8,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -9740,6 +10720,7 @@
     VCpu: 16,
     Memory: 64 GiB,
     PricePerHour: 2.736,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -9750,6 +10731,7 @@
     VCpu: 16,
     Memory: 64 GiB,
     PricePerHour: 2.4,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -9760,6 +10742,7 @@
     VCpu: 16,
     Memory: 64 GiB,
     PricePerHour: 2.848,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -9770,6 +10753,7 @@
     VCpu: 16,
     Memory: 64 GiB,
     PricePerHour: 2.736,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -9780,6 +10764,7 @@
     VCpu: 16,
     Memory: 64 GiB,
     PricePerHour: 9.345,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -9790,6 +10775,7 @@
     VCpu: 16,
     Memory: 64 GiB,
     PricePerHour: 2.848,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -9800,6 +10786,7 @@
     VCpu: 16,
     Memory: 64 GiB,
     PricePerHour: 2.736,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -9810,6 +10797,7 @@
     VCpu: 32,
     Memory: 128 GiB,
     PricePerHour: 9.6,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -9820,6 +10808,7 @@
     VCpu: 32,
     Memory: 128 GiB,
     PricePerHour: 18.688,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -9830,6 +10819,7 @@
     VCpu: 32,
     Memory: 128 GiB,
     PricePerHour: 5.696,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -9840,6 +10830,7 @@
     VCpu: 32,
     Memory: 128 GiB,
     PricePerHour: 2.736,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -9850,6 +10841,7 @@
     VCpu: 32,
     Memory: 128 GiB,
     PricePerHour: 9.792,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -9860,6 +10852,7 @@
     VCpu: 32,
     Memory: 128 GiB,
     PricePerHour: 19.584,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -9870,6 +10863,7 @@
     VCpu: 32,
     Memory: 128 GiB,
     PricePerHour: 26.627,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -9880,6 +10874,7 @@
     VCpu: 32,
     Memory: 128 GiB,
     PricePerHour: 2.736,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -9890,6 +10885,7 @@
     VCpu: 32,
     Memory: 128 GiB,
     PricePerHour: 5.472,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -9900,6 +10896,7 @@
     VCpu: 32,
     Memory: 128 GiB,
     PricePerHour: 5.696,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -9910,6 +10907,7 @@
     VCpu: 32,
     Memory: 128 GiB,
     PricePerHour: 18.688,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -9920,6 +10918,7 @@
     VCpu: 32,
     Memory: 128 GiB,
     PricePerHour: 2.848,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -9930,6 +10929,7 @@
     VCpu: 32,
     Memory: 128 GiB,
     PricePerHour: 9.792,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -9940,6 +10940,7 @@
     VCpu: 32,
     Memory: 128 GiB,
     PricePerHour: 5.472,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -9950,6 +10951,7 @@
     VCpu: 32,
     Memory: 128 GiB,
     PricePerHour: 4.8,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -9960,6 +10962,7 @@
     VCpu: 32,
     Memory: 128 GiB,
     PricePerHour: 19.584,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -9970,6 +10973,7 @@
     VCpu: 32,
     Memory: 128 GiB,
     PricePerHour: 5.472,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -9980,6 +10984,7 @@
     VCpu: 32,
     Memory: 128 GiB,
     PricePerHour: 2.848,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -9990,6 +10995,7 @@
     VCpu: 32,
     Memory: 128 GiB,
     PricePerHour: 2.736,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -10000,6 +11006,7 @@
     VCpu: 32,
     Memory: 128 GiB,
     PricePerHour: 4.8,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   },
@@ -10010,6 +11017,7 @@
     VCpu: 32,
     Memory: 128 GiB,
     PricePerHour: 4.8,
+    Cloud: aws,
     Category: Database,
     SubCategory: Relational
   }

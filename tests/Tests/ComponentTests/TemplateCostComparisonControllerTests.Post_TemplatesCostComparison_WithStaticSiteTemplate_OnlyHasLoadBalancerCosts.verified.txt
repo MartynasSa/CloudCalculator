@@ -5,6 +5,7 @@
   CloudCosts: {
     small: [
       {
+        CloudProvider: aws,
         TotalMonthlyPrice: 5.840,
         CostDetails: [
           {
@@ -15,22 +16,25 @@
         ]
       },
       {
-        CloudProvider: azure
+        CloudProvider: azure,
+        TotalMonthlyPrice: 0.0,
+        CostDetails: null
       },
       {
         CloudProvider: gcp,
-        TotalMonthlyPrice: 7.30,
+        TotalMonthlyPrice: 5.840,
         CostDetails: [
           {
-            Cost: 7.30,
+            Cost: 5.840,
             ResourceSubCategory: LoadBalancer,
-            ResourceDetails: {"Name":"Compute Engine","PricePerMonth":7.30,"Cloud":2,"Category":4,"SubCategory":401}
+            ResourceDetails: {"Name":"Compute Engine","PricePerMonth":5.840,"Cloud":2,"Category":4,"SubCategory":401}
           }
         ]
       }
     ],
     medium: [
       {
+        CloudProvider: aws,
         TotalMonthlyPrice: 5.840,
         CostDetails: [
           {
@@ -41,22 +45,25 @@
         ]
       },
       {
-        CloudProvider: azure
+        CloudProvider: azure,
+        TotalMonthlyPrice: 0.0,
+        CostDetails: null
       },
       {
         CloudProvider: gcp,
-        TotalMonthlyPrice: 7.30,
+        TotalMonthlyPrice: 5.840,
         CostDetails: [
           {
-            Cost: 7.30,
+            Cost: 5.840,
             ResourceSubCategory: LoadBalancer,
-            ResourceDetails: {"Name":"Compute Engine","PricePerMonth":7.30,"Cloud":2,"Category":4,"SubCategory":401}
+            ResourceDetails: {"Name":"Compute Engine","PricePerMonth":5.840,"Cloud":2,"Category":4,"SubCategory":401}
           }
         ]
       }
     ],
     large: [
       {
+        CloudProvider: aws,
         TotalMonthlyPrice: 5.840,
         CostDetails: [
           {
@@ -67,22 +74,25 @@
         ]
       },
       {
-        CloudProvider: azure
+        CloudProvider: azure,
+        TotalMonthlyPrice: 0.0,
+        CostDetails: null
       },
       {
         CloudProvider: gcp,
-        TotalMonthlyPrice: 7.30,
+        TotalMonthlyPrice: 5.840,
         CostDetails: [
           {
-            Cost: 7.30,
+            Cost: 5.840,
             ResourceSubCategory: LoadBalancer,
-            ResourceDetails: {"Name":"Compute Engine","PricePerMonth":7.30,"Cloud":2,"Category":4,"SubCategory":401}
+            ResourceDetails: {"Name":"Compute Engine","PricePerMonth":5.840,"Cloud":2,"Category":4,"SubCategory":401}
           }
         ]
       }
     ],
     xlarge: [
       {
+        CloudProvider: aws,
         TotalMonthlyPrice: 5.840,
         CostDetails: [
           {
@@ -93,16 +103,18 @@
         ]
       },
       {
-        CloudProvider: azure
+        CloudProvider: azure,
+        TotalMonthlyPrice: 0.0,
+        CostDetails: null
       },
       {
         CloudProvider: gcp,
-        TotalMonthlyPrice: 7.30,
+        TotalMonthlyPrice: 5.840,
         CostDetails: [
           {
-            Cost: 7.30,
+            Cost: 5.840,
             ResourceSubCategory: LoadBalancer,
-            ResourceDetails: {"Name":"Compute Engine","PricePerMonth":7.30,"Cloud":2,"Category":4,"SubCategory":401}
+            ResourceDetails: {"Name":"Compute Engine","PricePerMonth":5.840,"Cloud":2,"Category":4,"SubCategory":401}
           }
         ]
       }
