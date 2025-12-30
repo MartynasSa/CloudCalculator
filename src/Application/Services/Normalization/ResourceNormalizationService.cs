@@ -196,6 +196,13 @@ public class ResourceNormalizationService(ICloudPricingRepositoryProvider cloudP
             }
         }
 
+        // Sort ComputeInstances by Cloud provider, then InstanceName, then Region for stable ordering
+        result.ComputeInstances = result.ComputeInstances
+            .OrderBy(x => x.Cloud)
+            .ThenBy(x => x.InstanceName)
+            .ThenBy(x => x.Region)
+            .ToList();
+
         return result;
     }
 
