@@ -10,6 +10,106 @@
     SubCategory: Kubernetes
   },
   {
+    ClusterName: Automatic Compute Optimized,
+    Region: eastus,
+    NodeCount: null,
+    NodeType: Azure Kubernetes Service - Automatic,
+    PricePerHour: 0.012196,
+    Cloud: azure,
+    Category: Compute,
+    SubCategory: Kubernetes
+  },
+  {
+    ClusterName: Automatic Hosted Control Plane,
+    Region: eastus,
+    NodeCount: null,
+    NodeType: Azure Kubernetes Service - Automatic,
+    PricePerHour: 0.16,
+    Cloud: azure,
+    Category: Compute,
+    SubCategory: Kubernetes
+  },
+  {
+    ClusterName: Standard Long Term Support,
+    Region: eastus,
+    NodeCount: null,
+    NodeType: Azure Kubernetes Service,
+    PricePerHour: 0.6,
+    Cloud: azure,
+    Category: Compute,
+    SubCategory: Kubernetes
+  },
+  {
+    ClusterName: Automatic Storage Optimized,
+    Region: eastus,
+    NodeCount: null,
+    NodeType: Azure Kubernetes Service - Automatic,
+    PricePerHour: 0.014487,
+    Cloud: azure,
+    Category: Compute,
+    SubCategory: Kubernetes
+  },
+  {
+    ClusterName: Automatic Memory Optimized,
+    Region: eastus,
+    NodeCount: null,
+    NodeType: Azure Kubernetes Service - Automatic,
+    PricePerHour: 0.012427,
+    Cloud: azure,
+    Category: Compute,
+    SubCategory: Kubernetes
+  },
+  {
+    ClusterName: Standard Uptime SLA,
+    Region: eastus,
+    NodeCount: null,
+    NodeType: Azure Kubernetes Service,
+    PricePerHour: 0.1,
+    Cloud: azure,
+    Category: Compute,
+    SubCategory: Kubernetes
+  },
+  {
+    ClusterName: Automatic High Performance Compute,
+    Region: eastus,
+    NodeCount: null,
+    NodeType: Azure Kubernetes Service - Automatic,
+    PricePerHour: 0.007312,
+    Cloud: azure,
+    Category: Compute,
+    SubCategory: Kubernetes
+  },
+  {
+    ClusterName: Automatic GPU Accelerated,
+    Region: eastus,
+    NodeCount: null,
+    NodeType: Azure Kubernetes Service - Automatic,
+    PricePerHour: 0.035952,
+    Cloud: azure,
+    Category: Compute,
+    SubCategory: Kubernetes
+  },
+  {
+    ClusterName: Automatic General Purpose,
+    Region: eastus,
+    NodeCount: null,
+    NodeType: Azure Kubernetes Service - Automatic,
+    PricePerHour: 0.007841,
+    Cloud: azure,
+    Category: Compute,
+    SubCategory: Kubernetes
+  },
+  {
+    ClusterName: Automatic Confidential Compute,
+    Region: eastus,
+    NodeCount: null,
+    NodeType: Azure Kubernetes Service - Automatic,
+    PricePerHour: 0.012117,
+    Cloud: azure,
+    Category: Compute,
+    SubCategory: Kubernetes
+  },
+  {
     ClusterName: AmazonEKS,
     Region: us-east-1,
     NodeCount: null,
@@ -8686,106 +8786,6 @@
     NodeType: null,
     PricePerHour: 0.04608,
     Cloud: aws,
-    Category: Compute,
-    SubCategory: Kubernetes
-  },
-  {
-    ClusterName: Automatic Compute Optimized,
-    Region: eastus,
-    NodeCount: null,
-    NodeType: Azure Kubernetes Service - Automatic,
-    PricePerHour: 0.012196,
-    Cloud: azure,
-    Category: Compute,
-    SubCategory: Kubernetes
-  },
-  {
-    ClusterName: Automatic Hosted Control Plane,
-    Region: eastus,
-    NodeCount: null,
-    NodeType: Azure Kubernetes Service - Automatic,
-    PricePerHour: 0.16,
-    Cloud: azure,
-    Category: Compute,
-    SubCategory: Kubernetes
-  },
-  {
-    ClusterName: Standard Long Term Support,
-    Region: eastus,
-    NodeCount: null,
-    NodeType: Azure Kubernetes Service,
-    PricePerHour: 0.6,
-    Cloud: azure,
-    Category: Compute,
-    SubCategory: Kubernetes
-  },
-  {
-    ClusterName: Automatic Storage Optimized,
-    Region: eastus,
-    NodeCount: null,
-    NodeType: Azure Kubernetes Service - Automatic,
-    PricePerHour: 0.014487,
-    Cloud: azure,
-    Category: Compute,
-    SubCategory: Kubernetes
-  },
-  {
-    ClusterName: Automatic Memory Optimized,
-    Region: eastus,
-    NodeCount: null,
-    NodeType: Azure Kubernetes Service - Automatic,
-    PricePerHour: 0.012427,
-    Cloud: azure,
-    Category: Compute,
-    SubCategory: Kubernetes
-  },
-  {
-    ClusterName: Standard Uptime SLA,
-    Region: eastus,
-    NodeCount: null,
-    NodeType: Azure Kubernetes Service,
-    PricePerHour: 0.1,
-    Cloud: azure,
-    Category: Compute,
-    SubCategory: Kubernetes
-  },
-  {
-    ClusterName: Automatic High Performance Compute,
-    Region: eastus,
-    NodeCount: null,
-    NodeType: Azure Kubernetes Service - Automatic,
-    PricePerHour: 0.007312,
-    Cloud: azure,
-    Category: Compute,
-    SubCategory: Kubernetes
-  },
-  {
-    ClusterName: Automatic GPU Accelerated,
-    Region: eastus,
-    NodeCount: null,
-    NodeType: Azure Kubernetes Service - Automatic,
-    PricePerHour: 0.035952,
-    Cloud: azure,
-    Category: Compute,
-    SubCategory: Kubernetes
-  },
-  {
-    ClusterName: Automatic General Purpose,
-    Region: eastus,
-    NodeCount: null,
-    NodeType: Azure Kubernetes Service - Automatic,
-    PricePerHour: 0.007841,
-    Cloud: azure,
-    Category: Compute,
-    SubCategory: Kubernetes
-  },
-  {
-    ClusterName: Automatic Confidential Compute,
-    Region: eastus,
-    NodeCount: null,
-    NodeType: Azure Kubernetes Service - Automatic,
-    PricePerHour: 0.012117,
-    Cloud: azure,
     Category: Compute,
     SubCategory: Kubernetes
   }

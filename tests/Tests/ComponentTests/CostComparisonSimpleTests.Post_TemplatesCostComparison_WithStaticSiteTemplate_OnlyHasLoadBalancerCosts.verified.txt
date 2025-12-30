@@ -18,16 +18,22 @@
       {
         CloudProvider: azure,
         TotalMonthlyPrice: 0.0,
-        CostDetails: null
+        CostDetails: [
+          {
+            Cost: 0.0,
+            ResourceSubCategory: LoadBalancer,
+            ResourceDetails: {"Name":"Load Balancer","PricePerMonth":0.0,"Cloud":1,"Category":4,"SubCategory":401}
+          }
+        ]
       },
       {
         CloudProvider: gcp,
-        TotalMonthlyPrice: 7.30,
+        TotalMonthlyPrice: 5.840,
         CostDetails: [
           {
-            Cost: 7.30,
+            Cost: 5.840,
             ResourceSubCategory: LoadBalancer,
-            ResourceDetails: {"Name":"Compute Engine","PricePerMonth":7.30,"Cloud":2,"Category":4,"SubCategory":401}
+            ResourceDetails: {"Name":"Compute Engine","PricePerMonth":5.840,"Cloud":2,"Category":4,"SubCategory":401}
           }
         ]
       }
@@ -47,16 +53,22 @@
       {
         CloudProvider: azure,
         TotalMonthlyPrice: 0.0,
-        CostDetails: null
+        CostDetails: [
+          {
+            Cost: 0.0,
+            ResourceSubCategory: LoadBalancer,
+            ResourceDetails: {"Name":"Load Balancer","PricePerMonth":0.0,"Cloud":1,"Category":4,"SubCategory":401}
+          }
+        ]
       },
       {
         CloudProvider: gcp,
-        TotalMonthlyPrice: 7.30,
+        TotalMonthlyPrice: 5.840,
         CostDetails: [
           {
-            Cost: 7.30,
+            Cost: 5.840,
             ResourceSubCategory: LoadBalancer,
-            ResourceDetails: {"Name":"Compute Engine","PricePerMonth":7.30,"Cloud":2,"Category":4,"SubCategory":401}
+            ResourceDetails: {"Name":"Compute Engine","PricePerMonth":5.840,"Cloud":2,"Category":4,"SubCategory":401}
           }
         ]
       }
@@ -76,16 +88,22 @@
       {
         CloudProvider: azure,
         TotalMonthlyPrice: 0.0,
-        CostDetails: null
+        CostDetails: [
+          {
+            Cost: 0.0,
+            ResourceSubCategory: LoadBalancer,
+            ResourceDetails: {"Name":"Load Balancer","PricePerMonth":0.0,"Cloud":1,"Category":4,"SubCategory":401}
+          }
+        ]
       },
       {
         CloudProvider: gcp,
-        TotalMonthlyPrice: 7.30,
+        TotalMonthlyPrice: 5.840,
         CostDetails: [
           {
-            Cost: 7.30,
+            Cost: 5.840,
             ResourceSubCategory: LoadBalancer,
-            ResourceDetails: {"Name":"Compute Engine","PricePerMonth":7.30,"Cloud":2,"Category":4,"SubCategory":401}
+            ResourceDetails: {"Name":"Compute Engine","PricePerMonth":5.840,"Cloud":2,"Category":4,"SubCategory":401}
           }
         ]
       }
@@ -105,16 +123,22 @@
       {
         CloudProvider: azure,
         TotalMonthlyPrice: 0.0,
-        CostDetails: null
+        CostDetails: [
+          {
+            Cost: 0.0,
+            ResourceSubCategory: LoadBalancer,
+            ResourceDetails: {"Name":"Load Balancer","PricePerMonth":0.0,"Cloud":1,"Category":4,"SubCategory":401}
+          }
+        ]
       },
       {
         CloudProvider: gcp,
-        TotalMonthlyPrice: 7.30,
+        TotalMonthlyPrice: 5.840,
         CostDetails: [
           {
-            Cost: 7.30,
+            Cost: 5.840,
             ResourceSubCategory: LoadBalancer,
-            ResourceDetails: {"Name":"Compute Engine","PricePerMonth":7.30,"Cloud":2,"Category":4,"SubCategory":401}
+            ResourceDetails: {"Name":"Compute Engine","PricePerMonth":5.840,"Cloud":2,"Category":4,"SubCategory":401}
           }
         ]
       }

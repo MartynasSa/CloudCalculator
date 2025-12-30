@@ -40,22 +40,32 @@
             Cost: 1.962240,
             ResourceSubCategory: Relational,
             ResourceDetails: {"InstanceName":"Azure Cosmos DB","Region":"eastus","DatabaseEngine":null,"VCpu":null,"Memory":null,"PricePerHour":0.002688,"Cloud":1,"Category":3,"SubCategory":202}
+          },
+          {
+            Cost: 0.0,
+            ResourceSubCategory: LoadBalancer,
+            ResourceDetails: {"Name":"Load Balancer","PricePerMonth":0.0,"Cloud":1,"Category":4,"SubCategory":401}
           }
         ]
       },
       {
         CloudProvider: gcp,
-        TotalMonthlyPrice: 10.8040,
+        TotalMonthlyPrice: 9.3440,
         CostDetails: [
+          {
+            Cost: 0.0,
+            ResourceSubCategory: VirtualMachines,
+            ResourceDetails: null
+          },
           {
             Cost: 3.5040,
             ResourceSubCategory: Relational,
             ResourceDetails: {"InstanceName":"Cloud SQL","Region":"us-east1","DatabaseEngine":null,"VCpu":null,"Memory":null,"PricePerHour":0.0048,"Cloud":2,"Category":3,"SubCategory":200}
           },
           {
-            Cost: 7.30,
+            Cost: 5.840,
             ResourceSubCategory: LoadBalancer,
-            ResourceDetails: {"Name":"Compute Engine","PricePerMonth":7.30,"Cloud":2,"Category":4,"SubCategory":401}
+            ResourceDetails: {"Name":"Compute Engine","PricePerMonth":5.840,"Cloud":2,"Category":4,"SubCategory":401}
           }
         ]
       }
@@ -95,22 +105,32 @@
             Cost: 1.962240,
             ResourceSubCategory: Relational,
             ResourceDetails: {"InstanceName":"Azure Cosmos DB","Region":"eastus","DatabaseEngine":null,"VCpu":null,"Memory":null,"PricePerHour":0.002688,"Cloud":1,"Category":3,"SubCategory":202}
+          },
+          {
+            Cost: 0.0,
+            ResourceSubCategory: LoadBalancer,
+            ResourceDetails: {"Name":"Load Balancer","PricePerMonth":0.0,"Cloud":1,"Category":4,"SubCategory":401}
           }
         ]
       },
       {
         CloudProvider: gcp,
-        TotalMonthlyPrice: 10.8040,
+        TotalMonthlyPrice: 9.3440,
         CostDetails: [
+          {
+            Cost: 0.0,
+            ResourceSubCategory: VirtualMachines,
+            ResourceDetails: null
+          },
           {
             Cost: 3.5040,
             ResourceSubCategory: Relational,
             ResourceDetails: {"InstanceName":"Cloud SQL","Region":"us-east1","DatabaseEngine":null,"VCpu":null,"Memory":null,"PricePerHour":0.0048,"Cloud":2,"Category":3,"SubCategory":200}
           },
           {
-            Cost: 7.30,
+            Cost: 5.840,
             ResourceSubCategory: LoadBalancer,
-            ResourceDetails: {"Name":"Compute Engine","PricePerMonth":7.30,"Cloud":2,"Category":4,"SubCategory":401}
+            ResourceDetails: {"Name":"Compute Engine","PricePerMonth":5.840,"Cloud":2,"Category":4,"SubCategory":401}
           }
         ]
       }
@@ -150,22 +170,32 @@
             Cost: 1.962240,
             ResourceSubCategory: Relational,
             ResourceDetails: {"InstanceName":"Azure Cosmos DB","Region":"eastus","DatabaseEngine":null,"VCpu":null,"Memory":null,"PricePerHour":0.002688,"Cloud":1,"Category":3,"SubCategory":202}
+          },
+          {
+            Cost: 0.0,
+            ResourceSubCategory: LoadBalancer,
+            ResourceDetails: {"Name":"Load Balancer","PricePerMonth":0.0,"Cloud":1,"Category":4,"SubCategory":401}
           }
         ]
       },
       {
         CloudProvider: gcp,
-        TotalMonthlyPrice: 10.8040,
+        TotalMonthlyPrice: 9.3440,
         CostDetails: [
+          {
+            Cost: 0.0,
+            ResourceSubCategory: VirtualMachines,
+            ResourceDetails: null
+          },
           {
             Cost: 3.5040,
             ResourceSubCategory: Relational,
             ResourceDetails: {"InstanceName":"Cloud SQL","Region":"us-east1","DatabaseEngine":null,"VCpu":null,"Memory":null,"PricePerHour":0.0048,"Cloud":2,"Category":3,"SubCategory":200}
           },
           {
-            Cost: 7.30,
+            Cost: 5.840,
             ResourceSubCategory: LoadBalancer,
-            ResourceDetails: {"Name":"Compute Engine","PricePerMonth":7.30,"Cloud":2,"Category":4,"SubCategory":401}
+            ResourceDetails: {"Name":"Compute Engine","PricePerMonth":5.840,"Cloud":2,"Category":4,"SubCategory":401}
           }
         ]
       }
@@ -205,22 +235,32 @@
             Cost: 1.962240,
             ResourceSubCategory: Relational,
             ResourceDetails: {"InstanceName":"Azure Cosmos DB","Region":"eastus","DatabaseEngine":null,"VCpu":null,"Memory":null,"PricePerHour":0.002688,"Cloud":1,"Category":3,"SubCategory":202}
+          },
+          {
+            Cost: 0.0,
+            ResourceSubCategory: LoadBalancer,
+            ResourceDetails: {"Name":"Load Balancer","PricePerMonth":0.0,"Cloud":1,"Category":4,"SubCategory":401}
           }
         ]
       },
       {
         CloudProvider: gcp,
-        TotalMonthlyPrice: 10.8040,
+        TotalMonthlyPrice: 9.3440,
         CostDetails: [
+          {
+            Cost: 0.0,
+            ResourceSubCategory: VirtualMachines,
+            ResourceDetails: null
+          },
           {
             Cost: 3.5040,
             ResourceSubCategory: Relational,
             ResourceDetails: {"InstanceName":"Cloud SQL","Region":"us-east1","DatabaseEngine":null,"VCpu":null,"Memory":null,"PricePerHour":0.0048,"Cloud":2,"Category":3,"SubCategory":200}
           },
           {
-            Cost: 7.30,
+            Cost: 5.840,
             ResourceSubCategory: LoadBalancer,
-            ResourceDetails: {"Name":"Compute Engine","PricePerMonth":7.30,"Cloud":2,"Category":4,"SubCategory":401}
+            ResourceDetails: {"Name":"Compute Engine","PricePerMonth":5.840,"Cloud":2,"Category":4,"SubCategory":401}
           }
         ]
       }

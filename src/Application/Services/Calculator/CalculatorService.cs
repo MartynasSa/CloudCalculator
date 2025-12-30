@@ -52,16 +52,13 @@ public class CalculatorService(IResourceNormalizationService resourceNormalizati
                 {
                     var (cost, resourceDetails) = CalculateResourceCost(filteredResources, usageSize, cloudProvider, requestedSubCategory);
 
-                    if (cost > 0m)
+                    totalCost += cost;
+                    costDetails.Add(new TemplateCostResourceSubCategoryDetailsDto()
                     {
-                        totalCost += cost;
-                        costDetails.Add(new TemplateCostResourceSubCategoryDetailsDto()
-                        {
-                            ResourceSubCategory = requestedSubCategory,
-                            Cost = cost,
-                            ResourceDetails = JsonSerializer.Serialize(resourceDetails)
-                        });
-                    }
+                        ResourceSubCategory = requestedSubCategory,
+                        Cost = cost,
+                        ResourceDetails = resourceDetails != null ? JsonSerializer.Serialize(resourceDetails) : null
+                    });
                 }
 
                 cloudCostsList.Add(new TemplateCostComparisonResultCloudProviderDto
