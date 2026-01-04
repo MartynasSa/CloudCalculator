@@ -63,7 +63,18 @@ public class CloudPricingRepository(string? dataDirectory = null) : ICloudPricin
             }
         }
 
-        return combined;
+        return new CloudPricingDto
+        {
+            Data = new CloudPricingDataDto
+            {
+                Products = combined.Data.Products
+                    .OrderBy(p => p.VendorName)
+                    .ThenBy(p => p.ProductFamily)
+                    .ThenBy(p => p.Service)
+                    .ThenBy(p => p.Region)
+                    .ToList()
+            }
+        };
     }
 
 

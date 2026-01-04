@@ -17,7 +17,12 @@ public class CalculatorService(IResourceNormalizationService resourceNormalizati
 {
     public const int HoursPerMonth = 730;
 
-
+    private static readonly JsonSerializerOptions JsonOptions = new()
+    {
+        PropertyNameCaseInsensitive = true,
+        AllowTrailingCommas = true,
+        Converters = { new System.Text.Json.Serialization.JsonStringEnumMemberConverter() }
+    };
     public Task<TemplateCostComparisonResultDto> CalculateCostComparisonsAsync(CalculateTemplateRequest templateDto, CancellationToken ct = default)
     {
         var template = templateService.GetTemplate(templateDto.Template, templateDto.Usage);
@@ -57,7 +62,7 @@ public class CalculatorService(IResourceNormalizationService resourceNormalizati
                     {
                         ResourceSubCategory = requestedSubCategory,
                         Cost = cost,
-                        ResourceDetails = resourceDetails != null ? JsonSerializer.Serialize(resourceDetails) : null
+                        ResourceDetails = resourceDetails != null ? JsonSerializer.Serialize(resourceDetails, JsonOptions) : null
                     });
                 }
 
