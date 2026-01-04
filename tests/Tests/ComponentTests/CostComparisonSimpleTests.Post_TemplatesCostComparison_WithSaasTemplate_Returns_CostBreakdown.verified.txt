@@ -5,326 +5,84 @@
     LoadBalancer,
     Monitoring
   ],
-  CloudCosts: {
-    small: [
-      {
-        CloudProvider: aws,
-        TotalMonthlyPrice: 40.5880730,
-        CostDetails: [
-          {
-            Cost: 27.4480,
-            ResourceSubCategory: VirtualMachines,
-            ResourceDetails: {"InstanceName":"t3a.medium","Region":"us-east-1","VCpu":2,"Memory":"4 GiB","PricePerHour":0.0376,"Cloud":"aws","Category":"Compute","SubCategory":"VirtualMachines"}
-          },
-          {
-            Cost: 0.0000730,
-            ResourceSubCategory: Relational,
-            ResourceDetails: {"InstanceName":"AmazonDynamoDB","Region":"us-east-1","DatabaseEngine":null,"VCpu":null,"Memory":null,"PricePerHour":0.0000001,"Cloud":"aws","Category":"Database","SubCategory":"NoSQL"}
-          },
-          {
-            Cost: 5.840,
-            ResourceSubCategory: LoadBalancer,
-            ResourceDetails: {"Name":"ELB:Balancing","PricePerMonth":5.840,"Cloud":"aws","Category":"Networking","SubCategory":"LoadBalancer"}
-          },
-          {
-            Cost: 7.30,
-            ResourceSubCategory: Monitoring,
-            ResourceDetails: {"MonitoringService":"AmazonCloudWatch","Region":"us-east-1","MetricType":"CW-InternetMonitor","PricePerMonth":7.30,"Cloud":"aws","Category":"Management","SubCategory":"Monitoring"}
-          }
-        ]
-      },
-      {
-        CloudProvider: azure,
-        TotalMonthlyPrice: 106.571240,
-        CostDetails: [
-          {
-            Cost: 45.260,
-            ResourceSubCategory: VirtualMachines,
-            ResourceDetails: {"InstanceName":"Standard_D2pls_v6","Region":"eastus","VCpu":2,"Memory":"4","PricePerHour":0.062,"Cloud":"azure","Category":"Compute","SubCategory":"VirtualMachines"}
-          },
-          {
-            Cost: 1.962240,
-            ResourceSubCategory: Relational,
-            ResourceDetails: {"InstanceName":"Azure Cosmos DB","Region":"eastus","DatabaseEngine":null,"VCpu":null,"Memory":null,"PricePerHour":0.002688,"Cloud":"azure","Category":"Database","SubCategory":"NoSQL"}
-          },
-          {
-            Cost: 0.0,
-            ResourceSubCategory: LoadBalancer,
-            ResourceDetails: {"Name":"Load Balancer","PricePerMonth":0.0,"Cloud":"azure","Category":"Networking","SubCategory":"LoadBalancer"}
-          },
-          {
-            Cost: 59.3490,
-            ResourceSubCategory: Monitoring,
-            ResourceDetails: {"MonitoringService":"Azure Monitor","Region":"eastus","MetricType":"SMS Country Code 234 Notifications","PricePerMonth":59.3490,"Cloud":"azure","Category":"Management","SubCategory":"Monitoring"}
-          }
-        ]
-      },
-      {
-        CloudProvider: gcp,
-        TotalMonthlyPrice: 193.3040,
-        CostDetails: [
-          {
-            Cost: 0.0,
-            ResourceSubCategory: VirtualMachines,
-            ResourceDetails: null
-          },
-          {
-            Cost: 3.5040,
-            ResourceSubCategory: Relational,
-            ResourceDetails: {"InstanceName":"Cloud SQL","Region":"us-east1","DatabaseEngine":null,"VCpu":null,"Memory":null,"PricePerHour":0.0048,"Cloud":"gcp","Category":"Database","SubCategory":"Relational"}
-          },
-          {
-            Cost: 7.30,
-            ResourceSubCategory: LoadBalancer,
-            ResourceDetails: {"Name":"Compute Engine","PricePerMonth":7.30,"Cloud":"gcp","Category":"Networking","SubCategory":"LoadBalancer"}
-          },
-          {
-            Cost: 182.50,
-            ResourceSubCategory: Monitoring,
-            ResourceDetails: {"MonitoringService":"Cloud Logging","Region":"global","MetricType":"Logs","PricePerMonth":182.50,"Cloud":"gcp","Category":"Management","SubCategory":"Monitoring"}
-          }
-        ]
-      }
-    ],
-    medium: [
-      {
-        CloudProvider: aws,
-        TotalMonthlyPrice: 106.5800730,
-        CostDetails: [
-          {
-            Cost: 93.440,
-            ResourceSubCategory: VirtualMachines,
-            ResourceDetails: {"InstanceName":"c5.xlarge","Region":"us-east-1","VCpu":4,"Memory":"8 GiB","PricePerHour":0.128,"Cloud":"aws","Category":"Compute","SubCategory":"VirtualMachines"}
-          },
-          {
-            Cost: 0.0000730,
-            ResourceSubCategory: Relational,
-            ResourceDetails: {"InstanceName":"AmazonDynamoDB","Region":"us-east-1","DatabaseEngine":null,"VCpu":null,"Memory":null,"PricePerHour":0.0000001,"Cloud":"aws","Category":"Database","SubCategory":"NoSQL"}
-          },
-          {
-            Cost: 5.840,
-            ResourceSubCategory: LoadBalancer,
-            ResourceDetails: {"Name":"ELB:Balancing","PricePerMonth":5.840,"Cloud":"aws","Category":"Networking","SubCategory":"LoadBalancer"}
-          },
-          {
-            Cost: 7.30,
-            ResourceSubCategory: Monitoring,
-            ResourceDetails: {"MonitoringService":"AmazonCloudWatch","Region":"us-east-1","MetricType":"CW-InternetMonitor","PricePerMonth":7.30,"Cloud":"aws","Category":"Management","SubCategory":"Monitoring"}
-          }
-        ]
-      },
-      {
-        CloudProvider: azure,
-        TotalMonthlyPrice: 173.001240,
-        CostDetails: [
-          {
-            Cost: 111.690,
-            ResourceSubCategory: VirtualMachines,
-            ResourceDetails: {"InstanceName":"Standard_B4ps_v2","Region":"eastus","VCpu":4,"Memory":"16","PricePerHour":0.153,"Cloud":"azure","Category":"Compute","SubCategory":"VirtualMachines"}
-          },
-          {
-            Cost: 1.962240,
-            ResourceSubCategory: Relational,
-            ResourceDetails: {"InstanceName":"Azure Cosmos DB","Region":"eastus","DatabaseEngine":null,"VCpu":null,"Memory":null,"PricePerHour":0.002688,"Cloud":"azure","Category":"Database","SubCategory":"NoSQL"}
-          },
-          {
-            Cost: 0.0,
-            ResourceSubCategory: LoadBalancer,
-            ResourceDetails: {"Name":"Load Balancer","PricePerMonth":0.0,"Cloud":"azure","Category":"Networking","SubCategory":"LoadBalancer"}
-          },
-          {
-            Cost: 59.3490,
-            ResourceSubCategory: Monitoring,
-            ResourceDetails: {"MonitoringService":"Azure Monitor","Region":"eastus","MetricType":"SMS Country Code 234 Notifications","PricePerMonth":59.3490,"Cloud":"azure","Category":"Management","SubCategory":"Monitoring"}
-          }
-        ]
-      },
-      {
-        CloudProvider: gcp,
-        TotalMonthlyPrice: 193.3040,
-        CostDetails: [
-          {
-            Cost: 0.0,
-            ResourceSubCategory: VirtualMachines,
-            ResourceDetails: null
-          },
-          {
-            Cost: 3.5040,
-            ResourceSubCategory: Relational,
-            ResourceDetails: {"InstanceName":"Cloud SQL","Region":"us-east1","DatabaseEngine":null,"VCpu":null,"Memory":null,"PricePerHour":0.0048,"Cloud":"gcp","Category":"Database","SubCategory":"Relational"}
-          },
-          {
-            Cost: 7.30,
-            ResourceSubCategory: LoadBalancer,
-            ResourceDetails: {"Name":"Compute Engine","PricePerMonth":7.30,"Cloud":"gcp","Category":"Networking","SubCategory":"LoadBalancer"}
-          },
-          {
-            Cost: 182.50,
-            ResourceSubCategory: Monitoring,
-            ResourceDetails: {"MonitoringService":"Cloud Logging","Region":"global","MetricType":"Logs","PricePerMonth":182.50,"Cloud":"gcp","Category":"Management","SubCategory":"Monitoring"}
-          }
-        ]
-      }
-    ],
-    large: [
-      {
-        CloudProvider: aws,
-        TotalMonthlyPrice: 207.3200730,
-        CostDetails: [
-          {
-            Cost: 194.180,
-            ResourceSubCategory: VirtualMachines,
-            ResourceDetails: {"InstanceName":"c5d.2xlarge","Region":"us-east-1","VCpu":8,"Memory":"16 GiB","PricePerHour":0.266,"Cloud":"aws","Category":"Compute","SubCategory":"VirtualMachines"}
-          },
-          {
-            Cost: 0.0000730,
-            ResourceSubCategory: Relational,
-            ResourceDetails: {"InstanceName":"AmazonDynamoDB","Region":"us-east-1","DatabaseEngine":null,"VCpu":null,"Memory":null,"PricePerHour":0.0000001,"Cloud":"aws","Category":"Database","SubCategory":"NoSQL"}
-          },
-          {
-            Cost: 5.840,
-            ResourceSubCategory: LoadBalancer,
-            ResourceDetails: {"Name":"ELB:Balancing","PricePerMonth":5.840,"Cloud":"aws","Category":"Networking","SubCategory":"LoadBalancer"}
-          },
-          {
-            Cost: 7.30,
-            ResourceSubCategory: Monitoring,
-            ResourceDetails: {"MonitoringService":"AmazonCloudWatch","Region":"us-east-1","MetricType":"CW-InternetMonitor","PricePerMonth":7.30,"Cloud":"aws","Category":"Management","SubCategory":"Monitoring"}
-          }
-        ]
-      },
-      {
-        CloudProvider: azure,
-        TotalMonthlyPrice: 242.351240,
-        CostDetails: [
-          {
-            Cost: 181.040,
-            ResourceSubCategory: VirtualMachines,
-            ResourceDetails: {"InstanceName":"Standard_D8pls_v6","Region":"eastus","VCpu":8,"Memory":"16","PricePerHour":0.248,"Cloud":"azure","Category":"Compute","SubCategory":"VirtualMachines"}
-          },
-          {
-            Cost: 1.962240,
-            ResourceSubCategory: Relational,
-            ResourceDetails: {"InstanceName":"Azure Cosmos DB","Region":"eastus","DatabaseEngine":null,"VCpu":null,"Memory":null,"PricePerHour":0.002688,"Cloud":"azure","Category":"Database","SubCategory":"NoSQL"}
-          },
-          {
-            Cost: 0.0,
-            ResourceSubCategory: LoadBalancer,
-            ResourceDetails: {"Name":"Load Balancer","PricePerMonth":0.0,"Cloud":"azure","Category":"Networking","SubCategory":"LoadBalancer"}
-          },
-          {
-            Cost: 59.3490,
-            ResourceSubCategory: Monitoring,
-            ResourceDetails: {"MonitoringService":"Azure Monitor","Region":"eastus","MetricType":"SMS Country Code 234 Notifications","PricePerMonth":59.3490,"Cloud":"azure","Category":"Management","SubCategory":"Monitoring"}
-          }
-        ]
-      },
-      {
-        CloudProvider: gcp,
-        TotalMonthlyPrice: 193.3040,
-        CostDetails: [
-          {
-            Cost: 0.0,
-            ResourceSubCategory: VirtualMachines,
-            ResourceDetails: null
-          },
-          {
-            Cost: 3.5040,
-            ResourceSubCategory: Relational,
-            ResourceDetails: {"InstanceName":"Cloud SQL","Region":"us-east1","DatabaseEngine":null,"VCpu":null,"Memory":null,"PricePerHour":0.0048,"Cloud":"gcp","Category":"Database","SubCategory":"Relational"}
-          },
-          {
-            Cost: 7.30,
-            ResourceSubCategory: LoadBalancer,
-            ResourceDetails: {"Name":"Compute Engine","PricePerMonth":7.30,"Cloud":"gcp","Category":"Networking","SubCategory":"LoadBalancer"}
-          },
-          {
-            Cost: 182.50,
-            ResourceSubCategory: Monitoring,
-            ResourceDetails: {"MonitoringService":"Cloud Logging","Region":"global","MetricType":"Logs","PricePerMonth":182.50,"Cloud":"gcp","Category":"Management","SubCategory":"Monitoring"}
-          }
-        ]
-      }
-    ],
-    xlarge: [
-      {
-        CloudProvider: aws,
-        TotalMonthlyPrice: 306.6000730,
-        CostDetails: [
-          {
-            Cost: 293.460,
-            ResourceSubCategory: VirtualMachines,
-            ResourceDetails: {"InstanceName":"c5n.4xlarge","Region":"us-east-1","VCpu":16,"Memory":"42 GiB","PricePerHour":0.402,"Cloud":"aws","Category":"Compute","SubCategory":"VirtualMachines"}
-          },
-          {
-            Cost: 0.0000730,
-            ResourceSubCategory: Relational,
-            ResourceDetails: {"InstanceName":"AmazonDynamoDB","Region":"us-east-1","DatabaseEngine":null,"VCpu":null,"Memory":null,"PricePerHour":0.0000001,"Cloud":"aws","Category":"Database","SubCategory":"NoSQL"}
-          },
-          {
-            Cost: 5.840,
-            ResourceSubCategory: LoadBalancer,
-            ResourceDetails: {"Name":"ELB:Balancing","PricePerMonth":5.840,"Cloud":"aws","Category":"Networking","SubCategory":"LoadBalancer"}
-          },
-          {
-            Cost: 7.30,
-            ResourceSubCategory: Monitoring,
-            ResourceDetails: {"MonitoringService":"AmazonCloudWatch","Region":"us-east-1","MetricType":"CW-InternetMonitor","PricePerMonth":7.30,"Cloud":"aws","Category":"Management","SubCategory":"Monitoring"}
-          }
-        ]
-      },
-      {
-        CloudProvider: azure,
-        TotalMonthlyPrice: 597.131240,
-        CostDetails: [
-          {
-            Cost: 535.820,
-            ResourceSubCategory: VirtualMachines,
-            ResourceDetails: {"InstanceName":"Standard_D16pds_v6","Region":"eastus","VCpu":16,"Memory":"64","PricePerHour":0.734,"Cloud":"azure","Category":"Compute","SubCategory":"VirtualMachines"}
-          },
-          {
-            Cost: 1.962240,
-            ResourceSubCategory: Relational,
-            ResourceDetails: {"InstanceName":"Azure Cosmos DB","Region":"eastus","DatabaseEngine":null,"VCpu":null,"Memory":null,"PricePerHour":0.002688,"Cloud":"azure","Category":"Database","SubCategory":"NoSQL"}
-          },
-          {
-            Cost: 0.0,
-            ResourceSubCategory: LoadBalancer,
-            ResourceDetails: {"Name":"Load Balancer","PricePerMonth":0.0,"Cloud":"azure","Category":"Networking","SubCategory":"LoadBalancer"}
-          },
-          {
-            Cost: 59.3490,
-            ResourceSubCategory: Monitoring,
-            ResourceDetails: {"MonitoringService":"Azure Monitor","Region":"eastus","MetricType":"SMS Country Code 234 Notifications","PricePerMonth":59.3490,"Cloud":"azure","Category":"Management","SubCategory":"Monitoring"}
-          }
-        ]
-      },
-      {
-        CloudProvider: gcp,
-        TotalMonthlyPrice: 193.3040,
-        CostDetails: [
-          {
-            Cost: 0.0,
-            ResourceSubCategory: VirtualMachines,
-            ResourceDetails: null
-          },
-          {
-            Cost: 3.5040,
-            ResourceSubCategory: Relational,
-            ResourceDetails: {"InstanceName":"Cloud SQL","Region":"us-east1","DatabaseEngine":null,"VCpu":null,"Memory":null,"PricePerHour":0.0048,"Cloud":"gcp","Category":"Database","SubCategory":"Relational"}
-          },
-          {
-            Cost: 7.30,
-            ResourceSubCategory: LoadBalancer,
-            ResourceDetails: {"Name":"Compute Engine","PricePerMonth":7.30,"Cloud":"gcp","Category":"Networking","SubCategory":"LoadBalancer"}
-          },
-          {
-            Cost: 182.50,
-            ResourceSubCategory: Monitoring,
-            ResourceDetails: {"MonitoringService":"Cloud Logging","Region":"global","MetricType":"Logs","PricePerMonth":182.50,"Cloud":"gcp","Category":"Management","SubCategory":"Monitoring"}
-          }
-        ]
-      }
-    ]
-  }
+  CloudCosts: [
+    {
+      CloudProvider: aws,
+      TotalMonthlyPrice: 0.0,
+      CostDetails: [
+        {
+          Cost: 0.0,
+          ResourceSubCategory: VirtualMachines,
+          ResourceDetails: null
+        },
+        {
+          Cost: 0.0,
+          ResourceSubCategory: Relational,
+          ResourceDetails: null
+        },
+        {
+          Cost: 0.0,
+          ResourceSubCategory: LoadBalancer,
+          ResourceDetails: null
+        },
+        {
+          Cost: 0.0,
+          ResourceSubCategory: Monitoring,
+          ResourceDetails: null
+        }
+      ]
+    },
+    {
+      CloudProvider: azure,
+      TotalMonthlyPrice: 0.0,
+      CostDetails: [
+        {
+          Cost: 0.0,
+          ResourceSubCategory: VirtualMachines,
+          ResourceDetails: null
+        },
+        {
+          Cost: 0.0,
+          ResourceSubCategory: Relational,
+          ResourceDetails: null
+        },
+        {
+          Cost: 0.0,
+          ResourceSubCategory: LoadBalancer,
+          ResourceDetails: null
+        },
+        {
+          Cost: 0.0,
+          ResourceSubCategory: Monitoring,
+          ResourceDetails: null
+        }
+      ]
+    },
+    {
+      CloudProvider: gcp,
+      TotalMonthlyPrice: 0.0,
+      CostDetails: [
+        {
+          Cost: 0.0,
+          ResourceSubCategory: VirtualMachines,
+          ResourceDetails: null
+        },
+        {
+          Cost: 0.0,
+          ResourceSubCategory: Relational,
+          ResourceDetails: null
+        },
+        {
+          Cost: 0.0,
+          ResourceSubCategory: LoadBalancer,
+          ResourceDetails: null
+        },
+        {
+          Cost: 0.0,
+          ResourceSubCategory: Monitoring,
+          ResourceDetails: null
+        }
+      ]
+    }
+  ]
 }

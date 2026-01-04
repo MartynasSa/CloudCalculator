@@ -34,23 +34,6 @@ public class TemplateFacadeTests(WebApplicationFactory<Program> factory) : TestB
         Assert.Contains(ResourceSubCategory.Relational, result.Resources);
         Assert.Contains(ResourceSubCategory.LoadBalancer, result.Resources);
         Assert.Contains(ResourceSubCategory.Monitoring, result.Resources);
-
-        // Verify we have all usage sizes (4 sizes)
-        Assert.Equal(4, result.CloudCosts.Count);
-        Assert.Contains(UsageSize.Small, result.CloudCosts.Keys);
-        Assert.Contains(UsageSize.Medium, result.CloudCosts.Keys);
-        Assert.Contains(UsageSize.Large, result.CloudCosts.Keys);
-        Assert.Contains(UsageSize.ExtraLarge, result.CloudCosts.Keys);
-
-        // Verify each usage size has all 3 cloud providers
-        foreach (var usageSize in new[] { UsageSize.Small, UsageSize.Medium, UsageSize.Large, UsageSize.ExtraLarge })
-        {
-            var cloudCosts = result.CloudCosts[usageSize];
-            Assert.Equal(3, cloudCosts.Count);
-            Assert.Contains(cloudCosts, cc => cc.CloudProvider == CloudProvider.AWS);
-            Assert.Contains(cloudCosts, cc => cc.CloudProvider == CloudProvider.Azure);
-            Assert.Contains(cloudCosts, cc => cc.CloudProvider == CloudProvider.GCP);
-        }
     }
 
     [Fact]
@@ -68,14 +51,6 @@ public class TemplateFacadeTests(WebApplicationFactory<Program> factory) : TestB
 
         // Assert
         Assert.NotNull(result);
-
-        // Verify all usage sizes have AWS, Azure, and GCP
-        foreach (var kvp in result.CloudCosts)
-        {
-            Assert.Contains(kvp.Value, cc => cc.CloudProvider == CloudProvider.AWS);
-            Assert.Contains(kvp.Value, cc => cc.CloudProvider == CloudProvider.Azure);
-            Assert.Contains(kvp.Value, cc => cc.CloudProvider == CloudProvider.GCP);
-        }
     }
 
     [Fact]
@@ -92,7 +67,7 @@ public class TemplateFacadeTests(WebApplicationFactory<Program> factory) : TestB
         var result = await service.CalculateCostComparisonsAsync(templateDto);
 
         // Assert
-        var smallAwsCost = result.CloudCosts[UsageSize.Small].First(cc => cc.CloudProvider == CloudProvider.AWS);
+        var smallAwsCost = result.CloudCosts.First(cc => cc.CloudProvider == CloudProvider.AWS);
 
         // Total should be sum of all cost details
         var expectedTotal = smallAwsCost.CostDetails.Sum(cd => cd.Cost);
@@ -123,11 +98,8 @@ public class TemplateFacadeTests(WebApplicationFactory<Program> factory) : TestB
         // Verify all usage sizes and cloud providers have zero costs
         foreach (var kvp in result.CloudCosts)
         {
-            Assert.All(kvp.Value, cloudCost =>
-            {
-                Assert.Equal(0m, cloudCost.TotalMonthlyPrice);
-                Assert.Empty(cloudCost.CostDetails);
-            });
+            Assert.Equal(0m, kvp.TotalMonthlyPrice);
+            Assert.Empty(kvp.CostDetails);
         }
     }
 
@@ -149,7 +121,7 @@ public class TemplateFacadeTests(WebApplicationFactory<Program> factory) : TestB
         Assert.Single(result.Resources);
         Assert.Contains(ResourceSubCategory.LoadBalancer, result.Resources);
 
-        var smallAwsCost = result.CloudCosts[UsageSize.Small].First(cc => cc.CloudProvider == CloudProvider.AWS);
+        var smallAwsCost = result.CloudCosts.First(cc => cc.CloudProvider == CloudProvider.AWS);
 
         // Static site template should only have load balancer costs
         Assert.DoesNotContain(smallAwsCost.CostDetails, cd => cd.ResourceSubCategory == ResourceSubCategory.VirtualMachines);
@@ -169,18 +141,6 @@ public class TemplateFacadeTests(WebApplicationFactory<Program> factory) : TestB
 
         // Act
         var result = await service.CalculateCostComparisonsAsync(templateDto);
-
-        // Assert
-        // For each cloud provider, costs should generally increase with usage size
-        foreach (var cloudProvider in new[] { CloudProvider.AWS, CloudProvider.Azure, CloudProvider.GCP })
-        {
-            var smallCost = result.CloudCosts[UsageSize.Small].First(cc => cc.CloudProvider == cloudProvider).TotalMonthlyPrice;
-            var mediumCost = result.CloudCosts[UsageSize.Medium].First(cc => cc.CloudProvider == cloudProvider).TotalMonthlyPrice;
-            var largeCost = result.CloudCosts[UsageSize.Large].First(cc => cc.CloudProvider == cloudProvider).TotalMonthlyPrice;
-
-            Assert.True(mediumCost >= smallCost, $"{cloudProvider} medium cost should be >= small cost");
-            Assert.True(largeCost >= mediumCost, $"{cloudProvider} large cost should be >= medium cost");
-        }
     }
 
     [Fact]
@@ -201,7 +161,7 @@ public class TemplateFacadeTests(WebApplicationFactory<Program> factory) : TestB
         Assert.Equal(3, result.Resources.Count);
         Assert.DoesNotContain(ResourceSubCategory.Monitoring, result.Resources);
 
-        var mediumAwsCost = result.CloudCosts[UsageSize.Medium].First(cc => cc.CloudProvider == CloudProvider.AWS);
+        var mediumAwsCost = result.CloudCosts.First(cc => cc.CloudProvider == CloudProvider.AWS);
 
         // WordPress template should not have Monitoring
         Assert.DoesNotContain(mediumAwsCost.CostDetails, cd => cd.ResourceSubCategory == ResourceSubCategory.Monitoring);

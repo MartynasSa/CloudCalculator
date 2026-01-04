@@ -6,386 +6,99 @@
     LoadBalancer,
     Monitoring
   ],
-  CloudCosts: {
-    small: [
-      {
-        CloudProvider: aws,
-        TotalMonthlyPrice: 13.140,
-        CostDetails: [
-          {
-            Cost: 0.0,
-            ResourceSubCategory: ObjectStorage,
-            ResourceDetails: null
-          },
-          {
-            Cost: 0.0,
-            ResourceSubCategory: Backup,
-            ResourceDetails: null
-          },
-          {
-            Cost: 0.0,
-            ResourceSubCategory: CDN,
-            ResourceDetails: null
-          },
-          {
-            Cost: 5.840,
-            ResourceSubCategory: LoadBalancer,
-            ResourceDetails: {"Name":"ELB:Balancing","PricePerMonth":5.840,"Cloud":"aws","Category":"Networking","SubCategory":"LoadBalancer"}
-          },
-          {
-            Cost: 7.30,
-            ResourceSubCategory: Monitoring,
-            ResourceDetails: {"MonitoringService":"AmazonCloudWatch","Region":"us-east-1","MetricType":"CW-InternetMonitor","PricePerMonth":7.30,"Cloud":"aws","Category":"Management","SubCategory":"Monitoring"}
-          }
-        ]
-      },
-      {
-        CloudProvider: azure,
-        TotalMonthlyPrice: 59.3490,
-        CostDetails: [
-          {
-            Cost: 0.0,
-            ResourceSubCategory: ObjectStorage,
-            ResourceDetails: null
-          },
-          {
-            Cost: 0.0,
-            ResourceSubCategory: Backup,
-            ResourceDetails: null
-          },
-          {
-            Cost: 0.0,
-            ResourceSubCategory: CDN,
-            ResourceDetails: null
-          },
-          {
-            Cost: 0.0,
-            ResourceSubCategory: LoadBalancer,
-            ResourceDetails: {"Name":"Load Balancer","PricePerMonth":0.0,"Cloud":"azure","Category":"Networking","SubCategory":"LoadBalancer"}
-          },
-          {
-            Cost: 59.3490,
-            ResourceSubCategory: Monitoring,
-            ResourceDetails: {"MonitoringService":"Azure Monitor","Region":"eastus","MetricType":"SMS Country Code 234 Notifications","PricePerMonth":59.3490,"Cloud":"azure","Category":"Management","SubCategory":"Monitoring"}
-          }
-        ]
-      },
-      {
-        CloudProvider: gcp,
-        TotalMonthlyPrice: 189.80,
-        CostDetails: [
-          {
-            Cost: 0.0,
-            ResourceSubCategory: ObjectStorage,
-            ResourceDetails: null
-          },
-          {
-            Cost: 0.0,
-            ResourceSubCategory: Backup,
-            ResourceDetails: null
-          },
-          {
-            Cost: 0.0,
-            ResourceSubCategory: CDN,
-            ResourceDetails: null
-          },
-          {
-            Cost: 7.30,
-            ResourceSubCategory: LoadBalancer,
-            ResourceDetails: {"Name":"Compute Engine","PricePerMonth":7.30,"Cloud":"gcp","Category":"Networking","SubCategory":"LoadBalancer"}
-          },
-          {
-            Cost: 182.50,
-            ResourceSubCategory: Monitoring,
-            ResourceDetails: {"MonitoringService":"Cloud Logging","Region":"global","MetricType":"Logs","PricePerMonth":182.50,"Cloud":"gcp","Category":"Management","SubCategory":"Monitoring"}
-          }
-        ]
-      }
-    ],
-    medium: [
-      {
-        CloudProvider: aws,
-        TotalMonthlyPrice: 13.140,
-        CostDetails: [
-          {
-            Cost: 0.0,
-            ResourceSubCategory: ObjectStorage,
-            ResourceDetails: null
-          },
-          {
-            Cost: 0.0,
-            ResourceSubCategory: Backup,
-            ResourceDetails: null
-          },
-          {
-            Cost: 0.0,
-            ResourceSubCategory: CDN,
-            ResourceDetails: null
-          },
-          {
-            Cost: 5.840,
-            ResourceSubCategory: LoadBalancer,
-            ResourceDetails: {"Name":"ELB:Balancing","PricePerMonth":5.840,"Cloud":"aws","Category":"Networking","SubCategory":"LoadBalancer"}
-          },
-          {
-            Cost: 7.30,
-            ResourceSubCategory: Monitoring,
-            ResourceDetails: {"MonitoringService":"AmazonCloudWatch","Region":"us-east-1","MetricType":"CW-InternetMonitor","PricePerMonth":7.30,"Cloud":"aws","Category":"Management","SubCategory":"Monitoring"}
-          }
-        ]
-      },
-      {
-        CloudProvider: azure,
-        TotalMonthlyPrice: 59.3490,
-        CostDetails: [
-          {
-            Cost: 0.0,
-            ResourceSubCategory: ObjectStorage,
-            ResourceDetails: null
-          },
-          {
-            Cost: 0.0,
-            ResourceSubCategory: Backup,
-            ResourceDetails: null
-          },
-          {
-            Cost: 0.0,
-            ResourceSubCategory: CDN,
-            ResourceDetails: null
-          },
-          {
-            Cost: 0.0,
-            ResourceSubCategory: LoadBalancer,
-            ResourceDetails: {"Name":"Load Balancer","PricePerMonth":0.0,"Cloud":"azure","Category":"Networking","SubCategory":"LoadBalancer"}
-          },
-          {
-            Cost: 59.3490,
-            ResourceSubCategory: Monitoring,
-            ResourceDetails: {"MonitoringService":"Azure Monitor","Region":"eastus","MetricType":"SMS Country Code 234 Notifications","PricePerMonth":59.3490,"Cloud":"azure","Category":"Management","SubCategory":"Monitoring"}
-          }
-        ]
-      },
-      {
-        CloudProvider: gcp,
-        TotalMonthlyPrice: 189.80,
-        CostDetails: [
-          {
-            Cost: 0.0,
-            ResourceSubCategory: ObjectStorage,
-            ResourceDetails: null
-          },
-          {
-            Cost: 0.0,
-            ResourceSubCategory: Backup,
-            ResourceDetails: null
-          },
-          {
-            Cost: 0.0,
-            ResourceSubCategory: CDN,
-            ResourceDetails: null
-          },
-          {
-            Cost: 7.30,
-            ResourceSubCategory: LoadBalancer,
-            ResourceDetails: {"Name":"Compute Engine","PricePerMonth":7.30,"Cloud":"gcp","Category":"Networking","SubCategory":"LoadBalancer"}
-          },
-          {
-            Cost: 182.50,
-            ResourceSubCategory: Monitoring,
-            ResourceDetails: {"MonitoringService":"Cloud Logging","Region":"global","MetricType":"Logs","PricePerMonth":182.50,"Cloud":"gcp","Category":"Management","SubCategory":"Monitoring"}
-          }
-        ]
-      }
-    ],
-    large: [
-      {
-        CloudProvider: aws,
-        TotalMonthlyPrice: 13.140,
-        CostDetails: [
-          {
-            Cost: 0.0,
-            ResourceSubCategory: ObjectStorage,
-            ResourceDetails: null
-          },
-          {
-            Cost: 0.0,
-            ResourceSubCategory: Backup,
-            ResourceDetails: null
-          },
-          {
-            Cost: 0.0,
-            ResourceSubCategory: CDN,
-            ResourceDetails: null
-          },
-          {
-            Cost: 5.840,
-            ResourceSubCategory: LoadBalancer,
-            ResourceDetails: {"Name":"ELB:Balancing","PricePerMonth":5.840,"Cloud":"aws","Category":"Networking","SubCategory":"LoadBalancer"}
-          },
-          {
-            Cost: 7.30,
-            ResourceSubCategory: Monitoring,
-            ResourceDetails: {"MonitoringService":"AmazonCloudWatch","Region":"us-east-1","MetricType":"CW-InternetMonitor","PricePerMonth":7.30,"Cloud":"aws","Category":"Management","SubCategory":"Monitoring"}
-          }
-        ]
-      },
-      {
-        CloudProvider: azure,
-        TotalMonthlyPrice: 59.3490,
-        CostDetails: [
-          {
-            Cost: 0.0,
-            ResourceSubCategory: ObjectStorage,
-            ResourceDetails: null
-          },
-          {
-            Cost: 0.0,
-            ResourceSubCategory: Backup,
-            ResourceDetails: null
-          },
-          {
-            Cost: 0.0,
-            ResourceSubCategory: CDN,
-            ResourceDetails: null
-          },
-          {
-            Cost: 0.0,
-            ResourceSubCategory: LoadBalancer,
-            ResourceDetails: {"Name":"Load Balancer","PricePerMonth":0.0,"Cloud":"azure","Category":"Networking","SubCategory":"LoadBalancer"}
-          },
-          {
-            Cost: 59.3490,
-            ResourceSubCategory: Monitoring,
-            ResourceDetails: {"MonitoringService":"Azure Monitor","Region":"eastus","MetricType":"SMS Country Code 234 Notifications","PricePerMonth":59.3490,"Cloud":"azure","Category":"Management","SubCategory":"Monitoring"}
-          }
-        ]
-      },
-      {
-        CloudProvider: gcp,
-        TotalMonthlyPrice: 189.80,
-        CostDetails: [
-          {
-            Cost: 0.0,
-            ResourceSubCategory: ObjectStorage,
-            ResourceDetails: null
-          },
-          {
-            Cost: 0.0,
-            ResourceSubCategory: Backup,
-            ResourceDetails: null
-          },
-          {
-            Cost: 0.0,
-            ResourceSubCategory: CDN,
-            ResourceDetails: null
-          },
-          {
-            Cost: 7.30,
-            ResourceSubCategory: LoadBalancer,
-            ResourceDetails: {"Name":"Compute Engine","PricePerMonth":7.30,"Cloud":"gcp","Category":"Networking","SubCategory":"LoadBalancer"}
-          },
-          {
-            Cost: 182.50,
-            ResourceSubCategory: Monitoring,
-            ResourceDetails: {"MonitoringService":"Cloud Logging","Region":"global","MetricType":"Logs","PricePerMonth":182.50,"Cloud":"gcp","Category":"Management","SubCategory":"Monitoring"}
-          }
-        ]
-      }
-    ],
-    xlarge: [
-      {
-        CloudProvider: aws,
-        TotalMonthlyPrice: 13.140,
-        CostDetails: [
-          {
-            Cost: 0.0,
-            ResourceSubCategory: ObjectStorage,
-            ResourceDetails: null
-          },
-          {
-            Cost: 0.0,
-            ResourceSubCategory: Backup,
-            ResourceDetails: null
-          },
-          {
-            Cost: 0.0,
-            ResourceSubCategory: CDN,
-            ResourceDetails: null
-          },
-          {
-            Cost: 5.840,
-            ResourceSubCategory: LoadBalancer,
-            ResourceDetails: {"Name":"ELB:Balancing","PricePerMonth":5.840,"Cloud":"aws","Category":"Networking","SubCategory":"LoadBalancer"}
-          },
-          {
-            Cost: 7.30,
-            ResourceSubCategory: Monitoring,
-            ResourceDetails: {"MonitoringService":"AmazonCloudWatch","Region":"us-east-1","MetricType":"CW-InternetMonitor","PricePerMonth":7.30,"Cloud":"aws","Category":"Management","SubCategory":"Monitoring"}
-          }
-        ]
-      },
-      {
-        CloudProvider: azure,
-        TotalMonthlyPrice: 59.3490,
-        CostDetails: [
-          {
-            Cost: 0.0,
-            ResourceSubCategory: ObjectStorage,
-            ResourceDetails: null
-          },
-          {
-            Cost: 0.0,
-            ResourceSubCategory: Backup,
-            ResourceDetails: null
-          },
-          {
-            Cost: 0.0,
-            ResourceSubCategory: CDN,
-            ResourceDetails: null
-          },
-          {
-            Cost: 0.0,
-            ResourceSubCategory: LoadBalancer,
-            ResourceDetails: {"Name":"Load Balancer","PricePerMonth":0.0,"Cloud":"azure","Category":"Networking","SubCategory":"LoadBalancer"}
-          },
-          {
-            Cost: 59.3490,
-            ResourceSubCategory: Monitoring,
-            ResourceDetails: {"MonitoringService":"Azure Monitor","Region":"eastus","MetricType":"SMS Country Code 234 Notifications","PricePerMonth":59.3490,"Cloud":"azure","Category":"Management","SubCategory":"Monitoring"}
-          }
-        ]
-      },
-      {
-        CloudProvider: gcp,
-        TotalMonthlyPrice: 189.80,
-        CostDetails: [
-          {
-            Cost: 0.0,
-            ResourceSubCategory: ObjectStorage,
-            ResourceDetails: null
-          },
-          {
-            Cost: 0.0,
-            ResourceSubCategory: Backup,
-            ResourceDetails: null
-          },
-          {
-            Cost: 0.0,
-            ResourceSubCategory: CDN,
-            ResourceDetails: null
-          },
-          {
-            Cost: 7.30,
-            ResourceSubCategory: LoadBalancer,
-            ResourceDetails: {"Name":"Compute Engine","PricePerMonth":7.30,"Cloud":"gcp","Category":"Networking","SubCategory":"LoadBalancer"}
-          },
-          {
-            Cost: 182.50,
-            ResourceSubCategory: Monitoring,
-            ResourceDetails: {"MonitoringService":"Cloud Logging","Region":"global","MetricType":"Logs","PricePerMonth":182.50,"Cloud":"gcp","Category":"Management","SubCategory":"Monitoring"}
-          }
-        ]
-      }
-    ]
-  }
+  CloudCosts: [
+    {
+      CloudProvider: aws,
+      TotalMonthlyPrice: 13.140,
+      CostDetails: [
+        {
+          Cost: 0.0,
+          ResourceSubCategory: ObjectStorage,
+          ResourceDetails: null
+        },
+        {
+          Cost: 0.0,
+          ResourceSubCategory: Backup,
+          ResourceDetails: null
+        },
+        {
+          Cost: 0.0,
+          ResourceSubCategory: CDN,
+          ResourceDetails: null
+        },
+        {
+          Cost: 5.840,
+          ResourceSubCategory: LoadBalancer,
+          ResourceDetails: {"Name":"ELB:Balancing","PricePerMonth":5.840,"Cloud":"aws","Category":"Networking","SubCategory":"LoadBalancer"}
+        },
+        {
+          Cost: 7.30,
+          ResourceSubCategory: Monitoring,
+          ResourceDetails: {"MonitoringService":"AmazonCloudWatch","Region":"us-east-1","MetricType":"CW-InternetMonitor","PricePerMonth":7.30,"Cloud":"aws","Category":"Management","SubCategory":"Monitoring"}
+        }
+      ]
+    },
+    {
+      CloudProvider: azure,
+      TotalMonthlyPrice: 59.3490,
+      CostDetails: [
+        {
+          Cost: 0.0,
+          ResourceSubCategory: ObjectStorage,
+          ResourceDetails: null
+        },
+        {
+          Cost: 0.0,
+          ResourceSubCategory: Backup,
+          ResourceDetails: null
+        },
+        {
+          Cost: 0.0,
+          ResourceSubCategory: CDN,
+          ResourceDetails: null
+        },
+        {
+          Cost: 0.0,
+          ResourceSubCategory: LoadBalancer,
+          ResourceDetails: {"Name":"Load Balancer","PricePerMonth":0.0,"Cloud":"azure","Category":"Networking","SubCategory":"LoadBalancer"}
+        },
+        {
+          Cost: 59.3490,
+          ResourceSubCategory: Monitoring,
+          ResourceDetails: {"MonitoringService":"Azure Monitor","Region":"eastus","MetricType":"SMS Country Code 234 Notifications","PricePerMonth":59.3490,"Cloud":"azure","Category":"Management","SubCategory":"Monitoring"}
+        }
+      ]
+    },
+    {
+      CloudProvider: gcp,
+      TotalMonthlyPrice: 189.80,
+      CostDetails: [
+        {
+          Cost: 0.0,
+          ResourceSubCategory: ObjectStorage,
+          ResourceDetails: null
+        },
+        {
+          Cost: 0.0,
+          ResourceSubCategory: Backup,
+          ResourceDetails: null
+        },
+        {
+          Cost: 0.0,
+          ResourceSubCategory: CDN,
+          ResourceDetails: null
+        },
+        {
+          Cost: 7.30,
+          ResourceSubCategory: LoadBalancer,
+          ResourceDetails: {"Name":"Compute Engine","PricePerMonth":7.30,"Cloud":"gcp","Category":"Networking","SubCategory":"LoadBalancer"}
+        },
+        {
+          Cost: 182.50,
+          ResourceSubCategory: Monitoring,
+          ResourceDetails: {"MonitoringService":"Cloud Logging","Region":"global","MetricType":"Logs","PricePerMonth":182.50,"Cloud":"gcp","Category":"Management","SubCategory":"Monitoring"}
+        }
+      ]
+    }
+  ]
 }
