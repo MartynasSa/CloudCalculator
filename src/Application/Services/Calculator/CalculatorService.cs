@@ -35,38 +35,48 @@ public class CalculatorService(IResourceNormalizationService resourceNormalizati
         var result = new TemplateCostComparisonResultDto
         {
             Resources = template.Resources,
-            CloudCosts = new List<TemplateCostComparisonResultCloudProviderDto>()
+            CloudCosts = new Dictionary<UsageSize, List<TemplateCostComparisonResultCloudProviderDto>>()
         };
 
         var cloudProviders = new[] { CloudProvider.AWS, CloudProvider.Azure, CloudProvider.GCP };
+        var usageSizes = new[] { UsageSize.Small, UsageSize.Medium, UsageSize.Large, UsageSize.ExtraLarge };
+        
         // Get all prices once, grouped by (UsageSize, CloudProvider)
         var filteredResources = priceProvider.GetPrices(resources);
 
-        foreach (var cloudProvider in cloudProviders)
+        // Calculate costs for all usage sizes
+        foreach (var usageSize in usageSizes)
         {
-            var costDetails = new List<TemplateCostResourceSubCategoryDetailsDto>();
-            decimal totalCost = 0m;
-
-            // Calculate costs based on requested resource subcategories
-            foreach (var requestedSubCategory in template.Resources)
+            var cloudCostsList = new List<TemplateCostComparisonResultCloudProviderDto>();
+            
+            foreach (var cloudProvider in cloudProviders)
             {
-                var (cost, resourceDetails) = CalculateResourceCost(filteredResources, template.Usage, cloudProvider, requestedSubCategory);
+                var costDetails = new List<TemplateCostResourceSubCategoryDetailsDto>();
+                decimal totalCost = 0m;
 
-                totalCost += cost;
-                costDetails.Add(new TemplateCostResourceSubCategoryDetailsDto()
+                // Calculate costs based on requested resource subcategories
+                foreach (var requestedSubCategory in template.Resources)
                 {
-                    ResourceSubCategory = requestedSubCategory,
-                    Cost = cost,
-                    ResourceDetails = resourceDetails != null ? JsonSerializer.Serialize(resourceDetails, JsonOptions) : null
+                    var (cost, resourceDetails) = CalculateResourceCost(filteredResources, usageSize, cloudProvider, requestedSubCategory);
+
+                    totalCost += cost;
+                    costDetails.Add(new TemplateCostResourceSubCategoryDetailsDto()
+                    {
+                        ResourceSubCategory = requestedSubCategory,
+                        Cost = cost,
+                        ResourceDetails = resourceDetails != null ? JsonSerializer.Serialize(resourceDetails, JsonOptions) : null
+                    });
+                }
+
+                cloudCostsList.Add(new TemplateCostComparisonResultCloudProviderDto
+                {
+                    CloudProvider = cloudProvider,
+                    TotalMonthlyPrice = totalCost,
+                    CostDetails = costDetails
                 });
             }
-
-            result.CloudCosts.Add(new TemplateCostComparisonResultCloudProviderDto
-            {
-                CloudProvider = cloudProvider,
-                TotalMonthlyPrice = totalCost,
-                CostDetails = costDetails
-            });
+            
+            result.CloudCosts[usageSize] = cloudCostsList;
         }
 
         return result;
