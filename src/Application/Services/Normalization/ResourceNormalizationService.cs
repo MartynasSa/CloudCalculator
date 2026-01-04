@@ -13,7 +13,7 @@ public interface IResourceNormalizationService
 public class ResourceNormalizationService(ICloudPricingRepositoryProvider cloudPricingRepository) : IResourceNormalizationService
 {
     // Regex for extracting GCP machine family from description
-    private static readonly Regex GcpMachineFamilyRegex = new(@"^([A-Z][0-9A-Z]*)\s+Instance\s+(Core|Ram)", RegexOptions.IgnoreCase | RegexOptions.Compiled);
+    private static readonly Regex GcpMachineFamilyRegex = new(@"^([a-zA-Z][0-9a-zA-Z]*)\s+Instance\s+(Core|Ram)", RegexOptions.IgnoreCase | RegexOptions.Compiled);
     
     // Reference CPU and memory specs for cost comparison (Medium size: 4 vCPU, 8 GB RAM)
     private const int ReferenceCpuCount = 4;
@@ -307,10 +307,11 @@ public class ResourceNormalizationService(ICloudPricingRepositoryProvider cloudP
                 var family = familyMatch.Groups[1].Value;
 
                 // Find matching RAM pricing
+                var ramDescPrefix = $"{family} Instance Ram";
                 var ramProduct = ramProducts.FirstOrDefault(p =>
                 {
                     var ramDesc = p.Attributes.FirstOrDefault(a => a.Key == "description")?.Value ?? "";
-                    return ramDesc.StartsWith($"{family} Instance Ram", StringComparison.OrdinalIgnoreCase);
+                    return ramDesc.StartsWith(ramDescPrefix, StringComparison.OrdinalIgnoreCase);
                 });
 
                 var ramPrice = ramProduct?.Prices.FirstOrDefault()?.Usd;
@@ -332,7 +333,7 @@ public class ResourceNormalizationService(ICloudPricingRepositoryProvider cloudP
                     // Create VMs for different usage sizes using predefined configurations
                     foreach (var config in VmSizeConfigurations)
                     {
-                        var pricePerHour = (config.VCpu * cheapestFamily.CpuPricePerHour) + ((decimal)config.Memory * cheapestFamily.RamPricePerGbHour);
+                        var pricePerHour = CalculateGcpVmPricePerHour(config.VCpu, config.Memory, cheapestFamily.CpuPricePerHour, cheapestFamily.RamPricePerGbHour);
                         
                         result.ComputeInstances.Add(new NormalizedComputeInstanceDto
                         {
@@ -349,5 +350,10 @@ public class ResourceNormalizationService(ICloudPricingRepositoryProvider cloudP
                 }
             }
         }
+    }
+
+    private static decimal CalculateGcpVmPricePerHour(int vCpu, double memoryGb, decimal cpuPricePerHour, decimal ramPricePerGbHour)
+    {
+        return (vCpu * cpuPricePerHour) + ((decimal)memoryGb * ramPricePerGbHour);
     }
 }
