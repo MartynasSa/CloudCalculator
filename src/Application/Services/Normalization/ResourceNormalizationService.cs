@@ -1,6 +1,7 @@
 using Application.Mappers;
 using Application.Models.Dtos;
 using Application.Models.Enums;
+using System.Text.RegularExpressions;
 
 namespace Application.Services.Normalization;
 
@@ -11,6 +12,22 @@ public interface IResourceNormalizationService
 
 public class ResourceNormalizationService(ICloudPricingRepositoryProvider cloudPricingRepository) : IResourceNormalizationService
 {
+    // Regex for extracting GCP machine family from description
+    private static readonly Regex GcpMachineFamilyRegex = new(@"^([A-Z][0-9A-Z]*)\s+Instance\s+(Core|Ram)", RegexOptions.IgnoreCase | RegexOptions.Compiled);
+    
+    // Reference CPU and memory specs for cost comparison (Medium size: 4 vCPU, 8 GB RAM)
+    private const int ReferenceCpuCount = 4;
+    private const double ReferenceMemoryGb = 8.0;
+    
+    // VM configuration specs matching PriceProvider.GetVirtualMachineSpecs
+    private static readonly (int VCpu, double Memory, string Name)[] VmSizeConfigurations = new[]
+    {
+        (VCpu: 2, Memory: 4.0, Name: "Small"),
+        (VCpu: 4, Memory: 8.0, Name: "Medium"),
+        (VCpu: 8, Memory: 16.0, Name: "Large"),
+        (VCpu: 16, Memory: 32.0, Name: "ExtraLarge")
+    };
+    
     private static readonly Dictionary<(string ProductFamily, string Service), (ResourceCategory Category, ResourceSubCategory SubCategory)> AwsProductFamilyServiceMap =
         new()
         {
@@ -284,7 +301,7 @@ public class ResourceNormalizationService(ICloudPricingRepositoryProvider cloudP
                 if (cpuPrice == null || cpuPrice <= 0) continue;
 
                 // Extract machine family from description (e.g., "N2 Instance Core" -> "N2")
-                var familyMatch = System.Text.RegularExpressions.Regex.Match(description, @"^([A-Z][0-9A-Z]*)\s+Instance\s+(Core|Ram)", System.Text.RegularExpressions.RegexOptions.IgnoreCase);
+                var familyMatch = GcpMachineFamilyRegex.Match(description);
                 if (!familyMatch.Success) continue;
 
                 var family = familyMatch.Groups[1].Value;
@@ -305,23 +322,15 @@ public class ResourceNormalizationService(ICloudPricingRepositoryProvider cloudP
             // Create synthetic VMs for each machine family using the cheapest option
             if (machineFamilies.Any())
             {
-                // Use the cheapest machine family for this region
+                // Use the cheapest machine family for this region (based on reference Medium size)
                 var cheapestFamily = machineFamilies
-                    .OrderBy(f => (f.CpuPricePerHour * 4) + (f.RamPricePerGbHour * 8)) // Cost for a 4vCPU/8GB instance
+                    .OrderBy(f => (f.CpuPricePerHour * ReferenceCpuCount) + (f.RamPricePerGbHour * (decimal)ReferenceMemoryGb))
                     .FirstOrDefault();
 
                 if (cheapestFamily != default)
                 {
-                    // Create VMs for different usage sizes
-                    var vmConfigs = new[]
-                    {
-                        (VCpu: 2, Memory: 4.0, Name: "Small"),
-                        (VCpu: 4, Memory: 8.0, Name: "Medium"),
-                        (VCpu: 8, Memory: 16.0, Name: "Large"),
-                        (VCpu: 16, Memory: 32.0, Name: "ExtraLarge")
-                    };
-
-                    foreach (var config in vmConfigs)
+                    // Create VMs for different usage sizes using predefined configurations
+                    foreach (var config in VmSizeConfigurations)
                     {
                         var pricePerHour = (config.VCpu * cheapestFamily.CpuPricePerHour) + ((decimal)config.Memory * cheapestFamily.RamPricePerGbHour);
                         
