@@ -588,4 +588,16 @@ public class TemplateControllerTests(WebApplicationFactory<Program> factory) : T
         Assert.Equal(TemplateType.Blank, template.Template);
         AssertEmptyTemplate(template);
     }
+
+    [Fact]
+    public async Task Get_Templates_List_Returns_All_Templates_With_Small_Resources()
+    {
+        var response = await Client.GetAsync("/api/templates");
+        response.EnsureSuccessStatusCode();
+
+        await using var stream = await response.Content.ReadAsStreamAsync();
+        var templates = await JsonSerializer.DeserializeAsync<List<TemplateDto>>(stream, JsonOptions);
+
+        await Verify(templates);
+    }
 }

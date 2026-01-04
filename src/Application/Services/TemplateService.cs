@@ -746,11 +746,7 @@ public class TemplateService : ITemplateService
         return _templateResourceMappings
             .Select(kvp => kvp.Key.Template)
             .Distinct()
-            .Select(template => new TemplateDto
-            {
-                Template = template,
-                Resources = []
-            })
+            .Select(template => GetTemplate(template, UsageSize.Small))
             .ToList();
     }
 

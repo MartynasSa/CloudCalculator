@@ -1,0 +1,165 @@
+﻿[
+  {
+    Template: saas,
+    Resources: [
+      VirtualMachines,
+      Relational,
+      Caching,
+      ObjectStorage,
+      Backup,
+      ApiGateway,
+      LoadBalancer,
+      Queueing,
+      Messaging,
+      Secrets,
+      Monitoring,
+      WebApplicationFirewall
+    ]
+  },
+  {
+    Template: wordpress,
+    Resources: [
+      VirtualMachines,
+      Relational,
+      BlobStorage,
+      Backup,
+      LoadBalancer,
+      Secrets,
+      Monitoring,
+      WebApplicationFirewall
+    ]
+  },
+  {
+    Template: rest_api,
+    Resources: [
+      VirtualMachines,
+      Relational,
+      Caching,
+      ObjectStorage,
+      Backup,
+      ApiGateway,
+      LoadBalancer,
+      Queueing,
+      Messaging,
+      Secrets,
+      Monitoring,
+      WebApplicationFirewall
+    ]
+  },
+  {
+    Template: static_site,
+    Resources: [
+      ObjectStorage,
+      Backup,
+      CDN,
+      LoadBalancer,
+      Monitoring
+    ]
+  },
+  {
+    Template: ecommerce,
+    Resources: [
+      VirtualMachines,
+      Relational,
+      Caching,
+      ObjectStorage,
+      Backup,
+      ApiGateway,
+      LoadBalancer,
+      CDN,
+      Queueing,
+      Messaging,
+      Secrets,
+      Compliance,
+      Monitoring,
+      WebApplicationFirewall
+    ]
+  },
+  {
+    Template: mobile_app_backend,
+    Resources: [
+      VirtualMachines,
+      Relational,
+      ObjectStorage,
+      Backup,
+      ApiGateway,
+      LoadBalancer,
+      CDN,
+      Messaging,
+      Queueing,
+      Secrets,
+      Monitoring,
+      WebApplicationFirewall
+    ]
+  },
+  {
+    Template: headless_frontend_api,
+    Resources: [
+      VirtualMachines,
+      Relational,
+      Caching,
+      ObjectStorage,
+      Backup,
+      ApiGateway,
+      LoadBalancer,
+      CDN,
+      Queueing,
+      Messaging,
+      Secrets,
+      Monitoring,
+      WebApplicationFirewall
+    ]
+  },
+  {
+    Template: data_analytics,
+    Resources: [
+      VirtualMachines,
+      Relational,
+      ObjectStorage,
+      Backup,
+      DataWarehouse,
+      Streaming,
+      LoadBalancer,
+      Queueing,
+      Messaging,
+      Secrets,
+      Monitoring,
+      Compliance
+    ]
+  },
+  {
+    Template: machine_learning,
+    Resources: [
+      VirtualMachines,
+      CloudFunctions,
+      ObjectStorage,
+      Backup,
+      NoSQL,
+      ApiGateway,
+      LoadBalancer,
+      Secrets,
+      Monitoring,
+      Compliance,
+      WebApplicationFirewall
+    ]
+  },
+  {
+    Template: serverless_event_driven,
+    Resources: [
+      CloudFunctions,
+      NoSQL,
+      ObjectStorage,
+      Backup,
+      ApiGateway,
+      LoadBalancer,
+      Queueing,
+      Messaging,
+      Secrets,
+      WebApplicationFirewall
+    ]
+  },
+  {
+    Template: blank,
+    Resources: null
+  }
+]
