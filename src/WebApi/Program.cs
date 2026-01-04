@@ -13,6 +13,16 @@ using WebApi.Middleware;
 
 var builder = WebApplication.CreateBuilder(args);
 
+builder.Services.AddCors(options =>
+{
+    options.AddDefaultPolicy(policy =>
+    {
+        policy.AllowAnyOrigin()
+              .AllowAnyMethod()
+              .AllowAnyHeader();
+    });
+});
+
 builder.Services.AddControllers()
     .ConfigureApiBehaviorOptions(options =>
     {
@@ -79,6 +89,8 @@ if (app.Environment.IsDevelopment())
         c.SwaggerEndpoint("/swagger/v1/swagger.json", "CloudCalculator API v1");
     });
 }
+
+app.UseCors();
 
 app.UseHttpsRedirection();
 

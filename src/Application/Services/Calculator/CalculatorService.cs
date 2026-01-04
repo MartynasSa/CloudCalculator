@@ -26,7 +26,7 @@ public class CalculatorService(IResourceNormalizationService resourceNormalizati
     public Task<TemplateCostComparisonResultDto> CalculateCostComparisonsAsync(CalculateTemplateRequest templateDto, CancellationToken ct = default)
     {
         var template = templateService.GetTemplate(templateDto.Template, templateDto.Usage);
-        return CalculateCostComparisonsAsync(new CalculationRequest() { Resources = template.Resources}, ct);
+        return CalculateCostComparisonsAsync(new CalculationRequest() { Resources = template.Resources, Usage = templateDto.Usage }, ct);
     }
 
     public async Task<TemplateCostComparisonResultDto> CalculateCostComparisonsAsync(CalculationRequest template, CancellationToken ct = default)
@@ -34,47 +34,39 @@ public class CalculatorService(IResourceNormalizationService resourceNormalizati
         var resources = await resourceNormalizationService.GetResourcesAsync(ct);
         var result = new TemplateCostComparisonResultDto
         {
-            Resources = template.Resources
+            Resources = template.Resources,
+            CloudCosts = new List<TemplateCostComparisonResultCloudProviderDto>()
         };
 
         var cloudProviders = new[] { CloudProvider.AWS, CloudProvider.Azure, CloudProvider.GCP };
-        var usageSizes = new[] { UsageSize.Small, UsageSize.Medium, UsageSize.Large, UsageSize.ExtraLarge };
-
         // Get all prices once, grouped by (UsageSize, CloudProvider)
         var filteredResources = priceProvider.GetPrices(resources);
 
-        foreach (var usageSize in usageSizes)
+        foreach (var cloudProvider in cloudProviders)
         {
-            var cloudCostsList = new List<TemplateCostComparisonResultCloudProviderDto>();
+            var costDetails = new List<TemplateCostResourceSubCategoryDetailsDto>();
+            decimal totalCost = 0m;
 
-            foreach (var cloudProvider in cloudProviders)
+            // Calculate costs based on requested resource subcategories
+            foreach (var requestedSubCategory in template.Resources)
             {
-                var costDetails = new List<TemplateCostResourceSubCategoryDetailsDto>();
-                decimal totalCost = 0m;
+                var (cost, resourceDetails) = CalculateResourceCost(filteredResources, template.Usage, cloudProvider, requestedSubCategory);
 
-                // Calculate costs based on requested resource subcategories
-                foreach (var requestedSubCategory in template.Resources)
+                totalCost += cost;
+                costDetails.Add(new TemplateCostResourceSubCategoryDetailsDto()
                 {
-                    var (cost, resourceDetails) = CalculateResourceCost(filteredResources, usageSize, cloudProvider, requestedSubCategory);
-
-                    totalCost += cost;
-                    costDetails.Add(new TemplateCostResourceSubCategoryDetailsDto()
-                    {
-                        ResourceSubCategory = requestedSubCategory,
-                        Cost = cost,
-                        ResourceDetails = resourceDetails != null ? JsonSerializer.Serialize(resourceDetails, JsonOptions) : null
-                    });
-                }
-
-                cloudCostsList.Add(new TemplateCostComparisonResultCloudProviderDto
-                {
-                    CloudProvider = cloudProvider,
-                    TotalMonthlyPrice = totalCost,
-                    CostDetails = costDetails
+                    ResourceSubCategory = requestedSubCategory,
+                    Cost = cost,
+                    ResourceDetails = resourceDetails != null ? JsonSerializer.Serialize(resourceDetails, JsonOptions) : null
                 });
             }
 
-            result.CloudCosts[usageSize] = cloudCostsList;
+            result.CloudCosts.Add(new TemplateCostComparisonResultCloudProviderDto
+            {
+                CloudProvider = cloudProvider,
+                TotalMonthlyPrice = totalCost,
+                CostDetails = costDetails
+            });
         }
 
         return result;
