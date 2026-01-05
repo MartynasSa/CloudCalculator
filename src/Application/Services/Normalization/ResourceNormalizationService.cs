@@ -1,6 +1,7 @@
 using Application.Mappers;
 using Application.Models.Dtos;
 using Application.Models.Enums;
+using System.Text.RegularExpressions;
 
 namespace Application.Services.Normalization;
 
@@ -11,6 +12,22 @@ public interface IResourceNormalizationService
 
 public class ResourceNormalizationService(ICloudPricingRepositoryProvider cloudPricingRepository) : IResourceNormalizationService
 {
+    // Regex for extracting GCP machine family from description
+    private static readonly Regex GcpMachineFamilyRegex = new(@"^([a-zA-Z][0-9a-zA-Z]*)\s+Instance\s+(Core|Ram)", RegexOptions.IgnoreCase | RegexOptions.Compiled);
+    
+    // Reference CPU and memory specs for cost comparison (Medium size: 4 vCPU, 8 GB RAM)
+    private const int ReferenceCpuCount = 4;
+    private const double ReferenceMemoryGb = 8.0;
+    
+    // VM configuration specs matching PriceProvider.GetVirtualMachineSpecs
+    private static readonly (int VCpu, double Memory, string Name)[] VmSizeConfigurations = new[]
+    {
+        (VCpu: 2, Memory: 4.0, Name: "Small"),
+        (VCpu: 4, Memory: 8.0, Name: "Medium"),
+        (VCpu: 8, Memory: 16.0, Name: "Large"),
+        (VCpu: 16, Memory: 32.0, Name: "ExtraLarge")
+    };
+    
     private static readonly Dictionary<(string ProductFamily, string Service), (ResourceCategory Category, ResourceSubCategory SubCategory)> AwsProductFamilyServiceMap =
         new()
         {
@@ -138,7 +155,11 @@ public class ResourceNormalizationService(ICloudPricingRepositoryProvider cloudP
             switch ((category, subCategory))
             {
                 case (ResourceCategory.Compute, ResourceSubCategory.VirtualMachines):
-                    result.ComputeInstances.Add(NormalizationMapper.MapToComputeInstance(product, category, subCategory));
+                    // Skip GCP VMs - they will be created synthetically later
+                    if (product.VendorName != CloudProvider.GCP)
+                    {
+                        result.ComputeInstances.Add(NormalizationMapper.MapToComputeInstance(product, category, subCategory));
+                    }
                     break;
                 case (ResourceCategory.Compute, ResourceSubCategory.CloudFunctions):
                     result.CloudFunctions.Add(NormalizationMapper.MapToCloudFunction(product, category, subCategory));
@@ -196,6 +217,9 @@ public class ResourceNormalizationService(ICloudPricingRepositoryProvider cloudP
             }
         }
 
+        // Create synthetic GCP VMs from CPU and RAM pricing
+        AddSyntheticGcpVirtualMachines(data.Data.Products, result);
+
         // Sort ComputeInstances by Cloud provider, then InstanceName, then Region for stable ordering
         result.ComputeInstances = result.ComputeInstances
             .OrderBy(x => x.Cloud)
@@ -234,5 +258,102 @@ public class ResourceNormalizationService(ICloudPricingRepositoryProvider cloudP
             return mapping;
         }
         return (ResourceCategory.Other, ResourceSubCategory.Uncategorized);
+    }
+
+    private static void AddSyntheticGcpVirtualMachines(List<CloudPricingProductDto> products, CategorizedResourcesDto result)
+    {
+        // GCP prices VMs by CPU and RAM separately, so we need to create synthetic VM instances
+        // by combining CPU and RAM pricing for standard machine families
+        
+        var gcpVmProducts = products
+            .Where(p => p.VendorName == CloudProvider.GCP 
+                && p.ProductFamily == "Compute" 
+                && p.Service == "Compute Engine")
+            .ToList();
+
+        // Group by region to create VMs for each region
+        var productsByRegion = gcpVmProducts.GroupBy(p => p.Region);
+
+        foreach (var regionGroup in productsByRegion)
+        {
+            var region = regionGroup.Key;
+            var regionProducts = regionGroup.ToList();
+
+            // Find CPU and RAM pricing for standard machine families
+            var cpuProducts = regionProducts
+                .Where(p => p.Attributes.Any(a => a.Key == "resourceGroup" && a.Value == "CPU"))
+                .Where(p => p.Prices.Any(pr => pr.Unit == "hour"))
+                .ToList();
+
+            var ramProducts = regionProducts
+                .Where(p => p.Attributes.Any(a => a.Key == "resourceGroup" && a.Value == "RAM"))
+                .Where(p => p.Prices.Any(pr => pr.Unit == "gibibyte hour"))
+                .ToList();
+
+            // Extract machine families from CPU products (e.g., "N2", "E2", "C2")
+            var machineFamilies = new List<(string Family, decimal CpuPricePerHour, decimal RamPricePerGbHour)>();
+
+            foreach (var cpuProduct in cpuProducts)
+            {
+                var description = cpuProduct.Attributes.FirstOrDefault(a => a.Key == "description")?.Value ?? "";
+                var cpuPrice = cpuProduct.Prices.FirstOrDefault()?.Usd;
+                
+                if (cpuPrice == null || cpuPrice <= 0) continue;
+
+                // Extract machine family from description (e.g., "N2 Instance Core" -> "N2")
+                var familyMatch = GcpMachineFamilyRegex.Match(description);
+                if (!familyMatch.Success) continue;
+
+                var family = familyMatch.Groups[1].Value;
+
+                // Find matching RAM pricing
+                var ramDescPrefix = $"{family} Instance Ram";
+                var ramProduct = ramProducts.FirstOrDefault(p =>
+                {
+                    var ramDesc = p.Attributes.FirstOrDefault(a => a.Key == "description")?.Value ?? "";
+                    return ramDesc.StartsWith(ramDescPrefix, StringComparison.OrdinalIgnoreCase);
+                });
+
+                var ramPrice = ramProduct?.Prices.FirstOrDefault()?.Usd;
+                if (ramPrice == null || ramPrice <= 0) continue;
+
+                machineFamilies.Add((family, cpuPrice.Value, ramPrice.Value));
+            }
+
+            // Create synthetic VMs for each machine family using the cheapest option
+            if (machineFamilies.Any())
+            {
+                // Use the cheapest machine family for this region (based on reference Medium size)
+                var cheapestFamily = machineFamilies
+                    .OrderBy(f => (f.CpuPricePerHour * ReferenceCpuCount) + (f.RamPricePerGbHour * (decimal)ReferenceMemoryGb))
+                    .FirstOrDefault();
+
+                if (cheapestFamily != default)
+                {
+                    // Create VMs for different usage sizes using predefined configurations
+                    foreach (var config in VmSizeConfigurations)
+                    {
+                        var pricePerHour = CalculateGcpVmPricePerHour(config.VCpu, config.Memory, cheapestFamily.CpuPricePerHour, cheapestFamily.RamPricePerGbHour);
+                        
+                        result.ComputeInstances.Add(new NormalizedComputeInstanceDto
+                        {
+                            Category = ResourceCategory.Compute,
+                            SubCategory = ResourceSubCategory.VirtualMachines,
+                            Cloud = CloudProvider.GCP,
+                            InstanceName = $"{cheapestFamily.Family}-{config.VCpu}vCPU-{config.Memory}GB",
+                            Region = region,
+                            VCpu = config.VCpu,
+                            Memory = $"{config.Memory} GiB",
+                            PricePerHour = pricePerHour
+                        });
+                    }
+                }
+            }
+        }
+    }
+
+    private static decimal CalculateGcpVmPricePerHour(int vCpu, double memoryGb, decimal cpuPricePerHour, decimal ramPricePerGbHour)
+    {
+        return (vCpu * cpuPricePerHour) + ((decimal)memoryGb * ramPricePerGbHour);
     }
 }
