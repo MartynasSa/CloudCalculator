@@ -147,7 +147,7 @@ public class PriceProvider : IPriceProvider
                     var withSpecs = cloudGroup
                         .Where(i => i.VCpu != null && i.Memory != null)
                         .Where(i => (i.VCpu ?? 0) >= specs.MinCpu && 
-                                   (ResourceParsingUtils.ParseMemory(i.Memory) ?? 0) >= specs.MinMemory)
+                                    (ResourceParsingUtils.ParseMemory(i.Memory) ?? 0) >= specs.MinMemory)
                         .OrderBy(i => i.PricePerHour ?? decimal.MaxValue)
                         .FirstOrDefault();
 
