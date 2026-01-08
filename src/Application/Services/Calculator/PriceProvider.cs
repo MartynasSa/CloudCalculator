@@ -11,7 +11,14 @@ public interface IPriceProvider
 
 public class PriceProvider : IPriceProvider
 {
-    // Preferred database engines for cross-cloud comparison
+    /// <summary>
+    /// Preferred database engines for cross-cloud comparison.
+    /// PostgreSQL and MySQL are chosen because they are:
+    /// 1. Open-source and available on all major cloud providers (AWS, Azure, GCP)
+    /// 2. Have similar performance characteristics and pricing models across clouds
+    /// 3. Most comparable for fair cost analysis compared to proprietary engines
+    /// This preference ensures apples-to-apples pricing comparisons for database instances.
+    /// </summary>
     private static readonly HashSet<string> PreferredDatabaseEngines = new(StringComparer.OrdinalIgnoreCase)
     {
         "PostgreSQL",

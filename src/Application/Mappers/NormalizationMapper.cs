@@ -105,6 +105,7 @@ public static class NormalizationMapper
                 if (match.Success)
                 {
                     vcpuStr = match.Groups[1].Value;
+                    // GCP uses GB in descriptions which is approximately GiB for memory sizing
                     memory = $"{match.Groups[2].Value} GiB";
                 }
             }
@@ -317,7 +318,8 @@ public static class NormalizationMapper
             return price.Usd / 24m; // Convert daily to hourly
         }
 
-        // If unit contains "hour", it's already hourly
+        // Assume hourly pricing if unit contains "hour" or "Hrs"
+        // Other pricing units (per-request, per-GB, etc.) are handled by specific methods
         return price.Usd;
     }
 
