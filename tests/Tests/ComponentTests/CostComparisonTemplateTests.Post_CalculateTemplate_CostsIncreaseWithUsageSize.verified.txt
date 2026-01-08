@@ -17,7 +17,7 @@
   CloudCosts: [
     {
       CloudProvider: aws,
-      TotalMonthlyPrice: 88.0380,
+      TotalMonthlyPrice: 103.0380,
       CostDetails: [
         {
           Cost: 27.4480,
@@ -70,9 +70,9 @@
           ResourceDetails: null
         },
         {
-          Cost: 0.0,
+          Cost: 15.0,
           ResourceSubCategory: Monitoring,
-          ResourceDetails: {"MonitoringService":"AmazonCloudWatch","Region":"us-east-1","MetricType":"CW-Evidently","PricePerMonth":0,"Cloud":"aws","Category":"Management","SubCategory":"Monitoring"}
+          ResourceDetails: {"MonitoringService":"AmazonCloudWatch","Region":"us-east-1","MetricType":"Estimated Usage-Based Cost","PricePerMonth":15,"Cloud":"aws","Category":"Management","SubCategory":"Monitoring"}
         },
         {
           Cost: 0.0,
@@ -83,7 +83,7 @@
     },
     {
       CloudProvider: azure,
-      TotalMonthlyPrice: 47.222240,
+      TotalMonthlyPrice: 62.222240,
       CostDetails: [
         {
           Cost: 45.260,
@@ -136,9 +136,9 @@
           ResourceDetails: null
         },
         {
-          Cost: 0.0,
+          Cost: 15.0,
           ResourceSubCategory: Monitoring,
-          ResourceDetails: {"MonitoringService":"Azure Monitor","Region":"eastus","MetricType":"Free Benefit - Az Sentinel Trial Data Ingestion","PricePerMonth":0,"Cloud":"azure","Category":"Management","SubCategory":"Monitoring"}
+          ResourceDetails: {"MonitoringService":"Azure Monitor","Region":"eastus","MetricType":"Estimated Usage-Based Cost","PricePerMonth":15,"Cloud":"azure","Category":"Management","SubCategory":"Monitoring"}
         },
         {
           Cost: 0.0,
@@ -149,7 +149,7 @@
     },
     {
       CloudProvider: gcp,
-      TotalMonthlyPrice: 46.12140,
+      TotalMonthlyPrice: 61.12140,
       CostDetails: [
         {
           Cost: 36.77740,
@@ -202,9 +202,9 @@
           ResourceDetails: null
         },
         {
-          Cost: 0.0,
+          Cost: 15.0,
           ResourceSubCategory: Monitoring,
-          ResourceDetails: {"MonitoringService":"Cloud Logging","Region":"global","MetricType":"Logs","PricePerMonth":0,"Cloud":"gcp","Category":"Management","SubCategory":"Monitoring"}
+          ResourceDetails: {"MonitoringService":"Cloud Logging","Region":"global","MetricType":"Estimated Usage-Based Cost","PricePerMonth":15,"Cloud":"gcp","Category":"Management","SubCategory":"Monitoring"}
         },
         {
           Cost: 0.0,
