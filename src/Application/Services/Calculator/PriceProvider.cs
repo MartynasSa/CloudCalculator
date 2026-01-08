@@ -470,10 +470,18 @@ public class PriceProvider : IPriceProvider
         return result;
     }
 
+    private const string EstimatedMonitoringMetricType = "Estimated Usage-Based Cost";
+
     public Dictionary<UsageSize, List<NormalizedMonitoringDto>> GetMonitoring(
         List<NormalizedMonitoringDto> monitoring)
     {
         var result = new Dictionary<UsageSize, List<NormalizedMonitoringDto>>();
+
+        // Handle empty monitoring list gracefully
+        if (monitoring == null || monitoring.Count == 0)
+        {
+            return result;
+        }
 
         foreach (UsageSize usageSize in Enum.GetValues<UsageSize>())
         {
@@ -486,7 +494,7 @@ public class PriceProvider : IPriceProvider
                     decimal totalEstimatedCost = GetDefaultMonitoringCost(usageSize);
                     
                     // Return a representative monitoring item with the estimated monthly cost
-                    var representative = cloudGroup.FirstOrDefault() ?? throw new InvalidOperationException("No monitoring items found");
+                    var representative = cloudGroup.FirstOrDefault() ?? throw new InvalidOperationException($"No monitoring items found for cloud provider: {cloudGroup.Key}");
                     return new NormalizedMonitoringDto
                     {
                         Cloud = representative.Cloud,
@@ -494,7 +502,7 @@ public class PriceProvider : IPriceProvider
                         SubCategory = representative.SubCategory,
                         MonitoringService = representative.MonitoringService,
                         Region = representative.Region,
-                        MetricType = "Estimated Usage-Based Cost",
+                        MetricType = EstimatedMonitoringMetricType,
                         PricePerMonth = totalEstimatedCost
                     };
                 })
