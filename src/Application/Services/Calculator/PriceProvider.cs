@@ -114,7 +114,7 @@ public class PriceProvider : IPriceProvider
 
         foreach (UsageSize usageSize in Enum.GetValues<UsageSize>())
         {
-            var specs = GetVirtualMachineSpecs(usageSize);
+            var specs = GetResourceSpecs(usageSize);
 
             result[usageSize] = instances
                 .Where(i => (i.VCpu ?? 0) >= specs.MinCpu)
@@ -135,7 +135,7 @@ public class PriceProvider : IPriceProvider
 
         foreach (UsageSize usageSize in Enum.GetValues<UsageSize>())
         {
-            var specs = GetDatabaseSpecs(usageSize);
+            var specs = GetResourceSpecs(usageSize);
 
             // Group by cloud and select the best option for each
             result[usageSize] = databases
@@ -239,11 +239,7 @@ public class PriceProvider : IPriceProvider
         foreach (UsageSize usageSize in Enum.GetValues<UsageSize>())
         {
             // For blob storage, we select the cheapest option but the implied usage increases with size
-            result[usageSize] = blobStorage
-                .Where(s => s.SubCategory == ResourceSubCategory.BlobStorage)
-                .GroupBy(s => s.Cloud)
-                .Select(g => g.OrderBy(GetBlobStoragePriceScore).First())
-                .ToList();
+            result[usageSize] = GetBlobLikeResource(blobStorage, ResourceSubCategory.BlobStorage);
         }
 
         return result;
@@ -491,19 +487,7 @@ public class PriceProvider : IPriceProvider
         return result;
     }
 
-    private static (int MinCpu, double MinMemory) GetVirtualMachineSpecs(UsageSize usageSize)
-    {
-        return usageSize switch
-        {
-            UsageSize.Small => (2, 4),
-            UsageSize.Medium => (4, 8),
-            UsageSize.Large => (8, 16),
-            UsageSize.ExtraLarge => (16, 32),
-            _ => throw new ArgumentOutOfRangeException(nameof(usageSize)),
-        };
-    }
-
-    private static (int MinCpu, double MinMemory) GetDatabaseSpecs(UsageSize usageSize)
+    private static (int MinCpu, double MinMemory) GetResourceSpecs(UsageSize usageSize)
     {
         return usageSize switch
         {
