@@ -16,7 +16,7 @@ public class PriceProvider : IPriceProvider
         var result = new FilteredResourcesDto();
 
         var vmBySize = GetVm(categorizedResources.ComputeInstances);
-        var databaseBySize = GetDatabase(categorizedResources.Databases, 0, 0);
+        var databaseBySize = GetDatabase(categorizedResources.Databases);
         var cloudFunctionBySize = GetCloudFunction(categorizedResources.CloudFunctions);
         var kubernetsBySize = GetKubernetesCluster(categorizedResources.Kubernetes);
         var loadBalancerBySize = GetLoadBalancer(categorizedResources.LoadBalancers);
@@ -114,7 +114,7 @@ public class PriceProvider : IPriceProvider
 
         foreach (UsageSize usageSize in Enum.GetValues<UsageSize>())
         {
-            var specs = GetVirtualMachineSpecs(usageSize);
+            var specs = GetResourceSpecs(usageSize);
 
             result[usageSize] = instances
                 .Where(i => (i.VCpu ?? 0) >= specs.MinCpu)
@@ -129,20 +129,31 @@ public class PriceProvider : IPriceProvider
     }
 
     public Dictionary<UsageSize, List<NormalizedDatabaseDto>> GetDatabase(
-        List<NormalizedDatabaseDto> databases,
-        int minCpu,
-        double minMemory)
+        List<NormalizedDatabaseDto> databases)
     {
         var result = new Dictionary<UsageSize, List<NormalizedDatabaseDto>>();
 
         foreach (UsageSize usageSize in Enum.GetValues<UsageSize>())
         {
+            var specs = GetResourceSpecs(usageSize);
+
+            // Group by cloud and select the best option for each
             result[usageSize] = databases
-                .Where(i => (i.VCpu ?? 0) >= minCpu)
-                .Where(i => (ResourceParsingUtils.ParseMemory(i.Memory) ?? 0) >= minMemory)
                 .Where(i => (i.PricePerHour ?? 0m) > 0m)
                 .GroupBy(i => i.Cloud)
-                .Select(g => g.OrderBy(i => i.PricePerHour ?? decimal.MaxValue).First())
+                .Select(cloudGroup =>
+                {
+                    // Try to find databases that meet the specs
+                    var withSpecs = cloudGroup
+                        .Where(i => i.VCpu != null && i.Memory != null)
+                        .Where(i => (i.VCpu ?? 0) >= specs.MinCpu && 
+                                    (ResourceParsingUtils.ParseMemory(i.Memory) ?? 0) >= specs.MinMemory)
+                        .OrderBy(i => i.PricePerHour ?? decimal.MaxValue)
+                        .FirstOrDefault();
+
+                    // If we found one with specs, use it; otherwise fall back to cheapest available
+                    return withSpecs ?? cloudGroup.OrderBy(i => i.PricePerHour ?? decimal.MaxValue).First();
+                })
                 .ToList();
         }
 
@@ -156,6 +167,7 @@ public class PriceProvider : IPriceProvider
 
         foreach (UsageSize usageSize in Enum.GetValues<UsageSize>())
         {
+            // For cloud functions, we select the cheapest option but the implied usage increases with size
             result[usageSize] = cloudFunctions
                 .GroupBy(f => f.Cloud)
                 .Select(g => g.OrderBy(GetCloudFunctionPriceScore).First())
@@ -172,8 +184,11 @@ public class PriceProvider : IPriceProvider
 
         foreach (UsageSize usageSize in Enum.GetValues<UsageSize>())
         {
+            var priceThreshold = GetKubernetesPriceThreshold(usageSize);
+
             result[usageSize] = kubernetes
                 .Where(k => (k.PricePerHour ?? 0m) > 0m)
+                .Where(k => (k.PricePerHour ?? 0m) <= priceThreshold)
                 .GroupBy(k => k.Cloud)
                 .Select(g => g.OrderBy(k => k.PricePerHour ?? decimal.MaxValue).First())
                 .ToList();
@@ -189,9 +204,10 @@ public class PriceProvider : IPriceProvider
 
         foreach (UsageSize usageSize in Enum.GetValues<UsageSize>())
         {
+            // For load balancers, we select the cheapest option but the implied capacity increases with size
             result[usageSize] = loadBalancers
                 .GroupBy(lb => lb.Cloud)
-                .Select(g => g.First())
+                .Select(g => g.OrderBy(lb => lb.PricePerMonth ?? decimal.MaxValue).First())
                 .ToList();
         }
 
@@ -205,6 +221,7 @@ public class PriceProvider : IPriceProvider
 
         foreach (UsageSize usageSize in Enum.GetValues<UsageSize>())
         {
+            // For API gateways, we select the cheapest option but the implied usage increases with size
             result[usageSize] = apiGateways
                 .GroupBy(g => g.Cloud)
                 .Select(grp => grp.OrderBy(GetApiGatewayPriceScore).First())
@@ -221,6 +238,7 @@ public class PriceProvider : IPriceProvider
 
         foreach (UsageSize usageSize in Enum.GetValues<UsageSize>())
         {
+            // For blob storage, we select the cheapest option but the implied usage increases with size
             result[usageSize] = GetBlobLikeResource(blobStorage, ResourceSubCategory.BlobStorage);
         }
 
@@ -459,16 +477,17 @@ public class PriceProvider : IPriceProvider
 
         foreach (UsageSize usageSize in Enum.GetValues<UsageSize>())
         {
+            // For monitoring, we select the cheapest option but the implied monitoring needs increase with size
             result[usageSize] = monitoring
                 .GroupBy(m => m.Cloud)
-                .Select(g => g.First())
+                .Select(g => g.OrderBy(m => m.PricePerMonth ?? decimal.MaxValue).First())
                 .ToList();
         }
 
         return result;
     }
 
-    private static (int MinCpu, double MinMemory) GetVirtualMachineSpecs(UsageSize usageSize)
+    private static (int MinCpu, double MinMemory) GetResourceSpecs(UsageSize usageSize)
     {
         return usageSize switch
         {
@@ -476,6 +495,18 @@ public class PriceProvider : IPriceProvider
             UsageSize.Medium => (4, 8),
             UsageSize.Large => (8, 16),
             UsageSize.ExtraLarge => (16, 32),
+            _ => throw new ArgumentOutOfRangeException(nameof(usageSize)),
+        };
+    }
+
+    private static decimal GetKubernetesPriceThreshold(UsageSize usageSize)
+    {
+        return usageSize switch
+        {
+            UsageSize.Small => 0.2m,      // Up to $0.20/hour for small workloads
+            UsageSize.Medium => 0.5m,     // Up to $0.50/hour for medium workloads
+            UsageSize.Large => 1.0m,      // Up to $1.00/hour for large workloads
+            UsageSize.ExtraLarge => decimal.MaxValue, // No limit for extra large
             _ => throw new ArgumentOutOfRangeException(nameof(usageSize)),
         };
     }
