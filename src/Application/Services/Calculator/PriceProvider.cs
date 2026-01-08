@@ -527,66 +527,6 @@ public class PriceProvider : IPriceProvider
         };
     }
 
-    private static decimal GetCloudFunctionPriceMultiplier(UsageSize usageSize)
-    {
-        return usageSize switch
-        {
-            UsageSize.Small => 1.0m,      // Base pricing
-            UsageSize.Medium => 2.0m,     // 2x capacity/requests
-            UsageSize.Large => 5.0m,      // 5x capacity/requests
-            UsageSize.ExtraLarge => 10.0m, // 10x capacity/requests
-            _ => throw new ArgumentOutOfRangeException(nameof(usageSize)),
-        };
-    }
-
-    private static decimal GetLoadBalancerPriceMultiplier(UsageSize usageSize)
-    {
-        return usageSize switch
-        {
-            UsageSize.Small => 1.0m,      // Base capacity
-            UsageSize.Medium => 1.5m,     // 1.5x capacity
-            UsageSize.Large => 2.5m,      // 2.5x capacity
-            UsageSize.ExtraLarge => 4.0m, // 4x capacity
-            _ => throw new ArgumentOutOfRangeException(nameof(usageSize)),
-        };
-    }
-
-    private static decimal GetApiGatewayPriceMultiplier(UsageSize usageSize)
-    {
-        return usageSize switch
-        {
-            UsageSize.Small => 1.0m,      // Base requests/throughput
-            UsageSize.Medium => 2.0m,     // 2x requests/throughput
-            UsageSize.Large => 5.0m,      // 5x requests/throughput
-            UsageSize.ExtraLarge => 10.0m, // 10x requests/throughput
-            _ => throw new ArgumentOutOfRangeException(nameof(usageSize)),
-        };
-    }
-
-    private static decimal GetBlobStoragePriceMultiplier(UsageSize usageSize)
-    {
-        return usageSize switch
-        {
-            UsageSize.Small => 1.0m,      // Base storage size
-            UsageSize.Medium => 2.0m,     // 2x storage size
-            UsageSize.Large => 5.0m,      // 5x storage size
-            UsageSize.ExtraLarge => 10.0m, // 10x storage size
-            _ => throw new ArgumentOutOfRangeException(nameof(usageSize)),
-        };
-    }
-
-    private static decimal GetMonitoringPriceMultiplier(UsageSize usageSize)
-    {
-        return usageSize switch
-        {
-            UsageSize.Small => 1.0m,      // Base monitoring - fewer metrics/logs
-            UsageSize.Medium => 2.5m,     // 2.5x monitoring - more resources to monitor
-            UsageSize.Large => 5.0m,      // 5x monitoring - many resources and metrics
-            UsageSize.ExtraLarge => 10.0m, // 10x monitoring - extensive monitoring needs
-            _ => throw new ArgumentOutOfRangeException(nameof(usageSize)),
-        };
-    }
-
     private static List<NormalizedResourceDto> GetGenericResource(
         IEnumerable<NormalizedResourceDto> resources,
         ResourceSubCategory subCategory)
