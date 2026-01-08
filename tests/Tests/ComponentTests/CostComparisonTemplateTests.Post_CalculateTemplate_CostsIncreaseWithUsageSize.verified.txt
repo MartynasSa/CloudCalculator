@@ -148,12 +148,12 @@
     },
     {
       CloudProvider: gcp,
-      TotalMonthlyPrice: 193.3040,
+      TotalMonthlyPrice: 228.62140,
       CostDetails: [
         {
-          Cost: 0.0,
+          Cost: 36.77740,
           ResourceSubCategory: VirtualMachines,
-          ResourceDetails: null
+          ResourceDetails: {"InstanceName":"A3Ultra-2vCPU-4GB","Region":"us-east1","VCpu":2,"Memory":"4 GiB","PricePerHour":0.05038,"Cloud":"gcp","Category":"Compute","SubCategory":"VirtualMachines"}
         },
         {
           Cost: 3.5040,
@@ -181,9 +181,9 @@
           ResourceDetails: null
         },
         {
-          Cost: 7.30,
+          Cost: 5.840,
           ResourceSubCategory: LoadBalancer,
-          ResourceDetails: {"Name":"Compute Engine","PricePerMonth":7.30,"Cloud":"gcp","Category":"Networking","SubCategory":"LoadBalancer"}
+          ResourceDetails: {"Name":"Compute Engine","PricePerMonth":5.840,"Cloud":"gcp","Category":"Networking","SubCategory":"LoadBalancer"}
         },
         {
           Cost: 0.0,

@@ -11,7 +11,7 @@ public class TemplateDto
 public class CalculationRequest
 {
     public List<ResourceSubCategory> Resources { get; set; } = new();
-    public UsageSize Usage { get; set; }
+    public UsageSize Usage { get; set; } = UsageSize.Medium;
 }
 
 public class CalculateTemplateRequest

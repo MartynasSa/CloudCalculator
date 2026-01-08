@@ -71,7 +71,7 @@
     },
     {
       CloudProvider: gcp,
-      TotalMonthlyPrice: 189.80,
+      TotalMonthlyPrice: 188.340,
       CostDetails: [
         {
           Cost: 0.0,
@@ -89,9 +89,9 @@
           ResourceDetails: null
         },
         {
-          Cost: 7.30,
+          Cost: 5.840,
           ResourceSubCategory: LoadBalancer,
-          ResourceDetails: {"Name":"Compute Engine","PricePerMonth":7.30,"Cloud":"gcp","Category":"Networking","SubCategory":"LoadBalancer"}
+          ResourceDetails: {"Name":"Compute Engine","PricePerMonth":5.840,"Cloud":"gcp","Category":"Networking","SubCategory":"LoadBalancer"}
         },
         {
           Cost: 182.50,
