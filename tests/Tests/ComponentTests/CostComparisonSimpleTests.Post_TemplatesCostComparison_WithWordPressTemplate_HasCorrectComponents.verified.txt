@@ -8,7 +8,7 @@
   CloudCosts: [
     {
       CloudProvider: aws,
-      TotalMonthlyPrice: 419.020,
+      TotalMonthlyPrice: 643.860,
       CostDetails: [
         {
           Cost: 194.180,
@@ -16,9 +16,9 @@
           ResourceDetails: {"InstanceName":"c5d.2xlarge","Region":"us-east-1","VCpu":8,"Memory":"16 GiB","PricePerHour":0.266,"Cloud":"aws","Category":"Compute","SubCategory":"VirtualMachines"}
         },
         {
-          Cost: 219.0,
+          Cost: 443.840,
           ResourceSubCategory: Relational,
-          ResourceDetails: {"InstanceName":"db.m5.2xlarge","Region":"us-east-1","DatabaseEngine":"MySQL (on-premise for Outpost)","VCpu":8,"Memory":"32 GiB","PricePerHour":0.3,"Cloud":"aws","Category":"Database","SubCategory":"Relational"}
+          ResourceDetails: {"InstanceName":"db.m6g.2xlarge","Region":"us-east-1","DatabaseEngine":"MySQL","VCpu":8,"Memory":"32 GiB","PricePerHour":0.608,"Cloud":"aws","Category":"Database","SubCategory":"Relational"}
         },
         {
           Cost: 5.840,
@@ -29,7 +29,7 @@
     },
     {
       CloudProvider: azure,
-      TotalMonthlyPrice: 183.002240,
+      TotalMonthlyPrice: 182.408750,
       CostDetails: [
         {
           Cost: 181.040,
@@ -37,9 +37,9 @@
           ResourceDetails: {"InstanceName":"Standard_D8pls_v6","Region":"eastus","VCpu":8,"Memory":"16","PricePerHour":0.248,"Cloud":"azure","Category":"Compute","SubCategory":"VirtualMachines"}
         },
         {
-          Cost: 1.962240,
+          Cost: 1.368750,
           ResourceSubCategory: Relational,
-          ResourceDetails: {"InstanceName":"Azure Cosmos DB","Region":"eastus","DatabaseEngine":null,"VCpu":null,"Memory":null,"PricePerHour":0.002688,"Cloud":"azure","Category":"Database","SubCategory":"NoSQL"}
+          ResourceDetails: {"InstanceName":"SQL Database","Region":"eastus","DatabaseEngine":"SQL Server","VCpu":null,"Memory":null,"PricePerHour":0.001875,"Cloud":"azure","Category":"Database","SubCategory":"Relational"}
         },
         {
           Cost: 0.0,
@@ -50,7 +50,7 @@
     },
     {
       CloudProvider: gcp,
-      TotalMonthlyPrice: 156.45360,
+      TotalMonthlyPrice: 547.44160,
       CostDetails: [
         {
           Cost: 147.10960,
@@ -58,9 +58,9 @@
           ResourceDetails: {"InstanceName":"A3Ultra-8vCPU-16GB","Region":"us-east1","VCpu":8,"Memory":"16 GiB","PricePerHour":0.20152,"Cloud":"gcp","Category":"Compute","SubCategory":"VirtualMachines"}
         },
         {
-          Cost: 3.5040,
+          Cost: 394.4920,
           ResourceSubCategory: Relational,
-          ResourceDetails: {"InstanceName":"Cloud SQL","Region":"us-east1","DatabaseEngine":null,"VCpu":null,"Memory":null,"PricePerHour":0.0048,"Cloud":"gcp","Category":"Database","SubCategory":"Relational"}
+          ResourceDetails: {"InstanceName":"Cloud SQL","Region":"us-east1","DatabaseEngine":"MySQL","VCpu":8,"Memory":"30 GiB","PricePerHour":0.5404,"Cloud":"gcp","Category":"Database","SubCategory":"Relational"}
         },
         {
           Cost: 5.840,
