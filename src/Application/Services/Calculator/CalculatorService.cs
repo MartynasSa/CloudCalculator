@@ -26,7 +26,10 @@ public class CalculatorService(IResourceNormalizationService resourceNormalizati
     public Task<TemplateCostComparisonResultDto> CalculateCostComparisonsAsync(CalculateTemplateRequest templateDto, CancellationToken ct = default)
     {
         var template = templateService.GetTemplate(templateDto.Template, templateDto.Usage);
-        return CalculateCostComparisonsAsync(new CalculationRequest() { Resources = template.Resources, Usage = templateDto.Usage }, ct);
+        return CalculateCostComparisonsAsync(new CalculationRequest() { 
+            Resources = template.Resources, 
+            Usage = templateDto.Usage 
+        }, ct);
     }
 
     public async Task<TemplateCostComparisonResultDto> CalculateCostComparisonsAsync(CalculationRequest template, CancellationToken ct = default)
@@ -35,7 +38,8 @@ public class CalculatorService(IResourceNormalizationService resourceNormalizati
         var result = new TemplateCostComparisonResultDto
         {
             Resources = template.Resources,
-            CloudCosts = new List<TemplateCostComparisonResultCloudProviderDto>()
+            CloudCosts = new List<TemplateCostComparisonResultCloudProviderDto>(),
+            Usage = template.Usage
         };
 
         var cloudProviders = new[] { CloudProvider.AWS, CloudProvider.Azure, CloudProvider.GCP };
@@ -65,7 +69,7 @@ public class CalculatorService(IResourceNormalizationService resourceNormalizati
             {
                 CloudProvider = cloudProvider,
                 TotalMonthlyPrice = totalCost,
-                CostDetails = costDetails
+                CostDetails = costDetails,
             });
         }
 

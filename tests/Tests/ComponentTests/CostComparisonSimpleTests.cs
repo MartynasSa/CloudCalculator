@@ -22,6 +22,7 @@ public class CostComparisonSimpleTests(WebApplicationFactory<Program> factory) :
         // Arrange
         var request = new CalculationRequest
         {
+            Usage = UsageSize.Medium,
             Resources = [ResourceSubCategory.VirtualMachines, ResourceSubCategory.Relational, ResourceSubCategory.LoadBalancer, ResourceSubCategory.Monitoring]
         };
         var json = JsonSerializer.Serialize(request, JsonOptions);
@@ -45,6 +46,7 @@ public class CostComparisonSimpleTests(WebApplicationFactory<Program> factory) :
         // Arrange
         var request = new CalculationRequest
         {
+            Usage = UsageSize.Medium,
             Resources = [ResourceSubCategory.VirtualMachines, ResourceSubCategory.Relational, ResourceSubCategory.LoadBalancer, ResourceSubCategory.Monitoring]
         };
         var json = JsonSerializer.Serialize(request, JsonOptions);
@@ -68,6 +70,7 @@ public class CostComparisonSimpleTests(WebApplicationFactory<Program> factory) :
         // Arrange
         var request = new CalculationRequest
         {
+            Usage = UsageSize.Medium,
             Resources = [ResourceSubCategory.VirtualMachines, ResourceSubCategory.Relational, ResourceSubCategory.LoadBalancer, ResourceSubCategory.Monitoring]
         };
         var json = JsonSerializer.Serialize(request, JsonOptions);
@@ -91,6 +94,7 @@ public class CostComparisonSimpleTests(WebApplicationFactory<Program> factory) :
         // Arrange
         var request = new CalculationRequest
         {
+            Usage = UsageSize.Medium,
             Resources = []
         };
         var json = JsonSerializer.Serialize(request, JsonOptions);
@@ -114,6 +118,7 @@ public class CostComparisonSimpleTests(WebApplicationFactory<Program> factory) :
         // Arrange
         var request = new CalculationRequest
         {
+            Usage = UsageSize.Small,
             Resources = [ResourceSubCategory.LoadBalancer]
         };
         var json = JsonSerializer.Serialize(request, JsonOptions);
@@ -150,6 +155,7 @@ public class CostComparisonSimpleTests(WebApplicationFactory<Program> factory) :
         // Arrange
         var request = new CalculationRequest
         {
+            Usage = UsageSize.Medium,
             Resources = [ResourceSubCategory.VirtualMachines, ResourceSubCategory.Relational, ResourceSubCategory.LoadBalancer, ResourceSubCategory.Monitoring]
         };
         var json = JsonSerializer.Serialize(request, JsonOptions);
@@ -173,6 +179,7 @@ public class CostComparisonSimpleTests(WebApplicationFactory<Program> factory) :
         // Arrange
         var request = new CalculationRequest
         {
+            Usage = UsageSize.Large,
             Resources = [ResourceSubCategory.VirtualMachines, ResourceSubCategory.Relational, ResourceSubCategory.LoadBalancer]
         };
         var json = JsonSerializer.Serialize(request, JsonOptions);
@@ -196,6 +203,7 @@ public class CostComparisonSimpleTests(WebApplicationFactory<Program> factory) :
         // Arrange
         var request = new CalculationRequest
         {
+            Usage = UsageSize.Medium,
             Resources = [ResourceSubCategory.VirtualMachines, ResourceSubCategory.LoadBalancer, ResourceSubCategory.Monitoring]
         };
         var json = JsonSerializer.Serialize(request, JsonOptions);

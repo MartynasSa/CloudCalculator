@@ -1,16 +1,17 @@
 ﻿{
+  Usage: small,
   Resources: [
     LoadBalancer
   ],
   CloudCosts: [
     {
       CloudProvider: aws,
-      TotalMonthlyPrice: 0.0,
+      TotalMonthlyPrice: 5.840,
       CostDetails: [
         {
-          Cost: 0.0,
+          Cost: 5.840,
           ResourceSubCategory: LoadBalancer,
-          ResourceDetails: null
+          ResourceDetails: {"Name":"ELB:Balancing","PricePerMonth":5.840,"Cloud":"aws","Category":"Networking","SubCategory":"LoadBalancer"}
         }
       ]
     },
@@ -21,18 +22,18 @@
         {
           Cost: 0.0,
           ResourceSubCategory: LoadBalancer,
-          ResourceDetails: null
+          ResourceDetails: {"Name":"Load Balancer","PricePerMonth":0.0,"Cloud":"azure","Category":"Networking","SubCategory":"LoadBalancer"}
         }
       ]
     },
     {
       CloudProvider: gcp,
-      TotalMonthlyPrice: 0.0,
+      TotalMonthlyPrice: 7.30,
       CostDetails: [
         {
-          Cost: 0.0,
+          Cost: 7.30,
           ResourceSubCategory: LoadBalancer,
-          ResourceDetails: null
+          ResourceDetails: {"Name":"Compute Engine","PricePerMonth":7.30,"Cloud":"gcp","Category":"Networking","SubCategory":"LoadBalancer"}
         }
       ]
     }

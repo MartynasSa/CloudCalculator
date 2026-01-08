@@ -1,4 +1,5 @@
 ﻿{
+  Usage: small,
   Resources: [
     VirtualMachines,
     Relational,
@@ -148,12 +149,12 @@
     },
     {
       CloudProvider: gcp,
-      TotalMonthlyPrice: 193.3040,
+      TotalMonthlyPrice: 230.08140,
       CostDetails: [
         {
-          Cost: 0.0,
+          Cost: 36.77740,
           ResourceSubCategory: VirtualMachines,
-          ResourceDetails: null
+          ResourceDetails: {"InstanceName":"A3Ultra-2vCPU-4GB","Region":"us-east1","VCpu":2,"Memory":"4 GiB","PricePerHour":0.05038,"Cloud":"gcp","Category":"Compute","SubCategory":"VirtualMachines"}
         },
         {
           Cost: 3.5040,

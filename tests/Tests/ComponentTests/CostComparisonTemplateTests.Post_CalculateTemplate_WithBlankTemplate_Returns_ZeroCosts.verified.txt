@@ -1,4 +1,5 @@
 ﻿{
+  Usage: small,
   Resources: null,
   CloudCosts: [
     {

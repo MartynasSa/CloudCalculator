@@ -1,4 +1,5 @@
 ﻿{
+  Usage: medium,
   Resources: [
     VirtualMachines,
     LoadBalancer,
@@ -7,64 +8,64 @@
   CloudCosts: [
     {
       CloudProvider: aws,
-      TotalMonthlyPrice: 0.0,
+      TotalMonthlyPrice: 106.580,
       CostDetails: [
         {
-          Cost: 0.0,
+          Cost: 93.440,
           ResourceSubCategory: VirtualMachines,
-          ResourceDetails: null
+          ResourceDetails: {"InstanceName":"c5.xlarge","Region":"us-east-1","VCpu":4,"Memory":"8 GiB","PricePerHour":0.128,"Cloud":"aws","Category":"Compute","SubCategory":"VirtualMachines"}
         },
         {
-          Cost: 0.0,
+          Cost: 5.840,
           ResourceSubCategory: LoadBalancer,
-          ResourceDetails: null
+          ResourceDetails: {"Name":"ELB:Balancing","PricePerMonth":5.840,"Cloud":"aws","Category":"Networking","SubCategory":"LoadBalancer"}
         },
         {
-          Cost: 0.0,
+          Cost: 7.30,
           ResourceSubCategory: Monitoring,
-          ResourceDetails: null
+          ResourceDetails: {"MonitoringService":"AmazonCloudWatch","Region":"us-east-1","MetricType":"CW-InternetMonitor","PricePerMonth":7.30,"Cloud":"aws","Category":"Management","SubCategory":"Monitoring"}
         }
       ]
     },
     {
       CloudProvider: azure,
-      TotalMonthlyPrice: 0.0,
+      TotalMonthlyPrice: 171.0390,
       CostDetails: [
         {
-          Cost: 0.0,
+          Cost: 111.690,
           ResourceSubCategory: VirtualMachines,
-          ResourceDetails: null
+          ResourceDetails: {"InstanceName":"Standard_B4ps_v2","Region":"eastus","VCpu":4,"Memory":"16","PricePerHour":0.153,"Cloud":"azure","Category":"Compute","SubCategory":"VirtualMachines"}
         },
         {
           Cost: 0.0,
           ResourceSubCategory: LoadBalancer,
-          ResourceDetails: null
+          ResourceDetails: {"Name":"Load Balancer","PricePerMonth":0.0,"Cloud":"azure","Category":"Networking","SubCategory":"LoadBalancer"}
         },
         {
-          Cost: 0.0,
+          Cost: 59.3490,
           ResourceSubCategory: Monitoring,
-          ResourceDetails: null
+          ResourceDetails: {"MonitoringService":"Azure Monitor","Region":"eastus","MetricType":"SMS Country Code 234 Notifications","PricePerMonth":59.3490,"Cloud":"azure","Category":"Management","SubCategory":"Monitoring"}
         }
       ]
     },
     {
       CloudProvider: gcp,
-      TotalMonthlyPrice: 0.0,
+      TotalMonthlyPrice: 263.35480,
       CostDetails: [
         {
-          Cost: 0.0,
+          Cost: 73.55480,
           ResourceSubCategory: VirtualMachines,
-          ResourceDetails: null
+          ResourceDetails: {"InstanceName":"A3Ultra-4vCPU-8GB","Region":"us-east1","VCpu":4,"Memory":"8 GiB","PricePerHour":0.10076,"Cloud":"gcp","Category":"Compute","SubCategory":"VirtualMachines"}
         },
         {
-          Cost: 0.0,
+          Cost: 7.30,
           ResourceSubCategory: LoadBalancer,
-          ResourceDetails: null
+          ResourceDetails: {"Name":"Compute Engine","PricePerMonth":7.30,"Cloud":"gcp","Category":"Networking","SubCategory":"LoadBalancer"}
         },
         {
-          Cost: 0.0,
+          Cost: 182.50,
           ResourceSubCategory: Monitoring,
-          ResourceDetails: null
+          ResourceDetails: {"MonitoringService":"Cloud Logging","Region":"global","MetricType":"Logs","PricePerMonth":182.50,"Cloud":"gcp","Category":"Management","SubCategory":"Monitoring"}
         }
       ]
     }

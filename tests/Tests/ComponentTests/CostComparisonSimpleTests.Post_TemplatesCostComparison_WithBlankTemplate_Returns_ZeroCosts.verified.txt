@@ -1,4 +1,5 @@
 ﻿{
+  Usage: medium,
   Resources: null,
   CloudCosts: [
     {
