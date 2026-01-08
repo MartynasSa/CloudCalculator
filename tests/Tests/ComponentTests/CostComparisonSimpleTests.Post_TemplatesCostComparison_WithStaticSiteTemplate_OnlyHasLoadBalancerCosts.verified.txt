@@ -28,12 +28,12 @@
     },
     {
       CloudProvider: gcp,
-      TotalMonthlyPrice: 7.30,
+      TotalMonthlyPrice: 5.840,
       CostDetails: [
         {
-          Cost: 7.30,
+          Cost: 5.840,
           ResourceSubCategory: LoadBalancer,
-          ResourceDetails: {"Name":"Compute Engine","PricePerMonth":7.30,"Cloud":"gcp","Category":"Networking","SubCategory":"LoadBalancer"}
+          ResourceDetails: {"Name":"Compute Engine","PricePerMonth":5.840,"Cloud":"gcp","Category":"Networking","SubCategory":"LoadBalancer"}
         }
       ]
     }

@@ -8,7 +8,7 @@
   CloudCosts: [
     {
       CloudProvider: aws,
-      TotalMonthlyPrice: 200.0200730,
+      TotalMonthlyPrice: 419.020,
       CostDetails: [
         {
           Cost: 194.180,
@@ -16,9 +16,9 @@
           ResourceDetails: {"InstanceName":"c5d.2xlarge","Region":"us-east-1","VCpu":8,"Memory":"16 GiB","PricePerHour":0.266,"Cloud":"aws","Category":"Compute","SubCategory":"VirtualMachines"}
         },
         {
-          Cost: 0.0000730,
+          Cost: 219.0,
           ResourceSubCategory: Relational,
-          ResourceDetails: {"InstanceName":"AmazonDynamoDB","Region":"us-east-1","DatabaseEngine":null,"VCpu":null,"Memory":null,"PricePerHour":0.0000001,"Cloud":"aws","Category":"Database","SubCategory":"NoSQL"}
+          ResourceDetails: {"InstanceName":"db.m5.2xlarge","Region":"us-east-1","DatabaseEngine":"MySQL (on-premise for Outpost)","VCpu":8,"Memory":"32 GiB","PricePerHour":0.3,"Cloud":"aws","Category":"Database","SubCategory":"Relational"}
         },
         {
           Cost: 5.840,
@@ -50,7 +50,7 @@
     },
     {
       CloudProvider: gcp,
-      TotalMonthlyPrice: 157.91360,
+      TotalMonthlyPrice: 156.45360,
       CostDetails: [
         {
           Cost: 147.10960,
@@ -63,9 +63,9 @@
           ResourceDetails: {"InstanceName":"Cloud SQL","Region":"us-east1","DatabaseEngine":null,"VCpu":null,"Memory":null,"PricePerHour":0.0048,"Cloud":"gcp","Category":"Database","SubCategory":"Relational"}
         },
         {
-          Cost: 7.30,
+          Cost: 5.840,
           ResourceSubCategory: LoadBalancer,
-          ResourceDetails: {"Name":"Compute Engine","PricePerMonth":7.30,"Cloud":"gcp","Category":"Networking","SubCategory":"LoadBalancer"}
+          ResourceDetails: {"Name":"Compute Engine","PricePerMonth":5.840,"Cloud":"gcp","Category":"Networking","SubCategory":"LoadBalancer"}
         }
       ]
     }

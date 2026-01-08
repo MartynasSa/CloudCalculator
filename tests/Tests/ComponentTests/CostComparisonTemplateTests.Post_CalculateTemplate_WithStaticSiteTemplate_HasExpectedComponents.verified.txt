@@ -10,7 +10,7 @@
   CloudCosts: [
     {
       CloudProvider: aws,
-      TotalMonthlyPrice: 13.140,
+      TotalMonthlyPrice: 5.840,
       CostDetails: [
         {
           Cost: 0.0,
@@ -33,15 +33,15 @@
           ResourceDetails: {"Name":"ELB:Balancing","PricePerMonth":5.840,"Cloud":"aws","Category":"Networking","SubCategory":"LoadBalancer"}
         },
         {
-          Cost: 7.30,
+          Cost: 0.0,
           ResourceSubCategory: Monitoring,
-          ResourceDetails: {"MonitoringService":"AmazonCloudWatch","Region":"us-east-1","MetricType":"CW-InternetMonitor","PricePerMonth":7.30,"Cloud":"aws","Category":"Management","SubCategory":"Monitoring"}
+          ResourceDetails: {"MonitoringService":"AmazonCloudWatch","Region":"us-east-1","MetricType":"CW-Evidently","PricePerMonth":0,"Cloud":"aws","Category":"Management","SubCategory":"Monitoring"}
         }
       ]
     },
     {
       CloudProvider: azure,
-      TotalMonthlyPrice: 59.3490,
+      TotalMonthlyPrice: 0.0,
       CostDetails: [
         {
           Cost: 0.0,
@@ -64,15 +64,15 @@
           ResourceDetails: {"Name":"Load Balancer","PricePerMonth":0.0,"Cloud":"azure","Category":"Networking","SubCategory":"LoadBalancer"}
         },
         {
-          Cost: 59.3490,
+          Cost: 0.0,
           ResourceSubCategory: Monitoring,
-          ResourceDetails: {"MonitoringService":"Azure Monitor","Region":"eastus","MetricType":"SMS Country Code 234 Notifications","PricePerMonth":59.3490,"Cloud":"azure","Category":"Management","SubCategory":"Monitoring"}
+          ResourceDetails: {"MonitoringService":"Azure Monitor","Region":"eastus","MetricType":"Free Benefit - Az Sentinel Trial Data Ingestion","PricePerMonth":0,"Cloud":"azure","Category":"Management","SubCategory":"Monitoring"}
         }
       ]
     },
     {
       CloudProvider: gcp,
-      TotalMonthlyPrice: 189.80,
+      TotalMonthlyPrice: 5.840,
       CostDetails: [
         {
           Cost: 0.0,
@@ -90,14 +90,14 @@
           ResourceDetails: null
         },
         {
-          Cost: 7.30,
+          Cost: 5.840,
           ResourceSubCategory: LoadBalancer,
-          ResourceDetails: {"Name":"Compute Engine","PricePerMonth":7.30,"Cloud":"gcp","Category":"Networking","SubCategory":"LoadBalancer"}
+          ResourceDetails: {"Name":"Compute Engine","PricePerMonth":5.840,"Cloud":"gcp","Category":"Networking","SubCategory":"LoadBalancer"}
         },
         {
-          Cost: 182.50,
+          Cost: 0.0,
           ResourceSubCategory: Monitoring,
-          ResourceDetails: {"MonitoringService":"Cloud Logging","Region":"global","MetricType":"Logs","PricePerMonth":182.50,"Cloud":"gcp","Category":"Management","SubCategory":"Monitoring"}
+          ResourceDetails: {"MonitoringService":"Cloud Logging","Region":"global","MetricType":"Logs","PricePerMonth":0,"Cloud":"gcp","Category":"Management","SubCategory":"Monitoring"}
         }
       ]
     }
