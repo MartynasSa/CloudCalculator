@@ -470,21 +470,63 @@ public class PriceProvider : IPriceProvider
         return result;
     }
 
+    private const string EstimatedMonitoringMetricType = "Estimated Usage-Based Cost";
+
     public Dictionary<UsageSize, List<NormalizedMonitoringDto>> GetMonitoring(
         List<NormalizedMonitoringDto> monitoring)
     {
         var result = new Dictionary<UsageSize, List<NormalizedMonitoringDto>>();
 
+        // Handle empty monitoring list gracefully
+        if (monitoring == null || monitoring.Count == 0)
+        {
+            return result;
+        }
+
         foreach (UsageSize usageSize in Enum.GetValues<UsageSize>())
         {
-            // For monitoring, we select the cheapest option but the implied monitoring needs increase with size
-            result[usageSize] = monitoring
+            // Calculate estimated monthly cost based on usage patterns
+            var estimatedCosts = monitoring
                 .GroupBy(m => m.Cloud)
-                .Select(g => g.OrderBy(m => m.PricePerMonth ?? decimal.MaxValue).First())
+                .Select(cloudGroup =>
+                {
+                    // Calculate total estimated cost for this cloud provider and usage size
+                    decimal totalEstimatedCost = GetDefaultMonitoringCost(usageSize);
+                    
+                    // Return a representative monitoring item with the estimated monthly cost
+                    var representative = cloudGroup.FirstOrDefault() ?? throw new InvalidOperationException($"No monitoring items found for cloud provider: {cloudGroup.Key}");
+                    return new NormalizedMonitoringDto
+                    {
+                        Cloud = representative.Cloud,
+                        Category = representative.Category,
+                        SubCategory = representative.SubCategory,
+                        MonitoringService = representative.MonitoringService,
+                        Region = representative.Region,
+                        MetricType = EstimatedMonitoringMetricType,
+                        PricePerMonth = totalEstimatedCost
+                    };
+                })
                 .ToList();
+
+            result[usageSize] = estimatedCosts;
         }
 
         return result;
+    }
+
+    private static decimal GetDefaultMonitoringCost(UsageSize usageSize)
+    {
+        // Estimated costs based on typical monitoring usage patterns
+        // These costs are reasonable across AWS CloudWatch, Azure Monitor, and GCP Cloud Logging
+        // and scale with infrastructure usage size
+        return usageSize switch
+        {
+            UsageSize.Small => 15m,       // $15/month - basic logs, metrics, and alerts
+            UsageSize.Medium => 50m,      // $50/month - moderate logs, metrics, and alerts  
+            UsageSize.Large => 150m,      // $150/month - high-volume logs, metrics, and alerts
+            UsageSize.ExtraLarge => 350m, // $350/month - enterprise-scale monitoring
+            _ => 15m
+        };
     }
 
     private static (int MinCpu, double MinMemory) GetResourceSpecs(UsageSize usageSize)
