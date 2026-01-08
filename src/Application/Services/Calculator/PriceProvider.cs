@@ -137,12 +137,23 @@ public class PriceProvider : IPriceProvider
         {
             var specs = GetDatabaseSpecs(usageSize);
 
+            // Group by cloud and select the best option for each
             result[usageSize] = databases
-                .Where(i => (i.VCpu ?? 0) >= specs.MinCpu)
-                .Where(i => (ResourceParsingUtils.ParseMemory(i.Memory) ?? 0) >= specs.MinMemory)
                 .Where(i => (i.PricePerHour ?? 0m) > 0m)
                 .GroupBy(i => i.Cloud)
-                .Select(g => g.OrderBy(i => i.PricePerHour ?? decimal.MaxValue).First())
+                .Select(cloudGroup =>
+                {
+                    // Try to find databases that meet the specs
+                    var withSpecs = cloudGroup
+                        .Where(i => i.VCpu != null && i.Memory != null)
+                        .Where(i => (i.VCpu ?? 0) >= specs.MinCpu && 
+                                   (ResourceParsingUtils.ParseMemory(i.Memory) ?? 0) >= specs.MinMemory)
+                        .OrderBy(i => i.PricePerHour ?? decimal.MaxValue)
+                        .FirstOrDefault();
+
+                    // If we found one with specs, use it; otherwise fall back to cheapest available
+                    return withSpecs ?? cloudGroup.OrderBy(i => i.PricePerHour ?? decimal.MaxValue).First();
+                })
                 .ToList();
         }
 
