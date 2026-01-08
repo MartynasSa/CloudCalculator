@@ -1,10 +1,15 @@
 ﻿using Application.Models.Dtos;
 using Application.Models.Enums;
+using System.Text.RegularExpressions;
 
 namespace Application.Mappers;
 
 public static class NormalizationMapper
 {
+    // Compiled regex patterns for better performance
+    private static readonly Regex AzureVCoreRegex = new(@"(\d+)\s*vCore", RegexOptions.IgnoreCase | RegexOptions.Compiled);
+    private static readonly Regex GcpVCpuMemoryRegex = new(@"(\d+)\s*vCPU\s*\+\s*(\d+)GB\s*RAM", RegexOptions.IgnoreCase | RegexOptions.Compiled);
+
     public static NormalizedComputeInstanceDto MapToComputeInstance(
         CloudPricingProductDto product,
         ResourceCategory Category,
@@ -81,7 +86,7 @@ public static class NormalizationMapper
             if (!string.IsNullOrWhiteSpace(skuName))
             {
                 // Extract vCore from patterns like "4 vCore", "10 vCore", etc.
-                var vCoreMatch = System.Text.RegularExpressions.Regex.Match(skuName, @"(\d+)\s*vCore", System.Text.RegularExpressions.RegexOptions.IgnoreCase);
+                var vCoreMatch = AzureVCoreRegex.Match(skuName);
                 if (vCoreMatch.Success)
                 {
                     vcpuStr = vCoreMatch.Groups[1].Value;
@@ -96,7 +101,7 @@ public static class NormalizationMapper
             if (!string.IsNullOrWhiteSpace(description))
             {
                 // Extract vCPU and RAM from patterns like "4 vCPU + 15GB RAM", "16 vCPU + 104GB RAM"
-                var match = System.Text.RegularExpressions.Regex.Match(description, @"(\d+)\s*vCPU\s*\+\s*(\d+)GB\s*RAM", System.Text.RegularExpressions.RegexOptions.IgnoreCase);
+                var match = GcpVCpuMemoryRegex.Match(description);
                 if (match.Success)
                 {
                     vcpuStr = match.Groups[1].Value;

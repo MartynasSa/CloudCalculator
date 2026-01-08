@@ -11,6 +11,13 @@ public interface IPriceProvider
 
 public class PriceProvider : IPriceProvider
 {
+    // Preferred database engines for cross-cloud comparison
+    private static readonly HashSet<string> PreferredDatabaseEngines = new(StringComparer.OrdinalIgnoreCase)
+    {
+        "PostgreSQL",
+        "MySQL"
+    };
+
     public FilteredResourcesDto GetPrices(CategorizedResourcesDto categorizedResources)
     {
         var result = new FilteredResourcesDto();
@@ -133,9 +140,6 @@ public class PriceProvider : IPriceProvider
     {
         var result = new Dictionary<UsageSize, List<NormalizedDatabaseDto>>();
 
-        // Preferred database engines for comparison - PostgreSQL and MySQL are most comparable across clouds
-        var preferredEngines = new[] { "PostgreSQL", "MySQL" };
-
         foreach (UsageSize usageSize in Enum.GetValues<UsageSize>())
         {
             var specs = GetResourceSpecs(usageSize);
@@ -148,7 +152,7 @@ public class PriceProvider : IPriceProvider
                 {
                     // First, try to find databases with preferred engines that meet the specs
                     var withPreferredEngine = cloudGroup
-                        .Where(i => i.DatabaseEngine != null && preferredEngines.Contains(i.DatabaseEngine, StringComparer.OrdinalIgnoreCase))
+                        .Where(i => i.DatabaseEngine != null && PreferredDatabaseEngines.Contains(i.DatabaseEngine))
                         .Where(i => i.VCpu != null && i.Memory != null)
                         .Where(i => (i.VCpu ?? 0) >= specs.MinCpu && 
                                     (ResourceParsingUtils.ParseMemory(i.Memory) ?? 0) >= specs.MinMemory)
