@@ -11,6 +11,20 @@ public interface IPriceProvider
 
 public class PriceProvider : IPriceProvider
 {
+    /// <summary>
+    /// Preferred database engines for cross-cloud comparison.
+    /// PostgreSQL and MySQL are chosen because they are:
+    /// 1. Open-source and available on all major cloud providers (AWS, Azure, GCP)
+    /// 2. Have similar performance characteristics and pricing models across clouds
+    /// 3. Most comparable for fair cost analysis compared to proprietary engines
+    /// This preference ensures apples-to-apples pricing comparisons for database instances.
+    /// </summary>
+    private static readonly HashSet<string> PreferredDatabaseEngines = new(StringComparer.OrdinalIgnoreCase)
+    {
+        "PostgreSQL",
+        "MySQL"
+    };
+
     public FilteredResourcesDto GetPrices(CategorizedResourcesDto categorizedResources)
     {
         var result = new FilteredResourcesDto();
@@ -143,7 +157,18 @@ public class PriceProvider : IPriceProvider
                 .GroupBy(i => i.Cloud)
                 .Select(cloudGroup =>
                 {
-                    // Try to find databases that meet the specs
+                    // First, try to find databases with preferred engines that meet the specs
+                    var withPreferredEngine = cloudGroup
+                        .Where(i => i.DatabaseEngine != null && PreferredDatabaseEngines.Contains(i.DatabaseEngine))
+                        .Where(i => i.VCpu != null && i.Memory != null)
+                        .Where(i => (i.VCpu ?? 0) >= specs.MinCpu && 
+                                    (ResourceParsingUtils.ParseMemory(i.Memory) ?? 0) >= specs.MinMemory)
+                        .OrderBy(i => i.PricePerHour ?? decimal.MaxValue)
+                        .FirstOrDefault();
+
+                    if (withPreferredEngine != null) return withPreferredEngine;
+
+                    // If no preferred engine found, try to find any database that meets the specs
                     var withSpecs = cloudGroup
                         .Where(i => i.VCpu != null && i.Memory != null)
                         .Where(i => (i.VCpu ?? 0) >= specs.MinCpu && 

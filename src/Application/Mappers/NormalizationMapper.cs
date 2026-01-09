@@ -1,10 +1,15 @@
 ﻿using Application.Models.Dtos;
 using Application.Models.Enums;
+using System.Text.RegularExpressions;
 
 namespace Application.Mappers;
 
 public static class NormalizationMapper
 {
+    // Compiled regex patterns for better performance
+    private static readonly Regex AzureVCoreRegex = new(@"(\d+)\s*vCore", RegexOptions.IgnoreCase | RegexOptions.Compiled);
+    private static readonly Regex GcpVCpuMemoryRegex = new(@"(\d+)\s*vCPU\s*\+\s*(\d+)GB\s*RAM", RegexOptions.IgnoreCase | RegexOptions.Compiled);
+
     public static NormalizedComputeInstanceDto MapToComputeInstance(
         CloudPricingProductDto product,
         ResourceCategory Category,
@@ -73,6 +78,69 @@ public static class NormalizationMapper
         var databaseEngine = product.Attributes.FirstOrDefault(a => a.Key == "databaseEngine")?.Value
                             ?? product.Attributes.FirstOrDefault(a => a.Key == "engine")?.Value
                             ?? product.Attributes.FirstOrDefault(a => a.Key == "databaseFamily")?.Value;
+
+        // Extract vCPU and memory from Azure skuName if not already set
+        if (product.VendorName == CloudProvider.Azure && string.IsNullOrWhiteSpace(vcpuStr))
+        {
+            var skuName = product.Attributes.FirstOrDefault(a => a.Key == "skuName")?.Value;
+            if (!string.IsNullOrWhiteSpace(skuName))
+            {
+                // Extract vCore from patterns like "4 vCore", "10 vCore", etc.
+                var vCoreMatch = AzureVCoreRegex.Match(skuName);
+                if (vCoreMatch.Success)
+                {
+                    vcpuStr = vCoreMatch.Groups[1].Value;
+                }
+            }
+        }
+
+        // Extract vCPU and memory from GCP description if not already set
+        if (product.VendorName == CloudProvider.GCP && string.IsNullOrWhiteSpace(vcpuStr))
+        {
+            var description = product.Attributes.FirstOrDefault(a => a.Key == "description")?.Value;
+            if (!string.IsNullOrWhiteSpace(description))
+            {
+                // Extract vCPU and RAM from patterns like "4 vCPU + 15GB RAM", "16 vCPU + 104GB RAM"
+                var match = GcpVCpuMemoryRegex.Match(description);
+                if (match.Success)
+                {
+                    vcpuStr = match.Groups[1].Value;
+                    // GCP uses GB in descriptions which is approximately GiB for memory sizing
+                    memory = $"{match.Groups[2].Value} GiB";
+                }
+            }
+        }
+
+        // Extract database engine from GCP description if not already set
+        if (product.VendorName == CloudProvider.GCP && string.IsNullOrWhiteSpace(databaseEngine))
+        {
+            var description = product.Attributes.FirstOrDefault(a => a.Key == "description")?.Value;
+            if (!string.IsNullOrWhiteSpace(description))
+            {
+                // Extract database engine from patterns like "Cloud SQL for MySQL", "Cloud SQL for PostgreSQL"
+                if (description.Contains("MySQL", StringComparison.OrdinalIgnoreCase))
+                {
+                    databaseEngine = "MySQL";
+                }
+                else if (description.Contains("PostgreSQL", StringComparison.OrdinalIgnoreCase))
+                {
+                    databaseEngine = "PostgreSQL";
+                }
+                else if (description.Contains("SQL Server", StringComparison.OrdinalIgnoreCase))
+                {
+                    databaseEngine = "SQL Server";
+                }
+            }
+        }
+
+        // Infer database engine for Azure SQL Database if not already set
+        if (product.VendorName == CloudProvider.Azure && string.IsNullOrWhiteSpace(databaseEngine))
+        {
+            if (product.Service.Contains("SQL Database", StringComparison.OrdinalIgnoreCase))
+            {
+                databaseEngine = "SQL Server";
+            }
+        }
 
         return new NormalizedDatabaseDto
         {
@@ -241,7 +309,18 @@ public static class NormalizationMapper
 
     private static decimal? GetPricePerHour(CloudPricingProductDto product)
     {
-        return product.Prices.FirstOrDefault()?.Usd;
+        var price = product.Prices.FirstOrDefault();
+        if (price == null) return null;
+
+        // Convert daily pricing to hourly
+        if (price.Unit?.Contains("Day", StringComparison.OrdinalIgnoreCase) == true)
+        {
+            return price.Usd / 24m; // Convert daily to hourly
+        }
+
+        // Assume hourly pricing if unit contains "hour" or "Hrs"
+        // Other pricing units (per-request, per-GB, etc.) are handled by specific methods
+        return price.Usd;
     }
 
     private static decimal? GetPricePerRequest(CloudPricingProductDto product)
