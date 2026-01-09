@@ -1,7 +1,17 @@
 ﻿{
   Usage: small,
   Resources: [
-    LoadBalancer
+    {
+      Category: Networking,
+      ComputeType: null,
+      DatabaseType: null,
+      StorageType: null,
+      NetworkingType: LoadBalancer,
+      AnalyticsType: null,
+      ManagementType: null,
+      SecurityType: null,
+      AIType: null
+    }
   ],
   CloudCosts: [
     {
@@ -10,8 +20,18 @@
       CostDetails: [
         {
           Cost: 5.840,
-          ResourceSubCategory: LoadBalancer,
-          ResourceDetails: {"Name":"ELB:Balancing","PricePerMonth":5.840,"Cloud":"aws","Category":"Networking","SubCategory":"LoadBalancer"}
+          ResourceSpecification: {
+            Category: Networking,
+            ComputeType: null,
+            DatabaseType: null,
+            StorageType: null,
+            NetworkingType: LoadBalancer,
+            AnalyticsType: null,
+            ManagementType: null,
+            SecurityType: null,
+            AIType: null
+          },
+          ResourceDetails: {"Name":"ELB:Balancing","PricePerMonth":5.840,"Cloud":"aws","Category":"Networking","SubCategoryValue":401}
         }
       ]
     },
@@ -21,8 +41,18 @@
       CostDetails: [
         {
           Cost: 0.0,
-          ResourceSubCategory: LoadBalancer,
-          ResourceDetails: {"Name":"Load Balancer","PricePerMonth":0.0,"Cloud":"azure","Category":"Networking","SubCategory":"LoadBalancer"}
+          ResourceSpecification: {
+            Category: Networking,
+            ComputeType: null,
+            DatabaseType: null,
+            StorageType: null,
+            NetworkingType: LoadBalancer,
+            AnalyticsType: null,
+            ManagementType: null,
+            SecurityType: null,
+            AIType: null
+          },
+          ResourceDetails: {"Name":"Load Balancer","PricePerMonth":0.0,"Cloud":"azure","Category":"Networking","SubCategoryValue":401}
         }
       ]
     },
@@ -32,8 +62,18 @@
       CostDetails: [
         {
           Cost: 5.840,
-          ResourceSubCategory: LoadBalancer,
-          ResourceDetails: {"Name":"Compute Engine","PricePerMonth":5.840,"Cloud":"gcp","Category":"Networking","SubCategory":"LoadBalancer"}
+          ResourceSpecification: {
+            Category: Networking,
+            ComputeType: null,
+            DatabaseType: null,
+            StorageType: null,
+            NetworkingType: LoadBalancer,
+            AnalyticsType: null,
+            ManagementType: null,
+            SecurityType: null,
+            AIType: null
+          },
+          ResourceDetails: {"Name":"Compute Engine","PricePerMonth":5.840,"Cloud":"gcp","Category":"Networking","SubCategoryValue":401}
         }
       ]
     }

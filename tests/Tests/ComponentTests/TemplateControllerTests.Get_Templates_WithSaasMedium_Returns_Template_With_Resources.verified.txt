@@ -1,17 +1,137 @@
 ﻿{
   Template: saas,
   Resources: [
-    VirtualMachines,
-    Relational,
-    Caching,
-    ObjectStorage,
-    Backup,
-    ApiGateway,
-    LoadBalancer,
-    Queueing,
-    Messaging,
-    Secrets,
-    Monitoring,
-    WebApplicationFirewall
+    {
+      Category: Compute,
+      ComputeType: VirtualMachines,
+      DatabaseType: null,
+      StorageType: null,
+      NetworkingType: null,
+      AnalyticsType: null,
+      ManagementType: null,
+      SecurityType: null,
+      AIType: null
+    },
+    {
+      Category: Database,
+      ComputeType: null,
+      DatabaseType: Relational,
+      StorageType: null,
+      NetworkingType: null,
+      AnalyticsType: null,
+      ManagementType: null,
+      SecurityType: null,
+      AIType: null
+    },
+    {
+      Category: Database,
+      ComputeType: null,
+      DatabaseType: Caching,
+      StorageType: null,
+      NetworkingType: null,
+      AnalyticsType: null,
+      ManagementType: null,
+      SecurityType: null,
+      AIType: null
+    },
+    {
+      Category: Storage,
+      ComputeType: null,
+      DatabaseType: null,
+      StorageType: ObjectStorage,
+      NetworkingType: null,
+      AnalyticsType: null,
+      ManagementType: null,
+      SecurityType: null,
+      AIType: null
+    },
+    {
+      Category: Storage,
+      ComputeType: null,
+      DatabaseType: null,
+      StorageType: Backup,
+      NetworkingType: null,
+      AnalyticsType: null,
+      ManagementType: null,
+      SecurityType: null,
+      AIType: null
+    },
+    {
+      Category: Networking,
+      ComputeType: null,
+      DatabaseType: null,
+      StorageType: null,
+      NetworkingType: ApiGateway,
+      AnalyticsType: null,
+      ManagementType: null,
+      SecurityType: null,
+      AIType: null
+    },
+    {
+      Category: Networking,
+      ComputeType: null,
+      DatabaseType: null,
+      StorageType: null,
+      NetworkingType: LoadBalancer,
+      AnalyticsType: null,
+      ManagementType: null,
+      SecurityType: null,
+      AIType: null
+    },
+    {
+      Category: Management,
+      ComputeType: null,
+      DatabaseType: null,
+      StorageType: null,
+      NetworkingType: null,
+      AnalyticsType: null,
+      ManagementType: Queueing,
+      SecurityType: null,
+      AIType: null
+    },
+    {
+      Category: Management,
+      ComputeType: null,
+      DatabaseType: null,
+      StorageType: null,
+      NetworkingType: null,
+      AnalyticsType: null,
+      ManagementType: Messaging,
+      SecurityType: null,
+      AIType: null
+    },
+    {
+      Category: Management,
+      ComputeType: null,
+      DatabaseType: null,
+      StorageType: null,
+      NetworkingType: null,
+      AnalyticsType: null,
+      ManagementType: Secrets,
+      SecurityType: null,
+      AIType: null
+    },
+    {
+      Category: Management,
+      ComputeType: null,
+      DatabaseType: null,
+      StorageType: null,
+      NetworkingType: null,
+      AnalyticsType: null,
+      ManagementType: Monitoring,
+      SecurityType: null,
+      AIType: null
+    },
+    {
+      Category: Security,
+      ComputeType: null,
+      DatabaseType: null,
+      StorageType: null,
+      NetworkingType: null,
+      AnalyticsType: null,
+      ManagementType: null,
+      SecurityType: WebApplicationFirewall,
+      AIType: null
+    }
   ]
 }

@@ -6,7 +6,7 @@
     PricePerMonth: 730.0,
     Cloud: aws,
     Category: Networking,
-    SubCategory: ApiGateway
+    SubCategoryValue: 402
   },
   {
     Name: AmazonApiGateway,
@@ -15,7 +15,7 @@
     PricePerMonth: 365.0,
     Cloud: aws,
     Category: Networking,
-    SubCategory: ApiGateway
+    SubCategoryValue: 402
   },
   {
     Name: AmazonApiGateway,
@@ -24,7 +24,7 @@
     PricePerMonth: 146.0,
     Cloud: aws,
     Category: Networking,
-    SubCategory: ApiGateway
+    SubCategoryValue: 402
   },
   {
     Name: AmazonApiGateway,
@@ -33,7 +33,7 @@
     PricePerMonth: 182.50,
     Cloud: aws,
     Category: Networking,
-    SubCategory: ApiGateway
+    SubCategoryValue: 402
   },
   {
     Name: AmazonApiGateway,
@@ -42,7 +42,7 @@
     PricePerMonth: 1387.0,
     Cloud: aws,
     Category: Networking,
-    SubCategory: ApiGateway
+    SubCategoryValue: 402
   },
   {
     Name: AmazonApiGateway,
@@ -51,7 +51,7 @@
     PricePerMonth: 27.740,
     Cloud: aws,
     Category: Networking,
-    SubCategory: ApiGateway
+    SubCategoryValue: 402
   },
   {
     Name: AmazonApiGateway,
@@ -60,7 +60,7 @@
     PricePerMonth: 2774.0,
     Cloud: aws,
     Category: Networking,
-    SubCategory: ApiGateway
+    SubCategoryValue: 402
   },
   {
     Name: AmazonApiGateway,
@@ -69,7 +69,7 @@
     PricePerMonth: 14.60,
     Cloud: aws,
     Category: Networking,
-    SubCategory: ApiGateway
+    SubCategoryValue: 402
   },
   {
     Name: API Gateway,
@@ -78,7 +78,7 @@
     PricePerMonth: 7.30,
     Cloud: gcp,
     Category: Networking,
-    SubCategory: ApiGateway
+    SubCategoryValue: 402
   },
   {
     Name: API Gateway,
@@ -87,7 +87,7 @@
     PricePerMonth: 14.60,
     Cloud: gcp,
     Category: Networking,
-    SubCategory: ApiGateway
+    SubCategoryValue: 402
   },
   {
     Name: API Gateway,
@@ -96,6 +96,6 @@
     PricePerMonth: 43.80,
     Cloud: gcp,
     Category: Networking,
-    SubCategory: ApiGateway
+    SubCategoryValue: 402
   }
 ]

@@ -7,7 +7,7 @@
     PricePerHour: 0.1,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -17,7 +17,7 @@
     PricePerHour: 0.02828,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -27,7 +27,7 @@
     PricePerHour: 0.33178,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -37,7 +37,7 @@
     PricePerHour: 0.03527,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -47,7 +47,7 @@
     PricePerHour: 1.80787,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -57,7 +57,7 @@
     PricePerHour: 0.00749,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -67,7 +67,7 @@
     PricePerHour: 2.17452,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -77,7 +77,7 @@
     PricePerHour: 1.55775,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -87,7 +87,7 @@
     PricePerHour: 0.06672,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -97,7 +97,7 @@
     PricePerHour: 0.00816,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -107,7 +107,7 @@
     PricePerHour: 0.04355,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -117,7 +117,7 @@
     PricePerHour: 0.01909,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -127,7 +127,7 @@
     PricePerHour: 0.96768,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -137,7 +137,7 @@
     PricePerHour: 0.2903,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -147,7 +147,7 @@
     PricePerHour: 0.00605,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -157,7 +157,7 @@
     PricePerHour: 0.73728,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -167,7 +167,7 @@
     PricePerHour: 1.36512,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -177,7 +177,7 @@
     PricePerHour: 0.23962,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -187,7 +187,7 @@
     PricePerHour: 0.01037,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -197,7 +197,7 @@
     PricePerHour: 0.67864,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -207,7 +207,7 @@
     PricePerHour: 1.18241,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -217,7 +217,7 @@
     PricePerHour: 0.01512,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -227,7 +227,7 @@
     PricePerHour: 0.01788,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -237,7 +237,7 @@
     PricePerHour: 0.02004,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -247,7 +247,7 @@
     PricePerHour: 0.22118,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -257,7 +257,7 @@
     PricePerHour: 0.000111,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -267,7 +267,7 @@
     PricePerHour: 0.53568,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -277,7 +277,7 @@
     PricePerHour: 2.63492,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -287,7 +287,7 @@
     PricePerHour: 1.35729,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -297,7 +297,7 @@
     PricePerHour: 0.14108,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -307,7 +307,7 @@
     PricePerHour: 0.04596,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -317,7 +317,7 @@
     PricePerHour: 0.15878,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -327,7 +327,7 @@
     PricePerHour: 0.18432,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -337,7 +337,7 @@
     PricePerHour: 0.25536,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -347,7 +347,7 @@
     PricePerHour: 0.64128,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -357,7 +357,7 @@
     PricePerHour: 0.01498,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -367,7 +367,7 @@
     PricePerHour: 0.05424,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -377,7 +377,7 @@
     PricePerHour: 0.04284,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -387,7 +387,7 @@
     PricePerHour: 0.18758,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -397,7 +397,7 @@
     PricePerHour: 0.85824,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -407,7 +407,7 @@
     PricePerHour: 0.80102,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -417,7 +417,7 @@
     PricePerHour: 0.01613,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -427,7 +427,7 @@
     PricePerHour: 0.05695,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -437,7 +437,7 @@
     PricePerHour: 0.65318,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -447,7 +447,7 @@
     PricePerHour: 0.22332,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -457,7 +457,7 @@
     PricePerHour: 0.19092,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -467,7 +467,7 @@
     PricePerHour: 0.45504,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -477,7 +477,7 @@
     PricePerHour: 0.48096,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -487,7 +487,7 @@
     PricePerHour: 0.00918,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -497,7 +497,7 @@
     PricePerHour: 0.07303,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -507,7 +507,7 @@
     PricePerHour: 0.23784,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -517,7 +517,7 @@
     PricePerHour: 0.47569,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -527,7 +527,7 @@
     PricePerHour: 0.50304,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -537,7 +537,7 @@
     PricePerHour: 0.38707,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -547,7 +547,7 @@
     PricePerHour: 0.01836,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -557,7 +557,7 @@
     PricePerHour: 0.75704,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -567,7 +567,7 @@
     PricePerHour: 0.01176,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -577,7 +577,7 @@
     PricePerHour: 0.48096,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -587,7 +587,7 @@
     PricePerHour: 0.0871,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -597,7 +597,7 @@
     PricePerHour: 0.31334,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -607,7 +607,7 @@
     PricePerHour: 0.04838,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -617,7 +617,7 @@
     PricePerHour: 0.03819,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -627,7 +627,7 @@
     PricePerHour: 0.03672,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -637,7 +637,7 @@
     PricePerHour: 0.20563,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -647,7 +647,7 @@
     PricePerHour: 0.58061,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -657,7 +657,7 @@
     PricePerHour: 0.00588,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -667,7 +667,7 @@
     PricePerHour: 0.34714,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -677,7 +677,7 @@
     PricePerHour: 0.10282,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -687,7 +687,7 @@
     PricePerHour: 0.45243,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -697,7 +697,7 @@
     PricePerHour: 0.1632,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -707,7 +707,7 @@
     PricePerHour: 0.18432,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -717,7 +717,7 @@
     PricePerHour: 1.08726,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -727,7 +727,7 @@
     PricePerHour: 1.5241,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -737,7 +737,7 @@
     PricePerHour: 3.4,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -747,7 +747,7 @@
     PricePerHour: 0.01572,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -757,7 +757,7 @@
     PricePerHour: 0.47923,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -767,7 +767,7 @@
     PricePerHour: 0.24192,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -777,7 +777,7 @@
     PricePerHour: 0.02768,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -787,7 +787,7 @@
     PricePerHour: 0.65088,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -797,7 +797,7 @@
     PricePerHour: 0.64128,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -807,7 +807,7 @@
     PricePerHour: 0.25236,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -817,7 +817,7 @@
     PricePerHour: 1.02816,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -827,7 +827,7 @@
     PricePerHour: 0.24768,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -837,7 +837,7 @@
     PricePerHour: 1.42848,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -847,7 +847,7 @@
     PricePerHour: 1.33885,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -857,7 +857,7 @@
     PricePerHour: 0.02419,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -867,7 +867,7 @@
     PricePerHour: 13.9,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -877,7 +877,7 @@
     PricePerHour: 0.08731,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -887,7 +887,7 @@
     PricePerHour: 0.37515,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -897,7 +897,7 @@
     PricePerHour: 0.06528,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -907,7 +907,7 @@
     PricePerHour: 0.43546,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -917,7 +917,7 @@
     PricePerHour: 0.01114,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -927,7 +927,7 @@
     PricePerHour: 0.08928,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -937,7 +937,7 @@
     PricePerHour: 0.33178,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -947,7 +947,7 @@
     PricePerHour: 2.9736,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -957,7 +957,7 @@
     PricePerHour: 0.68544,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -967,7 +967,7 @@
     PricePerHour: 0.11981,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -977,7 +977,7 @@
     PricePerHour: 0.6528,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -987,7 +987,7 @@
     PricePerHour: 0.13056,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -997,7 +997,7 @@
     PricePerHour: 0.06384,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -1007,7 +1007,7 @@
     PricePerHour: 0.14784,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -1017,7 +1017,7 @@
     PricePerHour: 0.49536,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -1027,7 +1027,7 @@
     PricePerHour: 0.12475,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -1037,7 +1037,7 @@
     PricePerHour: 0.43392,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -1047,7 +1047,7 @@
     PricePerHour: 0.01356,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -1057,7 +1057,7 @@
     PricePerHour: 0.76205,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -1067,7 +1067,7 @@
     PricePerHour: 0.37848,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -1077,7 +1077,7 @@
     PricePerHour: 0.14746,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -1087,7 +1087,7 @@
     PricePerHour: 0.40032,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -1097,7 +1097,7 @@
     PricePerHour: 0.01361,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -1107,7 +1107,7 @@
     PricePerHour: 0.07258,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -1117,7 +1117,7 @@
     PricePerHour: 0.68342,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -1127,7 +1127,7 @@
     PricePerHour: 0.51408,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -1137,7 +1137,7 @@
     PricePerHour: 0.00518,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -1147,7 +1147,7 @@
     PricePerHour: 0.26128,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -1157,7 +1157,7 @@
     PricePerHour: 0.16474,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -1167,7 +1167,7 @@
     PricePerHour: 0.72576,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -1177,7 +1177,7 @@
     PricePerHour: 0.40098,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -1187,7 +1187,7 @@
     PricePerHour: 0.11988,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -1197,7 +1197,7 @@
     PricePerHour: 0.02472,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -1207,7 +1207,7 @@
     PricePerHour: 0.07834,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -1217,7 +1217,7 @@
     PricePerHour: 0.91884,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -1227,7 +1227,7 @@
     PricePerHour: 0.02227,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -1237,7 +1237,7 @@
     PricePerHour: 0.02712,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -1247,7 +1247,7 @@
     PricePerHour: 0.71424,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -1257,7 +1257,7 @@
     PricePerHour: 0.00712,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -1267,7 +1267,7 @@
     PricePerHour: 0.22621,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -1277,7 +1277,7 @@
     PricePerHour: 1.06929,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -1287,7 +1287,7 @@
     PricePerHour: 0.00816,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -1297,7 +1297,7 @@
     PricePerHour: 0.005,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -1307,7 +1307,7 @@
     PricePerHour: 0.004445,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -1317,7 +1317,7 @@
     PricePerHour: 0.87091,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -1327,7 +1327,7 @@
     PricePerHour: 0.0407,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -1337,7 +1337,7 @@
     PricePerHour: 0.0635,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -1347,7 +1347,7 @@
     PricePerHour: 0.00408,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -1357,7 +1357,7 @@
     PricePerHour: 0.40762,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -1367,7 +1367,7 @@
     PricePerHour: 0.19354,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -1377,7 +1377,7 @@
     PricePerHour: 0.0906,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -1387,7 +1387,7 @@
     PricePerHour: 0.02064,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -1397,7 +1397,7 @@
     PricePerHour: 0.03175,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -1407,7 +1407,7 @@
     PricePerHour: 1.60036,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -1417,7 +1417,7 @@
     PricePerHour: 0.42912,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -1427,7 +1427,7 @@
     PricePerHour: 0.68544,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -1437,7 +1437,7 @@
     PricePerHour: 0.85824,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -1447,7 +1447,7 @@
     PricePerHour: 0.41005,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -1457,7 +1457,7 @@
     PricePerHour: 0.11376,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -1467,7 +1467,7 @@
     PricePerHour: 0.04184,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -1477,7 +1477,7 @@
     PricePerHour: 0.03266,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -1487,7 +1487,7 @@
     PricePerHour: 0.56433,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -1497,7 +1497,7 @@
     PricePerHour: 1.03404,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -1507,7 +1507,7 @@
     PricePerHour: 0.71424,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -1517,7 +1517,7 @@
     PricePerHour: 0.02844,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -1527,7 +1527,7 @@
     PricePerHour: 1.5006,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -1537,7 +1537,7 @@
     PricePerHour: 0.00545,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -1547,7 +1547,7 @@
     PricePerHour: 0.14976,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -1557,7 +1557,7 @@
     PricePerHour: 0.16512,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -1567,7 +1567,7 @@
     PricePerHour: 0.08617,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -1577,7 +1577,7 @@
     PricePerHour: 0.03686,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -1587,7 +1587,7 @@
     PricePerHour: 0.14826,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -1597,7 +1597,7 @@
     PricePerHour: 0.01224,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -1607,7 +1607,7 @@
     PricePerHour: 0.11424,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -1617,7 +1617,7 @@
     PricePerHour: 0.11731,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -1627,7 +1627,7 @@
     PricePerHour: 0.1392,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -1637,7 +1637,7 @@
     PricePerHour: 1.3354,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -1647,7 +1647,7 @@
     PricePerHour: 1.16851,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -1657,7 +1657,7 @@
     PricePerHour: 0.04838,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -1667,7 +1667,7 @@
     PricePerHour: 0.01872,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -1677,7 +1677,7 @@
     PricePerHour: 0.01172,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -1687,7 +1687,7 @@
     PricePerHour: 0.01149,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -1697,7 +1697,7 @@
     PricePerHour: 0.03024,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -1707,7 +1707,7 @@
     PricePerHour: 0.25704,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -1717,7 +1717,7 @@
     PricePerHour: 0.08256,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -1727,7 +1727,7 @@
     PricePerHour: 0.32947,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -1737,7 +1737,7 @@
     PricePerHour: 0.01848,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -1747,7 +1747,7 @@
     PricePerHour: 0.06528,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -1757,7 +1757,7 @@
     PricePerHour: 0.0217,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -1767,7 +1767,7 @@
     PricePerHour: 0.0121,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -1777,7 +1777,7 @@
     PricePerHour: 0.01764,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -1787,7 +1787,7 @@
     PricePerHour: 0.72484,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -1797,7 +1797,7 @@
     PricePerHour: 0.08016,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -1807,7 +1807,7 @@
     PricePerHour: 0.09552,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -1817,7 +1817,7 @@
     PricePerHour: 0.96768,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -1827,7 +1827,7 @@
     PricePerHour: 0.07392,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -1837,7 +1837,7 @@
     PricePerHour: 1.75277,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -1847,7 +1847,7 @@
     PricePerHour: 0.88128,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -1857,7 +1857,7 @@
     PricePerHour: 0.03707,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -1867,7 +1867,7 @@
     PricePerHour: 0.00882,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -1877,7 +1877,7 @@
     PricePerHour: 1.06691,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -1887,7 +1887,7 @@
     PricePerHour: 0.07638,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -1897,7 +1897,7 @@
     PricePerHour: 0.04464,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -1907,7 +1907,7 @@
     PricePerHour: 1.22204,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -1917,7 +1917,7 @@
     PricePerHour: 0.29213,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -1927,7 +1927,7 @@
     PricePerHour: 0.80064,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -1937,7 +1937,7 @@
     PricePerHour: 0.08237,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -1947,7 +1947,7 @@
     PricePerHour: 0.4896,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -1957,7 +1957,7 @@
     PricePerHour: 0.02064,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -1967,7 +1967,7 @@
     PricePerHour: 0.06048,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -1977,7 +1977,7 @@
     PricePerHour: 1.12873,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -1987,7 +1987,7 @@
     PricePerHour: 0.07373,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -1997,7 +1997,7 @@
     PricePerHour: 6.6048,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -2007,7 +2007,7 @@
     PricePerHour: 0.32952,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -2017,7 +2017,7 @@
     PricePerHour: 0.11071,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -2027,7 +2027,7 @@
     PricePerHour: 0.04147,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -2037,7 +2037,7 @@
     PricePerHour: 0.02463,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -2047,7 +2047,7 @@
     PricePerHour: 0.68064,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -2057,7 +2057,7 @@
     PricePerHour: 0.23976,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -2067,7 +2067,7 @@
     PricePerHour: 0.02736,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -2077,7 +2077,7 @@
     PricePerHour: 0.00542,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -2087,7 +2087,7 @@
     PricePerHour: 0.01424,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -2097,7 +2097,7 @@
     PricePerHour: 1.08726,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -2107,7 +2107,7 @@
     PricePerHour: 0.3672,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -2117,7 +2117,7 @@
     PricePerHour: 0.04944,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -2127,7 +2127,7 @@
     PricePerHour: 0.2784,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -2137,7 +2137,7 @@
     PricePerHour: 0.00306,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -2147,7 +2147,7 @@
     PricePerHour: 0.39191,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -2157,7 +2157,7 @@
     PricePerHour: 0.49766,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -2167,7 +2167,7 @@
     PricePerHour: 0.6528,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -2177,7 +2177,7 @@
     PricePerHour: 0.13824,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -2187,7 +2187,7 @@
     PricePerHour: 0.22257,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -2197,7 +2197,7 @@
     PricePerHour: 0.02074,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -2207,7 +2207,7 @@
     PricePerHour: 0.36242,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -2217,7 +2217,7 @@
     PricePerHour: 0.02177,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -2227,7 +2227,7 @@
     PricePerHour: 1.5006,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -2237,7 +2237,7 @@
     PricePerHour: 0.99533,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -2247,7 +2247,7 @@
     PricePerHour: 0.24192,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -2257,7 +2257,7 @@
     PricePerHour: 0.0348,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -2267,7 +2267,7 @@
     PricePerHour: 0.0121,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -2277,7 +2277,7 @@
     PricePerHour: 0.00902,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -2287,7 +2287,7 @@
     PricePerHour: 0.01826,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -2297,7 +2297,7 @@
     PricePerHour: 1.1255,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -2307,7 +2307,7 @@
     PricePerHour: 0.66355,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -2317,7 +2317,7 @@
     PricePerHour: 2.40084,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -2327,7 +2327,7 @@
     PricePerHour: 0.2736,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -2337,7 +2337,7 @@
     PricePerHour: 1.16122,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -2347,7 +2347,7 @@
     PricePerHour: 0.45942,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -2357,7 +2357,7 @@
     PricePerHour: 0.01361,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -2367,7 +2367,7 @@
     PricePerHour: 0.00691,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -2377,7 +2377,7 @@
     PricePerHour: 0.01077,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -2387,7 +2387,7 @@
     PricePerHour: 0.34836,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -2397,7 +2397,7 @@
     PricePerHour: 0.28608,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -2407,7 +2407,7 @@
     PricePerHour: 0.00436,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -2417,7 +2417,7 @@
     PricePerHour: 0.59904,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -2427,7 +2427,7 @@
     PricePerHour: 0.03342,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -2437,7 +2437,7 @@
     PricePerHour: 0.0049,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -2447,7 +2447,7 @@
     PricePerHour: 0.04896,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -2457,7 +2457,7 @@
     PricePerHour: 0.28216,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -2467,7 +2467,7 @@
     PricePerHour: 0.0257,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -2477,7 +2477,7 @@
     PricePerHour: 0.10368,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -2487,7 +2487,7 @@
     PricePerHour: 0.10252,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -2497,7 +2497,7 @@
     PricePerHour: 1.42848,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -2507,7 +2507,7 @@
     PricePerHour: 0.03576,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -2517,7 +2517,7 @@
     PricePerHour: 2.58,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -2527,7 +2527,7 @@
     PricePerHour: 0.03696,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -2537,7 +2537,7 @@
     PricePerHour: 0.1368,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -2547,7 +2547,7 @@
     PricePerHour: 0.5,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -2557,7 +2557,7 @@
     PricePerHour: 0.02232,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -2567,7 +2567,7 @@
     PricePerHour: 0.0814,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -2577,7 +2577,7 @@
     PricePerHour: 0.29376,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -2587,7 +2587,7 @@
     PricePerHour: 0.34836,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -2597,7 +2597,7 @@
     PricePerHour: 0.30845,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -2607,7 +2607,7 @@
     PricePerHour: 0.03119,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -2617,7 +2617,7 @@
     PricePerHour: 0.34924,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -2627,7 +2627,7 @@
     PricePerHour: 0.56436,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -2637,7 +2637,7 @@
     PricePerHour: 0.03964,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -2647,7 +2647,7 @@
     PricePerHour: 0.36864,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -2657,7 +2657,7 @@
     PricePerHour: 0.55296,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -2667,7 +2667,7 @@
     PricePerHour: 3.61574,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -2677,7 +2677,7 @@
     PricePerHour: 0.08232,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -2687,7 +2687,7 @@
     PricePerHour: 0.64128,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -2697,7 +2697,7 @@
     PricePerHour: 0.66424,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -2707,7 +2707,7 @@
     PricePerHour: 0.58061,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -2717,7 +2717,7 @@
     PricePerHour: 0.01088,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -2727,7 +2727,7 @@
     PricePerHour: 0.09216,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -2737,7 +2737,7 @@
     PricePerHour: 0.55325,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -2747,7 +2747,7 @@
     PricePerHour: 0.09888,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -2757,7 +2757,7 @@
     PricePerHour: 0.44283,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -2767,7 +2767,7 @@
     PricePerHour: 1.69298,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -2777,7 +2777,7 @@
     PricePerHour: 0.17418,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -2787,7 +2787,7 @@
     PricePerHour: 0.77888,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -2797,7 +2797,7 @@
     PricePerHour: 0.14304,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -2807,7 +2807,7 @@
     PricePerHour: 0.18121,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -2817,7 +2817,7 @@
     PricePerHour: 1.75277,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -2827,7 +2827,7 @@
     PricePerHour: 0.34128,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -2837,7 +2837,7 @@
     PricePerHour: 0.00499,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -2847,7 +2847,7 @@
     PricePerHour: 0.14304,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -2857,7 +2857,7 @@
     PricePerHour: 0.96192,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -2867,7 +2867,7 @@
     PricePerHour: 0.04365,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -2877,7 +2877,7 @@
     PricePerHour: 1.49702,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -2887,7 +2887,7 @@
     PricePerHour: 0.22971,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -2897,7 +2897,7 @@
     PricePerHour: 0.01384,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -2907,7 +2907,7 @@
     PricePerHour: 0.25152,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -2917,7 +2917,7 @@
     PricePerHour: 0.02856,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -2927,7 +2927,7 @@
     PricePerHour: 0.02722,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -2937,7 +2937,7 @@
     PricePerHour: 0.06048,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -2947,7 +2947,7 @@
     PricePerHour: 0.46656,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -2957,7 +2957,7 @@
     PricePerHour: 0.33024,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -2967,7 +2967,7 @@
     PricePerHour: 0.0102,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -2977,7 +2977,7 @@
     PricePerHour: 0.32558,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -2987,7 +2987,7 @@
     PricePerHour: 0.03144,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -2997,7 +2997,7 @@
     PricePerHour: 0.0174,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -3007,7 +3007,7 @@
     PricePerHour: 0.8256,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -3017,7 +3017,7 @@
     PricePerHour: 0.22848,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -3027,7 +3027,7 @@
     PricePerHour: 0.47923,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -3037,7 +3037,7 @@
     PricePerHour: 0.34714,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -3047,7 +3047,7 @@
     PricePerHour: 0.02782,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -3057,7 +3057,7 @@
     PricePerHour: 0.02154,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -3067,7 +3067,7 @@
     PricePerHour: 0.01853,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -3077,7 +3077,7 @@
     PricePerHour: 0.00924,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -3087,7 +3087,7 @@
     PricePerHour: 0.0408,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -3097,7 +3097,7 @@
     PricePerHour: 0.04118,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -3107,7 +3107,7 @@
     PricePerHour: 0.17136,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -3117,7 +3117,7 @@
     PricePerHour: 0.41126,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -3127,7 +3127,7 @@
     PricePerHour: 0.01296,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -3137,7 +3137,7 @@
     PricePerHour: 0.18386,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -3147,7 +3147,7 @@
     PricePerHour: 0.00462,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -3157,7 +3157,7 @@
     PricePerHour: 0.53464,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -3167,7 +3167,7 @@
     PricePerHour: 0.51702,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -3177,7 +3177,7 @@
     PricePerHour: 0.06312,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -3187,7 +3187,7 @@
     PricePerHour: 0.01428,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -3197,7 +3197,7 @@
     PricePerHour: 0.05424,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -3207,7 +3207,7 @@
     PricePerHour: 0.17357,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -3217,7 +3217,7 @@
     PricePerHour: 0.87091,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -3227,7 +3227,7 @@
     PricePerHour: 0.2088,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -3237,7 +3237,7 @@
     PricePerHour: 0.49421,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -3247,7 +3247,7 @@
     PricePerHour: 0.69848,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -3257,7 +3257,7 @@
     PricePerHour: 0.02142,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -3267,7 +3267,7 @@
     PricePerHour: 0.04838,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -3277,7 +3277,7 @@
     PricePerHour: 0.74851,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -3287,7 +3287,7 @@
     PricePerHour: 0.50803,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -3297,7 +3297,7 @@
     PricePerHour: 0.04128,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -3307,7 +3307,7 @@
     PricePerHour: 0.87091,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -3317,7 +3317,7 @@
     PricePerHour: 1.60205,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -3327,7 +3327,7 @@
     PricePerHour: 0.07152,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -3337,7 +3337,7 @@
     PricePerHour: 0.76205,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -3347,7 +3347,7 @@
     PricePerHour: 0.13831,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -3357,7 +3357,7 @@
     PricePerHour: 0.26112,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -3367,7 +3367,7 @@
     PricePerHour: 0.1,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -3377,7 +3377,7 @@
     PricePerHour: 0.024,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -3387,7 +3387,7 @@
     PricePerHour: 0.00692,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -3397,7 +3397,7 @@
     PricePerHour: 0.384,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -3407,7 +3407,7 @@
     PricePerHour: 0.07488,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -3417,7 +3417,7 @@
     PricePerHour: 0.65088,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -3427,7 +3427,7 @@
     PricePerHour: 0.40009,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -3437,7 +3437,7 @@
     PricePerHour: 0.04464,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -3447,7 +3447,7 @@
     PricePerHour: 0.05535,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -3457,7 +3457,7 @@
     PricePerHour: 0.04308,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -3467,7 +3467,7 @@
     PricePerHour: 0.20503,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -3477,7 +3477,7 @@
     PricePerHour: 0.16032,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -3487,7 +3487,7 @@
     PricePerHour: 1.00414,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -3497,7 +3497,7 @@
     PricePerHour: 0.03994,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -3507,7 +3507,7 @@
     PricePerHour: 0.49536,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -3517,7 +3517,7 @@
     PricePerHour: 0.34171,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -3527,7 +3527,7 @@
     PricePerHour: 0.09216,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -3537,7 +3537,7 @@
     PricePerHour: 0.58061,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -3547,7 +3547,7 @@
     PricePerHour: 0.14544,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -3557,7 +3557,7 @@
     PricePerHour: 0.38707,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -3567,7 +3567,7 @@
     PricePerHour: 1.06929,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -3577,7 +3577,7 @@
     PricePerHour: 0.02419,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -3587,7 +3587,7 @@
     PricePerHour: 0.15314,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -3597,7 +3597,7 @@
     PricePerHour: 0.02563,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -3607,7 +3607,7 @@
     PricePerHour: 0.09658,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -3617,7 +3617,7 @@
     PricePerHour: 0.2448,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -3627,7 +3627,7 @@
     PricePerHour: 0.13392,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -3637,7 +3637,7 @@
     PricePerHour: 0.01788,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -3647,7 +3647,7 @@
     PricePerHour: 0.87091,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -3657,7 +3657,7 @@
     PricePerHour: 0.01843,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -3667,7 +3667,7 @@
     PricePerHour: 0.23501,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -3677,7 +3677,7 @@
     PricePerHour: 0.07392,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -3687,7 +3687,7 @@
     PricePerHour: 0.01667,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -3697,7 +3697,7 @@
     PricePerHour: 0.10848,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -3707,7 +3707,7 @@
     PricePerHour: 0.96192,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -3717,7 +3717,7 @@
     PricePerHour: 1.12277,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -3727,7 +3727,7 @@
     PricePerHour: 0.29664,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -3737,7 +3737,7 @@
     PricePerHour: 0.23614,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -3747,7 +3747,7 @@
     PricePerHour: 0.11892,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -3757,7 +3757,7 @@
     PricePerHour: 0.32659,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -3767,7 +3767,7 @@
     PricePerHour: 0.01982,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -3777,7 +3777,7 @@
     PricePerHour: 0.08294,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -3787,7 +3787,7 @@
     PricePerHour: 0.43819,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -3797,7 +3797,7 @@
     PricePerHour: 0.12612,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -3807,7 +3807,7 @@
     PricePerHour: 0.65318,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -3817,7 +3817,7 @@
     PricePerHour: 0.47946,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -3827,7 +3827,7 @@
     PricePerHour: 0.38102,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -3837,7 +3837,7 @@
     PricePerHour: 0.10886,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -3847,7 +3847,7 @@
     PricePerHour: 0.05712,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -3857,7 +3857,7 @@
     PricePerHour: 0.75034,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -3867,7 +3867,7 @@
     PricePerHour: 0.13366,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -3877,7 +3877,7 @@
     PricePerHour: 0.57216,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -3887,7 +3887,7 @@
     PricePerHour: 0.05443,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -3897,7 +3897,7 @@
     PricePerHour: 0.03226,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -3907,7 +3907,7 @@
     PricePerHour: 0.49152,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -3917,7 +3917,7 @@
     PricePerHour: 0.08016,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -3927,7 +3927,7 @@
     PricePerHour: 0.37728,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -3937,7 +3937,7 @@
     PricePerHour: 0.00707,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -3947,7 +3947,7 @@
     PricePerHour: 0.11311,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -3957,7 +3957,7 @@
     PricePerHour: 0.98842,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -3967,7 +3967,7 @@
     PricePerHour: 0.0102,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -3977,7 +3977,7 @@
     PricePerHour: 0.0087,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -3987,7 +3987,7 @@
     PricePerHour: 3.29365,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -3997,7 +3997,7 @@
     PricePerHour: 0.32928,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -4007,7 +4007,7 @@
     PricePerHour: 0.0121,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -4017,7 +4017,7 @@
     PricePerHour: 0.29568,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -4027,7 +4027,7 @@
     PricePerHour: 0.55296,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -4037,7 +4037,7 @@
     PricePerHour: 0.24,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -4047,7 +4047,7 @@
     PricePerHour: 0.05688,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -4057,7 +4057,7 @@
     PricePerHour: 0.3264,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -4067,7 +4067,7 @@
     PricePerHour: 1.22204,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -4077,7 +4077,7 @@
     PricePerHour: 0.02448,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -4087,7 +4087,7 @@
     PricePerHour: 0.00451,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -4097,7 +4097,7 @@
     PricePerHour: 0.58061,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -4107,7 +4107,7 @@
     PricePerHour: 0.01285,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -4117,7 +4117,7 @@
     PricePerHour: 0.51702,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -4127,7 +4127,7 @@
     PricePerHour: 0.01914,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -4137,7 +4137,7 @@
     PricePerHour: 0.19354,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -4147,7 +4147,7 @@
     PricePerHour: 0.18812,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -4157,7 +4157,7 @@
     PricePerHour: 0.06532,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -4167,7 +4167,7 @@
     PricePerHour: 0.66943,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -4177,7 +4177,7 @@
     PricePerHour: 0.05184,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -4187,7 +4187,7 @@
     PricePerHour: 0.35712,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -4197,7 +4197,7 @@
     PricePerHour: 0.04147,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -4207,7 +4207,7 @@
     PricePerHour: 0.03334,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -4217,7 +4217,7 @@
     PricePerHour: 0.54343,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -4227,7 +4227,7 @@
     PricePerHour: 0.66424,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -4237,7 +4237,7 @@
     PricePerHour: 0.60048,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -4247,7 +4247,7 @@
     PricePerHour: 0.03192,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -4257,7 +4257,7 @@
     PricePerHour: 0.7503,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -4267,7 +4267,7 @@
     PricePerHour: 0.31334,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -4277,7 +4277,7 @@
     PricePerHour: 0.02345,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -4287,7 +4287,7 @@
     PricePerHour: 0.24173,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -4297,7 +4297,7 @@
     PricePerHour: 0.0204,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -4307,7 +4307,7 @@
     PricePerHour: 0.22176,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -4317,7 +4317,7 @@
     PricePerHour: 0.06912,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -4327,7 +4327,7 @@
     PricePerHour: 0.50207,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -4337,7 +4337,7 @@
     PricePerHour: 0.08294,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -4347,7 +4347,7 @@
     PricePerHour: 0.12072,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -4357,7 +4357,7 @@
     PricePerHour: 0.45827,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -4367,7 +4367,7 @@
     PricePerHour: 1.25912,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -4377,7 +4377,7 @@
     PricePerHour: 0.98842,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -4387,7 +4387,7 @@
     PricePerHour: 0.89027,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -4397,7 +4397,7 @@
     PricePerHour: 0.03,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -4407,7 +4407,7 @@
     PricePerHour: 0.13063,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -4417,7 +4417,7 @@
     PricePerHour: 0.2903,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -4427,7 +4427,7 @@
     PricePerHour: 0.00539,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -4437,7 +4437,7 @@
     PricePerHour: 0.13336,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -4447,7 +4447,7 @@
     PricePerHour: 0.01017,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -4457,7 +4457,7 @@
     PricePerHour: 0.05141,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -4467,7 +4467,7 @@
     PricePerHour: 0.58752,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -4477,7 +4477,7 @@
     PricePerHour: 0.06288,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -4487,7 +4487,7 @@
     PricePerHour: 0.03576,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -4497,7 +4497,7 @@
     PricePerHour: 0.05125,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -4507,7 +4507,7 @@
     PricePerHour: 0.91123,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -4517,7 +4517,7 @@
     PricePerHour: 0.0204,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -4527,7 +4527,7 @@
     PricePerHour: 0.35942,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -4537,7 +4537,7 @@
     PricePerHour: 2.25101,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -4547,7 +4547,7 @@
     PricePerHour: 0.73728,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -4557,7 +4557,7 @@
     PricePerHour: 0.01728,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -4567,7 +4567,7 @@
     PricePerHour: 1.32849,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -4577,7 +4577,7 @@
     PricePerHour: 0.78336,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -4587,7 +4587,7 @@
     PricePerHour: 0.02304,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -4597,7 +4597,7 @@
     PricePerHour: 0.07054,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -4607,7 +4607,7 @@
     PricePerHour: 0.08928,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -4617,7 +4617,7 @@
     PricePerHour: 0.41005,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -4627,7 +4627,7 @@
     PricePerHour: 0.3672,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -4637,7 +4637,7 @@
     PricePerHour: 0.00612,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -4647,7 +4647,7 @@
     PricePerHour: 0.0453,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -4657,7 +4657,7 @@
     PricePerHour: 0.25851,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -4667,7 +4667,7 @@
     PricePerHour: 0.56436,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -4677,7 +4677,7 @@
     PricePerHour: 0.04703,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -4687,7 +4687,7 @@
     PricePerHour: 0.55219,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -4697,7 +4697,7 @@
     PricePerHour: 0.72576,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -4707,7 +4707,7 @@
     PricePerHour: 0.41472,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -4717,7 +4717,7 @@
     PricePerHour: 0.03629,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -4727,7 +4727,7 @@
     PricePerHour: 0.26673,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -4737,7 +4737,7 @@
     PricePerHour: 7.59552,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -4747,7 +4747,7 @@
     PricePerHour: 0.34272,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -4757,7 +4757,7 @@
     PricePerHour: 0.14688,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -4767,7 +4767,7 @@
     PricePerHour: 0.55296,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -4777,7 +4777,7 @@
     PricePerHour: 0.19776,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -4787,7 +4787,7 @@
     PricePerHour: 0.65892,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -4797,7 +4797,7 @@
     PricePerHour: 0.47569,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -4807,7 +4807,7 @@
     PricePerHour: 0.01152,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -4817,7 +4817,7 @@
     PricePerHour: 0.03828,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -4827,7 +4827,7 @@
     PricePerHour: 0.26732,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -4837,7 +4837,7 @@
     PricePerHour: 1.65,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -4847,7 +4847,7 @@
     PricePerHour: 1.5241,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -4857,7 +4857,7 @@
     PricePerHour: 0.80196,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -4867,7 +4867,7 @@
     PricePerHour: 0.012,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -4877,7 +4877,7 @@
     PricePerHour: 1.16122,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -4887,7 +4887,7 @@
     PricePerHour: 0.05424,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -4897,7 +4897,7 @@
     PricePerHour: 0.09,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -4907,7 +4907,7 @@
     PricePerHour: 0.01414,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -4917,7 +4917,7 @@
     PricePerHour: 1.20096,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -4927,7 +4927,7 @@
     PricePerHour: 0.91884,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -4937,7 +4937,7 @@
     PricePerHour: 1.35729,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -4947,7 +4947,7 @@
     PricePerHour: 0.36864,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -4957,7 +4957,7 @@
     PricePerHour: 0.005,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -4967,7 +4967,7 @@
     PricePerHour: 0.2448,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -4977,7 +4977,7 @@
     PricePerHour: 0.59904,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -4987,7 +4987,7 @@
     PricePerHour: 0.51072,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -4997,7 +4997,7 @@
     PricePerHour: 0.32064,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -5007,7 +5007,7 @@
     PricePerHour: 0.59328,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -5017,7 +5017,7 @@
     PricePerHour: 0.19354,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -5027,7 +5027,7 @@
     PricePerHour: 0.02352,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -5037,7 +5037,7 @@
     PricePerHour: 0.77414,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -5047,7 +5047,7 @@
     PricePerHour: 0.28608,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -5057,7 +5057,7 @@
     PricePerHour: 0.26112,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -5067,7 +5067,7 @@
     PricePerHour: 0.06683,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -5077,7 +5077,7 @@
     PricePerHour: 1.33885,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -5087,7 +5087,7 @@
     PricePerHour: 0.01002,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -5097,7 +5097,7 @@
     PricePerHour: 0.08568,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -5107,7 +5107,7 @@
     PricePerHour: 0.46944,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -5117,7 +5117,7 @@
     PricePerHour: 0.13056,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -5127,7 +5127,7 @@
     PricePerHour: 0.16464,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -5137,7 +5137,7 @@
     PricePerHour: 0.04008,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -5147,7 +5147,7 @@
     PricePerHour: 0.02004,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -5157,7 +5157,7 @@
     PricePerHour: 0.24419,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -5167,7 +5167,7 @@
     PricePerHour: 0.29491,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -5177,7 +5177,7 @@
     PricePerHour: 0.02848,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -5187,7 +5187,7 @@
     PricePerHour: 0.02722,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -5197,7 +5197,7 @@
     PricePerHour: 0.03652,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -5207,7 +5207,7 @@
     PricePerHour: 0.37624,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -5217,7 +5217,7 @@
     PricePerHour: 0.07928,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -5227,7 +5227,7 @@
     PricePerHour: 1.97683,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -5237,7 +5237,7 @@
     PricePerHour: 0.27662,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -5247,7 +5247,7 @@
     PricePerHour: 0.0816,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -5257,7 +5257,7 @@
     PricePerHour: 0.01085,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -5267,7 +5267,7 @@
     PricePerHour: 0.06238,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -5277,7 +5277,7 @@
     PricePerHour: 0.72576,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -5287,7 +5287,7 @@
     PricePerHour: 0.48384,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -5297,7 +5297,7 @@
     PricePerHour: 0.56272,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -5307,7 +5307,7 @@
     PricePerHour: 0.00998,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -5317,7 +5317,7 @@
     PricePerHour: 0.84649,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -5327,7 +5327,7 @@
     PricePerHour: 0.08256,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -5337,7 +5337,7 @@
     PricePerHour: 0.04048,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -5347,7 +5347,7 @@
     PricePerHour: 0.36288,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -5357,7 +5357,7 @@
     PricePerHour: 1.20042,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -5367,7 +5367,7 @@
     PricePerHour: 0.12576,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -5377,7 +5377,7 @@
     PricePerHour: 0.04454,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -5387,7 +5387,7 @@
     PricePerHour: 0.09853,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -5397,7 +5397,7 @@
     PricePerHour: 0.46656,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -5407,7 +5407,7 @@
     PricePerHour: 1.31789,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -5417,7 +5417,7 @@
     PricePerHour: 1.60056,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -5427,7 +5427,7 @@
     PricePerHour: 0.26128,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -5437,7 +5437,7 @@
     PricePerHour: 0.21773,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -5447,7 +5447,7 @@
     PricePerHour: 0.91653,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -5457,7 +5457,7 @@
     PricePerHour: 0.02059,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -5467,7 +5467,7 @@
     PricePerHour: 0.45562,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -5477,7 +5477,7 @@
     PricePerHour: 0.02232,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -5487,7 +5487,7 @@
     PricePerHour: 0.10004,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -5497,7 +5497,7 @@
     PricePerHour: 0.33932,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -5507,7 +5507,7 @@
     PricePerHour: 0.09677,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -5517,7 +5517,7 @@
     PricePerHour: 0.16476,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -5527,7 +5527,7 @@
     PricePerHour: 0.85824,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -5537,7 +5537,7 @@
     PricePerHour: 0.67864,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -5547,7 +5547,7 @@
     PricePerHour: 0.55296,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -5557,7 +5557,7 @@
     PricePerHour: 0.04608,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -5567,7 +5567,7 @@
     PricePerHour: 1.60036,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -5577,7 +5577,7 @@
     PricePerHour: 0.01729,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -5587,7 +5587,7 @@
     PricePerHour: 2.99405,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -5597,7 +5597,7 @@
     PricePerHour: 3.20112,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -5607,7 +5607,7 @@
     PricePerHour: 0.07657,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -5617,7 +5617,7 @@
     PricePerHour: 1.12545,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -5627,7 +5627,7 @@
     PricePerHour: 0.80028,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -5637,7 +5637,7 @@
     PricePerHour: 0.29568,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -5647,7 +5647,7 @@
     PricePerHour: 0.1139,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -5657,7 +5657,7 @@
     PricePerHour: 0.65894,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -5667,7 +5667,7 @@
     PricePerHour: 0.04776,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -5677,7 +5677,7 @@
     PricePerHour: 3.20072,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -5687,7 +5687,7 @@
     PricePerHour: 0.18757,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -5697,7 +5697,7 @@
     PricePerHour: 0.37426,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -5707,7 +5707,7 @@
     PricePerHour: 0.50469,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -5717,7 +5717,7 @@
     PricePerHour: 0.01632,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -5727,7 +5727,7 @@
     PricePerHour: 0.0361,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -5737,7 +5737,7 @@
     PricePerHour: 1.69298,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -5747,7 +5747,7 @@
     PricePerHour: 0.65088,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -5757,7 +5757,7 @@
     PricePerHour: 0.01805,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -5767,7 +5767,7 @@
     PricePerHour: 0.65088,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -5777,7 +5777,7 @@
     PricePerHour: 0.16589,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -5787,7 +5787,7 @@
     PricePerHour: 0.16589,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -5797,7 +5797,7 @@
     PricePerHour: 0.59121,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -5807,7 +5807,7 @@
     PricePerHour: 6.9,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -5817,7 +5817,7 @@
     PricePerHour: 1.30176,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -5827,7 +5827,7 @@
     PricePerHour: 0.44513,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -5837,7 +5837,7 @@
     PricePerHour: 0.02419,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -5847,7 +5847,7 @@
     PricePerHour: 0.33385,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -5857,7 +5857,7 @@
     PricePerHour: 0.27579,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -5867,7 +5867,7 @@
     PricePerHour: 0.01236,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -5877,7 +5877,7 @@
     PricePerHour: 0.01071,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -5887,7 +5887,7 @@
     PricePerHour: 0.03456,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -5897,7 +5897,7 @@
     PricePerHour: 1.30637,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -5907,7 +5907,7 @@
     PricePerHour: 0.80018,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -5917,7 +5917,7 @@
     PricePerHour: 0.26784,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -5927,7 +5927,7 @@
     PricePerHour: 1.12873,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -5937,7 +5937,7 @@
     PricePerHour: 0.01814,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -5947,7 +5947,7 @@
     PricePerHour: 0.0696,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -5957,7 +5957,7 @@
     PricePerHour: 0.05564,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -5967,7 +5967,7 @@
     PricePerHour: 0.32659,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -5977,7 +5977,7 @@
     PricePerHour: 0.02388,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -5987,7 +5987,7 @@
     PricePerHour: 2.99405,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -5997,7 +5997,7 @@
     PricePerHour: 0.01422,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -6007,7 +6007,7 @@
     PricePerHour: 0.85824,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -6017,7 +6017,7 @@
     PricePerHour: 0.05443,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -6027,7 +6027,7 @@
     PricePerHour: 0.04339,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -6037,7 +6037,7 @@
     PricePerHour: 0.49416,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -6047,7 +6047,7 @@
     PricePerHour: 0.02345,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -6057,7 +6057,7 @@
     PricePerHour: 1.60056,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -6067,7 +6067,7 @@
     PricePerHour: 0.25402,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -6077,7 +6077,7 @@
     PricePerHour: 2.9376,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -6087,7 +6087,7 @@
     PricePerHour: 0.01232,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -6097,7 +6097,7 @@
     PricePerHour: 0.09024,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -6107,7 +6107,7 @@
     PricePerHour: 0.93888,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -6117,7 +6117,7 @@
     PricePerHour: 0.06312,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -6127,7 +6127,7 @@
     PricePerHour: 0.2956,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -6137,7 +6137,7 @@
     PricePerHour: 0.16736,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -6147,7 +6147,7 @@
     PricePerHour: 1.49702,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -6157,7 +6157,7 @@
     PricePerHour: 0.00957,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -6167,7 +6167,7 @@
     PricePerHour: 0.38707,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -6177,7 +6177,7 @@
     PricePerHour: 0.09379,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -6187,7 +6187,7 @@
     PricePerHour: 0.53568,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -6197,7 +6197,7 @@
     PricePerHour: 0.0816,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -6207,7 +6207,7 @@
     PricePerHour: 0.29952,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -6217,7 +6217,7 @@
     PricePerHour: 0.00913,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -6227,7 +6227,7 @@
     PricePerHour: 0.19584,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -6237,7 +6237,7 @@
     PricePerHour: 0.09677,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -6247,7 +6247,7 @@
     PricePerHour: 0.02304,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -6257,7 +6257,7 @@
     PricePerHour: 0.26112,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -6267,7 +6267,7 @@
     PricePerHour: 0.08678,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -6277,7 +6277,7 @@
     PricePerHour: 0.54362,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -6287,7 +6287,7 @@
     PricePerHour: 0.00461,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -6297,7 +6297,7 @@
     PricePerHour: 0.00924,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -6307,7 +6307,7 @@
     PricePerHour: 0.21773,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -6317,7 +6317,7 @@
     PricePerHour: 0.14448,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -6327,7 +6327,7 @@
     PricePerHour: 0.29357,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -6337,7 +6337,7 @@
     PricePerHour: 2.25101,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -6347,7 +6347,7 @@
     PricePerHour: 0.09677,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -6357,7 +6357,7 @@
     PricePerHour: 0.4896,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -6367,7 +6367,7 @@
     PricePerHour: 0.00643,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -6377,7 +6377,7 @@
     PricePerHour: 0.0408,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -6387,7 +6387,7 @@
     PricePerHour: 0.20736,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -6397,7 +6397,7 @@
     PricePerHour: 0.02592,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -6407,7 +6407,7 @@
     PricePerHour: 0.51408,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -6417,7 +6417,7 @@
     PricePerHour: 0.18713,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -6427,7 +6427,7 @@
     PricePerHour: 1.31784,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -6437,7 +6437,7 @@
     PricePerHour: 0.39414,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -6447,7 +6447,7 @@
     PricePerHour: 0.26035,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -6457,7 +6457,7 @@
     PricePerHour: 0.12096,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -6467,7 +6467,7 @@
     PricePerHour: 0.38707,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -6477,7 +6477,7 @@
     PricePerHour: 0.30628,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -6487,7 +6487,7 @@
     PricePerHour: 1.16122,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -6497,7 +6497,7 @@
     PricePerHour: 0.03024,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -6507,7 +6507,7 @@
     PricePerHour: 0.07344,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -6517,7 +6517,7 @@
     PricePerHour: 0.14515,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -6527,7 +6527,7 @@
     PricePerHour: 0.11128,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -6537,7 +6537,7 @@
     PricePerHour: 0.01997,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -6547,7 +6547,7 @@
     PricePerHour: 0.91123,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -6557,7 +6557,7 @@
     PricePerHour: 0.10848,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -6567,7 +6567,7 @@
     PricePerHour: 0.53568,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -6577,7 +6577,7 @@
     PricePerHour: 1.02816,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -6587,7 +6587,7 @@
     PricePerHour: 0.26905,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -6597,7 +6597,7 @@
     PricePerHour: 0.44352,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -6607,7 +6607,7 @@
     PricePerHour: 0.6677,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -6617,7 +6617,7 @@
     PricePerHour: 0.24883,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -6627,7 +6627,7 @@
     PricePerHour: 0.01152,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -6637,7 +6637,7 @@
     PricePerHour: 0.09936,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -6647,7 +6647,7 @@
     PricePerHour: 0.2903,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -6657,7 +6657,7 @@
     PricePerHour: 0.39168,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -6667,7 +6667,7 @@
     PricePerHour: 0.02064,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -6677,7 +6677,7 @@
     PricePerHour: 0.99533,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -6687,7 +6687,7 @@
     PricePerHour: 0.44064,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -6697,7 +6697,7 @@
     PricePerHour: 0.12701,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -6707,7 +6707,7 @@
     PricePerHour: 0.55296,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -6717,7 +6717,7 @@
     PricePerHour: 0.97728,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -6727,7 +6727,7 @@
     PricePerHour: 1.30637,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -6737,7 +6737,7 @@
     PricePerHour: 0.43392,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -6747,7 +6747,7 @@
     PricePerHour: 0.01152,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -6757,7 +6757,7 @@
     PricePerHour: 0.00922,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -6767,7 +6767,7 @@
     PricePerHour: 0.21696,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -6777,7 +6777,7 @@
     PricePerHour: 0.37517,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -6787,7 +6787,7 @@
     PricePerHour: 0.1,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -6797,7 +6797,7 @@
     PricePerHour: 0.42324,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -6807,7 +6807,7 @@
     PricePerHour: 0.16272,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -6817,7 +6817,7 @@
     PricePerHour: 0.22781,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -6827,7 +6827,7 @@
     PricePerHour: 0.02304,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -6837,7 +6837,7 @@
     PricePerHour: 0.24883,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -6847,7 +6847,7 @@
     PricePerHour: 0.5472,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -6857,7 +6857,7 @@
     PricePerHour: 0.14784,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -6867,7 +6867,7 @@
     PricePerHour: 0.78828,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -6877,7 +6877,7 @@
     PricePerHour: 0.30551,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -6887,7 +6887,7 @@
     PricePerHour: 0.45942,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -6897,7 +6897,7 @@
     PricePerHour: 1.30176,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -6907,7 +6907,7 @@
     PricePerHour: 0.01588,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -6917,7 +6917,7 @@
     PricePerHour: 0.02712,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -6927,7 +6927,7 @@
     PricePerHour: 0.88128,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -6937,7 +6937,7 @@
     PricePerHour: 0.44237,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -6947,7 +6947,7 @@
     PricePerHour: 0.29376,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -6957,7 +6957,7 @@
     PricePerHour: 0.0015,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -6967,7 +6967,7 @@
     PricePerHour: 1.32849,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -6977,7 +6977,7 @@
     PricePerHour: 0.0469,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -6987,7 +6987,7 @@
     PricePerHour: 0.03264,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -6997,7 +6997,7 @@
     PricePerHour: 0.17462,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -7007,7 +7007,7 @@
     PricePerHour: 0.01596,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -7017,7 +7017,7 @@
     PricePerHour: 0.02074,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -7027,7 +7027,7 @@
     PricePerHour: 0.36772,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -7037,7 +7037,7 @@
     PricePerHour: 0.87638,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -7047,7 +7047,7 @@
     PricePerHour: 3.74544,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -7057,7 +7057,7 @@
     PricePerHour: 0.82944,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -7067,7 +7067,7 @@
     PricePerHour: 0.02,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -7077,7 +7077,7 @@
     PricePerHour: 0.27648,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -7087,7 +7087,7 @@
     PricePerHour: 0.57216,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -7097,7 +7097,7 @@
     PricePerHour: 0.41126,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -7107,7 +7107,7 @@
     PricePerHour: 0.34272,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -7117,7 +7117,7 @@
     PricePerHour: 0.05988,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -7127,7 +7127,7 @@
     PricePerHour: 0.08368,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -7137,7 +7137,7 @@
     PricePerHour: 0.32544,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -7147,7 +7147,7 @@
     PricePerHour: 0.07152,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -7157,7 +7157,7 @@
     PricePerHour: 0.11059,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -7167,7 +7167,7 @@
     PricePerHour: 0.01032,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -7177,7 +7177,7 @@
     PricePerHour: 0.43546,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -7187,7 +7187,7 @@
     PricePerHour: 0.03917,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -7197,7 +7197,7 @@
     PricePerHour: 0.58426,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -7207,7 +7207,7 @@
     PricePerHour: 0.02298,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -7217,7 +7217,7 @@
     PricePerHour: 0.33471,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -7227,7 +7227,7 @@
     PricePerHour: 0.15276,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -7237,7 +7237,7 @@
     PricePerHour: 0.52255,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -7247,7 +7247,7 @@
     PricePerHour: 0.10848,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -7257,7 +7257,7 @@
     PricePerHour: 0.23328,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -7267,7 +7267,7 @@
     PricePerHour: 0.096,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -7277,7 +7277,7 @@
     PricePerHour: 0.32544,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -7287,7 +7287,7 @@
     PricePerHour: 0.4896,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -7297,7 +7297,7 @@
     PricePerHour: 0.04896,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -7307,7 +7307,7 @@
     PricePerHour: 0.00979,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -7317,7 +7317,7 @@
     PricePerHour: 0.06916,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -7327,7 +7327,7 @@
     PricePerHour: 0.15667,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -7337,7 +7337,7 @@
     PricePerHour: 0.01032,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -7347,7 +7347,7 @@
     PricePerHour: 0.77414,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -7357,7 +7357,7 @@
     PricePerHour: 0.0599,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -7367,7 +7367,7 @@
     PricePerHour: 1.18241,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -7377,7 +7377,7 @@
     PricePerHour: 0.36051,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -7387,7 +7387,7 @@
     PricePerHour: 0.01382,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -7397,7 +7397,7 @@
     PricePerHour: 0.42912,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -7407,7 +7407,7 @@
     PricePerHour: 0.82944,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -7417,7 +7417,7 @@
     PricePerHour: 1.16122,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -7427,7 +7427,7 @@
     PricePerHour: 0.02712,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -7437,7 +7437,7 @@
     PricePerHour: 0.68256,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -7447,7 +7447,7 @@
     PricePerHour: 0.048,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -7457,7 +7457,7 @@
     PricePerHour: 0.0504,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -7467,7 +7467,7 @@
     PricePerHour: 0.1416,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -7477,7 +7477,7 @@
     PricePerHour: 0.04608,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -7487,7 +7487,7 @@
     PricePerHour: 0.52255,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -7497,7 +7497,7 @@
     PricePerHour: 0.26112,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -7507,7 +7507,7 @@
     PricePerHour: 0.09193,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -7517,7 +7517,7 @@
     PricePerHour: 0.02092,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -7527,7 +7527,7 @@
     PricePerHour: 0.40014,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -7537,7 +7537,7 @@
     PricePerHour: 0.1847,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -7547,7 +7547,7 @@
     PricePerHour: 0.012,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -7557,7 +7557,7 @@
     PricePerHour: 0.01356,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -7567,7 +7567,7 @@
     PricePerHour: 1.95456,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -7577,7 +7577,7 @@
     PricePerHour: 0.33024,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -7587,7 +7587,7 @@
     PricePerHour: 0.06668,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -7597,7 +7597,7 @@
     PricePerHour: 0.00403,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -7607,7 +7607,7 @@
     PricePerHour: 0.56652,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -7617,7 +7617,7 @@
     PricePerHour: 1.1255,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -7627,7 +7627,7 @@
     PricePerHour: 0.04344,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -7637,7 +7637,7 @@
     PricePerHour: 0.12768,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -7647,7 +7647,7 @@
     PricePerHour: 0.09379,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -7657,7 +7657,7 @@
     PricePerHour: 0.22752,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -7667,7 +7667,7 @@
     PricePerHour: 0.07413,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -7677,7 +7677,7 @@
     PricePerHour: 0.59305,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -7687,7 +7687,7 @@
     PricePerHour: 0.32064,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -7697,7 +7697,7 @@
     PricePerHour: 0.29491,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -7707,7 +7707,7 @@
     PricePerHour: 0.52224,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -7717,7 +7717,7 @@
     PricePerHour: 0.16125,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -7727,7 +7727,7 @@
     PricePerHour: 0.68256,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -7737,7 +7737,7 @@
     PricePerHour: 0.04128,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -7747,7 +7747,7 @@
     PricePerHour: 0.00641,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -7757,7 +7757,7 @@
     PricePerHour: 0.44237,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -7767,7 +7767,7 @@
     PricePerHour: 1.20096,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -7777,7 +7777,7 @@
     PricePerHour: 0.16032,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -7787,7 +7787,7 @@
     PricePerHour: 0.33212,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -7797,7 +7797,7 @@
     PricePerHour: 0.01633,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -7807,7 +7807,7 @@
     PricePerHour: 0.2903,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -7817,7 +7817,7 @@
     PricePerHour: 0.17234,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -7827,7 +7827,7 @@
     PricePerHour: 0.20007,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -7837,7 +7837,7 @@
     PricePerHour: 0.28218,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -7847,7 +7847,7 @@
     PricePerHour: 0.45696,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -7857,7 +7857,7 @@
     PricePerHour: 3.20112,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -7867,7 +7867,7 @@
     PricePerHour: 0.01958,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -7877,7 +7877,7 @@
     PricePerHour: 0.22176,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -7887,7 +7887,7 @@
     PricePerHour: 0.27648,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -7897,7 +7897,7 @@
     PricePerHour: 1.60056,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -7907,7 +7907,7 @@
     PricePerHour: 1.3354,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -7917,7 +7917,7 @@
     PricePerHour: 0.29568,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -7927,7 +7927,7 @@
     PricePerHour: 0.19488,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -7937,7 +7937,7 @@
     PricePerHour: 0.01848,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -7947,7 +7947,7 @@
     PricePerHour: 0.01282,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -7957,7 +7957,7 @@
     PricePerHour: 0.02183,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -7967,7 +7967,7 @@
     PricePerHour: 0.09098,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -7977,7 +7977,7 @@
     PricePerHour: 0.2784,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -7987,7 +7987,7 @@
     PricePerHour: 0.20016,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -7997,7 +7997,7 @@
     PricePerHour: 0.39552,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -8007,7 +8007,7 @@
     PricePerHour: 0.61102,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -8017,7 +8017,7 @@
     PricePerHour: 0.52224,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -8027,7 +8027,7 @@
     PricePerHour: 0.01632,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -8037,7 +8037,7 @@
     PricePerHour: 0.36288,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -8047,7 +8047,7 @@
     PricePerHour: 0.04927,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -8057,7 +8057,7 @@
     PricePerHour: 0.80028,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -8067,7 +8067,7 @@
     PricePerHour: 0.02995,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -8077,7 +8077,7 @@
     PricePerHour: 0.24768,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -8087,7 +8087,7 @@
     PricePerHour: 1.36512,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -8097,7 +8097,7 @@
     PricePerHour: 0.43546,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -8107,7 +8107,7 @@
     PricePerHour: 0.00479,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -8117,7 +8117,7 @@
     PricePerHour: 0.16279,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -8127,7 +8127,7 @@
     PricePerHour: 0.32544,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -8137,7 +8137,7 @@
     PricePerHour: 0.01037,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -8147,7 +8147,7 @@
     PricePerHour: 2.17452,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -8157,7 +8157,7 @@
     PricePerHour: 0.27648,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -8167,7 +8167,7 @@
     PricePerHour: 0.90926,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -8177,7 +8177,7 @@
     PricePerHour: 0.02035,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -8187,7 +8187,7 @@
     PricePerHour: 0.78336,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -8197,7 +8197,7 @@
     PricePerHour: 0.14606,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -8207,7 +8207,7 @@
     PricePerHour: 0.00005,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -8217,7 +8217,7 @@
     PricePerHour: 0.21696,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -8227,7 +8227,7 @@
     PricePerHour: 0.09406,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -8237,7 +8237,7 @@
     PricePerHour: 0.98842,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -8247,7 +8247,7 @@
     PricePerHour: 0.0553,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -8257,7 +8257,7 @@
     PricePerHour: 0.03744,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -8267,7 +8267,7 @@
     PricePerHour: 1.03404,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -8277,7 +8277,7 @@
     PricePerHour: 0.00806,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -8287,7 +8287,7 @@
     PricePerHour: 0.22032,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -8297,7 +8297,7 @@
     PricePerHour: 0.16512,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -8307,7 +8307,7 @@
     PricePerHour: 0.10886,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -8317,7 +8317,7 @@
     PricePerHour: 0.27648,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -8327,7 +8327,7 @@
     PricePerHour: 0.01391,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -8337,7 +8337,7 @@
     PricePerHour: 0.02266,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -8347,7 +8347,7 @@
     PricePerHour: 0.33178,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -8357,7 +8357,7 @@
     PricePerHour: 0.30754,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -8367,7 +8367,7 @@
     PricePerHour: 0.34468,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -8377,7 +8377,7 @@
     PricePerHour: 0.41472,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -8387,7 +8387,7 @@
     PricePerHour: 0.12096,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -8397,7 +8397,7 @@
     PricePerHour: 0.04689,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -8407,7 +8407,7 @@
     PricePerHour: 0.02765,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -8417,7 +8417,7 @@
     PricePerHour: 0.04008,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -8427,7 +8427,7 @@
     PricePerHour: 0.03696,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -8437,7 +8437,7 @@
     PricePerHour: 0.48384,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -8447,7 +8447,7 @@
     PricePerHour: 0.84649,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -8457,7 +8457,7 @@
     PricePerHour: 0.55296,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -8467,7 +8467,7 @@
     PricePerHour: 0.04116,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -8477,7 +8477,7 @@
     PricePerHour: 0.56275,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -8487,7 +8487,7 @@
     PricePerHour: 0.00005,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -8497,7 +8497,7 @@
     PricePerHour: 1.4688,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -8507,7 +8507,7 @@
     PricePerHour: 0.53345,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -8517,7 +8517,7 @@
     PricePerHour: 0.03264,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -8527,7 +8527,7 @@
     PricePerHour: 0.19707,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -8537,7 +8537,7 @@
     PricePerHour: 0.00557,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -8547,7 +8547,7 @@
     PricePerHour: 0.32928,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -8557,7 +8557,7 @@
     PricePerHour: 0.03458,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -8567,7 +8567,7 @@
     PricePerHour: 0.22118,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -8577,7 +8577,7 @@
     PricePerHour: 0.01512,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -8587,7 +8587,7 @@
     PricePerHour: 0.01671,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -8597,7 +8597,7 @@
     PricePerHour: 0.75456,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -8607,7 +8607,7 @@
     PricePerHour: 0.00616,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -8617,7 +8617,7 @@
     PricePerHour: 0.09216,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -8627,7 +8627,7 @@
     PricePerHour: 0.00696,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -8637,7 +8637,7 @@
     PricePerHour: 0.29652,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -8647,7 +8647,7 @@
     PricePerHour: 0.22141,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -8657,7 +8657,7 @@
     PricePerHour: 0.17856,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -8667,7 +8667,7 @@
     PricePerHour: 0.1836,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -8677,7 +8677,7 @@
     PricePerHour: 0.05655,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: AmazonEKS,
@@ -8687,7 +8687,7 @@
     PricePerHour: 0.04608,
     Cloud: aws,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: Automatic Compute Optimized,
@@ -8697,7 +8697,7 @@
     PricePerHour: 0.012196,
     Cloud: azure,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: Automatic Hosted Control Plane,
@@ -8707,7 +8707,7 @@
     PricePerHour: 0.16,
     Cloud: azure,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: Standard Long Term Support,
@@ -8717,7 +8717,7 @@
     PricePerHour: 0.6,
     Cloud: azure,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: Automatic Storage Optimized,
@@ -8727,7 +8727,7 @@
     PricePerHour: 0.014487,
     Cloud: azure,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: Automatic Memory Optimized,
@@ -8737,7 +8737,7 @@
     PricePerHour: 0.012427,
     Cloud: azure,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: Standard Uptime SLA,
@@ -8747,7 +8747,7 @@
     PricePerHour: 0.1,
     Cloud: azure,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: Automatic High Performance Compute,
@@ -8757,7 +8757,7 @@
     PricePerHour: 0.007312,
     Cloud: azure,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: Automatic GPU Accelerated,
@@ -8767,7 +8767,7 @@
     PricePerHour: 0.035952,
     Cloud: azure,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: Automatic General Purpose,
@@ -8777,7 +8777,7 @@
     PricePerHour: 0.007841,
     Cloud: azure,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   },
   {
     ClusterName: Automatic Confidential Compute,
@@ -8787,6 +8787,6 @@
     PricePerHour: 0.012117,
     Cloud: azure,
     Category: Compute,
-    SubCategory: Kubernetes
+    SubCategoryValue: 102
   }
 ]

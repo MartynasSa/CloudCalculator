@@ -1,11 +1,61 @@
 ﻿{
   Usage: small,
   Resources: [
-    ObjectStorage,
-    Backup,
-    CDN,
-    LoadBalancer,
-    Monitoring
+    {
+      Category: Storage,
+      ComputeType: null,
+      DatabaseType: null,
+      StorageType: ObjectStorage,
+      NetworkingType: null,
+      AnalyticsType: null,
+      ManagementType: null,
+      SecurityType: null,
+      AIType: null
+    },
+    {
+      Category: Storage,
+      ComputeType: null,
+      DatabaseType: null,
+      StorageType: Backup,
+      NetworkingType: null,
+      AnalyticsType: null,
+      ManagementType: null,
+      SecurityType: null,
+      AIType: null
+    },
+    {
+      Category: Networking,
+      ComputeType: null,
+      DatabaseType: null,
+      StorageType: null,
+      NetworkingType: CDN,
+      AnalyticsType: null,
+      ManagementType: null,
+      SecurityType: null,
+      AIType: null
+    },
+    {
+      Category: Networking,
+      ComputeType: null,
+      DatabaseType: null,
+      StorageType: null,
+      NetworkingType: LoadBalancer,
+      AnalyticsType: null,
+      ManagementType: null,
+      SecurityType: null,
+      AIType: null
+    },
+    {
+      Category: Management,
+      ComputeType: null,
+      DatabaseType: null,
+      StorageType: null,
+      NetworkingType: null,
+      AnalyticsType: null,
+      ManagementType: Monitoring,
+      SecurityType: null,
+      AIType: null
+    }
   ],
   CloudCosts: [
     {
@@ -14,28 +64,78 @@
       CostDetails: [
         {
           Cost: 0.0,
-          ResourceSubCategory: ObjectStorage,
+          ResourceSpecification: {
+            Category: Storage,
+            ComputeType: null,
+            DatabaseType: null,
+            StorageType: ObjectStorage,
+            NetworkingType: null,
+            AnalyticsType: null,
+            ManagementType: null,
+            SecurityType: null,
+            AIType: null
+          },
           ResourceDetails: null
         },
         {
           Cost: 0.0,
-          ResourceSubCategory: Backup,
+          ResourceSpecification: {
+            Category: Storage,
+            ComputeType: null,
+            DatabaseType: null,
+            StorageType: Backup,
+            NetworkingType: null,
+            AnalyticsType: null,
+            ManagementType: null,
+            SecurityType: null,
+            AIType: null
+          },
           ResourceDetails: null
         },
         {
           Cost: 0.0,
-          ResourceSubCategory: CDN,
+          ResourceSpecification: {
+            Category: Networking,
+            ComputeType: null,
+            DatabaseType: null,
+            StorageType: null,
+            NetworkingType: CDN,
+            AnalyticsType: null,
+            ManagementType: null,
+            SecurityType: null,
+            AIType: null
+          },
           ResourceDetails: null
         },
         {
           Cost: 5.840,
-          ResourceSubCategory: LoadBalancer,
-          ResourceDetails: {"Name":"ELB:Balancing","PricePerMonth":5.840,"Cloud":"aws","Category":"Networking","SubCategory":"LoadBalancer"}
+          ResourceSpecification: {
+            Category: Networking,
+            ComputeType: null,
+            DatabaseType: null,
+            StorageType: null,
+            NetworkingType: LoadBalancer,
+            AnalyticsType: null,
+            ManagementType: null,
+            SecurityType: null,
+            AIType: null
+          },
+          ResourceDetails: {"Name":"ELB:Balancing","PricePerMonth":5.840,"Cloud":"aws","Category":"Networking","SubCategoryValue":401}
         },
         {
           Cost: 15.0,
-          ResourceSubCategory: Monitoring,
-          ResourceDetails: {"MonitoringService":"AmazonCloudWatch","Region":"us-east-1","MetricType":"Estimated Usage-Based Cost","PricePerMonth":15,"Cloud":"aws","Category":"Management","SubCategory":"Monitoring"}
+          ResourceSpecification: {
+            Category: Management,
+            ComputeType: null,
+            DatabaseType: null,
+            StorageType: null,
+            NetworkingType: null,
+            AnalyticsType: null,
+            ManagementType: Monitoring,
+            SecurityType: null,
+            AIType: null
+          },
+          ResourceDetails: {"MonitoringService":"AmazonCloudWatch","Region":"us-east-1","MetricType":"Estimated Usage-Based Cost","PricePerMonth":15,"Cloud":"aws","Category":"Management","SubCategoryValue":604}
         }
       ]
     },
@@ -45,28 +145,78 @@
       CostDetails: [
         {
           Cost: 0.0,
-          ResourceSubCategory: ObjectStorage,
+          ResourceSpecification: {
+            Category: Storage,
+            ComputeType: null,
+            DatabaseType: null,
+            StorageType: ObjectStorage,
+            NetworkingType: null,
+            AnalyticsType: null,
+            ManagementType: null,
+            SecurityType: null,
+            AIType: null
+          },
           ResourceDetails: null
         },
         {
           Cost: 0.0,
-          ResourceSubCategory: Backup,
+          ResourceSpecification: {
+            Category: Storage,
+            ComputeType: null,
+            DatabaseType: null,
+            StorageType: Backup,
+            NetworkingType: null,
+            AnalyticsType: null,
+            ManagementType: null,
+            SecurityType: null,
+            AIType: null
+          },
           ResourceDetails: null
         },
         {
           Cost: 0.0,
-          ResourceSubCategory: CDN,
+          ResourceSpecification: {
+            Category: Networking,
+            ComputeType: null,
+            DatabaseType: null,
+            StorageType: null,
+            NetworkingType: CDN,
+            AnalyticsType: null,
+            ManagementType: null,
+            SecurityType: null,
+            AIType: null
+          },
           ResourceDetails: null
         },
         {
           Cost: 0.0,
-          ResourceSubCategory: LoadBalancer,
-          ResourceDetails: {"Name":"Load Balancer","PricePerMonth":0.0,"Cloud":"azure","Category":"Networking","SubCategory":"LoadBalancer"}
+          ResourceSpecification: {
+            Category: Networking,
+            ComputeType: null,
+            DatabaseType: null,
+            StorageType: null,
+            NetworkingType: LoadBalancer,
+            AnalyticsType: null,
+            ManagementType: null,
+            SecurityType: null,
+            AIType: null
+          },
+          ResourceDetails: {"Name":"Load Balancer","PricePerMonth":0.0,"Cloud":"azure","Category":"Networking","SubCategoryValue":401}
         },
         {
           Cost: 15.0,
-          ResourceSubCategory: Monitoring,
-          ResourceDetails: {"MonitoringService":"Azure Monitor","Region":"eastus","MetricType":"Estimated Usage-Based Cost","PricePerMonth":15,"Cloud":"azure","Category":"Management","SubCategory":"Monitoring"}
+          ResourceSpecification: {
+            Category: Management,
+            ComputeType: null,
+            DatabaseType: null,
+            StorageType: null,
+            NetworkingType: null,
+            AnalyticsType: null,
+            ManagementType: Monitoring,
+            SecurityType: null,
+            AIType: null
+          },
+          ResourceDetails: {"MonitoringService":"Azure Monitor","Region":"eastus","MetricType":"Estimated Usage-Based Cost","PricePerMonth":15,"Cloud":"azure","Category":"Management","SubCategoryValue":604}
         }
       ]
     },
@@ -76,28 +226,78 @@
       CostDetails: [
         {
           Cost: 0.0,
-          ResourceSubCategory: ObjectStorage,
+          ResourceSpecification: {
+            Category: Storage,
+            ComputeType: null,
+            DatabaseType: null,
+            StorageType: ObjectStorage,
+            NetworkingType: null,
+            AnalyticsType: null,
+            ManagementType: null,
+            SecurityType: null,
+            AIType: null
+          },
           ResourceDetails: null
         },
         {
           Cost: 0.0,
-          ResourceSubCategory: Backup,
+          ResourceSpecification: {
+            Category: Storage,
+            ComputeType: null,
+            DatabaseType: null,
+            StorageType: Backup,
+            NetworkingType: null,
+            AnalyticsType: null,
+            ManagementType: null,
+            SecurityType: null,
+            AIType: null
+          },
           ResourceDetails: null
         },
         {
           Cost: 0.0,
-          ResourceSubCategory: CDN,
+          ResourceSpecification: {
+            Category: Networking,
+            ComputeType: null,
+            DatabaseType: null,
+            StorageType: null,
+            NetworkingType: CDN,
+            AnalyticsType: null,
+            ManagementType: null,
+            SecurityType: null,
+            AIType: null
+          },
           ResourceDetails: null
         },
         {
           Cost: 5.840,
-          ResourceSubCategory: LoadBalancer,
-          ResourceDetails: {"Name":"Compute Engine","PricePerMonth":5.840,"Cloud":"gcp","Category":"Networking","SubCategory":"LoadBalancer"}
+          ResourceSpecification: {
+            Category: Networking,
+            ComputeType: null,
+            DatabaseType: null,
+            StorageType: null,
+            NetworkingType: LoadBalancer,
+            AnalyticsType: null,
+            ManagementType: null,
+            SecurityType: null,
+            AIType: null
+          },
+          ResourceDetails: {"Name":"Compute Engine","PricePerMonth":5.840,"Cloud":"gcp","Category":"Networking","SubCategoryValue":401}
         },
         {
           Cost: 15.0,
-          ResourceSubCategory: Monitoring,
-          ResourceDetails: {"MonitoringService":"Cloud Logging","Region":"global","MetricType":"Estimated Usage-Based Cost","PricePerMonth":15,"Cloud":"gcp","Category":"Management","SubCategory":"Monitoring"}
+          ResourceSpecification: {
+            Category: Management,
+            ComputeType: null,
+            DatabaseType: null,
+            StorageType: null,
+            NetworkingType: null,
+            AnalyticsType: null,
+            ManagementType: Monitoring,
+            SecurityType: null,
+            AIType: null
+          },
+          ResourceDetails: {"MonitoringService":"Cloud Logging","Region":"global","MetricType":"Estimated Usage-Based Cost","PricePerMonth":15,"Cloud":"gcp","Category":"Management","SubCategoryValue":604}
         }
       ]
     }

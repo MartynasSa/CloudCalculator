@@ -1,9 +1,39 @@
 ﻿{
   Usage: large,
   Resources: [
-    VirtualMachines,
-    Relational,
-    LoadBalancer
+    {
+      Category: Compute,
+      ComputeType: VirtualMachines,
+      DatabaseType: null,
+      StorageType: null,
+      NetworkingType: null,
+      AnalyticsType: null,
+      ManagementType: null,
+      SecurityType: null,
+      AIType: null
+    },
+    {
+      Category: Database,
+      ComputeType: null,
+      DatabaseType: Relational,
+      StorageType: null,
+      NetworkingType: null,
+      AnalyticsType: null,
+      ManagementType: null,
+      SecurityType: null,
+      AIType: null
+    },
+    {
+      Category: Networking,
+      ComputeType: null,
+      DatabaseType: null,
+      StorageType: null,
+      NetworkingType: LoadBalancer,
+      AnalyticsType: null,
+      ManagementType: null,
+      SecurityType: null,
+      AIType: null
+    }
   ],
   CloudCosts: [
     {
@@ -12,18 +42,48 @@
       CostDetails: [
         {
           Cost: 194.180,
-          ResourceSubCategory: VirtualMachines,
-          ResourceDetails: {"InstanceName":"c5d.2xlarge","Region":"us-east-1","VCpu":8,"Memory":"16 GiB","PricePerHour":0.266,"Cloud":"aws","Category":"Compute","SubCategory":"VirtualMachines"}
+          ResourceSpecification: {
+            Category: Compute,
+            ComputeType: VirtualMachines,
+            DatabaseType: null,
+            StorageType: null,
+            NetworkingType: null,
+            AnalyticsType: null,
+            ManagementType: null,
+            SecurityType: null,
+            AIType: null
+          },
+          ResourceDetails: {"InstanceName":"c5d.2xlarge","Region":"us-east-1","VCpu":8,"Memory":"16 GiB","PricePerHour":0.266,"Cloud":"aws","Category":"Compute","SubCategoryValue":100}
         },
         {
           Cost: 443.840,
-          ResourceSubCategory: Relational,
-          ResourceDetails: {"InstanceName":"db.m6g.2xlarge","Region":"us-east-1","DatabaseEngine":"MySQL","VCpu":8,"Memory":"32 GiB","PricePerHour":0.608,"Cloud":"aws","Category":"Database","SubCategory":"Relational"}
+          ResourceSpecification: {
+            Category: Database,
+            ComputeType: null,
+            DatabaseType: Relational,
+            StorageType: null,
+            NetworkingType: null,
+            AnalyticsType: null,
+            ManagementType: null,
+            SecurityType: null,
+            AIType: null
+          },
+          ResourceDetails: {"InstanceName":"db.m6g.2xlarge","Region":"us-east-1","DatabaseEngine":"MySQL","VCpu":8,"Memory":"32 GiB","PricePerHour":0.608,"Cloud":"aws","Category":"Database","SubCategoryValue":200}
         },
         {
           Cost: 5.840,
-          ResourceSubCategory: LoadBalancer,
-          ResourceDetails: {"Name":"ELB:Balancing","PricePerMonth":5.840,"Cloud":"aws","Category":"Networking","SubCategory":"LoadBalancer"}
+          ResourceSpecification: {
+            Category: Networking,
+            ComputeType: null,
+            DatabaseType: null,
+            StorageType: null,
+            NetworkingType: LoadBalancer,
+            AnalyticsType: null,
+            ManagementType: null,
+            SecurityType: null,
+            AIType: null
+          },
+          ResourceDetails: {"Name":"ELB:Balancing","PricePerMonth":5.840,"Cloud":"aws","Category":"Networking","SubCategoryValue":401}
         }
       ]
     },
@@ -33,18 +93,48 @@
       CostDetails: [
         {
           Cost: 181.040,
-          ResourceSubCategory: VirtualMachines,
-          ResourceDetails: {"InstanceName":"Standard_D8pls_v6","Region":"eastus","VCpu":8,"Memory":"16","PricePerHour":0.248,"Cloud":"azure","Category":"Compute","SubCategory":"VirtualMachines"}
+          ResourceSpecification: {
+            Category: Compute,
+            ComputeType: VirtualMachines,
+            DatabaseType: null,
+            StorageType: null,
+            NetworkingType: null,
+            AnalyticsType: null,
+            ManagementType: null,
+            SecurityType: null,
+            AIType: null
+          },
+          ResourceDetails: {"InstanceName":"Standard_D8pls_v6","Region":"eastus","VCpu":8,"Memory":"16","PricePerHour":0.248,"Cloud":"azure","Category":"Compute","SubCategoryValue":100}
         },
         {
           Cost: 133.34180,
-          ResourceSubCategory: Relational,
-          ResourceDetails: {"InstanceName":"10 vCore","Region":"eastus","DatabaseEngine":"SQL Server","VCpu":10,"Memory":"30 GiB","PricePerHour":0.18266,"Cloud":"azure","Category":"Database","SubCategory":"Relational"}
+          ResourceSpecification: {
+            Category: Database,
+            ComputeType: null,
+            DatabaseType: Relational,
+            StorageType: null,
+            NetworkingType: null,
+            AnalyticsType: null,
+            ManagementType: null,
+            SecurityType: null,
+            AIType: null
+          },
+          ResourceDetails: {"InstanceName":"10 vCore","Region":"eastus","DatabaseEngine":"SQL Server","VCpu":10,"Memory":"30 GiB","PricePerHour":0.18266,"Cloud":"azure","Category":"Database","SubCategoryValue":200}
         },
         {
           Cost: 0.0,
-          ResourceSubCategory: LoadBalancer,
-          ResourceDetails: {"Name":"Load Balancer","PricePerMonth":0.0,"Cloud":"azure","Category":"Networking","SubCategory":"LoadBalancer"}
+          ResourceSpecification: {
+            Category: Networking,
+            ComputeType: null,
+            DatabaseType: null,
+            StorageType: null,
+            NetworkingType: LoadBalancer,
+            AnalyticsType: null,
+            ManagementType: null,
+            SecurityType: null,
+            AIType: null
+          },
+          ResourceDetails: {"Name":"Load Balancer","PricePerMonth":0.0,"Cloud":"azure","Category":"Networking","SubCategoryValue":401}
         }
       ]
     },
@@ -54,18 +144,48 @@
       CostDetails: [
         {
           Cost: 147.10960,
-          ResourceSubCategory: VirtualMachines,
-          ResourceDetails: {"InstanceName":"A3Ultra-8vCPU-16GB","Region":"us-east1","VCpu":8,"Memory":"16 GiB","PricePerHour":0.20152,"Cloud":"gcp","Category":"Compute","SubCategory":"VirtualMachines"}
+          ResourceSpecification: {
+            Category: Compute,
+            ComputeType: VirtualMachines,
+            DatabaseType: null,
+            StorageType: null,
+            NetworkingType: null,
+            AnalyticsType: null,
+            ManagementType: null,
+            SecurityType: null,
+            AIType: null
+          },
+          ResourceDetails: {"InstanceName":"A3Ultra-8vCPU-16GB","Region":"us-east1","VCpu":8,"Memory":"16 GiB","PricePerHour":0.20152,"Cloud":"gcp","Category":"Compute","SubCategoryValue":100}
         },
         {
           Cost: 394.4920,
-          ResourceSubCategory: Relational,
-          ResourceDetails: {"InstanceName":"Cloud SQL","Region":"us-east1","DatabaseEngine":"MySQL","VCpu":8,"Memory":"30 GiB","PricePerHour":0.5404,"Cloud":"gcp","Category":"Database","SubCategory":"Relational"}
+          ResourceSpecification: {
+            Category: Database,
+            ComputeType: null,
+            DatabaseType: Relational,
+            StorageType: null,
+            NetworkingType: null,
+            AnalyticsType: null,
+            ManagementType: null,
+            SecurityType: null,
+            AIType: null
+          },
+          ResourceDetails: {"InstanceName":"Cloud SQL","Region":"us-east1","DatabaseEngine":"MySQL","VCpu":8,"Memory":"30 GiB","PricePerHour":0.5404,"Cloud":"gcp","Category":"Database","SubCategoryValue":200}
         },
         {
           Cost: 5.840,
-          ResourceSubCategory: LoadBalancer,
-          ResourceDetails: {"Name":"Compute Engine","PricePerMonth":5.840,"Cloud":"gcp","Category":"Networking","SubCategory":"LoadBalancer"}
+          ResourceSpecification: {
+            Category: Networking,
+            ComputeType: null,
+            DatabaseType: null,
+            StorageType: null,
+            NetworkingType: LoadBalancer,
+            AnalyticsType: null,
+            ManagementType: null,
+            SecurityType: null,
+            AIType: null
+          },
+          ResourceDetails: {"Name":"Compute Engine","PricePerMonth":5.840,"Cloud":"gcp","Category":"Networking","SubCategoryValue":401}
         }
       ]
     }
