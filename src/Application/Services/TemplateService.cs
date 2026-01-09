@@ -752,12 +752,81 @@ public class TemplateService : ITemplateService
 
     public TemplateDto GetTemplate(TemplateType template, UsageSize usageSize)
     {
-        var resources = _templateResourceMappings.GetValueOrDefault((template, usageSize), []);
+        var subCategories = _templateResourceMappings.GetValueOrDefault((template, usageSize), []);
 
         return new TemplateDto
         {
             Template = template,
-            Resources = resources
+            Resources = MapToResourcesDto(subCategories)
         };
+    }
+
+    private static ResourcesDto MapToResourcesDto(IEnumerable<ResourceSubCategory> subCategories)
+    {
+        var resources = new ResourcesDto();
+
+        foreach (var subCategory in subCategories)
+        {
+            switch (subCategory)
+            {
+                case ResourceSubCategory.VirtualMachines:
+                case ResourceSubCategory.CloudFunctions:
+                case ResourceSubCategory.Kubernetes:
+                case ResourceSubCategory.ContainerInstances:
+                    resources.Computes.Add((ComputeType)subCategory);
+                    break;
+
+                case ResourceSubCategory.Relational:
+                case ResourceSubCategory.NoSQL:
+                case ResourceSubCategory.Caching:
+                    resources.Databases.Add((DatabaseType)subCategory);
+                    break;
+
+                case ResourceSubCategory.ObjectStorage:
+                case ResourceSubCategory.BlobStorage:
+                case ResourceSubCategory.BlockStorage:
+                case ResourceSubCategory.FileStorage:
+                case ResourceSubCategory.Backup:
+                    resources.Storages.Add((StorageType)subCategory);
+                    break;
+
+                case ResourceSubCategory.VpnGateway:
+                case ResourceSubCategory.LoadBalancer:
+                case ResourceSubCategory.ApiGateway:
+                case ResourceSubCategory.Dns:
+                case ResourceSubCategory.CDN:
+                    resources.Networks.Add((NetworkingType)subCategory);
+                    break;
+
+                case ResourceSubCategory.DataWarehouse:
+                case ResourceSubCategory.Streaming:
+                case ResourceSubCategory.MachineLearning:
+                    resources.Analytics.Add((AnalyticsType)subCategory);
+                    break;
+
+                case ResourceSubCategory.Queueing:
+                case ResourceSubCategory.Messaging:
+                case ResourceSubCategory.Secrets:
+                case ResourceSubCategory.Compliance:
+                case ResourceSubCategory.Monitoring:
+                    resources.Management.Add((ManagementType)subCategory);
+                    break;
+
+                case ResourceSubCategory.WebApplicationFirewall:
+                case ResourceSubCategory.IdentityManagement:
+                    resources.Security.Add((SecurityType)subCategory);
+                    break;
+
+                case ResourceSubCategory.AIServices:
+                case ResourceSubCategory.MLPlatforms:
+                case ResourceSubCategory.IntelligentSearch:
+                    resources.AI.Add((AIType)subCategory);
+                    break;
+                default:
+                    break;
+            }
+        }
+
+        return resources;
     }
 }

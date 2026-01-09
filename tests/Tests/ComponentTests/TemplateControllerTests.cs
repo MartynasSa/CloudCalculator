@@ -27,12 +27,12 @@ public class TemplateControllerTests(WebApplicationFactory<Program> factory) : T
         Assert.NotNull(template);
         Assert.Equal(TemplateType.Saas, template.Template);
         Assert.NotNull(template.Resources);
-        Assert.NotEmpty(template.Resources);
+        Assert.True(HasResources(template.Resources));
 
-        AssertContainsResource(template, ResourceSubCategory.VirtualMachines);
-        AssertContainsResource(template, ResourceSubCategory.Relational);
-        AssertContainsResource(template, ResourceSubCategory.LoadBalancer);
-        AssertContainsResource(template, ResourceSubCategory.Monitoring);
+        AssertContainsResource(template, ComputeType.VirtualMachines);
+        AssertContainsResource(template, DatabaseType.Relational);
+        AssertContainsResource(template, NetworkingType.LoadBalancer);
+        AssertContainsResource(template, ManagementType.Monitoring);
 
         await Verify(template);
     }
@@ -49,7 +49,7 @@ public class TemplateControllerTests(WebApplicationFactory<Program> factory) : T
         Assert.NotNull(template);
         Assert.Equal(TemplateType.Saas, template.Template);
         Assert.NotNull(template.Resources);
-        Assert.NotEmpty(template.Resources);
+        Assert.True(HasResources(template.Resources));
 
         await Verify(template);
     }
@@ -66,7 +66,7 @@ public class TemplateControllerTests(WebApplicationFactory<Program> factory) : T
         Assert.NotNull(template);
         Assert.Equal(TemplateType.Saas, template.Template);
         Assert.NotNull(template.Resources);
-        Assert.NotEmpty(template.Resources);
+        Assert.True(HasResources(template.Resources));
 
         await Verify(template);
     }
@@ -79,14 +79,61 @@ public class TemplateControllerTests(WebApplicationFactory<Program> factory) : T
         Assert.Equal(HttpStatusCode.BadRequest, response.StatusCode);
     }
 
-    private static void AssertContainsResource(TemplateDto template, ResourceSubCategory resource)
+    private static bool HasResources(ResourcesDto resources)
     {
-        Assert.Contains(resource, template.Resources);
+        return resources != null && (
+            resources.Computes.Any() ||
+            resources.Databases.Any() ||
+            resources.Storages.Any() ||
+            resources.Networks.Any() ||
+            resources.Analytics.Any() ||
+            resources.Management.Any() ||
+            resources.Security.Any() ||
+            resources.AI.Any()
+        );
+    }
+
+    private static void AssertContainsResource<T>(TemplateDto template, T resource) where T : Enum
+    {
+        var resourcesDto = template.Resources;
+        bool found = resource switch
+        {
+            ComputeType computeType => resourcesDto.Computes.Contains(computeType),
+            DatabaseType databaseType => resourcesDto.Databases.Contains(databaseType),
+            StorageType storageType => resourcesDto.Storages.Contains(storageType),
+            NetworkingType networkingType => resourcesDto.Networks.Contains(networkingType),
+            AnalyticsType analyticsType => resourcesDto.Analytics.Contains(analyticsType),
+            ManagementType managementType => resourcesDto.Management.Contains(managementType),
+            SecurityType securityType => resourcesDto.Security.Contains(securityType),
+            AIType aiType => resourcesDto.AI.Contains(aiType),
+            _ => false
+        };
+
+        Assert.True(found, $"Resource {resource} not found in template resources");
+    }
+
+    private static void AssertDoesNotContainResource<T>(TemplateDto template, T resource) where T : Enum
+    {
+        var resourcesDto = template.Resources;
+        bool found = resource switch
+        {
+            ComputeType computeType => resourcesDto.Computes.Contains(computeType),
+            DatabaseType databaseType => resourcesDto.Databases.Contains(databaseType),
+            StorageType storageType => resourcesDto.Storages.Contains(storageType),
+            NetworkingType networkingType => resourcesDto.Networks.Contains(networkingType),
+            AnalyticsType analyticsType => resourcesDto.Analytics.Contains(analyticsType),
+            ManagementType managementType => resourcesDto.Management.Contains(managementType),
+            SecurityType securityType => resourcesDto.Security.Contains(securityType),
+            AIType aiType => resourcesDto.AI.Contains(aiType),
+            _ => false
+        };
+
+        Assert.False(found, $"Resource {resource} should not be found in template resources");
     }
 
     private static void AssertEmptyTemplate(TemplateDto template)
     {
-        Assert.True(template.Resources == null || template.Resources.Count == 0);
+        Assert.False(HasResources(template.Resources));
     }
 
     // WordPress template tests
@@ -102,11 +149,11 @@ public class TemplateControllerTests(WebApplicationFactory<Program> factory) : T
         Assert.NotNull(template);
         Assert.Equal(TemplateType.WordPress, template.Template);
         Assert.NotNull(template.Resources);
-        Assert.NotEmpty(template.Resources);
+        Assert.True(HasResources(template.Resources));
 
-        AssertContainsResource(template, ResourceSubCategory.VirtualMachines);
-        AssertContainsResource(template, ResourceSubCategory.Relational);
-        AssertContainsResource(template, ResourceSubCategory.LoadBalancer);
+        AssertContainsResource(template, ComputeType.VirtualMachines);
+        AssertContainsResource(template, DatabaseType.Relational);
+        AssertContainsResource(template, NetworkingType.LoadBalancer);
     }
 
     [Fact]
@@ -121,7 +168,7 @@ public class TemplateControllerTests(WebApplicationFactory<Program> factory) : T
         Assert.NotNull(template);
         Assert.Equal(TemplateType.WordPress, template.Template);
         Assert.NotNull(template.Resources);
-        Assert.NotEmpty(template.Resources);
+        Assert.True(HasResources(template.Resources));
     }
 
     [Fact]
@@ -136,7 +183,7 @@ public class TemplateControllerTests(WebApplicationFactory<Program> factory) : T
         Assert.NotNull(template);
         Assert.Equal(TemplateType.WordPress, template.Template);
         Assert.NotNull(template.Resources);
-        Assert.NotEmpty(template.Resources);
+        Assert.True(HasResources(template.Resources));
     }
 
     // REST API template tests
@@ -152,12 +199,12 @@ public class TemplateControllerTests(WebApplicationFactory<Program> factory) : T
         Assert.NotNull(template);
         Assert.Equal(TemplateType.RestApi, template.Template);
         Assert.NotNull(template.Resources);
-        Assert.NotEmpty(template.Resources);
+        Assert.True(HasResources(template.Resources));
 
-        AssertContainsResource(template, ResourceSubCategory.VirtualMachines);
-        AssertContainsResource(template, ResourceSubCategory.Relational);
-        AssertContainsResource(template, ResourceSubCategory.LoadBalancer);
-        AssertContainsResource(template, ResourceSubCategory.Monitoring);
+        AssertContainsResource(template, ComputeType.VirtualMachines);
+        AssertContainsResource(template, DatabaseType.Relational);
+        AssertContainsResource(template, NetworkingType.LoadBalancer);
+        AssertContainsResource(template, ManagementType.Monitoring);
     }
 
     [Fact]
@@ -172,7 +219,7 @@ public class TemplateControllerTests(WebApplicationFactory<Program> factory) : T
         Assert.NotNull(template);
         Assert.Equal(TemplateType.RestApi, template.Template);
         Assert.NotNull(template.Resources);
-        Assert.NotEmpty(template.Resources);
+        Assert.True(HasResources(template.Resources));
     }
 
     [Fact]
@@ -187,7 +234,7 @@ public class TemplateControllerTests(WebApplicationFactory<Program> factory) : T
         Assert.NotNull(template);
         Assert.Equal(TemplateType.RestApi, template.Template);
         Assert.NotNull(template.Resources);
-        Assert.NotEmpty(template.Resources);
+        Assert.True(HasResources(template.Resources));
     }
 
     // Static Site template tests
@@ -203,11 +250,11 @@ public class TemplateControllerTests(WebApplicationFactory<Program> factory) : T
         Assert.NotNull(template);
         Assert.Equal(TemplateType.StaticSite, template.Template);
         Assert.NotNull(template.Resources);
-        Assert.NotEmpty(template.Resources);
+        Assert.True(HasResources(template.Resources));
 
-        AssertContainsResource(template, ResourceSubCategory.LoadBalancer);
-        Assert.DoesNotContain(ResourceSubCategory.VirtualMachines, template.Resources);
-        Assert.DoesNotContain(ResourceSubCategory.Relational, template.Resources);
+        AssertContainsResource(template, NetworkingType.LoadBalancer);
+        AssertDoesNotContainResource(template, ComputeType.VirtualMachines);
+        AssertDoesNotContainResource(template, DatabaseType.Relational);
     }
 
     [Fact]
@@ -222,7 +269,7 @@ public class TemplateControllerTests(WebApplicationFactory<Program> factory) : T
         Assert.NotNull(template);
         Assert.Equal(TemplateType.StaticSite, template.Template);
         Assert.NotNull(template.Resources);
-        Assert.NotEmpty(template.Resources);
+        Assert.True(HasResources(template.Resources));
     }
 
     [Fact]
@@ -237,7 +284,7 @@ public class TemplateControllerTests(WebApplicationFactory<Program> factory) : T
         Assert.NotNull(template);
         Assert.Equal(TemplateType.StaticSite, template.Template);
         Assert.NotNull(template.Resources);
-        Assert.NotEmpty(template.Resources);
+        Assert.True(HasResources(template.Resources));
     }
 
     // E-commerce template tests
@@ -253,12 +300,12 @@ public class TemplateControllerTests(WebApplicationFactory<Program> factory) : T
         Assert.NotNull(template);
         Assert.Equal(TemplateType.Ecommerce, template.Template);
         Assert.NotNull(template.Resources);
-        Assert.NotEmpty(template.Resources);
+        Assert.True(HasResources(template.Resources));
 
-        AssertContainsResource(template, ResourceSubCategory.VirtualMachines);
-        AssertContainsResource(template, ResourceSubCategory.Relational);
-        AssertContainsResource(template, ResourceSubCategory.LoadBalancer);
-        AssertContainsResource(template, ResourceSubCategory.Monitoring);
+        AssertContainsResource(template, ComputeType.VirtualMachines);
+        AssertContainsResource(template, DatabaseType.Relational);
+        AssertContainsResource(template, NetworkingType.LoadBalancer);
+        AssertContainsResource(template, ManagementType.Monitoring);
     }
 
     [Fact]
@@ -273,7 +320,7 @@ public class TemplateControllerTests(WebApplicationFactory<Program> factory) : T
         Assert.NotNull(template);
         Assert.Equal(TemplateType.Ecommerce, template.Template);
         Assert.NotNull(template.Resources);
-        Assert.NotEmpty(template.Resources);
+        Assert.True(HasResources(template.Resources));
     }
 
     [Fact]
@@ -288,7 +335,7 @@ public class TemplateControllerTests(WebApplicationFactory<Program> factory) : T
         Assert.NotNull(template);
         Assert.Equal(TemplateType.Ecommerce, template.Template);
         Assert.NotNull(template.Resources);
-        Assert.NotEmpty(template.Resources);
+        Assert.True(HasResources(template.Resources));
     }
 
     // Mobile App Backend template tests
@@ -304,12 +351,12 @@ public class TemplateControllerTests(WebApplicationFactory<Program> factory) : T
         Assert.NotNull(template);
         Assert.Equal(TemplateType.MobileAppBackend, template.Template);
         Assert.NotNull(template.Resources);
-        Assert.NotEmpty(template.Resources);
+        Assert.True(HasResources(template.Resources));
 
-        AssertContainsResource(template, ResourceSubCategory.VirtualMachines);
-        AssertContainsResource(template, ResourceSubCategory.Relational);
-        AssertContainsResource(template, ResourceSubCategory.LoadBalancer);
-        AssertContainsResource(template, ResourceSubCategory.Monitoring);
+        AssertContainsResource(template, ComputeType.VirtualMachines);
+        AssertContainsResource(template, DatabaseType.Relational);
+        AssertContainsResource(template, NetworkingType.LoadBalancer);
+        AssertContainsResource(template, ManagementType.Monitoring);
     }
 
     [Fact]
@@ -324,7 +371,7 @@ public class TemplateControllerTests(WebApplicationFactory<Program> factory) : T
         Assert.NotNull(template);
         Assert.Equal(TemplateType.MobileAppBackend, template.Template);
         Assert.NotNull(template.Resources);
-        Assert.NotEmpty(template.Resources);
+        Assert.True(HasResources(template.Resources));
     }
 
     [Fact]
@@ -339,7 +386,7 @@ public class TemplateControllerTests(WebApplicationFactory<Program> factory) : T
         Assert.NotNull(template);
         Assert.Equal(TemplateType.MobileAppBackend, template.Template);
         Assert.NotNull(template.Resources);
-        Assert.NotEmpty(template.Resources);
+        Assert.True(HasResources(template.Resources));
     }
 
     // Headless Frontend + API template tests
@@ -355,12 +402,12 @@ public class TemplateControllerTests(WebApplicationFactory<Program> factory) : T
         Assert.NotNull(template);
         Assert.Equal(TemplateType.HeadlessFrontendApi, template.Template);
         Assert.NotNull(template.Resources);
-        Assert.NotEmpty(template.Resources);
+        Assert.True(HasResources(template.Resources));
 
-        AssertContainsResource(template, ResourceSubCategory.VirtualMachines);
-        AssertContainsResource(template, ResourceSubCategory.Relational);
-        AssertContainsResource(template, ResourceSubCategory.LoadBalancer);
-        AssertContainsResource(template, ResourceSubCategory.Monitoring);
+        AssertContainsResource(template, ComputeType.VirtualMachines);
+        AssertContainsResource(template, DatabaseType.Relational);
+        AssertContainsResource(template, NetworkingType.LoadBalancer);
+        AssertContainsResource(template, ManagementType.Monitoring);
     }
 
     [Fact]
@@ -375,7 +422,7 @@ public class TemplateControllerTests(WebApplicationFactory<Program> factory) : T
         Assert.NotNull(template);
         Assert.Equal(TemplateType.HeadlessFrontendApi, template.Template);
         Assert.NotNull(template.Resources);
-        Assert.NotEmpty(template.Resources);
+        Assert.True(HasResources(template.Resources));
     }
 
     [Fact]
@@ -390,7 +437,7 @@ public class TemplateControllerTests(WebApplicationFactory<Program> factory) : T
         Assert.NotNull(template);
         Assert.Equal(TemplateType.HeadlessFrontendApi, template.Template);
         Assert.NotNull(template.Resources);
-        Assert.NotEmpty(template.Resources);
+        Assert.True(HasResources(template.Resources));
     }
 
     // Data Analytics & Reporting Platform template tests
@@ -406,12 +453,12 @@ public class TemplateControllerTests(WebApplicationFactory<Program> factory) : T
         Assert.NotNull(template);
         Assert.Equal(TemplateType.DataAnalytics, template.Template);
         Assert.NotNull(template.Resources);
-        Assert.NotEmpty(template.Resources);
+        Assert.True(HasResources(template.Resources));
 
-        AssertContainsResource(template, ResourceSubCategory.VirtualMachines);
-        AssertContainsResource(template, ResourceSubCategory.Relational);
-        AssertContainsResource(template, ResourceSubCategory.LoadBalancer);
-        AssertContainsResource(template, ResourceSubCategory.Monitoring);
+        AssertContainsResource(template, ComputeType.VirtualMachines);
+        AssertContainsResource(template, DatabaseType.Relational);
+        AssertContainsResource(template, NetworkingType.LoadBalancer);
+        AssertContainsResource(template, ManagementType.Monitoring);
     }
 
     [Fact]
@@ -426,7 +473,7 @@ public class TemplateControllerTests(WebApplicationFactory<Program> factory) : T
         Assert.NotNull(template);
         Assert.Equal(TemplateType.DataAnalytics, template.Template);
         Assert.NotNull(template.Resources);
-        Assert.NotEmpty(template.Resources);
+        Assert.True(HasResources(template.Resources));
     }
 
     [Fact]
@@ -441,7 +488,7 @@ public class TemplateControllerTests(WebApplicationFactory<Program> factory) : T
         Assert.NotNull(template);
         Assert.Equal(TemplateType.DataAnalytics, template.Template);
         Assert.NotNull(template.Resources);
-        Assert.NotEmpty(template.Resources);
+        Assert.True(HasResources(template.Resources));
     }
 
     // Machine Learning Inference Service template tests
@@ -457,12 +504,12 @@ public class TemplateControllerTests(WebApplicationFactory<Program> factory) : T
         Assert.NotNull(template);
         Assert.Equal(TemplateType.MachineLearning, template.Template);
         Assert.NotNull(template.Resources);
-        Assert.NotEmpty(template.Resources);
+        Assert.True(HasResources(template.Resources));
 
-        AssertContainsResource(template, ResourceSubCategory.VirtualMachines);
-        AssertContainsResource(template, ResourceSubCategory.LoadBalancer);
-        AssertContainsResource(template, ResourceSubCategory.Monitoring);
-        Assert.DoesNotContain(ResourceSubCategory.Relational, template.Resources);
+        AssertContainsResource(template, ComputeType.VirtualMachines);
+        AssertContainsResource(template, NetworkingType.LoadBalancer);
+        AssertContainsResource(template, ManagementType.Monitoring);
+        AssertDoesNotContainResource(template, DatabaseType.Relational);
     }
 
     [Fact]
@@ -477,7 +524,7 @@ public class TemplateControllerTests(WebApplicationFactory<Program> factory) : T
         Assert.NotNull(template);
         Assert.Equal(TemplateType.MachineLearning, template.Template);
         Assert.NotNull(template.Resources);
-        Assert.NotEmpty(template.Resources);
+        Assert.True(HasResources(template.Resources));
     }
 
     [Fact]
@@ -492,7 +539,7 @@ public class TemplateControllerTests(WebApplicationFactory<Program> factory) : T
         Assert.NotNull(template);
         Assert.Equal(TemplateType.MachineLearning, template.Template);
         Assert.NotNull(template.Resources);
-        Assert.NotEmpty(template.Resources);
+        Assert.True(HasResources(template.Resources));
     }
 
     // Serverless Event-Driven Application template tests
@@ -508,12 +555,12 @@ public class TemplateControllerTests(WebApplicationFactory<Program> factory) : T
         Assert.NotNull(template);
         Assert.Equal(TemplateType.ServerlessEventDriven, template.Template);
         Assert.NotNull(template.Resources);
-        Assert.NotEmpty(template.Resources);
+        Assert.True(HasResources(template.Resources));
 
-        AssertContainsResource(template, ResourceSubCategory.LoadBalancer);
-        Assert.DoesNotContain(ResourceSubCategory.VirtualMachines, template.Resources);
-        Assert.DoesNotContain(ResourceSubCategory.Relational, template.Resources);
-        Assert.DoesNotContain(ResourceSubCategory.Monitoring, template.Resources);
+        AssertContainsResource(template, NetworkingType.LoadBalancer);
+        AssertDoesNotContainResource(template, ComputeType.VirtualMachines);
+        AssertDoesNotContainResource(template, DatabaseType.Relational);
+        AssertDoesNotContainResource(template, ManagementType.Monitoring);
     }
 
     [Fact]
@@ -528,7 +575,7 @@ public class TemplateControllerTests(WebApplicationFactory<Program> factory) : T
         Assert.NotNull(template);
         Assert.Equal(TemplateType.ServerlessEventDriven, template.Template);
         Assert.NotNull(template.Resources);
-        Assert.NotEmpty(template.Resources);
+        Assert.True(HasResources(template.Resources));
     }
 
     [Fact]
@@ -543,7 +590,7 @@ public class TemplateControllerTests(WebApplicationFactory<Program> factory) : T
         Assert.NotNull(template);
         Assert.Equal(TemplateType.ServerlessEventDriven, template.Template);
         Assert.NotNull(template.Resources);
-        Assert.NotEmpty(template.Resources);
+        Assert.True(HasResources(template.Resources));
     }
 
     // Blank template tests

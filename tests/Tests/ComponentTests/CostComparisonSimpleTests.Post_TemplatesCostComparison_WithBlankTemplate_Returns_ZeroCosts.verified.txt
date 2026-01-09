@@ -1,6 +1,15 @@
 ﻿{
   Usage: medium,
-  Resources: null,
+  Resources: {
+    Computes: null,
+    Databases: null,
+    Storages: null,
+    Networks: null,
+    Analytics: null,
+    Management: null,
+    Security: null,
+    AI: null
+  },
   CloudCosts: [
     {
       CloudProvider: aws,

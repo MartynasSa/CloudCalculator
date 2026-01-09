@@ -1,11 +1,23 @@
 ﻿{
   Usage: medium,
-  Resources: [
-    VirtualMachines,
-    Relational,
-    LoadBalancer,
-    Monitoring
-  ],
+  Resources: {
+    Computes: [
+      VirtualMachines
+    ],
+    Databases: [
+      Relational
+    ],
+    Storages: null,
+    Networks: [
+      LoadBalancer
+    ],
+    Analytics: null,
+    Management: [
+      Monitoring
+    ],
+    Security: null,
+    AI: null
+  },
   CloudCosts: [
     {
       CloudProvider: aws,

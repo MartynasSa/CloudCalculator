@@ -1,19 +1,33 @@
 ﻿{
   Usage: medium,
-  Resources: [
-    VirtualMachines,
-    Relational,
-    Caching,
-    ObjectStorage,
-    Backup,
-    ApiGateway,
-    LoadBalancer,
-    Queueing,
-    Messaging,
-    Secrets,
-    Monitoring,
-    WebApplicationFirewall
-  ],
+  Resources: {
+    Computes: [
+      VirtualMachines
+    ],
+    Databases: [
+      Relational,
+      Caching
+    ],
+    Storages: [
+      ObjectStorage,
+      Backup
+    ],
+    Networks: [
+      ApiGateway,
+      LoadBalancer
+    ],
+    Analytics: null,
+    Management: [
+      Queueing,
+      Messaging,
+      Secrets,
+      Monitoring
+    ],
+    Security: [
+      WebApplicationFirewall
+    ],
+    AI: null
+  },
   CloudCosts: [
     {
       CloudProvider: aws,

@@ -26,15 +26,18 @@ public class CalculatorService(IResourceNormalizationService resourceNormalizati
     public Task<TemplateCostComparisonResultDto> CalculateCostComparisonsAsync(CalculateTemplateRequest templateDto, CancellationToken ct = default)
     {
         var template = templateService.GetTemplate(templateDto.Template, templateDto.Usage);
-        return CalculateCostComparisonsAsync(new CalculationRequest() { 
-            Resources = template.Resources, 
-            Usage = templateDto.Usage 
+        return CalculateCostComparisonsAsync(new CalculationRequest()
+        {
+            Resources = template.Resources,
+            Usage = templateDto.Usage
         }, ct);
     }
 
     public async Task<TemplateCostComparisonResultDto> CalculateCostComparisonsAsync(CalculationRequest template, CancellationToken ct = default)
     {
         var resources = await resourceNormalizationService.GetResourcesAsync(ct);
+        var requestedSubCategories = EnumerateRequestedSubCategories(template.Resources).ToList();
+
         var result = new TemplateCostComparisonResultDto
         {
             Resources = template.Resources,
@@ -52,7 +55,7 @@ public class CalculatorService(IResourceNormalizationService resourceNormalizati
             decimal totalCost = 0m;
 
             // Calculate costs based on requested resource subcategories
-            foreach (var requestedSubCategory in template.Resources)
+            foreach (var requestedSubCategory in requestedSubCategories)
             {
                 var (cost, resourceDetails) = CalculateResourceCost(filteredResources, template.Usage, cloudProvider, requestedSubCategory);
 
@@ -74,6 +77,54 @@ public class CalculatorService(IResourceNormalizationService resourceNormalizati
         }
 
         return result;
+    }
+
+    private static IEnumerable<ResourceSubCategory> EnumerateRequestedSubCategories(ResourcesDto resources)
+    {
+        if (resources is null)
+        {
+            yield break;
+        }
+
+        foreach (var compute in resources.Computes.Where(c => c != ComputeType.None))
+        {
+            yield return (ResourceSubCategory)compute;
+        }
+
+        foreach (var database in resources.Databases.Where(d => d != DatabaseType.None))
+        {
+            yield return (ResourceSubCategory)database;
+        }
+
+        foreach (var storage in resources.Storages.Where(s => s != StorageType.None))
+        {
+            yield return (ResourceSubCategory)storage;
+        }
+
+        foreach (var network in resources.Networks.Where(n => n != NetworkingType.None))
+        {
+            yield return (ResourceSubCategory)network;
+        }
+
+        foreach (var analytic in resources.Analytics.Where(a => a != AnalyticsType.None))
+        {
+            yield return (ResourceSubCategory)analytic;
+        }
+
+        foreach (var management in resources.Management.Where(m => m != ManagementType.None))
+        {
+            yield return (ResourceSubCategory)management;
+        }
+
+        foreach (var security in resources.Security.Where(s => s != SecurityType.None))
+        {
+            yield return (ResourceSubCategory)security;
+        }
+
+        foreach (var ai in resources.AI.Where(a => a != AIType.None))
+        {
+            yield return (ResourceSubCategory)ai;
+        }
     }
 
     private (decimal, object) CalculateResourceCost(FilteredResourcesDto filteredResources, UsageSize usageSize, CloudProvider cloudProvider, ResourceSubCategory subCategory)

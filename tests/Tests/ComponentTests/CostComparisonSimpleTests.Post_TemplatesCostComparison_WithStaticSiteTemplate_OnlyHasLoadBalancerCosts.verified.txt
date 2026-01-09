@@ -1,8 +1,17 @@
 ﻿{
   Usage: small,
-  Resources: [
-    LoadBalancer
-  ],
+  Resources: {
+    Computes: null,
+    Databases: null,
+    Storages: null,
+    Networks: [
+      LoadBalancer
+    ],
+    Analytics: null,
+    Management: null,
+    Security: null,
+    AI: null
+  },
   CloudCosts: [
     {
       CloudProvider: aws,

@@ -1,10 +1,21 @@
 ﻿{
   Usage: medium,
-  Resources: [
-    VirtualMachines,
-    LoadBalancer,
-    Monitoring
-  ],
+  Resources: {
+    Computes: [
+      VirtualMachines
+    ],
+    Databases: null,
+    Storages: null,
+    Networks: [
+      LoadBalancer
+    ],
+    Analytics: null,
+    Management: [
+      Monitoring
+    ],
+    Security: null,
+    AI: null
+  },
   CloudCosts: [
     {
       CloudProvider: aws,

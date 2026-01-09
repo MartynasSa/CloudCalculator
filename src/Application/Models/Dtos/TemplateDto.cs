@@ -5,13 +5,13 @@ namespace Application.Models.Dtos;
 public class TemplateDto
 {
     public TemplateType Template { get; set; }
-    public List<ResourceSubCategory> Resources { get; set; } = new();
+    public ResourcesDto Resources { get; set; } = new();
 }
 
 public class CalculationRequest
 {
-    public List<ResourceSubCategory> Resources { get; set; } = new();
     public UsageSize Usage { get; set; }
+    public ResourcesDto Resources { get; set; } = new();
 }
 
 public class CalculateTemplateRequest
@@ -20,32 +20,21 @@ public class CalculateTemplateRequest
     public UsageSize Usage { get; set; }
 }
 
-public class TemplateVirtualMachineDto : TemplateResourceDtoBase
+public class ResourcesDto
 {
-    public required string InstanceName { get; set; }
-    public double CpuCores { get; set; }
-    public double Memory { get; set; }
-}
+    public List<ComputeType> Computes { get; set; } = new();
 
-public class TemplateDatabaseDto : TemplateResourceDtoBase
-{
-    public required string InstanceName { get; set; }
-    public double CpuCores { get; set; }
-    public double Memory { get; set; }
-    public string? DatabaseEngine { get; set; }
-}
+    public List<DatabaseType> Databases { get; set; } = new();
 
-public class TemplateLoadBalancerDto : TemplateResourceDtoBase
-{
-    public required string Name { get; set; }
-}
+    public List<StorageType> Storages { get; set; } = new();
 
-public class TemplateMonitoringDto : TemplateResourceDtoBase
-{
-    public required string Name { get; set; }
-}
+    public List<NetworkingType> Networks { get; set; } = new();
 
-public class TemplateResourceDtoBase
-{
-    public required decimal PricePerMonth { get; set; }
+    public List<AnalyticsType> Analytics { get; set; } = new();
+
+    public List<ManagementType> Management { get; set; } = new();
+
+    public List<SecurityType> Security { get; set; } = new();
+
+    public List<AIType> AI { get; set; } = new();
 }

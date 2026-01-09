@@ -23,7 +23,13 @@ public class CostComparisonSimpleTests(WebApplicationFactory<Program> factory) :
         var request = new CalculationRequest
         {
             Usage = UsageSize.Medium,
-            Resources = [ResourceSubCategory.VirtualMachines, ResourceSubCategory.Relational, ResourceSubCategory.LoadBalancer, ResourceSubCategory.Monitoring]
+            Resources = new ResourcesDto
+            {
+                Computes = [ComputeType.VirtualMachines],
+                Databases = [DatabaseType.Relational],
+                Networks = [NetworkingType.LoadBalancer],
+                Management = [ManagementType.Monitoring]
+            }
         };
         var json = JsonSerializer.Serialize(request, JsonOptions);
         var content = new StringContent(json, Encoding.UTF8, "application/json");
@@ -47,7 +53,13 @@ public class CostComparisonSimpleTests(WebApplicationFactory<Program> factory) :
         var request = new CalculationRequest
         {
             Usage = UsageSize.Medium,
-            Resources = [ResourceSubCategory.VirtualMachines, ResourceSubCategory.Relational, ResourceSubCategory.LoadBalancer, ResourceSubCategory.Monitoring]
+            Resources = new ResourcesDto
+            {
+                Computes = [ComputeType.VirtualMachines],
+                Databases = [DatabaseType.Relational],
+                Networks = [NetworkingType.LoadBalancer],
+                Management = [ManagementType.Monitoring]
+            }
         };
         var json = JsonSerializer.Serialize(request, JsonOptions);
         var content = new StringContent(json, Encoding.UTF8, "application/json");
@@ -71,7 +83,13 @@ public class CostComparisonSimpleTests(WebApplicationFactory<Program> factory) :
         var request = new CalculationRequest
         {
             Usage = UsageSize.Medium,
-            Resources = [ResourceSubCategory.VirtualMachines, ResourceSubCategory.Relational, ResourceSubCategory.LoadBalancer, ResourceSubCategory.Monitoring]
+            Resources = new ResourcesDto
+            {
+                Computes = [ComputeType.VirtualMachines],
+                Databases = [DatabaseType.Relational],
+                Networks = [NetworkingType.LoadBalancer],
+                Management = [ManagementType.Monitoring]
+            }
         };
         var json = JsonSerializer.Serialize(request, JsonOptions);
         var content = new StringContent(json, Encoding.UTF8, "application/json");
@@ -95,7 +113,7 @@ public class CostComparisonSimpleTests(WebApplicationFactory<Program> factory) :
         var request = new CalculationRequest
         {
             Usage = UsageSize.Medium,
-            Resources = []
+            Resources = new ResourcesDto()
         };
         var json = JsonSerializer.Serialize(request, JsonOptions);
         var content = new StringContent(json, Encoding.UTF8, "application/json");
@@ -119,7 +137,10 @@ public class CostComparisonSimpleTests(WebApplicationFactory<Program> factory) :
         var request = new CalculationRequest
         {
             Usage = UsageSize.Small,
-            Resources = [ResourceSubCategory.LoadBalancer]
+            Resources = new ResourcesDto
+            {
+                Networks = [NetworkingType.LoadBalancer]
+            }
         };
         var json = JsonSerializer.Serialize(request, JsonOptions);
         var content = new StringContent(json, Encoding.UTF8, "application/json");
@@ -156,7 +177,13 @@ public class CostComparisonSimpleTests(WebApplicationFactory<Program> factory) :
         var request = new CalculationRequest
         {
             Usage = UsageSize.Medium,
-            Resources = [ResourceSubCategory.VirtualMachines, ResourceSubCategory.Relational, ResourceSubCategory.LoadBalancer, ResourceSubCategory.Monitoring]
+            Resources = new ResourcesDto
+            {
+                Computes = [ComputeType.VirtualMachines],
+                Databases = [DatabaseType.Relational],
+                Networks = [NetworkingType.LoadBalancer],
+                Management = [ManagementType.Monitoring]
+            }
         };
         var json = JsonSerializer.Serialize(request, JsonOptions);
         var content = new StringContent(json, Encoding.UTF8, "application/json");
@@ -180,7 +207,12 @@ public class CostComparisonSimpleTests(WebApplicationFactory<Program> factory) :
         var request = new CalculationRequest
         {
             Usage = UsageSize.Large,
-            Resources = [ResourceSubCategory.VirtualMachines, ResourceSubCategory.Relational, ResourceSubCategory.LoadBalancer]
+            Resources = new ResourcesDto
+            {
+                Computes = [ComputeType.VirtualMachines],
+                Databases = [DatabaseType.Relational],
+                Networks = [NetworkingType.LoadBalancer]
+            }
         };
         var json = JsonSerializer.Serialize(request, JsonOptions);
         var content = new StringContent(json, Encoding.UTF8, "application/json");
@@ -204,7 +236,12 @@ public class CostComparisonSimpleTests(WebApplicationFactory<Program> factory) :
         var request = new CalculationRequest
         {
             Usage = UsageSize.Medium,
-            Resources = [ResourceSubCategory.VirtualMachines, ResourceSubCategory.LoadBalancer, ResourceSubCategory.Monitoring]
+            Resources = new ResourcesDto
+            {
+                Computes = [ComputeType.VirtualMachines],
+                Networks = [NetworkingType.LoadBalancer],
+                Management = [ManagementType.Monitoring]
+            }
         };
         var json = JsonSerializer.Serialize(request, JsonOptions);
         var content = new StringContent(json, Encoding.UTF8, "application/json");

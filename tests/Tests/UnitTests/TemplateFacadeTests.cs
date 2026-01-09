@@ -21,7 +21,13 @@ public class TemplateFacadeTests(WebApplicationFactory<Program> factory) : TestB
         var service = GetService();
         var templateDto = new CalculationRequest
         {
-            Resources = { ResourceSubCategory.VirtualMachines, ResourceSubCategory.Relational, ResourceSubCategory.LoadBalancer, ResourceSubCategory.Monitoring }
+            Resources = new ResourcesDto
+            {
+                Computes = [ComputeType.VirtualMachines],
+                Databases = [DatabaseType.Relational],
+                Networks = [NetworkingType.LoadBalancer],
+                Management = [ManagementType.Monitoring]
+            }
         };
 
         // Act
@@ -29,11 +35,11 @@ public class TemplateFacadeTests(WebApplicationFactory<Program> factory) : TestB
 
         // Assert
         Assert.NotNull(result);
-        Assert.Equal(4, result.Resources.Count);
-        Assert.Contains(ResourceSubCategory.VirtualMachines, result.Resources);
-        Assert.Contains(ResourceSubCategory.Relational, result.Resources);
-        Assert.Contains(ResourceSubCategory.LoadBalancer, result.Resources);
-        Assert.Contains(ResourceSubCategory.Monitoring, result.Resources);
+        Assert.NotNull(result.Resources);
+        Assert.Contains(ComputeType.VirtualMachines, result.Resources.Computes);
+        Assert.Contains(DatabaseType.Relational, result.Resources.Databases);
+        Assert.Contains(NetworkingType.LoadBalancer, result.Resources.Networks);
+        Assert.Contains(ManagementType.Monitoring, result.Resources.Management);
     }
 
     [Fact]
@@ -43,7 +49,13 @@ public class TemplateFacadeTests(WebApplicationFactory<Program> factory) : TestB
         var service = GetService();
         var templateDto = new CalculationRequest
         {
-            Resources = { ResourceSubCategory.VirtualMachines, ResourceSubCategory.Relational, ResourceSubCategory.LoadBalancer, ResourceSubCategory.Monitoring }
+            Resources = new ResourcesDto
+            {
+                Computes = [ComputeType.VirtualMachines],
+                Databases = [DatabaseType.Relational],
+                Networks = [NetworkingType.LoadBalancer],
+                Management = [ManagementType.Monitoring]
+            }
         };
 
         // Act
@@ -51,6 +63,10 @@ public class TemplateFacadeTests(WebApplicationFactory<Program> factory) : TestB
 
         // Assert
         Assert.NotNull(result);
+        Assert.Equal(3, result.CloudCosts.Count);
+        Assert.Contains(result.CloudCosts, cc => cc.CloudProvider == CloudProvider.AWS);
+        Assert.Contains(result.CloudCosts, cc => cc.CloudProvider == CloudProvider.Azure);
+        Assert.Contains(result.CloudCosts, cc => cc.CloudProvider == CloudProvider.GCP);
     }
 
     [Fact]
@@ -60,22 +76,28 @@ public class TemplateFacadeTests(WebApplicationFactory<Program> factory) : TestB
         var service = GetService();
         var templateDto = new CalculationRequest
         {
-            Resources = { ResourceSubCategory.VirtualMachines, ResourceSubCategory.Relational, ResourceSubCategory.LoadBalancer, ResourceSubCategory.Monitoring }
+            Resources = new ResourcesDto
+            {
+                Computes = [ComputeType.VirtualMachines],
+                Databases = [DatabaseType.Relational],
+                Networks = [NetworkingType.LoadBalancer],
+                Management = [ManagementType.Monitoring]
+            }
         };
 
         // Act
         var result = await service.CalculateCostComparisonsAsync(templateDto);
 
         // Assert
-        var smallAwsCost = result.CloudCosts.First(cc => cc.CloudProvider == CloudProvider.AWS);
+        var awsCost = result.CloudCosts.First(cc => cc.CloudProvider == CloudProvider.AWS);
 
         // Total should be sum of all cost details
-        var expectedTotal = smallAwsCost.CostDetails.Sum(cd => cd.Cost);
-        Assert.Equal(expectedTotal, smallAwsCost.TotalMonthlyPrice);
+        var expectedTotal = awsCost.CostDetails.Sum(cd => cd.Cost);
+        Assert.Equal(expectedTotal, awsCost.TotalMonthlyPrice);
 
         // Verify that we have costs for each resource category
-        Assert.Contains(smallAwsCost.CostDetails, cd => cd.ResourceSubCategory == ResourceSubCategory.VirtualMachines);
-        Assert.Contains(smallAwsCost.CostDetails, cd => cd.ResourceSubCategory == ResourceSubCategory.Relational);
+        Assert.Contains(awsCost.CostDetails, cd => cd.ResourceSubCategory == ResourceSubCategory.VirtualMachines);
+        Assert.Contains(awsCost.CostDetails, cd => cd.ResourceSubCategory == ResourceSubCategory.Relational);
     }
 
     [Fact]
@@ -85,7 +107,7 @@ public class TemplateFacadeTests(WebApplicationFactory<Program> factory) : TestB
         var service = GetService();
         var templateDto = new CalculationRequest
         {
-            Resources = { }
+            Resources = new ResourcesDto()
         };
 
         // Act
@@ -93,13 +115,21 @@ public class TemplateFacadeTests(WebApplicationFactory<Program> factory) : TestB
 
         // Assert
         Assert.NotNull(result);
-        Assert.Empty(result.Resources);
+        Assert.NotNull(result.Resources);
+        Assert.Empty(result.Resources.Computes);
+        Assert.Empty(result.Resources.Databases);
+        Assert.Empty(result.Resources.Storages);
+        Assert.Empty(result.Resources.Networks);
+        Assert.Empty(result.Resources.Analytics);
+        Assert.Empty(result.Resources.Management);
+        Assert.Empty(result.Resources.Security);
+        Assert.Empty(result.Resources.AI);
 
-        // Verify all usage sizes and cloud providers have zero costs
-        foreach (var kvp in result.CloudCosts)
+        // Verify all cloud providers have zero costs
+        foreach (var cloudCost in result.CloudCosts)
         {
-            Assert.Equal(0m, kvp.TotalMonthlyPrice);
-            Assert.Empty(kvp.CostDetails);
+            Assert.Equal(0m, cloudCost.TotalMonthlyPrice);
+            Assert.Empty(cloudCost.CostDetails);
         }
     }
 
@@ -110,7 +140,10 @@ public class TemplateFacadeTests(WebApplicationFactory<Program> factory) : TestB
         var service = GetService();
         var templateDto = new CalculationRequest
         {
-            Resources = { ResourceSubCategory.LoadBalancer }
+            Resources = new ResourcesDto
+            {
+                Networks = [NetworkingType.LoadBalancer]
+            }
         };
 
         // Act
@@ -118,15 +151,16 @@ public class TemplateFacadeTests(WebApplicationFactory<Program> factory) : TestB
 
         // Assert
         Assert.NotNull(result);
-        Assert.Single(result.Resources);
-        Assert.Contains(ResourceSubCategory.LoadBalancer, result.Resources);
+        Assert.Single(result.Resources.Networks);
+        Assert.Contains(NetworkingType.LoadBalancer, result.Resources.Networks);
 
-        var smallAwsCost = result.CloudCosts.First(cc => cc.CloudProvider == CloudProvider.AWS);
+        var awsCost = result.CloudCosts.First(cc => cc.CloudProvider == CloudProvider.AWS);
 
         // Static site template should only have load balancer costs
-        Assert.DoesNotContain(smallAwsCost.CostDetails, cd => cd.ResourceSubCategory == ResourceSubCategory.VirtualMachines);
-        Assert.DoesNotContain(smallAwsCost.CostDetails, cd => cd.ResourceSubCategory == ResourceSubCategory.Relational);
-        Assert.DoesNotContain(smallAwsCost.CostDetails, cd => cd.ResourceSubCategory == ResourceSubCategory.Monitoring);
+        Assert.DoesNotContain(awsCost.CostDetails, cd => cd.ResourceSubCategory == ResourceSubCategory.VirtualMachines);
+        Assert.DoesNotContain(awsCost.CostDetails, cd => cd.ResourceSubCategory == ResourceSubCategory.Relational);
+        Assert.DoesNotContain(awsCost.CostDetails, cd => cd.ResourceSubCategory == ResourceSubCategory.Monitoring);
+        Assert.Single(awsCost.CostDetails, cd => cd.ResourceSubCategory == ResourceSubCategory.LoadBalancer);
     }
 
     [Fact]
@@ -134,13 +168,36 @@ public class TemplateFacadeTests(WebApplicationFactory<Program> factory) : TestB
     {
         // Arrange
         var service = GetService();
-        var templateDto = new CalculationRequest
+        var smallTemplateDto = new CalculationRequest
         {
-            Resources = { ResourceSubCategory.VirtualMachines, ResourceSubCategory.Relational, ResourceSubCategory.LoadBalancer, ResourceSubCategory.Monitoring }
+            Usage = UsageSize.Small,
+            Resources = new ResourcesDto
+            {
+                Computes = [ComputeType.VirtualMachines],
+                Databases = [DatabaseType.Relational]
+            }
+        };
+
+        var largeTemplateDto = new CalculationRequest
+        {
+            Usage = UsageSize.Large,
+            Resources = new ResourcesDto
+            {
+                Computes = [ComputeType.VirtualMachines],
+                Databases = [DatabaseType.Relational]
+            }
         };
 
         // Act
-        var result = await service.CalculateCostComparisonsAsync(templateDto);
+        var smallResult = await service.CalculateCostComparisonsAsync(smallTemplateDto);
+        var largeResult = await service.CalculateCostComparisonsAsync(largeTemplateDto);
+
+        // Assert
+        var smallAwsCost = smallResult.CloudCosts.First(cc => cc.CloudProvider == CloudProvider.AWS);
+        var largeAwsCost = largeResult.CloudCosts.First(cc => cc.CloudProvider == CloudProvider.AWS);
+
+        Assert.True(largeAwsCost.TotalMonthlyPrice >= smallAwsCost.TotalMonthlyPrice,
+            "Larger usage size should have equal or higher costs");
     }
 
     [Fact]
@@ -150,7 +207,12 @@ public class TemplateFacadeTests(WebApplicationFactory<Program> factory) : TestB
         var service = GetService();
         var templateDto = new CalculationRequest
         {
-            Resources = { ResourceSubCategory.VirtualMachines, ResourceSubCategory.Relational, ResourceSubCategory.LoadBalancer }
+            Resources = new ResourcesDto
+            {
+                Computes = [ComputeType.VirtualMachines],
+                Databases = [DatabaseType.Relational],
+                Networks = [NetworkingType.LoadBalancer]
+            }
         };
 
         // Act
@@ -158,13 +220,15 @@ public class TemplateFacadeTests(WebApplicationFactory<Program> factory) : TestB
 
         // Assert
         Assert.NotNull(result);
-        Assert.Equal(3, result.Resources.Count);
-        Assert.DoesNotContain(ResourceSubCategory.Monitoring, result.Resources);
+        Assert.Single(result.Resources.Computes);
+        Assert.Single(result.Resources.Databases);
+        Assert.Single(result.Resources.Networks);
+        Assert.Empty(result.Resources.Management);
 
-        var mediumAwsCost = result.CloudCosts.First(cc => cc.CloudProvider == CloudProvider.AWS);
+        var awsCost = result.CloudCosts.First(cc => cc.CloudProvider == CloudProvider.AWS);
 
         // WordPress template should not have Monitoring
-        Assert.DoesNotContain(mediumAwsCost.CostDetails, cd => cd.ResourceSubCategory == ResourceSubCategory.Monitoring);
+        Assert.DoesNotContain(awsCost.CostDetails, cd => cd.ResourceSubCategory == ResourceSubCategory.Monitoring);
     }
 
     [Fact]

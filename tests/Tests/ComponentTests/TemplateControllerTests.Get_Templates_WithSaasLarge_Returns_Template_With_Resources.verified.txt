@@ -1,18 +1,32 @@
 ﻿{
   Template: saas,
-  Resources: [
-    Kubernetes,
-    Relational,
-    Caching,
-    ObjectStorage,
-    Backup,
-    ApiGateway,
-    LoadBalancer,
-    CDN,
-    Queueing,
-    Messaging,
-    Secrets,
-    Monitoring,
-    WebApplicationFirewall
-  ]
+  Resources: {
+    Computes: [
+      Kubernetes
+    ],
+    Databases: [
+      Relational,
+      Caching
+    ],
+    Storages: [
+      ObjectStorage,
+      Backup
+    ],
+    Networks: [
+      ApiGateway,
+      LoadBalancer,
+      CDN
+    ],
+    Analytics: null,
+    Management: [
+      Queueing,
+      Messaging,
+      Secrets,
+      Monitoring
+    ],
+    Security: [
+      WebApplicationFirewall
+    ],
+    AI: null
+  }
 }

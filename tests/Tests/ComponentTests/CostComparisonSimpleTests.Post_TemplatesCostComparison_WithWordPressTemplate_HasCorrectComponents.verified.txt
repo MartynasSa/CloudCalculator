@@ -1,10 +1,21 @@
 ﻿{
   Usage: large,
-  Resources: [
-    VirtualMachines,
-    Relational,
-    LoadBalancer
-  ],
+  Resources: {
+    Computes: [
+      VirtualMachines
+    ],
+    Databases: [
+      Relational
+    ],
+    Storages: null,
+    Networks: [
+      LoadBalancer
+    ],
+    Analytics: null,
+    Management: null,
+    Security: null,
+    AI: null
+  },
   CloudCosts: [
     {
       CloudProvider: aws,

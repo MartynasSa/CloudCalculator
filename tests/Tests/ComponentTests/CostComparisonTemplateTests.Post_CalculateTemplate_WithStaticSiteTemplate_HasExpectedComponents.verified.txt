@@ -1,12 +1,23 @@
 ﻿{
   Usage: small,
-  Resources: [
-    ObjectStorage,
-    Backup,
-    CDN,
-    LoadBalancer,
-    Monitoring
-  ],
+  Resources: {
+    Computes: null,
+    Databases: null,
+    Storages: [
+      ObjectStorage,
+      Backup
+    ],
+    Networks: [
+      CDN,
+      LoadBalancer
+    ],
+    Analytics: null,
+    Management: [
+      Monitoring
+    ],
+    Security: null,
+    AI: null
+  },
   CloudCosts: [
     {
       CloudProvider: aws,

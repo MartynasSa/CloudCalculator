@@ -20,7 +20,7 @@ public class TemplateUsageSizeIntegrationTests(WebApplicationFactory<Program> fa
     {
         // Act
         var response = await Client.GetAsync("/api/template?template=saas&usage=small");
-        
+
         // Assert
         response.EnsureSuccessStatusCode();
         await using var stream = await response.Content.ReadAsStreamAsync();
@@ -28,8 +28,8 @@ public class TemplateUsageSizeIntegrationTests(WebApplicationFactory<Program> fa
 
         Assert.NotNull(template);
         Assert.Equal(TemplateType.Saas, template.Template);
-        Assert.Contains(ResourceSubCategory.VirtualMachines, template.Resources);
-        Assert.DoesNotContain(ResourceSubCategory.Kubernetes, template.Resources);
+        Assert.Contains(ComputeType.VirtualMachines, template.Resources.Computes);
+        Assert.DoesNotContain(ComputeType.Kubernetes, template.Resources.Computes);
     }
 
     [Fact]
@@ -37,7 +37,7 @@ public class TemplateUsageSizeIntegrationTests(WebApplicationFactory<Program> fa
     {
         // Act
         var response = await Client.GetAsync("/api/template?template=saas&usage=medium");
-        
+
         // Assert
         response.EnsureSuccessStatusCode();
         await using var stream = await response.Content.ReadAsStreamAsync();
@@ -45,8 +45,8 @@ public class TemplateUsageSizeIntegrationTests(WebApplicationFactory<Program> fa
 
         Assert.NotNull(template);
         Assert.Equal(TemplateType.Saas, template.Template);
-        Assert.Contains(ResourceSubCategory.VirtualMachines, template.Resources);
-        Assert.DoesNotContain(ResourceSubCategory.Kubernetes, template.Resources);
+        Assert.Contains(ComputeType.VirtualMachines, template.Resources.Computes);
+        Assert.DoesNotContain(ComputeType.Kubernetes, template.Resources.Computes);
     }
 
     [Fact]
@@ -54,7 +54,7 @@ public class TemplateUsageSizeIntegrationTests(WebApplicationFactory<Program> fa
     {
         // Act
         var response = await Client.GetAsync("/api/template?template=saas&usage=large");
-        
+
         // Assert
         response.EnsureSuccessStatusCode();
         await using var stream = await response.Content.ReadAsStreamAsync();
@@ -62,12 +62,12 @@ public class TemplateUsageSizeIntegrationTests(WebApplicationFactory<Program> fa
 
         Assert.NotNull(template);
         Assert.Equal(TemplateType.Saas, template.Template);
-        Assert.Contains(ResourceSubCategory.Kubernetes, template.Resources);
-        Assert.DoesNotContain(ResourceSubCategory.VirtualMachines, template.Resources);
+        Assert.Contains(ComputeType.Kubernetes, template.Resources.Computes);
+        Assert.DoesNotContain(ComputeType.VirtualMachines, template.Resources.Computes);
         // Verify other resources are still present
-        Assert.Contains(ResourceSubCategory.Relational, template.Resources);
-        Assert.Contains(ResourceSubCategory.LoadBalancer, template.Resources);
-        Assert.Contains(ResourceSubCategory.Monitoring, template.Resources);
+        Assert.Contains(DatabaseType.Relational, template.Resources.Databases);
+        Assert.Contains(NetworkingType.LoadBalancer, template.Resources.Networks);
+        Assert.Contains(ManagementType.Monitoring, template.Resources.Management);
     }
 
     [Fact]
@@ -75,7 +75,7 @@ public class TemplateUsageSizeIntegrationTests(WebApplicationFactory<Program> fa
     {
         // Act
         var response = await Client.GetAsync("/api/template?template=saas&usage=xlarge");
-        
+
         // Assert
         response.EnsureSuccessStatusCode();
         await using var stream = await response.Content.ReadAsStreamAsync();
@@ -83,8 +83,8 @@ public class TemplateUsageSizeIntegrationTests(WebApplicationFactory<Program> fa
 
         Assert.NotNull(template);
         Assert.Equal(TemplateType.Saas, template.Template);
-        Assert.Contains(ResourceSubCategory.Kubernetes, template.Resources);
-        Assert.DoesNotContain(ResourceSubCategory.VirtualMachines, template.Resources);
+        Assert.Contains(ComputeType.Kubernetes, template.Resources.Computes);
+        Assert.DoesNotContain(ComputeType.VirtualMachines, template.Resources.Computes);
     }
 
     [Fact]
@@ -92,7 +92,7 @@ public class TemplateUsageSizeIntegrationTests(WebApplicationFactory<Program> fa
     {
         // Act
         var response = await Client.GetAsync("/api/template?template=wordpress&usage=large");
-        
+
         // Assert
         response.EnsureSuccessStatusCode();
         await using var stream = await response.Content.ReadAsStreamAsync();
@@ -100,8 +100,8 @@ public class TemplateUsageSizeIntegrationTests(WebApplicationFactory<Program> fa
 
         Assert.NotNull(template);
         Assert.Equal(TemplateType.WordPress, template.Template);
-        Assert.Contains(ResourceSubCategory.Kubernetes, template.Resources);
-        Assert.DoesNotContain(ResourceSubCategory.VirtualMachines, template.Resources);
+        Assert.Contains(ComputeType.Kubernetes, template.Resources.Computes);
+        Assert.DoesNotContain(ComputeType.VirtualMachines, template.Resources.Computes);
     }
 
     [Fact]
@@ -109,7 +109,7 @@ public class TemplateUsageSizeIntegrationTests(WebApplicationFactory<Program> fa
     {
         // Act
         var response = await Client.GetAsync("/api/template?template=static_site&usage=large");
-        
+
         // Assert
         response.EnsureSuccessStatusCode();
         await using var stream = await response.Content.ReadAsStreamAsync();
@@ -118,9 +118,9 @@ public class TemplateUsageSizeIntegrationTests(WebApplicationFactory<Program> fa
         Assert.NotNull(template);
         Assert.Equal(TemplateType.StaticSite, template.Template);
         // Static site doesn't have VirtualMachines, so should not have Kubernetes either
-        Assert.DoesNotContain(ResourceSubCategory.Kubernetes, template.Resources);
-        Assert.DoesNotContain(ResourceSubCategory.VirtualMachines, template.Resources);
-        Assert.Contains(ResourceSubCategory.LoadBalancer, template.Resources);
+        Assert.DoesNotContain(ComputeType.Kubernetes, template.Resources.Computes);
+        Assert.DoesNotContain(ComputeType.VirtualMachines, template.Resources.Computes);
+        Assert.Contains(NetworkingType.LoadBalancer, template.Resources.Networks);
     }
 
     [Fact]
@@ -128,7 +128,7 @@ public class TemplateUsageSizeIntegrationTests(WebApplicationFactory<Program> fa
     {
         // Act
         var response = await Client.GetAsync("/api/template?template=saas");
-        
+
         // Assert
         Assert.Equal(HttpStatusCode.BadRequest, response.StatusCode);
     }
@@ -138,7 +138,7 @@ public class TemplateUsageSizeIntegrationTests(WebApplicationFactory<Program> fa
     {
         // Act
         var response = await Client.GetAsync("/api/template?usage=small");
-        
+
         // Assert
         Assert.Equal(HttpStatusCode.BadRequest, response.StatusCode);
     }
