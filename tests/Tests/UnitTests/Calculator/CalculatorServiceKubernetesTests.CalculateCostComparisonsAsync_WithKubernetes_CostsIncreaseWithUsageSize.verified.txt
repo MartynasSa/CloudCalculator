@@ -1,0 +1,102 @@
+﻿{
+  smallResult: {
+    Usage: small,
+    Resources: {
+      Computes: [
+        Kubernetes
+      ],
+      Databases: null,
+      Storages: null,
+      Networks: null,
+      Analytics: null,
+      Management: null,
+      Security: null,
+      AI: null
+    },
+    CloudCosts: [
+      {
+        CloudProvider: aws,
+        TotalMonthlyPrice: 0.03650,
+        CostDetails: [
+          {
+            Cost: 0.03650,
+            ResourceSubCategory: Kubernetes,
+            ResourceDetails: {"ClusterName":"AmazonEKS","Region":"us-east-1","NodeCount":null,"NodeType":null,"PricePerHour":0.00005,"Cloud":"aws","Category":"Compute","SubCategory":"Kubernetes"}
+          }
+        ]
+      },
+      {
+        CloudProvider: azure,
+        TotalMonthlyPrice: 5.337760,
+        CostDetails: [
+          {
+            Cost: 5.337760,
+            ResourceSubCategory: Kubernetes,
+            ResourceDetails: {"ClusterName":"Automatic High Performance Compute","Region":"eastus","NodeCount":null,"NodeType":"Azure Kubernetes Service - Automatic","PricePerHour":0.007312,"Cloud":"azure","Category":"Compute","SubCategory":"Kubernetes"}
+          }
+        ]
+      },
+      {
+        CloudProvider: gcp,
+        TotalMonthlyPrice: 0.0,
+        CostDetails: [
+          {
+            Cost: 0.0,
+            ResourceSubCategory: Kubernetes,
+            ResourceDetails: null
+          }
+        ]
+      }
+    ]
+  },
+  largeResult: {
+    Usage: large,
+    Resources: {
+      Computes: [
+        Kubernetes
+      ],
+      Databases: null,
+      Storages: null,
+      Networks: null,
+      Analytics: null,
+      Management: null,
+      Security: null,
+      AI: null
+    },
+    CloudCosts: [
+      {
+        CloudProvider: aws,
+        TotalMonthlyPrice: 0.03650,
+        CostDetails: [
+          {
+            Cost: 0.03650,
+            ResourceSubCategory: Kubernetes,
+            ResourceDetails: {"ClusterName":"AmazonEKS","Region":"us-east-1","NodeCount":null,"NodeType":null,"PricePerHour":0.00005,"Cloud":"aws","Category":"Compute","SubCategory":"Kubernetes"}
+          }
+        ]
+      },
+      {
+        CloudProvider: azure,
+        TotalMonthlyPrice: 5.337760,
+        CostDetails: [
+          {
+            Cost: 5.337760,
+            ResourceSubCategory: Kubernetes,
+            ResourceDetails: {"ClusterName":"Automatic High Performance Compute","Region":"eastus","NodeCount":null,"NodeType":"Azure Kubernetes Service - Automatic","PricePerHour":0.007312,"Cloud":"azure","Category":"Compute","SubCategory":"Kubernetes"}
+          }
+        ]
+      },
+      {
+        CloudProvider: gcp,
+        TotalMonthlyPrice: 0.0,
+        CostDetails: [
+          {
+            Cost: 0.0,
+            ResourceSubCategory: Kubernetes,
+            ResourceDetails: null
+          }
+        ]
+      }
+    ]
+  }
+}
