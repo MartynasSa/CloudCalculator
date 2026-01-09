@@ -1,4 +1,5 @@
 using Application.Models.Enums;
+using static Tests.ResourceSpecificationTestHelper;
 using Application.Services;
 using Microsoft.AspNetCore.Mvc.Testing;
 
@@ -18,8 +19,8 @@ public class TemplateServiceTests(WebApplicationFactory<Program> factory) : Test
         // Assert
         Assert.NotNull(result);
         Assert.Equal(TemplateType.Saas, result.Template);
-        Assert.Contains(ResourceSubCategory.VirtualMachines, result.Resources);
-        Assert.DoesNotContain(ResourceSubCategory.Kubernetes, result.Resources);
+        Assert.Contains(VirtualMachines(), result.Resources);
+        Assert.DoesNotContain(Kubernetes(), result.Resources);
     }
 
     [Fact]
@@ -34,8 +35,8 @@ public class TemplateServiceTests(WebApplicationFactory<Program> factory) : Test
         // Assert
         Assert.NotNull(result);
         Assert.Equal(TemplateType.Saas, result.Template);
-        Assert.Contains(ResourceSubCategory.VirtualMachines, result.Resources);
-        Assert.DoesNotContain(ResourceSubCategory.Kubernetes, result.Resources);
+        Assert.Contains(VirtualMachines(), result.Resources);
+        Assert.DoesNotContain(Kubernetes(), result.Resources);
     }
 
     [Fact]
@@ -50,11 +51,11 @@ public class TemplateServiceTests(WebApplicationFactory<Program> factory) : Test
         // Assert
         Assert.NotNull(result);
         Assert.Equal(TemplateType.Saas, result.Template);
-        Assert.Contains(ResourceSubCategory.Kubernetes, result.Resources);
-        Assert.DoesNotContain(ResourceSubCategory.VirtualMachines, result.Resources);
-        Assert.Contains(ResourceSubCategory.Relational, result.Resources);
-        Assert.Contains(ResourceSubCategory.LoadBalancer, result.Resources);
-        Assert.Contains(ResourceSubCategory.Monitoring, result.Resources);
+        Assert.Contains(Kubernetes(), result.Resources);
+        Assert.DoesNotContain(VirtualMachines(), result.Resources);
+        Assert.Contains(Relational(), result.Resources);
+        Assert.Contains(LoadBalancer(), result.Resources);
+        Assert.Contains(Monitoring(), result.Resources);
     }
 
     [Fact]
@@ -69,8 +70,8 @@ public class TemplateServiceTests(WebApplicationFactory<Program> factory) : Test
         // Assert
         Assert.NotNull(result);
         Assert.Equal(TemplateType.Saas, result.Template);
-        Assert.Contains(ResourceSubCategory.Kubernetes, result.Resources);
-        Assert.DoesNotContain(ResourceSubCategory.VirtualMachines, result.Resources);
+        Assert.Contains(Kubernetes(), result.Resources);
+        Assert.DoesNotContain(VirtualMachines(), result.Resources);
     }
 
     [Fact]
@@ -85,8 +86,8 @@ public class TemplateServiceTests(WebApplicationFactory<Program> factory) : Test
         // Assert
         Assert.NotNull(result);
         Assert.Equal(TemplateType.RestApi, result.Template);
-        Assert.Contains(ResourceSubCategory.Kubernetes, result.Resources);
-        Assert.DoesNotContain(ResourceSubCategory.VirtualMachines, result.Resources);
+        Assert.Contains(Kubernetes(), result.Resources);
+        Assert.DoesNotContain(VirtualMachines(), result.Resources);
     }
 
     [Fact]
@@ -101,8 +102,8 @@ public class TemplateServiceTests(WebApplicationFactory<Program> factory) : Test
         // Assert
         Assert.NotNull(result);
         Assert.Equal(TemplateType.WordPress, result.Template);
-        Assert.Contains(ResourceSubCategory.Kubernetes, result.Resources);
-        Assert.DoesNotContain(ResourceSubCategory.VirtualMachines, result.Resources);
+        Assert.Contains(Kubernetes(), result.Resources);
+        Assert.DoesNotContain(VirtualMachines(), result.Resources);
     }
 
     [Fact]
@@ -118,9 +119,9 @@ public class TemplateServiceTests(WebApplicationFactory<Program> factory) : Test
         Assert.NotNull(result);
         Assert.Equal(TemplateType.StaticSite, result.Template);
         // Static site doesn't have VirtualMachines, so should not have Kubernetes either
-        Assert.DoesNotContain(ResourceSubCategory.Kubernetes, result.Resources);
-        Assert.DoesNotContain(ResourceSubCategory.VirtualMachines, result.Resources);
-        Assert.Contains(ResourceSubCategory.LoadBalancer, result.Resources);
+        Assert.DoesNotContain(Kubernetes(), result.Resources);
+        Assert.DoesNotContain(VirtualMachines(), result.Resources);
+        Assert.Contains(LoadBalancer(), result.Resources);
     }
 
     [Fact]
@@ -150,8 +151,8 @@ public class TemplateServiceTests(WebApplicationFactory<Program> factory) : Test
         // Assert
         Assert.NotNull(result);
         Assert.Equal(TemplateType.Ecommerce, result.Template);
-        Assert.Contains(ResourceSubCategory.VirtualMachines, result.Resources);
-        Assert.DoesNotContain(ResourceSubCategory.Kubernetes, result.Resources);
+        Assert.Contains(VirtualMachines(), result.Resources);
+        Assert.DoesNotContain(Kubernetes(), result.Resources);
     }
 
     [Fact]
@@ -166,7 +167,7 @@ public class TemplateServiceTests(WebApplicationFactory<Program> factory) : Test
         // Assert
         Assert.NotNull(result);
         Assert.Equal(TemplateType.Ecommerce, result.Template);
-        Assert.Contains(ResourceSubCategory.Kubernetes, result.Resources);
-        Assert.DoesNotContain(ResourceSubCategory.VirtualMachines, result.Resources);
+        Assert.Contains(Kubernetes(), result.Resources);
+        Assert.DoesNotContain(VirtualMachines(), result.Resources);
     }
 }

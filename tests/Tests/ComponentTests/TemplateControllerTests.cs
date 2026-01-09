@@ -1,8 +1,9 @@
-﻿using Application.Models.Dtos;
+using Application.Models.Dtos;
 using Application.Models.Enums;
 using Microsoft.AspNetCore.Mvc.Testing;
 using System.Net;
 using System.Text.Json;
+using static Tests.ResourceSpecificationTestHelper;
 
 namespace Tests.ComponentTests;
 
@@ -29,10 +30,10 @@ public class TemplateControllerTests(WebApplicationFactory<Program> factory) : T
         Assert.NotNull(template.Resources);
         Assert.NotEmpty(template.Resources);
 
-        AssertContainsResource(template, ResourceSubCategory.VirtualMachines);
-        AssertContainsResource(template, ResourceSubCategory.Relational);
-        AssertContainsResource(template, ResourceSubCategory.LoadBalancer);
-        AssertContainsResource(template, ResourceSubCategory.Monitoring);
+        AssertContainsResource(template, VirtualMachines());
+        AssertContainsResource(template, Relational());
+        AssertContainsResource(template, LoadBalancer());
+        AssertContainsResource(template, Monitoring());
 
         await Verify(template);
     }
@@ -79,9 +80,9 @@ public class TemplateControllerTests(WebApplicationFactory<Program> factory) : T
         Assert.Equal(HttpStatusCode.BadRequest, response.StatusCode);
     }
 
-    private static void AssertContainsResource(TemplateDto template, ResourceSubCategory resource)
+    private static void AssertContainsResource(TemplateDto template, ResourceSpecificationDto resource)
     {
-        Assert.Contains(resource, template.Resources);
+        Assert.Contains(template.Resources, r => r.Equals(resource));
     }
 
     private static void AssertEmptyTemplate(TemplateDto template)
@@ -104,9 +105,9 @@ public class TemplateControllerTests(WebApplicationFactory<Program> factory) : T
         Assert.NotNull(template.Resources);
         Assert.NotEmpty(template.Resources);
 
-        AssertContainsResource(template, ResourceSubCategory.VirtualMachines);
-        AssertContainsResource(template, ResourceSubCategory.Relational);
-        AssertContainsResource(template, ResourceSubCategory.LoadBalancer);
+        AssertContainsResource(template, VirtualMachines());
+        AssertContainsResource(template, Relational());
+        AssertContainsResource(template, LoadBalancer());
     }
 
     [Fact]
@@ -154,10 +155,10 @@ public class TemplateControllerTests(WebApplicationFactory<Program> factory) : T
         Assert.NotNull(template.Resources);
         Assert.NotEmpty(template.Resources);
 
-        AssertContainsResource(template, ResourceSubCategory.VirtualMachines);
-        AssertContainsResource(template, ResourceSubCategory.Relational);
-        AssertContainsResource(template, ResourceSubCategory.LoadBalancer);
-        AssertContainsResource(template, ResourceSubCategory.Monitoring);
+        AssertContainsResource(template, VirtualMachines());
+        AssertContainsResource(template, Relational());
+        AssertContainsResource(template, LoadBalancer());
+        AssertContainsResource(template, Monitoring());
     }
 
     [Fact]
@@ -205,9 +206,9 @@ public class TemplateControllerTests(WebApplicationFactory<Program> factory) : T
         Assert.NotNull(template.Resources);
         Assert.NotEmpty(template.Resources);
 
-        AssertContainsResource(template, ResourceSubCategory.LoadBalancer);
-        Assert.DoesNotContain(ResourceSubCategory.VirtualMachines, template.Resources);
-        Assert.DoesNotContain(ResourceSubCategory.Relational, template.Resources);
+        AssertContainsResource(template, LoadBalancer());
+        Assert.DoesNotContain(VirtualMachines(), template.Resources);
+        Assert.DoesNotContain(Relational(), template.Resources);
     }
 
     [Fact]
@@ -255,10 +256,10 @@ public class TemplateControllerTests(WebApplicationFactory<Program> factory) : T
         Assert.NotNull(template.Resources);
         Assert.NotEmpty(template.Resources);
 
-        AssertContainsResource(template, ResourceSubCategory.VirtualMachines);
-        AssertContainsResource(template, ResourceSubCategory.Relational);
-        AssertContainsResource(template, ResourceSubCategory.LoadBalancer);
-        AssertContainsResource(template, ResourceSubCategory.Monitoring);
+        AssertContainsResource(template, VirtualMachines());
+        AssertContainsResource(template, Relational());
+        AssertContainsResource(template, LoadBalancer());
+        AssertContainsResource(template, Monitoring());
     }
 
     [Fact]
@@ -306,10 +307,10 @@ public class TemplateControllerTests(WebApplicationFactory<Program> factory) : T
         Assert.NotNull(template.Resources);
         Assert.NotEmpty(template.Resources);
 
-        AssertContainsResource(template, ResourceSubCategory.VirtualMachines);
-        AssertContainsResource(template, ResourceSubCategory.Relational);
-        AssertContainsResource(template, ResourceSubCategory.LoadBalancer);
-        AssertContainsResource(template, ResourceSubCategory.Monitoring);
+        AssertContainsResource(template, VirtualMachines());
+        AssertContainsResource(template, Relational());
+        AssertContainsResource(template, LoadBalancer());
+        AssertContainsResource(template, Monitoring());
     }
 
     [Fact]
@@ -357,10 +358,10 @@ public class TemplateControllerTests(WebApplicationFactory<Program> factory) : T
         Assert.NotNull(template.Resources);
         Assert.NotEmpty(template.Resources);
 
-        AssertContainsResource(template, ResourceSubCategory.VirtualMachines);
-        AssertContainsResource(template, ResourceSubCategory.Relational);
-        AssertContainsResource(template, ResourceSubCategory.LoadBalancer);
-        AssertContainsResource(template, ResourceSubCategory.Monitoring);
+        AssertContainsResource(template, VirtualMachines());
+        AssertContainsResource(template, Relational());
+        AssertContainsResource(template, LoadBalancer());
+        AssertContainsResource(template, Monitoring());
     }
 
     [Fact]
@@ -408,10 +409,10 @@ public class TemplateControllerTests(WebApplicationFactory<Program> factory) : T
         Assert.NotNull(template.Resources);
         Assert.NotEmpty(template.Resources);
 
-        AssertContainsResource(template, ResourceSubCategory.VirtualMachines);
-        AssertContainsResource(template, ResourceSubCategory.Relational);
-        AssertContainsResource(template, ResourceSubCategory.LoadBalancer);
-        AssertContainsResource(template, ResourceSubCategory.Monitoring);
+        AssertContainsResource(template, VirtualMachines());
+        AssertContainsResource(template, Relational());
+        AssertContainsResource(template, LoadBalancer());
+        AssertContainsResource(template, Monitoring());
     }
 
     [Fact]
@@ -459,10 +460,10 @@ public class TemplateControllerTests(WebApplicationFactory<Program> factory) : T
         Assert.NotNull(template.Resources);
         Assert.NotEmpty(template.Resources);
 
-        AssertContainsResource(template, ResourceSubCategory.VirtualMachines);
-        AssertContainsResource(template, ResourceSubCategory.LoadBalancer);
-        AssertContainsResource(template, ResourceSubCategory.Monitoring);
-        Assert.DoesNotContain(ResourceSubCategory.Relational, template.Resources);
+        AssertContainsResource(template, VirtualMachines());
+        AssertContainsResource(template, LoadBalancer());
+        AssertContainsResource(template, Monitoring());
+        Assert.DoesNotContain(Relational(), template.Resources);
     }
 
     [Fact]
@@ -510,10 +511,10 @@ public class TemplateControllerTests(WebApplicationFactory<Program> factory) : T
         Assert.NotNull(template.Resources);
         Assert.NotEmpty(template.Resources);
 
-        AssertContainsResource(template, ResourceSubCategory.LoadBalancer);
-        Assert.DoesNotContain(ResourceSubCategory.VirtualMachines, template.Resources);
-        Assert.DoesNotContain(ResourceSubCategory.Relational, template.Resources);
-        Assert.DoesNotContain(ResourceSubCategory.Monitoring, template.Resources);
+        AssertContainsResource(template, LoadBalancer());
+        Assert.DoesNotContain(VirtualMachines(), template.Resources);
+        Assert.DoesNotContain(Relational(), template.Resources);
+        Assert.DoesNotContain(Monitoring(), template.Resources);
     }
 
     [Fact]

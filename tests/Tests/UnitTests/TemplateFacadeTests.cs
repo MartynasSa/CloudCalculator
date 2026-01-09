@@ -1,4 +1,5 @@
 using Application.Facade;
+using static Tests.ResourceSpecificationTestHelper;
 using Application.Models.Dtos;
 using Application.Models.Enums;
 using Microsoft.AspNetCore.Mvc.Testing;
@@ -21,7 +22,7 @@ public class TemplateFacadeTests(WebApplicationFactory<Program> factory) : TestB
         var service = GetService();
         var templateDto = new CalculationRequest
         {
-            Resources = { ResourceSubCategory.VirtualMachines, ResourceSubCategory.Relational, ResourceSubCategory.LoadBalancer, ResourceSubCategory.Monitoring }
+            Resources = { VirtualMachines(), Relational(), LoadBalancer(), Monitoring() }
         };
 
         // Act
@@ -30,10 +31,10 @@ public class TemplateFacadeTests(WebApplicationFactory<Program> factory) : TestB
         // Assert
         Assert.NotNull(result);
         Assert.Equal(4, result.Resources.Count);
-        Assert.Contains(ResourceSubCategory.VirtualMachines, result.Resources);
-        Assert.Contains(ResourceSubCategory.Relational, result.Resources);
-        Assert.Contains(ResourceSubCategory.LoadBalancer, result.Resources);
-        Assert.Contains(ResourceSubCategory.Monitoring, result.Resources);
+        Assert.Contains(VirtualMachines(), result.Resources);
+        Assert.Contains(Relational(), result.Resources);
+        Assert.Contains(LoadBalancer(), result.Resources);
+        Assert.Contains(Monitoring(), result.Resources);
     }
 
     [Fact]
@@ -43,7 +44,7 @@ public class TemplateFacadeTests(WebApplicationFactory<Program> factory) : TestB
         var service = GetService();
         var templateDto = new CalculationRequest
         {
-            Resources = { ResourceSubCategory.VirtualMachines, ResourceSubCategory.Relational, ResourceSubCategory.LoadBalancer, ResourceSubCategory.Monitoring }
+            Resources = { VirtualMachines(), Relational(), LoadBalancer(), Monitoring() }
         };
 
         // Act
@@ -60,7 +61,7 @@ public class TemplateFacadeTests(WebApplicationFactory<Program> factory) : TestB
         var service = GetService();
         var templateDto = new CalculationRequest
         {
-            Resources = { ResourceSubCategory.VirtualMachines, ResourceSubCategory.Relational, ResourceSubCategory.LoadBalancer, ResourceSubCategory.Monitoring }
+            Resources = { VirtualMachines(), Relational(), LoadBalancer(), Monitoring() }
         };
 
         // Act
@@ -74,8 +75,8 @@ public class TemplateFacadeTests(WebApplicationFactory<Program> factory) : TestB
         Assert.Equal(expectedTotal, smallAwsCost.TotalMonthlyPrice);
 
         // Verify that we have costs for each resource category
-        Assert.Contains(smallAwsCost.CostDetails, cd => cd.ResourceSubCategory == ResourceSubCategory.VirtualMachines);
-        Assert.Contains(smallAwsCost.CostDetails, cd => cd.ResourceSubCategory == ResourceSubCategory.Relational);
+        Assert.Contains(smallAwsCost.CostDetails, cd => cd.ResourceSpecification.Equals(VirtualMachines()));
+        Assert.Contains(smallAwsCost.CostDetails, cd => cd.ResourceSpecification.Equals(Relational()));
     }
 
     [Fact]
@@ -110,7 +111,7 @@ public class TemplateFacadeTests(WebApplicationFactory<Program> factory) : TestB
         var service = GetService();
         var templateDto = new CalculationRequest
         {
-            Resources = { ResourceSubCategory.LoadBalancer }
+            Resources = { LoadBalancer() }
         };
 
         // Act
@@ -119,14 +120,14 @@ public class TemplateFacadeTests(WebApplicationFactory<Program> factory) : TestB
         // Assert
         Assert.NotNull(result);
         Assert.Single(result.Resources);
-        Assert.Contains(ResourceSubCategory.LoadBalancer, result.Resources);
+        Assert.Contains(LoadBalancer(), result.Resources);
 
         var smallAwsCost = result.CloudCosts.First(cc => cc.CloudProvider == CloudProvider.AWS);
 
         // Static site template should only have load balancer costs
-        Assert.DoesNotContain(smallAwsCost.CostDetails, cd => cd.ResourceSubCategory == ResourceSubCategory.VirtualMachines);
-        Assert.DoesNotContain(smallAwsCost.CostDetails, cd => cd.ResourceSubCategory == ResourceSubCategory.Relational);
-        Assert.DoesNotContain(smallAwsCost.CostDetails, cd => cd.ResourceSubCategory == ResourceSubCategory.Monitoring);
+        Assert.DoesNotContain(smallAwsCost.CostDetails, cd => cd.ResourceSpecification.Equals(VirtualMachines()));
+        Assert.DoesNotContain(smallAwsCost.CostDetails, cd => cd.ResourceSpecification.Equals(Relational()));
+        Assert.DoesNotContain(smallAwsCost.CostDetails, cd => cd.ResourceSpecification.Equals(Monitoring()));
     }
 
     [Fact]
@@ -136,7 +137,7 @@ public class TemplateFacadeTests(WebApplicationFactory<Program> factory) : TestB
         var service = GetService();
         var templateDto = new CalculationRequest
         {
-            Resources = { ResourceSubCategory.VirtualMachines, ResourceSubCategory.Relational, ResourceSubCategory.LoadBalancer, ResourceSubCategory.Monitoring }
+            Resources = { VirtualMachines(), Relational(), LoadBalancer(), Monitoring() }
         };
 
         // Act
@@ -150,7 +151,7 @@ public class TemplateFacadeTests(WebApplicationFactory<Program> factory) : TestB
         var service = GetService();
         var templateDto = new CalculationRequest
         {
-            Resources = { ResourceSubCategory.VirtualMachines, ResourceSubCategory.Relational, ResourceSubCategory.LoadBalancer }
+            Resources = { VirtualMachines(), Relational(), LoadBalancer() }
         };
 
         // Act
@@ -159,84 +160,11 @@ public class TemplateFacadeTests(WebApplicationFactory<Program> factory) : TestB
         // Assert
         Assert.NotNull(result);
         Assert.Equal(3, result.Resources.Count);
-        Assert.DoesNotContain(ResourceSubCategory.Monitoring, result.Resources);
+        Assert.DoesNotContain(Monitoring(), result.Resources);
 
         var mediumAwsCost = result.CloudCosts.First(cc => cc.CloudProvider == CloudProvider.AWS);
 
         // WordPress template should not have Monitoring
-        Assert.DoesNotContain(mediumAwsCost.CostDetails, cd => cd.ResourceSubCategory == ResourceSubCategory.Monitoring);
-    }
-
-    [Fact]
-    public void AllResourceSubCategoryEnumsHaveCalculationLogic()
-    {
-        // This test ensures that when a new ResourceSubCategory is added,
-        // a developer must also implement calculation logic for it.
-        // If this test fails, it means you added a new ResourceSubCategory
-        // without implementing the corresponding calculation method.
-
-        var allSubCategories = Enum.GetValues<ResourceSubCategory>()
-            .Where(sc => sc != ResourceSubCategory.None && sc != ResourceSubCategory.Uncategorized)
-            .ToList();
-
-        var implementedSubCategories = new List<ResourceSubCategory>
-        {
-            // Compute (100-199)
-            ResourceSubCategory.VirtualMachines,
-            ResourceSubCategory.CloudFunctions,
-            ResourceSubCategory.Kubernetes,
-            ResourceSubCategory.ContainerInstances,
-
-            // Database (200-299)
-            ResourceSubCategory.Relational,
-            ResourceSubCategory.NoSQL,
-            ResourceSubCategory.Caching,
-
-            // Storage (300-399)
-            ResourceSubCategory.ObjectStorage,
-            ResourceSubCategory.BlobStorage,
-            ResourceSubCategory.BlockStorage,
-            ResourceSubCategory.FileStorage,
-            ResourceSubCategory.Backup,
-
-            // Networking (400-499)
-            ResourceSubCategory.VpnGateway,
-            ResourceSubCategory.LoadBalancer,
-            ResourceSubCategory.ApiGateway,
-            ResourceSubCategory.Dns,
-            ResourceSubCategory.CDN,
-
-            // Analytics (500-599)
-            ResourceSubCategory.DataWarehouse,
-            ResourceSubCategory.Streaming,
-            ResourceSubCategory.MachineLearning,
-
-            // Management & Security (600-699)
-            ResourceSubCategory.Queueing,
-            ResourceSubCategory.Messaging,
-            ResourceSubCategory.Secrets,
-            ResourceSubCategory.Compliance,
-            ResourceSubCategory.Monitoring,
-
-            // Security (700-799)
-            ResourceSubCategory.WebApplicationFirewall,
-            ResourceSubCategory.IdentityManagement,
-
-            // AI/ML (801-803)
-            ResourceSubCategory.AIServices,
-            ResourceSubCategory.MLPlatforms,
-            ResourceSubCategory.IntelligentSearch,
-        };
-
-        var missingImplementations = allSubCategories
-            .Except(implementedSubCategories)
-            .ToList();
-
-        // Assert.Empty will throw if there are missing implementations
-        // Provide a helpful message in the assertion
-        Assert.True(
-            missingImplementations.Count == 0,
-            $"The following ResourceSubCategory enums do not have calculation logic implemented: {string.Join(", ", missingImplementations)}. " +
-            "Please add calculation methods in TemplateFacade.CalculateSubCategoryCostAsync and update this test.");
+        Assert.DoesNotContain(mediumAwsCost.CostDetails, cd => cd.ResourceSpecification.Equals(Monitoring()));
     }
 }

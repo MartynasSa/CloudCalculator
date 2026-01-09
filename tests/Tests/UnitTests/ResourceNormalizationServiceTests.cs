@@ -210,7 +210,7 @@ public class ResourceNormalizationServiceTests(WebApplicationFactory<Program> fa
             Assert.False(string.IsNullOrWhiteSpace(cf.FunctionName));
             Assert.False(string.IsNullOrWhiteSpace(cf.Region));
             Assert.Equal(ResourceCategory.Compute, cf.Category);
-            Assert.Equal(ResourceSubCategory.CloudFunctions, cf.SubCategory);
+            Assert.Equal((int)ComputeType.CloudFunctions, cf.SubCategoryValue);
         });
 
         await Verify(result);
@@ -237,7 +237,7 @@ public class ResourceNormalizationServiceTests(WebApplicationFactory<Program> fa
             Assert.False(string.IsNullOrWhiteSpace(k.ClusterName));
             Assert.False(string.IsNullOrWhiteSpace(k.Region));
             Assert.Equal(ResourceCategory.Compute, k.Category);
-            Assert.Equal(ResourceSubCategory.Kubernetes, k.SubCategory);
+            Assert.Equal((int)ComputeType.Kubernetes, k.SubCategoryValue);
         });
 
         await Verify(result);
@@ -264,7 +264,7 @@ public class ResourceNormalizationServiceTests(WebApplicationFactory<Program> fa
             Assert.False(string.IsNullOrWhiteSpace(ag.Name));
             Assert.False(string.IsNullOrWhiteSpace(ag.Region));
             Assert.Equal(ResourceCategory.Networking, ag.Category);
-            Assert.Equal(ResourceSubCategory.ApiGateway, ag.SubCategory);
+            Assert.Equal((int)NetworkingType.ApiGateway, ag.SubCategoryValue);
         });
 
         await Verify(result);
@@ -291,7 +291,7 @@ public class ResourceNormalizationServiceTests(WebApplicationFactory<Program> fa
             Assert.False(string.IsNullOrWhiteSpace(bs.Name));
             Assert.False(string.IsNullOrWhiteSpace(bs.Region));
             Assert.Equal(ResourceCategory.Storage, bs.Category);
-            Assert.Equal(ResourceSubCategory.BlobStorage, bs.SubCategory);
+            Assert.Equal((int)StorageType.BlobStorage, bs.SubCategoryValue);
         });
 
         await Verify(result);
@@ -312,9 +312,9 @@ public class ResourceNormalizationServiceTests(WebApplicationFactory<Program> fa
         Assert.NotEmpty(result);
 
         // Verify we have NoSQL databases
-        Assert.Contains(result, db => db.SubCategory == ResourceSubCategory.NoSQL);
+        Assert.Contains(result, db => db.SubCategoryValue == (int)DatabaseType.NoSQL);
 
-        await Verify(result.Where(db => db.SubCategory == ResourceSubCategory.NoSQL).ToList());
+        await Verify(result.Where(db => db.SubCategoryValue == (int)DatabaseType.NoSQL).ToList());
     }
 
     [Fact]
@@ -332,51 +332,51 @@ public class ResourceNormalizationServiceTests(WebApplicationFactory<Program> fa
         Assert.NotEmpty(result);
 
         // Verify we have Relational databases
-        Assert.Contains(result, db => db.SubCategory == ResourceSubCategory.Relational);
+        Assert.Contains(result, db => db.SubCategoryValue == (int)DatabaseType.Relational);
 
-        await Verify(result.Where(db => db.SubCategory == ResourceSubCategory.Relational).ToList());
+        await Verify(result.Where(db => db.SubCategoryValue == (int)DatabaseType.Relational).ToList());
     }
 
     [Fact]
-    public async Task ResourceSubCategory_Uses_Correct_Integer_Ranges()
+    public async Task TypeEnums_UseCorrectIntegerRanges()
     {
         // Arrange & Act
-        var computeSubCategories = new[]
+        var computeTypes = new[]
         {
-            ResourceSubCategory.VirtualMachines,
-            ResourceSubCategory.Kubernetes,
-            ResourceSubCategory.CloudFunctions,
+            ComputeType.VirtualMachines,
+            ComputeType.Kubernetes,
+            ComputeType.CloudFunctions,
         };
 
-        var databaseSubCategories = new[]
+        var databaseTypes = new[]
         {
-            ResourceSubCategory.Relational,
+            DatabaseType.Relational,
         };
 
-        var storageSubCategories = new[]
+        var storageTypes = new[]
         {
-            ResourceSubCategory.BlobStorage,
-            ResourceSubCategory.ObjectStorage
+            StorageType.BlobStorage,
+            StorageType.ObjectStorage
         };
 
-        // Assert - Compute subcategories should be in range 100-199
-        Assert.All(computeSubCategories, subCat =>
+        // Assert - Compute types should be in range 100-199
+        Assert.All(computeTypes, type =>
         {
-            var value = (int)subCat;
+            var value = (int)type;
             Assert.InRange(value, 100, 199);
         });
 
-        // Assert - Database subcategories should be in range 200-299
-        Assert.All(databaseSubCategories, subCat =>
+        // Assert - Database types should be in range 200-299
+        Assert.All(databaseTypes, type =>
         {
-            var value = (int)subCat;
+            var value = (int)type;
             Assert.InRange(value, 200, 299);
         });
 
-        // Assert - Storage subcategories should be in range 300-399
-        Assert.All(storageSubCategories, subCat =>
+        // Assert - Storage types should be in range 300-399
+        Assert.All(storageTypes, type =>
         {
-            var value = (int)subCat;
+            var value = (int)type;
             Assert.InRange(value, 300, 399);
         });
     }

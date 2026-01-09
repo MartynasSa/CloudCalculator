@@ -4,6 +4,7 @@ using System.Text.Json;
 using Application.Models.Dtos;
 using Application.Models.Enums;
 using Microsoft.AspNetCore.Mvc.Testing;
+using static Tests.ResourceSpecificationTestHelper;
 
 namespace Tests.ComponentTests;
 
@@ -23,7 +24,7 @@ public class CostComparisonSimpleTests(WebApplicationFactory<Program> factory) :
         var request = new CalculationRequest
         {
             Usage = UsageSize.Medium,
-            Resources = [ResourceSubCategory.VirtualMachines, ResourceSubCategory.Relational, ResourceSubCategory.LoadBalancer, ResourceSubCategory.Monitoring]
+            Resources = [VirtualMachines(), Relational(), LoadBalancer(), Monitoring()]
         };
         var json = JsonSerializer.Serialize(request, JsonOptions);
         var content = new StringContent(json, Encoding.UTF8, "application/json");
@@ -47,7 +48,7 @@ public class CostComparisonSimpleTests(WebApplicationFactory<Program> factory) :
         var request = new CalculationRequest
         {
             Usage = UsageSize.Medium,
-            Resources = [ResourceSubCategory.VirtualMachines, ResourceSubCategory.Relational, ResourceSubCategory.LoadBalancer, ResourceSubCategory.Monitoring]
+            Resources = [VirtualMachines(), Relational(), LoadBalancer(), Monitoring()]
         };
         var json = JsonSerializer.Serialize(request, JsonOptions);
         var content = new StringContent(json, Encoding.UTF8, "application/json");
@@ -71,7 +72,7 @@ public class CostComparisonSimpleTests(WebApplicationFactory<Program> factory) :
         var request = new CalculationRequest
         {
             Usage = UsageSize.Medium,
-            Resources = [ResourceSubCategory.VirtualMachines, ResourceSubCategory.Relational, ResourceSubCategory.LoadBalancer, ResourceSubCategory.Monitoring]
+            Resources = [VirtualMachines(), Relational(), LoadBalancer(), Monitoring()]
         };
         var json = JsonSerializer.Serialize(request, JsonOptions);
         var content = new StringContent(json, Encoding.UTF8, "application/json");
@@ -119,7 +120,7 @@ public class CostComparisonSimpleTests(WebApplicationFactory<Program> factory) :
         var request = new CalculationRequest
         {
             Usage = UsageSize.Small,
-            Resources = [ResourceSubCategory.LoadBalancer]
+            Resources = [LoadBalancer()]
         };
         var json = JsonSerializer.Serialize(request, JsonOptions);
         var content = new StringContent(json, Encoding.UTF8, "application/json");
@@ -156,7 +157,7 @@ public class CostComparisonSimpleTests(WebApplicationFactory<Program> factory) :
         var request = new CalculationRequest
         {
             Usage = UsageSize.Medium,
-            Resources = [ResourceSubCategory.VirtualMachines, ResourceSubCategory.Relational, ResourceSubCategory.LoadBalancer, ResourceSubCategory.Monitoring]
+            Resources = [VirtualMachines(), Relational(), LoadBalancer(), Monitoring()]
         };
         var json = JsonSerializer.Serialize(request, JsonOptions);
         var content = new StringContent(json, Encoding.UTF8, "application/json");
@@ -180,7 +181,7 @@ public class CostComparisonSimpleTests(WebApplicationFactory<Program> factory) :
         var request = new CalculationRequest
         {
             Usage = UsageSize.Large,
-            Resources = [ResourceSubCategory.VirtualMachines, ResourceSubCategory.Relational, ResourceSubCategory.LoadBalancer]
+            Resources = [VirtualMachines(), Relational(), LoadBalancer()]
         };
         var json = JsonSerializer.Serialize(request, JsonOptions);
         var content = new StringContent(json, Encoding.UTF8, "application/json");
@@ -204,7 +205,7 @@ public class CostComparisonSimpleTests(WebApplicationFactory<Program> factory) :
         var request = new CalculationRequest
         {
             Usage = UsageSize.Medium,
-            Resources = [ResourceSubCategory.VirtualMachines, ResourceSubCategory.LoadBalancer, ResourceSubCategory.Monitoring]
+            Resources = [VirtualMachines(), LoadBalancer(), Monitoring()]
         };
         var json = JsonSerializer.Serialize(request, JsonOptions);
         var content = new StringContent(json, Encoding.UTF8, "application/json");
