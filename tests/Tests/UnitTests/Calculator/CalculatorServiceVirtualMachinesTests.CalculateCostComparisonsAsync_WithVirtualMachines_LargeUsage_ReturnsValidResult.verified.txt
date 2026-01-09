@@ -1,0 +1,50 @@
+﻿{
+  Usage: large,
+  Resources: {
+    Computes: [
+      VirtualMachines
+    ],
+    Databases: null,
+    Storages: null,
+    Networks: null,
+    Analytics: null,
+    Management: null,
+    Security: null,
+    AI: null
+  },
+  CloudCosts: [
+    {
+      CloudProvider: aws,
+      TotalMonthlyPrice: 194.180,
+      CostDetails: [
+        {
+          Cost: 194.180,
+          ResourceSubCategory: VirtualMachines,
+          ResourceDetails: {"InstanceName":"c5d.2xlarge","Region":"us-east-1","VCpu":8,"Memory":"16 GiB","PricePerHour":0.266,"Cloud":"aws","Category":"Compute","SubCategory":"VirtualMachines"}
+        }
+      ]
+    },
+    {
+      CloudProvider: azure,
+      TotalMonthlyPrice: 181.040,
+      CostDetails: [
+        {
+          Cost: 181.040,
+          ResourceSubCategory: VirtualMachines,
+          ResourceDetails: {"InstanceName":"Standard_D8pls_v6","Region":"eastus","VCpu":8,"Memory":"16","PricePerHour":0.248,"Cloud":"azure","Category":"Compute","SubCategory":"VirtualMachines"}
+        }
+      ]
+    },
+    {
+      CloudProvider: gcp,
+      TotalMonthlyPrice: 147.10960,
+      CostDetails: [
+        {
+          Cost: 147.10960,
+          ResourceSubCategory: VirtualMachines,
+          ResourceDetails: {"InstanceName":"A3Ultra-8vCPU-16GB","Region":"us-east1","VCpu":8,"Memory":"16 GiB","PricePerHour":0.20152,"Cloud":"gcp","Category":"Compute","SubCategory":"VirtualMachines"}
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+﻿{
+  Usage: small,
+  Resources: {
+    Computes: [
+      VirtualMachines
+    ],
+    Databases: null,
+    Storages: null,
+    Networks: null,
+    Analytics: null,
+    Management: null,
+    Security: null,
+    AI: null
+  },
+  CloudCosts: [
+    {
+      CloudProvider: aws,
+      TotalMonthlyPrice: 27.4480,
+      CostDetails: [
+        {
+          Cost: 27.4480,
+          ResourceSubCategory: VirtualMachines,
+          ResourceDetails: {"InstanceName":"t3a.medium","Region":"us-east-1","VCpu":2,"Memory":"4 GiB","PricePerHour":0.0376,"Cloud":"aws","Category":"Compute","SubCategory":"VirtualMachines"}
+        }
+      ]
+    },
+    {
+      CloudProvider: azure,
+      TotalMonthlyPrice: 45.260,
+      CostDetails: [
+        {
+          Cost: 45.260,
+          ResourceSubCategory: VirtualMachines,
+          ResourceDetails: {"InstanceName":"Standard_D2pls_v6","Region":"eastus","VCpu":2,"Memory":"4","PricePerHour":0.062,"Cloud":"azure","Category":"Compute","SubCategory":"VirtualMachines"}
+        }
+      ]
+    },
+    {
+      CloudProvider: gcp,
+      TotalMonthlyPrice: 36.77740,
+      CostDetails: [
+        {
+          Cost: 36.77740,
+          ResourceSubCategory: VirtualMachines,
+          ResourceDetails: {"InstanceName":"A3Ultra-2vCPU-4GB","Region":"us-east1","VCpu":2,"Memory":"4 GiB","PricePerHour":0.05038,"Cloud":"gcp","Category":"Compute","SubCategory":"VirtualMachines"}
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+﻿{
+  Usage: small,
+  Resources: {
+    Computes: [
+      CloudFunctions
+    ],
+    Databases: null,
+    Storages: null,
+    Networks: null,
+    Analytics: null,
+    Management: null,
+    Security: null,
+    AI: null
+  },
+  CloudCosts: [
+    {
+      CloudProvider: aws,
+      TotalMonthlyPrice: 0.0,
+      CostDetails: [
+        {
+          Cost: 0.0,
+          ResourceSubCategory: CloudFunctions,
+          ResourceDetails: null
+        }
+      ]
+    },
+    {
+      CloudProvider: azure,
+      TotalMonthlyPrice: 0.0,
+      CostDetails: [
+        {
+          Cost: 0.0,
+          ResourceSubCategory: CloudFunctions,
+          ResourceDetails: null
+        }
+      ]
+    },
+    {
+      CloudProvider: gcp,
+      TotalMonthlyPrice: 0.0,
+      CostDetails: [
+        {
+          Cost: 0.0,
+          ResourceSubCategory: CloudFunctions,
+          ResourceDetails: null
+        }
+      ]
+    }
+  ]
+}

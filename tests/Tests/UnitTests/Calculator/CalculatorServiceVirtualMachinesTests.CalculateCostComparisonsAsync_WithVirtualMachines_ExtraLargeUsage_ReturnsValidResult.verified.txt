@@ -1,0 +1,50 @@
+﻿{
+  Usage: xlarge,
+  Resources: {
+    Computes: [
+      VirtualMachines
+    ],
+    Databases: null,
+    Storages: null,
+    Networks: null,
+    Analytics: null,
+    Management: null,
+    Security: null,
+    AI: null
+  },
+  CloudCosts: [
+    {
+      CloudProvider: aws,
+      TotalMonthlyPrice: 293.460,
+      CostDetails: [
+        {
+          Cost: 293.460,
+          ResourceSubCategory: VirtualMachines,
+          ResourceDetails: {"InstanceName":"c5n.4xlarge","Region":"us-east-1","VCpu":16,"Memory":"42 GiB","PricePerHour":0.402,"Cloud":"aws","Category":"Compute","SubCategory":"VirtualMachines"}
+        }
+      ]
+    },
+    {
+      CloudProvider: azure,
+      TotalMonthlyPrice: 535.820,
+      CostDetails: [
+        {
+          Cost: 535.820,
+          ResourceSubCategory: VirtualMachines,
+          ResourceDetails: {"InstanceName":"Standard_D16pds_v6","Region":"eastus","VCpu":16,"Memory":"64","PricePerHour":0.734,"Cloud":"azure","Category":"Compute","SubCategory":"VirtualMachines"}
+        }
+      ]
+    },
+    {
+      CloudProvider: gcp,
+      TotalMonthlyPrice: 294.21920,
+      CostDetails: [
+        {
+          Cost: 294.21920,
+          ResourceSubCategory: VirtualMachines,
+          ResourceDetails: {"InstanceName":"A3Ultra-16vCPU-32GB","Region":"us-east1","VCpu":16,"Memory":"32 GiB","PricePerHour":0.40304,"Cloud":"gcp","Category":"Compute","SubCategory":"VirtualMachines"}
+        }
+      ]
+    }
+  ]
+}

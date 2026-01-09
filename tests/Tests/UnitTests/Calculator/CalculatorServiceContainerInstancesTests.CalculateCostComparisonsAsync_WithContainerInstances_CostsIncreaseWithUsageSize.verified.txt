@@ -1,0 +1,102 @@
+﻿{
+  smallResult: {
+    Usage: small,
+    Resources: {
+      Computes: [
+        ContainerInstances
+      ],
+      Databases: null,
+      Storages: null,
+      Networks: null,
+      Analytics: null,
+      Management: null,
+      Security: null,
+      AI: null
+    },
+    CloudCosts: [
+      {
+        CloudProvider: aws,
+        TotalMonthlyPrice: 0.0,
+        CostDetails: [
+          {
+            Cost: 0.0,
+            ResourceSubCategory: ContainerInstances,
+            ResourceDetails: null
+          }
+        ]
+      },
+      {
+        CloudProvider: azure,
+        TotalMonthlyPrice: 0.0,
+        CostDetails: [
+          {
+            Cost: 0.0,
+            ResourceSubCategory: ContainerInstances,
+            ResourceDetails: null
+          }
+        ]
+      },
+      {
+        CloudProvider: gcp,
+        TotalMonthlyPrice: 0.0,
+        CostDetails: [
+          {
+            Cost: 0.0,
+            ResourceSubCategory: ContainerInstances,
+            ResourceDetails: null
+          }
+        ]
+      }
+    ]
+  },
+  largeResult: {
+    Usage: large,
+    Resources: {
+      Computes: [
+        ContainerInstances
+      ],
+      Databases: null,
+      Storages: null,
+      Networks: null,
+      Analytics: null,
+      Management: null,
+      Security: null,
+      AI: null
+    },
+    CloudCosts: [
+      {
+        CloudProvider: aws,
+        TotalMonthlyPrice: 0.0,
+        CostDetails: [
+          {
+            Cost: 0.0,
+            ResourceSubCategory: ContainerInstances,
+            ResourceDetails: null
+          }
+        ]
+      },
+      {
+        CloudProvider: azure,
+        TotalMonthlyPrice: 0.0,
+        CostDetails: [
+          {
+            Cost: 0.0,
+            ResourceSubCategory: ContainerInstances,
+            ResourceDetails: null
+          }
+        ]
+      },
+      {
+        CloudProvider: gcp,
+        TotalMonthlyPrice: 0.0,
+        CostDetails: [
+          {
+            Cost: 0.0,
+            ResourceSubCategory: ContainerInstances,
+            ResourceDetails: null
+          }
+        ]
+      }
+    ]
+  }
+}
