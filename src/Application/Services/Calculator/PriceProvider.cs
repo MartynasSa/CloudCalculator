@@ -11,6 +11,38 @@ public interface IPriceProvider
 
 public class PriceProvider : IPriceProvider
 {
+    // Internal enum for price filtering - matches the old ResourceSubCategory values
+    private enum ResourceSubCategory
+    {
+        // Storage (300-399)
+        ObjectStorage = 300,
+        BlobStorage = 301,
+        FileStorage = 303,
+        Backup = 304,
+
+        // Networking (400-499)
+        VpnGateway = 400,
+        Dns = 403,
+        CDN = 404,
+
+        // Analytics / AI (500-599)
+        DataWarehouse = 500,
+        Streaming = 501,
+        MachineLearning = 502,
+
+        // Management (600-699)
+        Queueing = 600,
+        Messaging = 601,
+        Secrets = 602,
+        Compliance = 603,
+
+        // Compute (100-199)
+        ContainerInstances = 103,
+
+        // Database (200-299)
+        Caching = 204,
+    }
+    
     /// <summary>
     /// Preferred database engines for cross-cloud comparison.
     /// PostgreSQL and MySQL are chosen because they are:
@@ -266,7 +298,7 @@ public class PriceProvider : IPriceProvider
         foreach (UsageSize usageSize in Enum.GetValues<UsageSize>())
         {
             // For blob storage, we select the cheapest option but the implied usage increases with size
-            result[usageSize] = GetBlobLikeResource(blobStorage, ResourceSubCategory.BlobStorage);
+            result[usageSize] = GetBlobLikeResource(blobStorage, (int)ResourceSubCategory.BlobStorage);
         }
 
         return result;
@@ -279,7 +311,7 @@ public class PriceProvider : IPriceProvider
 
         foreach (UsageSize usageSize in Enum.GetValues<UsageSize>())
         {
-            result[usageSize] = GetBlobLikeResource(objectStorage, ResourceSubCategory.ObjectStorage);
+            result[usageSize] = GetBlobLikeResource(objectStorage, (int)ResourceSubCategory.ObjectStorage);
         }
 
         return result;
@@ -292,7 +324,7 @@ public class PriceProvider : IPriceProvider
 
         foreach (UsageSize usageSize in Enum.GetValues<UsageSize>())
         {
-            result[usageSize] = GetGenericResource(containerInstances, ResourceSubCategory.ContainerInstances);
+            result[usageSize] = GetGenericResource(containerInstances, (int)ResourceSubCategory.ContainerInstances);
         }
 
         return result;
@@ -305,7 +337,7 @@ public class PriceProvider : IPriceProvider
 
         foreach (UsageSize usageSize in Enum.GetValues<UsageSize>())
         {
-            result[usageSize] = GetGenericResource(caching, ResourceSubCategory.Caching);
+            result[usageSize] = GetGenericResource(caching, (int)ResourceSubCategory.Caching);
         }
 
         return result;
@@ -318,7 +350,7 @@ public class PriceProvider : IPriceProvider
 
         foreach (UsageSize usageSize in Enum.GetValues<UsageSize>())
         {
-            result[usageSize] = GetGenericResource(fileStorage, ResourceSubCategory.FileStorage);
+            result[usageSize] = GetGenericResource(fileStorage, (int)ResourceSubCategory.FileStorage);
         }
 
         return result;
@@ -331,7 +363,7 @@ public class PriceProvider : IPriceProvider
 
         foreach (UsageSize usageSize in Enum.GetValues<UsageSize>())
         {
-            result[usageSize] = GetGenericResource(backups, ResourceSubCategory.Backup);
+            result[usageSize] = GetGenericResource(backups, (int)ResourceSubCategory.Backup);
         }
 
         return result;
@@ -344,7 +376,7 @@ public class PriceProvider : IPriceProvider
 
         foreach (UsageSize usageSize in Enum.GetValues<UsageSize>())
         {
-            result[usageSize] = GetGenericResource(vpnGateways, ResourceSubCategory.VpnGateway);
+            result[usageSize] = GetGenericResource(vpnGateways, (int)ResourceSubCategory.VpnGateway);
         }
 
         return result;
@@ -357,7 +389,7 @@ public class PriceProvider : IPriceProvider
 
         foreach (UsageSize usageSize in Enum.GetValues<UsageSize>())
         {
-            result[usageSize] = GetGenericResource(dns, ResourceSubCategory.Dns);
+            result[usageSize] = GetGenericResource(dns, (int)ResourceSubCategory.Dns);
         }
 
         return result;
@@ -370,7 +402,7 @@ public class PriceProvider : IPriceProvider
 
         foreach (UsageSize usageSize in Enum.GetValues<UsageSize>())
         {
-            result[usageSize] = GetGenericResource(cdn, ResourceSubCategory.CDN);
+            result[usageSize] = GetGenericResource(cdn, (int)ResourceSubCategory.CDN);
         }
 
         return result;
@@ -383,7 +415,7 @@ public class PriceProvider : IPriceProvider
 
         foreach (UsageSize usageSize in Enum.GetValues<UsageSize>())
         {
-            result[usageSize] = GetGenericResource(dataWarehouses, ResourceSubCategory.DataWarehouse);
+            result[usageSize] = GetGenericResource(dataWarehouses, (int)ResourceSubCategory.DataWarehouse);
         }
 
         return result;
@@ -396,7 +428,7 @@ public class PriceProvider : IPriceProvider
 
         foreach (UsageSize usageSize in Enum.GetValues<UsageSize>())
         {
-            result[usageSize] = GetGenericResource(streaming, ResourceSubCategory.Streaming);
+            result[usageSize] = GetGenericResource(streaming, (int)ResourceSubCategory.Streaming);
         }
 
         return result;
@@ -409,7 +441,7 @@ public class PriceProvider : IPriceProvider
 
         foreach (UsageSize usageSize in Enum.GetValues<UsageSize>())
         {
-            result[usageSize] = GetGenericResource(machineLearning, ResourceSubCategory.MachineLearning);
+            result[usageSize] = GetGenericResource(machineLearning, (int)ResourceSubCategory.MachineLearning);
         }
 
         return result;
@@ -422,7 +454,7 @@ public class PriceProvider : IPriceProvider
 
         foreach (UsageSize usageSize in Enum.GetValues<UsageSize>())
         {
-            result[usageSize] = GetGenericResource(queueing, ResourceSubCategory.Queueing);
+            result[usageSize] = GetGenericResource(queueing, (int)ResourceSubCategory.Queueing);
         }
 
         return result;
@@ -435,7 +467,7 @@ public class PriceProvider : IPriceProvider
 
         foreach (UsageSize usageSize in Enum.GetValues<UsageSize>())
         {
-            result[usageSize] = GetGenericResource(messaging, ResourceSubCategory.Messaging);
+            result[usageSize] = GetGenericResource(messaging, (int)ResourceSubCategory.Messaging);
         }
 
         return result;
@@ -448,7 +480,7 @@ public class PriceProvider : IPriceProvider
 
         foreach (UsageSize usageSize in Enum.GetValues<UsageSize>())
         {
-            result[usageSize] = GetGenericResource(secrets, ResourceSubCategory.Secrets);
+            result[usageSize] = GetGenericResource(secrets, (int)ResourceSubCategory.Secrets);
         }
 
         return result;
@@ -461,7 +493,7 @@ public class PriceProvider : IPriceProvider
 
         foreach (UsageSize usageSize in Enum.GetValues<UsageSize>())
         {
-            result[usageSize] = GetGenericResource(compliance, ResourceSubCategory.Compliance);
+            result[usageSize] = GetGenericResource(compliance, (int)ResourceSubCategory.Compliance);
         }
 
         return result;
@@ -526,7 +558,7 @@ public class PriceProvider : IPriceProvider
                     {
                         Cloud = representative.Cloud,
                         Category = representative.Category,
-                        SubCategory = representative.SubCategory,
+                        SubCategoryValue = representative.SubCategoryValue,
                         MonitoringService = representative.MonitoringService,
                         Region = representative.Region,
                         MetricType = EstimatedMonitoringMetricType,
@@ -582,10 +614,10 @@ public class PriceProvider : IPriceProvider
 
     private static List<NormalizedResourceDto> GetGenericResource(
         IEnumerable<NormalizedResourceDto> resources,
-        ResourceSubCategory subCategory)
+        int subCategoryValue)
     {
         return resources
-            .Where(r => r.SubCategory == subCategory)
+            .Where(r => r.SubCategoryValue == subCategoryValue)
             .Where(r => (r.PricePerHour ?? 0m) > 0m)
             .GroupBy(r => r.Cloud)
             .Select(g => g.OrderBy(r => r.PricePerHour ?? decimal.MaxValue).First())
@@ -594,10 +626,10 @@ public class PriceProvider : IPriceProvider
 
     private static List<NormalizedBlobStorageDto> GetBlobLikeResource(
         IEnumerable<NormalizedBlobStorageDto> storages,
-        ResourceSubCategory subCategory)
+        int subCategoryValue)
     {
         return storages
-            .Where(s => s.SubCategory == subCategory)
+            .Where(s => s.SubCategoryValue == subCategoryValue)
             .GroupBy(s => s.Cloud)
             .Select(g => g.OrderBy(GetBlobStoragePriceScore).First())
             .ToList();

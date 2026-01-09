@@ -51,15 +51,15 @@ public class CalculatorService(IResourceNormalizationService resourceNormalizati
             var costDetails = new List<TemplateCostResourceSubCategoryDetailsDto>();
             decimal totalCost = 0m;
 
-            // Calculate costs based on requested resource subcategories
-            foreach (var requestedSubCategory in template.Resources)
+            // Calculate costs based on requested resource specifications
+            foreach (var requestedSpec in template.Resources)
             {
-                var (cost, resourceDetails) = CalculateResourceCost(filteredResources, template.Usage, cloudProvider, requestedSubCategory);
+                var (cost, resourceDetails) = CalculateResourceCost(filteredResources, template.Usage, cloudProvider, requestedSpec);
 
                 totalCost += cost;
                 costDetails.Add(new TemplateCostResourceSubCategoryDetailsDto()
                 {
-                    ResourceSubCategory = requestedSubCategory,
+                    ResourceSpecification = requestedSpec,
                     Cost = cost,
                     ResourceDetails = resourceDetails != null ? JsonSerializer.Serialize(resourceDetails, JsonOptions) : null
                 });
@@ -76,25 +76,26 @@ public class CalculatorService(IResourceNormalizationService resourceNormalizati
         return result;
     }
 
-    private (decimal, object) CalculateResourceCost(FilteredResourcesDto filteredResources, UsageSize usageSize, CloudProvider cloudProvider, ResourceSubCategory subCategory)
+    private (decimal, object) CalculateResourceCost(FilteredResourcesDto filteredResources, UsageSize usageSize, CloudProvider cloudProvider, ResourceSpecificationDto spec)
     {
         var key = (usageSize, cloudProvider);
 
-        return subCategory switch
+        // Map ResourceSpecificationDto to appropriate calculation based on category and type
+        return spec.Category switch
         {
-            ResourceSubCategory.VirtualMachines when filteredResources.ComputeInstances.TryGetValue(key, out var vm)
+            ResourceCategory.Compute when spec.ComputeType == ComputeType.VirtualMachines && filteredResources.ComputeInstances.TryGetValue(key, out var vm)
                 => (CalculateVmCost(vm, CalculatorService.HoursPerMonth), vm),
 
-            ResourceSubCategory.Kubernetes when filteredResources.Kubernetes.TryGetValue(key, out var k8s)
+            ResourceCategory.Compute when spec.ComputeType == ComputeType.Kubernetes && filteredResources.Kubernetes.TryGetValue(key, out var k8s)
                 => (CalculateKubernetesCost(k8s, CalculatorService.HoursPerMonth), k8s),
 
-            ResourceSubCategory.Relational when filteredResources.Databases.TryGetValue(key, out var db)
+            ResourceCategory.Database when spec.DatabaseType == DatabaseType.Relational && filteredResources.Databases.TryGetValue(key, out var db)
                 => (CalculateDatabaseCost(db, CalculatorService.HoursPerMonth), db),
 
-            ResourceSubCategory.LoadBalancer when filteredResources.LoadBalancers.TryGetValue(key, out var lb)
+            ResourceCategory.Networking when spec.NetworkingType == NetworkingType.LoadBalancer && filteredResources.LoadBalancers.TryGetValue(key, out var lb)
                 => (CalculateLoadBalancerCost(lb), lb),
 
-            ResourceSubCategory.Monitoring when filteredResources.Monitoring.TryGetValue(key, out var monitoring)
+            ResourceCategory.Management when spec.ManagementType == ManagementType.Monitoring && filteredResources.Monitoring.TryGetValue(key, out var monitoring)
                 => (CalculateMonitoringCost(monitoring), monitoring),
 
             _ => (0m, null)

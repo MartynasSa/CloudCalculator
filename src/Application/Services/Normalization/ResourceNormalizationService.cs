@@ -12,6 +12,59 @@ public interface IResourceNormalizationService
 
 public class ResourceNormalizationService(ICloudPricingRepositoryProvider cloudPricingRepository) : IResourceNormalizationService
 {
+    // Internal enum for mapping - matches the old ResourceSubCategory values
+    private enum ResourceSubCategory
+    {
+        None = 0,
+        Uncategorized = 1,
+        
+        // Compute (100-199)
+        VirtualMachines = 100,
+        CloudFunctions = 101,
+        Kubernetes = 102,
+        ContainerInstances = 103,
+
+        // Database (200-299)
+        Relational = 200,
+        NoSQL = 202,
+        Caching = 204,
+
+        // Storage (300-399)
+        ObjectStorage = 300,
+        BlobStorage = 301,
+        BlockStorage = 302,
+        FileStorage = 303,
+        Backup = 304,
+
+        // Networking (400-499)
+        VpnGateway = 400,
+        LoadBalancer = 401,
+        ApiGateway = 402,
+        Dns = 403,
+        CDN = 404,
+
+        // Analytics / AI (500-599)
+        DataWarehouse = 500,
+        Streaming = 501,
+        MachineLearning = 502,
+
+        // Management (600-699)
+        Queueing = 600,
+        Messaging = 601,
+        Secrets = 602,
+        Compliance = 603,
+        Monitoring = 604,
+
+        // Security (700-799)
+        WebApplicationFirewall = 700,
+        IdentityManagement = 701,
+
+        // ML (880-899)
+        AIServices = 801,
+        MLPlatforms = 802,
+        IntelligentSearch = 803,
+    }
+    
     // Regex for extracting GCP machine family from description
     private static readonly Regex GcpMachineFamilyRegex = new(@"^([a-zA-Z][0-9a-zA-Z]*)\s+Instance\s+(Core|Ram)", RegexOptions.IgnoreCase | RegexOptions.Compiled);
     
@@ -158,59 +211,59 @@ public class ResourceNormalizationService(ICloudPricingRepositoryProvider cloudP
                     // Skip GCP VMs - they will be created synthetically later
                     if (product.VendorName != CloudProvider.GCP)
                     {
-                        result.ComputeInstances.Add(NormalizationMapper.MapToComputeInstance(product, category, subCategory));
+                        result.ComputeInstances.Add(NormalizationMapper.MapToComputeInstance(product, category, (int)subCategory));
                     }
                     break;
                 case (ResourceCategory.Compute, ResourceSubCategory.CloudFunctions):
-                    result.CloudFunctions.Add(NormalizationMapper.MapToCloudFunction(product, category, subCategory));
+                    result.CloudFunctions.Add(NormalizationMapper.MapToCloudFunction(product, category, (int)subCategory));
                     break;
                 case (ResourceCategory.Compute, ResourceSubCategory.Kubernetes):
-                    result.Kubernetes.Add(NormalizationMapper.MapToKubernetes(product, category, subCategory));
+                    result.Kubernetes.Add(NormalizationMapper.MapToKubernetes(product, category, (int)subCategory));
                     break;
                 case (ResourceCategory.Compute, ResourceSubCategory.ContainerInstances):
-                    result.ContainerInstances.Add(NormalizationMapper.MapToContainerInstance(product, category, subCategory));
+                    result.ContainerInstances.Add(NormalizationMapper.MapToContainerInstance(product, category, (int)subCategory));
                     break;
                 case (ResourceCategory.Database, ResourceSubCategory.Relational):
-                    result.Databases.Add(NormalizationMapper.MapToDatabase(product, category, subCategory));
+                    result.Databases.Add(NormalizationMapper.MapToDatabase(product, category, (int)subCategory));
                     break;
                 case (ResourceCategory.Database, ResourceSubCategory.NoSQL):
-                    result.Databases.Add(NormalizationMapper.MapToDatabase(product, category, subCategory));
+                    result.Databases.Add(NormalizationMapper.MapToDatabase(product, category, (int)subCategory));
                     break;
                 case (ResourceCategory.Database, ResourceSubCategory.Caching):
-                    result.Caching.Add(NormalizationMapper.MapToCaching(product, category, subCategory));
+                    result.Caching.Add(NormalizationMapper.MapToCaching(product, category, (int)subCategory));
                     break;
                 case (ResourceCategory.Networking, ResourceSubCategory.LoadBalancer):
-                    result.LoadBalancers.Add(NormalizationMapper.MapToLoadBalancer(product, category, subCategory));
+                    result.LoadBalancers.Add(NormalizationMapper.MapToLoadBalancer(product, category, (int)subCategory));
                     break;
                 case (ResourceCategory.Networking, ResourceSubCategory.ApiGateway):
-                    result.ApiGateways.Add(NormalizationMapper.MapToApiGateway(product, category, subCategory));
+                    result.ApiGateways.Add(NormalizationMapper.MapToApiGateway(product, category, (int)subCategory));
                     break;
                 case (ResourceCategory.Networking, ResourceSubCategory.CDN):
-                    result.CDN.Add(NormalizationMapper.MapToCdn(product, category, subCategory));
+                    result.CDN.Add(NormalizationMapper.MapToCdn(product, category, (int)subCategory));
                     break;
                 case (ResourceCategory.Storage, ResourceSubCategory.BlobStorage):
-                    result.BlobStorage.Add(NormalizationMapper.MapToBlobStorage(product, category, subCategory));
+                    result.BlobStorage.Add(NormalizationMapper.MapToBlobStorage(product, category, (int)subCategory));
                     break;
                 case (ResourceCategory.Storage, ResourceSubCategory.BlockStorage):
-                    result.BlockStorage.Add(NormalizationMapper.MapToBlockStorage(product, category, subCategory));
+                    result.BlockStorage.Add(NormalizationMapper.MapToBlockStorage(product, category, (int)subCategory));
                     break;
                 case (ResourceCategory.Analytics, ResourceSubCategory.DataWarehouse):
-                    result.DataWarehouses.Add(NormalizationMapper.MapToDataWarehouse(product, category, subCategory));
+                    result.DataWarehouses.Add(NormalizationMapper.MapToDataWarehouse(product, category, (int)subCategory));
                     break;
                 case (ResourceCategory.Management, ResourceSubCategory.Messaging):
-                    result.Messaging.Add(NormalizationMapper.MapToMessaging(product, category, subCategory));
+                    result.Messaging.Add(NormalizationMapper.MapToMessaging(product, category, (int)subCategory));
                     break;
                 case (ResourceCategory.Management, ResourceSubCategory.Queueing):
-                    result.Queueing.Add(NormalizationMapper.MapToQueueing(product, category, subCategory));
+                    result.Queueing.Add(NormalizationMapper.MapToQueueing(product, category, (int)subCategory));
                     break;
                 case (ResourceCategory.Management, ResourceSubCategory.Monitoring):
-                    result.Monitoring.Add(NormalizationMapper.MapToMonitoring(product, category, subCategory));
+                    result.Monitoring.Add(NormalizationMapper.MapToMonitoring(product, category, (int)subCategory));
                     break;
                 case (ResourceCategory.Security, ResourceSubCategory.IdentityManagement):
-                    result.IdentityManagement.Add(NormalizationMapper.MapToIdentityManagement(product, category, subCategory));
+                    result.IdentityManagement.Add(NormalizationMapper.MapToIdentityManagement(product, category, (int)subCategory));
                     break;
                 case (ResourceCategory.Security, ResourceSubCategory.WebApplicationFirewall):
-                    result.WebApplicationFirewall.Add(NormalizationMapper.MapToWebApplicationFirewall(product, category, subCategory));
+                    result.WebApplicationFirewall.Add(NormalizationMapper.MapToWebApplicationFirewall(product, category, (int)subCategory));
                     break;
                 default:
                     break;
@@ -338,7 +391,7 @@ public class ResourceNormalizationService(ICloudPricingRepositoryProvider cloudP
                         result.ComputeInstances.Add(new NormalizedComputeInstanceDto
                         {
                             Category = ResourceCategory.Compute,
-                            SubCategory = ResourceSubCategory.VirtualMachines,
+                            SubCategoryValue = (int)ComputeType.VirtualMachines,
                             Cloud = CloudProvider.GCP,
                             InstanceName = $"{cheapestFamily.Family}-{config.VCpu}vCPU-{config.Memory}GB",
                             Region = region,

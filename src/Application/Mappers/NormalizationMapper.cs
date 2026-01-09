@@ -13,7 +13,7 @@ public static class NormalizationMapper
     public static NormalizedComputeInstanceDto MapToComputeInstance(
         CloudPricingProductDto product,
         ResourceCategory Category,
-        ResourceSubCategory SubCategory)
+        int SubCategoryValue)
     {
         var instanceName = product.Attributes.FirstOrDefault(a => a.Key == "instanceType")?.Value
                           ?? product.Attributes.FirstOrDefault(a => a.Key == "vmSize")?.Value
@@ -40,7 +40,7 @@ public static class NormalizationMapper
         return new NormalizedComputeInstanceDto
         {
             Category = Category,
-            SubCategory = SubCategory,
+            SubCategoryValue = SubCategoryValue,
             Cloud = product.VendorName,
             InstanceName = instanceName,
             Region = product.Region,
@@ -51,7 +51,7 @@ public static class NormalizationMapper
     }
 
     public static NormalizedDatabaseDto MapToDatabase(CloudPricingProductDto product,
-        ResourceCategory Category, ResourceSubCategory SubCategory)
+        ResourceCategory Category, int SubCategoryValue)
     {
         var instanceName = product.Attributes.FirstOrDefault(a => a.Key == "instanceType")?.Value
                           ?? product.Attributes.FirstOrDefault(a => a.Key == "databaseEngine")?.Value
@@ -164,7 +164,7 @@ public static class NormalizationMapper
         return new NormalizedDatabaseDto
         {
             Category = Category,
-            SubCategory = SubCategory,
+            SubCategoryValue = SubCategoryValue,
             Cloud = product.VendorName,
             InstanceName = instanceName,
             Region = product.Region,
@@ -178,7 +178,7 @@ public static class NormalizationMapper
     public static NormalizedCloudFunctionDto MapToCloudFunction(
         CloudPricingProductDto product,
         ResourceCategory category,
-        ResourceSubCategory subCategory)
+        int subCategoryValue)
     {
         var functionName = product.Attributes.FirstOrDefault(a => a.Key == "group")?.Value
                           ?? product.Attributes.FirstOrDefault(a => a.Key == "meterName")?.Value
@@ -188,7 +188,7 @@ public static class NormalizationMapper
         return new NormalizedCloudFunctionDto
         {
             Category = category,
-            SubCategory = subCategory,
+            SubCategoryValue = subCategoryValue,
             Cloud = product.VendorName,
             FunctionName = functionName,
             Region = product.Region,
@@ -200,7 +200,7 @@ public static class NormalizationMapper
     public static NormalizedKubernetesDto MapToKubernetes(
         CloudPricingProductDto product,
         ResourceCategory category,
-        ResourceSubCategory subCategory)
+        int subCategoryValue)
     {
         // For AWS, use the service name (AmazonEKS)
         // For Azure and GCP, use meterName or productName which contains the cluster tier/type
@@ -231,7 +231,7 @@ public static class NormalizationMapper
         return new NormalizedKubernetesDto
         {
             Category = category,
-            SubCategory = subCategory,
+            SubCategoryValue = subCategoryValue,
             Cloud = product.VendorName,
             ClusterName = clusterName,
             Region = product.Region,
@@ -243,7 +243,7 @@ public static class NormalizationMapper
     public static NormalizedApiGatewayDto MapToApiGateway(
         CloudPricingProductDto product,
         ResourceCategory category,
-        ResourceSubCategory subCategory)
+        int subCategoryValue)
     {
         var name = product.Attributes.FirstOrDefault(a => a.Key == "group")?.Value
                   ?? product.Attributes.FirstOrDefault(a => a.Key == "meterName")?.Value
@@ -252,7 +252,7 @@ public static class NormalizationMapper
         return new NormalizedApiGatewayDto
         {
             Category = category,
-            SubCategory = subCategory,
+            SubCategoryValue = subCategoryValue,
             Cloud = product.VendorName,
             Name = name,
             Region = product.Region,
@@ -264,7 +264,7 @@ public static class NormalizationMapper
     public static NormalizedLoadBalancerDto MapToLoadBalancer(
         CloudPricingProductDto product,
         ResourceCategory category,
-        ResourceSubCategory subCategory)
+        int subCategoryValue)
     {
         var name = product.Attributes.FirstOrDefault(a => a.Key == "usageType")?.Value
                   ?? product.Attributes.FirstOrDefault(a => a.Key == "meterName")?.Value
@@ -274,7 +274,7 @@ public static class NormalizationMapper
         return new NormalizedLoadBalancerDto
         {
             Category = category,
-            SubCategory = subCategory,
+            SubCategoryValue = subCategoryValue,
             Cloud = product.VendorName,
             Name = name,
             PricePerMonth = GetPricePerMonth(product)
@@ -284,7 +284,7 @@ public static class NormalizationMapper
     public static NormalizedBlobStorageDto MapToBlobStorage(
         CloudPricingProductDto product,
         ResourceCategory category,
-        ResourceSubCategory subCategory)
+        int subCategoryValue)
     {
         var name = product.Attributes.FirstOrDefault(a => a.Key == "storageClass")?.Value
                   ?? product.Attributes.FirstOrDefault(a => a.Key == "meterName")?.Value
@@ -297,7 +297,7 @@ public static class NormalizationMapper
         return new NormalizedBlobStorageDto
         {
             Category = category,
-            SubCategory = subCategory,
+            SubCategoryValue = subCategoryValue,
             Cloud = product.VendorName,
             Name = name,
             Region = product.Region,
@@ -308,7 +308,7 @@ public static class NormalizationMapper
     }
 
     public static NormalizedResourceDto MapToNormalizedResource(
-        CloudPricingProductDto product, ResourceCategory category, ResourceSubCategory subCategory)
+        CloudPricingProductDto product, ResourceCategory category, int subCategoryValue)
     {
         var attributes = product.Attributes.ToDictionary(a => a.Key, a => a.Value);
 
@@ -318,7 +318,7 @@ public static class NormalizationMapper
             Service = product.Service,
             Region = product.Region,
             Category = category,
-            SubCategory = subCategory,
+            SubCategoryValue = subCategoryValue,
             ProductFamily = product.ProductFamily,
             ResourceName = product.Attributes.FirstOrDefault(a => a.Key == "instanceType")?.Value,
             PricePerHour = GetPricePerHour(product),
@@ -392,7 +392,7 @@ public static class NormalizationMapper
     public static NormalizedContainerInstanceDto MapToContainerInstance(
         CloudPricingProductDto product,
         ResourceCategory category,
-        ResourceSubCategory subCategory)
+        int subCategoryValue)
     {
         var containerName = product.Attributes.FirstOrDefault(a => a.Key == "usageType")?.Value
                            ?? product.Attributes.FirstOrDefault(a => a.Key == "productName")?.Value
@@ -401,7 +401,7 @@ public static class NormalizationMapper
         return new NormalizedContainerInstanceDto
         {
             Category = category,
-            SubCategory = subCategory,
+            SubCategoryValue = subCategoryValue,
             Cloud = product.VendorName,
             ContainerName = containerName,
             Region = product.Region,
@@ -412,7 +412,7 @@ public static class NormalizationMapper
     public static NormalizedDataWarehouseDto MapToDataWarehouse(
         CloudPricingProductDto product,
         ResourceCategory category,
-        ResourceSubCategory subCategory)
+        int subCategoryValue)
     {
         var warehouseName = product.Attributes.FirstOrDefault(a => a.Key == "servicename")?.Value
                            ?? product.Attributes.FirstOrDefault(a => a.Key == "meterName")?.Value
@@ -426,7 +426,7 @@ public static class NormalizationMapper
         return new NormalizedDataWarehouseDto
         {
             Category = category,
-            SubCategory = subCategory,
+            SubCategoryValue = subCategoryValue,
             Cloud = product.VendorName,
             WarehouseName = warehouseName,
             Region = product.Region,
@@ -438,7 +438,7 @@ public static class NormalizationMapper
     public static NormalizedCachingDto MapToCaching(
         CloudPricingProductDto product,
         ResourceCategory category,
-        ResourceSubCategory subCategory)
+        int subCategoryValue)
     {
         var cacheName = product.Attributes.FirstOrDefault(a => a.Key == "instanceType")?.Value
                        ?? product.Attributes.FirstOrDefault(a => a.Key == "meterName")?.Value
@@ -454,7 +454,7 @@ public static class NormalizationMapper
         return new NormalizedCachingDto
         {
             Category = category,
-            SubCategory = subCategory,
+            SubCategoryValue = subCategoryValue,
             Cloud = product.VendorName,
             CacheName = cacheName,
             Region = product.Region,
@@ -468,7 +468,7 @@ public static class NormalizationMapper
     public static NormalizedMessagingDto MapToMessaging(
         CloudPricingProductDto product,
         ResourceCategory category,
-        ResourceSubCategory subCategory)
+        int subCategoryValue)
     {
         var messagingService = product.Attributes.FirstOrDefault(a => a.Key == "servicename")?.Value
                               ?? product.Attributes.FirstOrDefault(a => a.Key == "productName")?.Value
@@ -481,7 +481,7 @@ public static class NormalizationMapper
         return new NormalizedMessagingDto
         {
             Category = category,
-            SubCategory = subCategory,
+            SubCategoryValue = subCategoryValue,
             Cloud = product.VendorName,
             MessagingService = messagingService,
             Region = product.Region,
@@ -493,7 +493,7 @@ public static class NormalizationMapper
     public static NormalizedQueuingDto MapToQueueing(
         CloudPricingProductDto product,
         ResourceCategory category,
-        ResourceSubCategory subCategory)
+        int subCategoryValue)
     {
         var queuingService = product.Attributes.FirstOrDefault(a => a.Key == "servicename")?.Value
                             ?? product.Attributes.FirstOrDefault(a => a.Key == "productName")?.Value
@@ -507,7 +507,7 @@ public static class NormalizationMapper
         return new NormalizedQueuingDto
         {
             Category = category,
-            SubCategory = subCategory,
+            SubCategoryValue = subCategoryValue,
             Cloud = product.VendorName,
             QueuingService = queuingService,
             Region = product.Region,
@@ -520,7 +520,7 @@ public static class NormalizationMapper
     public static NormalizedMonitoringDto MapToMonitoring(
         CloudPricingProductDto product,
         ResourceCategory category,
-        ResourceSubCategory subCategory)
+        int subCategoryValue)
     {
         var monitoringService = product.Attributes.FirstOrDefault(a => a.Key == "servicename")?.Value
                                ?? product.Attributes.FirstOrDefault(a => a.Key == "productName")?.Value
@@ -533,7 +533,7 @@ public static class NormalizationMapper
         return new NormalizedMonitoringDto
         {
             Category = category,
-            SubCategory = subCategory,
+            SubCategoryValue = subCategoryValue,
             Cloud = product.VendorName,
             Region = product.Region,
             MetricType = metricType,
@@ -545,7 +545,7 @@ public static class NormalizationMapper
     public static NormalizedCdnDto MapToCdn(
         CloudPricingProductDto product,
         ResourceCategory category,
-        ResourceSubCategory subCategory)
+        int subCategoryValue)
     {
         var cdnName = product.Attributes.FirstOrDefault(a => a.Key == "group")?.Value
                      ?? product.Attributes.FirstOrDefault(a => a.Key == "meterName")?.Value
@@ -558,7 +558,7 @@ public static class NormalizationMapper
         return new NormalizedCdnDto
         {
             Category = category,
-            SubCategory = subCategory,
+            SubCategoryValue = subCategoryValue,
             Cloud = product.VendorName,
             CdnName = cdnName,
             Region = product.Region,
@@ -571,7 +571,7 @@ public static class NormalizationMapper
     public static NormalizedIdentityManagementDto MapToIdentityManagement(
         CloudPricingProductDto product,
         ResourceCategory category,
-        ResourceSubCategory subCategory)
+        int subCategoryValue)
     {
         var serviceName = product.Attributes.FirstOrDefault(a => a.Key == "servicename")?.Value
                          ?? product.Attributes.FirstOrDefault(a => a.Key == "productName")?.Value
@@ -584,7 +584,7 @@ public static class NormalizationMapper
         return new NormalizedIdentityManagementDto
         {
             Category = category,
-            SubCategory = subCategory,
+            SubCategoryValue = subCategoryValue,
             Cloud = product.VendorName,
             ServiceName = serviceName,
             Region = product.Region,
@@ -598,7 +598,7 @@ public static class NormalizationMapper
     public static NormalizedWebApplicationFirewallDto MapToWebApplicationFirewall(
         CloudPricingProductDto product,
         ResourceCategory category,
-        ResourceSubCategory subCategory)
+        int subCategoryValue)
     {
         var firewallName = product.Attributes.FirstOrDefault(a => a.Key == "servicename")?.Value
                           ?? product.Attributes.FirstOrDefault(a => a.Key == "productName")?.Value
@@ -614,7 +614,7 @@ public static class NormalizationMapper
         return new NormalizedWebApplicationFirewallDto
         {
             Category = category,
-            SubCategory = subCategory,
+            SubCategoryValue = subCategoryValue,
             Cloud = product.VendorName,
             FirewallName = firewallName,
             Region = product.Region,
@@ -703,7 +703,7 @@ public static class NormalizationMapper
     public static NormalizedBlockStorageDto MapToBlockStorage(
         CloudPricingProductDto product,
         ResourceCategory category,
-        ResourceSubCategory subCategory)
+        int subCategoryValue)
     {
         var name = product.Attributes.FirstOrDefault(a => a.Key == "volumeType")?.Value
                   ?? product.Attributes.FirstOrDefault(a => a.Key == "skuName")?.Value
@@ -730,7 +730,7 @@ public static class NormalizationMapper
         return new NormalizedBlockStorageDto
         {
             Category = category,
-            SubCategory = subCategory,
+            SubCategoryValue = subCategoryValue,
             Cloud = product.VendorName,
             Name = name,
             Region = product.Region,

@@ -5,12 +5,12 @@ namespace Application.Models.Dtos;
 public class TemplateDto
 {
     public TemplateType Template { get; set; }
-    public List<ResourceSubCategory> Resources { get; set; } = new();
+    public List<ResourceSpecificationDto> Resources { get; set; } = new();
 }
 
 public class CalculationRequest
 {
-    public List<ResourceSubCategory> Resources { get; set; } = new();
+    public List<ResourceSpecificationDto> Resources { get; set; } = new();
     public UsageSize Usage { get; set; }
 }
 

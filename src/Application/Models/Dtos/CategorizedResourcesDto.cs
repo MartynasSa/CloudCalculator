@@ -48,5 +48,5 @@ public class NormalizedResource
 {
     public required CloudProvider Cloud { get; set; }
     public required ResourceCategory Category { get; set; }
-    public required ResourceSubCategory SubCategory { get; set; }
+    public required int SubCategoryValue { get; set; }
 }

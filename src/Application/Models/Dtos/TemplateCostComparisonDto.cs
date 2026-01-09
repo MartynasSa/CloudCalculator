@@ -6,7 +6,7 @@ namespace Application.Models.Dtos;
 public class TemplateCostComparisonResultDto
 {
     public UsageSize Usage { get; set; }
-    public List<ResourceSubCategory> Resources { get; set; } = new ();
+    public List<ResourceSpecificationDto> Resources { get; set; } = new ();
     public List<TemplateCostComparisonResultCloudProviderDto> CloudCosts { get; set; } = new();
 }
 
@@ -20,6 +20,6 @@ public class TemplateCostComparisonResultCloudProviderDto
 public class TemplateCostResourceSubCategoryDetailsDto 
 {
     public decimal Cost { get; set; }
-    public ResourceSubCategory ResourceSubCategory { get; set; }
+    public ResourceSpecificationDto ResourceSpecification { get; set; } = new();
     public string? ResourceDetails { get; set; }
 }

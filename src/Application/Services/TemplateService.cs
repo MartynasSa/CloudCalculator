@@ -11,6 +11,56 @@ public interface ITemplateService
 
 public class TemplateService : ITemplateService
 {
+    // Internal enum for template mapping - matches the old ResourceSubCategory values  
+    private enum ResourceSubCategory
+    {
+        // Compute (100-199)
+        VirtualMachines = 100,
+        CloudFunctions = 101,
+        Kubernetes = 102,
+        ContainerInstances = 103,
+
+        // Database (200-299)
+        Relational = 200,
+        NoSQL = 202,
+        Caching = 204,
+
+        // Storage (300-399)
+        ObjectStorage = 300,
+        BlobStorage = 301,
+        BlockStorage = 302,
+        FileStorage = 303,
+        Backup = 304,
+
+        // Networking (400-499)
+        VpnGateway = 400,
+        LoadBalancer = 401,
+        ApiGateway = 402,
+        Dns = 403,
+        CDN = 404,
+
+        // Analytics / AI (500-599)
+        DataWarehouse = 500,
+        Streaming = 501,
+        MachineLearning = 502,
+
+        // Management (600-699)
+        Queueing = 600,
+        Messaging = 601,
+        Secrets = 602,
+        Compliance = 603,
+        Monitoring = 604,
+
+        // Security (700-799)
+        WebApplicationFirewall = 700,
+        IdentityManagement = 701,
+
+        // ML (880-899)
+        AIServices = 801,
+        MLPlatforms = 802,
+        IntelligentSearch = 803,
+    }
+    
     // Centralized mapping: (TemplateType, UsageSize) -> Complete resource configuration
     private readonly Dictionary<(TemplateType Template, UsageSize Size), List<ResourceSubCategory>> _templateResourceMappings = new()
     {
@@ -757,7 +807,62 @@ public class TemplateService : ITemplateService
         return new TemplateDto
         {
             Template = template,
-            Resources = resources
+            Resources = resources.Select(ConvertToResourceSpecification).ToList()
         };
+    }
+
+    private static ResourceSpecificationDto ConvertToResourceSpecification(ResourceSubCategory subCategory)
+    {
+        var spec = new ResourceSpecificationDto();
+        
+        int value = (int)subCategory;
+        
+        // Determine category and set appropriate type based on value ranges
+        if (value >= 100 && value < 200)
+        {
+            spec.Category = ResourceCategory.Compute;
+            spec.ComputeType = (ComputeType)value;
+        }
+        else if (value >= 200 && value < 300)
+        {
+            spec.Category = ResourceCategory.Database;
+            spec.DatabaseType = (DatabaseType)value;
+        }
+        else if (value >= 300 && value < 400)
+        {
+            spec.Category = ResourceCategory.Storage;
+            spec.StorageType = (StorageType)value;
+        }
+        else if (value >= 400 && value < 500)
+        {
+            spec.Category = ResourceCategory.Networking;
+            spec.NetworkingType = (NetworkingType)value;
+        }
+        else if (value >= 500 && value < 600)
+        {
+            spec.Category = ResourceCategory.Analytics;
+            spec.AnalyticsType = (AnalyticsType)value;
+        }
+        else if (value >= 600 && value < 700)
+        {
+            spec.Category = ResourceCategory.Management;
+            spec.ManagementType = (ManagementType)value;
+        }
+        else if (value >= 700 && value < 800)
+        {
+            spec.Category = ResourceCategory.Security;
+            spec.SecurityType = (SecurityType)value;
+        }
+        else if (value >= 800 && value < 900)
+        {
+            spec.Category = ResourceCategory.AI;
+            spec.AIType = (AIType)value;
+        }
+        else
+        {
+            spec.Category = ResourceCategory.Unknown;
+        }
+        
+        return spec;
     }
 }
