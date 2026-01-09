@@ -30,4 +30,8 @@
     <None Update="**/*.verified.*" CopyToOutputDirectory="PreserveNewest" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="UnitTests\Calculator\" />
+  </ItemGroup>
+
 </Project>
