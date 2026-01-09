@@ -83,7 +83,7 @@
     },
     {
       CloudProvider: azure,
-      TotalMonthlyPrice: 61.628750,
+      TotalMonthlyPrice: 193.60180,
       CostDetails: [
         {
           Cost: 45.260,
@@ -91,9 +91,9 @@
           ResourceDetails: {"InstanceName":"Standard_D2pls_v6","Region":"eastus","VCpu":2,"Memory":"4","PricePerHour":0.062,"Cloud":"azure","Category":"Compute","SubCategory":"VirtualMachines"}
         },
         {
-          Cost: 1.368750,
+          Cost: 133.34180,
           ResourceSubCategory: Relational,
-          ResourceDetails: {"InstanceName":"SQL Database","Region":"eastus","DatabaseEngine":"SQL Server","VCpu":null,"Memory":null,"PricePerHour":0.001875,"Cloud":"azure","Category":"Database","SubCategory":"Relational"}
+          ResourceDetails: {"InstanceName":"10 vCore","Region":"eastus","DatabaseEngine":"SQL Server","VCpu":10,"Memory":"30 GiB","PricePerHour":0.18266,"Cloud":"azure","Category":"Database","SubCategory":"Relational"}
         },
         {
           Cost: 0.0,

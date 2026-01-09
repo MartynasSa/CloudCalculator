@@ -80,16 +80,35 @@ public static class NormalizationMapper
                             ?? product.Attributes.FirstOrDefault(a => a.Key == "databaseFamily")?.Value;
 
         // Extract vCPU and memory from Azure skuName if not already set
-        if (product.VendorName == CloudProvider.Azure && string.IsNullOrWhiteSpace(vcpuStr))
+        if (product.VendorName == CloudProvider.Azure)
         {
             var skuName = product.Attributes.FirstOrDefault(a => a.Key == "skuName")?.Value;
             if (!string.IsNullOrWhiteSpace(skuName))
             {
                 // Extract vCore from patterns like "4 vCore", "10 vCore", etc.
                 var vCoreMatch = AzureVCoreRegex.Match(skuName);
-                if (vCoreMatch.Success)
+                if (vCoreMatch.Success && string.IsNullOrWhiteSpace(vcpuStr))
                 {
                     vcpuStr = vCoreMatch.Groups[1].Value;
+
+                    // Calculate memory based on vCore count if memory is not already set
+                    var canParse = int.TryParse(vcpuStr, out int parsedCores);
+                    if (string.IsNullOrWhiteSpace(memory) && canParse)
+                    {
+                        // Azure SQL Database typically allocates 2-4 GiB per vCore
+                        // Using 3 GiB per vCore as a reasonable default for General Purpose tier
+                        var memoryGb = parsedCores * 3;
+                        memory = $"{memoryGb} GiB";
+                    }
+                }
+                
+                // Calculate memory for Azure databases if not already set
+                // Azure SQL Database allocates approximately 2-4 GiB per vCore
+                // Using 3 GiB per vCore as reasonable default for General Purpose tier
+                if (string.IsNullOrWhiteSpace(memory) && int.TryParse(vcpuStr, out var coresForMemory))
+                {
+                    var memoryGb = coresForMemory * 3;
+                    memory = $"{memoryGb} GiB";
                 }
             }
         }

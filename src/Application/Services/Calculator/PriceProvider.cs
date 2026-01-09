@@ -21,8 +21,10 @@ public class PriceProvider : IPriceProvider
     /// </summary>
     private static readonly HashSet<string> PreferredDatabaseEngines = new(StringComparer.OrdinalIgnoreCase)
     {
+        "SQL Server",
+        "MySQL",
         "PostgreSQL",
-        "MySQL"
+
     };
 
     public FilteredResourcesDto GetPrices(CategorizedResourcesDto categorizedResources)
