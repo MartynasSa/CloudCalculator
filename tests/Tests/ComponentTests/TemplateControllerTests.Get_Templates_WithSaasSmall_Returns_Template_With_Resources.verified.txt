@@ -5,27 +5,18 @@
       VirtualMachines
     ],
     Databases: [
-      Relational,
-      Caching
+      Relational
     ],
-    Storages: [
-      ObjectStorage,
-      Backup
-    ],
+    Storages: null,
     Networks: [
-      ApiGateway,
       LoadBalancer
     ],
     Analytics: null,
     Management: [
-      Queueing,
-      Messaging,
       Secrets,
       Monitoring
     ],
-    Security: [
-      WebApplicationFirewall
-    ],
+    Security: null,
     AI: null
   }
 }

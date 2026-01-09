@@ -8,13 +8,10 @@
       Relational,
       Caching
     ],
-    Storages: [
-      ObjectStorage,
-      Backup
-    ],
+    Storages: null,
     Networks: [
-      ApiGateway,
-      LoadBalancer
+      LoadBalancer,
+      ApiGateway
     ],
     Analytics: null,
     Management: [
@@ -23,9 +20,7 @@
       Secrets,
       Monitoring
     ],
-    Security: [
-      WebApplicationFirewall
-    ],
+    Security: null,
     AI: null
   }
 }

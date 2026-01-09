@@ -5,27 +5,18 @@
       VirtualMachines
     ],
     Databases: [
-      Relational,
-      Caching
+      Relational
     ],
-    Storages: [
-      ObjectStorage,
-      Backup
-    ],
+    Storages: null,
     Networks: [
-      ApiGateway,
       LoadBalancer
     ],
     Analytics: null,
     Management: [
-      Queueing,
-      Messaging,
       Secrets,
       Monitoring
     ],
-    Security: [
-      WebApplicationFirewall
-    ],
+    Security: null,
     AI: null
   },
   CloudCosts: [
@@ -44,39 +35,9 @@
           ResourceDetails: {"InstanceName":"db.m6g.large","Region":"us-east-1","DatabaseEngine":"MySQL","VCpu":2,"Memory":"8 GiB","PricePerHour":0.152,"Cloud":"aws","Category":"Database","SubCategory":"Relational"}
         },
         {
-          Cost: 0.0,
-          ResourceSubCategory: Caching,
-          ResourceDetails: null
-        },
-        {
-          Cost: 0.0,
-          ResourceSubCategory: ObjectStorage,
-          ResourceDetails: null
-        },
-        {
-          Cost: 0.0,
-          ResourceSubCategory: Backup,
-          ResourceDetails: null
-        },
-        {
-          Cost: 0.0,
-          ResourceSubCategory: ApiGateway,
-          ResourceDetails: null
-        },
-        {
           Cost: 5.840,
           ResourceSubCategory: LoadBalancer,
           ResourceDetails: {"Name":"ELB:Balancing","PricePerMonth":5.840,"Cloud":"aws","Category":"Networking","SubCategory":"LoadBalancer"}
-        },
-        {
-          Cost: 0.0,
-          ResourceSubCategory: Queueing,
-          ResourceDetails: null
-        },
-        {
-          Cost: 0.0,
-          ResourceSubCategory: Messaging,
-          ResourceDetails: null
         },
         {
           Cost: 0.0,
@@ -87,11 +48,6 @@
           Cost: 15.0,
           ResourceSubCategory: Monitoring,
           ResourceDetails: {"MonitoringService":"AmazonCloudWatch","Region":"us-east-1","MetricType":"Estimated Usage-Based Cost","PricePerMonth":15,"Cloud":"aws","Category":"Management","SubCategory":"Monitoring"}
-        },
-        {
-          Cost: 0.0,
-          ResourceSubCategory: WebApplicationFirewall,
-          ResourceDetails: null
         }
       ]
     },
@@ -111,38 +67,8 @@
         },
         {
           Cost: 0.0,
-          ResourceSubCategory: Caching,
-          ResourceDetails: null
-        },
-        {
-          Cost: 0.0,
-          ResourceSubCategory: ObjectStorage,
-          ResourceDetails: null
-        },
-        {
-          Cost: 0.0,
-          ResourceSubCategory: Backup,
-          ResourceDetails: null
-        },
-        {
-          Cost: 0.0,
-          ResourceSubCategory: ApiGateway,
-          ResourceDetails: null
-        },
-        {
-          Cost: 0.0,
           ResourceSubCategory: LoadBalancer,
           ResourceDetails: {"Name":"Load Balancer","PricePerMonth":0.0,"Cloud":"azure","Category":"Networking","SubCategory":"LoadBalancer"}
-        },
-        {
-          Cost: 0.0,
-          ResourceSubCategory: Queueing,
-          ResourceDetails: null
-        },
-        {
-          Cost: 0.0,
-          ResourceSubCategory: Messaging,
-          ResourceDetails: null
         },
         {
           Cost: 0.0,
@@ -153,11 +79,6 @@
           Cost: 15.0,
           ResourceSubCategory: Monitoring,
           ResourceDetails: {"MonitoringService":"Azure Monitor","Region":"eastus","MetricType":"Estimated Usage-Based Cost","PricePerMonth":15,"Cloud":"azure","Category":"Management","SubCategory":"Monitoring"}
-        },
-        {
-          Cost: 0.0,
-          ResourceSubCategory: WebApplicationFirewall,
-          ResourceDetails: null
         }
       ]
     },
@@ -176,39 +97,9 @@
           ResourceDetails: {"InstanceName":"Cloud SQL","Region":"us-east1","DatabaseEngine":"MySQL","VCpu":2,"Memory":"13 GiB","PricePerHour":0.14,"Cloud":"gcp","Category":"Database","SubCategory":"Relational"}
         },
         {
-          Cost: 0.0,
-          ResourceSubCategory: Caching,
-          ResourceDetails: null
-        },
-        {
-          Cost: 0.0,
-          ResourceSubCategory: ObjectStorage,
-          ResourceDetails: null
-        },
-        {
-          Cost: 0.0,
-          ResourceSubCategory: Backup,
-          ResourceDetails: null
-        },
-        {
-          Cost: 0.0,
-          ResourceSubCategory: ApiGateway,
-          ResourceDetails: null
-        },
-        {
           Cost: 5.840,
           ResourceSubCategory: LoadBalancer,
           ResourceDetails: {"Name":"Compute Engine","PricePerMonth":5.840,"Cloud":"gcp","Category":"Networking","SubCategory":"LoadBalancer"}
-        },
-        {
-          Cost: 0.0,
-          ResourceSubCategory: Queueing,
-          ResourceDetails: null
-        },
-        {
-          Cost: 0.0,
-          ResourceSubCategory: Messaging,
-          ResourceDetails: null
         },
         {
           Cost: 0.0,
@@ -219,11 +110,6 @@
           Cost: 15.0,
           ResourceSubCategory: Monitoring,
           ResourceDetails: {"MonitoringService":"Cloud Logging","Region":"global","MetricType":"Estimated Usage-Based Cost","PricePerMonth":15,"Cloud":"gcp","Category":"Management","SubCategory":"Monitoring"}
-        },
-        {
-          Cost: 0.0,
-          ResourceSubCategory: WebApplicationFirewall,
-          ResourceDetails: null
         }
       ]
     }

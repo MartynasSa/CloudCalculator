@@ -9,12 +9,11 @@
       Caching
     ],
     Storages: [
-      ObjectStorage,
-      Backup
+      ObjectStorage
     ],
     Networks: [
-      ApiGateway,
       LoadBalancer,
+      ApiGateway,
       CDN
     ],
     Analytics: null,

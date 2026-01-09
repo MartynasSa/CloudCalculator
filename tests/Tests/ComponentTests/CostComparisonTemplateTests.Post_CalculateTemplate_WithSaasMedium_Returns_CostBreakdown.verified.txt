@@ -8,13 +8,10 @@
       Relational,
       Caching
     ],
-    Storages: [
-      ObjectStorage,
-      Backup
-    ],
+    Storages: null,
     Networks: [
-      ApiGateway,
-      LoadBalancer
+      LoadBalancer,
+      ApiGateway
     ],
     Analytics: null,
     Management: [
@@ -23,9 +20,7 @@
       Secrets,
       Monitoring
     ],
-    Security: [
-      WebApplicationFirewall
-    ],
+    Security: null,
     AI: null
   },
   CloudCosts: [
@@ -49,24 +44,14 @@
           ResourceDetails: null
         },
         {
-          Cost: 0.0,
-          ResourceSubCategory: ObjectStorage,
-          ResourceDetails: null
-        },
-        {
-          Cost: 0.0,
-          ResourceSubCategory: Backup,
-          ResourceDetails: null
+          Cost: 5.840,
+          ResourceSubCategory: LoadBalancer,
+          ResourceDetails: {"Name":"ELB:Balancing","PricePerMonth":5.840,"Cloud":"aws","Category":"Networking","SubCategory":"LoadBalancer"}
         },
         {
           Cost: 0.0,
           ResourceSubCategory: ApiGateway,
           ResourceDetails: null
-        },
-        {
-          Cost: 5.840,
-          ResourceSubCategory: LoadBalancer,
-          ResourceDetails: {"Name":"ELB:Balancing","PricePerMonth":5.840,"Cloud":"aws","Category":"Networking","SubCategory":"LoadBalancer"}
         },
         {
           Cost: 0.0,
@@ -87,11 +72,6 @@
           Cost: 50.0,
           ResourceSubCategory: Monitoring,
           ResourceDetails: {"MonitoringService":"AmazonCloudWatch","Region":"us-east-1","MetricType":"Estimated Usage-Based Cost","PricePerMonth":50,"Cloud":"aws","Category":"Management","SubCategory":"Monitoring"}
-        },
-        {
-          Cost: 0.0,
-          ResourceSubCategory: WebApplicationFirewall,
-          ResourceDetails: null
         }
       ]
     },
@@ -116,23 +96,13 @@
         },
         {
           Cost: 0.0,
-          ResourceSubCategory: ObjectStorage,
-          ResourceDetails: null
-        },
-        {
-          Cost: 0.0,
-          ResourceSubCategory: Backup,
-          ResourceDetails: null
+          ResourceSubCategory: LoadBalancer,
+          ResourceDetails: {"Name":"Load Balancer","PricePerMonth":0.0,"Cloud":"azure","Category":"Networking","SubCategory":"LoadBalancer"}
         },
         {
           Cost: 0.0,
           ResourceSubCategory: ApiGateway,
           ResourceDetails: null
-        },
-        {
-          Cost: 0.0,
-          ResourceSubCategory: LoadBalancer,
-          ResourceDetails: {"Name":"Load Balancer","PricePerMonth":0.0,"Cloud":"azure","Category":"Networking","SubCategory":"LoadBalancer"}
         },
         {
           Cost: 0.0,
@@ -153,11 +123,6 @@
           Cost: 50.0,
           ResourceSubCategory: Monitoring,
           ResourceDetails: {"MonitoringService":"Azure Monitor","Region":"eastus","MetricType":"Estimated Usage-Based Cost","PricePerMonth":50,"Cloud":"azure","Category":"Management","SubCategory":"Monitoring"}
-        },
-        {
-          Cost: 0.0,
-          ResourceSubCategory: WebApplicationFirewall,
-          ResourceDetails: null
         }
       ]
     },
@@ -181,24 +146,14 @@
           ResourceDetails: null
         },
         {
-          Cost: 0.0,
-          ResourceSubCategory: ObjectStorage,
-          ResourceDetails: null
-        },
-        {
-          Cost: 0.0,
-          ResourceSubCategory: Backup,
-          ResourceDetails: null
+          Cost: 5.840,
+          ResourceSubCategory: LoadBalancer,
+          ResourceDetails: {"Name":"Compute Engine","PricePerMonth":5.840,"Cloud":"gcp","Category":"Networking","SubCategory":"LoadBalancer"}
         },
         {
           Cost: 0.0,
           ResourceSubCategory: ApiGateway,
           ResourceDetails: null
-        },
-        {
-          Cost: 5.840,
-          ResourceSubCategory: LoadBalancer,
-          ResourceDetails: {"Name":"Compute Engine","PricePerMonth":5.840,"Cloud":"gcp","Category":"Networking","SubCategory":"LoadBalancer"}
         },
         {
           Cost: 0.0,
@@ -219,11 +174,6 @@
           Cost: 50.0,
           ResourceSubCategory: Monitoring,
           ResourceDetails: {"MonitoringService":"Cloud Logging","Region":"global","MetricType":"Estimated Usage-Based Cost","PricePerMonth":50,"Cloud":"gcp","Category":"Management","SubCategory":"Monitoring"}
-        },
-        {
-          Cost: 0.0,
-          ResourceSubCategory: WebApplicationFirewall,
-          ResourceDetails: null
         }
       ]
     }

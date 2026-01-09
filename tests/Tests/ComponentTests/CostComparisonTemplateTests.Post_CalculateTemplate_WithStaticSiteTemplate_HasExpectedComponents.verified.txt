@@ -4,12 +4,10 @@
     Computes: null,
     Databases: null,
     Storages: [
-      ObjectStorage,
-      Backup
+      ObjectStorage
     ],
     Networks: [
-      CDN,
-      LoadBalancer
+      CDN
     ],
     Analytics: null,
     Management: [
@@ -21,7 +19,7 @@
   CloudCosts: [
     {
       CloudProvider: aws,
-      TotalMonthlyPrice: 20.840,
+      TotalMonthlyPrice: 15.0,
       CostDetails: [
         {
           Cost: 0.0,
@@ -30,18 +28,8 @@
         },
         {
           Cost: 0.0,
-          ResourceSubCategory: Backup,
-          ResourceDetails: null
-        },
-        {
-          Cost: 0.0,
           ResourceSubCategory: CDN,
           ResourceDetails: null
-        },
-        {
-          Cost: 5.840,
-          ResourceSubCategory: LoadBalancer,
-          ResourceDetails: {"Name":"ELB:Balancing","PricePerMonth":5.840,"Cloud":"aws","Category":"Networking","SubCategory":"LoadBalancer"}
         },
         {
           Cost: 15.0,
@@ -61,18 +49,8 @@
         },
         {
           Cost: 0.0,
-          ResourceSubCategory: Backup,
-          ResourceDetails: null
-        },
-        {
-          Cost: 0.0,
           ResourceSubCategory: CDN,
           ResourceDetails: null
-        },
-        {
-          Cost: 0.0,
-          ResourceSubCategory: LoadBalancer,
-          ResourceDetails: {"Name":"Load Balancer","PricePerMonth":0.0,"Cloud":"azure","Category":"Networking","SubCategory":"LoadBalancer"}
         },
         {
           Cost: 15.0,
@@ -83,7 +61,7 @@
     },
     {
       CloudProvider: gcp,
-      TotalMonthlyPrice: 20.840,
+      TotalMonthlyPrice: 15.0,
       CostDetails: [
         {
           Cost: 0.0,
@@ -92,18 +70,8 @@
         },
         {
           Cost: 0.0,
-          ResourceSubCategory: Backup,
-          ResourceDetails: null
-        },
-        {
-          Cost: 0.0,
           ResourceSubCategory: CDN,
           ResourceDetails: null
-        },
-        {
-          Cost: 5.840,
-          ResourceSubCategory: LoadBalancer,
-          ResourceDetails: {"Name":"Compute Engine","PricePerMonth":5.840,"Cloud":"gcp","Category":"Networking","SubCategory":"LoadBalancer"}
         },
         {
           Cost: 15.0,
