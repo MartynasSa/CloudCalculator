@@ -194,8 +194,7 @@ public class PriceProvider : IPriceProvider
                     var container = containerInstances.FirstOrDefault(c => c.Cloud == cloudProvider);
                     if (container != null)
                     {
-                        // Container instances are stored in Networking for now
-                        // This might need to be changed based on the requirements
+                        result.ContainerInstances[key] = container;
                     }
                 }
             }
@@ -706,24 +705,24 @@ public class PriceProvider : IPriceProvider
         return resources
             .Where(r => r.SubCategory == subCategory)
             .GroupBy(r => r.Cloud)
-            .Select(g => g.OrderBy(r => {
-                // Try to get PricePerHour from the resource
-                var pricePerHourProp = typeof(T).GetProperty("PricePerHour");
-                if (pricePerHourProp != null)
-                {
-                    var pricePerHour = pricePerHourProp.GetValue(r) as decimal?;
-                    return pricePerHour ?? decimal.MaxValue;
-                }
-                // Try to get PricePerMonth from the resource
-                var pricePerMonthProp = typeof(T).GetProperty("PricePerMonth");
-                if (pricePerMonthProp != null)
-                {
-                    var pricePerMonth = pricePerMonthProp.GetValue(r) as decimal?;
-                    return pricePerMonth ?? decimal.MaxValue;
-                }
-                return decimal.MaxValue;
-            }).First())
+            .Select(g => g.OrderBy(r => GetResourcePrice(r)).First())
             .ToList();
+    }
+
+    private static decimal GetResourcePrice<T>(T resource) where T : NormalizedResource
+    {
+        return resource switch
+        {
+            NormalizedContainerInstanceDto ci => ci.PricePerHour ?? decimal.MaxValue,
+            NormalizedCachingDto cache => cache.PricePerHour ?? decimal.MaxValue,
+            NormalizedDataWarehouseDto dw => dw.PricePerHour ?? decimal.MaxValue,
+            NormalizedMessagingDto msg => msg.PricePerMonth ?? decimal.MaxValue,
+            NormalizedQueuingDto queue => queue.PricePerMonth ?? decimal.MaxValue,
+            NormalizedCdnDto cdn => cdn.PricePerGbOut ?? cdn.PricePerRequest ?? decimal.MaxValue,
+            NormalizedIdentityManagementDto idm => idm.PricePerUser ?? idm.PricePerRequest ?? idm.PricePerAuthentication ?? decimal.MaxValue,
+            NormalizedWebApplicationFirewallDto waf => waf.PricePerHour ?? waf.PricePerGb ?? waf.PricePerRule ?? decimal.MaxValue,
+            _ => decimal.MaxValue
+        };
     }
 
     private static List<NormalizedBlobStorageDto> GetBlobLikeResource(

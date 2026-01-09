@@ -143,8 +143,8 @@ public class CalculatorService(IResourceNormalizationService resourceNormalizati
             ResourceSubCategory.Kubernetes when filteredResources.Kubernetes.TryGetValue(key, out var k8s)
                 => (CalculateHourlyCost(k8s.PricePerHour, HoursPerMonth), k8s),
 
-            ResourceSubCategory.ContainerInstances when filteredResources.Networking.TryGetValue(key, out var ci)
-                => (CalculateHourlyCost((ci as dynamic)?.PricePerHour, HoursPerMonth), ci),
+            ResourceSubCategory.ContainerInstances when filteredResources.ContainerInstances.TryGetValue(key, out var ci)
+                => (CalculateHourlyCost(ci.PricePerHour, HoursPerMonth), ci),
 
             // Database
             ResourceSubCategory.Relational when filteredResources.Databases.TryGetValue(key, out var db)

@@ -29,6 +29,7 @@ public class FilteredResourcesDto
     public Dictionary<(UsageSize UsageSize, CloudProvider CloudProvider), NormalizedComputeInstanceDto> ComputeInstances { get; set; } = new();
     public Dictionary<(UsageSize UsageSize, CloudProvider CloudProvider), NormalizedCloudFunctionDto> CloudFunctions { get; set; } = new();
     public Dictionary<(UsageSize UsageSize, CloudProvider CloudProvider), NormalizedKubernetesDto> Kubernetes { get; set; } = new();
+    public Dictionary<(UsageSize UsageSize, CloudProvider CloudProvider), NormalizedContainerInstanceDto> ContainerInstances { get; set; } = new();
     public Dictionary<(UsageSize UsageSize, CloudProvider CloudProvider), NormalizedDatabaseDto> Databases { get; set; } = new();
     public Dictionary<(UsageSize UsageSize, CloudProvider CloudProvider), NormalizedApiGatewayDto> ApiGateways { get; set; } = new();
     public Dictionary<(UsageSize UsageSize, CloudProvider CloudProvider), NormalizedLoadBalancerDto> LoadBalancers { get; set; } = new();
