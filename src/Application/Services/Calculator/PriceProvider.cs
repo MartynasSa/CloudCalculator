@@ -39,6 +39,14 @@ public class PriceProvider : IPriceProvider
         var apiGatewayBySize = GetApiGateway(categorizedResources.ApiGateways);
         var blobStorageBySize = GetBlobStorage(categorizedResources.BlobStorage);
         var monitoringBySize = GetMonitoring(categorizedResources.Monitoring);
+        var cachingBySize = GetCaching(categorizedResources.Caching);
+        var dataWarehouseBySize = GetDataWarehouse(categorizedResources.DataWarehouses);
+        var messagingBySize = GetMessaging(categorizedResources.Messaging);
+        var queueingBySize = GetQueueing(categorizedResources.Queueing);
+        var cdnBySize = GetCdn(categorizedResources.CDN);
+        var identityManagementBySize = GetIdentityManagement(categorizedResources.IdentityManagement);
+        var webApplicationFirewallBySize = GetWebApplicationFirewall(categorizedResources.WebApplicationFirewall);
+        var containerInstancesBySize = GetContainerInstance(categorizedResources.ContainerInstances);
 
         foreach (UsageSize usageSize in Enum.GetValues<UsageSize>())
         {
@@ -115,6 +123,78 @@ public class PriceProvider : IPriceProvider
                     if (mon != null)
                     {
                         result.Monitoring[key] = mon;
+                    }
+                }
+
+                if (cachingBySize.TryGetValue(usageSize, out var caching))
+                {
+                    var cache = caching.FirstOrDefault(c => c.Cloud == cloudProvider);
+                    if (cache != null)
+                    {
+                        result.Caching[key] = cache;
+                    }
+                }
+
+                if (dataWarehouseBySize.TryGetValue(usageSize, out var dataWarehouses))
+                {
+                    var dw = dataWarehouses.FirstOrDefault(d => d.Cloud == cloudProvider);
+                    if (dw != null)
+                    {
+                        result.DataWarehouses[key] = dw;
+                    }
+                }
+
+                if (messagingBySize.TryGetValue(usageSize, out var messaging))
+                {
+                    var msg = messaging.FirstOrDefault(m => m.Cloud == cloudProvider);
+                    if (msg != null)
+                    {
+                        result.Messaging[key] = msg;
+                    }
+                }
+
+                if (queueingBySize.TryGetValue(usageSize, out var queueing))
+                {
+                    var queue = queueing.FirstOrDefault(q => q.Cloud == cloudProvider);
+                    if (queue != null)
+                    {
+                        result.Queueing[key] = queue;
+                    }
+                }
+
+                if (cdnBySize.TryGetValue(usageSize, out var cdn))
+                {
+                    var cdnItem = cdn.FirstOrDefault(c => c.Cloud == cloudProvider);
+                    if (cdnItem != null)
+                    {
+                        result.CDN[key] = cdnItem;
+                    }
+                }
+
+                if (identityManagementBySize.TryGetValue(usageSize, out var identityManagement))
+                {
+                    var idm = identityManagement.FirstOrDefault(i => i.Cloud == cloudProvider);
+                    if (idm != null)
+                    {
+                        result.IdentityManagement[key] = idm;
+                    }
+                }
+
+                if (webApplicationFirewallBySize.TryGetValue(usageSize, out var waf))
+                {
+                    var firewall = waf.FirstOrDefault(w => w.Cloud == cloudProvider);
+                    if (firewall != null)
+                    {
+                        result.WebApplicationFirewall[key] = firewall;
+                    }
+                }
+
+                if (containerInstancesBySize.TryGetValue(usageSize, out var containerInstances))
+                {
+                    var container = containerInstances.FirstOrDefault(c => c.Cloud == cloudProvider);
+                    if (container != null)
+                    {
+                        result.ContainerInstances[key] = container;
                     }
                 }
             }
@@ -285,27 +365,27 @@ public class PriceProvider : IPriceProvider
         return result;
     }
 
-    public Dictionary<UsageSize, List<NormalizedResourceDto>> GetContainerInstance(
-        List<NormalizedResourceDto> containerInstances)
+    public Dictionary<UsageSize, List<NormalizedContainerInstanceDto>> GetContainerInstance(
+        List<NormalizedContainerInstanceDto> containerInstances)
     {
-        var result = new Dictionary<UsageSize, List<NormalizedResourceDto>>();
+        var result = new Dictionary<UsageSize, List<NormalizedContainerInstanceDto>>();
 
         foreach (UsageSize usageSize in Enum.GetValues<UsageSize>())
         {
-            result[usageSize] = GetGenericResource(containerInstances, ResourceSubCategory.ContainerInstances);
+            result[usageSize] = GetGenericResourceTyped(containerInstances, ResourceSubCategory.ContainerInstances);
         }
 
         return result;
     }
 
-    public Dictionary<UsageSize, List<NormalizedResourceDto>> GetCaching(
-        List<NormalizedResourceDto> caching)
+    public Dictionary<UsageSize, List<NormalizedCachingDto>> GetCaching(
+        List<NormalizedCachingDto> caching)
     {
-        var result = new Dictionary<UsageSize, List<NormalizedResourceDto>>();
+        var result = new Dictionary<UsageSize, List<NormalizedCachingDto>>();
 
         foreach (UsageSize usageSize in Enum.GetValues<UsageSize>())
         {
-            result[usageSize] = GetGenericResource(caching, ResourceSubCategory.Caching);
+            result[usageSize] = GetGenericResourceTyped(caching, ResourceSubCategory.Caching);
         }
 
         return result;
@@ -363,27 +443,27 @@ public class PriceProvider : IPriceProvider
         return result;
     }
 
-    public Dictionary<UsageSize, List<NormalizedResourceDto>> GetCdn(
-        List<NormalizedResourceDto> cdn)
+    public Dictionary<UsageSize, List<NormalizedCdnDto>> GetCdn(
+        List<NormalizedCdnDto> cdn)
     {
-        var result = new Dictionary<UsageSize, List<NormalizedResourceDto>>();
+        var result = new Dictionary<UsageSize, List<NormalizedCdnDto>>();
 
         foreach (UsageSize usageSize in Enum.GetValues<UsageSize>())
         {
-            result[usageSize] = GetGenericResource(cdn, ResourceSubCategory.CDN);
+            result[usageSize] = GetGenericResourceTyped(cdn, ResourceSubCategory.CDN);
         }
 
         return result;
     }
 
-    public Dictionary<UsageSize, List<NormalizedResourceDto>> GetDataWarehouse(
-        List<NormalizedResourceDto> dataWarehouses)
+    public Dictionary<UsageSize, List<NormalizedDataWarehouseDto>> GetDataWarehouse(
+        List<NormalizedDataWarehouseDto> dataWarehouses)
     {
-        var result = new Dictionary<UsageSize, List<NormalizedResourceDto>>();
+        var result = new Dictionary<UsageSize, List<NormalizedDataWarehouseDto>>();
 
         foreach (UsageSize usageSize in Enum.GetValues<UsageSize>())
         {
-            result[usageSize] = GetGenericResource(dataWarehouses, ResourceSubCategory.DataWarehouse);
+            result[usageSize] = GetGenericResourceTyped(dataWarehouses, ResourceSubCategory.DataWarehouse);
         }
 
         return result;
@@ -415,27 +495,27 @@ public class PriceProvider : IPriceProvider
         return result;
     }
 
-    public Dictionary<UsageSize, List<NormalizedResourceDto>> GetQueueing(
-        List<NormalizedResourceDto> queueing)
+    public Dictionary<UsageSize, List<NormalizedMessagingDto>> GetMessaging(
+        List<NormalizedMessagingDto> messaging)
     {
-        var result = new Dictionary<UsageSize, List<NormalizedResourceDto>>();
+        var result = new Dictionary<UsageSize, List<NormalizedMessagingDto>>();
 
         foreach (UsageSize usageSize in Enum.GetValues<UsageSize>())
         {
-            result[usageSize] = GetGenericResource(queueing, ResourceSubCategory.Queueing);
+            result[usageSize] = GetGenericResourceTyped(messaging, ResourceSubCategory.Messaging);
         }
 
         return result;
     }
 
-    public Dictionary<UsageSize, List<NormalizedResourceDto>> GetMessaging(
-        List<NormalizedResourceDto> messaging)
+    public Dictionary<UsageSize, List<NormalizedQueuingDto>> GetQueueing(
+        List<NormalizedQueuingDto> queueing)
     {
-        var result = new Dictionary<UsageSize, List<NormalizedResourceDto>>();
+        var result = new Dictionary<UsageSize, List<NormalizedQueuingDto>>();
 
         foreach (UsageSize usageSize in Enum.GetValues<UsageSize>())
         {
-            result[usageSize] = GetGenericResource(messaging, ResourceSubCategory.Messaging);
+            result[usageSize] = GetGenericResourceTyped(queueing, ResourceSubCategory.Queueing);
         }
 
         return result;
@@ -462,6 +542,32 @@ public class PriceProvider : IPriceProvider
         foreach (UsageSize usageSize in Enum.GetValues<UsageSize>())
         {
             result[usageSize] = GetGenericResource(compliance, ResourceSubCategory.Compliance);
+        }
+
+        return result;
+    }
+
+    public Dictionary<UsageSize, List<NormalizedIdentityManagementDto>> GetIdentityManagement(
+        List<NormalizedIdentityManagementDto> identityManagement)
+    {
+        var result = new Dictionary<UsageSize, List<NormalizedIdentityManagementDto>>();
+
+        foreach (UsageSize usageSize in Enum.GetValues<UsageSize>())
+        {
+            result[usageSize] = GetGenericResourceTyped(identityManagement, ResourceSubCategory.IdentityManagement);
+        }
+
+        return result;
+    }
+
+    public Dictionary<UsageSize, List<NormalizedWebApplicationFirewallDto>> GetWebApplicationFirewall(
+        List<NormalizedWebApplicationFirewallDto> webApplicationFirewall)
+    {
+        var result = new Dictionary<UsageSize, List<NormalizedWebApplicationFirewallDto>>();
+
+        foreach (UsageSize usageSize in Enum.GetValues<UsageSize>())
+        {
+            result[usageSize] = GetGenericResourceTyped(webApplicationFirewall, ResourceSubCategory.WebApplicationFirewall);
         }
 
         return result;
@@ -590,6 +696,33 @@ public class PriceProvider : IPriceProvider
             .GroupBy(r => r.Cloud)
             .Select(g => g.OrderBy(r => r.PricePerHour ?? decimal.MaxValue).First())
             .ToList();
+    }
+
+    private static List<T> GetGenericResourceTyped<T>(
+        IEnumerable<T> resources,
+        ResourceSubCategory subCategory) where T : NormalizedResource
+    {
+        return resources
+            .Where(r => r.SubCategory == subCategory)
+            .GroupBy(r => r.Cloud)
+            .Select(g => g.OrderBy(r => GetResourcePrice(r)).First())
+            .ToList();
+    }
+
+    private static decimal GetResourcePrice<T>(T resource) where T : NormalizedResource
+    {
+        return resource switch
+        {
+            NormalizedContainerInstanceDto ci => ci.PricePerHour ?? decimal.MaxValue,
+            NormalizedCachingDto cache => cache.PricePerHour ?? decimal.MaxValue,
+            NormalizedDataWarehouseDto dw => dw.PricePerHour ?? decimal.MaxValue,
+            NormalizedMessagingDto msg => msg.PricePerMonth ?? decimal.MaxValue,
+            NormalizedQueuingDto queue => queue.PricePerMonth ?? decimal.MaxValue,
+            NormalizedCdnDto cdn => cdn.PricePerGbOut ?? cdn.PricePerRequest ?? decimal.MaxValue,
+            NormalizedIdentityManagementDto idm => idm.PricePerUser ?? idm.PricePerRequest ?? idm.PricePerAuthentication ?? decimal.MaxValue,
+            NormalizedWebApplicationFirewallDto waf => waf.PricePerHour ?? waf.PricePerGb ?? waf.PricePerRule ?? decimal.MaxValue,
+            _ => decimal.MaxValue
+        };
     }
 
     private static List<NormalizedBlobStorageDto> GetBlobLikeResource(

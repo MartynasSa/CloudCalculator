@@ -32,6 +32,7 @@
       ],
       Storages: null,
       Networks: [
+        LoadBalancer,
         CDN
       ],
       Analytics: null,
@@ -73,6 +74,7 @@
         ObjectStorage
       ],
       Networks: [
+        LoadBalancer,
         CDN
       ],
       Analytics: null,
@@ -116,6 +118,7 @@
         VirtualMachines
       ],
       Databases: [
+        Relational,
         NoSQL
       ],
       Storages: [
@@ -164,11 +167,15 @@
       Computes: [
         VirtualMachines
       ],
-      Databases: null,
+      Databases: [
+        Relational
+      ],
       Storages: [
         ObjectStorage
       ],
-      Networks: null,
+      Networks: [
+        LoadBalancer
+      ],
       Analytics: [
         DataWarehouse,
         Streaming
@@ -218,7 +225,9 @@
       Storages: [
         ObjectStorage
       ],
-      Networks: null,
+      Networks: [
+        LoadBalancer
+      ],
       Analytics: null,
       Management: [
         Queueing,

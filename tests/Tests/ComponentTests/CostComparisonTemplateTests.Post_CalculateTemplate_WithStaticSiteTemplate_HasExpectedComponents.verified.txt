@@ -7,6 +7,7 @@
       ObjectStorage
     ],
     Networks: [
+      LoadBalancer,
       CDN
     ],
     Analytics: null,
@@ -19,12 +20,17 @@
   CloudCosts: [
     {
       CloudProvider: aws,
-      TotalMonthlyPrice: 15.0,
+      TotalMonthlyPrice: 20.840,
       CostDetails: [
         {
           Cost: 0.0,
           ResourceSubCategory: ObjectStorage,
-          ResourceDetails: null
+          ResourceDetails: {"Name":"AmazonS3","Region":"us-east-1","StorageClass":null,"PricePerGbMonth":null,"PricePerRequest":0.0000004,"Cloud":"aws","Category":"Storage","SubCategory":"BlobStorage"}
+        },
+        {
+          Cost: 5.840,
+          ResourceSubCategory: LoadBalancer,
+          ResourceDetails: {"Name":"ELB:Balancing","PricePerMonth":5.840,"Cloud":"aws","Category":"Networking","SubCategory":"LoadBalancer"}
         },
         {
           Cost: 0.0,
@@ -49,6 +55,11 @@
         },
         {
           Cost: 0.0,
+          ResourceSubCategory: LoadBalancer,
+          ResourceDetails: {"Name":"Load Balancer","PricePerMonth":0.0,"Cloud":"azure","Category":"Networking","SubCategory":"LoadBalancer"}
+        },
+        {
+          Cost: 0.0,
           ResourceSubCategory: CDN,
           ResourceDetails: null
         },
@@ -61,12 +72,17 @@
     },
     {
       CloudProvider: gcp,
-      TotalMonthlyPrice: 15.0,
+      TotalMonthlyPrice: 20.840,
       CostDetails: [
         {
           Cost: 0.0,
           ResourceSubCategory: ObjectStorage,
-          ResourceDetails: null
+          ResourceDetails: {"Name":"Cloud Storage","Region":"us-east1","StorageClass":null,"PricePerGbMonth":null,"PricePerRequest":null,"Cloud":"gcp","Category":"Storage","SubCategory":"BlobStorage"}
+        },
+        {
+          Cost: 5.840,
+          ResourceSubCategory: LoadBalancer,
+          ResourceDetails: {"Name":"Compute Engine","PricePerMonth":5.840,"Cloud":"gcp","Category":"Networking","SubCategory":"LoadBalancer"}
         },
         {
           Cost: 0.0,

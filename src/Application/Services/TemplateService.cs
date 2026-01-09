@@ -83,6 +83,7 @@ public class TemplateService : ITemplateService
         [
             ResourceSubCategory.VirtualMachines,
             ResourceSubCategory.Relational,
+            ResourceSubCategory.LoadBalancer,
             ResourceSubCategory.CDN,
             ResourceSubCategory.Monitoring,
         ],
@@ -194,6 +195,7 @@ public class TemplateService : ITemplateService
         [(TemplateType.StaticSite, UsageSize.Small)] =
         [
             ResourceSubCategory.ObjectStorage,
+            ResourceSubCategory.LoadBalancer,
             ResourceSubCategory.CDN,
             ResourceSubCategory.Monitoring
         ],
@@ -308,6 +310,7 @@ public class TemplateService : ITemplateService
         [(TemplateType.MobileAppBackend, UsageSize.Small)] =
         [
             ResourceSubCategory.VirtualMachines,
+            ResourceSubCategory.Relational,
             ResourceSubCategory.NoSQL,
             ResourceSubCategory.ObjectStorage,
             ResourceSubCategory.LoadBalancer,
@@ -441,7 +444,9 @@ public class TemplateService : ITemplateService
         [(TemplateType.DataAnalytics, UsageSize.Small)] =
         [
             ResourceSubCategory.VirtualMachines,
+            ResourceSubCategory.Relational,
             ResourceSubCategory.ObjectStorage,
+            ResourceSubCategory.LoadBalancer,
             ResourceSubCategory.DataWarehouse,
             ResourceSubCategory.Streaming,
             ResourceSubCategory.Secrets,
@@ -576,6 +581,7 @@ public class TemplateService : ITemplateService
             ResourceSubCategory.CloudFunctions,
             ResourceSubCategory.NoSQL,
             ResourceSubCategory.ObjectStorage,
+            ResourceSubCategory.LoadBalancer,
             ResourceSubCategory.Queueing,
             ResourceSubCategory.Messaging,
             ResourceSubCategory.Secrets,

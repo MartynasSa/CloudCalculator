@@ -16,12 +16,12 @@
     CloudCosts: [
       {
         CloudProvider: aws,
-        TotalMonthlyPrice: 0.0,
+        TotalMonthlyPrice: 0.00079104000000,
         CostDetails: [
           {
-            Cost: 0.0,
+            Cost: 0.00079104000000,
             ResourceSubCategory: CloudFunctions,
-            ResourceDetails: null
+            ResourceDetails: {"FunctionName":"AWS-Lambda-Storage-Duration","Region":"us-east-1","PricePerRequest":null,"PricePerGbSecond":0.0000000309,"Cloud":"aws","Category":"Compute","SubCategory":"CloudFunctions"}
           }
         ]
       },
@@ -66,12 +66,12 @@
     CloudCosts: [
       {
         CloudProvider: aws,
-        TotalMonthlyPrice: 0.0,
+        TotalMonthlyPrice: 0.03955200000000,
         CostDetails: [
           {
-            Cost: 0.0,
+            Cost: 0.03955200000000,
             ResourceSubCategory: CloudFunctions,
-            ResourceDetails: null
+            ResourceDetails: {"FunctionName":"AWS-Lambda-Storage-Duration","Region":"us-east-1","PricePerRequest":null,"PricePerGbSecond":0.0000000309,"Cloud":"aws","Category":"Compute","SubCategory":"CloudFunctions"}
           }
         ]
       },
