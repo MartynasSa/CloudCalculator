@@ -26,7 +26,7 @@
   CloudCosts: [
     {
       CloudProvider: aws,
-      TotalMonthlyPrice: 371.200,
+      TotalMonthlyPrice: 385.80008030,
       CostDetails: [
         {
           Cost: 93.440,
@@ -49,19 +49,19 @@
           ResourceDetails: {"Name":"ELB:Balancing","PricePerMonth":5.840,"Cloud":"aws","Category":"Networking","SubCategory":"LoadBalancer"}
         },
         {
-          Cost: 0.0,
+          Cost: 14.60,
           ResourceSubCategory: ApiGateway,
-          ResourceDetails: null
+          ResourceDetails: {"Name":"AmazonApiGateway","Region":"us-east-1","PricePerRequest":null,"PricePerMonth":14.60,"Cloud":"aws","Category":"Networking","SubCategory":"ApiGateway"}
         },
         {
-          Cost: 0.0,
+          Cost: 0.0000730,
           ResourceSubCategory: Queueing,
-          ResourceDetails: null
+          ResourceDetails: {"QueuingService":"Amazon Simple Queue Service","Region":"us-east-1","OperationType":"SQS-APIRequest-Tier1","QueueType":"Fair","PricePerMonth":0.0000730,"Cloud":"aws","Category":"Management","SubCategory":"Queueing"}
         },
         {
-          Cost: 0.0,
+          Cost: 0.00000730,
           ResourceSubCategory: Messaging,
-          ResourceDetails: null
+          ResourceDetails: {"MessagingService":"Amazon Simple Notification Service","Region":"us-east-1","MessageType":"SNS-FIFO-Subscription-Messages","PricePerMonth":0.00000730,"Cloud":"aws","Category":"Management","SubCategory":"Messaging"}
         },
         {
           Cost: 0.0,
@@ -107,12 +107,12 @@
         {
           Cost: 0.0,
           ResourceSubCategory: Queueing,
-          ResourceDetails: null
+          ResourceDetails: {"QueuingService":"Event Grid","Region":"eastus","OperationType":"Standard Event Operations","QueueType":null,"PricePerMonth":0,"Cloud":"azure","Category":"Management","SubCategory":"Queueing"}
         },
         {
           Cost: 0.0,
           ResourceSubCategory: Messaging,
-          ResourceDetails: null
+          ResourceDetails: {"MessagingService":"Service Bus","Region":"eastus","MessageType":"Standard Base Unit - Free","PricePerMonth":0,"Cloud":"azure","Category":"Management","SubCategory":"Messaging"}
         },
         {
           Cost: 0.0,
@@ -128,7 +128,7 @@
     },
     {
       CloudProvider: gcp,
-      TotalMonthlyPrice: 326.64080,
+      TotalMonthlyPrice: 334.21080,
       CostDetails: [
         {
           Cost: 73.55480,
@@ -151,9 +151,9 @@
           ResourceDetails: {"Name":"Compute Engine","PricePerMonth":5.840,"Cloud":"gcp","Category":"Networking","SubCategory":"LoadBalancer"}
         },
         {
-          Cost: 0.0,
+          Cost: 7.30,
           ResourceSubCategory: ApiGateway,
-          ResourceDetails: null
+          ResourceDetails: {"Name":"API Gateway","Region":"us-east1","PricePerRequest":null,"PricePerMonth":7.30,"Cloud":"gcp","Category":"Networking","SubCategory":"ApiGateway"}
         },
         {
           Cost: 0.0,
@@ -161,9 +161,9 @@
           ResourceDetails: null
         },
         {
-          Cost: 0.0,
+          Cost: 0.27,
           ResourceSubCategory: Messaging,
-          ResourceDetails: null
+          ResourceDetails: {"MessagingService":"Cloud Pub/Sub","Region":"global","MessageType":"Subscriptions retained acknowledged messages","PricePerMonth":0.27,"Cloud":"gcp","Category":"Management","SubCategory":"Messaging"}
         },
         {
           Cost: 0.0,
